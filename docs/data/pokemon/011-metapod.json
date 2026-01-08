@@ -1,0 +1,110 @@
+{
+  "dex": 11,
+  "slug": "metapod",
+
+  "names": {
+    "en": "Metapod",
+    "ja": "トランセル",
+    "fr": "Chrysacier",
+    "de": "Safcon",
+    "es": "Metapod"
+  },
+
+  "types": ["bug"],
+
+  "evolution": {
+    "family": ["caterpie", "metapod", "butterfree"],
+    "stage": 2,
+    "evolvesFrom": "caterpie",
+    "evolvesTo": "butterfree"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Can be encountered wild at a low rate."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Caterpie at level 7."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Can be encountered wild at a low rate."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Caterpie at level 7."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Can be encountered wild at a low rate."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Caterpie at level 7."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Available only during morning and daytime at a low rate."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Caterpie at level 7."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Caterpie at level 7."
+        },
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "conditions": ["bug-catching-contest"],
+          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Caterpie at level 7."
+        }
+      ]
+    }
+  }
+}
