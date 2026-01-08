@@ -1,0 +1,55 @@
+{
+  "dex": 56,
+  "slug": "mankey",
+
+  "names": {
+    "en": "Mankey",
+    "ja": "マンキー",
+    "fr": "Férosinge",
+    "de": "Menki",
+    "es": "Mankey"
+  },
+
+  "types": ["fighting"],
+
+  "evolution": {
+    "family": ["mankey", "primeape"],
+    "stage": 1,
+    "evolvesTo": "primeape"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 5", "Route 6"],
+          "notes": "Version-exclusive Pokémon."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 22"],
+          "notes": "Early-route Pokémon in Pokémon Yellow."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 42"],
+          "notes": "Exclusive to Pokémon Gold."
+        }
+      ]
+    }
+  }
+}
