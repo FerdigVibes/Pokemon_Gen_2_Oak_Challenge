@@ -1,0 +1,53 @@
+{
+  "dex": 7,
+  "slug": "squirtle",
+
+  "names": {
+    "en": "Squirtle",
+    "ja": "ゼニガメ",
+    "fr": "Carapuce",
+    "de": "Schiggy",
+    "es": "Squirtle"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["squirtle", "wartortle", "blastoise"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "starter",
+          "notes": "Choose me to begin your journey!"
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "starter",
+          "notes": "Choose me to begin your journey!"
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "location": "Vermilion City",
+          "notes": "Given by Officer Jenny after defeating Lt. Surge."
+        }
+      ]
+    }
+  }
+}
+
