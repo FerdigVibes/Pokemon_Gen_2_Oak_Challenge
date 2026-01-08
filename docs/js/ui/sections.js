@@ -1,6 +1,8 @@
 // docs/js/ui/sections.js
 // Sole renderer for Section 2 (Pokédex list)
 
+import { renderPokemonDetail } from './detail.js';
+
 export function renderSections({ game, pokemon }) {
   const container = document.getElementById('section-list');
   container.innerHTML = '';
