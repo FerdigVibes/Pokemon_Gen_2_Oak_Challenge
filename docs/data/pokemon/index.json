@@ -1,0 +1,43 @@
+[
+  "001-bulbasaur.json",
+  "002-ivysaur.json",
+  "003-venusaur.json",
+
+  "004-charmander.json",
+  "005-charmeleon.json",
+  "006-charizard.json",
+
+  "007-squirtle.json",
+  "008-wartortle.json",
+  "009-blastoise.json",
+
+  "010-caterpie.json",
+  "011-metapod.json",
+  "012-butterfree.json",
+
+  "013-weedle.json",
+  "014-kakuna.json",
+  "015-beedrill.json",
+
+  "016-pidgey.json",
+  "017-pidgeotto.json",
+  "018-pidgeot.json",
+
+  "019-rattata.json",
+  "020-raticate.json",
+
+  "021-spearow.json",
+  "022-fearow.json",
+
+  "025-pikachu.json",
+
+  "029-nidoranf.json",
+  "030-nidorina.json",
+  "032-nidoranm.json",
+  "033-nidorino.json",
+
+  "035-clefairy.json",
+
+  "056-mankey.json",
+  "057-primeape.json"
+]
