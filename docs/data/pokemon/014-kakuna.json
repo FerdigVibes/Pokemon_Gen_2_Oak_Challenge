@@ -1,0 +1,101 @@
+{
+  "dex": 14,
+  "slug": "kakuna",
+
+  "names": {
+    "en": "Kakuna",
+    "ja": "コクーン",
+    "fr": "Coconfort",
+    "de": "Kokuna",
+    "es": "Kakuna"
+  },
+
+  "types": ["bug", "poison"],
+
+  "evolution": {
+    "family": ["weedle", "kakuna", "beedrill"],
+    "stage": 2,
+    "evolvesFrom": "weedle",
+    "evolvesTo": "beedrill"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Can be encountered wild at a low rate."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Weedle at level 7."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Can be encountered wild at a low rate."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Weedle at level 7."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "conditions": ["bug-catching-contest"],
+          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Weedle at level 7."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Weedle at level 7."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Weedle at level 7."
+        }
+      ]
+    }
+  }
+}
