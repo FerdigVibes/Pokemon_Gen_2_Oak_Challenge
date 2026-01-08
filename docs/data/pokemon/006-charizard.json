@@ -1,0 +1,52 @@
+{
+  "dex": 6,
+  "slug": "charizard",
+
+  "names": {
+    "en": "Charizard",
+    "ja": "リザードン",
+    "fr": "Dracaufeu",
+    "de": "Glurak",
+    "es": "Charizard"
+  },
+
+  "types": ["fire", "flying"],
+
+  "evolution": {
+    "family": ["charmander", "charmeleon", "charizard"],
+    "stage": 3,
+    "evolvesFrom": "charmeleon"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Charmeleon at level 36."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Charmeleon at level 36."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Charmeleon at level 36."
+        }
+      ]
+    }
+  }
+}
