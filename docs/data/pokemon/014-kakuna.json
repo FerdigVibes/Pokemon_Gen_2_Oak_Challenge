@@ -86,12 +86,6 @@
       "sections": ["VIOLET_POKEMON"],
       "obtain": [
         {
-          "method": "wild",
-          "locations": ["Route 30", "Route 31"],
-          "time": ["morning", "day"],
-          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
-        },
-        {
           "method": "evolution",
           "notes": "Evolves from Weedle at level 7."
         }
