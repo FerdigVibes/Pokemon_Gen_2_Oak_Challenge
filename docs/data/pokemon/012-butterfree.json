@@ -1,0 +1,88 @@
+{
+  "dex": 12,
+  "slug": "butterfree",
+
+  "names": {
+    "en": "Butterfree",
+    "ja": "バタフリー",
+    "fr": "Papilusion",
+    "de": "Smettbo",
+    "es": "Butterfree"
+  },
+
+  "types": ["bug", "flying"],
+
+  "evolution": {
+    "family": ["caterpie", "metapod", "butterfree"],
+    "stage": 3,
+    "evolvesFrom": "metapod"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Metapod at level 10."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Metapod at level 10."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Metapod at level 10."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Metapod at level 10."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "conditions": ["bug-catching-contest"],
+          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Metapod at level 10."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Metapod at level 10."
+        }
+      ]
+    }
+  }
+}
