@@ -1,0 +1,82 @@
+{
+  "dex": 22,
+  "slug": "fearow",
+
+  "names": {
+    "en": "Fearow",
+    "ja": "オニドリル",
+    "fr": "Rapasdepic",
+    "de": "Ibitak",
+    "es": "Fearow"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["spearow", "fearow"],
+    "stage": 2,
+    "evolvesFrom": "spearow"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Spearow at level 20."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Spearow at level 20."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Spearow at level 20."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Spearow at level 20."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Spearow at level 20."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Spearow at level 20."
+        }
+      ]
+    }
+  }
+}
