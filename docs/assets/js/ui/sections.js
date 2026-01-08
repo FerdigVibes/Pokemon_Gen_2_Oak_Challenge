@@ -4,10 +4,9 @@ export function renderSections({ game, pokemon }) {
   const container = document.getElementById('section-list');
   container.innerHTML = '';
 
-  const sections = game.sections;
-
-  sections.forEach(section => {
-    if (!section.children) return; // skip parents for now
+  game.sections.forEach(section => {
+    // ✅ Only render sections that can contain Pokémon
+    if (!section.requiredCount) return;
 
     const header = document.createElement('h2');
     header.textContent = section.title;
