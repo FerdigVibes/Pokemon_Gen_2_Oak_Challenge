@@ -1,0 +1,83 @@
+{
+  "dex": 33,
+  "slug": "nidorino",
+
+  "names": {
+    "en": "Nidorino",
+    "ja": "ニドリーノ",
+    "fr": "Nidorino",
+    "de": "Nidorino",
+    "es": "Nidorino"
+  },
+
+  "types": ["poison"],
+
+  "evolution": {
+    "family": ["nidoranm", "nidorino", "nidoking"],
+    "stage": 2,
+    "evolvesFrom": "nidoranm",
+    "evolvesTo": "nidoking"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Nidoran♂ at level 16."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Nidoran♂ at level 16."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Nidoran♂ at level 16."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Nidoran♂ at level 16."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Nidoran♂ at level 16."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Nidoran♂ at level 16."
+        }
+      ]
+    }
+  }
+}
