@@ -1,7 +1,11 @@
-import { loadState } from "./storage.js";
-import { renderApp } from "./render.js";
+import { loadGameData } from './data/loader.js';
+import { renderSections } from './ui/sections.js';
 
-document.addEventListener("DOMContentLoaded", () => {
-  loadState();
-  renderApp();
-});
+const GAME_ID = 'red'; // hardcoded for now
+
+async function init() {
+  const gameData = await loadGameData(GAME_ID);
+  renderSections(gameData);
+}
+
+init();
