@@ -1,0 +1,53 @@
+{
+  "dex": 8,
+  "slug": "wartortle",
+
+  "names": {
+    "en": "Wartortle",
+    "ja": "カメール",
+    "fr": "Carabaffe",
+    "de": "Schillok",
+    "es": "Wartortle"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["squirtle", "wartortle", "blastoise"],
+    "stage": 2,
+    "evolvesFrom": "squirtle",
+    "evolvesTo": "blastoise"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Squirtle at level 16."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Squirtle at level 16."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Squirtle at level 16."
+        }
+      ]
+    }
+  }
+}
