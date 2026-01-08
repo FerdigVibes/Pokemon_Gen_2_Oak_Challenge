@@ -38,8 +38,12 @@ export function renderSections({ game, pokemon }) {
     matches.forEach(p => {
       const row = document.createElement('div');
       row.className = 'pokemon-row';
-      row.dataset.dex = p.dex;
       row.textContent = `${p.dex} – ${p.names.en}`;
+      
+      row.addEventListener('click', () => {
+        renderPokemonDetail(p);
+      });
+      
       container.appendChild(row);
     });
   });
