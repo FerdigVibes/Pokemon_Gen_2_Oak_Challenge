@@ -1,0 +1,88 @@
+{
+  "dex": 15,
+  "slug": "beedrill",
+
+  "names": {
+    "en": "Beedrill",
+    "ja": "スピアー",
+    "fr": "Dardargnan",
+    "de": "Bibor",
+    "es": "Beedrill"
+  },
+
+  "types": ["bug", "poison"],
+
+  "evolution": {
+    "family": ["weedle", "kakuna", "beedrill"],
+    "stage": 3,
+    "evolvesFrom": "kakuna"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Rare wild encounter."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Kakuna at level 10."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Viridian Forest"],
+          "notes": "Rare wild encounter."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Kakuna at level 10."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "conditions": ["bug-catching-contest"],
+          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+        },
+        {
+          "method": "evolution",
+          "notes": "Evolves from Kakuna at level 10."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Kakuna at level 10."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Kakuna at level 10."
+        }
+      ]
+    }
+  }
+}
