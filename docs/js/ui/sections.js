@@ -38,7 +38,19 @@ export function renderSections({ game, pokemon }) {
     matches.forEach(p => {
       const row = document.createElement('div');
       row.className = 'pokemon-row';
-      row.textContent = `${p.dex} – ${p.names.en}`;
+      
+      const dex = String(p.dex).padStart(3, '0');
+      
+      const icon = document.createElement('img');
+      icon.src = `./assets/icons/pokemon/${dex}-${p.slug}-icon.png`;
+      icon.alt = p.names.en;
+      icon.className = 'pokemon-icon';
+      
+      const label = document.createElement('span');
+      label.textContent = `${dex} – ${p.names.en}`;
+      
+      row.appendChild(icon);
+      row.appendChild(label);
       
       row.addEventListener('click', () => {
         renderPokemonDetail(p, game);
