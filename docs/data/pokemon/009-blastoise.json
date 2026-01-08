@@ -1,0 +1,52 @@
+{
+  "dex": 9,
+  "slug": "blastoise",
+
+  "names": {
+    "en": "Blastoise",
+    "ja": "カメックス",
+    "fr": "Tortank",
+    "de": "Turtok",
+    "es": "Blastoise"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["squirtle", "wartortle", "blastoise"],
+    "stage": 3,
+    "evolvesFrom": "wartortle"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Wartortle at level 36."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Wartortle at level 36."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": "Evolves from Wartortle at level 36."
+        }
+      ]
+    }
+  }
+}
