@@ -1,0 +1,91 @@
+{
+  "dex": 21,
+  "slug": "spearow",
+
+  "names": {
+    "en": "Spearow",
+    "ja": "オニスズメ",
+    "fr": "Piafabec",
+    "de": "Habitak",
+    "es": "Spearow"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["spearow", "fearow"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 22"],
+          "notes": "Common early-route Pokémon."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 22"],
+          "notes": "Common early-route Pokémon."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 22"],
+          "notes": "Common early-route Pokémon."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 46"],
+          "time": ["morning", "day"],
+          "notes": "Appears in the morning and day."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 46"],
+          "time": ["morning", "day"],
+          "notes": "Appears in the morning and day."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 46"],
+          "time": ["morning", "day"],
+          "notes": "Appears in the morning and day."
+        }
+      ]
+    }
+  }
+}
+
