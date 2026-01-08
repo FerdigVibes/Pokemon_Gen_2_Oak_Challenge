@@ -1,0 +1,94 @@
+{
+  "dex": 35,
+  "slug": "clefairy",
+
+  "names": {
+    "en": "Clefairy",
+    "ja": "ピッピ",
+    "fr": "Mélofée",
+    "de": "Piepi",
+    "es": "Clefairy"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["cleffa", "clefairy", "clefable"],
+    "stage": 2,
+    "evolvesTo": "clefable"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": "Rare encounter inside Mt. Moon.Catch before leaving Mt. Moon!"
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": "Rare encounter inside Mt. Moon.Catch before leaving Mt. Moon!"
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": "Rare encounter inside Mt. Moon.Catch before leaving Mt. Moon!"
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": "They have a 2% chance of holding a Moon Stone!"
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": "They have a 2% chance of holding a Moon Stone!"
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": "They have a 2% chance of holding a Moon Stone!"
+        },
+        {
+          "method": "wild",
+          "locations": ["Route 3", "Route 4"],
+          "time": ["night"],
+          "notes": "Very rare nighttime encounter."
+        }
+      ]
+    }
+  }
+}
