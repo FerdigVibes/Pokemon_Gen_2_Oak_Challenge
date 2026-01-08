@@ -1,0 +1,90 @@
+{
+  "dex": 10,
+  "slug": "caterpie",
+
+  "names": {
+    "en": "Caterpie",
+    "ja": "キャタピー",
+    "fr": "Chenipan",
+    "de": "Raupy",
+    "es": "Caterpie"
+  },
+
+  "types": ["bug"],
+
+  "evolution": {
+    "family": ["caterpie", "metapod", "butterfree"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 2", "Viridian Forest"],
+          "notes": "Common early-route Pokémon."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 2", "Viridian Forest"],
+          "notes": "Common early-route Pokémon."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 2", "Viridian Forest"],
+          "notes": "Common early-route Pokémon."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Common early Johto Pokémon."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Breed Metapod/Butterfree", "Bug Catching Contest"],
+          "time": ["morning", "day", "night"],
+          "notes": "Bug Catching Contest is held every Tuesday, Thursday, and Saturday in the National Park north of Goldenrod City"
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Common early Johto Pokémon."
+        }
+      ]
+    }
+  }
+}
