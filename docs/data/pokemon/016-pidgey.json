@@ -1,0 +1,90 @@
+{
+  "dex": 16,
+  "slug": "pidgey",
+
+  "names": {
+    "en": "Pidgey",
+    "ja": "ポッポ",
+    "fr": "Roucool",
+    "de": "Taubsi",
+    "es": "Pidgey"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["pidgey", "pidgeotto", "pidgeot"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 1", "Route 2"],
+          "notes": "Very common early-route Pokémon."
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 1", "Route 2"],
+          "notes": "Very common early-route Pokémon."
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["PEWTER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 1", "Route 2"],
+          "notes": "Very common early-route Pokémon."
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Appears during morning and daytime."
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": "Appears during morning and daytime."
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31", "Route 36"],
+          "time": ["morning", "day"],
+          "notes": "Appears during morning and daytime."
+        }
+      ]
+    }
+  }
+}
