@@ -24,3 +24,23 @@ export function playPokemonCry(pokemon) {
     console.warn('Cry playback blocked:', err);
   });
 }
+
+import { isMuted } from '../state/audio.js';
+
+let currentAudio = null;
+
+export function playPokemonCry(pokemon) {
+  if (isMuted()) return;
+
+  const dex = String(pokemon.dex).padStart(3, '0');
+  const src = `./assets/cries/${dex}-${pokemon.slug}.ogg`;
+
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+  }
+
+  const audio = new Audio(src);
+  currentAudio = audio;
+  audio.play();
+}
