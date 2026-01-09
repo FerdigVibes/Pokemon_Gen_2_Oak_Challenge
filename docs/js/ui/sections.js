@@ -221,19 +221,16 @@ export function renderSections({ game, pokemon }) {
      );
    
      row.addEventListener('click', () => {
-        // Clear previous active row
         document
           .querySelectorAll('.pokemon-row.is-active')
           .forEach(r => r.classList.remove('is-active'));
       
-        // Mark this row active (for icon bounce)
         row.classList.add('is-active');
       
-        // Render Section 3
         renderPokemonDetail(p, game);
-      
-        // 🔊 Play cry on hard click
         playPokemonCry(p);
+      
+        document.getElementById('app')?.classList.add('has-detail');
       });
    
      if (caught) row.classList.add('is-caught');
