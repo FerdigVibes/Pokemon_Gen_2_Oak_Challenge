@@ -75,13 +75,17 @@ export function renderSections({ game, pokemon }) {
         e.stopPropagation();
       
         const newState = toggleCaught(game.id, p.dex);
-      
+
         ball.style.backgroundImage = `url(./assets/icons/${
           newState ? 'pokeball-full.png' : 'pokeball-empty.png'
         })`;
-      
+        
         row.classList.toggle('is-caught', newState);
-        playPokemonCry(p);
+        
+        // 🔊 Only play cry when marking as caught
+        if (newState) {
+          playPokemonCry(p);
+        }
       
         // 🔔 STEP 1 (event dispatch)
         window.dispatchEvent(new CustomEvent('caught-changed', {
