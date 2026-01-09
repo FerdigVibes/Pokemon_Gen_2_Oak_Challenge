@@ -72,8 +72,3 @@ body {
 .pokemon-row:hover .pokemon-icon {
   animation-duration: 1.2s;
 }
-
-h2.collapsed::after {
-  content: " ✓";
-  opacity: 0.6;
-}
