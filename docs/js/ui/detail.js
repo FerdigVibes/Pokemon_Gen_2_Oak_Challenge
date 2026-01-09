@@ -60,14 +60,23 @@ export function renderPokemonDetail(pokemon, game) {
   const ball = panel.querySelector('#detail-caught');
   if (ball) {
     ball.addEventListener('click', () => {
-      const newState = toggleCaught(game.id, pokemon.dex);
-
-      ball.style.backgroundImage = `url(./assets/icons/${
-        newState ? 'pokeball-full.png' : 'pokeball-empty.png'
-      })`;
-
-      playPokemonCry(pokemon);
-    });
+     const newState = toggleCaught(game.id, pokemon.dex);
+   
+     ball.style.backgroundImage = `url(./assets/icons/${
+       newState ? 'pokeball-full.png' : 'pokeball-empty.png'
+     })`;
+   
+     playPokemonCry(pokemon);
+   
+     // 🔔 STEP 1 (event dispatch)
+     window.dispatchEvent(new CustomEvent('caught-changed', {
+       detail: {
+         gameId: game.id,
+         dex: pokemon.dex,
+         caught: newState
+       }
+     }));
+   });
   }
 }
 
