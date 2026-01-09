@@ -221,16 +221,26 @@ export function renderSections({ game, pokemon }) {
      );
    
      row.addEventListener('click', () => {
+        const app = document.getElementById('app');
+        const isAlreadyActive = row.classList.contains('is-active');
+      
+        // Clear previous active row
         document
           .querySelectorAll('.pokemon-row.is-active')
           .forEach(r => r.classList.remove('is-active'));
       
-        row.classList.add('is-active');
+        if (isAlreadyActive) {
+          // 🔽 Re-clicking the same Pokémon → close detail panel
+          app?.classList.remove('has-detail');
+          return;
+        }
       
+        // 🔼 New selection → activate + open detail
+        row.classList.add('is-active');
         renderPokemonDetail(p, game);
         playPokemonCry(p);
       
-        document.getElementById('app')?.classList.add('has-detail');
+        app?.classList.add('has-detail');
       });
    
      if (caught) row.classList.add('is-caught');
