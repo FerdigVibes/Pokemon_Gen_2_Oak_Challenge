@@ -8,9 +8,72 @@
 <body>
 
   <header id="top-bar">
-    <!-- Section 1 -->
-    <div id="progress">Loading…</div>
+
+    <!-- Row 1: Title -->
+    <div class="topbar-row topbar-title">
+      <span id="app-title">
+        Professor Oak Challenge – Pick Your Version
+      </span>
+    </div>
+  
+    <!-- Row 2: Controls -->
+    <div class="topbar-row topbar-controls">
+  
+      <!-- Game Selector -->
+      <div class="control game-selector">
+        <button id="game-selector-btn">
+          Pick Your Version ▾
+        </button>
+        <!-- Dropdown menu will be injected here -->
+      </div>
+  
+      <!-- Mute Button -->
+      <button id="mute-toggle" class="control">
+        🔊
+      </button>
+  
+      <!-- Search -->
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search Pokémon…"
+        class="control search"
+      />
+  
+      <!-- Language Selector -->
+      <select id="language-selector" class="control">
+        <option value="en">EN</option>
+        <option value="ja">日本語</option>
+        <option value="fr">FR</option>
+        <option value="de">DE</option>
+        <option value="es">ES</option>
+      </select>
+  
+    </div>
+  
+    <!-- Row 3: Objective + Progress -->
+    <div class="topbar-row topbar-progress">
+  
+      <div class="objective">
+        <strong>Current Objective:</strong>
+        <span id="current-objective">
+          —
+        </span>
+      </div>
+  
+      <div class="progress">
+        <span id="progress-text">
+          0 / 124 Caught
+        </span>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 0%;"></div>
+        </div>
+      </div>
+  
+    </div>
+  
   </header>
+
 
   <main id="app">
     <!-- Section 2 -->
