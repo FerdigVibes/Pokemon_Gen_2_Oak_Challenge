@@ -1,6 +1,8 @@
 // docs/js/ui/detail.js
 // Renders Section 3 Pokémon detail (game-aware)
 
+import { playPokemonCry } from './cry.js';
+
 export function renderPokemonDetail(pokemon, game) {
   const panel = document.getElementById('detail-panel');
   if (!panel) return;
@@ -13,7 +15,12 @@ export function renderPokemonDetail(pokemon, game) {
 
   panel.innerHTML = `
     <div class="detail-sprite">
-      <img src="${spritePath}" alt="${pokemon.names.en}" />
+      <img
+        src="${spritePath}"
+        alt="${pokemon.names.en}"
+        data-cry
+        style="cursor: pointer;"
+      />
     </div>
 
     <h2>${pokemon.names.en}</h2>
@@ -36,6 +43,14 @@ export function renderPokemonDetail(pokemon, game) {
         : `<p style="opacity:0.6">Not obtainable in this game.</p>`
     }
   `;
+
+  // ✅ Bind cry playback AFTER HTML exists
+  const sprite = panel.querySelector('[data-cry]');
+  if (sprite) {
+    sprite.addEventListener('click', () => {
+      playPokemonCry(pokemon);
+    });
+  }
 }
 
 /* =========================
