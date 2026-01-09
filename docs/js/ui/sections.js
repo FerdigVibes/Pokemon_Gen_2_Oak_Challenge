@@ -50,6 +50,42 @@ function evaluateSectionCollapse(sectionBlock) {
   }
 }
 
+function updateSectionCounter(sectionBlock) {
+  const sectionId = sectionBlock.dataset.sectionId;
+  const gameId = sectionBlock.dataset.gameId;
+  const required = Number(sectionBlock.dataset.requiredCount);
+  if (!required) return;
+
+  const rows = sectionBlock.querySelectorAll('.pokemon-row');
+  let caughtCount = 0;
+
+  if (sectionId === 'STARTER') {
+    // Count families caught
+    const families = {};
+
+    rows.forEach(row => {
+      const family = row.dataset.family;
+      if (!families[family]) families[family] = [];
+      families[family].push(row);
+    });
+
+    caughtCount = Object.values(families).filter(familyRows =>
+      familyRows.some(row =>
+        isCaught(gameId, Number(row.dataset.dex))
+      )
+    ).length;
+  } else {
+    caughtCount = Array.from(rows).filter(row =>
+      isCaught(gameId, Number(row.dataset.dex))
+    ).length;
+  }
+
+  if (sectionBlock._counterEl) {
+    sectionBlock._counterEl.textContent =
+      `${caughtCount} / ${required} Caught`;
+  }
+}
+
 /* =========================================================
    STARTER HELPERS
    ========================================================= */
@@ -90,6 +126,9 @@ function isFamilyCaught(gameId, family) {
 window.addEventListener('caught-changed', () => {
   document.querySelectorAll('.section-block').forEach(block => {
     if (block.dataset.sectionId !== 'STARTER') return;
+     updateSectionCounter(block);
+     evaluateSectionCollapse(block);
+    });
 
     const gameId = block.dataset.gameId;
     const rows = block.querySelectorAll('.pokemon-row');
@@ -133,6 +172,7 @@ window.addEventListener('caught-changed', () => {
 export function renderSections({ game, pokemon }) {
   // 🔒 Make Pokémon globally available for collapse logic
   window.__POKEMON_CACHE__ = pokemon;
+  sectionBlock._counterEl = counter;
 
   const container = document.getElementById('section-list');
   container.innerHTML = '';
@@ -149,7 +189,17 @@ export function renderSections({ game, pokemon }) {
     sectionBlock.dataset.gameId = game.id;
 
     const header = document.createElement('h2');
-    header.textContent = section.title;
+    header.className = 'section-header';
+   
+    const counter = document.createElement('span');
+    counter.className = 'section-counter';
+    counter.textContent = `0 / ${section.requiredCount} Caught`;
+   
+    const title = document.createElement('span');
+    title.className = 'section-title';
+    title.textContent = section.title;
+   
+    header.append(counter, title);
 
     const sectionRows = document.createElement('div');
     sectionRows.className = 'section-rows';
