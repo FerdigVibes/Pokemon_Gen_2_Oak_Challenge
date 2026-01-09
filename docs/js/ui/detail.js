@@ -31,17 +31,8 @@ export function renderPokemonDetail(pokemon, game) {
       <!-- Section 3 Pokéball -->
     <button
       id="detail-caught"
-      style="
-        background-image: url(${pokeballPath});
-        width: 48px;
-        height: 48px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        margin: 8px 0;
-      "
+      class="detail-caught"
+      style="background-image: url(${pokeballPath});"
     ></button>
 
     <h2>${pokemon.names.en}</h2>
