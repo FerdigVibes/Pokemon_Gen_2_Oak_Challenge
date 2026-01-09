@@ -65,7 +65,7 @@ body {
 }
 
 /* Applied only to the currently selected row */
-.pokemon-row .pokemon-icon {
+.pokemon-row.is-active .pokemon-icon {
   animation: icon-bob 2.2s ease-in-out infinite;
 }
 
