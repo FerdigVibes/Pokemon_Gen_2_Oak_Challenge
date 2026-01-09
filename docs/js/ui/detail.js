@@ -2,6 +2,7 @@
 // Renders Section 3 Pokémon detail (game-aware, minimal display)
 
 import { playPokemonCry } from './cry.js';
+import { isCaught, toggleCaught } from '../state/caught.js';
 
 export function renderPokemonDetail(pokemon, game) {
   const panel = document.getElementById('detail-panel');
@@ -12,6 +13,10 @@ export function renderPokemonDetail(pokemon, game) {
 
   const gameId = game.id;
   const gameData = pokemon.games?.[gameId];
+  const caught = isCaught(game.id, pokemon.dex);
+  const pokeballPath = `./assets/icons/${
+    caught ? 'pokeball-full3D.png' : 'pokeball-empty3D.png'
+  }`;
 
   panel.innerHTML = `
     <div class="detail-sprite">
@@ -22,6 +27,22 @@ export function renderPokemonDetail(pokemon, game) {
         style="cursor: pointer;"
       />
     </div>
+
+      <!-- Section 3 Pokéball -->
+    <button
+      id="detail-caught"
+      style="
+        background-image: url(${pokeballPath});
+        width: 48px;
+        height: 48px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin: 8px 0;
+      "
+    ></button>
 
     <h2>${pokemon.names.en}</h2>
 
@@ -35,7 +56,19 @@ export function renderPokemonDetail(pokemon, game) {
         : `<p style="opacity:0.6">Not obtainable in this game.</p>`
     }
   `;
-
+  
+  // Pokéball toggle (Section 3)
+  const ball = panel.querySelector('#detail-caught');
+  if (ball) {
+    ball.addEventListener('click', () => {
+      const newState = toggleCaught(game.id, pokemon.dex);
+  
+      ball.style.backgroundImage = `url(./assets/icons/${
+        newState ? 'pokeball-full3D.png' : 'pokeball-empty3D.png'
+      })`;
+    });
+  }
+  
   // Play cry on sprite click
   const sprite = panel.querySelector('[data-cry]');
   if (sprite) {
