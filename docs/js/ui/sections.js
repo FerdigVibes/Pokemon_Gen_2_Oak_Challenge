@@ -62,9 +62,6 @@ export function renderSections({ game, pokemon }) {
       
         // 🔊 Play Pokémon cry on caught toggle
         playPokemonCry(p);
-      
-        // Re-render so Section 3 + counts stay in sync
-        renderSections({ game, pokemon });
       });
     
       const dexSpan = document.createElement('span');
