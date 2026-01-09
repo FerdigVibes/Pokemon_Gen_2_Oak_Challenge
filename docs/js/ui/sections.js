@@ -51,16 +51,19 @@ export function renderSections({ game, pokemon }) {
     
       ball.addEventListener('click', (e) => {
         e.stopPropagation();
-    
+      
         const newState = toggleCaught(game.id, p.dex);
-    
+      
         ball.style.backgroundImage = `url(./assets/icons/${
           newState ? 'pokeball-full.png' : 'pokeball-empty.png'
         })`;
-    
+      
         row.classList.toggle('is-caught', newState);
-    
-        // Re-render to update counts / collapse later
+      
+        // 🔊 Play Pokémon cry on caught toggle
+        playPokemonCry(p);
+      
+        // Re-render so Section 3 + counts stay in sync
         renderSections({ game, pokemon });
       });
     
