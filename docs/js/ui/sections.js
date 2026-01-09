@@ -7,6 +7,10 @@ import { isCaught, toggleCaught } from '../state/caught.js';
 // Tracks sections the user manually expanded
 const userExpandedSections = new Set();
 
+/* =========================================================
+   SECTION COLLAPSE EVALUATION
+   ========================================================= */
+
 function evaluateSectionCollapse(sectionBlock) {
   const sectionId = sectionBlock.dataset.sectionId;
   const gameId = sectionBlock.dataset.gameId;
@@ -20,17 +24,15 @@ function evaluateSectionCollapse(sectionBlock) {
   let caughtCount;
 
   if (sectionId === 'STARTER') {
-     const families = getStarterFamilies(
-       /* pokemon */ window.__POKEMON_CACHE__,
-       gameId,
-       sectionId
-     );
-   
-     caughtCount = families.filter(f =>
-       isFamilyCaught(gameId, f)
-     ).length;
-   }
+    const families = getStarterFamilies(
+      window.__POKEMON_CACHE__,
+      gameId,
+      sectionId
+    );
 
+    caughtCount = families.filter(f =>
+      isFamilyCaught(gameId, f)
+    ).length;
   } else {
     caughtCount = Array.from(rows).filter(r =>
       isCaught(gameId, Number(r.dataset.dex))
@@ -43,9 +45,9 @@ function evaluateSectionCollapse(sectionBlock) {
   }
 }
 
-/* =========================
+/* =========================================================
    STARTER HELPERS
-   ========================= */
+   ========================================================= */
 
 function getStarterFamilies(pokemon, gameId, sectionId) {
   const families = new Map();
@@ -60,44 +62,40 @@ function getStarterFamilies(pokemon, gameId, sectionId) {
     const family = p.evolution?.family;
     if (!Array.isArray(family) || family.length === 0) return;
 
-    // Stable family key (order-independent, future-safe)
     const key = [...family].sort().join('|');
 
     if (!families.has(key)) {
-      families.set(key, {
-        key,
-        members: []
-      });
+      families.set(key, { key, members: [] });
     }
 
     families.get(key).members.push(p);
   });
 
-  // Return array of { key, members }
   return Array.from(families.values());
 }
 
 function isFamilyCaught(gameId, family) {
-  // family.members = Pokémon in that starter family
   return family.members.some(p => isCaught(gameId, p.dex));
 }
 
-/* =========================
-   STEP 2 — SECTION COLLAPSE
-   ========================= */
+/* =========================================================
+   STEP 2 — SECTION COLLAPSE LISTENER
+   ========================================================= */
 
-   window.addEventListener('caught-changed', () => {
-     document
-       .querySelectorAll('.section-block')
-       .forEach(evaluateSectionCollapse);
-   });
+window.addEventListener('caught-changed', () => {
+  document
+    .querySelectorAll('.section-block')
+    .forEach(evaluateSectionCollapse);
 });
 
-/* =========================
+/* =========================================================
    SECTION 2 RENDERER
-   ========================= */
+   ========================================================= */
 
 export function renderSections({ game, pokemon }) {
+  // 🔒 Make Pokémon globally available for collapse logic
+  window.__POKEMON_CACHE__ = pokemon;
+
   const container = document.getElementById('section-list');
   container.innerHTML = '';
 
@@ -158,10 +156,12 @@ export function renderSections({ game, pokemon }) {
 
       ball.addEventListener('click', e => {
         e.stopPropagation();
+
         const newState = toggleCaught(game.id, p.dex);
         ball.style.backgroundImage = `url(./assets/icons/${
           newState ? 'pokeball-full.png' : 'pokeball-empty.png'
         })`;
+
         row.classList.toggle('is-caught', newState);
         if (newState) playPokemonCry(p);
 
@@ -175,7 +175,13 @@ export function renderSections({ game, pokemon }) {
       icon.src = `./assets/icons/pokemon/${dex}-${p.slug}-icon.png`;
       icon.alt = p.names.en;
 
-      row.append(ball, document.createTextNode(` #${dex} `), document.createTextNode(p.names.en));
+      row.append(
+        ball,
+        icon,
+        document.createTextNode(` #${dex} `),
+        document.createTextNode(p.names.en)
+      );
+
       row.addEventListener('click', () => renderPokemonDetail(p, game));
       if (caught) row.classList.add('is-caught');
 
