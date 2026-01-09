@@ -136,7 +136,12 @@ export function renderSections({ game, pokemon }) {
       const row = document.createElement('div');
       row.className = 'pokemon-row';
       row.dataset.dex = dex;
-      row.dataset.name = p.names.en.toLowerCase();
+      import { getLanguage } from '../state/language.js';
+
+      const lang = getLanguage();
+      const displayName = p.names[lang] || p.names.en;
+      
+      row.dataset.name = displayName.toLowerCase();
       row.dataset.family = p.evolution?.family?.join('|') ?? '';
 
       /* Pokéball toggle */
@@ -174,7 +179,7 @@ export function renderSections({ game, pokemon }) {
         ball,
         icon,
         document.createTextNode(` #${dex} `),
-        document.createTextNode(p.names.en)
+        document.createTextNode(displayName)
       );
 
       /* Row click → Section 3 */
