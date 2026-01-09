@@ -77,7 +77,10 @@ export function renderPokemonDetail(pokemon, game) {
         newState ? 'pokeball-full.png' : 'pokeball-empty.png'
       })`;
 
-      playPokemonCry(pokemon);
+      // 🔊 Only play cry when marking as caught
+      if (newState) {
+        playPokemonCry(pokemon);
+      }
 
       // 🔔 Notify rest of app
       window.dispatchEvent(new CustomEvent('caught-changed', {
