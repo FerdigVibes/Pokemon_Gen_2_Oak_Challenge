@@ -65,8 +65,12 @@ body {
 }
 
 /* Applied only to the currently selected row */
-.pokemon-row.is-active .pokemon-icon {
-  animation: icon-bob 0.9s ease-in-out infinite;
+.pokemon-row .pokemon-icon {
+  animation: icon-bob 2.2s ease-in-out infinite;
+}
+
+.pokemon-row:hover .pokemon-icon {
+  animation-duration: 1.2s;
 }
 
 h2.collapsed::after {
