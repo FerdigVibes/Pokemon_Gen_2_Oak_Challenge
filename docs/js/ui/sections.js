@@ -7,6 +7,42 @@ import { isCaught, toggleCaught } from '../state/caught.js';
 // Tracks sections the user manually expanded
 const userExpandedSections = new Set();
 
+function evaluateSectionCollapse(sectionBlock) {
+  const sectionId = sectionBlock.dataset.sectionId;
+  const gameId = sectionBlock.dataset.gameId;
+  const required = Number(sectionBlock.dataset.requiredCount);
+  if (!required) return;
+
+  const rows = sectionBlock.querySelectorAll('.pokemon-row');
+  const header = sectionBlock.querySelector('h2');
+  const rowsContainer = sectionBlock.querySelector('.section-rows');
+
+  let caughtCount;
+
+  if (sectionId === 'STARTER') {
+     const families = getStarterFamilies(
+       /* pokemon */ window.__POKEMON_CACHE__,
+       gameId,
+       sectionId
+     );
+   
+     caughtCount = families.filter(f =>
+       isFamilyCaught(gameId, f)
+     ).length;
+   }
+
+  } else {
+    caughtCount = Array.from(rows).filter(r =>
+      isCaught(gameId, Number(r.dataset.dex))
+    ).length;
+  }
+
+  if (caughtCount >= required && !userExpandedSections.has(sectionId)) {
+    rowsContainer.style.display = 'none';
+    header.classList.add('collapsed');
+  }
+}
+
 /* =========================
    STARTER HELPERS
    ========================= */
@@ -18,62 +54,43 @@ function getStarterFamilies(pokemon, gameId, sectionId) {
     const gameData = p.games?.[gameId];
     if (!gameData) return;
 
-    if (!gameData.sections?.includes(sectionId)) return;
+    const sections = gameData.sections ?? [];
+    if (!sections.includes(sectionId)) return;
 
     const family = p.evolution?.family;
-    if (!Array.isArray(family)) return;
+    if (!Array.isArray(family) || family.length === 0) return;
 
-    const key = family.join('|');
-    if (!families.has(key)) families.set(key, []);
-    families.get(key).push(p);
+    // Stable family key (order-independent, future-safe)
+    const key = [...family].sort().join('|');
+
+    if (!families.has(key)) {
+      families.set(key, {
+        key,
+        members: []
+      });
+    }
+
+    families.get(key).members.push(p);
   });
 
+  // Return array of { key, members }
   return Array.from(families.values());
 }
 
 function isFamilyCaught(gameId, family) {
-  return family.some(p => isCaught(gameId, p.dex));
+  // family.members = Pokémon in that starter family
+  return family.members.some(p => isCaught(gameId, p.dex));
 }
 
 /* =========================
    STEP 2 — SECTION COLLAPSE
    ========================= */
 
-window.addEventListener('caught-changed', () => {
-  document.querySelectorAll('.section-block').forEach(block => {
-    const sectionId = block.dataset.sectionId;
-    const gameId = block.dataset.gameId;
-    const required = Number(block.dataset.requiredCount);
-    if (!required) return;
-
-    const rows = block.querySelectorAll('.pokemon-row');
-    const header = block.querySelector('h2');
-    const rowsContainer = block.querySelector('.section-rows');
-
-    let caughtCount;
-
-    if (sectionId === 'STARTER') {
-      const families = [...new Set(
-        Array.from(rows).map(r => r.dataset.family)
-      )];
-
-      caughtCount = families.filter(familyKey => {
-        return Array.from(rows).some(r =>
-          r.dataset.family === familyKey &&
-          isCaught(gameId, Number(r.dataset.dex))
-        );
-      }).length;
-    } else {
-      caughtCount = Array.from(rows).filter(r =>
-        isCaught(gameId, Number(r.dataset.dex))
-      ).length;
-    }
-
-    if (caughtCount >= required && !userExpandedSections.has(sectionId)) {
-      rowsContainer.style.display = 'none';
-      header.classList.add('collapsed');
-    }
-  });
+   window.addEventListener('caught-changed', () => {
+     document
+       .querySelectorAll('.section-block')
+       .forEach(evaluateSectionCollapse);
+   });
 });
 
 /* =========================
@@ -121,7 +138,7 @@ export function renderSections({ game, pokemon }) {
       const chosenFamily = families.find(f =>
         isFamilyCaught(game.id, f)
       );
-      if (chosenFamily) matches = chosenFamily;
+      if (chosenFamily) matches = chosenFamily.members;
     }
 
     matches.forEach(p => {
@@ -153,6 +170,11 @@ export function renderSections({ game, pokemon }) {
         }));
       });
 
+      const icon = document.createElement('img');
+      icon.className = 'pokemon-icon';
+      icon.src = `./assets/icons/pokemon/${dex}-${p.slug}-icon.png`;
+      icon.alt = p.names.en;
+
       row.append(ball, document.createTextNode(` #${dex} `), document.createTextNode(p.names.en));
       row.addEventListener('click', () => renderPokemonDetail(p, game));
       if (caught) row.classList.add('is-caught');
@@ -162,6 +184,7 @@ export function renderSections({ game, pokemon }) {
 
     sectionBlock.append(header, sectionRows);
     container.appendChild(sectionBlock);
+    evaluateSectionCollapse(sectionBlock);
   });
 }
 
