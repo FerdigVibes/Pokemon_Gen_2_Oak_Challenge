@@ -6,6 +6,8 @@ import { renderSections } from './ui/sections.js';
 import { getGlobalProgress } from './state/progress.js';
 import { isCaught } from './state/caught.js';
 import { isMuted, toggleMute } from './state/audio.js';
+import { setLanguage, getLanguage } from './state/language.js';
+import { loadLanguage, t } from './data/i18n.js';
 
 /* =========================================================
    GLOBAL CAUGHT REACTIVITY
@@ -33,12 +35,57 @@ async function init() {
   buildGameSelector();
   wireSearch();
   wireMuteToggle();
+   wirelanguageSelector();
 
   await selectGame({
     id: 'red',
     label: 'Red',
     total: 124
   });
+}
+
+function wireLanguageSelector() {
+  const select = document.getElementById('language-selector');
+  if (!select) return;
+
+  select.value = getLanguage();
+
+  select.addEventListener('change', async () => {
+    const lang = select.value;
+    setLanguage(lang);
+    await loadLanguage(lang);
+    applyTranslations();
+  });
+}
+
+function applyTranslations() {
+  // Top bar
+  document.getElementById('game-selector-btn').textContent =
+    t('pickVersion') + ' ▾';
+
+  document.querySelector('#search-input').placeholder =
+    t('searchPlaceholder');
+
+  document.querySelector('.objective strong').textContent =
+    t('currentObjective') + ':';
+
+  // Re-render sections to update names + headers
+  if (window.__CURRENT_GAME__ && window.__POKEMON_CACHE__) {
+    renderSections({
+      game: window.__CURRENT_GAME__,
+      pokemon: window.__POKEMON_CACHE__
+    });
+
+    updateGlobalProgress(
+      window.__CURRENT_GAME__,
+      window.__POKEMON_CACHE__
+    );
+
+    updateCurrentObjective(
+      window.__CURRENT_GAME__,
+      window.__POKEMON_CACHE__
+    );
+  }
 }
 
 /* =========================================================
