@@ -68,3 +68,8 @@ body {
 .pokemon-row.is-active .pokemon-icon {
   animation: icon-bob 0.9s ease-in-out infinite;
 }
+
+h2.collapsed::after {
+  content: " ✓";
+  opacity: 0.6;
+}
