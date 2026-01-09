@@ -9,8 +9,9 @@ export function isCaught(gameId, dex) {
   return !!caught[dex];
 }
 
-export function setCaught(gameId, dex, value = true) {
+export function toggleCaught(gameId, dex) {
   const caught = getCaught(gameId);
-  caught[dex] = value;
+  caught[dex] = !caught[dex];
   localStorage.setItem(keyForGame(gameId), JSON.stringify(caught));
+  return caught[dex];
 }
