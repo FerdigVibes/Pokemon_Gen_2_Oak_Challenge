@@ -3,6 +3,7 @@
 
 import { renderPokemonDetail } from './detail.js';
 import { playPokemonCry } from './cry.js';
+import { isCaught, toggleCaught } from '../state/caught.js';
 
 
 export function renderSections({ game, pokemon }) {
@@ -69,5 +70,23 @@ export function renderSections({ game, pokemon }) {
       container.appendChild(row);
     });
   });
+}
+
+const keyForGame = (gameId) => `oak:${gameId}:caught`;
+
+export function getCaught(gameId) {
+  return JSON.parse(localStorage.getItem(keyForGame(gameId)) || '{}');
+}
+
+export function isCaught(gameId, dex) {
+  const caught = getCaught(gameId);
+  return !!caught[dex];
+}
+
+export function toggleCaught(gameId, dex) {
+  const caught = getCaught(gameId);
+  caught[dex] = !caught[dex];
+  localStorage.setItem(keyForGame(gameId), JSON.stringify(caught));
+  return caught[dex];
 }
 
