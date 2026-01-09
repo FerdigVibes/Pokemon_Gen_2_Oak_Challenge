@@ -38,9 +38,9 @@ body {
   image-rendering: pixelated;
 }
 
-.detail-caught {
-  width: 48px;
-  height: 48px;
+.caught-toggle {
+  width: 28px;
+  height: 28px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
