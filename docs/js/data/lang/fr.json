@@ -1,0 +1,79 @@
+{
+  "pickVersion": "Choisissez votre version",
+  "caught": "Attrapés",
+  "currentObjective": "Objectif actuel",
+  "challengeComplete": "Défi terminé",
+  "searchPlaceholder": "Rechercher un Pokémon…",
+
+  "chooseYourStarter": "Choisissez votre Pokémon de départ",
+
+  "beforePewter": "Avant l’Arène d’Argenta",
+  "pewterPokemon": "Pokémon d’Argenta",
+
+  "beforeCerulean": "Avant l’Arène d’Azuria",
+  "ceruleanPokemon": "Pokémon d’Azuria",
+
+  "beforeVermilion": "Avant l’Arène de Carmin sur Mer",
+  "afterVermilion": "Après l’Arène de Carmin sur Mer",
+
+  "beforeCeladon": "Avant l’Arène de Céladopole",
+  "celadonPokemon": "Pokémon de Céladopole",
+
+  "beforeFuchsia": "Avant l’Arène de Parmanie",
+  "fuchsiaPokemon": "Pokémon de Parmanie",
+
+  "beforeFifth": "Avant la cinquième Arène",
+
+  "beforeEliteFour": "Avant le Conseil des Quatre",
+  "eliteFourPokemon": "Pokémon du Conseil des Quatre",
+
+  "ceruleanCave": "Grotte Azurée",
+  "ceruleanCavePokemon": "Pokémon de la Grotte Azurée",
+
+  "mtSilver": "Mont Argenté",
+  "mtSilverPokemon": "Pokémon du Mont Argenté",
+
+  "beforeKanto": "Avant la conquête de Kanto",
+  "kantoPokemon": "Pokémon de Kanto",
+
+  "beforeViolet": "Avant l’Arène de Mauville",
+  "violetPokemon": "Pokémon de Mauville",
+
+  "beforeAzalea": "Avant l’Arène d’Écorcia",
+  "azaleaPokemon": "Pokémon d’Écorcia",
+
+  "beforeGoldenrod": "Avant l’Arène de Doublonville",
+  "goldenrodPokemon": "Pokémon de Doublonville",
+
+  "beforeEcruteak": "Avant l’Arène de Rosalia",
+  "ecruteakPokemon": "Pokémon de Rosalia",
+
+  "beforeMahogany": "Avant l’Arène d’Acajou",
+  "mahoganyPokemon": "Pokémon d’Acajou",
+
+  "beforeCianwoodOlivine": "Avant les Arènes d’Irisse et d’Oliville",
+  "cianwoodOlivinePokemon": "Pokémon d’Irisse et d’Oliville",
+
+  "beforeBlackthorn": "Avant l’Arène d’Ébènelle",
+  "blackthornPokemon": "Pokémon d’Ébènelle",
+
+  "moonStoneOne": "Évolution par Pierre Lune",
+  "moonStoneTwo": "Évolution par Pierre Lune (2e fois)",
+
+  "leafStone": "Choisir une évolution avec Pierre Plante",
+  "fireStone": "Choisir une évolution avec Pierre Feu",
+  "waterStone": "Choisir une évolution avec Pierre Eau",
+  "thunderStone": "Choisir une évolution avec Pierre Foudre",
+
+  "eeveeEvolutions": "Choisir l’évolution d’Évoli",
+  "hitmonPrize": "Récompense Kicklee / Tygnon",
+
+  "reviveFossil": "Pokémon ressuscités depuis un fossile",
+
+  "articuno": "Artikodin",
+  "moltres": "Sulfura",
+  "mewtwo": "Mewtwo",
+
+  "pikachu": "À toi, Pikachu !",
+  "squirtlesquad": "La bande des Carapuce"
+}
