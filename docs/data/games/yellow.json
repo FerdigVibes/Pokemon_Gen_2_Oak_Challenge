@@ -116,7 +116,7 @@
     },
     {
       "id": "SQUIRTLE_FAMILY",
-      "titleKey": "squirtle",
+      "titleKey": "squirtleSquad",
       "order": 5.1,
       "parent": "ONLY_AFTER_VERMILION",
       "requiredCount": 3
