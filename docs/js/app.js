@@ -214,7 +214,10 @@ function updateGlobalProgress(game, pokemon) {
   const text = document.getElementById('progress-text');
   const fill = document.querySelector('.progress-fill');
 
-  if (text) text.textContent = `${caught} / ${total} Caught`;
+  if text.textContent = t('caughtCount', {
+     caught,
+     total
+  });
   if (fill) fill.style.width = `${percent}%`;
 }
 
