@@ -1,7 +1,14 @@
 import { isCaught } from './caught.js';
 
 export function getGlobalProgress(game, pokemon) {
-  const total = game.total;
+  // Prefer explicit total, fallback to section sum
+  const total =
+    game.total ??
+    game.sections
+      ?.filter(s => s.requiredCount)
+      .reduce((sum, s) => sum + s.requiredCount, 0) ??
+    0;
+
   let caught = 0;
 
   pokemon.forEach(p => {
