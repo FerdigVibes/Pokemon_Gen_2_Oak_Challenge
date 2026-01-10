@@ -63,19 +63,17 @@ function wireLanguageSelector() {
 }
 
 function applyTranslations() {
-  // Top bar
-  if (!window.__CURRENT_GAME__) {
-    document.getElementById('game-selector-btn').textContent =
-      t('pickVersion') + ' ▾';
-  }
+  // ----- Top bar -----
+  document.getElementById('game-selector-btn').textContent =
+    t('pickVersion') + ' ▾';
 
-  document.querySelector('#search-input').placeholder =
-    t('searchPlaceholder');
+  const search = document.getElementById('search-input');
+  if (search) search.placeholder = t('searchPlaceholder');
 
-  document.querySelector('.objective strong').textContent =
-    t('currentObjective') + ':';
+  const objLabel = document.querySelector('.objective strong');
+  if (objLabel) objLabel.textContent = t('currentObjective') + ':';
 
-  // Re-render sections to update names + headers
+  // ----- Re-render sections (Section 2) -----
   if (window.__CURRENT_GAME__ && window.__POKEMON_CACHE__) {
     renderSections({
       game: window.__CURRENT_GAME__,
@@ -92,7 +90,18 @@ function applyTranslations() {
       window.__POKEMON_CACHE__
     );
   }
+
+  // ----- Re-render Section 3 if open -----
+  const activeRow = document.querySelector('.pokemon-row.is-active');
+  if (activeRow && window.__CURRENT_GAME__) {
+    const dex = Number(activeRow.dataset.dex);
+    const pokemon = window.__POKEMON_CACHE__.find(p => p.dex === dex);
+    if (pokemon) {
+      renderPokemonDetail(pokemon, window.__CURRENT_GAME__);
+    }
+  }
 }
+
 
 /* =========================================================
    GAME SELECTOR
