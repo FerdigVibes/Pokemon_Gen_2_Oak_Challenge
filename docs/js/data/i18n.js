@@ -1,5 +1,3 @@
-import { getLanguage } from '../state/language.js';
-
 let translations = {};
 
 export async function loadLanguage(lang) {
@@ -8,10 +6,13 @@ export async function loadLanguage(lang) {
   translations = await res.json();
 }
 
-export function t(key) {
-  return translations[key] || key;
-}
+export function t(key, vars = {}) {
+  let str = translations[key] || key;
 
-export function getCurrentLanguage() {
-  return getLanguage();
+  // simple interpolation: {{count}}
+  Object.entries(vars).forEach(([k, v]) => {
+    str = str.replace(`{{${k}}}`, v);
+  });
+
+  return str;
 }
