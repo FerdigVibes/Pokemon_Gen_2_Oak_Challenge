@@ -1,0 +1,79 @@
+{
+  "pickVersion": "Elige tu versión",
+  "caught": "Capturados",
+  "currentObjective": "Objetivo actual",
+  "challengeComplete": "Desafío completado",
+  "searchPlaceholder": "Buscar Pokémon…",
+
+  "chooseYourStarter": "Elige tu Pokémon inicial",
+
+  "beforePewter": "Antes del Gimnasio de Ciudad Plateada",
+  "pewterPokemon": "Pokémon de Ciudad Plateada",
+
+  "beforeCerulean": "Antes del Gimnasio de Ciudad Celeste",
+  "ceruleanPokemon": "Pokémon de Ciudad Celeste",
+
+  "beforeVermilion": "Antes del Gimnasio de Ciudad Carmín",
+  "afterVermilion": "Después del Gimnasio de Ciudad Carmín",
+
+  "beforeCeladon": "Antes del Gimnasio de Ciudad Azulona",
+  "celadonPokemon": "Pokémon de Ciudad Azulona",
+
+  "beforeFuchsia": "Antes del Gimnasio de Ciudad Fucsia",
+  "fuchsiaPokemon": "Pokémon de Ciudad Fucsia",
+
+  "beforeFifth": "Antes del quinto Gimnasio",
+
+  "beforeEliteFour": "Antes del Alto Mando",
+  "eliteFourPokemon": "Pokémon del Alto Mando",
+
+  "ceruleanCave": "Cueva Celeste",
+  "ceruleanCavePokemon": "Pokémon de la Cueva Celeste",
+
+  "mtSilver": "Monte Plateado",
+  "mtSilverPokemon": "Pokémon del Monte Plateado",
+
+  "beforeKanto": "Antes de completar Kanto",
+  "kantoPokemon": "Pokémon de Kanto",
+
+  "beforeViolet": "Antes del Gimnasio de Ciudad Malva",
+  "violetPokemon": "Pokémon de Ciudad Malva",
+
+  "beforeAzalea": "Antes del Gimnasio de Ciudad Azalea",
+  "azaleaPokemon": "Pokémon de Ciudad Azalea",
+
+  "beforeGoldenrod": "Antes del Gimnasio de Ciudad Trigal",
+  "goldenrodPokemon": "Pokémon de Ciudad Trigal",
+
+  "beforeEcruteak": "Antes del Gimnasio de Ciudad Iris",
+  "ecruteakPokemon": "Pokémon de Ciudad Iris",
+
+  "beforeMahogany": "Antes del Gimnasio de Ciudad Caoba",
+  "mahoganyPokemon": "Pokémon de Ciudad Caoba",
+
+  "beforeCianwoodOlivine": "Antes de los Gimnasios de Ciudad Orquídea y Olivo",
+  "cianwoodOlivinePokemon": "Pokémon de Ciudad Orquídea y Olivo",
+
+  "beforeBlackthorn": "Antes del Gimnasio de Ciudad Endrino",
+  "blackthornPokemon": "Pokémon de Ciudad Endrino",
+
+  "moonStoneOne": "Evolución con Piedra Lunar",
+  "moonStoneTwo": "Evolución con Piedra Lunar (segunda vez)",
+
+  "leafStone": "Elegir evolución con Piedra Hoja",
+  "fireStone": "Elegir evolución con Piedra Fuego",
+  "waterStone": "Elegir evolución con Piedra Agua",
+  "thunderStone": "Elegir evolución con Piedra Trueno",
+
+  "eeveeEvolutions": "Elegir evolución de Eevee",
+  "hitmonPrize": "Premio Hitmonlee / Hitmonchan",
+
+  "reviveFossil": "Pokémon revividos a partir de fósiles",
+
+  "articuno": "Articuno",
+  "moltres": "Moltres",
+  "mewtwo": "Mewtwo",
+
+  "pikachu": "¡Vamos, Pikachu!",
+  "squirtlesquad": "Escuadrón Squirtle"
+}
