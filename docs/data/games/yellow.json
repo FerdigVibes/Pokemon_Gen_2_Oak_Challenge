@@ -9,10 +9,10 @@
       "id": "BEFORE_PEWTER",
       "title": "Before Pewter Gym",
       "order": 1,
-      "children": ["PIKACHU_START", "PEWTER_POKEMON"]
+      "children": ["STARTER", "PEWTER_POKEMON"]
     },
     {
-      "id": "PIKACHU_START",
+      "id": "STARTER",
       "title": "I Choose You, Pikachu!",
       "order": 1.1,
       "parent": "BEFORE_PEWTER",
