@@ -42,7 +42,7 @@
     },
 
     "yellow": {
-      "sections": ["PIKACHU_START"],
+      "sections": ["STARTER"],
       "obtain": [
         {
           "method": "starter",
