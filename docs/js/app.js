@@ -188,18 +188,18 @@ function wireMuteToggle() {
 async function selectGame(game) {
   // 1️⃣ Load data
   const gameData = await loadGame(game.id);
+
+  // Update selector button label
   document.getElementById('game-selector-btn').textContent =
-  `${game.label} ▾`;
+    `${game.label} ▾`;
 
   // 2️⃣ Expose derived state
   window.__CURRENT_GAME__ = gameData;
   window.__POKEMON_CACHE__ = gameData.pokemon;
 
-  // 3️⃣ Update title
-  import { t } from './data/i18n.js';
-
+  // 3️⃣ Update title (translated)
   document.getElementById('app-title').textContent = t('appTitle', {
-   version: game.label
+    version: game.label
   });
 
   // 4️⃣ Reset UI
@@ -220,6 +220,7 @@ async function selectGame(game) {
   updateGlobalProgress(gameData, gameData.pokemon);
   updateCurrentObjective(gameData, gameData.pokemon);
 }
+
 
 /* =========================================================
    GLOBAL PROGRESS
