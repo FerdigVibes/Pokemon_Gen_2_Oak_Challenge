@@ -23,8 +23,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Wartortle at level 36."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Wartortle at level 36.",
+            "ja": "カメールがレベル36で進化する。",
+            "fr": "Évolue de Carabaffe au niveau 36.",
+            "de": "Entwickelt sich aus Schillok auf Level 36.",
+            "es": "Evoluciona de Wartortle al nivel 36."
+          }
         }
       ]
     },
@@ -33,8 +39,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Wartortle at level 36."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Wartortle at level 36.",
+            "ja": "カメールがレベル36で進化する。",
+            "fr": "Évolue de Carabaffe au niveau 36.",
+            "de": "Entwickelt sich aus Schillok auf Level 36.",
+            "es": "Evoluciona de Wartortle al nivel 36."
+          }
         }
       ]
     },
@@ -43,10 +55,17 @@
       "sections": ["ONLY_AFTER_VERMILION"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Wartortle at level 36."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Wartortle at level 36.",
+            "ja": "カメールがレベル36で進化する。",
+            "fr": "Évolue de Carabaffe au niveau 36.",
+            "de": "Entwickelt sich aus Schillok auf Level 36.",
+            "es": "Evoluciona de Wartortle al nivel 36."
+          }
         }
       ]
     }
   }
 }
+
