@@ -22,7 +22,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "starter",
+          "methodKey": "obtain.starter",
           "notes": {
             "en": "Pick me to begin your journey!",
             "ja": "冒険を始めるために選ぼう！",
@@ -38,7 +38,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "starter",
+          "methodKey": "obtain.starter",
           "notes": {
             "en": "Pick me to begin your journey!",
             "ja": "冒険を始めるために選ぼう！",
@@ -54,7 +54,7 @@
       "sections": ["CERULEAN_POKEMON"],
       "obtain": [
         {
-          "method": "gift",
+          "methodKey": "obtain.gift",
           "location": {
             "en": "Cerulean City",
             "ja": "ハナダシティ",
