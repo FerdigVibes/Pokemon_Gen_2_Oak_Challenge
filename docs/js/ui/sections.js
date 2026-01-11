@@ -150,6 +150,58 @@ window.addEventListener('caught-changed', () => {
   });
 });
 
+import { getGameTime } from "../state/gameTime.js";
+
+const TIME_ICONS = {
+  morning: "🌅",
+  day: "☀️",
+  night: "🌙"
+};
+
+const TIME_SLOTS = ["morning", "day", "night"];
+
+function renderTimeIconsForPokemon(pokemon, row) {
+  const gameId = row.closest(".section-block")?.dataset.gameId;
+  const gameData = pokemon.games?.[gameId];
+  if (!gameData) return;
+
+  const obtain = gameData.obtain ?? [];
+  const times = new Set();
+
+  obtain.forEach(o => {
+    if (Array.isArray(o.time)) {
+      o.time.forEach(t => times.add(t));
+    } else if (o.time) {
+      times.add(o.time);
+    }
+  });
+
+  // No time restriction → do not render icons
+  if (!times.size) return;
+
+  const { period } = getGameTime();
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "row-time-icons";
+
+  TIME_SLOTS.forEach(t => {
+    const span = document.createElement("span");
+    span.className = "time-icon";
+
+    span.textContent = TIME_ICONS[t];
+
+    if (times.has(t) && t === period) {
+      span.classList.add("active");
+    } else {
+      span.classList.add("inactive");
+    }
+
+    wrapper.appendChild(span);
+  });
+
+  row.appendChild(wrapper);
+}
+
 /* =========================================================
    SECTION 2 RENDERER
    ========================================================= */
@@ -206,6 +258,8 @@ export function renderSections({ game, pokemon }) {
         ? userExpandedSections.add(section.id)
         : userExpandedSections.delete(section.id);
     });
+
+    renderTimeIconsForPokemon(p, row);
 
     /* ---------- Pokémon rows ---------- */
 
