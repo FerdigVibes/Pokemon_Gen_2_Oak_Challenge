@@ -13,21 +13,6 @@ window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
 
 /* =========================================================
-   GLOBAL CAUGHT REACTIVITY
-   ========================================================= */
-
-  updateGlobalProgress(
-    window.__CURRENT_GAME__.data,
-    window.__POKEMON_CACHE__
-  );
-
-  updateCurrentObjective(
-    window.__CURRENT_GAME__.data,
-    window.__POKEMON_CACHE__
-  );
-});
-
-/* =========================================================
    INIT
    ========================================================= */
 
@@ -308,6 +293,16 @@ function applySearchFilter(query) {
 
 window.addEventListener('caught-changed', () => {
   if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
+  updateGlobalProgress(
+   window.__CURRENT_GAME__.data,
+   window.__POKEMON_CACHE__
+  );
+
+  updateCurrentObjective(
+   window.__CURRENT_GAME__.data,
+   window.__POKEMON_CACHE__
+  );
+});
 
 function wireSearch() {
   const input = document.getElementById('search-input');
