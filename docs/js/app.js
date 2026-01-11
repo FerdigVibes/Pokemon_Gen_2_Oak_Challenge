@@ -58,16 +58,21 @@ function wireLanguageSelector() {
 
   select.addEventListener('change', async () => {
     const lang = select.value;
+
     setLanguage(lang);
     await loadLanguage(lang);
+
     applyTranslations();
 
-    // 🔔 Notify UI modules (detail panel, etc.)
-    window.dispatchEvent(new CustomEvent('language-changed', {
-     detail: { lang }
-    }));
+    // Notify UI modules (detail panel, etc.)
+    window.dispatchEvent(
+      new CustomEvent('language-changed', {
+        detail: { lang }
+      })
+    );
   });
-}]
+}
+
 
 function resetAppToBlankState() {
   window.__CURRENT_GAME__ = null;
