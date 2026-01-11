@@ -47,21 +47,6 @@ function updateSectionCounter(sectionBlock) {
     caught: caughtCount,
     total: required
   });
-
-  // Collapse if complete (unless user forced open)
-  const header = sectionBlock.querySelector('h2');
-  const rowsContainer = sectionBlock.querySelector('.section-rows');
-
-  if (caughtCount >= required && !userExpandedSections.has(sectionId)) {
-    rowsContainer.style.display = 'none';
-    header.classList.add('collapsed');
-  }
-
-  if (caughtCount < required) {
-    userExpandedSections.delete(sectionId);
-    header.classList.remove('collapsed');
-    rowsContainer.style.display = '';
-  }
 }
 
 /* =========================================================
