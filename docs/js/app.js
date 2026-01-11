@@ -114,8 +114,15 @@ function resetAppToBlankState() {
 
 function applyTranslations() {
   // ----- Top bar -----
-  document.getElementById('game-selector-btn').textContent =
-    t('pickVersion') + ' ▾';
+  const selectorBtn = document.getElementById('game-selector-btn');
+
+  if (window.__CURRENT_GAME__) {
+   selectorBtn.textContent =
+    `${t(window.__CURRENT_GAME__.labelKey)} ▾`;
+  } else {
+   selectorBtn.textContent =
+    `${t('pickVersion')} ▾`;
+  }
 
   const search = document.getElementById('search-input');
   if (search) search.placeholder = t('searchPlaceholder');
@@ -144,11 +151,6 @@ function applyTranslations() {
       window.__POKEMON_CACHE__
     );
   }
-
-  // Rebuild game selector to update translated labels
-  const oldMenu = document.querySelector('.game-menu');
-  if (oldMenu) oldMenu.remove();
-  buildGameSelector();
 
   // ----- Re-render Section 3 if open -----
   const activeRow = document.querySelector('.pokemon-row.is-active');
