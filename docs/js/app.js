@@ -61,6 +61,11 @@ function wireLanguageSelector() {
     setLanguage(lang);
     await loadLanguage(lang);
     applyTranslations();
+
+    // 🔔 Notify UI modules (detail panel, etc.)
+    window.dispatchEvent(new CustomEvent('language-changed', {
+     detail: { lang }
+    }));
   });
 }
 
