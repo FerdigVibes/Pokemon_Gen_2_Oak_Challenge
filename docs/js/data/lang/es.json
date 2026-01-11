@@ -25,6 +25,12 @@
   "silver": "Plata",
   "crystal": "Cristal",
 
+  "time": {
+   "morning": "Morning",
+   "day": "Day",
+   "night": "Night"
+  },
+
   "chooseYourStarter": "Elige tu Pokémon inicial",
 
   "beforePewter": "Antes del Gimnasio de Ciudad Plateada",
