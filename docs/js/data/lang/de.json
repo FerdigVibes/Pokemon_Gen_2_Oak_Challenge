@@ -16,6 +16,7 @@
   "pickVersionPrompt": "Wähle eine Version, um zu beginnen",
   "globalCaughtCount": "{{caught}} / {{total}} Gefangen",
   "sectionCaughtCount": "{{caught}} / {{total}}",
+  "gameTime": "Spielzeit",
 
   "red": "Rot",
   "blue": "Blau",
