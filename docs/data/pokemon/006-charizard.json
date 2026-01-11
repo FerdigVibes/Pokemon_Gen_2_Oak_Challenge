@@ -23,8 +23,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Charmeleon at level 36."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Charmeleon at level 36.",
+            "ja": "リザードがレベル36で進化する。",
+            "fr": "Évolue de Reptincel au niveau 36.",
+            "de": "Entwickelt sich aus Glutexo auf Level 36.",
+            "es": "Evoluciona de Charmeleon al nivel 36."
+          }
         }
       ]
     },
@@ -33,8 +39,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Charmeleon at level 36."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Charmeleon at level 36.",
+            "ja": "リザードがレベル36で進化する。",
+            "fr": "Évolue de Reptincel au niveau 36.",
+            "de": "Entwickelt sich aus Glutexo auf Level 36.",
+            "es": "Evoluciona de Charmeleon al nivel 36."
+          }
         }
       ]
     },
@@ -43,10 +55,17 @@
       "sections": ["CERULEAN_POKEMON"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Charmeleon at level 36."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Charmeleon at level 36.",
+            "ja": "リザードがレベル36で進化する。",
+            "fr": "Évolue de Reptincel au niveau 36.",
+            "de": "Entwickelt sich aus Glutexo auf Level 36.",
+            "es": "Evoluciona de Charmeleon al nivel 36."
+          }
         }
       ]
     }
   }
 }
+
