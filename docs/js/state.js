@@ -1,19 +1,11 @@
-export const state = {
-  game: "gold",
-  language: "en",
+// state/time.js
+let currentTime = "day"; // "morning" | "day" | "night"
 
-  time: {
-    hour: 12,
-    period: "day"
-  },
+export function getCurrentTime() {
+  return currentTime;
+}
 
-  progress: {
-    caught: new Set(),
-    shiny: new Set()
-  },
-
-  ui: {
-    selectedPokemon: null,
-    expandedMobileRow: null
-  }
-};
+export function setCurrentTime(time) {
+  currentTime = time;
+  window.dispatchEvent(new Event("time-changed"));
+}
