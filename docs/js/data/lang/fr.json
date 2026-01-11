@@ -10,6 +10,16 @@
   "howToObtain": "Comment l’obtenir",
   "locations": "Lieux",
   "appTitle": "Défi du Professeur Chen – Version {{version}}",
+  "gen1": "Génération I",
+  "gen2": "Génération II",
+
+  "red": "Rouge",
+  "blue": "Bleu",
+  "yellow": "Jaune",
+
+  "gold": "Or",
+  "silver": "Argent",
+  "crystal": "Cristal",
 
   "chooseYourStarter": "Choisissez votre Pokémon de départ",
 
