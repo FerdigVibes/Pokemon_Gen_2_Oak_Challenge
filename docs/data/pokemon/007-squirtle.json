@@ -22,8 +22,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "starter",
-          "notes": "Choose me to begin your journey!"
+          "methodKey": "obtain.starter",
+          "notes": {
+            "en": "Choose me to begin your journey!",
+            "ja": "冒険を始めるために選ぼう！",
+            "fr": "Choisissez-moi pour commencer votre aventure !",
+            "de": "Wähle mich, um dein Abenteuer zu beginnen!",
+            "es": "¡Elígeme para comenzar tu aventura!"
+          }
         }
       ]
     },
@@ -32,8 +38,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "starter",
-          "notes": "Choose me to begin your journey!"
+          "methodKey": "obtain.starter",
+          "notes": {
+            "en": "Choose me to begin your journey!",
+            "ja": "冒険を始めるために選ぼう！",
+            "fr": "Choisissez-moi pour commencer votre aventure !",
+            "de": "Wähle mich, um dein Abenteuer zu beginnen!",
+            "es": "¡Elígeme para comenzar tu aventura!"
+          }
         }
       ]
     },
@@ -42,9 +54,23 @@
       "sections": ["ONLY_AFTER_VERMILION"],
       "obtain": [
         {
-          "method": "gift",
-          "location": "Vermilion City",
-          "notes": "Given by Officer Jenny after defeating Lt. Surge."
+          "methodKey": "obtain.gift",
+          "locations": [
+            {
+              "en": "Vermilion City",
+              "ja": "クチバシティ",
+              "fr": "Carmin sur Mer",
+              "de": "Orania City",
+              "es": "Ciudad Carmín"
+            }
+          ],
+          "notes": {
+            "en": "Given by Officer Jenny after defeating Lt. Surge.",
+            "ja": "マチスを倒したあと、ポリスウーマンからもらえる。",
+            "fr": "Donné par l’Agent Jenny après avoir vaincu le Major Bob.",
+            "de": "Wird von Officer Jenny erhalten, nachdem Major Bob besiegt wurde.",
+            "es": "Entregado por la Oficial Jenny tras derrotar al Teniente Surge."
+          }
         }
       ]
     }
