@@ -22,7 +22,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.starter",
+          "method": "starter",
           "notes": {
             "en": "Choose me to begin your journey!",
             "ja": "冒険を始めるために選ぼう！",
@@ -38,7 +38,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.starter",
+          "method": "starter",
           "notes": {
             "en": "Choose me to begin your journey!",
             "ja": "冒険を始めるために選ぼう！",
@@ -54,7 +54,7 @@
       "sections": ["ONLY_AFTER_VERMILION"],
       "obtain": [
         {
-          "methodKey": "obtain.gift",
+          "method": "gift",
           "locations": [
             {
               "en": "Vermilion City",
