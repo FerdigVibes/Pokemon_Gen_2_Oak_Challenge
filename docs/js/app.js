@@ -9,6 +9,8 @@ import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
+import { TIME_SLOTS, TIME_ICONS } from "../ui/time.js";
+import { getCurrentTime } from "../state/time.js";
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
@@ -59,6 +61,32 @@ function wireLanguageSelector() {
       })
     );
   });
+}
+
+function renderTimeIcons(pokemonTime) {
+  const times = Array.isArray(pokemonTime)
+    ? pokemonTime
+    : pokemonTime ? [pokemonTime] : [];
+
+  const current = getCurrentTime();
+
+  return `
+    <div class="time-icons">
+      ${TIME_SLOTS.map(t => {
+        const active = times.includes(t);
+        const lit = active && t === current;
+
+        return `
+          <span
+            class="time-icon ${lit ? "active" : "inactive"}"
+            data-time="${t}"
+          >
+            ${TIME_ICONS[t]}
+          </span>
+        `;
+      }).join("")}
+    </div>
+  `;
 }
 
 
