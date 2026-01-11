@@ -83,8 +83,15 @@ function resetAppToBlankState() {
     t('appTitleNoVersion'); // we'll add this key
 
   // Selector button
-  document.getElementById('game-selector-btn').textContent =
-    t('pickVersion') + ' ▾';
+  const selectorBtn = document.getElementById('game-selector-btn');
+
+  if (window.__CURRENT_GAME__) {
+   selectorBtn.textContent =
+    `${t(window.__CURRENT_GAME__.labelKey)} ▾`;
+  } else {
+   selectorBtn.textContent =
+    `${t('pickVersion')} ▾`;
+  }
 
   // Clear sections
   const sectionList = document.getElementById('section-list');
@@ -124,7 +131,7 @@ function applyTranslations() {
     });
 
     document.getElementById('app-title').textContent = t('appTitle', {
-     version: window.__CURRENT_GAME__.label
+     version: t(window.__CURRENT_GAME__.labelKey)
     });
 
     updateGlobalProgress(
