@@ -92,7 +92,12 @@ function resetAppToBlankState() {
 
   const progressText = document.getElementById('progress-text');
   const progressFill = document.querySelector('.progress-fill');
-  if (progressText) progressText.textContent = `0 / 0 ${t('caught')}`;
+  if (progressText) {
+   progressText.textContent = t('caughtCount', {
+    caught: 0,
+    total: 0
+   });
+  }
   if (progressFill) progressFill.style.width = '0%';
 
   const obj = document.getElementById('current-objective');
@@ -270,18 +275,11 @@ function getCurrentObjective(game, pokemon) {
     ).length;
 
     if (caughtCount < section.requiredCount) {
-      return section.title;
+      return t(section.titleKey);
     }
   }
 
   return t('challengeComplete');
-}
-
-function updateCurrentObjective(game, pokemon) {
-  const label = document.getElementById('current-objective');
-  if (!label) return;
-
-  label.textContent = getCurrentObjective(game, pokemon);
 }
 
 function applySearchFilter(query) {
