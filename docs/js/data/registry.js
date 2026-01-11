@@ -10,21 +10,19 @@ export function getAllPokemon() {
 
 export const GAME_REGISTRY = [
   {
-    generation: 1,
-    label: 'Generation I',
+    genKey: 'gen1',
     games: [
-      { id: 'red',    label: 'Red',    total: 124 },
-      { id: 'blue',   label: 'Blue',   total: 124 },
-      { id: 'yellow', label: 'Yellow', total: 124 }
+      { id: 'red', labelKey: 'red' },
+      { id: 'blue', labelKey: 'blue' },
+      { id: 'yellow', labelKey: 'yellow' }
     ]
   },
   {
-    generation: 2,
-    label: 'Generation II',
+    genKey: 'gen2',
     games: [
-      { id: 'gold',    label: 'Gold',    total: 251 },
-      { id: 'silver',  label: 'Silver',  total: 251 },
-      { id: 'crystal', label: 'Crystal', total: 251 }
+      { id: 'gold', labelKey: 'gold' },
+      { id: 'silver', labelKey: 'silver' },
+      { id: 'crystal', labelKey: 'crystal' }
     ]
   }
 ];
