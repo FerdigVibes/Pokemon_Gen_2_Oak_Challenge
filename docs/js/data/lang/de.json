@@ -14,6 +14,8 @@
   "gen2": "Generation II",
   "appTitleNoVersion": "Professor Eich Herausforderung",
   "pickVersionPrompt": "Wähle eine Version, um zu beginnen",
+  "globalCaughtCount": "{{caught}} / {{total}} Gefangen",
+  "sectionCaughtCount": "{{caught}} / {{total}}",
 
   "red": "Rot",
   "blue": "Blau",
