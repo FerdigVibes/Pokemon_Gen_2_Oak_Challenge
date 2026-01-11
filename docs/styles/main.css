@@ -259,3 +259,11 @@ body {
 .game-menu-item:hover {
   background: #444;
 }
+
+.time-icon.active {
+  opacity: 1;
+}
+
+.time-icon.inactive {
+  opacity: 0.3;
+}
