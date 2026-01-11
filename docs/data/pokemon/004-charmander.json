@@ -22,8 +22,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "starter",
-          "notes": "Choose me to begin your journey!"
+          "methodKey": "obtain.starter",
+          "notes": {
+            "en": "Choose me to begin your journey!",
+            "ja": "冒険を始めるために選ぼう！",
+            "fr": "Choisissez-moi pour commencer votre aventure !",
+            "de": "Wähle mich, um dein Abenteuer zu beginnen!",
+            "es": "¡Elígeme para comenzar tu aventura!"
+          }
         }
       ]
     },
@@ -32,11 +38,44 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "starter",
-          "notes": "Choose me to begin your journey!"
+          "methodKey": "obtain.starter",
+          "notes": {
+            "en": "Choose me to begin your journey!",
+            "ja": "冒険を始めるために選ぼう！",
+            "fr": "Choisissez-moi pour commencer votre aventure !",
+            "de": "Wähle mich, um dein Abenteuer zu beginnen!",
+            "es": "¡Elígeme para comenzar tu aventura!"
+          }
         }
       ]
     },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "methodKey": "obtain.gift",
+          "locations": [
+            {
+              "en": "Route 24",
+              "ja": "24ばんどうろ",
+              "fr": "Route 24",
+              "de": "Route 24",
+              "es": "Ruta 24"
+            }
+          ],
+          "notes": {
+            "en": "Given by Damien on Route 24.",
+            "ja": "24ばんどうろでダミアンからもらえる。",
+            "fr": "Donné par Damien sur la Route 24.",
+            "de": "Wird von Damien auf Route 24 erhalten.",
+            "es": "Entregado por Damien en la Ruta 24."
+          }
+        }
+      ]
+    }
+  }
+}
 
     "yellow": {
       "sections": ["CERULEAN_POKEMON"],
