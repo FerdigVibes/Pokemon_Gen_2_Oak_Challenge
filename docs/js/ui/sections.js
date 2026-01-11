@@ -100,9 +100,16 @@ function applyStarterExclusivity(sectionBlock, gameId) {
   }
 }
 
-function renderTimeIconsForPokemon(gameData) {
-  const availability = gameData?.obtain?.flatMap(o => o.time || []) ?? [];
+function getPokemonTimeAvailability(gameData) {
+  if (!gameData?.obtain) return [];
 
+  return gameData.obtain.flatMap(o =>
+    Array.isArray(o.time) ? o.time : o.time ? [o.time] : []
+  );
+}
+
+function renderRowTimeIcons(gameData) {
+  const availability = getPokemonTimeAvailability(gameData);
   if (!availability.length) return null;
 
   const { period } = getGameTime();
@@ -116,7 +123,7 @@ function renderTimeIconsForPokemon(gameData) {
         return `
           <span
             class="time-icon ${active ? "active" : "inactive"}"
-            title="${t}"
+            data-period="${t}"
           >
             ${TIME_ICONS[t]}
           </span>
@@ -125,7 +132,6 @@ function renderTimeIconsForPokemon(gameData) {
     </span>
   `;
 }
-
 
 /* =========================================================
    REACT TO CAUGHT CHANGES
