@@ -10,6 +10,9 @@ import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 import { getGameTime } from "./state/gameTime.js";
+import { setGameTime } from './state/gameTime.js';
+
+window.__setGameTime = setGameTime;
 
 const TIME_SLOTS = ["morning", "day", "night"];
 
@@ -24,6 +27,8 @@ window.__POKEMON_CACHE__ = null;
 
 window.addEventListener('game-time-changed', () => {
   if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
+
+window.__setGameTime = setGameTime;
 
   // Re-render Section 2 (availability icons will update later)
   renderSections({
