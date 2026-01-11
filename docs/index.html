@@ -69,9 +69,15 @@
       </div>
 
       <div class="time-icons">
-        <span class="time-icon active">☀️</span>
-        <span class="time-icon inactive">🌅</span>
-        <span class="time-icon inactive">🌙</span>
+        <span class="time-icon" data-period="morning">
+          🌅 <span data-i18n="time.morningRange"></span>
+        </span>
+        <span class="time-icon" data-period="day">
+          ☀️ <span data-i18n="time.dayRange"></span>
+        </span>
+        <span class="time-icon" data-period="night">
+          🌙 <span data-i18n="time.nightRange"></span>
+        </span>
       </div>
 
       <button id="game-time-btn" class="control hidden">
