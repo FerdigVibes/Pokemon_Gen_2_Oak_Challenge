@@ -23,7 +23,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "method": "evolution",
           "notes": {
             "en": "Evolves from Wartortle at level 36.",
             "ja": "カメールがレベル36で進化する。",
@@ -39,7 +39,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "method": "evolution",
           "notes": {
             "en": "Evolves from Wartortle at level 36.",
             "ja": "カメールがレベル36で進化する。",
@@ -55,7 +55,7 @@
       "sections": ["ONLY_AFTER_VERMILION"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "method": "evolution",
           "notes": {
             "en": "Evolves from Wartortle at level 36.",
             "ja": "カメールがレベル36で進化する。",
