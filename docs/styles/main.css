@@ -107,6 +107,21 @@ body {
   opacity: 0.85;
 }
 
+.time-icon {
+  margin-right: 4px;
+  transition: opacity 0.2s, filter 0.2s;
+}
+
+.time-icon.active {
+  opacity: 1;
+  filter: none;
+}
+
+.time-icon.inactive {
+  opacity: 0.25;
+  filter: grayscale(100%);
+}
+
 /* Subtle idle bounce for selected Pokémon icon */
 @keyframes icon-bob {
   0%   { transform: translateY(0); }
