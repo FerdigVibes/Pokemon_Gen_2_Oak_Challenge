@@ -28,8 +28,6 @@ window.__POKEMON_CACHE__ = null;
 window.addEventListener('game-time-changed', () => {
   if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
 
-window.__setGameTime = setGameTime;
-
   // Re-render Section 2 (availability icons will update later)
   renderSections({
     game: window.__CURRENT_GAME__.data,
