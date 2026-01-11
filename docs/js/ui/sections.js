@@ -5,9 +5,18 @@ import { playPokemonCry } from './cry.js';
 import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
+import { getGameTime } from '../state/gameTime.js';
 
 // Tracks sections manually expanded by the user
 const userExpandedSections = new Set();
+
+const TIME_SLOTS = ["morning", "day", "night"];
+
+const TIME_ICONS = {
+  morning: "🌅",
+  day: "☀️",
+  night: "🌙"
+};
 
 /* =========================================================
    SECTION COUNTER + COLLAPSE
@@ -91,6 +100,32 @@ function applyStarterExclusivity(sectionBlock, gameId) {
   }
 }
 
+function renderTimeIconsForPokemon(gameData) {
+  const availability = gameData?.obtain?.flatMap(o => o.time || []) ?? [];
+
+  if (!availability.length) return null;
+
+  const { period } = getGameTime();
+
+  return `
+    <span class="row-time-icons">
+      ${TIME_SLOTS.map(t => {
+        const allowed = availability.includes(t);
+        const active = allowed && t === period;
+
+        return `
+          <span
+            class="time-icon ${active ? "active" : "inactive"}"
+            title="${t}"
+          >
+            ${TIME_ICONS[t]}
+          </span>
+        `;
+      }).join("")}
+    </span>
+  `;
+}
+
 
 /* =========================================================
    REACT TO CAUGHT CHANGES
@@ -107,6 +142,21 @@ window.addEventListener('caught-changed', () => {
       );
     }
   });
+});
+
+window.addEventListener("game-time-changed", () => {
+  document
+    .querySelectorAll(".section-block")
+    .forEach(section => {
+      const gameId = section.dataset.gameId;
+      const game = window.__CURRENT_GAME__?.data;
+      if (!game) return;
+
+      renderSections({
+        game,
+        pokemon: window.__POKEMON_CACHE__
+      });
+    });
 });
 
 /* =========================================================
@@ -182,6 +232,9 @@ export function renderSections({ game, pokemon }) {
       const lang = getLanguage();
       const displayName = p.names[lang] || p.names.en;
 
+      const gameData = p.games?.[game.id];
+      const timeIconsHtml = renderTimeIconsForPokemon(gameData);
+
       row.dataset.name = displayName.toLowerCase();
       row.dataset.family = p.evolution?.family?.join('|') ?? '';
 
@@ -224,6 +277,10 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(` #${String(p.dex).padStart(3, '0')} `),
         document.createTextNode(displayName)
       );
+
+      if (timeIconsHtml) {
+        row.insertAdjacentHTML("beforeend", timeIconsHtml);
+      }
 
       /* Row click → Section 3 */
 
