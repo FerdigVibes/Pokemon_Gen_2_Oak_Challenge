@@ -9,8 +9,7 @@ import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
-import { TIME_SLOTS, TIME_ICONS } from "../ui/time.js";
-import { getCurrentTime } from "../state/time.js";
+
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
@@ -68,7 +67,7 @@ function renderTimeIcons(pokemonTime) {
     ? pokemonTime
     : pokemonTime ? [pokemonTime] : [];
 
-  const current = getCurrentTime();
+  const current = getGameTime().Period
 
   return `
     <div class="time-icons">
@@ -148,7 +147,17 @@ function applyTranslations() {
   if (objLabel) objLabel.textContent = t('currentObjective') + ':';
 }
 
+function isAvailableNow(pokemonAvailability, gameTime) {
+  const timeOk =
+    !pokemonAvailability.time ||
+    pokemonAvailability.time.includes(gameTime.period);
 
+  const dayOk =
+    !pokemonAvailability.days ||
+    pokemonAvailability.days.includes(gameTime.dayOfWeek);
+
+  return timeOk && dayOk;
+}
 
 
 /* =========================================================
