@@ -95,5 +95,10 @@
   "mewtwo": "Mewtwo",
 
   "pikachu": "À toi, Pikachu !",
-  "squirtlesquad": "La bande des Carapuce"
+  "squirtlesquad": "La bande des Carapuce",
+  "time": {
+    "morningRange": "4 h 00 – 9 h 59",
+    "dayRange": "10 h 00 – 17 h 59",
+    "nightRange": "18 h 00 – 3 h 59"
+  }
 }
