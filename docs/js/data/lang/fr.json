@@ -17,6 +17,8 @@
   "red": "Rouge",
   "blue": "Bleu",
   "yellow": "Jaune",
+  "globalCaughtCount": "{{caught}} / {{total}} Attrapés",
+  "sectionCaughtCount": "{{caught}} / {{total}}",
 
   "gold": "Or",
   "silver": "Argent",
