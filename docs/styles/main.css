@@ -260,6 +260,12 @@ body {
   background: #444;
 }
 
+.row-time-icons {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
 .time-icon.active {
   opacity: 1;
 }
