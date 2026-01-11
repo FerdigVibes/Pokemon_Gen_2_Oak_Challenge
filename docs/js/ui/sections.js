@@ -5,6 +5,14 @@ import { playPokemonCry } from './cry.js';
 import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
+
+window.addEventListener('language-changed', () => {
+  if (!window.__CURRENT_GAME__) return;
+  renderSections({
+    game: window.__CURRENT_GAME__.data,
+    pokemon: window.__POKEMON_CACHE__
+  });
+});
       
 // Tracks sections manually expanded by the user
 const userExpandedSections = new Set();
@@ -39,7 +47,7 @@ function updateSectionCounter(sectionBlock) {
     ).length;
   } else {
     caughtCount = Array.from(rows).filter(row =>
-      isCaught(gameId, Number(row.dataset.dex))
+      document.createTextNode(` #${String(p.dex).padStart(3, '0')} `)
     ).length;
   }
 
@@ -101,7 +109,10 @@ export function renderSections({ game, pokemon }) {
 
     const counter = document.createElement('span');
     counter.className = 'section-counter';
-    counter.textContent = `0 / ${section.requiredCount} ${t('caught')}`;
+    counter.textContent = t('caughtCount', {
+     caught: 0,
+     total: section.requiredCount
+    });
 
     const title = document.createElement('span');
     title.className = 'section-title';
@@ -132,7 +143,7 @@ export function renderSections({ game, pokemon }) {
     );
 
     matches.forEach(p => {
-      const dex = String(p.dex).padStart(3, '0');
+      row.dataset.dex = String(p.dex);
       const caught = isCaught(game.id, p.dex);
 
       const row = document.createElement('div');
@@ -174,7 +185,7 @@ export function renderSections({ game, pokemon }) {
       const icon = document.createElement('img');
       icon.className = 'pokemon-icon';
       icon.src = `./assets/icons/pokemon/${dex}-${p.slug}-icon.png`;
-      icon.alt = displayName;
+      icon.alt = t('pokemonIconAlt', { name: displayName });
 
       row.append(
         ball,
