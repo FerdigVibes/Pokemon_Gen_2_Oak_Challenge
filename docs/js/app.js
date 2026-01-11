@@ -232,38 +232,29 @@ function wireMuteToggle() {
    GAME SWITCH CORE
    ========================================================= */
 
-async function selectGame(game) {
-  // 1️⃣ Load data
-  const gameData = await loadGame(game.id);
+async function selectGame(gameMeta) {
+  // gameMeta comes from GAME_REGISTRY
+  const gameData = await loadGame(gameMeta.id);
 
-  // Update selector button label
+  window.__CURRENT_GAME__ = {
+    data: gameData,
+    meta: gameMeta
+  };
+
+  // Selector button
   document.getElementById('game-selector-btn').textContent =
-    `${game.label} ▾`;
+    `${t(gameMeta.labelKey)} ▾`;
 
-  // 2️⃣ Expose derived state
-  window.__CURRENT_GAME__ = gameData;
-  window.__POKEMON_CACHE__ = gameData.pokemon;
-
-  // 3️⃣ Update title (translated)
+  // Title
   document.getElementById('app-title').textContent = t('appTitle', {
-    version: game.label
+    version: t(gameMeta.labelKey)
   });
 
-  // 4️⃣ Reset UI
-  document.getElementById('app')?.classList.remove('has-detail');
-  document
-    .querySelectorAll('.pokemon-row.is-active')
-    .forEach(r => r.classList.remove('is-active'));
-
-  document.getElementById('section-list').scrollTop = 0;
-
-  // 5️⃣ Render sections
   renderSections({
     game: gameData,
     pokemon: gameData.pokemon
   });
 
-  // 6️⃣ Update derived UI
   updateGlobalProgress(gameData, gameData.pokemon);
   updateCurrentObjective(gameData, gameData.pokemon);
 }
