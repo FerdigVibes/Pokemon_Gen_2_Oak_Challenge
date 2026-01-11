@@ -24,7 +24,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "c",
           "notes": {
             "en": "Evolves from Charmander at level 16.",
             "ja": "ヒトカゲがレベル16で進化する。",
