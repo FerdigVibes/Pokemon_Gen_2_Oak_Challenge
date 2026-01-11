@@ -15,8 +15,20 @@ import { getGameTime } from "./state/gameTime.js";
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
 
-window.addEventListener("game-time-changed", () => {
-  // re-render sections & detail if needed
+window.addEventListener('game-time-changed', () => {
+  if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
+
+  // Re-render Section 2 (availability icons will update later)
+  renderSections({
+    game: window.__CURRENT_GAME__.data,
+    pokemon: window.__POKEMON_CACHE__
+  });
+
+  // Re-render Section 3 if open
+  const selection = getCurrentDetailSelection();
+  if (selection) {
+    renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
+  }
 });
 
 /* =========================================================
