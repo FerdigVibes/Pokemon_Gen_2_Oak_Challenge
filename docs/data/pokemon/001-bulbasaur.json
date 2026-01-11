@@ -23,7 +23,13 @@
       "obtain": [
         {
           "method": "starter",
-          "notes": "Pick me to begin your journey!."
+          "notes": {
+            "en": "Pick me to begin your journey!",
+            "ja": "冒険を始めるために選ぼう！",
+            "fr": "Choisissez-moi pour commencer votre aventure !",
+            "de": "Wähle mich, um dein Abenteuer zu beginnen!",
+            "es": "¡Elígeme para comenzar tu aventura!"
+          }
         }
       ]
     },
@@ -33,7 +39,13 @@
       "obtain": [
         {
           "method": "starter",
-          "notes": "Pick me to begin your journey!."
+          "notes": {
+            "en": "Pick me to begin your journey!",
+            "ja": "冒険を始めるために選ぼう！",
+            "fr": "Choisissez-moi pour commencer votre aventure !",
+            "de": "Wähle mich, um dein Abenteuer zu beginnen!",
+            "es": "¡Elígeme para comenzar tu aventura!"
+          }
         }
       ]
     },
@@ -43,10 +55,23 @@
       "obtain": [
         {
           "method": "gift",
-          "location": "Cerulean City",
-          "notes": "Given by an NPC in the house next to the Pokémon Center after Pikachu's happiness is high."
+          "location": {
+            "en": "Cerulean City",
+            "ja": "ハナダシティ",
+            "fr": "Azuria",
+            "de": "Azuria-City",
+            "es": "Ciudad Celeste"
+          },
+          "notes": {
+            "en": "Given by an NPC in the house next to the Pokémon Center after Pikachu's happiness is high.",
+            "ja": "ピカチュウのなつき度が高いと、ポケモンセンター横の家の住人からもらえる。",
+            "fr": "Donné par un PNJ dans la maison à côté du Centre Pokémon lorsque le bonheur de Pikachu est élevé.",
+            "de": "Wird von einem NPC im Haus neben dem Pokémon-Center gegeben, wenn Pikachus Freundschaft hoch ist.",
+            "es": "Entregado por un NPC en la casa junto al Centro Pokémon cuando la felicidad de Pikachu es alta."
+          }
         }
       ]
     }
   }
 }
+
