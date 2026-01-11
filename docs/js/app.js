@@ -32,21 +32,25 @@ window.addEventListener('caught-changed', () => {
    ========================================================= */
 
 async function init() {
-  const lang = getLanguage();
-  await loadLanguage(lang);
+  try {
+    buildGameSelector();
+    wireSearch();
+    wireMuteToggle();
+    wireLanguageSelector();
 
-  buildGameSelector();
-  wireSearch();
-  wireMuteToggle();
-  wireLanguageSelector();
+    // Load default language safely
+    await loadLanguage(getLanguage());
 
-  await selectGame({
-    id: 'red',
-    label: 'Red',
-    total: 124
-  });
+    applyTranslations();
 
-  applyTranslations();
+    await selectGame({
+      id: 'red',
+      label: 'Red',
+      total: 124
+    });
+  } catch (err) {
+    console.error('Init failed:', err);
+  }
 }
 
 
