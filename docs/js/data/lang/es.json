@@ -10,6 +10,16 @@
   "howToObtain": "Cómo obtener",
   "locations": "Ubicaciones",
   "appTitle": "Desafío del Profesor Oak – Versión {{version}}",
+  "gen1": "Generación I",
+  "gen2": "Generación II",
+
+  "red": "Rojo",
+  "blue": "Azul",
+  "yellow": "Amarillo",
+
+  "gold": "Oro",
+  "silver": "Plata",
+  "crystal": "Cristal",
 
   "chooseYourStarter": "Elige tu Pokémon inicial",
 
