@@ -44,7 +44,7 @@ function updateSectionCounter(sectionBlock) {
   }
 
   sectionBlock._counterEl.textContent =
-    `${caughtCount} / ${required} Caught`;
+    `${caughtCount} / ${required} ${t('caught')}`;
 
   // Collapse if complete (unless user forced open)
   const header = sectionBlock.querySelector('h2');
@@ -101,11 +101,11 @@ export function renderSections({ game, pokemon }) {
 
     const counter = document.createElement('span');
     counter.className = 'section-counter';
-    counter.textContent = `0 / ${section.requiredCount} Caught`;
+    counter.textContent = `0 / ${section.requiredCount} ${t('caught')}`;
 
     const title = document.createElement('span');
     title.className = 'section-title';
-    title.textContent = section.title;
+    title.textContent = t(section.titleKey);
 
     header.append(counter, title);
     sectionBlock._counterEl = counter;
@@ -174,7 +174,7 @@ export function renderSections({ game, pokemon }) {
       const icon = document.createElement('img');
       icon.className = 'pokemon-icon';
       icon.src = `./assets/icons/pokemon/${dex}-${p.slug}-icon.png`;
-      icon.alt = p.names.en;
+      icon.alt = displayName;
 
       row.append(
         ball,
