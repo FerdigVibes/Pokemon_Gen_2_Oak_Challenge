@@ -19,6 +19,7 @@
   "yellow": "ピカチュウ",
   "globalCaughtCount": "{{caught}} / {{total}} 捕まえた",
   "sectionCaughtCount": "{{caught}} / {{total}}",
+  "gameTime": "ゲーム時間",
 
   "gold": "金",
   "silver": "銀",
