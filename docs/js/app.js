@@ -16,9 +16,6 @@ window.__POKEMON_CACHE__ = null;
    GLOBAL CAUGHT REACTIVITY
    ========================================================= */
 
-window.addEventListener('caught-changed', () => {
-  if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
-
   updateGlobalProgress(
     window.__CURRENT_GAME__.data,
     window.__POKEMON_CACHE__
@@ -308,6 +305,9 @@ function applySearchFilter(query) {
     }
   });
 }
+
+window.addEventListener('caught-changed', () => {
+  if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
 
 function wireSearch() {
   const input = document.getElementById('search-input');
