@@ -17,6 +17,8 @@
   "red": "赤",
   "blue": "青",
   "yellow": "ピカチュウ",
+  "globalCaughtCount": "{{caught}} / {{total}} 捕まえた",
+  "sectionCaughtCount": "{{caught}} / {{total}}",
 
   "gold": "金",
   "silver": "銀",
