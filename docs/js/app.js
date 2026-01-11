@@ -208,6 +208,11 @@ function wireMuteToggle() {
 
 async function selectGame(gameMeta) {
   const gameData = await loadGame(gameMeta.id);
+  const isGen2 = [ "gold", "silver", "crystal" ].includes(gameMeta.id);
+
+  document
+    .getElementById("game-time-btn")
+    ?.classList.toggle("hidden", !isGen2);
 
   window.__CURRENT_GAME__ = {
     meta: gameMeta,
