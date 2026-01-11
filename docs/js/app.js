@@ -9,7 +9,8 @@ import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
-import { getGameTime, setGameTime } from "./state/gameTime.js";
+import { getGameTime } from "./state/gameTime.js";
+
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
