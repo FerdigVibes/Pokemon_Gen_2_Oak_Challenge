@@ -10,6 +10,16 @@
   "howToObtain": "Fundort",
   "locations": "Orte",
   "appTitle": "Professor-Eich-Challenge – {{version}}-Edition",
+  "gen1": "Generation I",
+  "gen2": "Generation II",
+
+  "red": "Rot",
+  "blue": "Blau",
+  "yellow": "Gelb",
+
+  "gold": "Gold",
+  "silver": "Silber",
+  "crystal": "Kristall",
 
   "chooseYourStarter": "Wähle dein Starter-Pokémon",
 
