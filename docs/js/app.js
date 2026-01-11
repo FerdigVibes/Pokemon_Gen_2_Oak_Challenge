@@ -62,32 +62,6 @@ function wireLanguageSelector() {
   });
 }
 
-function renderTimeIcons(pokemonTime) {
-  const times = Array.isArray(pokemonTime)
-    ? pokemonTime
-    : pokemonTime ? [pokemonTime] : [];
-
-  const current = getGameTime().Period
-
-  return `
-    <div class="time-icons">
-      ${TIME_SLOTS.map(t => {
-        const active = times.includes(t);
-        const lit = active && t === current;
-
-        return `
-          <span
-            class="time-icon ${lit ? "active" : "inactive"}"
-            data-time="${t}"
-          >
-            ${TIME_ICONS[t]}
-          </span>
-        `;
-      }).join("")}
-    </div>
-  `;
-}
-
 
 function resetAppToBlankState() {
   window.__CURRENT_GAME__ = null;
