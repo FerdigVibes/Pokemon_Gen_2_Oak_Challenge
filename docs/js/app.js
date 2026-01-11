@@ -8,7 +8,7 @@ import { isCaught } from './state/caught.js';
 import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
-import { closePokemonDetail, renderPokemonDetail } from './ui/detail.js';
+import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
@@ -206,35 +206,31 @@ async function selectGame(gameMeta) {
     version: t(gameMeta.labelKey)
   });
 
-  // Render Section 2 first (updates __POKEMON_CACHE__)
+  // Render Section 2 first (this updates __POKEMON_CACHE__)
   renderSections({
     game: gameData,
     pokemon: gameData.pokemon
   });
 
-  // Reconcile Section 3 with new game
-  const detailPanel = document.getElementById('detail-panel');
+  // Reconcile Section 3 using DATA state (not DOM)
+  const selection = getCurrentDetailSelection();
 
-  if (detailPanel && detailPanel.innerHTML.trim()) {
-    const selectedRow = document.querySelector('.pokemon-row.is-active');
+  if (selection) {
+    const { pokemon } = selection;
 
-    if (selectedRow) {
-      const dex = Number(selectedRow.dataset.dex);
-      const pokemon = window.__POKEMON_CACHE__.find(p => p.dex === dex);
-
-      // Pokémon does not exist in this version → close Section 3
-      if (!pokemon || !pokemon.games?.[gameMeta.id]) {
-        closePokemonDetail();
-      } else {
-        // Pokémon exists → re-render with new game data
-        renderPokemonDetail(pokemon, gameData);
-      }
+    // Pokémon does not exist in this version → close Section 3
+    if (!pokemon.games?.[gameMeta.id]) {
+      closePokemonDetail();
+    } else {
+      // Pokémon exists → re-render with new game data
+      renderPokemonDetail(pokemon, gameData);
     }
   }
 
   updateGlobalProgress(gameData, gameData.pokemon);
   updateCurrentObjective(gameData, gameData.pokemon);
 }
+
 
 
 
