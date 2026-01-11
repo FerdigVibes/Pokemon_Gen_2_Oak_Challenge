@@ -24,8 +24,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Squirtle at level 16."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Squirtle at level 16.",
+            "ja": "ゼニガメがレベル16で進化する。",
+            "fr": "Évolue de Carapuce au niveau 16.",
+            "de": "Entwickelt sich aus Schiggy auf Level 16.",
+            "es": "Evoluciona de Squirtle al nivel 16."
+          }
         }
       ]
     },
@@ -34,8 +40,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Squirtle at level 16."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Squirtle at level 16.",
+            "ja": "ゼニガメがレベル16で進化する。",
+            "fr": "Évolue de Carapuce au niveau 16.",
+            "de": "Entwickelt sich aus Schiggy auf Level 16.",
+            "es": "Evoluciona de Squirtle al nivel 16."
+          }
         }
       ]
     },
@@ -44,10 +56,17 @@
       "sections": ["ONLY_AFTER_VERMILION"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Squirtle at level 16."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Squirtle at level 16.",
+            "ja": "ゼニガメがレベル16で進化する。",
+            "fr": "Évolue de Carapuce au niveau 16.",
+            "de": "Entwickelt sich aus Schiggy auf Level 16.",
+            "es": "Evoluciona de Squirtle al nivel 16."
+          }
         }
       ]
     }
   }
 }
+
