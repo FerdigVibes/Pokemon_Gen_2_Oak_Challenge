@@ -1,5 +1,8 @@
-export function getTimePeriod(hour) {
-  if (hour >= 4 && hour < 10) return "morning";
-  if (hour >= 10 && hour < 18) return "day";
-  return "night";
-}
+// ui/time.js
+export const TIME_SLOTS = ["morning", "day", "night"];
+
+export const TIME_ICONS = {
+  morning: "🌅",
+  day: "☀️",
+  night: "🌙"
+};
