@@ -19,6 +19,7 @@
   "yellow": "Yellow",
   "globalCaughtCount": "{{caught}} / {{total}} Caught",
   "sectionCaughtCount": "{{caught}} / {{total}}",
+  "gameTime": "Game Time",
 
   "gold": "Gold",
   "silver": "Silver",
