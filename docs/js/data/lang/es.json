@@ -16,6 +16,7 @@
   "pickVersionPrompt": "Elige una versión para comenzar",
   "globalCaughtCount": "{{caught}} / {{total}} Capturados",
   "sectionCaughtCount": "{{caught}} / {{total}}",
+  "gameTime": "Hora del juego",
 
   "red": "Rojo",
   "blue": "Azul",
