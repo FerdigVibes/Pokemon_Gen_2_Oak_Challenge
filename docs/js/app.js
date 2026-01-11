@@ -39,6 +39,10 @@ window.addEventListener('game-time-changed', () => {
   }
 });
 
+window.addEventListener("game-time-changed", () => {
+  updateTopBarTimeIcons();
+});
+
 /* =========================================================
    INIT
    ========================================================= */
@@ -51,6 +55,7 @@ async function init() {
 
     // Load default language safely
     await loadLanguage(getLanguage());
+    updateTopBarTimeIcons();
 
     // Build UI that depends on translations
     buildGameSelector();
@@ -240,6 +245,21 @@ async function selectGame(gameMeta) {
     data: gameData
   };
 
+  const isGen2 = ["gold", "silver", "crystal"].includes(gameMeta.id);
+
+  const timeIcons = document.querySelector(".time-icons");
+  const timeLegend = document.querySelector(".time-legend");
+  const timeBtn = document.getElementById("game-time-btn");
+  
+  [timeIcons, timeLegend, timeBtn].forEach(el => {
+    if (!el) return;
+    el.classList.toggle("hidden", !isGen2);
+  });
+  
+  if (isGen2) {
+    updateTopBarTimeIcons();
+  }
+
   document.getElementById('game-selector-btn').textContent =
     `${t(gameMeta.labelKey)} ▾`;
 
@@ -341,7 +361,26 @@ function getCurrentObjective(game, pokemon) {
   return t('challengeComplete');
 }
 
+function updateTopBarTimeIcons() {
+  const container = document.querySelector(".time-icons");
+  if (!container) return;
 
+  const { period } = getGameTime();
+
+  container.innerHTML = TIME_SLOTS.map(t => {
+    const isActive = t === period;
+
+    return `
+      <span
+        class="time-icon ${isActive ? "active" : "inactive"}"
+        data-time="${t}"
+        title="${t}"
+      >
+        ${TIME_ICONS[t]}
+      </span>
+    `;
+  }).join("");
+}
 
 function rebuildGameSelector() {
   const btn = document.getElementById('game-selector-btn');
