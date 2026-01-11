@@ -18,13 +18,15 @@ window.__POKEMON_CACHE__ = null;
 
 async function init() {
   try {
-    buildGameSelector();
     wireSearch();
     wireMuteToggle();
     wireLanguageSelector();
 
     // Load default language safely
     await loadLanguage(getLanguage());
+
+    // Build UI that depends on translations
+    buildGameSelector();
 
     applyTranslations();
     resetAppToBlankState();
@@ -33,7 +35,6 @@ async function init() {
     console.error('Init failed:', err);
   }
 }
-
 
 function wireLanguageSelector() {
   const select = document.getElementById('language-selector');
