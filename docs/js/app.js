@@ -359,24 +359,13 @@ function getCurrentObjective(game, pokemon) {
 }
 
 function updateTopBarTimeIcons() {
-  const container = document.querySelector(".time-icons");
-  if (!container) return;
-
   const { period } = getGameTime();
 
-  container.innerHTML = TIME_SLOTS.map(t => {
-    const isActive = t === period;
-
-    return `
-      <span
-        class="time-icon ${isActive ? "active" : "inactive"}"
-        data-time="${t}"
-        title="${t}"
-      >
-        ${TIME_ICONS[t]}
-      </span>
-    `;
-  }).join("");
+  document.querySelectorAll(".time-icon").forEach(icon => {
+    const iconPeriod = icon.dataset.period;
+    icon.classList.toggle("active", iconPeriod === period);
+    icon.classList.toggle("inactive", iconPeriod !== period);
+  });
 }
 
 function rebuildGameSelector() {
