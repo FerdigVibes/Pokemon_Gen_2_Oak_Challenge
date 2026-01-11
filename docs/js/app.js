@@ -32,21 +32,23 @@ window.addEventListener('caught-changed', () => {
    ========================================================= */
 
 async function init() {
+  const lang = getLanguage();
+  await loadLanguage(lang);
+
   buildGameSelector();
   wireSearch();
   wireMuteToggle();
   wireLanguageSelector();
-
-  // ✅ Load initial language
-  await loadLanguage(getLanguage());
-  applyTranslations();
 
   await selectGame({
     id: 'red',
     label: 'Red',
     total: 124
   });
+
+  applyTranslations();
 }
+
 
 function wireLanguageSelector() {
   const select = document.getElementById('language-selector');
