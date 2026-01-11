@@ -77,15 +77,3 @@
   }
 }
 
-    "yellow": {
-      "sections": ["CERULEAN_POKEMON"],
-      "obtain": [
-        {
-          "method": "gift",
-          "location": "Cerulean City",
-          "notes": "Given by Damien on Route 24"
-        }
-      ]
-    }
-  }
-}
