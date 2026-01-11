@@ -260,9 +260,9 @@ body {
   background: #444;
 }
 
-.row-time-icons {
-  margin-left: auto;
-  display: flex;
+.time-icon {
+  display: inline-flex;
+  align-items: center;
   gap: 4px;
 }
 
