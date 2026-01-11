@@ -17,3 +17,9 @@ export function t(key, vars = {}) {
 
   return str;
 }
+
+export function resolveLangField(field, lang) {
+  if (!field) return null;
+  if (typeof field === 'string') return field;
+  return field[lang] || field.en || null;
+}
