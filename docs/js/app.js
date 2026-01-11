@@ -10,7 +10,15 @@ import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 import { getGameTime } from "./state/gameTime.js";
+import { getGameTime } from './state/gameTime.js';
 
+const TIME_SLOTS = ["morning", "day", "night"];
+
+const TIME_ICONS = {
+  morning: "🌅",
+  day: "☀️",
+  night: "🌙"
+};
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
