@@ -102,6 +102,11 @@ body {
   cursor: pointer;
 }
 
+.section-rows .time-icons {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
 /* Subtle idle bounce for selected Pokémon icon */
 @keyframes icon-bob {
   0%   { transform: translateY(0); }
