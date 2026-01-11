@@ -127,9 +127,24 @@ export function renderPokemonDetail(pokemon, game) {
    ========================================================= */
 
 function renderGameInfo(gameData) {
-  const obtainHtml = (gameData.obtain || [])
-    .map(o => renderObtainEntry(o))
-    .join('');
+  import { getLanguage } from '../state/language.js';
+  import { resolveLangField } from '../data/i18n.js';
+   
+  const lang = getLanguage();
+   
+  function renderObtainEntry(o) {
+    const locations = resolveLangField(o.locations, lang);
+    const time = resolveLangField(o.time, lang);
+    const notes = resolveLangField(o.notes, lang);
+   
+    return `
+     <li style="margin-bottom: 8px;">
+      ${locations ? `<strong>${t('locations')}:</strong> ${locations.join(', ')}<br/>` : ''}
+      ${time ? `<strong>${t('time')}:</strong> ${time.join(', ')}<br/>` : ''}
+      ${notes ? `<em>${notes}</em>` : ''}
+     </li>
+    `;
+  }
 
   return `
     <h3>How to Obtain</h3>
