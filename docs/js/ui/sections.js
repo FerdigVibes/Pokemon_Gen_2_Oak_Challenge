@@ -7,9 +7,6 @@ import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
 import { getGameTime } from '../state/gameTime.js';
 
-// Tracks sections manually expanded by the user
-const userExpandedSections = new Set();
-
 const TIME_SLOTS = ["morning", "day", "night"];
 
 const TIME_ICONS = {
@@ -150,16 +147,6 @@ window.addEventListener('caught-changed', () => {
   });
 });
 
-import { getGameTime } from "../state/gameTime.js";
-
-const TIME_ICONS = {
-  morning: "🌅",
-  day: "☀️",
-  night: "🌙"
-};
-
-const TIME_SLOTS = ["morning", "day", "night"];
-
 function renderTimeIconsForPokemon(pokemon, row) {
   const gameId = row.closest(".section-block")?.dataset.gameId;
   const gameData = pokemon.games?.[gameId];
@@ -181,13 +168,12 @@ function renderTimeIconsForPokemon(pokemon, row) {
 
   const { period } = getGameTime();
 
-  const wrapper = document.createElement("div");
+  const wrapper = document.createElement("span");
   wrapper.className = "row-time-icons";
 
   TIME_SLOTS.forEach(t => {
     const span = document.createElement("span");
     span.className = "time-icon";
-
     span.textContent = TIME_ICONS[t];
 
     if (times.has(t) && t === period) {
@@ -201,6 +187,7 @@ function renderTimeIconsForPokemon(pokemon, row) {
 
   row.appendChild(wrapper);
 }
+
 
 /* =========================================================
    SECTION 2 RENDERER
@@ -259,8 +246,6 @@ export function renderSections({ game, pokemon }) {
         : userExpandedSections.delete(section.id);
     });
 
-    renderTimeIconsForPokemon(p, row);
-
     /* ---------- Pokémon rows ---------- */
 
     const matches = pokemon.filter(p =>
@@ -278,7 +263,6 @@ export function renderSections({ game, pokemon }) {
       const displayName = p.names[lang] || p.names.en;
 
       const gameData = p.games?.[game.id];
-      const timeIconsHtml = renderTimeIconsForPokemon(gameData);
 
       row.dataset.name = displayName.toLowerCase();
       row.dataset.family = p.evolution?.family?.join('|') ?? '';
@@ -309,6 +293,8 @@ export function renderSections({ game, pokemon }) {
         );
       });
 
+      renderTimeIconsForPokemon(p, row);
+
       /* Icon */
 
       const icon = document.createElement('img');
@@ -322,10 +308,6 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(` #${String(p.dex).padStart(3, '0')} `),
         document.createTextNode(displayName)
       );
-
-      if (timeIconsHtml) {
-        row.insertAdjacentHTML("beforeend", timeIconsHtml);
-      }
 
       /* Row click → Section 3 */
 
