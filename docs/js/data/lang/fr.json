@@ -19,6 +19,7 @@
   "yellow": "Jaune",
   "globalCaughtCount": "{{caught}} / {{total}} Attrapés",
   "sectionCaughtCount": "{{caught}} / {{total}}",
+  "gameTime": "Temps du jeu",
 
   "gold": "Or",
   "silver": "Argent",
