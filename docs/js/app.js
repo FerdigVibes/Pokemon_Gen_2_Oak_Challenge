@@ -244,8 +244,6 @@ async function selectGame(gameMeta) {
     data: gameData
   };
 
-  const isGen2 = ["gold", "silver", "crystal"].includes(gameMeta.id);
-
   const timeIcons = document.querySelector(".time-icons");
   const timeLegend = document.querySelector(".time-legend");
   const timeBtn = document.getElementById("game-time-btn");
