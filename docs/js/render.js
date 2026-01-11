@@ -8,6 +8,12 @@ export function renderApp() {
 function renderTopBar() {
   const title = document.getElementById("title");
   title.textContent = `Pokédex – ${state.game.toUpperCase()}`;
+
+  if (game.generation === 2) {
+    showTimeLegend();
+  } else {
+    hideTimeLegend();
+  }
 }
 
 function renderPokedexList() {
