@@ -150,21 +150,6 @@ window.addEventListener('caught-changed', () => {
   });
 });
 
-window.addEventListener("game-time-changed", () => {
-  document
-    .querySelectorAll(".section-block")
-    .forEach(section => {
-      const gameId = section.dataset.gameId;
-      const game = window.__CURRENT_GAME__?.data;
-      if (!game) return;
-
-      renderSections({
-        game,
-        pokemon: window.__POKEMON_CACHE__
-      });
-    });
-});
-
 /* =========================================================
    SECTION 2 RENDERER
    ========================================================= */
@@ -327,5 +312,14 @@ export function renderSections({ game, pokemon }) {
     updateSectionCounter(sectionBlock);
   });
 }
+
+window.addEventListener("game-time-changed", () => {
+  if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
+
+  renderSections({
+    game: window.__CURRENT_GAME__.data,
+    pokemon: window.__POKEMON_CACHE__
+  });
+});
 
 
