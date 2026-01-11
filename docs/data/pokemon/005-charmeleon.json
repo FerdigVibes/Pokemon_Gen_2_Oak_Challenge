@@ -24,8 +24,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Charmander at level 16."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Charmander at level 16.",
+            "ja": "ヒトカゲがレベル16で進化する。",
+            "fr": "Évolue de Salamèche au niveau 16.",
+            "de": "Entwickelt sich aus Glumanda auf Level 16.",
+            "es": "Evoluciona de Charmander al nivel 16."
+          }
         }
       ]
     },
@@ -34,8 +40,14 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Charmander at level 16."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Charmander at level 16.",
+            "ja": "ヒトカゲがレベル16で進化する。",
+            "fr": "Évolue de Salamèche au niveau 16.",
+            "de": "Entwickelt sich aus Glumanda auf Level 16.",
+            "es": "Evoluciona de Charmander al nivel 16."
+          }
         }
       ]
     },
@@ -44,10 +56,17 @@
       "sections": ["CERULEAN_POKEMON"],
       "obtain": [
         {
-          "method": "evolution",
-          "notes": "Evolves from Charmander at level 16."
+          "methodKey": "obtain.evolution",
+          "notes": {
+            "en": "Evolves from Charmander at level 16.",
+            "ja": "ヒトカゲがレベル16で進化する。",
+            "fr": "Évolue de Salamèche au niveau 16.",
+            "de": "Entwickelt sich aus Glumanda auf Level 16.",
+            "es": "Evoluciona de Charmander al nivel 16."
+          }
         }
       ]
     }
   }
 }
+
