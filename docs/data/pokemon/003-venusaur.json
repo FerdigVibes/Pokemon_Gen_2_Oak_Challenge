@@ -23,7 +23,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "method": "evolution",
           "notes": {
             "en": "Evolves from Ivysaur at level 32.",
             "ja": "フシギソウがレベル32で進化。",
@@ -39,7 +39,7 @@
       "sections": ["STARTER"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "method": "evolution",
           "notes": {
             "en": "Evolves from Ivysaur at level 32.",
             "ja": "フシギソウがレベル32で進化。",
@@ -55,7 +55,7 @@
       "sections": ["CERULEAN_POKEMON"],
       "obtain": [
         {
-          "methodKey": "obtain.evolution",
+          "method": "evolution",
           "notes": {
             "en": "Evolves from Ivysaur at level 32.",
             "ja": "フシギソウがレベル32で進化。",
