@@ -8,6 +8,7 @@ import { isCaught } from './state/caught.js';
 import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
+import { closePokemonDetail, renderPokemonDetail } from './ui/detail.js';
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
