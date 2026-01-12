@@ -15,6 +15,18 @@ const TIME_ICONS = {
   night: "🌙"
 };
 
+const DAYS = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+
+const DAY_LABELS = {
+  monday: "Mo",
+  tuesday: "Tu",
+  wednesday: "We",
+  thursday: "Th",
+  friday: "Fr",
+  saturday: "Sa",
+  sunday: "Su"
+};
+
 /* =========================================================
    SECTION COUNTER + COLLAPSE
    ========================================================= */
@@ -53,6 +65,14 @@ function updateSectionCounter(sectionBlock) {
     caught: caughtCount,
     total: required
   });
+}
+
+function getPokemonDayAvailability(gameData) {
+  if (!gameData?.obtain) return [];
+
+  return gameData.obtain.flatMap(o =>
+    Array.isArray(o.days) ? o.days : []
+  );
 }
 
 function applyStarterExclusivity(sectionBlock, gameId) {
