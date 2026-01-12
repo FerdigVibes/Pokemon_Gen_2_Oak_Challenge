@@ -6,7 +6,7 @@ import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
 import { getGameTime } from '../state/gameTime.js';
-import { normalizeGameId } from './loader.js';
+import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 const GEN2_IDS = new Set(['gold', 'silver', 'crystal_gbc', 'crystal_vc']);
 
@@ -37,16 +37,9 @@ const MOON_STONE_SECTIONS = new Set([
 const userExpandedSections = new Set();
 
 function getGameEntries(pokemon, gameId) {
-  // Normalize platform-specific IDs (crystal_gbc / crystal_vc → crystal)
-  const normalizedId = normalizeGameId(gameId);
-
-  // Prefer exact match first (needed for Celebi in crystal_vc)
-  const raw =
-    pokemon.games?.[gameId] ??
-    pokemon.games?.[normalizedId];
-
+  const normalized = normalizeGameId(gameId);
+  const raw = pokemon.games?.[normalized];
   if (!raw) return [];
-
   return Array.isArray(raw) ? raw : [raw];
 }
 
