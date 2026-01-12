@@ -59,8 +59,86 @@
       }
     ],
 
-    "blue": "SAME_AS_RED",
-    "yellow": "SAME_AS_RED",
+    "blue": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorina using a Moon Stone. Only two Moon Stones are available currently: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ニドリーナに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Nidorina avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Nidorina mit einem Mondstein. Aktuell sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Nidorina con una Piedra Lunar. Por ahora solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorina with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "ニドリーナに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Nidorina avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Nidorina mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Nidorina con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
+            }
+          }
+        ]
+      }
+    ],
+    "yellow": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorina using a Moon Stone. Only two Moon Stones are available currently: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ニドリーナに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Nidorina avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Nidorina mit einem Mondstein. Aktuell sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Nidorina con una Piedra Lunar. Por ahora solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorina with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "ニドリーナに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Nidorina avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Nidorina mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Nidorina con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
+            }
+          }
+        ]
+      }
+    ],
 
     "gold": [
       {
@@ -85,7 +163,7 @@
       {
         "sections": ["MOON_STONE_2"],
         "availability": {
-          "afterSection": "BEFORE_KANTO",
+          "afterSection": "BEFORE_KANTO_BADGES",
           "excludeDex": [31]
         },
         "obtain": [
@@ -103,7 +181,46 @@
       }
     ],
 
-    "silver": "SAME_AS_GOLD",
+    "silver": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_MAHOGANY",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorina using a Moon Stone. A Moon Stone can be found in Tohjo Falls east of New Bark Town.",
+              "ja": "ニドリーナに「つきのいし」を使って進化。つきのいしはワカバタウン東のトージョウのたきで入手できる。",
+              "fr": "Faites évoluer Nidorina avec une Pierre Lune. Une Pierre Lune se trouve aux Chutes Tohjo à l’est de Bourg Geon.",
+              "de": "Entwickle Nidorina mit einem Mondstein. Ein Mondstein befindet sich in den Tohjo-Fällen östlich von Neuborkia.",
+              "es": "Evoluciona a Nidorina con una Piedra Lunar. La Piedra Lunar se encuentra en las Cataratas Tohjo al este de Pueblo Primavera."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_KANTO_BADGES",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorina with a Moon Stone. Requires Rock Smash. Obtain a Moon Stone on Monday 🌙 during the Dancing Clefairy event.",
+              "ja": "ニドリーナに「つきのいし」を使って進化。いわくだきが必要。月曜日🌙に「おどるピッピ」イベントでつきのいしを入手できる。",
+              "fr": "Faites évoluer Nidorina avec une Pierre Lune. Nécessite Éclate-Roc. Obtenez une Pierre Lune le lundi 🌙 lors de l’événement de la Mélofée dansante.",
+              "de": "Entwickle Nidorina mit einem Mondstein. Zertrümmerer erforderlich. Montags 🌙 beim tanzenden Piepi erhältlich.",
+              "es": "Evoluciona a Nidorina con una Piedra Lunar. Requiere Golpe Roca. Consíguela el lunes 🌙 en el evento de la Clefairy danzante."
+            }
+          }
+        ]
+      }
+    ],
 
     "crystal": [
       {
