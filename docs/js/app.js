@@ -67,6 +67,14 @@ async function init() {
   }
 }
 
+function wireSearch() {
+  const input = document.getElementById('search-input');
+  if (!input) return;
+
+  input.addEventListener('input', () => {
+    applySearchFilter(input.value);
+  });
+}
 
 function wireLanguageSelector() {
   const select = document.getElementById('language-selector');
