@@ -7,7 +7,7 @@ import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
 import { getGameTime } from '../state/gameTime.js';
 
-const GEN2_IDS = new Set(['gold', 'silver', 'crystal', 'crystal_vc']);
+const GEN2_IDS = new Set(['gold', 'silver', 'crystal_gbc', 'crystal_vc']);
 
 const TIME_SLOTS = ['morning', 'day', 'night'];
 const TIME_ICONS = {
