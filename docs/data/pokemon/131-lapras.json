@@ -19,7 +19,7 @@
 
   "games": {
     "red": {
-      "sections": ["SILPH_CO_POKEMON"],
+      "sections": ["BEFORE_FUCHSIA_GYM"],
       "obtain": [
         {
           "method": "gift",
@@ -36,7 +36,7 @@
     },
 
     "blue": {
-      "sections": ["SILPH_CO_POKEMON"],
+      "sections": ["BEFORE_FUCHSIA_GYM"],
       "obtain": [
         {
           "method": "gift",
@@ -53,7 +53,7 @@
     },
 
     "yellow": {
-      "sections": ["SILPH_CO_POKEMON"],
+      "sections": ["BEFORE_FUCHSIA_GYM"],
       "obtain": [
         {
           "method": "gift",
@@ -70,7 +70,7 @@
     },
 
     "gold": {
-      "sections": ["UNION_CAVE_POKEMON"],
+      "sections": ["BEFORE_MAHOGANY_GYM"],
       "obtain": [
         {
           "method": "wild",
@@ -88,7 +88,7 @@
     },
 
     "silver": {
-      "sections": ["UNION_CAVE_POKEMON"],
+      "sections": ["BEFORE_MAHOGANY_GYM"],
       "obtain": [
         {
           "method": "wild",
@@ -106,7 +106,7 @@
     },
 
     "crystal": {
-      "sections": ["UNION_CAVE_POKEMON"],
+      "sections": ["BEFORE_MAHOGANY_GYM"],
       "obtain": [
         {
           "method": "wild",
