@@ -7,31 +7,44 @@ import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
 import { getGameTime } from '../state/gameTime.js';
 
-const TIME_SLOTS = ["morning", "day", "night"];
+const GEN2_IDS = new Set(['gold', 'silver', 'crystal']);
 
+const TIME_SLOTS = ['morning', 'day', 'night'];
 const TIME_ICONS = {
-  morning: "🌅",
-  day: "☀️",
-  night: "🌙"
+  morning: '🌅',
+  day: '☀️',
+  night: '🌙'
 };
 
-const DAYS = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
-
+const DAYS = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
 const DAY_LABELS = {
-  monday: "Mo",
-  tuesday: "Tu",
-  wednesday: "We",
-  thursday: "Th",
-  friday: "Fr",
-  saturday: "Sa",
-  sunday: "Su"
+  monday: 'Mo',
+  tuesday: 'Tu',
+  wednesday: 'We',
+  thursday: 'Th',
+  friday: 'Fr',
+  saturday: 'Sa',
+  sunday: 'Su'
 };
 
+// Tracks sections manually expanded by the user
 const userExpandedSections = new Set();
 
 /* =========================================================
-   SECTION COUNTER + COLLAPSE
+   Helpers
    ========================================================= */
+
+function getPokemonTimeAvailability(gameData) {
+  if (!gameData?.obtain) return [];
+  return gameData.obtain.flatMap(o =>
+    Array.isArray(o.time) ? o.time : o.time ? [o.time] : []
+  );
+}
+
+function getPokemonDayAvailability(gameData) {
+  if (!gameData?.obtain) return [];
+  return gameData.obtain.flatMap(o => Array.isArray(o.days) ? o.days : []);
+}
 
 function updateSectionCounter(sectionBlock) {
   const sectionId = sectionBlock.dataset.sectionId;
@@ -43,9 +56,7 @@ function updateSectionCounter(sectionBlock) {
   let caughtCount = 0;
 
   if (sectionId === 'STARTER') {
-    // Count families caught (Oak rules)
     const families = {};
-
     rows.forEach(row => {
       const family = row.dataset.family;
       if (!families[family]) families[family] = [];
@@ -53,9 +64,7 @@ function updateSectionCounter(sectionBlock) {
     });
 
     caughtCount = Object.values(families).filter(familyRows =>
-      familyRows.some(row =>
-        isCaught(gameId, Number(row.dataset.dex))
-      )
+      familyRows.some(row => isCaught(gameId, Number(row.dataset.dex)))
     ).length;
   } else {
     caughtCount = Array.from(rows).filter(row =>
@@ -69,18 +78,9 @@ function updateSectionCounter(sectionBlock) {
   });
 }
 
-function getPokemonDayAvailability(gameData) {
-  if (!gameData?.obtain) return [];
-
-  return gameData.obtain.flatMap(o =>
-    Array.isArray(o.days) ? o.days : []
-  );
-}
-
 function applyStarterExclusivity(sectionBlock, gameId) {
   const rows = sectionBlock.querySelectorAll('.pokemon-row');
 
-  // Group rows by family
   const families = {};
   rows.forEach(row => {
     const family = row.dataset.family;
@@ -89,38 +89,82 @@ function applyStarterExclusivity(sectionBlock, gameId) {
     families[family].push(row);
   });
 
-  // Reset all rows to visible first
-  rows.forEach(row => {
-    row.style.display = '';
-  });
+  rows.forEach(row => { row.style.display = ''; });
 
-  // Find the chosen family (any caught Pokémon)
   let chosenFamily = null;
-
   Object.entries(families).forEach(([family, familyRows]) => {
-    if (
-      familyRows.some(row =>
-        isCaught(gameId, Number(row.dataset.dex))
-      )
-    ) {
+    if (familyRows.some(row => isCaught(gameId, Number(row.dataset.dex)))) {
       chosenFamily = family;
     }
   });
 
-  // Hide all other families
   if (chosenFamily) {
     Object.entries(families).forEach(([family, familyRows]) => {
       if (family !== chosenFamily) {
-        familyRows.forEach(row => {
-          row.style.display = 'none';
-        });
+        familyRows.forEach(row => { row.style.display = 'none'; });
       }
     });
   }
 }
 
 /* =========================================================
-   REACT TO CAUGHT CHANGES
+   Time/Day Icon Renderers (Gen 2 only)
+   ========================================================= */
+
+function appendRowTimeIcons(gameId, gameData, row) {
+  if (!GEN2_IDS.has(gameId)) return;
+
+  const availability = getPokemonTimeAvailability(gameData);
+  if (!availability.length) return;
+
+  const { period } = getGameTime();
+
+  const wrapper = document.createElement('span');
+  wrapper.className = 'row-time-icons';
+
+  TIME_SLOTS.forEach(slot => {
+    const span = document.createElement('span');
+    span.className = 'time-icon';
+    span.textContent = TIME_ICONS[slot];
+
+    // Lit only if allowed AND matches current period
+    if (availability.includes(slot) && slot === period) span.classList.add('active');
+    else span.classList.add('inactive');
+
+    wrapper.appendChild(span);
+  });
+
+  row.appendChild(wrapper);
+}
+
+function appendRowDayIcons(gameId, gameData, row) {
+  if (!GEN2_IDS.has(gameId)) return;
+
+  const availableDays = getPokemonDayAvailability(gameData);
+  if (!availableDays.length) return;
+
+  const { dayOfWeek } = getGameTime();
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'row-day-icons';
+
+  DAYS.forEach(d => {
+    const span = document.createElement('span');
+    span.className = 'day-icon';
+    span.textContent = DAY_LABELS[d];
+
+    // Lit only if allowed AND matches current day
+    if (availableDays.includes(d) && d === dayOfWeek) span.classList.add('active');
+    else span.classList.add('inactive');
+
+    wrapper.appendChild(span);
+  });
+
+  row.appendChild(wrapper);
+}
+
+/* =========================================================
+   React to caught changes
    ========================================================= */
 
 window.addEventListener('caught-changed', () => {
@@ -128,104 +172,24 @@ window.addEventListener('caught-changed', () => {
     updateSectionCounter(section);
 
     if (section.dataset.sectionId === 'STARTER') {
-      applyStarterExclusivity(
-        section,
-        section.dataset.gameId
-      );
+      applyStarterExclusivity(section, section.dataset.gameId);
     }
   });
 });
-
-function renderTimeIconsForPokemon(pokemon, row) {
-  const gameId = row.closest(".section-block")?.dataset.gameId;
-  const gameData = pokemon.games?.[gameId];
-  if (!gameData) return;
-  if (!["gold","silver","crystal"].includes(gameId)) return;
-
-  const obtain = gameData.obtain ?? [];
-  const times = new Set();
-
-  obtain.forEach(o => {
-    if (Array.isArray(o.time)) {
-      o.time.forEach(t => times.add(t));
-    } else if (o.time) {
-      times.add(o.time);
-    }
-  });
-
-  // No time restriction → do not render icons
-  if (!times.size) return;
-
-  const { period } = getGameTime();
-
-  const wrapper = document.createElement("span");
-  wrapper.className = "row-time-icons";
-
-  TIME_SLOTS.forEach(t => {
-    const span = document.createElement("span");
-    span.className = "time-icon";
-    span.textContent = TIME_ICONS[t];
-
-    if (times.has(t) && t === period) {
-      span.classList.add("active");
-    } else {
-      span.classList.add("inactive");
-    }
-
-    wrapper.appendChild(span);
-  });
-
-  row.appendChild(wrapper);
-}
-
-function renderDayIconsForPokemon(pokemon, row) {
-  const gameId = row.closest(".section-block")?.dataset.gameId;
-  const gameData = pokemon.games?.[gameId];
-  if (!gameData) return;
-  if (!["gold","silver","crystal"].includes(gameId)) return;
-
-  const availableDays = getPokemonDayAvailability(gameData);
-  if (!availableDays.length) return;
-
-  const { dayOfWeek } = getGameTime();
-
-  const wrapper = document.createElement("div");
-  wrapper.className = "row-day-icons";
-
-  DAYS.forEach(d => {
-    const span = document.createElement("span");
-    span.className = "day-icon";
-    span.textContent = DAY_LABELS[d];
-
-    if (availableDays.includes(d) && d === dayOfWeek) {
-      span.classList.add("active");
-    } else {
-      span.classList.add("inactive");
-    }
-
-    wrapper.appendChild(span);
-  });
-
-  row.appendChild(wrapper);
-}
-
-
 
 /* =========================================================
    SECTION 2 RENDERER
    ========================================================= */
 
 export function renderSections({ game, pokemon }) {
-  // Make Pokémon list globally readable (derived-only)
   window.__POKEMON_CACHE__ = pokemon;
 
   const container = document.getElementById('section-list');
+  if (!container) return;
   container.innerHTML = '';
 
   game.sections.forEach(section => {
     if (!section.requiredCount) return;
-
-    /* ---------- Section wrapper ---------- */
 
     const sectionBlock = document.createElement('div');
     sectionBlock.className = 'section-block';
@@ -234,17 +198,12 @@ export function renderSections({ game, pokemon }) {
     sectionBlock.dataset.gameId = game.id;
     sectionBlock.dataset.titleKey = section.titleKey;
 
-    /* ---------- Header ---------- */
-
     const header = document.createElement('h2');
     header.className = 'section-header';
 
     const counter = document.createElement('span');
     counter.className = 'section-counter';
-    counter.textContent = t('sectionCaughtCount', {
-      caught: 0,
-      total: section.requiredCount
-    });
+    counter.textContent = t('sectionCaughtCount', { caught: 0, total: section.requiredCount });
 
     const title = document.createElement('span');
     title.className = 'section-title';
@@ -252,8 +211,6 @@ export function renderSections({ game, pokemon }) {
 
     header.append(counter, title);
     sectionBlock._counterEl = counter;
-
-    /* ---------- Rows container ---------- */
 
     const sectionRows = document.createElement('div');
     sectionRows.className = 'section-rows';
@@ -263,12 +220,9 @@ export function renderSections({ game, pokemon }) {
       sectionRows.style.display = collapsed ? '' : 'none';
       header.classList.toggle('collapsed', !collapsed);
 
-      collapsed
-        ? userExpandedSections.add(section.id)
-        : userExpandedSections.delete(section.id);
+      if (collapsed) userExpandedSections.add(section.id);
+      else userExpandedSections.delete(section.id);
     });
-
-    /* ---------- Pokémon rows ---------- */
 
     const matches = pokemon.filter(p =>
       p.games?.[game.id]?.sections?.includes(section.id)
@@ -282,14 +236,9 @@ export function renderSections({ game, pokemon }) {
       row.dataset.dex = String(p.dex);
 
       const lang = getLanguage();
-      const displayName = p.names[lang] || p.names.en;
-
-      const gameData = p.games?.[game.id];
-
+      const displayName = p.names?.[lang] || p.names?.en || p.slug;
       row.dataset.name = displayName.toLowerCase();
       row.dataset.family = p.evolution?.family?.join('|') ?? '';
-
-      /* Pokéball toggle */
 
       const ball = document.createElement('button');
       ball.className = 'caught-toggle';
@@ -315,8 +264,6 @@ export function renderSections({ game, pokemon }) {
         );
       });
 
-      /* Icon */
-
       const icon = document.createElement('img');
       icon.className = 'pokemon-icon';
       icon.src = `./assets/icons/pokemon/${String(p.dex).padStart(3, '0')}-${p.slug}-icon.png`;
@@ -329,17 +276,18 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(displayName)
       );
 
-      renderTimeIconsForPokemon(p, row);
-      renderDayIconsForPokemon(p, row);
-
-      /* Row click → Section 3 */
+      // Gen 2 availability UI (time + days)
+      const gameData = p.games?.[game.id];
+      if (gameData) {
+        appendRowTimeIcons(game.id, gameData, row);
+        appendRowDayIcons(game.id, gameData, row);
+      }
 
       row.addEventListener('click', () => {
         const app = document.getElementById('app');
         const isActive = row.classList.contains('is-active');
 
-        document
-          .querySelectorAll('.pokemon-row.is-active')
+        document.querySelectorAll('.pokemon-row.is-active')
           .forEach(r => r.classList.remove('is-active'));
 
         if (isActive) {
@@ -358,12 +306,9 @@ export function renderSections({ game, pokemon }) {
       sectionRows.appendChild(row);
     });
 
-    // Apply starter exclusivity AFTER all rows exist
     if (section.id === 'STARTER') {
-     applyStarterExclusivity(sectionBlock, game.id);
+      applyStarterExclusivity(sectionBlock, game.id);
     }
-
-    /* ---------- Final assembly ---------- */
 
     sectionBlock.append(header, sectionRows);
     container.appendChild(sectionBlock);
@@ -371,14 +316,5 @@ export function renderSections({ game, pokemon }) {
     updateSectionCounter(sectionBlock);
   });
 }
-
-window.addEventListener("game-time-changed", () => {
-  if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
-
-  renderSections({
-    game: window.__CURRENT_GAME__.data,
-    pokemon: window.__POKEMON_CACHE__
-  });
-});
 
 
