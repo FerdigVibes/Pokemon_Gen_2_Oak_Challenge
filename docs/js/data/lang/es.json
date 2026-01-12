@@ -25,6 +25,8 @@
   "gold": "Oro",
   "silver": "Plata",
   "crystal": "Cristal",
+  "crystal_gbc": "Pokémon Cristal (Game Boy Color)",
+  "crystal_vc": "Pokémon Cristal (Consola Virtual de 3DS)",
 
   "time": {
    "morning": "Morning",
