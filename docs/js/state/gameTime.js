@@ -3,12 +3,14 @@
 const STORAGE_KEY = 'oakChallenge.gameTime';
 
 let gameTime = {
-  dayOfWeek: 'monday',
-  period: 'day',
+  day: 'mon',       // mon–sun
+  hour: 10,         // 1–12
+  minute: 0,        // 0–59
+  meridiem: 'AM',   // AM | PM
   dst: false
 };
 
-// STEP 2 — load persisted time
+// Load persisted time
 const saved = localStorage.getItem(STORAGE_KEY);
 if (saved) {
   try {
@@ -20,25 +22,20 @@ export function getGameTime() {
   return { ...gameTime };
 }
 
-// STEP 3 — THIS is where it goes
 export function setGameTime(next) {
-  gameTime = {
-    ...gameTime,
-    ...next
-  };
+  gameTime = { ...gameTime, ...next };
 
-  // persist
   localStorage.setItem(
     STORAGE_KEY,
     JSON.stringify(gameTime)
   );
 
-  // notify UI
   window.dispatchEvent(
     new CustomEvent('game-time-changed', {
       detail: getGameTime()
     })
   );
 }
+
 
 
