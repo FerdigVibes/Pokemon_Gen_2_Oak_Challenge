@@ -1,15 +1,25 @@
 // docs/js/state/gameTime.js
+
 let gameTime = {
-  period: "day",        // morning | day | night
-  dayOfWeek: "monday",  // monday → sunday
-  dst: false
+  dayOfWeek: 'monday',   // monday → sunday
+  period: 'day',         // morning | day | night
+  dst: false             // boolean
 };
 
 export function getGameTime() {
   return { ...gameTime };
 }
 
-export function setGameTime(update) {
-  gameTime = { ...gameTime, ...update };
-  window.dispatchEvent(new Event("game-time-changed"));
+export function setGameTime(next) {
+  gameTime = {
+    ...gameTime,
+    ...next
+  };
+
+  window.dispatchEvent(
+    new CustomEvent('game-time-changed', {
+      detail: getGameTime()
+    })
+  );
 }
+
