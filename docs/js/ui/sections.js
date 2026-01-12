@@ -78,6 +78,35 @@ function updateSectionCounter(sectionBlock) {
   });
 }
 
+function isSectionCompleted(game, sectionId, pokemon) {
+  const section = game.sections.find(s => s.id === sectionId);
+  if (!section?.requiredCount) return false;
+
+  const matches = pokemon.filter(p =>
+    p.games?.[game.id]?.sections?.includes(sectionId)
+  );
+
+  const caughtCount = matches.filter(p =>
+    isCaught(game.id, p.dex)
+  ).length;
+
+  return caughtCount >= section.requiredCount;
+}
+
+function isPokemonAvailable(pokemon, game) {
+  const gameData = pokemon.games?.[game.id];
+  if (!gameData) return false;
+
+  const gate = gameData.availability;
+  if (!gate) return true;
+
+  if (gate.afterSection) {
+    return isSectionCompleted(game, gate.afterSection, window.__POKEMON_CACHE__);
+  }
+
+  return true;
+}
+
 function applyStarterExclusivity(sectionBlock, gameId) {
   const rows = sectionBlock.querySelectorAll('.pokemon-row');
 
@@ -225,7 +254,8 @@ export function renderSections({ game, pokemon }) {
     });
 
     const matches = pokemon.filter(p =>
-      p.games?.[game.id]?.sections?.includes(section.id)
+      p.games?.[game.id]?.sections?.includes(section.id) &&
+      isPokemonAvailable(p, game)
     );
 
     matches.forEach(p => {
