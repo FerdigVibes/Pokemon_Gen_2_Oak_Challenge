@@ -108,7 +108,9 @@ function isPokemonAvailable(pokemon, game) {
   const gameData = pokemon.games?.[game.id];
   if (!gameData) return false;
 
-  const gate = gameData.availability;
+  const gate =
+   gameData.availability?.[currentSectionId] ??
+   gameData.availability;
   if (!gate) return true;
 
   if (gate.afterSection) {
