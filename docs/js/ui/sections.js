@@ -59,6 +59,10 @@ function getPokemonDayAvailability(gameData) {
   return gameData.obtain.flatMap(o => Array.isArray(o.days) ? o.days : []);
 }
 
+function isMoonStoneDexResolved(gameId, dex) {
+  return isCaught(gameId, dex);
+}
+
 function updateSectionCounter(sectionBlock) {
   const sectionId = sectionBlock.dataset.sectionId;
   const gameId = sectionBlock.dataset.gameId;
@@ -80,9 +84,20 @@ function updateSectionCounter(sectionBlock) {
       familyRows.some(row => isCaught(gameId, Number(row.dataset.dex)))
     ).length;
   } else {
-    caughtCount = Array.from(rows).filter(row =>
-      isCaught(gameId, Number(row.dataset.dex))
-    ).length;
+    caughtCount = Array.from(rows).filter(row => {
+      const dex = Number(row.dataset.dex);
+    
+      // If this is a Moon Stone section AND the dex was already resolved elsewhere,
+      // do NOT count this row at all
+      if (
+        MOON_STONE_SECTIONS.has(sectionId) &&
+        isMoonStoneDexResolved(gameId, dex)
+      ) {
+        return false;
+      }
+    
+      return isCaught(gameId, dex);
+    }).length;
   }
 
   sectionBlock._counterEl.textContent = t('sectionCaughtCount', {
