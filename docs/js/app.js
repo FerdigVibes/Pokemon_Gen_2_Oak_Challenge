@@ -350,6 +350,12 @@ function updateGlobalProgress(game, pokemon) {
     });
   }
 
+  if (caught > total) {
+    console.warn(
+      `Caught count (${caught}) exceeds game total (${total}). Check duplicates.`
+    );
+  }
+
   if (fill) {
     fill.style.width = `${percent}%`;
   }
