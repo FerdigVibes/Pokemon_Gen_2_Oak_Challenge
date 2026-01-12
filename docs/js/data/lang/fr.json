@@ -20,6 +20,21 @@
   "globalCaughtCount": "{{caught}} / {{total}} Attrapés",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Temps du jeu",
+  "days": {
+    "mon": "Lun.",
+    "tue": "Mar.",
+    "wed": "Mer.",
+    "thu": "Jeu.",
+    "fri": "Ven.",
+    "sat": "Sam.",
+    "sun": "Dim."
+  },
+  "gameTime": {
+    "title": "Définir l’heure du jeu",
+    "day": "Jour",
+    "time": "Heure",
+    "dst": "Heure d’été"
+  },
 
   "gold": "Or",
   "silver": "Argent",
