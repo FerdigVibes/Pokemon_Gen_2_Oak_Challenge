@@ -1,0 +1,127 @@
+{
+  "dex": 131,
+  "slug": "lapras",
+
+  "names": {
+    "en": "Lapras",
+    "ja": "ラプラス",
+    "fr": "Lokhlass",
+    "de": "Lapras",
+    "es": "Lapras"
+  },
+
+  "types": ["water", "ice"],
+
+  "evolution": {
+    "family": ["lapras"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["SILPH_CO_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Silph Co. (7F)"],
+          "notes": {
+            "en": "Silph Co employee in Saffron City, in the room where you defeat your rival.",
+            "ja": "ヤマブキシティのシルフカンパニーで、ライバルと戦う部屋にいる社員からもらえる。",
+            "fr": "Offert par un employé de la Sylphe S.A. à Safrania, dans la salle où vous affrontez votre rival.",
+            "de": "Erhältlich von einem Silph-Co.-Mitarbeiter in Saffronia, im Raum, in dem du deinen Rivalen besiegst.",
+            "es": "Entregado por un empleado de Silph S.A. en Ciudad Azafrán, en la sala donde derrotas a tu rival."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["SILPH_CO_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Silph Co. (7F)"],
+          "notes": {
+            "en": "Silph Co employee in Saffron City, in the room where you defeat your rival.",
+            "ja": "ヤマブキシティのシルフカンパニーで、ライバルと戦う部屋にいる社員からもらえる。",
+            "fr": "Offert par un employé de la Sylphe S.A. à Safrania, dans la salle où vous affrontez votre rival.",
+            "de": "Erhältlich von einem Silph-Co.-Mitarbeiter in Saffronia, im Raum, in dem du deinen Rivalen besiegst.",
+            "es": "Entregado por un empleado de Silph S.A. en Ciudad Azafrán, en la sala donde derrotas a tu rival."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["SILPH_CO_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Silph Co. (7F)"],
+          "notes": {
+            "en": "Silph Co employee in Saffron City, in the room where you defeat your rival.",
+            "ja": "ヤマブキシティのシルフカンパニーで、ライバルと戦う部屋にいる社員からもらえる。",
+            "fr": "Offert par un employé de la Sylphe S.A. à Safrania, dans la salle où vous affrontez votre rival.",
+            "de": "Erhältlich von einem Silph-Co.-Mitarbeiter in Saffronia, im Raum, in dem du deinen Rivalen besiegst.",
+            "es": "Entregado por un empleado de Silph S.A. en Ciudad Azafrán, en la sala donde derrotas a tu rival."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["UNION_CAVE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Union Cave (Lower Floor)"],
+          "days": ["friday"],
+          "notes": {
+            "en": "Appears only on Fridays in the deepest area of Union Cave.",
+            "ja": "アルフのいせき近くのつららのどうくつ最深部に、金曜日のみ出現する。",
+            "fr": "Apparaît uniquement le vendredi dans la zone la plus profonde de la Grotte Union.",
+            "de": "Erscheint nur freitags im tiefsten Bereich der Dukatia-Höhle.",
+            "es": "Aparece únicamente los viernes en la zona más profunda de la Cueva Unión."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["UNION_CAVE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Union Cave (Lower Floor)"],
+          "days": ["friday"],
+          "notes": {
+            "en": "Appears only on Fridays in the deepest area of Union Cave.",
+            "ja": "アルフのいせき近くのつららのどうくつ最深部に、金曜日のみ出現する。",
+            "fr": "Apparaît uniquement le vendredi dans la zone la plus profonde de la Grotte Union.",
+            "de": "Erscheint nur freitags im tiefsten Bereich der Dukatia-Höhle.",
+            "es": "Aparece únicamente los viernes en la zona más profunda de la Cueva Unión."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["UNION_CAVE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Union Cave (Lower Floor)"],
+          "days": ["friday"],
+          "notes": {
+            "en": "Appears only on Fridays in the deepest area of Union Cave.",
+            "ja": "アルフのいせき近くのつららのどうくつ最深部に、金曜日のみ出現する。",
+            "fr": "Apparaît uniquement le vendredi dans la zone la plus profonde de la Grotte Union.",
+            "de": "Erscheint nur freitags im tiefsten Bereich der Dukatia-Höhle.",
+            "es": "Aparece únicamente los viernes en la zona más profunda de la Cueva Unión."
+          }
+        }
+      ]
+    }
+  }
+}
+
