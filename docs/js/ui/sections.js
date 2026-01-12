@@ -27,6 +27,11 @@ const DAY_LABELS = {
   sunday: 'Su'
 };
 
+const MOON_STONE_SECTIONS = new Set([
+  'MOON_STONE_1',
+  'MOON_STONE_2'
+]);
+
 // Tracks sections manually expanded by the user
 const userExpandedSections = new Set();
 
@@ -155,6 +160,42 @@ function applyStarterExclusivity(sectionBlock, gameId) {
   }
 }
 
+function applyMoonStoneExclusivity(gameId) {
+  const rows = document.querySelectorAll('.pokemon-row');
+
+  const byDex = {};
+
+  rows.forEach(row => {
+    const sectionId =
+      row.closest('.section-block')?.dataset.sectionId;
+
+    if (!MOON_STONE_SECTIONS.has(sectionId)) return;
+
+    const dex = Number(row.dataset.dex);
+    if (!byDex[dex]) byDex[dex] = [];
+    byDex[dex].push(row);
+  });
+
+  Object.values(byDex).forEach(duplicates => {
+    const isCaughtAny = duplicates.some(row =>
+      isCaught(gameId, Number(row.dataset.dex))
+    );
+
+    duplicates.forEach(row => {
+      row.style.display = isCaughtAny ? 'none' : '';
+    });
+
+    // Re-show the caught one (important)
+    if (isCaughtAny) {
+      duplicates.forEach(row => {
+        if (isCaught(gameId, Number(row.dataset.dex))) {
+          row.style.display = '';
+        }
+      });
+    }
+  });
+}
+
 /* =========================================================
    Time/Day Icon Renderers (Gen 2 only)
    ========================================================= */
@@ -223,6 +264,10 @@ window.addEventListener('caught-changed', () => {
       applyStarterExclusivity(section, section.dataset.gameId);
     }
   });
+
+  if (window.__CURRENT_GAME__) {
+    applyMoonStoneExclusivity(window.__CURRENT_GAME__.data.id);
+  }
 });
 
 /* =========================================================
@@ -364,6 +409,7 @@ export function renderSections({ game, pokemon }) {
     container.appendChild(sectionBlock);
 
     updateSectionCounter(sectionBlock);
+    applyMoonStoneExclusivity(game.id);
   });
 }
 
