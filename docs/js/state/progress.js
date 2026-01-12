@@ -1,23 +1,17 @@
 import { isCaught } from './caught.js';
 
 export function getGlobalProgress(game, pokemon) {
-  // Prefer explicit total, fallback to section sum
-  const total =
-    game.total ??
-    game.sections
-      ?.filter(s => s.requiredCount)
-      .reduce((sum, s) => sum + s.requiredCount, 0) ??
-    0;
+  const total = game.totalPokemon;
 
-  let caught = 0;
+  // Count caught Pokémon for THIS game only
+  const caught = pokemon.filter(p =>
+    p.games?.[game.id] &&
+    isCaught(game.id, p.dex)
+  ).length;
 
-  pokemon.forEach(p => {
-    if (isCaught(game.id, p.dex)) caught++;
-  });
+  const percent = total > 0
+    ? Math.min(100, Math.round((caught / total) * 100))
+    : 0;
 
-  return {
-    caught,
-    total,
-    percent: total ? Math.floor((caught / total) * 100) : 0
-  };
+  return { caught, total, percent };
 }
