@@ -102,5 +102,43 @@
   </main>
 
   <script type="module" src="./js/app.js"></script>
+  <!-- ======================================================
+     GEN 2 GAME TIME MODAL
+     ====================================================== -->
+  <div id="game-time-modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+  
+    <div class="modal-panel">
+      <h2 data-i18n="gameTime.title">Set Game Time</h2>
+  
+      <div class="form-row">
+        <label data-i18n="gameTime.day">Day</label>
+        <select id="gt-day"></select>
+      </div>
+  
+      <div class="form-row time-row">
+        <label data-i18n="gameTime.time">Time</label>
+        <select id="gt-hour"></select>
+        <span>:</span>
+        <select id="gt-minute"></select>
+        <select id="gt-meridiem">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+      </div>
+  
+      <div class="form-row">
+        <label>
+          <input type="checkbox" id="gt-dst" />
+          <span data-i18n="gameTime.dst">Daylight Saving Time</span>
+        </label>
+      </div>
+  
+      <div class="modal-actions">
+        <button id="gt-cancel" data-i18n="common.cancel">Cancel</button>
+        <button id="gt-save" class="primary" data-i18n="common.save">Save</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
