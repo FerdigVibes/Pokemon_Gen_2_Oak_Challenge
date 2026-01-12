@@ -15,7 +15,7 @@ import { openGameTimeModal } from './ui/gameTimeModal.js';
 
 
 window.__setGameTime = setGameTime;
-
+const STORAGE_KEY = 'oakChallenge.gameTime';
 const TIME_SLOTS = ["morning", "day", "night"];
 
 const TIME_ICONS = {
