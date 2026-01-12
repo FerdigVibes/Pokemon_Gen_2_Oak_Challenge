@@ -4,7 +4,7 @@ import { playPokemonCry } from './cry.js';
 import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { resolveLangField, t } from '../data/i18n.js';
-import { normalizeGameId } from './loader.js';
+import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 let currentSelection = null; // { pokemon, game }
 
@@ -22,27 +22,17 @@ window.addEventListener('language-changed', () => {
 });
 
 function getDetailEntry(pokemon, game, sectionId) {
-  // Normalize platform-specific IDs (crystal_gbc / crystal_vc → crystal)
-  const gameId = normalizeGameId(game.id);
-
-  // Prefer exact match first (e.g. crystal_vc for Celebi)
-  const raw =
-    pokemon.games?.[game.id] ??
-    pokemon.games?.[gameId];
-
+  const gameKey = normalizeGameId(game.id);
+  const raw = pokemon.games?.[gameKey];
   if (!raw) return null;
 
   const entries = Array.isArray(raw) ? raw : [raw];
 
-  // Prefer entry matching the clicked section (Moon Stone 1 vs 2, etc.)
   if (sectionId) {
-    const match = entries.find(e =>
-      e.sections?.includes(sectionId)
-    );
+    const match = entries.find(e => e.sections?.includes(sectionId));
     if (match) return match;
   }
 
-  // Fallback (single-entry Pokémon like Pidgey)
   return entries[0] ?? null;
 }
 
