@@ -273,8 +273,9 @@ export function renderSections({ game, pokemon }) {
     });
 
     const matches = pokemon.filter(p =>
-      p.games?.[game.id]?.sections?.includes(section.id) &&
-      isPokemonAvailable(p, game)
+      p.games?.[game.id]?.some(entry =>
+        entry.sections?.includes(section.id)
+      )
     );
 
     matches.forEach(p => {
