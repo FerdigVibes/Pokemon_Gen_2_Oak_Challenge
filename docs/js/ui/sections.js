@@ -119,14 +119,6 @@ function applyStarterExclusivity(sectionBlock, gameId) {
   }
 }
 
-function getPokemonTimeAvailability(gameData) {
-  if (!gameData?.obtain) return [];
-
-  return gameData.obtain.flatMap(o =>
-    Array.isArray(o.time) ? o.time : o.time ? [o.time] : []
-  );
-}
-
 /* =========================================================
    REACT TO CAUGHT CHANGES
    ========================================================= */
@@ -323,6 +315,13 @@ export function renderSections({ game, pokemon }) {
         );
       });
 
+      /* Icon */
+
+      const icon = document.createElement('img');
+      icon.className = 'pokemon-icon';
+      icon.src = `./assets/icons/pokemon/${String(p.dex).padStart(3, '0')}-${p.slug}-icon.png`;
+      icon.alt = displayName;
+
       row.append(
         ball,
         icon,
@@ -332,13 +331,6 @@ export function renderSections({ game, pokemon }) {
 
       renderTimeIconsForPokemon(p, row);
       renderDayIconsForPokemon(p, row);
-
-      /* Icon */
-
-      const icon = document.createElement('img');
-      icon.className = 'pokemon-icon';
-      icon.src = `./assets/icons/pokemon/${String(p.dex).padStart(3, '0')}-${p.slug}-icon.png`;
-      icon.alt = displayName;
 
       /* Row click → Section 3 */
 
