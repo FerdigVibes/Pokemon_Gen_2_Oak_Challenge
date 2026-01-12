@@ -20,6 +20,21 @@
   "globalCaughtCount": "{{caught}} / {{total}} 捕まえた",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "ゲーム時間",
+  "days": {
+    "mon": "月",
+    "tue": "火",
+    "wed": "水",
+    "thu": "木",
+    "fri": "金",
+    "sat": "土",
+    "sun": "日"
+  },
+  "gameTime": {
+    "title": "ゲーム内の時間設定",
+    "day": "曜日",
+    "time": "時間",
+    "dst": "サマータイム"
+  },
 
   "gold": "金",
   "silver": "銀",
