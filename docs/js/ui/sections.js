@@ -272,6 +272,7 @@ window.addEventListener('caught-changed', () => {
 
   if (window.__CURRENT_GAME__) {
     applyMoonStoneExclusivity(window.__CURRENT_GAME__.data.id);
+    document.querySelectorAll('.section-block').forEach(updateSectionCounter);
   }
 });
 
@@ -426,6 +427,7 @@ export function renderSections({ game, pokemon }) {
 
     updateSectionCounter(sectionBlock);
     applyMoonStoneExclusivity(game.id);
+    document.querySelectorAll('.section-block').forEach(updateSectionCounter);
   });
 }
 
