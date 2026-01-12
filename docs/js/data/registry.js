@@ -21,8 +21,9 @@ export const GAME_REGISTRY = [
     genKey: 'gen2',
     games: [
       { id: 'gold', labelKey: 'gold' },
-      { id: "crystal_gbc", labelKey: "crystalGBC" },
-      { id: "crystal_vc", labelKey: "crystalVC" }
+      { id: 'silver', labelKey: 'silver' },
+      { id: "crystal_gbc", labelKey: "crystal" },
+      { id: "crystal_vc", labelKey: "crystal_vc" }
     ]
   }
 ];
