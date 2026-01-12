@@ -230,6 +230,35 @@ function wireMuteToggle() {
   });
 }
 
+const DAY_LABELS = {
+  monday: "Mo",
+  tuesday: "Tu",
+  wednesday: "We",
+  thursday: "Th",
+  friday: "Fr",
+  saturday: "Sa",
+  sunday: "Su"
+};
+
+function renderTopBarDays() {
+  const container = document.getElementById("day-icons");
+  if (!container) return;
+
+  const { dayOfWeek } = getGameTime();
+  container.innerHTML = "";
+
+  Object.entries(DAY_LABELS).forEach(([day, label]) => {
+    const span = document.createElement("span");
+    span.className = "day-icon";
+    span.textContent = label;
+
+    span.classList.toggle("active", day === dayOfWeek);
+    span.classList.toggle("inactive", day !== dayOfWeek);
+
+    container.appendChild(span);
+  });
+}
+
 /* =========================================================
    GAME SWITCH CORE
    ========================================================= */
@@ -425,6 +454,8 @@ window.addEventListener('caught-changed', () => {
    window.__POKEMON_CACHE__
   );
 });
+
+window.addEventListener("game-time-changed", renderTopBarDays);
 
 function wireSearch() {
   const input = document.getElementById('search-input');
