@@ -366,6 +366,21 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(displayName)
       );
 
+      const sectionId =
+        row.closest('.section-block')?.dataset.sectionId;
+      
+      const entries = getGameEntries(p, game.id);
+      
+      // Pick the entry that belongs to THIS section
+      const entry =
+        entries.find(e => e.sections?.includes(sectionId)) ??
+        entries[0]; // safe fallback
+      
+      if (entry) {
+        appendRowTimeIcons(game.id, entry, row);
+        appendRowDayIcons(game.id, entry, row);
+      }
+
       row.addEventListener('click', () => {
         const sectionId =
           row.closest('.section-block')?.dataset.sectionId;
