@@ -173,7 +173,8 @@ function applyStarterExclusivity(sectionBlock, gameId) {
 function applyMoonStoneExclusivity(gameId) {
   const rows = document.querySelectorAll('.pokemon-row');
 
-  const byDex = {};
+  // Group ONLY Moon Stone rows by Pokémon dex
+  const groupsByDex = {};
 
   rows.forEach(row => {
     const sectionId =
@@ -182,29 +183,23 @@ function applyMoonStoneExclusivity(gameId) {
     if (!MOON_STONE_SECTIONS.has(sectionId)) return;
 
     const dex = Number(row.dataset.dex);
-    if (!byDex[dex]) byDex[dex] = [];
-    byDex[dex].push(row);
+    if (!groupsByDex[dex]) groupsByDex[dex] = [];
+    groupsByDex[dex].push(row);
   });
 
-  Object.values(byDex).forEach(duplicates => {
-    const isCaughtAny = duplicates.some(row =>
+  // Apply exclusivity PER POKÉMON
+  Object.values(groupsByDex).forEach(group => {
+    const caughtRow = group.find(row =>
       isCaught(gameId, Number(row.dataset.dex))
     );
 
-    duplicates.forEach(row => {
-      row.style.display = isCaughtAny ? 'none' : '';
+    group.forEach(row => {
+      row.style.display =
+        caughtRow && row !== caughtRow ? 'none' : '';
     });
-
-    // Re-show the caught one (important)
-    if (isCaughtAny) {
-      duplicates.forEach(row => {
-        if (isCaught(gameId, Number(row.dataset.dex))) {
-          row.style.display = '';
-        }
-      });
-    }
   });
 }
+
 
 /* =========================================================
    Time/Day Icon Renderers (Gen 2 only)
