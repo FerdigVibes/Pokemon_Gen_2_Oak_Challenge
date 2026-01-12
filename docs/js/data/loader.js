@@ -34,3 +34,10 @@ export async function loadGame(gameId) {
 
   return game;
 }
+
+function normalizeGameId(id) {
+  if (id === 'crystal_gbc' || id === 'crystal_vc') {
+    return 'crystal';
+  }
+  return id;
+}
