@@ -107,9 +107,20 @@ body {
   opacity: 0.85;
 }
 
+.row-time-icons {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 6px;
+  font-size: 0.85rem;
+}
+
 .time-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   margin-right: 4px;
-  transition: opacity 0.2s, filter 0.2s;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+  opacity: 0.25;
 }
 
 .time-icon.active {
@@ -260,20 +271,6 @@ body {
   background: #444;
 }
 
-.time-icon {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.time-icon.active {
-  opacity: 1;
-}
-
-.time-icon.inactive {
-  opacity: 0.3;
-}
-
 .day-icon {
   font-size: 0.75rem;
   padding: 2px 4px;
@@ -281,9 +278,13 @@ body {
   opacity: 0.35;
 }
 
+.day-icon.inactive {
+  opacity: 0.25;
+}
+
 .day-icon.active {
   opacity: 1;
-  font-weight: 600;
+  background: rgba(255,255,255,0.15);
 }
 
 .row-day-icons {
