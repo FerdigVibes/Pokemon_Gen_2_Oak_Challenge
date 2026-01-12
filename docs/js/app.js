@@ -25,33 +25,17 @@ const TIME_ICONS = {
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
 
-window.addEventListener('game-time-changed', () => {
+window.addEventListener("game-time-changed", () => {
   if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
 
-  // Re-render Section 2 (availability icons will update later)
   renderSections({
     game: window.__CURRENT_GAME__.data,
     pokemon: window.__POKEMON_CACHE__
   });
 
-  // Re-render Section 3 if open
   const selection = getCurrentDetailSelection();
   if (selection) {
     renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
-  }
-});
-
-window.addEventListener("game-time-changed", () => {
-  if (window.__CURRENT_GAME__ && window.__POKEMON_CACHE__) {
-    renderSections({
-      game: window.__CURRENT_GAME__.data,
-      pokemon: window.__POKEMON_CACHE__
-    });
-
-    const selection = getCurrentDetailSelection();
-    if (selection) {
-      renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
-    }
   }
 
   updateTopBarTimeIcons();
@@ -68,20 +52,21 @@ async function init() {
     wireMuteToggle();
     wireLanguageSelector();
 
-    // Load default language safely
     await loadLanguage(getLanguage());
-    updateTopBarTimeIcons();
 
-    // Build UI that depends on translations
+    resetAppToBlankState();   // ← must be first
+
     buildGameSelector();
-
     applyTranslations();
-    resetAppToBlankState();
+
+    updateTopBarTimeIcons();
+    renderTopBarDays();
 
   } catch (err) {
     console.error('Init failed:', err);
   }
 }
+
 
 function wireLanguageSelector() {
   const select = document.getElementById('language-selector');
