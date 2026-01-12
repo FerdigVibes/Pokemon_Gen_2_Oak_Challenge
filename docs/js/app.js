@@ -41,10 +41,6 @@ window.addEventListener('game-time-changed', () => {
   }
 });
 
-window.addEventListener("game-time-changed", () => {
-  updateTopBarTimeIcons();
-});
-
 /* =========================================================
    INIT
    ========================================================= */
@@ -455,16 +451,22 @@ window.addEventListener('caught-changed', () => {
   );
 });
 
-window.addEventListener("game-time-changed", renderTopBarDays);
+window.addEventListener("game-time-changed", () => {
+  if (window.__CURRENT_GAME__ && window.__POKEMON_CACHE__) {
+    renderSections({
+      game: window.__CURRENT_GAME__.data,
+      pokemon: window.__POKEMON_CACHE__
+    });
 
-function wireSearch() {
-  const input = document.getElementById('search-input');
-  if (!input) return;
+    const selection = getCurrentDetailSelection();
+    if (selection) {
+      renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
+    }
+  }
 
-  input.addEventListener('input', () => {
-    applySearchFilter(input.value);
-  });
-}
+  updateTopBarTimeIcons();
+  renderTopBarDays();
+});
 
 init();
 
