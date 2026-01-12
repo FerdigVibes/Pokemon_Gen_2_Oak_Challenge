@@ -21,6 +21,22 @@
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Game Time",
 
+  "days": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "gameTime": {
+    "title": "Set Game Time",
+    "day": "Day",
+    "time": "Time",
+    "dst": "Daylight Saving Time"
+  },
+  
   "time": {
     "morningRange": "4:00 a.m. – 9:59 a.m.",
     "dayRange": "10:00 a.m. – 5:59 p.m.",
