@@ -78,24 +78,31 @@ function updateSectionCounter(sectionBlock) {
   });
 }
 
-function isSectionCompleted(game, parentSectionId, pokemon) {
-  const parent = game.sections.find(s => s.id === parentSectionId);
-  if (!parent || !Array.isArray(parent.children)) return false;
+function isSectionCompleted(game, sectionId, pokemon) {
+  const section = game.sections.find(s => s.id === sectionId);
+  if (!section) return false;
 
-  return parent.children.every(childId => {
-    const child = game.sections.find(s => s.id === childId);
-    if (!child || !child.requiredCount) return true;
-
+  // Leaf section
+  if (section.requiredCount) {
     const matches = pokemon.filter(p =>
-      p.games?.[game.id]?.sections?.includes(childId)
+      p.games?.[game.id]?.sections?.includes(sectionId)
     );
 
-    const caught = matches.filter(p =>
+    const caughtCount = matches.filter(p =>
       isCaught(game.id, p.dex)
     ).length;
 
-    return caught >= child.requiredCount;
-  });
+    return caughtCount >= section.requiredCount;
+  }
+
+  // Parent section → all children must be complete
+  if (Array.isArray(section.children)) {
+    return section.children.every(childId =>
+      isSectionCompleted(game, childId, pokemon)
+    );
+  }
+
+  return false;
 }
 
 function isPokemonAvailable(pokemon, game) {
