@@ -261,7 +261,7 @@
   "sections": [
     {
       "id": "BEFORE_VIOLET",
-      "titleKey": "violetPokemon",
+      "titleKey": "beforeViolet",
       "order": 1,
       "children": ["STARTER", "VIOLET_POKEMON"]
     },
