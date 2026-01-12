@@ -22,7 +22,7 @@ export const GAME_REGISTRY = [
     games: [
       { id: 'gold', labelKey: 'gold' },
       { id: 'silver', labelKey: 'silver' },
-      { id: "crystal_gbc", labelKey: "crystal" },
+      { id: "crystal_gbc", labelKey: "crystal_gbc" },
       { id: "crystal_vc", labelKey: "crystal_vc" }
     ]
   }
