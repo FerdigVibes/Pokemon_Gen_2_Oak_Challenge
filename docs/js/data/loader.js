@@ -1,5 +1,11 @@
 // docs/js/data/loader.js
 // Loads a single game and all of its Pokémon data
+function normalizeGameId(id) {
+  if (id === 'crystal_gbc' || id === 'crystal_vc') {
+    return 'crystal';
+  }
+  return id;
+}
 
 export async function loadGame(gameId) {
   // 1️⃣ Load game JSON
@@ -33,11 +39,4 @@ export async function loadGame(gameId) {
   game.pokemon = pokemon;
 
   return game;
-}
-
-function normalizeGameId(id) {
-  if (id === 'crystal_gbc' || id === 'crystal_vc') {
-    return 'crystal';
-  }
-  return id;
 }
