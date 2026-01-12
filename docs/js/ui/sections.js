@@ -78,14 +78,14 @@ function updateSectionCounter(sectionBlock) {
   });
 }
 
-function isSectionCompleted(game, sectionId, pokemon) {
+function isSectionCompleted(game, sectionId, pokemon, excludeDex = []) {
   const section = game.sections.find(s => s.id === sectionId);
   if (!section) return false;
 
-  // Leaf section
   if (section.requiredCount) {
     const matches = pokemon.filter(p =>
-      p.games?.[game.id]?.sections?.includes(sectionId)
+      p.games?.[game.id]?.sections?.includes(sectionId) &&
+      !excludeDex.includes(p.dex)
     );
 
     const caughtCount = matches.filter(p =>
@@ -95,10 +95,9 @@ function isSectionCompleted(game, sectionId, pokemon) {
     return caughtCount >= section.requiredCount;
   }
 
-  // Parent section → all children must be complete
   if (Array.isArray(section.children)) {
     return section.children.every(childId =>
-      isSectionCompleted(game, childId, pokemon)
+      isSectionCompleted(game, childId, pokemon, excludeDex)
     );
   }
 
@@ -113,7 +112,14 @@ function isPokemonAvailable(pokemon, game) {
   if (!gate) return true;
 
   if (gate.afterSection) {
-    return isSectionCompleted(game, gate.afterSection, window.__POKEMON_CACHE__);
+    const exclude = gate.excludeDex ?? [];
+
+    return isSectionCompleted(
+      game,
+      gate.afterSection,
+      window.__POKEMON_CACHE__,
+      exclude
+    );
   }
 
   return true;
