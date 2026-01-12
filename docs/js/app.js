@@ -11,6 +11,8 @@ import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 import { getGameTime } from "./state/gameTime.js";
 import { setGameTime } from './state/gameTime.js';
+import { openGameTimeModal } from './ui/gameTimeModal.js';
+
 
 window.__setGameTime = setGameTime;
 
@@ -51,6 +53,7 @@ async function init() {
     wireSearch();
     wireMuteToggle();
     wireLanguageSelector();
+    wireGameTimeButton();
 
     await loadLanguage(getLanguage());
 
@@ -100,6 +103,14 @@ function wireLanguageSelector() {
   });
 }
 
+function wireGameTimeButton() {
+  const btn = document.getElementById('game-time-btn');
+  if (!btn) return;
+
+  btn.addEventListener('click', () => {
+    openGameTimeModal();
+  });
+}
 
 function resetAppToBlankState() {
   window.__CURRENT_GAME__ = null;
