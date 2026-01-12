@@ -317,11 +317,18 @@ export function renderSections({ game, pokemon }) {
       else userExpandedSections.delete(section.id);
     });
 
-    const matches = pokemon.filter(p =>
-      p.games?.[game.id]?.some(entry =>
+    cconst matches = pokemon.filter(p => {
+      const entriesRaw = p.games?.[game.id];
+      if (!entriesRaw) return false;
+    
+      const entries = Array.isArray(entriesRaw)
+        ? entriesRaw
+        : [entriesRaw];
+    
+      return entries.some(entry =>
         entry.sections?.includes(section.id)
-      )
-    );
+      );
+    });
 
     matches.forEach(p => {
       const caught = isCaught(game.id, p.dex);
@@ -372,11 +379,15 @@ export function renderSections({ game, pokemon }) {
       );
 
       // Gen 2 availability UI (time + days)
-      const gameData = p.games?.[game.id];
-      if (gameData) {
-        appendRowTimeIcons(game.id, gameData, row);
-        appendRowDayIcons(game.id, gameData, row);
-      }
+      const entriesRaw = p.games?.[game.id];
+      const entries = Array.isArray(entriesRaw)
+        ? entriesRaw
+        : entriesRaw ? [entriesRaw] : [];
+      
+      entries.forEach(entry => {
+        appendRowTimeIcons(game.id, entry, row);
+        appendRowDayIcons(game.id, entry, row);
+      });
 
       row.addEventListener('click', () => {
         const app = document.getElementById('app');
