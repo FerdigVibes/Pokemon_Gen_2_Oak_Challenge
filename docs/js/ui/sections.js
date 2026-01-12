@@ -208,6 +208,37 @@ function renderTimeIconsForPokemon(pokemon, row) {
   row.appendChild(wrapper);
 }
 
+function renderDayIconsForPokemon(pokemon, row) {
+  const gameId = row.closest(".section-block")?.dataset.gameId;
+  const gameData = pokemon.games?.[gameId];
+  if (!gameData) return;
+
+  const availableDays = getPokemonDayAvailability(gameData);
+  if (!availableDays.length) return;
+
+  const { dayOfWeek } = getGameTime();
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "row-day-icons";
+
+  DAYS.forEach(d => {
+    const span = document.createElement("span");
+    span.className = "day-icon";
+    span.textContent = DAY_LABELS[d];
+
+    if (availableDays.includes(d) && d === dayOfWeek) {
+      span.classList.add("active");
+    } else {
+      span.classList.add("inactive");
+    }
+
+    wrapper.appendChild(span);
+  });
+
+  row.appendChild(wrapper);
+}
+
+
 
 /* =========================================================
    SECTION 2 RENDERER
@@ -314,6 +345,7 @@ export function renderSections({ game, pokemon }) {
       });
 
       renderTimeIconsForPokemon(p, row);
+      renderDayIconsForPokemon(p, row);
 
       /* Icon */
 
