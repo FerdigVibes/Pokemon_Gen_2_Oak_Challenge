@@ -17,6 +17,21 @@
   "globalCaughtCount": "{{caught}} / {{total}} Gefangen",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Spielzeit",
+  "days": {
+    "mon": "Mo",
+    "tue": "Di",
+    "wed": "Mi",
+    "thu": "Do",
+    "fri": "Fr",
+    "sat": "Sa",
+    "sun": "So"
+  },
+  "gameTime": {
+    "title": "Spielzeit festlegen",
+    "day": "Tag",
+    "time": "Uhrzeit",
+    "dst": "Sommerzeit"
+  },
 
   "red": "Rot",
   "blue": "Blau",
