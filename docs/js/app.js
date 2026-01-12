@@ -454,7 +454,7 @@ function getCurrentObjective(game, pokemon) {
 }
 
 function updateTopBarTimeIcons() {
-  const { period } = getGameTime();
+  const period = getPeriod(getGameTime());
 
   document.querySelectorAll(".time-icon").forEach(icon => {
     const iconPeriod = icon.dataset.period;
@@ -462,6 +462,7 @@ function updateTopBarTimeIcons() {
     icon.classList.toggle("inactive", iconPeriod !== period);
   });
 }
+
 
 function rebuildGameSelector() {
   const btn = document.getElementById('game-selector-btn');
