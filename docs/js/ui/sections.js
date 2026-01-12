@@ -359,4 +359,4 @@ export function renderSections({ game, pokemon }) {
   });
 }
 
-
+window.__isPokemonAvailable = isPokemonAvailable;
