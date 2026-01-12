@@ -38,7 +38,7 @@ const userExpandedSections = new Set();
 
 function getGameEntries(pokemon, gameId) {
   const normalized = normalizeGameId(gameId);
-  const raw = pokemon.games?.[normalized];
+  const raw = pokemon.games?.[normalizeGameId(game.id)];
   if (!raw) return [];
   return Array.isArray(raw) ? raw : [raw];
 }
