@@ -426,9 +426,9 @@ export function renderSections({ game, pokemon }) {
     container.appendChild(sectionBlock);
 
     updateSectionCounter(sectionBlock);
-    applyMoonStoneExclusivity(game.id);
-    document.querySelectorAll('.section-block').forEach(updateSectionCounter);
   });
+  applyMoonStoneExclusivity(game.id);
+  document.querySelectorAll('.section-block').forEach(updateSectionCounter);
 }
 
 window.__isPokemonAvailable = isPokemonAvailable;
