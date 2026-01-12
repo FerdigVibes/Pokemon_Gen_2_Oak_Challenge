@@ -35,6 +35,12 @@ const MOON_STONE_SECTIONS = new Set([
 // Tracks sections manually expanded by the user
 const userExpandedSections = new Set();
 
+function getGameEntries(pokemon, gameId) {
+  const raw = pokemon.games?.[gameId];
+  if (!raw) return [];
+  return Array.isArray(raw) ? raw : [raw];
+}
+
 /* =========================================================
    Helpers
    ========================================================= */
@@ -88,10 +94,14 @@ function isSectionCompleted(game, sectionId, pokemon, excludeDex = []) {
   if (!section) return false;
 
   if (section.requiredCount) {
-    const matches = pokemon.filter(p =>
-      p.games?.[game.id]?.sections?.includes(sectionId) &&
-      !excludeDex.includes(p.dex)
-    );
+    const matches = pokemon.filter(p => {
+      if (excludeDex.includes(p.dex)) return false;
+    
+      const entries = getGameEntries(p, game.id);
+      return entries.some(e =>
+        e.sections?.includes(sectionId)
+      );
+    });
 
     const caughtCount = matches.filter(p =>
       isCaught(game.id, p.dex)
@@ -317,7 +327,7 @@ export function renderSections({ game, pokemon }) {
       else userExpandedSections.delete(section.id);
     });
 
-    cconst matches = pokemon.filter(p => {
+    const matches = pokemon.filter(p => {
       const entriesRaw = p.games?.[game.id];
       if (!entriesRaw) return false;
     
