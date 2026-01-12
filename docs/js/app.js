@@ -59,7 +59,6 @@ async function init() {
     wireSearch();
     wireMuteToggle();
     wireLanguageSelector();
-    wireGameTimeButton();
 
     await loadLanguage(getLanguage());
 
@@ -110,7 +109,7 @@ function wireLanguageSelector() {
 }
 
 export function wireGameTimeButton(game) {
-  if (game.generation !== 2) {
+  if (!game || game.generation !== 2) {
     btn.classList.add('hidden');
     return;
   }
@@ -331,6 +330,8 @@ async function selectGame(gameMeta) {
     meta: gameMeta,
     data: gameData
   };
+
+  wireGameTimeButton(gameMeta);
 
   const timeIcons = document.querySelector(".time-icons");
   const timeLegend = document.querySelector(".time-legend");
