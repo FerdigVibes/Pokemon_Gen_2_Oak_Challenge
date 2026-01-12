@@ -13,18 +13,42 @@ let currentSelection = null; // { pokemon, game }
 
 window.addEventListener('language-changed', () => {
   if (!currentSelection) return;
-  renderPokemonDetail(currentSelection.pokemon, currentSelection.game);
+  renderPokemonDetail(
+    currentSelection.pokemon,
+    currentSelection.game,
+    currentSelection.sectionId
+  );
 });
+
+function getDetailEntry(pokemon, game, sectionId) {
+  const raw = pokemon.games?.[game.id];
+  if (!raw) return null;
+
+  const entries = Array.isArray(raw) ? raw : [raw];
+
+  // Prefer entry matching the clicked section
+  if (sectionId) {
+    const match = entries.find(e =>
+      e.sections?.includes(sectionId)
+    );
+    if (match) return match;
+  }
+
+  // Fallback (non-duplicated Pokémon)
+  return entries[0] ?? null;
+}
 
 /* =========================================================
    SECTION 3 — Pokémon Detail Panel
    ========================================================= */
 
-export function renderPokemonDetail(pokemon, game) {
+export function renderPokemonDetail(pokemon, game, sectionId) {
+  const entry = getDetailEntry(pokemon, game, sectionId);
+
   const panel = document.getElementById('detail-panel');
   if (!panel) return;
 
-  currentSelection = { pokemon, game };
+  currentSelection = { pokemon, game, sectionId };
 
   const lang = getLanguage();
   const displayName =
@@ -63,27 +87,16 @@ export function renderPokemonDetail(pokemon, game) {
     </p>
 
     ${
-      gameData
-        ? renderGameInfo(gameData, lang)
+      entry?.obtain?.length
+        ? renderObtainMethods(entry.obtain, lang)
         : `<p style="opacity:.6">${t('notObtainable')}</p>`
     }
   `;
 
   /* ---------- Sprite → Cry ---------- */
 
-  const sprite = panel.querySelector('[data-cry]');
-  if (sprite) {
-    sprite.addEventListener('click', () => playPokemonCry(pokemon));
-  }
-
-  const entry = getDetailEntry(pokemon, game, sectionId);
-
-  if (!entry || !entry.obtain?.length) {
-   showNotObtainable();
-   return;
-  }
-   
-  renderObtainMethods(entry.obtain);
+  panel.querySelector('[data-cry]')
+    ?.addEventListener('click', () => playPokemonCry(pokemon));
 
   /* ---------- Pokéball toggle ---------- */
 
@@ -111,37 +124,17 @@ export function renderPokemonDetail(pokemon, game) {
   }
 }
 
-function getDetailEntry(pokemon, game, sectionId) {
-  const raw = pokemon.games?.[game.id];
-  if (!raw) return null;
-
-  const entries = Array.isArray(raw) ? raw : [raw];
-
-  // Prefer entry matching the clicked section
-  if (sectionId) {
-    const match = entries.find(e =>
-      e.sections?.includes(sectionId)
-    );
-    if (match) return match;
-  }
-
-  // Fallback (non-duplicated Pokémon)
-  return entries[0] ?? null;
-}
-
 /* =========================================================
    Game-specific info (translated fields)
    ========================================================= */
 
-function renderGameInfo(gameData, lang) {
-  const obtainHtml = (gameData.obtain || [])
-    .map(o => renderObtainEntry(o, lang))
-    .join('');
+function renderObtainMethods(obtain, lang) {
+  const items = obtain.map(o => renderObtainEntry(o, lang)).join('');
 
   return `
     <h3>${t('howToObtain')}</h3>
     <ul>
-      ${obtainHtml || `<li>${t('notObtainable')}</li>`}
+      ${items || `<li>${t('notObtainable')}</li>`}
     </ul>
   `;
 }
