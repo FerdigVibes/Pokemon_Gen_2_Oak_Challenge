@@ -33,7 +33,6 @@ export function renderPokemonDetail(pokemon, game) {
   const dex = String(pokemon.dex).padStart(3, '0');
   const spritePath = `./assets/sprites/normal/${dex}-${pokemon.slug}.gif`;
 
-  const gameData = pokemon.games?.[game.id];
   const caught = isCaught(game.id, pokemon.dex);
 
   const pokeballPath = `./assets/icons/${
@@ -77,6 +76,15 @@ export function renderPokemonDetail(pokemon, game) {
     sprite.addEventListener('click', () => playPokemonCry(pokemon));
   }
 
+  const entry = getDetailEntry(pokemon, game, sectionId);
+
+  if (!entry || !entry.obtain?.length) {
+   showNotObtainable();
+   return;
+  }
+   
+  renderObtainMethods(entry.obtain);
+
   /* ---------- Pokéball toggle ---------- */
 
   const ball = panel.querySelector('#detail-caught');
@@ -101,6 +109,24 @@ export function renderPokemonDetail(pokemon, game) {
       );
     });
   }
+}
+
+function getDetailEntry(pokemon, game, sectionId) {
+  const raw = pokemon.games?.[game.id];
+  if (!raw) return null;
+
+  const entries = Array.isArray(raw) ? raw : [raw];
+
+  // Prefer entry matching the clicked section
+  if (sectionId) {
+    const match = entries.find(e =>
+      e.sections?.includes(sectionId)
+    );
+    if (match) return match;
+  }
+
+  // Fallback (non-duplicated Pokémon)
+  return entries[0] ?? null;
 }
 
 /* =========================================================
