@@ -21,7 +21,8 @@
     "red": {
       "sections": ["FUCHSIA_POKEMON"],
       "availability": {
-        "afterSection": "BEFORE_FUCHSIA"
+        "afterSection": "BEFORE_FUCHSIA",
+        "excludeDex": [131]
       },
       "obtain": [
         {
@@ -41,7 +42,8 @@
     "blue": {
       "sections": ["FUCHSIA_POKEMON"],
       "availability": {
-        "afterSection": "BEFORE_FUCHSIA"
+        "afterSection": "BEFORE_FUCHSIA",
+        "excludeDex": [131]
       },
       "obtain": [
         {
@@ -61,7 +63,8 @@
     "yellow": {
       "sections": ["FUCHSIA_POKEMON"],
       "availability": {
-        "afterSection": "BEFORE_FUCHSIA"
+        "afterSection": "BEFORE_FUCHSIA",
+        "excludeDex": [131]
       },
       "obtain": [
         {
@@ -81,7 +84,8 @@
     "gold": {
       "sections": ["MAHOGANY_POKEMON"],
       "availability": {
-        "afterSection": "BEFORE_MAHOGANY"
+        "afterSection": "BEFORE_MAHOGANY",
+        "excludeDex": [131]
       },
       "obtain": [
         {
@@ -102,7 +106,8 @@
     "silver": {
       "sections": ["MAHOGANY_POKEMON"],
       "availability": {
-        "afterSection": "BEFORE_MAHOGANY"
+        "afterSection": "BEFORE_MAHOGANY",
+        "excludeDex": [131]
       },
       "obtain": [
         {
@@ -123,7 +128,8 @@
     "crystal": {
       "sections": ["MAHOGANY_POKEMON"],
       "availability": {
-        "afterSection": "BEFORE_MAHOGANY"
+        "afterSection": "BEFORE_MAHOGANY",
+        "excludeDex": [131]
       },
       "obtain": [
         {
