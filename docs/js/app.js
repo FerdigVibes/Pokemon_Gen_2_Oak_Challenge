@@ -287,7 +287,7 @@ function renderTopBarDays() {
 
 async function selectGame(gameMeta) {
   const gameData = await loadGame(gameMeta.id);
-  const isGen2 = [ "gold", "silver", "crystal" ].includes(gameMeta.id);
+  const isGen2 = [ "gold", "silver", "crystal", "crystal_vc" ].includes(gameMeta.id);
 
   document
     .getElementById("game-time-btn")
