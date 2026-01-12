@@ -273,3 +273,21 @@ body {
 .time-icon.inactive {
   opacity: 0.3;
 }
+
+.day-icon {
+  font-size: 0.75rem;
+  padding: 2px 4px;
+  border-radius: 4px;
+  opacity: 0.35;
+}
+
+.day-icon.active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.row-day-icons {
+  display: inline-flex;
+  gap: 3px;
+  margin-left: 6px;
+}
