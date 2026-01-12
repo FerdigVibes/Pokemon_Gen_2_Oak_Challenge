@@ -41,6 +41,23 @@ window.addEventListener('game-time-changed', () => {
   }
 });
 
+window.addEventListener("game-time-changed", () => {
+  if (window.__CURRENT_GAME__ && window.__POKEMON_CACHE__) {
+    renderSections({
+      game: window.__CURRENT_GAME__.data,
+      pokemon: window.__POKEMON_CACHE__
+    });
+
+    const selection = getCurrentDetailSelection();
+    if (selection) {
+      renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
+    }
+  }
+
+  updateTopBarTimeIcons();
+  renderTopBarDays();
+});
+
 /* =========================================================
    INIT
    ========================================================= */
@@ -449,23 +466,6 @@ window.addEventListener('caught-changed', () => {
    window.__CURRENT_GAME__.data,
    window.__POKEMON_CACHE__
   );
-});
-
-window.addEventListener("game-time-changed", () => {
-  if (window.__CURRENT_GAME__ && window.__POKEMON_CACHE__) {
-    renderSections({
-      game: window.__CURRENT_GAME__.data,
-      pokemon: window.__POKEMON_CACHE__
-    });
-
-    const selection = getCurrentDetailSelection();
-    if (selection) {
-      renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
-    }
-  }
-
-  updateTopBarTimeIcons();
-  renderTopBarDays();
 });
 
 init();
