@@ -278,6 +278,7 @@ async function selectGame(gameMeta) {
     ?.classList.toggle("hidden", !isGen2);
 
   window.__CURRENT_GAME__ = {
+    id:gameMeta.id,
     meta: gameMeta,
     data: gameData
   };
