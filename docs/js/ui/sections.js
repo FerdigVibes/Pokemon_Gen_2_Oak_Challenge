@@ -38,7 +38,7 @@ const userExpandedSections = new Set();
 
 function getGameEntries(pokemon, gameId) {
   const normalized = normalizeGameId(gameId);
-  const raw = pokemon.games?.[normalizeGameId(game.id)];
+  const raw = pokemon.games?.[normalized];
   if (!raw) return [];
   return Array.isArray(raw) ? raw : [raw];
 }
@@ -371,7 +371,7 @@ export function renderSections({ game, pokemon }) {
       const sectionId =
         row.closest('.section-block')?.dataset.sectionId;
       
-      const entries = getGameEntries(p, normalizeGameId(game.id);
+      const entries = getGameEntries(p, normalizeGameId(game.id));
       
       // Pick the entry that belongs to THIS section
       const entry =
