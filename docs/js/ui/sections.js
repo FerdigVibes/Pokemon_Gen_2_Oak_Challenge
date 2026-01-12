@@ -119,27 +119,9 @@ function isSectionCompleted(game, sectionId, pokemon, excludeDex = []) {
   return false;
 }
 
-function isPokemonAvailable(pokemon, game) {
-  const gameData = pokemon.games?.[game.id];
-  if (!gameData) return false;
-
-  const gate = gameData.availability;
-  if (!gate) return true;
-
-  if (gate.afterSection) {
-    const exclude = gate.excludeDex ?? [];
-
-    return isSectionCompleted(
-      game,
-      gate.afterSection,
-      window.__POKEMON_CACHE__,
-      exclude
-    );
-  }
-
+function isPokemonAvailable() {
   return true;
 }
-
 
 function applyStarterExclusivity(sectionBlock, gameId) {
   const rows = sectionBlock.querySelectorAll('.pokemon-row');
@@ -384,18 +366,9 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(displayName)
       );
 
-      // Gen 2 availability UI (time + days)
-      const entriesRaw = p.games?.[game.id];
-      const entries = Array.isArray(entriesRaw)
-        ? entriesRaw
-        : entriesRaw ? [entriesRaw] : [];
-      
-      entries.forEach(entry => {
-        appendRowTimeIcons(game.id, entry, row);
-        appendRowDayIcons(game.id, entry, row);
-      });
-
       row.addEventListener('click', () => {
+        const sectionId =
+          row.closest('.section-block')?.dataset.sectionId;
         const app = document.getElementById('app');
         const isActive = row.classList.contains('is-active');
 
@@ -408,7 +381,7 @@ export function renderSections({ game, pokemon }) {
         }
 
         row.classList.add('is-active');
-        renderPokemonDetail(p, game);
+        renderPokemonDetail(p, game, sectionId);
         playPokemonCry(p);
         app?.classList.add('has-detail');
       });
