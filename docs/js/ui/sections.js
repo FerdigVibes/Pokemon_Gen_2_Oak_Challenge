@@ -27,6 +27,8 @@ const DAY_LABELS = {
   sunday: "Su"
 };
 
+const userExpandedSections = new Set();
+
 /* =========================================================
    SECTION COUNTER + COLLAPSE
    ========================================================= */
@@ -125,31 +127,6 @@ function getPokemonTimeAvailability(gameData) {
   );
 }
 
-function renderRowTimeIcons(gameData) {
-  const availability = getPokemonTimeAvailability(gameData);
-  if (!availability.length) return null;
-
-  const { period } = getGameTime();
-
-  return `
-    <span class="row-time-icons">
-      ${TIME_SLOTS.map(t => {
-        const allowed = availability.includes(t);
-        const active = allowed && t === period;
-
-        return `
-          <span
-            class="time-icon ${active ? "active" : "inactive"}"
-            data-period="${t}"
-          >
-            ${TIME_ICONS[t]}
-          </span>
-        `;
-      }).join("")}
-    </span>
-  `;
-}
-
 /* =========================================================
    REACT TO CAUGHT CHANGES
    ========================================================= */
@@ -171,6 +148,7 @@ function renderTimeIconsForPokemon(pokemon, row) {
   const gameId = row.closest(".section-block")?.dataset.gameId;
   const gameData = pokemon.games?.[gameId];
   if (!gameData) return;
+  if (!["gold","silver","crystal"].includes(gameId)) return;
 
   const obtain = gameData.obtain ?? [];
   const times = new Set();
@@ -212,6 +190,7 @@ function renderDayIconsForPokemon(pokemon, row) {
   const gameId = row.closest(".section-block")?.dataset.gameId;
   const gameData = pokemon.games?.[gameId];
   if (!gameData) return;
+  if (!["gold","silver","crystal"].includes(gameId)) return;
 
   const availableDays = getPokemonDayAvailability(gameData);
   if (!availableDays.length) return;
@@ -344,6 +323,13 @@ export function renderSections({ game, pokemon }) {
         );
       });
 
+      row.append(
+        ball,
+        icon,
+        document.createTextNode(` #${String(p.dex).padStart(3, '0')} `),
+        document.createTextNode(displayName)
+      );
+
       renderTimeIconsForPokemon(p, row);
       renderDayIconsForPokemon(p, row);
 
@@ -353,13 +339,6 @@ export function renderSections({ game, pokemon }) {
       icon.className = 'pokemon-icon';
       icon.src = `./assets/icons/pokemon/${String(p.dex).padStart(3, '0')}-${p.slug}-icon.png`;
       icon.alt = displayName;
-
-      row.append(
-        ball,
-        icon,
-        document.createTextNode(` #${String(p.dex).padStart(3, '0')} `),
-        document.createTextNode(displayName)
-      );
 
       /* Row click → Section 3 */
 
