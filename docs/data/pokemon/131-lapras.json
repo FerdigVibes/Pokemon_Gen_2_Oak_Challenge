@@ -20,6 +20,9 @@
   "games": {
     "red": {
       "sections": ["FUCHSIA_POKEMON"],
+      "availability": {
+        "afterSection": "BEFORE_FUCHSIA"
+      },
       "obtain": [
         {
           "method": "gift",
@@ -37,6 +40,9 @@
 
     "blue": {
       "sections": ["FUCHSIA_POKEMON"],
+      "availability": {
+        "afterSection": "BEFORE_FUCHSIA"
+      },
       "obtain": [
         {
           "method": "gift",
@@ -54,6 +60,9 @@
 
     "yellow": {
       "sections": ["FUCHSIA_POKEMON"],
+      "availability": {
+        "afterSection": "BEFORE_FUCHSIA"
+      },
       "obtain": [
         {
           "method": "gift",
@@ -71,6 +80,9 @@
 
     "gold": {
       "sections": ["MAHOGANY_POKEMON"],
+      "availability": {
+        "afterSection": "BEFORE_MAHOGANY"
+      },
       "obtain": [
         {
           "method": "wild",
@@ -89,6 +101,9 @@
 
     "silver": {
       "sections": ["MAHOGANY_POKEMON"],
+      "availability": {
+        "afterSection": "BEFORE_MAHOGANY"
+      },
       "obtain": [
         {
           "method": "wild",
@@ -107,6 +122,9 @@
 
     "crystal": {
       "sections": ["MAHOGANY_POKEMON"],
+      "availability": {
+        "afterSection": "BEFORE_MAHOGANY"
+      },
       "obtain": [
         {
           "method": "wild",
