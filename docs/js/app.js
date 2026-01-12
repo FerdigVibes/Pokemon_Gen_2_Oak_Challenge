@@ -114,6 +114,22 @@ function resetAppToBlankState() {
   document.getElementById('section-list').innerHTML = '';
   document.getElementById('app')?.classList.remove('has-detail');
 
+  document
+    .getElementById("game-time-btn")
+    ?.classList.add("hidden");
+  
+  document
+    .querySelector(".time-icons")
+    ?.classList.add("hidden");
+  
+  document
+    .querySelector(".time-legend")
+    ?.classList.add("hidden");
+  
+  document
+    .getElementById("day-icons")
+    ?.classList.add("hidden");
+
   const progressText = document.getElementById('progress-text');
   const progressFill = document.querySelector('.progress-fill');
   if (progressText) {
