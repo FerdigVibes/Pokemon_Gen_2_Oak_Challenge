@@ -82,9 +82,23 @@ function isSectionCompleted(game, sectionId, pokemon) {
   const section = game.sections.find(s => s.id === sectionId);
   if (!section?.requiredCount) return false;
 
-  const matches = pokemon.filter(p =>
-    p.games?.[game.id]?.sections?.includes(sectionId)
-  );
+  const matches = pokemon.filter(p => {
+    const gameData = p.games?.[game.id];
+    if (!gameData) return false;
+  
+    // Must belong to this section
+    if (!gameData.sections?.includes(section.id)) return false;
+  
+    // Availability gate (NEW)
+    const gate = gameData.availability?.afterSection;
+    if (gate) {
+      if (!isSectionCompleted(game, pokemon, gate)) {
+        return false;
+      }
+    }
+  
+    return true;
+  });
 
   const caughtCount = matches.filter(p =>
     isCaught(game.id, p.dex)
