@@ -99,7 +99,7 @@ function isSectionCompleted(game, sectionId, pokemon, excludeDex = []) {
     const matches = pokemon.filter(p => {
       if (excludeDex.includes(p.dex)) return false;
     
-      const entries = getGameEntries(p, game.id);
+      const entries = getGameEntries(p, normalizeGameId(game.id));
       return entries.some(e =>
         e.sections?.includes(sectionId)
       );
@@ -308,7 +308,7 @@ export function renderSections({ game, pokemon }) {
     });
 
     const matches = pokemon.filter(p => {
-      const entriesRaw = p.games?.[game.id];
+      const entriesRaw = p.games?.[normalizeGameId(game.id)];
       if (!entriesRaw) return false;
     
       const entries = Array.isArray(entriesRaw)
@@ -371,7 +371,7 @@ export function renderSections({ game, pokemon }) {
       const sectionId =
         row.closest('.section-block')?.dataset.sectionId;
       
-      const entries = getGameEntries(p, game.id);
+      const entries = getGameEntries(p, normalizeGameId(game.id);
       
       // Pick the entry that belongs to THIS section
       const entry =
