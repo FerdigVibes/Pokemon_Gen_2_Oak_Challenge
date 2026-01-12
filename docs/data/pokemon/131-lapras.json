@@ -19,7 +19,7 @@
 
   "games": {
     "red": {
-      "sections": ["BEFORE_FUCHSIA_GYM"],
+      "sections": ["BEFORE_FUCHSIA"],
       "obtain": [
         {
           "method": "gift",
@@ -36,7 +36,7 @@
     },
 
     "blue": {
-      "sections": ["BEFORE_FUCHSIA_GYM"],
+      "sections": ["BEFORE_FUCHSIA"],
       "obtain": [
         {
           "method": "gift",
@@ -53,7 +53,7 @@
     },
 
     "yellow": {
-      "sections": ["BEFORE_FUCHSIA_GYM"],
+      "sections": ["BEFORE_FUCHSIA"],
       "obtain": [
         {
           "method": "gift",
@@ -70,7 +70,7 @@
     },
 
     "gold": {
-      "sections": ["BEFORE_MAHOGANY_GYM"],
+      "sections": ["BEFORE_MAHOGANY"],
       "obtain": [
         {
           "method": "wild",
@@ -88,7 +88,7 @@
     },
 
     "silver": {
-      "sections": ["BEFORE_MAHOGANY_GYM"],
+      "sections": ["BEFORE_MAHOGANY"],
       "obtain": [
         {
           "method": "wild",
@@ -106,7 +106,7 @@
     },
 
     "crystal": {
-      "sections": ["BEFORE_MAHOGANY_GYM"],
+      "sections": ["BEFORE_MAHOGANY"],
       "obtain": [
         {
           "method": "wild",
