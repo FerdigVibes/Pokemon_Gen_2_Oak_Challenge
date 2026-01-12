@@ -1,0 +1,40 @@
+{
+  "dex": 251,
+  "slug": "celebi",
+
+  "names": {
+    "en": "Celebi",
+    "ja": "セレビィ",
+    "fr": "Celebi",
+    "de": "Celebi",
+    "es": "Celebi"
+  },
+
+  "types": ["psychic", "grass"],
+
+  "evolution": {
+    "family": ["celebi"],
+    "stage": 1
+  },
+
+  "games": {
+    "crystal_vc": [
+      {
+        "sections": ["MT_SILVER_POKEMON"],
+        "obtain": [
+          {
+            "method": "event",
+            "locations": ["Ilex Forest"],
+            "notes": {
+              "en": "Obtain the GS Ball from the Goldenrod City Pokémon Center, take it to Kurt in Azalea Town. Wait one day, then interact with the shrine in Ilex Forest.",
+              "ja": "コガネシティのポケモンセンターで「GSボール」を受け取り、ヒワダタウンのガンテツに渡す。1日待った後、ウバメのもりのほこらを調べる。",
+              "fr": "Recevez la GS Ball au Centre Pokémon de Doublonville, apportez-la à Fargas à Écorcia. Attendez un jour, puis interagissez avec le sanctuaire de la Forêt d’Ilex.",
+              "de": "Erhalte den GS-Ball im Pokémon-Center von Dukatia City und bringe ihn zu Kurt in Azalea City. Warte einen Tag und untersuche dann den Schrein im Steineichenwald.",
+              "es": "Obtén la GS Ball en el Centro Pokémon de Ciudad Trigal, llévala a César en Pueblo Azalea. Espera un día y luego interactúa con el santuario del Encinar."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
