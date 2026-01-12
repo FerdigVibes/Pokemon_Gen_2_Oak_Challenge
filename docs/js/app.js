@@ -17,6 +17,7 @@ import { openGameTimeModal } from './ui/gameTimeModal.js';
 window.__setGameTime = setGameTime;
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const TIME_SLOTS = ["morning", "day", "night"];
+const btn = document.getElementById('game-time-btn');
 
 const TIME_ICONS = {
   morning: "🌅",
@@ -43,6 +44,11 @@ window.addEventListener("game-time-changed", () => {
   updateTopBarTimeIcons();
   renderTopBarDays();
 });
+
+function formatGameTime() {
+  const { day, hour, minute, meridiem } = getGameTime();
+  return `${t(`days.${day}`)} ${hour}:${String(minute).padStart(2,'0')} ${meridiem}`;
+}
 
 /* =========================================================
    INIT
@@ -103,13 +109,29 @@ function wireLanguageSelector() {
   });
 }
 
-function wireGameTimeButton() {
-  const btn = document.getElementById('game-time-btn');
-  if (!btn) return;
+export function wireGameTimeButton(game) {
+  if (game.generation !== 2) {
+    btn.classList.add('hidden');
+    return;
+  }
 
-  btn.addEventListener('click', () => {
-    openGameTimeModal();
+  btn.classList.remove('hidden');
+  btn.textContent = `⏰ ${formatGameTime()}`;
+
+  btn.onclick = openGameTimeModal;
+
+  window.addEventListener('game-time-changed', () => {
+    btn.textContent = `⏰ ${formatGameTime()}`;
   });
+}
+
+function getPeriod({ hour, meridiem }) {
+  let h = hour % 12;
+  if (meridiem === 'PM') h += 12;
+
+  if (h >= 6 && h < 10) return 'morning';
+  if (h >= 10 && h < 18) return 'day';
+  return 'night';
 }
 
 function resetAppToBlankState() {
