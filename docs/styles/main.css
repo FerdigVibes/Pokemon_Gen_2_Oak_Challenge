@@ -448,3 +448,36 @@ body {
 .pokemon-row.is-caught .pokemon-icon {
   transform: scale(0.95);
 }
+
+/* =========================================================
+   TIME / DAY AVAILABILITY PULSE
+   ========================================================= */
+
+@keyframes availabilityPulse {
+  0% {
+    box-shadow: 0 0 0 rgba(120, 200, 255, 0.0);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(120, 200, 255, 0.35);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(120, 200, 255, 0.0);
+  }
+}
+
+.pokemon-row.is-available.is-time-gated {
+  animation: availabilityPulse 3.2s ease-in-out infinite;
+  border-radius: 10px;
+}
+
+/* Do NOT pulse when caught */
+.pokemon-row.is-caught.is-time-gated {
+  animation: none;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .pokemon-row.is-available.is-time-gated {
+    animation: none;
+  }
+}
