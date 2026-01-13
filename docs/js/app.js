@@ -10,7 +10,6 @@ import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 import { getGameTime } from "./state/gameTime.js";
-import { setGameTime } from './state/gameTime.js';
 import { openGameTimeModal } from './ui/gameTimeModal.js';
 
 window.__setGameTime = setGameTime;
@@ -144,10 +143,6 @@ function resetAppToBlankState() {
   document.getElementById('section-list').innerHTML = '';
   document.getElementById('app')?.classList.remove('has-detail');
 
-  document
-    .getElementById("game-time-btn")
-    ?.classList.add("hidden");
-
   const progressText = document.getElementById('progress-text');
   const progressFill = document.querySelector('.progress-fill');
   if (progressText) {
@@ -191,18 +186,6 @@ function applyTranslations() {
 
   const objLabel = document.querySelector('.objective strong');
   if (objLabel) objLabel.textContent = t('currentObjective') + ':';
-}
-
-function isAvailableNow(pokemonAvailability, gameTime) {
-  const timeOk =
-    !pokemonAvailability.time ||
-    pokemonAvailability.time.includes(gameTime.period);
-
-  const dayOk =
-    !pokemonAvailability.days ||
-    pokemonAvailability.days.includes(gameTime.dayOfWeek);
-
-  return timeOk && dayOk;
 }
 
 
