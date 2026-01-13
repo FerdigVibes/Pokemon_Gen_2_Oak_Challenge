@@ -102,37 +102,6 @@ body {
   cursor: pointer;
 }
 
-.section-rows .time-icons {
-  font-size: 0.85rem;
-  opacity: 0.85;
-}
-
-.row-time-icons {
-  display: inline-flex;
-  gap: 4px;
-  margin-left: 6px;
-  font-size: 0.85rem;
-}
-
-.time-icon {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-right: 4px;
-  transition: opacity 0.2s ease, filter 0.2s ease;
-  opacity: 0.25;
-}
-
-.time-icon.active {
-  opacity: 1;
-  filter: none;
-}
-
-.time-icon.inactive {
-  opacity: 0.25;
-  filter: grayscale(100%);
-}
-
 /* Subtle idle bounce for selected Pokémon icon */
 @keyframes icon-bob {
   0%   { transform: translateY(0); }
