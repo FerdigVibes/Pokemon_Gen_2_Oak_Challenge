@@ -117,8 +117,32 @@ function isSectionCompleted(game, sectionId, pokemon, excludeDex = []) {
   return false;
 }
 
-function isPokemonAvailable() {
-  return true;
+function isPokemonAvailable(gameEntry) {
+  if (!gameEntry?.obtain) return true;
+
+  const { day, hour, meridiem } = getGameTime();
+
+  // Convert current time to 24h
+  let h = hour % 12;
+  if (meridiem === 'PM') h += 12;
+
+  return gameEntry.obtain.some(o => {
+    // Time check
+    let timeOk = true;
+    if (Array.isArray(o.time)) {
+      if (o.time.includes('morning')) timeOk = h >= 6 && h < 10;
+      else if (o.time.includes('day')) timeOk = h >= 10 && h < 18;
+      else if (o.time.includes('night')) timeOk = h >= 18 || h < 6;
+    }
+
+    // Day check
+    let dayOk = true;
+    if (Array.isArray(o.days)) {
+      dayOk = o.days.includes(day);
+    }
+
+    return timeOk && dayOk;
+  });
 }
 
 function applyStarterExclusivity(sectionBlock, gameId) {
@@ -262,6 +286,17 @@ export function renderSections({ game, pokemon }) {
     matches.forEach(p => {
       const caught = isCaught(game.id, p.dex);
 
+      const sectionId =
+        row.closest('.section-block')?.dataset.sectionId;
+      
+      const entries = getGameEntries(p, normalizeGameId(game.id));
+      
+      const entry =
+        entries.find(e => e.sections?.includes(sectionId)) ??
+        entries[0];
+      
+      const availableNow = !caught && isPokemonAvailable(entry);
+
       const row = document.createElement('div');
       row.className = 'pokemon-row';
       row.dataset.dex = String(p.dex);
@@ -337,6 +372,17 @@ export function renderSections({ game, pokemon }) {
         app?.classList.add('has-detail');
       });
 
+      // Clear any previous state
+      row.classList.remove('is-caught', 'is-available', 'is-unavailable');
+      
+      if (caught) {
+        row.classList.add('is-caught');
+      } else if (availableNow) {
+        row.classList.add('is-available');
+      } else {
+        row.classList.add('is-unavailable');
+      }
+
       if (caught) row.classList.add('is-caught');
 
       sectionRows.appendChild(row);
@@ -356,3 +402,33 @@ export function renderSections({ game, pokemon }) {
 }
 
 window.__isPokemonAvailable = isPokemonAvailable;
+
+window.addEventListener('game-time-changed', () => {
+  document.querySelectorAll('.pokemon-row').forEach(row => {
+    const sectionId =
+      row.closest('.section-block')?.dataset.sectionId;
+    const gameId =
+      row.closest('.section-block')?.dataset.gameId;
+
+    if (!window.__CURRENT_GAME__) return;
+
+    const pokemon = window.__POKEMON_CACHE__
+      .find(p => String(p.dex) === row.dataset.dex);
+
+    if (!pokemon) return;
+
+    const entries = getGameEntries(pokemon, normalizeGameId(gameId));
+    const entry =
+      entries.find(e => e.sections?.includes(sectionId)) ??
+      entries[0];
+
+    const caught = isCaught(gameId, pokemon.dex);
+    const availableNow = !caught && isPokemonAvailable(entry);
+
+    row.classList.remove('is-caught', 'is-available', 'is-unavailable');
+
+    if (caught) row.classList.add('is-caught');
+    else if (availableNow) row.classList.add('is-available');
+    else row.classList.add('is-unavailable');
+  });
+});
