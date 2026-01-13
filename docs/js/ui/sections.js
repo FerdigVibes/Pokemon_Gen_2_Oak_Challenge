@@ -398,7 +398,37 @@ export function renderSections({ game, pokemon }) {
     updateSectionCounter(sectionBlock);
   });
   applyMoonStoneExclusivity(game.id);
+  // After sectionBlock is appended
+  updateWheelFocus(sectionRows);
+  
+  sectionRows.addEventListener('scroll', () => {
+    updateWheelFocus(sectionRows);
+  });
   document.querySelectorAll('.section-block').forEach(updateSectionCounter);
+}
+
+function updateWheelFocus(sectionRows) {
+  const rows = Array.from(sectionRows.querySelectorAll('.pokemon-row'));
+  if (!rows.length) return;
+
+  const containerRect = sectionRows.getBoundingClientRect();
+  const centerY = containerRect.top + containerRect.height / 2;
+
+  rows.forEach(row => {
+    row.classList.remove('is-focus', 'is-near', 'is-far');
+
+    const rect = row.getBoundingClientRect();
+    const rowCenter = rect.top + rect.height / 2;
+    const distance = Math.abs(centerY - rowCenter);
+
+    if (distance < 24) {
+      row.classList.add('is-focus');
+    } else if (distance < 64) {
+      row.classList.add('is-near');
+    } else {
+      row.classList.add('is-far');
+    }
+  });
 }
 
 window.__isPokemonAvailable = isPokemonAvailable;
