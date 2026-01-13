@@ -143,10 +143,19 @@ body {
   cursor: pointer;
 }
 
-/* Subtle idle bounce for selected Pokémon icon */
 @keyframes icon-bob {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-2px); }
+  20%  { transform: translateY(0); }
+
+  25%  { transform: translateY(-2px); }
+  45%  { transform: translateY(-2px); }
+
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(0); }
+
+  75%  { transform: translateY(-1px); }
+  90%  { transform: translateY(-1px); }
+
   100% { transform: translateY(0); }
 }
 
@@ -159,7 +168,7 @@ body {
 
 /* Applied only to the currently selected row */
 .pokemon-row.is-active .pokemon-icon {
-  animation: icon-bob 2.2s ease-in-out infinite;
+  animation: icon-bob 2.2s steps(1, end) infinite;
 }
 
 .pokemon-row:hover .pokemon-icon {
