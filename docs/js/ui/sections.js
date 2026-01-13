@@ -395,15 +395,16 @@ export function renderSections({ game, pokemon }) {
     sectionBlock.append(header, sectionRows);
     container.appendChild(sectionBlock);
 
+    // After sectionBlock is appended
+    updateWheelFocus(sectionRows);
+    
+    sectionRows.addEventListener('scroll', () => {
+      updateWheelFocus(sectionRows);
+    });
+
     updateSectionCounter(sectionBlock);
   });
   applyMoonStoneExclusivity(game.id);
-  // After sectionBlock is appended
-  updateWheelFocus(sectionRows);
-  
-  sectionRows.addEventListener('scroll', () => {
-    updateWheelFocus(sectionRows);
-  });
   document.querySelectorAll('.section-block').forEach(updateSectionCounter);
 }
 
