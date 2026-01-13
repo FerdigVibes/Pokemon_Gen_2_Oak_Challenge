@@ -115,7 +115,8 @@ export function wireGameTimeButton(game) {
   }
 
   btn.classList.remove('hidden');
-  btn.textContent = `⏰ ${formatGameTime()}`;
+  const label = btn.querySelector('.game-time-label');
+  label.textContent = formatGameTime();
 
   btn.onclick = openGameTimeModal;
 
