@@ -78,7 +78,17 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
       aria-label="${t('caught')}"
     ></button>
 
-    <h2>${displayName}</h2>
+    <div class="detail-name-row">
+      <h2>${displayName}</h2>
+      <button
+        class="shiny-toggle"
+        id="shiny-toggle"
+        aria-label="Toggle shiny"
+        title="Toggle shiny"
+      >
+        ✨
+      </button>
+    </div>
 
     <p>
       <strong>${t('nationalDex')}:</strong> #${dex}
@@ -90,6 +100,36 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
         : `<p style="opacity:.6">${t('notObtainable')}</p>`
     }
   `;
+
+  /* ---------- Shiny toggle ---------- */
+
+   const spriteImg = panel.querySelector('.detail-sprite img');
+   const shinyBtn = panel.querySelector('#shiny-toggle');
+   
+   if (spriteImg && shinyBtn) {
+     const shinyKey = `oakChallenge.shiny.${game.id}.${pokemon.dex}`;
+     let isShiny = localStorage.getItem(shinyKey) === '1';
+   
+     const dexStr = dex; // already padded above
+     const slug = pokemon.slug;
+   
+     const normalSrc = `./assets/sprites/normal/${dexStr}-${slug}.gif`;
+     const shinySrc = `./assets/sprites/shiny/${dexStr}-${slug}.gif`;
+   
+     // Initialize state
+     spriteImg.src = isShiny ? shinySrc : normalSrc;
+     shinyBtn.classList.toggle('active', isShiny);
+   
+     shinyBtn.addEventListener('click', e => {
+       e.stopPropagation();
+   
+       isShiny = !isShiny;
+       localStorage.setItem(shinyKey, isShiny ? '1' : '0');
+   
+       spriteImg.src = isShiny ? shinySrc : normalSrc;
+       shinyBtn.classList.toggle('active', isShiny);
+     });
+   }
 
   /* ---------- Sprite → Cry ---------- */
 
