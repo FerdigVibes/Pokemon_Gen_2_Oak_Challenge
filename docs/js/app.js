@@ -12,7 +12,6 @@ import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } fr
 import { getGameTime } from "./state/gameTime.js";
 import { openGameTimeModal } from './ui/gameTimeModal.js';
 
-window.__setGameTime = setGameTime;
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const btn = document.getElementById('game-time-btn');
 
