@@ -285,16 +285,6 @@ function wireMuteToggle() {
   });
 }
 
-const DAY_LABELS = {
-  monday: "Mo",
-  tuesday: "Tu",
-  wednesday: "We",
-  thursday: "Th",
-  friday: "Fr",
-  saturday: "Sa",
-  sunday: "Su"
-};
-
 function renderTopBarDays() {
   const container = document.getElementById("day-icons");
   if (!container) return;
