@@ -59,6 +59,42 @@ body {
   padding: 6px 0;
 }
 
+.section-rows {
+  perspective: 900px;
+  transform-style: preserve-3d;
+}
+
+/* =========================================================
+   ROLODEX DEPTH EFFECT
+   ========================================================= */
+
+.section-rows .pokemon-row {
+  transition:
+    transform 420ms cubic-bezier(0.22, 0.61, 0.36, 1),
+    opacity 220ms ease,
+    filter 220ms ease;
+}
+
+/* Slight tilt for non-active rows */
+.section-rows .pokemon-row:not(.is-active) {
+  transform: rotateX(6deg) translateZ(-8px);
+}
+
+/* Center row feels closest */
+.section-rows .pokemon-row.is-active {
+  transform: rotateX(0deg) translateZ(12px) scale(1.02);
+}
+
+/* =========================================================
+   ROLODEX ROW BASE
+   ========================================================= */
+
+.pokemon-row {
+  transform-origin: center center;
+  transform: translateZ(0);
+  will-change: transform, opacity;
+}
+
 #detail-panel {
   width: 320px; /* adjust later */
   flex-shrink: 0;
@@ -75,6 +111,25 @@ body {
 
 .pokemon-row:hover {
   background: #eee;
+}
+
+/* =========================================================
+   ROLODEX ENTRY ANIMATION
+   ========================================================= */
+
+@keyframes rolodexRollIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) rotateX(12deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(6deg);
+  }
+}
+
+.section-rows .pokemon-row {
+  animation: rolodexRollIn 420ms ease both;
 }
 
 .pokemon-icon {
@@ -360,7 +415,7 @@ body {
 }
 
 /* =========================================================
-   SECTION 2 – POKÉMON AVAILABILITY STATES
+    2 – POKÉMON AVAILABILITY STATES
    ========================================================= */
 
 .pokemon-row {
