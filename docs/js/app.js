@@ -16,7 +16,6 @@ import { openGameTimeModal } from './ui/gameTimeModal.js';
 
 window.__setGameTime = setGameTime;
 const STORAGE_KEY = 'oakChallenge.gameTime';
-const TIME_SLOTS = ["morning", "day", "night"];
 const btn = document.getElementById('game-time-btn');
 
 const TIME_ICONS = {
@@ -41,7 +40,6 @@ window.addEventListener("game-time-changed", () => {
     renderPokemonDetail(selection.pokemon, window.__CURRENT_GAME__.data);
   }
 
-  updateTopBarTimeIcons();
 });
 
 function formatGameTime() {
@@ -79,8 +77,6 @@ async function init() {
 
     buildGameSelector();
     applyTranslations();
-
-    updateTopBarTimeIcons();
 
   } catch (err) {
     console.error('Init failed:', err);
@@ -142,15 +138,6 @@ export function wireGameTimeButton(isGen2) {
   window.addEventListener('language-changed', update);
 }
 
-function getPeriod({ hour, meridiem }) {
-  let h = hour % 12;
-  if (meridiem === 'PM') h += 12;
-
-  if (h >= 6 && h < 10) return 'morning';
-  if (h >= 10 && h < 18) return 'day';
-  return 'night';
-}
-
 function resetAppToBlankState() {
   window.__CURRENT_GAME__ = null;
   window.__POKEMON_CACHE__ = null;
@@ -166,18 +153,6 @@ function resetAppToBlankState() {
 
   document
     .getElementById("game-time-btn")
-    ?.classList.add("hidden");
-  
-  document
-    .querySelector(".time-icons")
-    ?.classList.add("hidden");
-  
-  document
-    .querySelector(".time-legend")
-    ?.classList.add("hidden");
-  
-  document
-    .getElementById("day-icons")
     ?.classList.add("hidden");
 
   const progressText = document.getElementById('progress-text');
@@ -317,19 +292,13 @@ async function selectGame(gameMeta) {
   };
 
   wireGameTimeButton(isGen2);
-
-  const timeIcons = document.querySelector(".time-icons");
-  const timeLegend = document.querySelector(".time-legend");
+  
   const timeBtn = document.getElementById("game-time-btn");
   
   [timeIcons, timeLegend, timeBtn].forEach(el => {
     if (!el) return;
     el.classList.toggle("hidden", !isGen2);
   });
-  
-  if (isGen2) {
-    updateTopBarTimeIcons();
-  }
 
   document.getElementById('game-selector-btn').textContent =
     `${t(gameMeta.labelKey)} ▾`;
@@ -436,16 +405,6 @@ function getCurrentObjective(game, pokemon) {
 
   // 4. Everything complete
   return t('challengeComplete');
-}
-
-function updateTopBarTimeIcons() {
-  const period = getPeriod(getGameTime());
-
-  document.querySelectorAll(".time-icon").forEach(icon => {
-    const iconPeriod = icon.dataset.period;
-    icon.classList.toggle("active", iconPeriod === period);
-    icon.classList.toggle("inactive", iconPeriod !== period);
-  });
 }
 
 
