@@ -30,6 +30,7 @@
     "sat": "Sat",
     "sun": "Sun"
   },
+  
   "gameTime": {
     "title": "Set Game Time",
     "day": "Day",
