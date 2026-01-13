@@ -42,7 +42,6 @@ window.addEventListener("game-time-changed", () => {
   }
 
   updateTopBarTimeIcons();
-  renderTopBarDays();
 });
 
 function formatGameTime() {
@@ -68,7 +67,6 @@ async function init() {
     applyTranslations();
 
     updateTopBarTimeIcons();
-    renderTopBarDays();
 
   } catch (err) {
     console.error('Init failed:', err);
@@ -115,14 +113,18 @@ export function wireGameTimeButton(game) {
   }
 
   btn.classList.remove('hidden');
-  const label = btn.querySelector('.game-time-label');
-  label.textContent = formatGameTime();
 
+  const label = btn.querySelector('.game-time-label');
+
+  const update = () => {
+    label.textContent = formatGameTime();
+  };
+
+  update();
   btn.onclick = openGameTimeModal;
 
-  window.addEventListener('game-time-changed', () => {
-    btn.textContent = `⏰ ${formatGameTime()}`;
-  });
+  window.addEventListener('game-time-changed', update);
+  window.addEventListener('language-changed', update);
 }
 
 function getPeriod({ hour, meridiem }) {
@@ -282,25 +284,6 @@ function wireMuteToggle() {
   btn.addEventListener('click', () => {
     toggleMute();
     updateIcon();
-  });
-}
-
-function renderTopBarDays() {
-  const container = document.getElementById("day-icons");
-  if (!container) return;
-
-  const { dayOfWeek } = getGameTime();
-  container.innerHTML = "";
-
-  Object.entries(DAY_LABELS).forEach(([day, label]) => {
-    const span = document.createElement("span");
-    span.className = "day-icon";
-    span.textContent = label;
-
-    span.classList.toggle("active", day === dayOfWeek);
-    span.classList.toggle("inactive", day !== dayOfWeek);
-
-    container.appendChild(span);
   });
 }
 
