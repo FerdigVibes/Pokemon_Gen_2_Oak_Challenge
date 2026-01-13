@@ -46,8 +46,22 @@ window.addEventListener("game-time-changed", () => {
 
 function formatGameTime() {
   const { day, hour, minute, meridiem } = getGameTime();
-  return `${t(`days.${day}`)} ${hour}:${String(minute).padStart(2,'0')} ${meridiem}`;
+
+  let dayLabel;
+  try {
+    dayLabel = t(`days.${day}`);
+  } catch {
+    dayLabel = day;
+  }
+
+  // Fallback if translations aren't loaded yet
+  if (!dayLabel || dayLabel.startsWith('days.')) {
+    dayLabel = day.charAt(0).toUpperCase() + day.slice(1, 3);
+  }
+
+  return `${dayLabel} ${hour}:${String(minute).padStart(2,'0')} ${meridiem}`;
 }
+
 
 /* =========================================================
    INIT
