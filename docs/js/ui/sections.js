@@ -5,28 +5,9 @@ import { playPokemonCry } from './cry.js';
 import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
-import { getGameTime } from '../state/gameTime.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 const GEN2_IDS = new Set(['gold', 'silver', 'crystal_gbc', 'crystal_vc']);
-
-const TIME_SLOTS = ['morning', 'day', 'night'];
-const TIME_ICONS = {
-  morning: '🌅',
-  day: '☀️',
-  night: '🌙'
-};
-
-const DAYS = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
-const DAY_LABELS = {
-  monday: 'Mo',
-  tuesday: 'Tu',
-  wednesday: 'We',
-  thursday: 'Th',
-  friday: 'Fr',
-  saturday: 'Sa',
-  sunday: 'Su'
-};
 
 const MOON_STONE_SECTIONS = new Set([
   'MOON_STONE_1',
@@ -199,63 +180,6 @@ function applyMoonStoneExclusivity(gameId) {
   });
 }
 
-
-/* =========================================================
-   Time/Day Icon Renderers (Gen 2 only)
-   ========================================================= */
-
-function appendRowTimeIcons(gameId, gameData, row) {
-  if (!GEN2_IDS.has(gameId)) return;
-
-  const availability = getPokemonTimeAvailability(gameData);
-  if (!availability.length) return;
-
-  const { period } = getGameTime();
-
-  const wrapper = document.createElement('span');
-  wrapper.className = 'row-time-icons';
-
-  TIME_SLOTS.forEach(slot => {
-    const span = document.createElement('span');
-    span.className = 'time-icon';
-    span.textContent = TIME_ICONS[slot];
-
-    // Lit only if allowed AND matches current period
-    if (availability.includes(slot) && slot === period) span.classList.add('active');
-    else span.classList.add('inactive');
-
-    wrapper.appendChild(span);
-  });
-
-  row.appendChild(wrapper);
-}
-
-function appendRowDayIcons(gameId, gameData, row) {
-  if (!GEN2_IDS.has(gameId)) return;
-
-  const availableDays = getPokemonDayAvailability(gameData);
-  if (!availableDays.length) return;
-
-  const { dayOfWeek } = getGameTime();
-
-  const wrapper = document.createElement('div');
-  wrapper.className = 'row-day-icons';
-
-  DAYS.forEach(d => {
-    const span = document.createElement('span');
-    span.className = 'day-icon';
-    span.textContent = DAY_LABELS[d];
-
-    // Lit only if allowed AND matches current day
-    if (availableDays.includes(d) && d === dayOfWeek) span.classList.add('active');
-    else span.classList.add('inactive');
-
-    wrapper.appendChild(span);
-  });
-
-  row.appendChild(wrapper);
-}
-
 /* =========================================================
    React to caught changes
    ========================================================= */
@@ -392,11 +316,6 @@ export function renderSections({ game, pokemon }) {
       const entry =
         entries.find(e => e.sections?.includes(sectionId)) ??
         entries[0]; // safe fallback
-      
-      if (entry) {
-        appendRowTimeIcons(game.id, entry, row);
-        appendRowDayIcons(game.id, entry, row);
-      }
 
       row.addEventListener('click', () => {
         const sectionId =
