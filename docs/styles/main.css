@@ -489,3 +489,28 @@ body {
     animation: none;
   }
 }
+
+.detail-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shiny-toggle {
+  font-size: 1.1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.shiny-toggle:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.shiny-toggle.active {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(255, 215, 100, 0.7));
+}
