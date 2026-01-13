@@ -9,7 +9,7 @@ import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
-import { getGameTime } from "./state/gameTime.js";
+import { getGameTime, setGameTime, startGameClock } from './state/gameTime.js';
 import { openGameTimeModal } from './ui/gameTimeModal.js';
 
 const STORAGE_KEY = 'oakChallenge.gameTime';
@@ -259,6 +259,10 @@ function wireMuteToggle() {
 async function selectGame(gameMeta) {
   const gameData = await loadGame(gameMeta.id);
   const isGen2 = [ "gold", "silver", "crystal_gbc", "crystal_vc" ].includes(gameMeta.id);
+
+  if (isGen2) {
+    startGameClock();
+  }
 
   window.__CURRENT_GAME__ = {
     id:gameMeta.id,
