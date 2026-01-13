@@ -341,9 +341,6 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(` #${String(p.dex).padStart(3, '0')} `),
         document.createTextNode(displayName)
       );
-
-      const sectionId =
-        row.closest('.section-block')?.dataset.sectionId;
       
       const entries = getGameEntries(p, normalizeGameId(game.id));
       
