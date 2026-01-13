@@ -292,13 +292,10 @@ async function selectGame(gameMeta) {
   };
 
   wireGameTimeButton(isGen2);
-  
-  const timeBtn = document.getElementById("game-time-btn");
-  
-  [timeIcons, timeLegend, timeBtn].forEach(el => {
-    if (!el) return;
-    el.classList.toggle("hidden", !isGen2);
-  });
+
+  document
+  .getElementById("game-time-btn")
+  ?.classList.toggle("hidden", !isGen2);
 
   document.getElementById('game-selector-btn').textContent =
     `${t(gameMeta.labelKey)} ▾`;
