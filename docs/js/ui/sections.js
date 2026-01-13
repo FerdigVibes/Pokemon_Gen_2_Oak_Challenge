@@ -6,6 +6,7 @@ import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
+import { getGameTime } from '../state/gameTime.js';
 
 const GEN2_IDS = new Set(['gold', 'silver', 'crystal_gbc', 'crystal_vc']);
 
