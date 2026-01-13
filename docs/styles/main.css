@@ -389,3 +389,27 @@ body {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
+
+/* ======================================================
+   SECTION 2 – AVAILABILITY STATES
+   ====================================================== */
+
+/* Base Pokémon row (no change needed here) */
+
+/* Caught Pokémon — slightly reduced presence */
+.pokemon-row.is-caught {
+  opacity: 1;
+  transform: scale(0.96);
+}
+
+/* Uncaught but NOT available — soft grey */
+.pokemon-row.is-unavailable {
+  filter: grayscale(40%);
+  opacity: 0.65;
+}
+
+/* Uncaught and available — default appearance */
+.pokemon-row.is-available {
+  filter: none;
+  opacity: 1;
+}
