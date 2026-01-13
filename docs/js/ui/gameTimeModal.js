@@ -15,6 +15,12 @@ const cancelBtn = document.getElementById('gt-cancel');
 
 const DAYS = ['mon','tue','wed','thu','fri','sat','sun'];
 
+const backdrop = modal.querySelector('.modal-backdrop');
+
+backdrop.addEventListener('click', () => {
+  modal.classList.add('hidden');
+});
+
 function buildSelectors() {
   daySelect.innerHTML = '';
   DAYS.forEach(d => {
