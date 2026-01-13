@@ -21,6 +21,12 @@ backdrop.addEventListener('click', () => {
   modal.classList.add('hidden');
 });
 
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    modal.classList.add('hidden');
+  }
+});
+
 function buildSelectors() {
   daySelect.innerHTML = '';
   DAYS.forEach(d => {
