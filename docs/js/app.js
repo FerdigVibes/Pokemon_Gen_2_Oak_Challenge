@@ -106,8 +106,8 @@ function wireLanguageSelector() {
   });
 }
 
-export function wireGameTimeButton(game) {
-  if (!game || game.generation !== 2) {
+export function wireGameTimeButton(isGen2) {
+  if (!isGen2) {
     btn.classList.add('hidden');
     return;
   }
@@ -115,6 +115,7 @@ export function wireGameTimeButton(game) {
   btn.classList.remove('hidden');
 
   const label = btn.querySelector('.game-time-label');
+  if (!label) return;
 
   const update = () => {
     label.textContent = formatGameTime();
@@ -295,17 +296,13 @@ async function selectGame(gameMeta) {
   const gameData = await loadGame(gameMeta.id);
   const isGen2 = [ "gold", "silver", "crystal_gbc", "crystal_vc" ].includes(gameMeta.id);
 
-  document
-    .getElementById("game-time-btn")
-    ?.classList.toggle("hidden", !isGen2);
-
   window.__CURRENT_GAME__ = {
     id:gameMeta.id,
     meta: gameMeta,
     data: gameData
   };
 
-  wireGameTimeButton(gameMeta);
+  wireGameTimeButton(isGen2);
 
   const timeIcons = document.querySelector(".time-icons");
   const timeLegend = document.querySelector(".time-legend");
