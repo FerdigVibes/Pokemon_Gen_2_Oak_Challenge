@@ -334,3 +334,58 @@ body {
 
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
+
+/* ======================================================
+   POKÉGEAR GAME TIME BUTTON
+   ====================================================== */
+
+.game-time-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(
+    180deg,
+    #e6e6e6,
+    #cfcfcf
+  );
+  border: 1px solid #999;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.6),
+    0 1px 2px rgba(0,0,0,0.25);
+
+  cursor: pointer;
+}
+
+.game-time-btn:hover {
+  background: linear-gradient(
+    180deg,
+    #f2f2f2,
+    #d9d9d9
+  );
+}
+
+.game-time-btn:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.25);
+}
+
+/* Watch glyph */
+.pokegear-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* Time text */
+.game-time-label {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
