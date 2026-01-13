@@ -286,20 +286,33 @@ export function renderSections({ game, pokemon }) {
     matches.forEach(p => {
       const caught = isCaught(game.id, p.dex);
 
-      const sectionId =
-        row.closest('.section-block')?.dataset.sectionId;
-      
-      const entries = getGameEntries(p, normalizeGameId(game.id));
-      
-      const entry =
-        entries.find(e => e.sections?.includes(sectionId)) ??
-        entries[0];
-      
-      const availableNow = !caught && isPokemonAvailable(entry);
-
+      // 1️⃣ CREATE ROW FIRST
       const row = document.createElement('div');
       row.className = 'pokemon-row';
       row.dataset.dex = String(p.dex);
+    
+      // 2️⃣ SECTION ID — USE sectionBlock, NOT row
+      const sectionId = sectionBlock.dataset.sectionId;
+    
+      // 3️⃣ FIND GAME ENTRY
+      const entries = getGameEntries(p, normalizeGameId(game.id));
+      const entry =
+        entries.find(e => e.sections?.includes(sectionId)) ??
+        entries[0];
+    
+      // 4️⃣ AVAILABILITY
+      const availableNow = !caught && isPokemonAvailable(entry);
+    
+      // 5️⃣ APPLY STATE CLASSES
+      row.classList.remove('is-caught', 'is-available', 'is-unavailable');
+    
+      if (caught) {
+        row.classList.add('is-caught');
+      } else if (availableNow) {
+        row.classList.add('is-available');
+      } else {
+        row.classList.add('is-unavailable');
+      }
 
       const lang = getLanguage();
       const displayName = p.names?.[lang] || p.names?.en || p.slug;
@@ -343,37 +356,22 @@ export function renderSections({ game, pokemon }) {
       );
 
       row.addEventListener('click', () => {
-        const sectionId =
-          row.closest('.section-block')?.dataset.sectionId;
         const app = document.getElementById('app');
         const isActive = row.classList.contains('is-active');
-
+      
         document.querySelectorAll('.pokemon-row.is-active')
           .forEach(r => r.classList.remove('is-active'));
-
+      
         if (isActive) {
           app?.classList.remove('has-detail');
           return;
         }
-
+      
         row.classList.add('is-active');
         renderPokemonDetail(p, game, sectionId);
         playPokemonCry(p);
         app?.classList.add('has-detail');
       });
-
-      // Clear any previous state
-      row.classList.remove('is-caught', 'is-available', 'is-unavailable');
-      
-      if (caught) {
-        row.classList.add('is-caught');
-      } else if (availableNow) {
-        row.classList.add('is-available');
-      } else {
-        row.classList.add('is-unavailable');
-      }
-
-      if (caught) row.classList.add('is-caught');
 
       sectionRows.appendChild(row);
     });
@@ -395,8 +393,6 @@ window.__isPokemonAvailable = isPokemonAvailable;
 
 window.addEventListener('game-time-changed', () => {
   document.querySelectorAll('.pokemon-row').forEach(row => {
-    const sectionId =
-      row.closest('.section-block')?.dataset.sectionId;
     const gameId =
       row.closest('.section-block')?.dataset.gameId;
 
