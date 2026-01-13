@@ -393,29 +393,37 @@ export function renderSections({ game, pokemon }) {
 window.__isPokemonAvailable = isPokemonAvailable;
 
 window.addEventListener('game-time-changed', () => {
-  document.querySelectorAll('.pokemon-row').forEach(row => {
-    const gameId =
-      row.closest('.section-block')?.dataset.gameId;
+  if (!window.__CURRENT_GAME__ || !window.__POKEMON_CACHE__) return;
 
-    if (!window.__CURRENT_GAME__) return;
+  document.querySelectorAll('.pokemon-row').forEach(row => {
+    const sectionBlock = row.closest('.section-block');
+    if (!sectionBlock) return;
+
+    const sectionId = sectionBlock.dataset.sectionId;
+    const gameId = sectionBlock.dataset.gameId;
 
     const pokemon = window.__POKEMON_CACHE__
       .find(p => String(p.dex) === row.dataset.dex);
-
     if (!pokemon) return;
+
+    const caught = isCaught(gameId, pokemon.dex);
 
     const entries = getGameEntries(pokemon, normalizeGameId(gameId));
     const entry =
       entries.find(e => e.sections?.includes(sectionId)) ??
       entries[0];
 
-    const caught = isCaught(gameId, pokemon.dex);
     const availableNow = !caught && isPokemonAvailable(entry);
 
     row.classList.remove('is-caught', 'is-available', 'is-unavailable');
 
-    if (caught) row.classList.add('is-caught');
-    else if (availableNow) row.classList.add('is-available');
-    else row.classList.add('is-unavailable');
+    if (caught) {
+      row.classList.add('is-caught');
+    } else if (availableNow) {
+      row.classList.add('is-available');
+    } else {
+      row.classList.add('is-unavailable');
+    }
   });
 });
+
