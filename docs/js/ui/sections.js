@@ -341,13 +341,6 @@ export function renderSections({ game, pokemon }) {
         document.createTextNode(` #${String(p.dex).padStart(3, '0')} `),
         document.createTextNode(displayName)
       );
-      
-      const entries = getGameEntries(p, normalizeGameId(game.id));
-      
-      // Pick the entry that belongs to THIS section
-      const entry =
-        entries.find(e => e.sections?.includes(sectionId)) ??
-        entries[0]; // safe fallback
 
       row.addEventListener('click', () => {
         const sectionId =
