@@ -13,16 +13,9 @@ import { getGameTime } from "./state/gameTime.js";
 import { setGameTime } from './state/gameTime.js';
 import { openGameTimeModal } from './ui/gameTimeModal.js';
 
-
 window.__setGameTime = setGameTime;
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const btn = document.getElementById('game-time-btn');
-
-const TIME_ICONS = {
-  morning: "🌅",
-  day: "☀️",
-  night: "🌙"
-};
 
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
