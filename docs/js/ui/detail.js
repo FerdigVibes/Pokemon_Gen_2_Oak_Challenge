@@ -1,7 +1,6 @@
 // docs/js/ui/detail.js
 
 import { playPokemonCry } from './cry.js';
-import { isCaught, toggleCaught } from '../state/caught.js';
 import { getLanguage } from '../state/language.js';
 import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
@@ -56,12 +55,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   const dex = String(pokemon.dex).padStart(3, '0');
   const spritePath = `./assets/sprites/normal/${dex}-${pokemon.slug}.gif`;
 
-  const caught = isCaught(game.id, pokemon.dex);
-
-  const pokeballPath = `./assets/icons/${
-    caught ? 'pokeball-full.png' : 'pokeball-empty.png'
-  }`;
-
   panel.innerHTML = `
     <div class="detail-sprite">
       <img
@@ -71,13 +64,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
         style="cursor:pointer"
       />
     </div>
-
-    <button
-      id="detail-caught"
-      class="caught-toggle"
-      style="background-image:url(${pokeballPath})"
-      aria-label="${t('caught')}"
-    ></button>
 
     <div class="detail-name-row">
       <h2>${displayName}</h2>
@@ -136,31 +122,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
 
   panel.querySelector('[data-cry]')
     ?.addEventListener('click', () => playPokemonCry(pokemon));
-
-  /* ---------- Pokéball toggle ---------- */
-
-  const ball = panel.querySelector('#detail-caught');
-  if (ball) {
-    ball.addEventListener('click', () => {
-      const newState = toggleCaught(game.id, pokemon.dex);
-
-      ball.style.backgroundImage = `url(./assets/icons/${
-        newState ? 'pokeball-full.png' : 'pokeball-empty.png'
-      })`;
-
-      if (newState) playPokemonCry(pokemon);
-
-      window.dispatchEvent(
-        new CustomEvent('caught-changed', {
-          detail: {
-            gameId: game.id,
-            dex: pokemon.dex,
-            caught: newState
-          }
-        })
-      );
-    });
-  }
 }
 
 /* =========================================================
