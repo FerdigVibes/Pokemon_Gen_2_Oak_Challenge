@@ -6,6 +6,7 @@ import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 let currentSelection = null; // { pokemon, game }
+let isShiny = false;
 /* =========================================================
    React to language changes
    ========================================================= */
@@ -53,7 +54,12 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
     pokemon.names?.[lang] || pokemon.names?.en || pokemon.slug;
 
   const dex = String(pokemon.dex).padStart(3, '0');
-  const spritePath = `./assets/sprites/normal/${dex}-${pokemon.slug}.gif`;
+  const isGen1 = ['red', 'blue', 'yellow'].includes(game.id);
+
+  isShiny = false; // reset whenever a new Pokémon is opened
+   
+  const getSpritePath = () =>
+   `./assets/sprites/${isShiny ? 'shiny' : 'normal'}/${dex}-${pokemon.slug}.gif`;
 
   const regionalDex =
   entry?.regionalDex
@@ -63,7 +69,7 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   panel.innerHTML = `
    <div class="detail-sprite-window">
     <img
-     src="${spritePath}"
+     src="${getSpritePath()}"
      alt="${displayName}"
      data-cry
      class="detail-sprite-img"
@@ -101,27 +107,20 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
    const spriteImg = panel.querySelector('.detail-sprite img');
    const shinyBtn = panel.querySelector('#shiny-toggle');
    
-   if (!isGen1 && spriteImg && shinyBtn) {
-     const shinyKey = `oakChallenge.shiny.${game.id}.${pokemon.dex}`;
-     let isShiny = localStorage.getItem(shinyKey) === '1';
+   const spriteImg = panel.querySelector('.detail-sprite-img');
+   const shinyBtn = panel.querySelector('#shiny-toggle');
    
-     const dexStr = dex; // already padded above
-     const slug = pokemon.slug;
+   // Disable shiny toggle entirely for Gen 1
+   if (isGen1 && shinyBtn) {
+     shinyBtn.remove();
+   }
    
-     const normalSrc = `./assets/sprites/normal/${dexStr}-${slug}.gif`;
-     const shinySrc = `./assets/sprites/shiny/${dexStr}-${slug}.gif`;
-   
-     // Initialize state
-     spriteImg.src = isShiny ? shinySrc : normalSrc;
-     shinyBtn.classList.toggle('active', isShiny);
-   
-     shinyBtn.addEventListener('click', e => {
-       e.stopPropagation();
-   
+   if (spriteImg && shinyBtn && !isGen1) {
+     shinyBtn.addEventListener('click', () => {
        isShiny = !isShiny;
-       localStorage.setItem(shinyKey, isShiny ? '1' : '0');
    
-       spriteImg.src = isShiny ? shinySrc : normalSrc;
+       spriteImg.src = getSpritePath();
+   
        shinyBtn.classList.toggle('active', isShiny);
      });
    }
