@@ -56,8 +56,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   const dex = String(pokemon.dex).padStart(3, '0');
 
   const isGen1 = GEN1_IDS.has(normalizeGameId(game.id));
-
-  isShiny = false; // reset whenever a new Pokémon is opened
    
   const getSpritePath = () =>
    `./assets/sprites/${isShiny ? 'shiny' : 'normal'}/${dex}-${pokemon.slug}.gif`;
@@ -107,7 +105,8 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
 
   /* ---------- Shiny toggle ---------- */
 
-   const spriteImg = panel.querySelector('.detail-sprite img');
+   const spriteImg = panel.querySelector('.detail-sprite-img');
+
    const shinyBtn = panel.querySelector('#shiny-toggle');
    
    // Disable shiny toggle entirely for Gen 1
