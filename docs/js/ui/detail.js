@@ -7,7 +7,6 @@ import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 let currentSelection = null; // { pokemon, game }
-
 /* =========================================================
    React to language changes
    ========================================================= */
@@ -47,6 +46,8 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   if (!panel) return;
 
   currentSelection = { pokemon, game, sectionId };
+
+  const isGen1 = ['red', 'blue', 'yellow'].includes(game.id);
 
   const lang = getLanguage();
   const displayName =
@@ -106,7 +107,7 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
    const spriteImg = panel.querySelector('.detail-sprite img');
    const shinyBtn = panel.querySelector('#shiny-toggle');
    
-   if (spriteImg && shinyBtn) {
+   if (!isGen1 && spriteImg && shinyBtn) {
      const shinyKey = `oakChallenge.shiny.${game.id}.${pokemon.dex}`;
      let isShiny = localStorage.getItem(shinyKey) === '1';
    
@@ -183,6 +184,9 @@ export function closePokemonDetail() {
 
   panel.innerHTML = '';
   currentSelection = null;
+  if (isGen1) {
+   panel.querySelector('#shiny-toggle')?.remove();
+  }
 
   document.getElementById('app')?.classList.remove('has-detail');
 
