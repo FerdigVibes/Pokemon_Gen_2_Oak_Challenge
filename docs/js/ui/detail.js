@@ -41,6 +41,7 @@ function getDetailEntry(pokemon, game, sectionId) {
    ========================================================= */
 
 export function renderPokemonDetail(pokemon, game, sectionId) {
+  let isShiny = false;
   const entry = getDetailEntry(pokemon, game, sectionId);
 
   const panel = document.getElementById('detail-panel');
@@ -105,7 +106,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   `;
 
   /* ---------- Shiny toggle ---------- */
-   let isShiny = false;
 
    const spriteImg = panel.querySelector('.detail-sprite img');
    const shinyBtn = panel.querySelector('#shiny-toggle');
