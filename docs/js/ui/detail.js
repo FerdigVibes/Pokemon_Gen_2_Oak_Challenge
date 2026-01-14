@@ -6,7 +6,8 @@ import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 let currentSelection = null; // { pokemon, game }
-let isShiny = false;
+
+const GEN1_IDS = new Set(['red', 'blue', 'yellow']);
 /* =========================================================
    React to language changes
    ========================================================= */
@@ -54,6 +55,8 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   const dex = String(pokemon.dex).padStart(3, '0');
   const isGen1 = ['red', 'blue', 'yellow'].includes(game.id);
 
+  const isGen1 = GEN1_IDS.has(normalizeGameId(game.id));
+
   isShiny = false; // reset whenever a new Pokémon is opened
    
   const getSpritePath = () =>
@@ -78,14 +81,16 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
     <div class="detail-name-row">
      <h2 class="detail-name">${displayName}</h2>
      
-     <button
-      class="shiny-toggle"
-      id="shiny-toggle"
-      aria-label="Toggle shiny"
-      title="Toggle shiny"
-     >
-      ✨
-     </button>
+     ${!isGen1 ? `
+      <button
+       class="shiny-toggle"
+       id="shiny-toggle"
+       aria-label="Toggle shiny"
+       title="Toggle shiny"
+      >
+       ✨
+      </button>
+     ` : ''}
     </div>
    
     <div class="detail-dex">
@@ -101,15 +106,12 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   `;
 
   /* ---------- Shiny toggle ---------- */
+   let isShiny = false;
 
    const spriteImg = panel.querySelector('.detail-sprite img');
    const shinyBtn = panel.querySelector('#shiny-toggle');
    
    // Disable shiny toggle entirely for Gen 1
-   if (isGen1 && shinyBtn) {
-     shinyBtn.remove();
-   }
-   
    if (spriteImg && shinyBtn && !isGen1) {
      shinyBtn.addEventListener('click', () => {
        isShiny = !isShiny;
@@ -147,9 +149,6 @@ export function closePokemonDetail() {
 
   panel.innerHTML = '';
   currentSelection = null;
-  if (isGen1) {
-   panel.querySelector('#shiny-toggle')?.remove();
-  }
 
   document.getElementById('app')?.classList.remove('has-detail');
 
