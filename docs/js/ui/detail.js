@@ -47,8 +47,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
 
   currentSelection = { pokemon, game, sectionId };
 
-  const isGen1 = ['red', 'blue', 'yellow'].includes(game.id);
-
   const lang = getLanguage();
   const displayName =
     pokemon.names?.[lang] || pokemon.names?.en || pokemon.slug;
