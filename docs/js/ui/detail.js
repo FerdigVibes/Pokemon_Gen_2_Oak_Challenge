@@ -105,9 +105,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
    const spriteImg = panel.querySelector('.detail-sprite img');
    const shinyBtn = panel.querySelector('#shiny-toggle');
    
-   const spriteImg = panel.querySelector('.detail-sprite-img');
-   const shinyBtn = panel.querySelector('#shiny-toggle');
-   
    // Disable shiny toggle entirely for Gen 1
    if (isGen1 && shinyBtn) {
      shinyBtn.remove();
