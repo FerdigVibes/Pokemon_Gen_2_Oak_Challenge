@@ -55,36 +55,44 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
   const dex = String(pokemon.dex).padStart(3, '0');
   const spritePath = `./assets/sprites/normal/${dex}-${pokemon.slug}.gif`;
 
+  const regionalDex =
+  entry?.regionalDex
+    ? ` · ${t('regionalDex')} #${entry.regionalDex}`
+    : '';
+
   panel.innerHTML = `
-    <div class="detail-sprite">
-      <img
-        src="${spritePath}"
-        alt="${displayName}"
-        data-cry
-        style="cursor:pointer"
-      />
-    </div>
-
+   <div class="detail-sprite-window">
+    <img
+     src="${spritePath}"
+     alt="${displayName}"
+     data-cry
+     class="detail-sprite-img"
+    />
+   </div>
+   
+   <div class="detail-header">
     <div class="detail-name-row">
-      <h2>${displayName}</h2>
-      <button
-        class="shiny-toggle"
-        id="shiny-toggle"
-        aria-label="Toggle shiny"
-        title="Toggle shiny"
-      >
-        ✨
-      </button>
+     <h2 class="detail-name">${displayName}</h2>
+     
+     <button
+      class="shiny-toggle"
+      id="shiny-toggle"
+      aria-label="Toggle shiny"
+      title="Toggle shiny"
+     >
+      ✨
+     </button>
     </div>
-
-    <p>
-      <strong>${t('nationalDex')}:</strong> #${dex}
-    </p>
-
-    ${
-      entry?.obtain?.length
-        ? renderObtainMethods(entry.obtain, lang)
-        : `<p style="opacity:.6">${t('notObtainable')}</p>`
+   
+    <div class="detail-dex">
+     ${t('nationalDex')} #${dex}${regionalDex || ''}
+    </div>
+   </div>
+   
+   ${
+     entry?.obtain?.length
+       ? renderObtainMethods(entry.obtain, lang)
+       : `<p style="opacity:.6">${t('notObtainable')}</p>`
     }
   `;
 
