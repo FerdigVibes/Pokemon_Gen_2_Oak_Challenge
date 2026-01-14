@@ -53,7 +53,6 @@ export function renderPokemonDetail(pokemon, game, sectionId) {
     pokemon.names?.[lang] || pokemon.names?.en || pokemon.slug;
 
   const dex = String(pokemon.dex).padStart(3, '0');
-  const isGen1 = ['red', 'blue', 'yellow'].includes(game.id);
 
   const isGen1 = GEN1_IDS.has(normalizeGameId(game.id));
 
