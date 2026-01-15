@@ -237,8 +237,21 @@ body {
 }
 
 #top-bar {
+  background: linear-gradient(
+    180deg,
+    rgba(198, 40, 40, 0.9),
+    rgba(168, 31, 31, 0.9)
+  );
+}
+
+#top-bar {
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+/* Increase space between rows */
+#top-bar .topbar-row {
+  padding: 10px 14px !important;
 }
 
 .section-counter,
@@ -261,6 +274,19 @@ body {
   border-top: none;
 }
 
+/* Space out controls */
+.topbar-controls .control,
+.topbar-controls input,
+.topbar-controls select {
+  margin-right: 6px;
+}
+
+/* Objective & Progress grouping */
+.topbar-progress {
+  gap: 12px; /* widen grouping */
+  flex-wrap: wrap;
+}
+
 .pokedex-led {
   width: 10px;
   height: 10px;
@@ -274,15 +300,14 @@ body {
 }
 
 .pokedex-screen {
-  background: #1b1b1b;
-  color: #e8e8e8;
-
-  border-radius: 6px;
+  display: inline-block;
   padding: 4px 8px;
-
-  box-shadow:
-    inset 0 2px 4px rgba(0,0,0,0.6),
-    inset 0 -1px 0 rgba(255,255,255,0.08);
+  margin-left: 6px;
+  background: #111;
+  color: #9ef;
+  border-radius: 4px;
+  border: 2px inset #444;
+  font-weight: bold;
 }
 
 /* Row 1: Title */
