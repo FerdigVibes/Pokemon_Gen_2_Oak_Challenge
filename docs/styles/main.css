@@ -19,6 +19,60 @@ body {
   width: 320px;
 }
 
+.intro-with-bg {
+  position: relative;
+  isolation: isolate;
+
+  max-width: 720px;
+  margin: 48px auto;
+  padding: 32px 28px;
+
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* Background image layer */
+.intro-with-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../assets/images/pokedex-landing-bg.png");
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.18;              /* light fade */
+  filter: saturate(0.85) blur(1px);
+
+  z-index: -2;
+}
+
+/* Circular hue / vignette layer */
+.intro-with-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(255, 220, 160, 0.35) 0%,
+      rgba(255, 220, 160, 0.18) 35%,
+      rgba(0, 0, 0, 0.65) 100%
+    );
+
+  z-index: -1;
+}
+
+.intro-panel {
+  color: #f2f2f2;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.intro-panel h2 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
 .section-header {
   display: flex;
   align-items: center;
