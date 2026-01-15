@@ -11,7 +11,6 @@ import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 import { getGameTime, setGameTime, startGameClock } from './state/gameTime.js';
 import { openGameTimeModal } from './ui/gameTimeModal.js';
-import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const btn = document.getElementById('game-time-btn');
@@ -363,6 +362,8 @@ function updateGlobalProgress(game, pokemon) {
 /* =========================================================
    CURRENT OBJECTIVE
    ========================================================= */
+
+import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 function getCurrentObjective(game, pokemon) {
   const gameKey = normalizeGameId(game.id);
