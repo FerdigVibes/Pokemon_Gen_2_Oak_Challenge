@@ -244,7 +244,7 @@ export function renderSections({ game, pokemon }) {
 
   if (!game || !game.sections) {
     container.innerHTML = `
-      <div class="intro-panel">
+      <div class="intro-panel intro-with-bg">
         <h2>Professor Oak Pokédex</h2>
   
         <p>
