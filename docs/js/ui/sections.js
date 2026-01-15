@@ -429,8 +429,6 @@ export function renderSections({ game, pokemon }) {
 
     updateSectionCounter(sectionBlock);
   });
-  applyMoonStoneExclusivity(game.id);
-  document.querySelectorAll('.section-block').forEach(updateSectionCounter);
 }
 
 function updateWheelFocus(sectionRows) {
