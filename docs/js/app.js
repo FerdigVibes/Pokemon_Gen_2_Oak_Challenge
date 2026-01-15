@@ -260,6 +260,8 @@ async function selectGame(gameMeta) {
   const gameData = await loadGame(gameMeta.id);
   const isGen2 = [ "gold", "silver", "crystal_gbc", "crystal_vc" ].includes(gameMeta.id);
 
+  wireGameTimeButton(isGen2);
+  
   if (isGen2) {
     startGameClock();
   }
@@ -269,8 +271,6 @@ async function selectGame(gameMeta) {
     meta: gameMeta,
     data: gameData
   };
-
-  wireGameTimeButton(isGen2);
 
   document
   .getElementById("game-time-btn")
@@ -394,7 +394,9 @@ function rebuildGameSelector() {
 
 function updateCurrentObjective(game, pokemon) {
   const label = document.getElementById('current-objective');
-  if (!label) return;
+  if (!label) {
+    console.warn('Missing .game-time-label');
+  }
 
   label.textContent = getCurrentObjective(game, pokemon);
 }
