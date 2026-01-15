@@ -1,7 +1,5 @@
-// docs/js/utils/normalizeGameId.js
 export function normalizeGameId(id) {
-  if (id === 'crystal_gbc' || id === 'crystal_vc') {
-    return 'crystal';
-  }
-  return id;
+  return id
+    .replace('_gbc', '')
+    .replace('_vc', '');
 }
