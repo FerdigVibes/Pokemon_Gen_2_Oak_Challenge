@@ -1,10 +1,17 @@
 // docs/js/data/loader.js
 
+import { normalizeGameId } from '../utils/normalizeGameId.js';
+
 export async function loadGame(gameId) {
+  const normalizedId = normalizeGameId(gameId);
+  const gameUrl = `./data/games/${normalizedId}.json`;
+
+  console.log('[LOAD GAME]', gameId, '→', gameUrl);
+
   // 1️⃣ Load game JSON
-  const gameRes = await fetch(`./data/games/${gameId}.json`);
+  const gameRes = await fetch(gameUrl);
   if (!gameRes.ok) {
-    throw new Error(`Failed to load game: ${gameId}`);
+    throw new Error(`Failed to load game JSON (${gameRes.status}): ${gameUrl}`);
   }
 
   const game = await gameRes.json();
@@ -22,7 +29,7 @@ export async function loadGame(gameId) {
     pokemonIndex.map(async file => {
       const res = await fetch(`./data/pokemon/${file}`);
       if (!res.ok) {
-        throw new Error(`Failed to load Pokémon: ${file}`);
+        throw new Error(`Failed to load Pokémon JSON: ${file}`);
       }
       return res.json();
     })
@@ -33,3 +40,4 @@ export async function loadGame(gameId) {
 
   return game;
 }
+
