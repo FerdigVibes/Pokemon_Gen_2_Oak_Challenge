@@ -303,6 +303,7 @@ async function selectGame(gameMeta) {
       renderPokemonDetail(pokemon, gameData);
     }
   }
+  console.log('Selecting game:', gameMeta.id);
 
   updateGlobalProgress(gameData, gameData.pokemon);
   updateCurrentObjective(gameData, gameData.pokemon);
