@@ -580,3 +580,30 @@ body {
   font-size: 0.85rem;
   opacity: 0.75;
 }
+
+.intro-panel {
+  max-width: 520px;
+  margin: 48px auto;
+  padding: 20px 24px;
+
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+
+  text-align: center;
+}
+
+.intro-panel h2 {
+  margin-bottom: 12px;
+}
+
+.intro-panel ul {
+  text-align: left;
+  margin: 16px auto;
+  max-width: 360px;
+}
+
+.intro-hint {
+  margin-top: 16px;
+  opacity: 0.7;
+  font-size: 0.9em;
+}
