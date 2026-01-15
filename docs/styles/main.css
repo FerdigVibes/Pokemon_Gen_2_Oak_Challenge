@@ -191,19 +191,6 @@ body {
     0 6px 18px rgba(0,0,0,0.45);
 }
 
-#top-bar {
-  background: linear-gradient(
-    180deg,
-    rgba(198, 40, 40, 0.9),
-    rgba(168, 31, 31, 0.9)
-  );
-}
-
-#top-bar {
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 /* Increase space between rows */
 #top-bar .topbar-row {
   padding: 10px 14px !important;
@@ -321,33 +308,6 @@ body {
   height: 100%;
   background: #4caf50;
   width: 0%;
-}
-
-.game-selector {
-  position: relative;
-}
-
-.game-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-
-  background: #222;
-  border: 1px solid rgba(255,255,255,0.2);
-
-  display: none;
-
-  z-index: 500; /* ← raise above all top-bar controls */
-}
-
-.game-menu.open {
-  display: block;
-}
-
-.game-menu-gen {
-  position: relative;
-  padding: 6px 10px;
-  white-space: nowrap;
 }
 
 .game-menu-gen:hover {
