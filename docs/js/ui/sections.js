@@ -242,6 +242,31 @@ export function renderSections({ game, pokemon }) {
   if (!container) return;
   container.innerHTML = '';
 
+  if (!game || !game.sections) {
+    container.innerHTML = `
+      <div class="intro-panel">
+        <h2>Professor Oak Pokédex</h2>
+  
+        <p>
+          A Pokédex-style tracker built for Professor Oak–style completion.
+          Catch every available Pokémon before progressing.
+        </p>
+  
+        <ul>
+          <li>Select a game version above</li>
+          <li>Pokémon are grouped by progression</li>
+          <li>Mark Pokémon as caught as you go</li>
+          <li>Time-based availability updates automatically in Gen 2</li>
+        </ul>
+  
+        <p class="intro-hint">
+          Your progress is saved automatically.
+        </p>
+      </div>
+    `;
+    return;
+  }
+
   game.sections.forEach(section => {
     if (!section.requiredCount) return;
 
