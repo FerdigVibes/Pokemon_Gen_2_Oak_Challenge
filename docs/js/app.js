@@ -363,7 +363,7 @@ function updateGlobalProgress(game, pokemon) {
    CURRENT OBJECTIVE
    ========================================================= */
 
-import { normalizeGameId } from '../utils/normalizeGameId.js';
+import { normalizeGameId } from './utils/normalizeGameId.js';
 
 function getCurrentObjective(game, pokemon) {
   const gameKey = normalizeGameId(game.id);
