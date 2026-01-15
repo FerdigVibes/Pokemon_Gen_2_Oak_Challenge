@@ -257,7 +257,15 @@ function wireMuteToggle() {
    ========================================================= */
 
 async function selectGame(gameMeta) {
-  const gameData = await loadGame(gameMeta.id);
+  item.addEventListener('click', async () => {
+    try {
+      await selectGame({ ...game, label: t(game.labelKey) });
+      container.classList.remove('open');
+    } catch (err) {
+      console.error(err);
+      alert(err.message); // temporary, remove later
+    }
+  });
   const isGen2 = [ "gold", "silver", "crystal_gbc", "crystal_vc" ].includes(gameMeta.id);
 
   wireGameTimeButton(isGen2);
