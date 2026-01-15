@@ -8,8 +8,6 @@ import { t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 import { getGameTime } from '../state/gameTime.js';
 
-const GEN2_IDS = new Set(['gold', 'silver', 'crystal_gbc', 'crystal_vc']);
-
 const MOON_STONE_SECTIONS = new Set([
   'MOON_STONE_1',
   'MOON_STONE_2'
@@ -56,7 +54,7 @@ function updateSectionCounter(sectionBlock) {
   const sectionId = sectionBlock.dataset.sectionId;
   const gameId = sectionBlock.dataset.gameId;
   const required = Number(sectionBlock.dataset.requiredCount);
-  if (!required) return;
+  if (Number.isNaN(required)) return;
 
   const rows = sectionBlock.querySelectorAll('.pokemon-row');
   let caughtCount = 0;
