@@ -194,6 +194,12 @@ function applyTranslations() {
 
 function buildGameSelector() {
   const btn = document.getElementById('game-selector-btn');
+  if (!btn) return;
+
+  // Remove old menu if it exists
+  const existing = btn.parentElement.querySelector('.game-menu');
+  if (existing) existing.remove();
+
   const container = document.createElement('div');
   container.className = 'game-menu';
 
@@ -210,7 +216,8 @@ function buildGameSelector() {
       item.className = 'game-menu-item';
       item.textContent = t(game.labelKey);
 
-      item.addEventListener('click', async () => {
+      item.addEventListener('click', async (e) => {
+        e.stopPropagation();
         await selectGame({
           ...game,
           label: t(game.labelKey)
