@@ -265,7 +265,7 @@ function wireMuteToggle() {
 
 async function selectGame(gameMeta) {
   try {
-    console.log('Selecting game:', gameMeta.id);
+    console.log('selectGame → gameMeta.id:', gameMeta.id);
 
     // 1️⃣ Load game data FIRST
     const gameData = await loadGame(gameMeta.id);
