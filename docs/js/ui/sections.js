@@ -294,15 +294,6 @@ export function renderSections({ game, pokemon }) {
     const sectionRows = document.createElement('div');
     sectionRows.className = 'section-rows';
 
-    header.addEventListener('click', () => {
-      const collapsed = sectionRows.style.display === 'none';
-      sectionRows.style.display = collapsed ? '' : 'none';
-      header.classList.toggle('collapsed', !collapsed);
-
-      if (collapsed) userExpandedSections.add(section.id);
-      else userExpandedSections.delete(section.id);
-    });
-
     const matches = pokemon.filter(p => {
       const gameKey = normalizeGameId(game.id);
       const entriesRaw = p.games?.[gameKey];
@@ -337,9 +328,9 @@ export function renderSections({ game, pokemon }) {
       // 4️⃣ AVAILABILITY
       const availableNow = !caught && isPokemonAvailable(entry);
 
-      if (!caught && availableNow && hasTimeOrDayRestriction(entry)) {
-        row.classList.add('is-time-gated');
-      }
+      //if (!caught && availableNow && hasTimeOrDayRestriction(entry)) {
+      //  row.classList.add('is-time-gated');
+      //}
     
       // 5️⃣ APPLY STATE CLASSES
       row.classList.remove('is-caught', 'is-available', 'is-unavailable');
@@ -421,18 +412,18 @@ export function renderSections({ game, pokemon }) {
     sectionBlock.append(header, sectionRows);
     container.appendChild(sectionBlock);
 
-    // After sectionBlock is appended
-    updateWheelFocus(sectionRows);
-    
-    sectionRows.addEventListener('scroll', () => {
-      updateWheelFocus(sectionRows);
-    });
+    // DEBUG: wheel focus disabled
+    // updateWheelFocus(sectionRows);
+    // sectionRows.addEventListener('scroll', () => {
+    //   updateWheelFocus(sectionRows);
+    // });
 
     updateSectionCounter(sectionBlock);
   });
 }
 
-function updateWheelFocus(sectionRows) {
+//function updateWheelFocus(sectionRows) {
+  // DEBUG: disabled
   const rows = Array.from(sectionRows.querySelectorAll('.pokemon-row'));
   if (!rows.length) return;
 
