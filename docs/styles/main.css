@@ -376,10 +376,13 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
+
   background: #222;
   border: 1px solid rgba(255,255,255,0.2);
+
   display: none;
-  z-index: 10;
+
+  z-index: 500; /* ← raise above all top-bar controls */
 }
 
 .game-menu.open {
