@@ -11,6 +11,7 @@ import { loadLanguage, t } from './data/i18n.js';
 import { closePokemonDetail, renderPokemonDetail, getCurrentDetailSelection } from './ui/detail.js';
 import { getGameTime, setGameTime, startGameClock } from './state/gameTime.js';
 import { openGameTimeModal } from './ui/gameTimeModal.js';
+import { normalizeGameId } from '../utils/normalizeGameId.js';
 
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const btn = document.getElementById('game-time-btn');
@@ -307,7 +308,8 @@ async function selectGame(gameMeta) {
     const selection = getCurrentDetailSelection();
     if (selection) {
       const { pokemon } = selection;
-      if (!pokemon.games?.[gameMeta.id]) {
+      const gameKey = normalizeGameId(gameMeta.id);
+      if (!pokemon.games?.[gameKey]) {
         closePokemonDetail();
       } else {
         renderPokemonDetail(pokemon, gameData);
@@ -363,21 +365,24 @@ function updateGlobalProgress(game, pokemon) {
    ========================================================= */
 
 function getCurrentObjective(game, pokemon) {
-  // 1. Get parent sections (those with children), ordered
+  const gameKey = normalizeGameId(game.id);
+
+  // 1️⃣ Parent sections (milestones)
   const parentSections = game.sections
     .filter(s => Array.isArray(s.children))
     .sort((a, b) => a.order - b.order);
 
-  // 2. Walk each parent milestone
+  // 2️⃣ Walk each milestone
   for (const parent of parentSections) {
     let allChildrenComplete = true;
 
     for (const childId of parent.children) {
       const child = game.sections.find(s => s.id === childId);
-      if (!child || !child.requiredCount) continue;
+      if (!child || typeof child.requiredCount !== 'number') continue;
 
+      // 3️⃣ Pokémon that belong to this child section for THIS game
       const matches = pokemon.filter(p =>
-        p.games?.[game.id]?.sections?.includes(child.id)
+        p.games?.[gameKey]?.sections?.includes(child.id)
       );
 
       const caughtCount = matches.filter(p =>
@@ -390,15 +395,16 @@ function getCurrentObjective(game, pokemon) {
       }
     }
 
-    // 3. First incomplete milestone = current objective
+    // 4️⃣ First incomplete milestone = objective
     if (!allChildrenComplete) {
       return t(parent.titleKey);
     }
   }
 
-  // 4. Everything complete
+  // 5️⃣ Everything complete
   return t('challengeComplete');
 }
+
 
 
 function rebuildGameSelector() {
