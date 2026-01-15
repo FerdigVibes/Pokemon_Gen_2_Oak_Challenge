@@ -257,65 +257,66 @@ function wireMuteToggle() {
    ========================================================= */
 
 async function selectGame(gameMeta) {
-  item.addEventListener('click', async () => {
-    try {
-      await selectGame({ ...game, label: t(game.labelKey) });
-      container.classList.remove('open');
-    } catch (err) {
-      console.error(err);
-      alert(err.message); // temporary, remove later
+  try {
+    console.log('Selecting game:', gameMeta.id);
+
+    // 1️⃣ Load game data FIRST
+    const gameData = await loadGame(gameMeta.id);
+
+    // 2️⃣ Determine Gen 2
+    const isGen2 = ['gold', 'silver', 'crystal_gbc', 'crystal_vc']
+      .includes(gameMeta.id);
+
+    // 3️⃣ Store global game state
+    window.__CURRENT_GAME__ = {
+      id: gameMeta.id,
+      meta: gameMeta,
+      data: gameData
+    };
+
+    // 4️⃣ Wire game-time UI
+    wireGameTimeButton(isGen2);
+    if (isGen2) startGameClock();
+
+    document
+      .getElementById('game-time-btn')
+      ?.classList.toggle('hidden', !isGen2);
+
+    // 5️⃣ Update top bar text
+    document.getElementById('game-selector-btn').textContent =
+      `${t(gameMeta.labelKey)} ▾`;
+
+    document.getElementById('app-title').textContent = t('appTitle', {
+      version: t(gameMeta.labelKey)
+    });
+
+    // 6️⃣ Render Section 2
+    renderSections({
+      game: gameData,
+      pokemon: gameData.pokemon
+    });
+
+    // 7️⃣ Reconcile Section 3
+    const selection = getCurrentDetailSelection();
+    if (selection) {
+      const { pokemon } = selection;
+      if (!pokemon.games?.[gameMeta.id]) {
+        closePokemonDetail();
+      } else {
+        renderPokemonDetail(pokemon, gameData);
+      }
     }
-  });
-  const isGen2 = [ "gold", "silver", "crystal_gbc", "crystal_vc" ].includes(gameMeta.id);
 
-  wireGameTimeButton(isGen2);
-  
-  if (isGen2) {
-    startGameClock();
+    // 8️⃣ Update progress + objective
+    updateGlobalProgress(gameData, gameData.pokemon);
+    updateCurrentObjective(gameData, gameData.pokemon);
+
+  } catch (err) {
+    console.error('Failed to select game:', err);
+    alert(err.message); // TEMPORARY — remove later
   }
-
-  window.__CURRENT_GAME__ = {
-    id:gameMeta.id,
-    meta: gameMeta,
-    data: gameData
-  };
-
-  document
-  .getElementById("game-time-btn")
-  ?.classList.toggle("hidden", !isGen2);
-
-  document.getElementById('game-selector-btn').textContent =
-    `${t(gameMeta.labelKey)} ▾`;
-
-  document.getElementById('app-title').textContent = t('appTitle', {
-    version: t(gameMeta.labelKey)
-  });
-
-  // Render Section 2 first (this updates __POKEMON_CACHE__)
-  renderSections({
-    game: gameData,
-    pokemon: gameData.pokemon
-  });
-
-  // Reconcile Section 3 using DATA state (not DOM)
-  const selection = getCurrentDetailSelection();
-
-  if (selection) {
-    const { pokemon } = selection;
-
-    // Pokémon does not exist in this version → close Section 3
-    if (!pokemon.games?.[gameMeta.id]) {
-      closePokemonDetail();
-    } else {
-      // Pokémon exists → re-render with new game data
-      renderPokemonDetail(pokemon, gameData);
-    }
-  }
-  console.log('Selecting game:', gameMeta.id);
-
-  updateGlobalProgress(gameData, gameData.pokemon);
-  updateCurrentObjective(gameData, gameData.pokemon);
 }
+
 
 
 
