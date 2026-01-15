@@ -236,6 +236,8 @@ window.addEventListener('caught-changed', () => {
 export function renderSections({ game, pokemon }) {
   window.__POKEMON_CACHE__ = pokemon;
 
+  const gameKey = normalizeGameId(game.id);
+
   const container = document.getElementById('section-list');
   if (!container) return;
   container.innerHTML = '';
@@ -302,7 +304,8 @@ export function renderSections({ game, pokemon }) {
     });
 
     const matches = pokemon.filter(p => {
-      const entriesRaw = p.games?.[normalizeGameId(game.id)];
+      const gameKey = normalizeGameId(game.id);
+        p.games?.[gameKey]
       if (!entriesRaw) return false;
     
       const entries = Array.isArray(entriesRaw)
