@@ -19,6 +19,15 @@ body {
   width: 320px;
 }
 
+.intro-panel {
+  color: #f2f2f2;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.intro-panel h2 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
 .intro-with-bg {
   position: relative;
   isolation: isolate;
@@ -64,15 +73,6 @@ body {
   z-index: -1;
 }
 
-.intro-panel {
-  color: #f2f2f2;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-}
-
-.intro-panel h2 {
-  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-}
-
 .section-header {
   display: flex;
   align-items: center;
@@ -90,15 +90,10 @@ body {
 }
 
 /* Section 2 expands/contracts automatically */
-#section-list {
-  flex: 1;
-}
-
-#section-list {
+##section-list {
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-
   padding: 8px 12px;
   box-sizing: border-box;
 }
@@ -211,13 +206,6 @@ body {
   90%  { transform: translateY(-1px); }
 
   100% { transform: translateY(0); }
-}
-
-.pokemon-icon {
-  width: 32px;
-  height: 32px;
-  image-rendering: pixelated;
-  margin-right: 8px;
 }
 
 /* Applied only to the currently selected row */
@@ -625,31 +613,4 @@ body {
 .detail-dex {
   font-size: 0.85rem;
   opacity: 0.75;
-}
-
-.intro-panel {
-  max-width: 520px;
-  margin: 48px auto;
-  padding: 20px 24px;
-
-  background: rgba(255,255,255,0.04);
-  border-radius: 12px;
-
-  text-align: center;
-}
-
-.intro-panel h2 {
-  margin-bottom: 12px;
-}
-
-.intro-panel ul {
-  text-align: left;
-  margin: 16px auto;
-  max-width: 360px;
-}
-
-.intro-hint {
-  margin-top: 16px;
-  opacity: 0.7;
-  font-size: 0.9em;
 }
