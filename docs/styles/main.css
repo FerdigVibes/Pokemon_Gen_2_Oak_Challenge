@@ -224,14 +224,65 @@ body {
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.1);
   font-size: 14px;
+  background: linear-gradient(
+    180deg,
+    #c62828,
+    #a81f1f
+  );
+
+  box-shadow:
+    inset 0 -2px 0 rgba(255,255,255,0.15),
+    inset 0 -6px 0 rgba(0,0,0,0.25),
+    0 6px 18px rgba(0,0,0,0.45);
+}
+
+#top-bar {
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-counter,
+.progress-text {
+  font-variant-numeric: tabular-nums;
 }
 
 /* Shared row styling */
 .topbar-row {
-  display: flex;
-  align-items: center;
-  padding: 6px 10px;
-  gap: 10px;
+  position: relative;
+  padding: 6px 12px;
+
+  background: rgba(0,0,0,0.15);
+
+  border-top: 1px solid rgba(255,255,255,0.12);
+  border-bottom: 1px solid rgba(0,0,0,0.35);
+}
+
+.topbar-row:first-child {
+  border-top: none;
+}
+
+.pokedex-led {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  background: #4caf50;
+
+  box-shadow:
+    0 0 6px rgba(76, 175, 80, 0.8),
+    inset 0 1px 2px rgba(255,255,255,0.6);
+}
+
+.pokedex-screen {
+  background: #1b1b1b;
+  color: #e8e8e8;
+
+  border-radius: 6px;
+  padding: 4px 8px;
+
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.6),
+    inset 0 -1px 0 rgba(255,255,255,0.08);
 }
 
 /* Row 1: Title */
@@ -246,15 +297,24 @@ body {
 }
 
 .topbar-controls .control {
-  background: #222;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.15);
-  padding: 4px 8px;
-  font-size: 13px;
+  background: linear-gradient(
+    180deg,
+    #3a3a3a,
+    #222
+  );
+
+  border-radius: 6px;
+  border: 1px solid #000;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.15),
+    0 2px 4px rgba(0,0,0,0.6);
 }
 
-.search {
-  flex: 1;
+.topbar-controls .control:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.6);
 }
 
 /* Row 3: Progress */
