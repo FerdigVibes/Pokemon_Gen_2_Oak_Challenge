@@ -1,5 +1,4 @@
+// docs/js/utils/normalizeGameId.js
 export function normalizeGameId(id) {
-  return id
-    .replace('_gbc', '')
-    .replace('_vc', '');
+  return String(id || '').toLowerCase().trim();
 }
