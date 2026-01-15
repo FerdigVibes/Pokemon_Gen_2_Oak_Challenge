@@ -305,7 +305,7 @@ export function renderSections({ game, pokemon }) {
 
     const matches = pokemon.filter(p => {
       const gameKey = normalizeGameId(game.id);
-        p.games?.[gameKey]
+      const entriesRaw = p.games?.[gameKey];
       if (!entriesRaw) return false;
     
       const entries = Array.isArray(entriesRaw)
