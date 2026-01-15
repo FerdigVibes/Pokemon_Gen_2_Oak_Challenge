@@ -268,7 +268,7 @@ export function renderSections({ game, pokemon }) {
   }
 
   game.sections.forEach(section => {
-    if (!section.requiredCount) return;
+    if (typeof section.requiredCount !== 'number') return;
 
     const sectionBlock = document.createElement('div');
     sectionBlock.className = 'section-block';
