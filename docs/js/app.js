@@ -298,7 +298,7 @@ async function selectGame(gameMeta) {
 
     // 5️⃣ Update top bar text
     document.getElementById('game-selector-btn').textContent =
-      `${t(gameMeta.labelKey)};
+      t(gameMeta.labelKey);
 
     document.getElementById('app-title').textContent = t('appTitle', {
       version: t(gameMeta.labelKey)
