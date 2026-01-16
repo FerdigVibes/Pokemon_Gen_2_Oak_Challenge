@@ -176,7 +176,7 @@ function applyTranslations() {
     updateGlobalProgress(data, data.pokemon);
     updateCurrentObjective(data, data.pokemon);
   } else {
-    selectorBtn.textContent = `${t('pickVersion')} ▾`;
+    selectorBtn.textContent = t('pickVersion');
     titleEl.textContent = t('appTitleNoVersion');
   }
 
