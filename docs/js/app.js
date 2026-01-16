@@ -75,7 +75,7 @@ async function init() {
 }
 
 function wireSearch() {
-  const input = document.getElementById('search-input');
+  const input = document.('search-input');
   if (!input) return;
 
   input.addEventListener('input', () => {
@@ -134,7 +134,7 @@ function resetAppToBlankState() {
   window.__POKEMON_CACHE__ = null;
 
   document.getElementById('app-title').textContent =
-    t('appTitleNoVersion');
+    t('appTitleNoVersion') '▾';
 
   document.getElementById('game-selector-btn').textContent =
     `${t('pickVersion')};
