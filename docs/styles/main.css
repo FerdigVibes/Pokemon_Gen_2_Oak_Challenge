@@ -220,93 +220,10 @@ body {
   width: 0%;
 }
 
-.game-menu-gen:hover {
-  background: #333;
-}
-
-.game-menu-sub {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background: #222;
-  display: none;
-}
-
-.game-menu-gen:hover .game-menu-sub {
-  display: block;
-}
-
-.game-menu-item {
-  padding: 6px 10px;
-  cursor: pointer;
-}
-
-.game-menu-item:hover {
-  background: #444;
-}
-
-.day-icon {
-  font-size: 0.75rem;
-  padding: 2px 4px;
-  border-radius: 4px;
-  opacity: 0.35;
-}
-
-.day-icon.inactive {
-  opacity: 0.25;
-}
-
-.day-icon.active {
-  opacity: 1;
-  background: rgba(255,255,255,0.15);
-}
-
 .row-day-icons {
   display: inline-flex;
   gap: 3px;
   margin-left: 6px;
-}
-
-/* ======================================================
-   MODAL BASE
-   ====================================================== */
-
-.modal {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Hidden state */
-.modal.hidden {
-  display: none;
-}
-
-/* Backdrop */
-.modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-/* Modal window */
-.modal-panel {
-  position: relative;
-  z-index: 1;
-
-  background: #fff;
-  color: #000;
-
-  padding: 1.5rem;
-  border-radius: 8px;
-  min-width: 300px;
-  max-width: 90vw;
-
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 /* -----------------------------
    AVAILABLE & UNCAUGHT
@@ -387,30 +304,6 @@ body {
   .pokemon-row.is-available.is-time-gated {
     animation: none;
   }
-}
-
-.detail-name-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.shiny-toggle {
-  font-size: 1.1rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  opacity: 0.4;
-  transition: opacity 160ms ease, transform 160ms ease;
-}
-
-.shiny-toggle:hover {
-  opacity: 0.8;
-  transform: scale(1.1);
-}
-
-.shiny-toggle.active {
-  filter: drop-shadow(0 0 6px gold);
 }
 
 /* ===============================
