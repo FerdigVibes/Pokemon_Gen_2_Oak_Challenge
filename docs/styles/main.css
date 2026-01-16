@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -451,10 +451,22 @@ body {
 .type-badge.type-poison { background: #A040A0; }
 /* Add more types as needed */
 
-.shiny-toggle-label {
-  display: block;
-  text-align: center;
-  margin-top: 12px;
+.shiny-icon {
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+  user-select: none;
+}
+
+.shiny-icon.active {
+  opacity: 1;
+}
+
+.detail-sprite-window.shiny-active {
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+  border-color: gold;
 }
 
 .obtain-section {
