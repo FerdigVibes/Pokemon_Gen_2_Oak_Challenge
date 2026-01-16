@@ -234,13 +234,17 @@ function buildGameSelector() {
 
   btn.parentElement.appendChild(container);
 
+  // Open/close on click
   btn.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent bubbling
+    e.stopPropagation(); // Prevent global click from firing
     container.classList.toggle('open');
   });
   
-  document.addEventListener('click', () => {
-    container.classList.remove('open');
+  // Close if clicking outside the dropdown
+  document.addEventListener('click', (e) => {
+    if (!btn.contains(e.target) && !container.contains(e.target)) {
+      container.classList.remove('open');
+    }
   });
 }
 
