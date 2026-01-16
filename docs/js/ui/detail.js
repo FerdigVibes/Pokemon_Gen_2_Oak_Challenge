@@ -88,10 +88,10 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
   const dex = pokemon.dex;
   const regDex = gameData.regionalDex?.[dex];
 
-  // Sprites (normal/shiny) — assuming sprites use the slug and padded dex
-  const spriteBase = `./assets/sprites/${String(dex).padStart(3, '0')}-${pokemon.slug}`;
-  const spriteNormal = `${spriteBase}.gif`;
-  const spriteShiny = `${spriteBase}-shiny.gif`;
+  const spriteFile = `${String(dex).padStart(3, '0')}-${pokemon.slug}.gif`;
+
+  const spriteNormal = `./assets/sprites/normal/${spriteFile}`;
+  const spriteShiny = `./assets/sprites/shiny/${spriteFile}`;
 
   // Types
   const types = pokemon.types || [];
