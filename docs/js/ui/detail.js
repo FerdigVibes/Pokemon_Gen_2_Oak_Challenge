@@ -21,6 +21,30 @@ window.addEventListener('language-changed', () => {
   );
 });
 
+function buildObtainHTML(entry) {
+  const {
+    method,
+    locations = [],
+    time = [],
+    days = [],
+    notes
+  } = entry;
+
+  const timeStr = time.length ? `Time: ${time.join(', ')}` : '';
+  const dayStr = days.length ? `Days: ${days.join(', ')}` : '';
+  const locationStr = locations.length ? `Locations: ${locations.join(', ')}` : '';
+
+  return `
+    <div class="obtain-method">
+      <strong>Method:</strong> ${method}<br />
+      ${locationStr ? `<strong>${locationStr}</strong><br />` : ''}
+      ${timeStr ? `<span class="time-label">${timeStr}</span><br />` : ''}
+      ${dayStr ? `<span class="day-label">${dayStr}</span><br />` : ''}
+      ${notes ? `<p class="notes">${notes}</p>` : ''}
+    </div>
+  `;
+}
+
 function getDetailEntry(pokemon, game, sectionId) {
   const gameKey = normalizeGameId(game.id);
   const raw = pokemon.games?.[gameKey];
@@ -40,90 +64,79 @@ function getDetailEntry(pokemon, game, sectionId) {
    SECTION 3 — Pokémon Detail Panel
    ========================================================= */
 
-export function renderPokemonDetail(pokemon, game, sectionId) {
-  let isShiny = false;
-  const entry = getDetailEntry(pokemon, game, sectionId);
-
+export function renderPokemonDetail(pokemon, gameData, sectionId) {
   const panel = document.getElementById('detail-panel');
-  if (!panel) return;
+  if (!panel || !pokemon || !gameData) return;
 
-  currentSelection = { pokemon, game, sectionId };
+  const gameKey = normalizeGameId(gameData.id);
+  const gameEntry = pokemon.games?.[gameKey];
+  if (!gameEntry) {
+    panel.innerHTML = `<p>${pokemon.slug} not found in this version.</p>`;
+    return;
+  }
 
   const lang = getLanguage();
-  const displayName =
-    pokemon.names?.[lang] || pokemon.names?.en || pokemon.slug;
+  const name = pokemon.names?.[lang] || pokemon.names?.en || pokemon.slug;
+  const dex = pokemon.dex;
+  const regDex = gameData.regionalDex?.[dex];
 
-  const dex = String(pokemon.dex).padStart(3, '0');
+  // Sprites (normal/shiny) — assuming sprites use the slug and padded dex
+  const spriteBase = `./assets/sprites/${String(dex).padStart(3, '0')}-${pokemon.slug}`;
+  const spriteNormal = `${spriteBase}.gif`;
+  const spriteShiny = `${spriteBase}-shiny.gif`;
 
-  const isGen1 = GEN1_IDS.has(normalizeGameId(game.id));
-   
-  const getSpritePath = () =>
-   `./assets/sprites/${isShiny ? 'shiny' : 'normal'}/${dex}-${pokemon.slug}.gif`;
+  // Types
+  const types = pokemon.types || [];
 
-  const regionalDex =
-  entry?.regionalDex
-    ? ` · ${t('regionalDex')} #${entry.regionalDex}`
-    : '';
+  // Obtain methods
+  const obtain = Array.isArray(gameEntry.obtain)
+    ? gameEntry.obtain
+    : [];
 
+  // HTML generation
   panel.innerHTML = `
-   <div class="detail-sprite-window">
-    <img
-     src="${getSpritePath()}"
-     alt="${displayName}"
-     data-cry
-     class="detail-sprite-img"
-    />
-   </div>
-   
-   <div class="detail-header">
-    <div class="detail-name-row">
-     <h2 class="detail-name">${displayName}</h2>
-     
-     ${!isGen1 ? `
-      <button
-       class="shiny-toggle"
-       id="shiny-toggle"
-       aria-label="Toggle shiny"
-       title="Toggle shiny"
-      >
-       ✨
-      </button>
-     ` : ''}
+    <div class="detail-header">
+      <h2 class="detail-name">${name}</h2>
+      <div class="detail-dex">#${String(dex).padStart(3, '0')}
+        ${regDex ? ` | Johto #${regDex}` : ''}
+      </div>
     </div>
-   
-    <div class="detail-dex">
-     ${t('nationalDex')} #${dex}${regionalDex || ''}
+
+    <div class="detail-sprite-window" id="sprite-window">
+      <img 
+        class="detail-sprite-img" 
+        id="detail-sprite" 
+        src="${spriteNormal}" 
+        alt="${name}" 
+      />
     </div>
-   </div>
-   
-   ${
-     entry?.obtain?.length
-       ? renderObtainMethods(entry.obtain, lang)
-       : `<p style="opacity:.6">${t('notObtainable')}</p>`
-    }
+
+    <div class="type-list">
+      ${types.map(type => `<span class="type-badge type-${type}">${type.toUpperCase()}</span>`).join('')}
+    </div>
+
+    <label class="shiny-toggle-label">
+      <input type="checkbox" id="toggle-shiny" />
+      Show Shiny Sprite
+    </label>
+
+    <div class="obtain-section">
+      <h3>How to Obtain</h3>
+      ${obtain.length ? obtain.map(buildObtainHTML).join('') : '<p>—</p>'}
+    </div>
   `;
 
-  /* ---------- Shiny toggle ---------- */
+  // Wire shiny toggle
+  const shinyToggle = document.getElementById('toggle-shiny');
+  const sprite = document.getElementById('detail-sprite');
+  const spriteWindow = document.getElementById('sprite-window');
 
-   const spriteImg = panel.querySelector('.detail-sprite-img');
-
-   const shinyBtn = panel.querySelector('#shiny-toggle');
-   
-   // Disable shiny toggle entirely for Gen 1
-   if (spriteImg && shinyBtn && !isGen1) {
-     shinyBtn.addEventListener('click', () => {
-       isShiny = !isShiny;
-   
-       spriteImg.src = getSpritePath();
-   
-       shinyBtn.classList.toggle('active', isShiny);
-     });
-   }
-
-  /* ---------- Sprite → Cry ---------- */
-
-  panel.querySelector('[data-cry]')
-    ?.addEventListener('click', () => playPokemonCry(pokemon));
+  if (shinyToggle && sprite) {
+    shinyToggle.addEventListener('change', () => {
+      sprite.src = shinyToggle.checked ? spriteShiny : spriteNormal;
+      spriteWindow.classList.toggle('shiny-active', shinyToggle.checked);
+    });
+  }
 }
 
 /* =========================================================
