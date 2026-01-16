@@ -133,16 +133,26 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
     </div>
   `;
 
-  const shinyToggle = document.getElementById('toggle-shiny');
+  const shinyToggle = document.getElementById('shiny-toggle');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
-
-  if (shinyToggle && sprite) {
-    shinyToggle.addEventListener('change', () => {
-      sprite.src = shinyToggle.checked ? spriteShiny : spriteNormal;
-      spriteWindow.classList.toggle('shiny-active', shinyToggle.checked);
-    });
-  }
+   if (shinyToggle && sprite) 
+    const gen = gameData.generation || 1;
+   
+    if (gen >= 2) {
+      let isShiny = false;
+      const toggleShiny = () => {
+       isShiny = !isShiny;
+       sprite.src = isShiny ? spriteShiny : spriteNormal;
+       shinyToggle.classList.toggle('active', isShiny);
+       spriteWindow.classList.toggle('shiny-active', isShiny);
+      };
+   
+      shinyToggle.addEventListener('click', toggleShiny);
+     } else {
+      shinyToggle.style.display = 'none';
+     }
+   }
 }
 
 /* =========================================================
