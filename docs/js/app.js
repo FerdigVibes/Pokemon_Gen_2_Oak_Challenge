@@ -75,7 +75,7 @@ async function init() {
 }
 
 function wireSearch() {
-  const input = document.('search-input');
+  const input = document.getElementById('search-input');
   if (!input) return;
 
   input.addEventListener('input', () => {
