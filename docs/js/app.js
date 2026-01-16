@@ -133,11 +133,12 @@ function resetAppToBlankState() {
   window.__CURRENT_GAME__ = null;
   window.__POKEMON_CACHE__ = null;
 
-  document.getElementById('app-title').textContent =
-    t('appTitleNoVersion');
+  document.getElementById('app-title').textContent = t('appTitleNoVersion');
 
-  document.getElementById('game-selector-btn').textContent =
-    `${t('pickVersion')};
+  const selectorBtn = document.getElementById('game-selector-btn');
+  if (selectorBtn) {
+    selectorBtn.textContent = t('pickVersion');
+  }
 
   document.getElementById('section-list').innerHTML = '';
   document.getElementById('app')?.classList.remove('has-detail');
@@ -163,7 +164,7 @@ function applyTranslations() {
   if (window.__CURRENT_GAME__) {
     const { meta, data } = window.__CURRENT_GAME__;
 
-    selectorBtn.textContent = `${t(meta.labelKey)};
+    selectorBtn.textContent = t(meta.labelKey);
     titleEl.textContent = t('appTitle', {
       version: t(meta.labelKey)
     });
@@ -186,6 +187,7 @@ function applyTranslations() {
   const objLabel = document.querySelector('.objective strong');
   if (objLabel) objLabel.textContent = t('currentObjective') + ':';
 }
+
 
 
 /* =========================================================
