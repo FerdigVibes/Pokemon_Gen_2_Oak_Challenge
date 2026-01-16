@@ -2,32 +2,9 @@
 import { getGameTime, setGameTime } from '../state/gameTime.js';
 import { t } from '../data/i18n.js';
 
-const modal = document.getElementById('game-time-modal');
+const DAYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
-const daySelect = document.getElementById('gt-day');
-const hourSelect = document.getElementById('gt-hour');
-const minuteSelect = document.getElementById('gt-minute');
-const meridiemSelect = document.getElementById('gt-meridiem');
-const dstCheckbox = document.getElementById('gt-dst');
-
-const saveBtn = document.getElementById('gt-save');
-const cancelBtn = document.getElementById('gt-cancel');
-
-const DAYS = ['mon','tue','wed','thu','fri','sat','sun'];
-
-const backdrop = modal.querySelector('.modal-backdrop');
-
-backdrop.addEventListener('click', () => {
-  modal.classList.add('hidden');
-});
-
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    modal.classList.add('hidden');
-  }
-});
-
-function buildSelectors() {
+function buildSelectors(daySelect, hourSelect, minuteSelect) {
   daySelect.innerHTML = '';
   DAYS.forEach(d => {
     const opt = document.createElement('option');
@@ -43,14 +20,26 @@ function buildSelectors() {
 
   minuteSelect.innerHTML = '';
   for (let m = 0; m < 60; m++) {
-    minuteSelect.appendChild(
-      new Option(String(m).padStart(2, '0'), m)
-    );
+    minuteSelect.appendChild(new Option(String(m).padStart(2, '0'), m));
   }
 }
 
 export function openGameTimeModal() {
-  buildSelectors();
+  const modal = document.getElementById('game-time-modal');
+  const daySelect = document.getElementById('gt-day');
+  const hourSelect = document.getElementById('gt-hour');
+  const minuteSelect = document.getElementById('gt-minute');
+  const meridiemSelect = document.getElementById('gt-meridiem');
+  const dstCheckbox = document.getElementById('gt-dst');
+  const saveBtn = document.getElementById('gt-save');
+  const cancelBtn = document.getElementById('gt-cancel');
+
+  if (!modal || !daySelect || !hourSelect || !minuteSelect || !meridiemSelect || !dstCheckbox || !saveBtn || !cancelBtn) {
+    console.warn('Modal elements missing');
+    return;
+  }
+
+  buildSelectors(daySelect, hourSelect, minuteSelect);
 
   const state = getGameTime();
 
@@ -61,6 +50,7 @@ export function openGameTimeModal() {
   dstCheckbox.checked = !!state.dst;
 
   modal.classList.remove('hidden');
+  document.getElementById('modal-overlay')?.classList.remove('hidden');
 
   saveBtn.onclick = () => {
     setGameTime({
@@ -71,10 +61,25 @@ export function openGameTimeModal() {
       dst: dstCheckbox.checked
     });
 
-    modal.classList.add('hidden');
+    closeModal();
   };
 
-  cancelBtn.onclick = () => {
-    modal.classList.add('hidden');
+  cancelBtn.onclick = closeModal;
+
+  // Escape key to close
+  const keyHandler = (e) => {
+    if (e.key === 'Escape') closeModal();
   };
+
+  // Backdrop click to close
+  const backdrop = modal.querySelector('.modal-backdrop');
+  if (backdrop) backdrop.onclick = closeModal;
+
+  document.addEventListener('keydown', keyHandler, { once: true });
+
+  function closeModal() {
+    modal.classList.add('hidden');
+    document.getElementById('modal-overlay')?.classList.add('hidden');
+  }
 }
+
