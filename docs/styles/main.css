@@ -397,34 +397,56 @@ body {
 }
 
 /* Sprite itself */
-.detail-sprite-img {
-  max-width: 100%;
-  max-height: 100%;
-
-  width: auto;
-  height: auto;
-
-  image-rendering: pixelated;
-}
-
-.detail-sprite-window.large-sprite .detail-sprite-img {
-  transform: scale(1.05);
-}
-
-/* Name + dex */
-.detail-header {
+.detail-sprite-window {
+  margin: 16px auto;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 10px;
   text-align: center;
-  margin-bottom: 14px;
-}
-
-.detail-name {
-  margin: 0;
-  font-size: 1.4rem;
+  border: 2px solid #ccc;
 }
 
 .detail-dex {
-  font-size: 0.85rem;
-  opacity: 0.75;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.type-list {
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.type-badge {
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.type-badge.type-bug { background: #A8B820; }
+.type-badge.type-poison { background: #A040A0; }
+/* Add more types as needed */
+
+.shiny-toggle-label {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.obtain-section {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.obtain-method {
+  margin-bottom: 16px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
 }
 
 .dropdown-menu {
