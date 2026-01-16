@@ -130,7 +130,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
 
     <div class="obtain-section">
       <h3>How to Obtain</h3>
-      ${obtain.length ? obtain.map(buildObtainHTML).join('') : '<p>—</p>'}
+      ${obtain.length ? obtain.map(o => buildObtainHTML(o, gameData.generation)).join('') : '<p>—</p>'}
     </div>
   `;
 
