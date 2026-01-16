@@ -136,21 +136,22 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
   const shinyToggle = document.getElementById('shiny-toggle');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
-   if (shinyToggle && sprite) 
-    const gen = gameData.generation || 1;
+  if (shinyToggle && sprite) {
+     const gen = gameData.generation || 1;
    
-    if (gen >= 2) {
-      let isShiny = false;
-      const toggleShiny = () => {
-       isShiny = !isShiny;
-       sprite.src = isShiny ? spriteShiny : spriteNormal;
-       shinyToggle.classList.toggle('active', isShiny);
-       spriteWindow.classList.toggle('shiny-active', isShiny);
-      };
+     if (gen >= 2) {
+       let isShiny = false;
    
-      shinyToggle.addEventListener('click', toggleShiny);
+       const toggleShiny = () => {
+         isShiny = !isShiny;
+         sprite.src = isShiny ? spriteShiny : spriteNormal;
+         shinyToggle.classList.toggle('active', isShiny);
+         spriteWindow.classList.toggle('shiny-active', isShiny);
+       };
+   
+       shinyToggle.addEventListener('click', toggleShiny);
      } else {
-      shinyToggle.style.display = 'none';
+       shinyToggle.style.display = 'none';
      }
    }
 }
