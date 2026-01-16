@@ -210,6 +210,19 @@ function applyMoonStoneExclusivity(gameId) {
   });
 }
 
+function applyPokemonAvailabilityState(row, caught, availableNow, timeGated = false) {
+  row.classList.remove('is-caught', 'is-available', 'is-unavailable', 'is-time-gated');
+
+  if (caught) {
+    row.classList.add('is-caught');
+  } else if (availableNow) {
+    row.classList.add('is-available');
+    if (timeGated) row.classList.add('is-time-gated');
+  } else {
+    row.classList.add('is-unavailable');
+  }
+}
+
 /* =========================================================
    React to caught changes
    ========================================================= */
@@ -328,20 +341,12 @@ export function renderSections({ game, pokemon }) {
       // 4️⃣ AVAILABILITY
       const availableNow = !caught && isPokemonAvailable(entry);
 
-      //if (!caught && availableNow && hasTimeOrDayRestriction(entry)) {
-      //  row.classList.add('is-time-gated');
-      //}
+      if (!caught && availableNow && hasTimeOrDayRestriction(entry)) {
+       row.classList.add('is-time-gated');
+      }
     
       // 5️⃣ APPLY STATE CLASSES
-      row.classList.remove('is-caught', 'is-available', 'is-unavailable');
-    
-      if (caught) {
-        row.classList.add('is-caught');
-      } else if (availableNow) {
-        row.classList.add('is-available');
-      } else {
-        row.classList.add('is-unavailable');
-      }
+      applyPokemonAvailabilityState(row, caught, availableNow, hasTimeOrDayRestriction(entry));
 
       const lang = getLanguage();
       const displayName = p.names?.[lang] || p.names?.en || p.slug;
@@ -472,15 +477,7 @@ window.addEventListener('game-time-changed', () => {
 
     const availableNow = !caught && isPokemonAvailable(entry);
 
-    row.classList.remove('is-caught', 'is-available', 'is-unavailable');
-
-    if (caught) {
-      row.classList.add('is-caught');
-    } else if (availableNow) {
-      row.classList.add('is-available');
-    } else {
-      row.classList.add('is-unavailable');
-    }
+    applyPokemonAvailabilityState(row, caught, availableNow, hasTimeOrDayRestriction(entry));
   });
 });
 
