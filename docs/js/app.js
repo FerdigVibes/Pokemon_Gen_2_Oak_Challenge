@@ -234,11 +234,12 @@ function buildGameSelector() {
 
   btn.parentElement.appendChild(container);
 
-  btn.addEventListener('mouseenter', () => {
-    container.classList.add('open');
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation(); // Prevent bubbling
+    container.classList.toggle('open');
   });
-
-  btn.parentElement.addEventListener('mouseleave', () => {
+  
+  document.addEventListener('click', () => {
     container.classList.remove('open');
   });
 }
