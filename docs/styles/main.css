@@ -548,3 +548,10 @@ body {
 .game-menu.open ~ #game-selector-btn::after {
   transform: rotate(180deg);
 }
+
+#game-selector-btn::after {
+  content: ' ▾';
+  font-size: 0.85em;
+  margin-left: 4px;
+  opacity: 0.8;
+}
