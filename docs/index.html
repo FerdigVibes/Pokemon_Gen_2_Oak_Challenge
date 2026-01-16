@@ -12,75 +12,43 @@
        TOP BAR
        ====================================================== -->
   <header id="top-bar">
-
     <!-- Row 1: Title -->
-    <div class="topbar-row topbar-title">
-      <span id="app-title">
-        Professor Oak Challenge – Pick Your Version
-      </span>
+    <div class="topbar-row topbar-title-row">
+      <span id="app-title" class="topbar-title">Professor Oak Pokédex</span>
     </div>
-
+  
     <!-- Row 2: Controls -->
     <div class="topbar-row topbar-controls">
-
-      <!-- Game Selector -->
-      <div class="control game-selector">
-        <button id="game-selector-btn">
-          Pick Your Version ▾
-        </button>
-        <!-- Dropdown menu injected via JS -->
-      </div>
-
-      <!-- Mute Button -->
-      <button id="mute-toggle" class="control">
-        🔊
-      </button>
-
-      <!-- Search -->
+      <button id="game-selector-btn" class="control">Select Version ▾</button>
+      <button id="mute-toggle" class="control" title="Toggle Cry Audio">🔊</button>
       <input
-        id="search-input"
         type="text"
-        placeholder="Search Pokémon…"
-        class="control search"
+        id="search-input"
+        placeholder="Search Pokémon..."
+        class="control search-input"
       />
-
-      <!-- Language Selector -->
-      <select id="language-selector" class="control">
-        <option value="en">EN</option>
-        <option value="ja">日本語</option>
-        <option value="fr">FR</option>
-        <option value="de">DE</option>
-        <option value="es">ES</option>
-      </select>
-
+      <select id="language-selector" class="control lang-select"></select>
     </div>
-
-    <!-- Row 3: Objective + Progress -->
+  
+    <!-- Row 3: Progress + Time -->
     <div class="topbar-row topbar-progress">
-
       <div class="objective">
-        <strong class="objective-label">Objective</strong>
-        <span
-          class="pokedex-screen"
-          id="current-objective"
-        ></span>
+        <strong>Objective:</strong>
+        <span id="current-objective">Pick a version to begin</span>
       </div>
-
+  
       <div class="progress">
-        <span id="progress-text">—</span>
         <div class="progress-bar">
-          <div class="progress-fill" style="width: 0%;"></div>
+          <div class="progress-fill"></div>
         </div>
+        <span id="progress-text">0 / 0 Pokémon</span>
       </div>
-
-      <!-- Game Time Button -->
-      <button id="game-time-btn" class="control hidden game-time-btn">
-        <span class="pokegear-icon" aria-hidden="true">⌚</span>
-        <span class="game-time-label"></span>
+  
+      <button id="game-time-btn" class="control time-btn hidden">
+        <span class="game-time-label">Mon 10:00 AM</span>
+        <span class="row-day-icons"></span> <!-- optional icons here -->
       </button>
-
     </div>
-
   </header>
 
   <!-- ======================================================
