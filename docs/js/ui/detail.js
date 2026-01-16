@@ -122,11 +122,6 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
       ${types.map(type => `<span class="type-badge type-${type}">${type.toUpperCase()}</span>`).join('')}
     </div>
 
-    <label class="shiny-toggle-label">
-      <input type="checkbox" id="toggle-shiny" />
-      Show Shiny Sprite
-    </label>
-
     <div class="obtain-section">
       <h3>How to Obtain</h3>
       ${obtain.length
