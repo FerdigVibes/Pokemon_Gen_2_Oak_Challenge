@@ -101,7 +101,10 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
 
   panel.innerHTML = `
     <div class="detail-header">
-      <h2 class="detail-name">${name}</h2>
+      <h2 class="detail-name">
+        ${name}
+        <span id="shiny-toggle" class="shiny-icon" title="Toggle shiny sprite">✨</span>
+      </h2>
       <div class="detail-dex">
         National Dex: #${String(dex).padStart(3, '0')}
         ${regDex ? ` | Regional Dex: #${regDex}` : ''}
