@@ -92,7 +92,7 @@ body {
   top: 0;
   z-index: 10;
   flex-direction: column;
-  background: #111;
+  background: linear-gradient(180deg, #c62828, #a81f1f);
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.1);
   font-size: 14px;
@@ -118,32 +118,32 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
-/* Shared row styling */
 .topbar-row {
-  position: relative;
-  padding: 6px 12px;
-
-  background: rgba(0,0,0,0.15);
-
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 14px;
   border-top: 1px solid rgba(255,255,255,0.12);
   border-bottom: 1px solid rgba(0,0,0,0.35);
+  gap: 10px;
 }
 
 .topbar-row:first-child {
   border-top: none;
 }
 
-/* Space out controls */
 .topbar-controls .control,
 .topbar-controls input,
 .topbar-controls select {
   margin-right: 6px;
-}
-
-/* Objective & Progress grouping */
-.topbar-progress {
-  gap: 12px; /* widen grouping */
-  flex-wrap: wrap;
+  background: linear-gradient(180deg, #3a3a3a, #222);
+  color: white;
+  border-radius: 6px;
+  border: 1px solid #000;
+  padding: 6px 10px;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.15),
+    0 2px 4px rgba(0,0,0,0.6);
 }
 
 .pokedex-led {
@@ -170,7 +170,7 @@ body {
 }
 
 /* Row 1: Title */
-.topbar-title {
+.topbar-title-row {
   font-weight: bold;
   font-size: 15px;
 }
@@ -180,30 +180,16 @@ body {
   gap: 8px;
 }
 
-.topbar-controls .control {
-  background: linear-gradient(
-    180deg,
-    #3a3a3a,
-    #222
-  );
-
-  border-radius: 6px;
-  border: 1px solid #000;
-
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.15),
-    0 2px 4px rgba(0,0,0,0.6);
-}
-
 .topbar-controls .control:active {
   transform: translateY(1px);
-  box-shadow:
-    inset 0 2px 4px rgba(0,0,0,0.6);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
 }
 
 /* Row 3: Progress */
 .topbar-progress {
   justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
   font-size: 13px;
 }
 
@@ -211,6 +197,14 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.search-input {
+  width: 180px;
+}
+
+.lang-select {
+  min-width: 80px;
 }
 
 .progress-bar {
@@ -225,6 +219,7 @@ body {
   height: 100%;
   background: #4caf50;
   width: 0%;
+  transition: width 0.3s ease-in-out;
 }
 
 .row-day-icons {
@@ -245,6 +240,10 @@ body {
   width: 320px;
   z-index: 200;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.objective strong {
+  margin-right: 6px;
 }
 
 #game-time-modal.hidden {
@@ -286,6 +285,10 @@ body {
 
 .modal-actions button:hover {
   background: #666;
+}
+
+#game-time-btn.hidden {
+  display: none;
 }
 /* -----------------------------
    AVAILABLE & UNCAUGHT
@@ -365,6 +368,22 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .pokemon-row.is-available.is-time-gated {
     animation: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .topbar-progress {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-bar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
   }
 }
 
