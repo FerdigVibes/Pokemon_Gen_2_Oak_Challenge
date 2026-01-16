@@ -232,6 +232,37 @@ body {
   gap: 3px;
   margin-left: 6px;
 }
+
+#time-modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 200;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+#time-modal.show {
+  display: block;
+}
+
+#modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 150;
+}
+
+#modal-overlay.show {
+  display: block;
+}
 /* -----------------------------
    AVAILABLE & UNCAUGHT
    ----------------------------- */
