@@ -134,7 +134,7 @@ function resetAppToBlankState() {
   window.__POKEMON_CACHE__ = null;
 
   document.getElementById('app-title').textContent =
-    t('appTitleNoVersion') '▾';
+    t('appTitleNoVersion');
 
   document.getElementById('game-selector-btn').textContent =
     `${t('pickVersion')};
@@ -163,7 +163,7 @@ function applyTranslations() {
   if (window.__CURRENT_GAME__) {
     const { meta, data } = window.__CURRENT_GAME__;
 
-    selectorBtn.textContent = `${t(meta.labelKey)} ▾`;
+    selectorBtn.textContent = `${t(meta.labelKey)};
     titleEl.textContent = t('appTitle', {
       version: t(meta.labelKey)
     });
@@ -296,7 +296,7 @@ async function selectGame(gameMeta) {
 
     // 5️⃣ Update top bar text
     document.getElementById('game-selector-btn').textContent =
-      `${t(gameMeta.labelKey)} ▾`;
+      `${t(gameMeta.labelKey)};
 
     document.getElementById('app-title').textContent = t('appTitle', {
       version: t(gameMeta.labelKey)
