@@ -79,34 +79,32 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
   const gameKey = normalizeGameId(gameData.id);
   const gameEntry = pokemon.games?.[gameKey];
   if (!gameEntry) {
-    panel.innerHTML = `<p>${pokemon.slug} not found in this version.</p>`;
+    panel.innerHTML = `<p>${pokemon.slug} is not available in this version.</p>`;
     return;
   }
 
   const lang = getLanguage();
   const name = pokemon.names?.[lang] || pokemon.names?.en || pokemon.slug;
   const dex = pokemon.dex;
-  const regDex = gameData.regionalDex?.[dex];
+  const regDex = gameData.regionalDex?.[String(dex)];
 
+  // Sprites
   const spriteFile = `${String(dex).padStart(3, '0')}-${pokemon.slug}.gif`;
-
   const spriteNormal = `./assets/sprites/normal/${spriteFile}`;
   const spriteShiny = `./assets/sprites/shiny/${spriteFile}`;
 
   // Types
   const types = pokemon.types || [];
 
-  // Obtain methods
-  const obtain = Array.isArray(gameEntry.obtain)
-    ? gameEntry.obtain
-    : [];
+  // Obtain info
+  const obtain = Array.isArray(gameEntry.obtain) ? gameEntry.obtain : [];
 
-  // HTML generation
   panel.innerHTML = `
     <div class="detail-header">
       <h2 class="detail-name">${name}</h2>
-      <div class="detail-dex">#${String(dex).padStart(3, '0')}
-        ${regDex ? ` | Johto #${regDex}` : ''}
+      <div class="detail-dex">
+        National Dex: #${String(dex).padStart(3, '0')}
+        ${regDex ? ` | Regional Dex: #${regDex}` : ''}
       </div>
     </div>
 
@@ -116,6 +114,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
         id="detail-sprite" 
         src="${spriteNormal}" 
         alt="${name}" 
+        onerror="this.src='./assets/icons/pokeball-empty.png'"
       />
     </div>
 
@@ -130,11 +129,12 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
 
     <div class="obtain-section">
       <h3>How to Obtain</h3>
-      ${obtain.length ? obtain.map(o => buildObtainHTML(o, gameData.generation)).join('') : '<p>—</p>'}
+      ${obtain.length
+        ? obtain.map(o => buildObtainHTML(o, gameData.generation)).join('')
+        : '<p>—</p>'}
     </div>
   `;
 
-  // Wire shiny toggle
   const shinyToggle = document.getElementById('toggle-shiny');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
