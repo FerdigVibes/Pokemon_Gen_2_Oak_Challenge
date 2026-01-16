@@ -21,7 +21,7 @@ window.addEventListener('language-changed', () => {
   );
 });
 
-function buildObtainHTML(entry) {
+function buildObtainHTML(entry, generation) {
   const {
     method,
     locations = [],
@@ -30,9 +30,17 @@ function buildObtainHTML(entry) {
     notes
   } = entry;
 
-  const timeStr = time.length ? `Time: ${time.join(', ')}` : '';
-  const dayStr = days.length ? `Days: ${days.join(', ')}` : '';
-  const locationStr = locations.length ? `Locations: ${locations.join(', ')}` : '';
+  const timeStr = generation === 2 && time.length
+    ? `Time: ${time.join(', ')}`
+    : '';
+
+  const dayStr = generation === 2 && days.length
+    ? `Days: ${days.join(', ')}`
+    : '';
+
+  const locationStr = locations.length
+    ? `Locations: ${locations.join(', ')}`
+    : '';
 
   return `
     <div class="obtain-method">
