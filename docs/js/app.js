@@ -137,7 +137,7 @@ function resetAppToBlankState() {
     t('appTitleNoVersion');
 
   document.getElementById('game-selector-btn').textContent =
-    `${t('pickVersion')} ▾`;
+    `${t('pickVersion')};
 
   document.getElementById('section-list').innerHTML = '';
   document.getElementById('app')?.classList.remove('has-detail');
