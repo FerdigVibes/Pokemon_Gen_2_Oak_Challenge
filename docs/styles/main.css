@@ -537,3 +537,14 @@ body {
 .game-menu-item:hover {
   background: rgba(255, 255, 255, 0.1);
 }
+
+#game-selector-btn::after {
+  content: '▾';
+  margin-left: 6px;
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.game-menu.open ~ #game-selector-btn::after {
+  transform: rotate(180deg);
+}
