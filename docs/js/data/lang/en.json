@@ -30,14 +30,14 @@
     "sat": "Sat",
     "sun": "Sun"
   },
-  
+
   "gameTime": {
     "title": "Set Game Time",
     "day": "Day",
     "time": "Time",
     "dst": "Daylight Saving Time"
   },
-  
+
   "time": {
     "morningRange": "4:00 a.m. – 9:59 a.m.",
     "dayRange": "10:00 a.m. – 5:59 p.m.",
@@ -52,55 +52,57 @@
 
   "chooseYourStarter": "Choose Your Starter",
 
-  "beforePewter": "Before Pewter Gym",
-  "pewterPokemon": "Pewter Pokémon",
+  "objective": {
+    "BEFORE_PEWTER": "Before Pewter Gym",
+    "PEWTER_POKEMON": "Pewter Pokémon",
 
-  "beforeCerulean": "Before Cerulean Gym",
-  "ceruleanPokemon": "Cerulean Pokémon",
+    "BEFORE_CERULEAN": "Before Cerulean Gym",
+    "CERULEAN_POKEMON": "Cerulean Pokémon",
 
-  "beforeVermilion": "Before Vermilion Gym",
-  "afterVermilion": "After Vermilion Gym",
+    "BEFORE_VERMILION": "Before Vermilion Gym",
+    "AFTER_VERMILION": "After Vermilion Gym",
 
-  "beforeCeladon": "Before Celadon Gym",
-  "celadonPokemon": "Celadon Pokémon",
+    "BEFORE_CELADON": "Before Celadon Gym",
+    "CELADON_POKEMON": "Celadon Pokémon",
 
-  "beforeFuchsia": "Before Fuchsia Gym",
-  "fuchsiaPokemon": "Fuchsia Pokémon",
+    "BEFORE_FUCHSIA": "Before Fuchsia Gym",
+    "FUCHSIA_POKEMON": "Fuchsia Pokémon",
 
-  "beforeFifth": "Before Fifth Gym",
+    "BEFORE_FIFTH": "Before Fifth Gym",
 
-  "beforeEliteFour": "Before the Elite Four",
-  "eliteFourPokemon": "Elite Four Pokémon",
+    "BEFORE_ELITE_FOUR": "Before the Elite Four",
+    "ELITE_FOUR_POKEMON": "Elite Four Pokémon",
 
-  "ceruleanCave": "Cerulean Cave",
-  "ceruleanCavePokemon": "Cerulean Cave Pokémon",
+    "CERULEAN_CAVE": "Cerulean Cave",
+    "CERULEAN_CAVE_POKEMON": "Cerulean Cave Pokémon",
 
-  "mtSilver": "Mt. Silver",
-  "mtSilverPokemon": "Mt. Silver Pokémon",
+    "MT_SILVER": "Mt. Silver",
+    "MT_SILVER_POKEMON": "Mt. Silver Pokémon",
 
-  "beforeKanto": "Before Kanto Badges",
-  "kantoPokemon": "Kanto Pokémon",
+    "BEFORE_KANTO_BADGES": "Before Kanto Badges",
+    "KANTO_POKEMON": "Kanto Pokémon",
 
-  "beforeViolet": "Before Violet Gym",
-  "violetPokemon": "Violet Pokémon",
+    "BEFORE_VIOLET": "Before Violet Gym",
+    "VIOLET_POKEMON": "Violet Pokémon",
 
-  "beforeAzalea": "Before Azalea Gym",
-  "azaleaPokemon": "Azalea Pokémon",
+    "BEFORE_AZALEA": "Before Azalea Gym",
+    "AZALEA_POKEMON": "Azalea Pokémon",
 
-  "beforeGoldenrod": "Before Goldenrod Gym",
-  "goldenrodPokemon": "Goldenrod Pokémon",
+    "BEFORE_GOLDENROD": "Before Goldenrod Gym",
+    "GOLDENROD_POKEMON": "Goldenrod Pokémon",
 
-  "beforeEcruteak": "Before Ecruteak Gym",
-  "ecruteakPokemon": "Ecruteak Pokémon",
+    "BEFORE_ECRUTEAK": "Before Ecruteak Gym",
+    "ECRUTEAK_POKEMON": "Ecruteak Pokémon",
 
-  "beforeMahogany": "Before Mahogany Gym",
-  "mahoganyPokemon": "Mahogany Pokémon",
+    "BEFORE_MAHOGANY": "Before Mahogany Gym",
+    "MAHOGANY_POKEMON": "Mahogany Pokémon",
 
-  "beforeCianwoodOlivine": "Before Cianwood & Olivine Gyms",
-  "cianwoodOlivinePokemon": "Cianwood & Olivine Pokémon",
+    "BEFORE_CIANWOOD_OLIVINE": "Before Cianwood & Olivine Gyms",
+    "CIANWOOD_OLIVINE_POKEMON": "Cianwood & Olivine Pokémon",
 
-  "beforeBlackthorn": "Before Blackthorn Gym",
-  "blackthornPokemon": "Blackthorn Pokémon",
+    "BEFORE_BLACKTHORN": "Before Blackthorn Gym",
+    "BLACKTHORN_POKEMON": "Blackthorn Pokémon"
+  },
 
   "moonStoneOne": "Moon Stone Evolution",
   "moonStoneTwo": "Moon Stone Evolution (Second)",
@@ -112,7 +114,6 @@
 
   "eeveeEvolutions": "Choose your Eevee Evolution",
   "hitmonPrize": "Hitmon Prize Pokémon",
-
   "reviveFossil": "Revived Fossil Pokémon",
 
   "articuno": "Articuno",
@@ -122,3 +123,4 @@
   "pikachu": "I Choose You, Pikachu!",
   "squirtlesquad": "Squirtle Squad"
 }
+
