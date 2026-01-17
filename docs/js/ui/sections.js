@@ -299,7 +299,7 @@ export function renderSections({ game, pokemon }) {
 
     const title = document.createElement('span');
     title.className = 'section-title';
-    title.textContent = t(section.titleKey);
+    title.textContent = t(`objective.${section.titleKey}`);
 
     header.append(counter, title);
     sectionBlock._counterEl = counter;
