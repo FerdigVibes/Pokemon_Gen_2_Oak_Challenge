@@ -36,14 +36,17 @@ export async function loadLanguage(lang) {
    ========================================================= */
 
 export function t(key, vars = {}) {
-  let str = translations[key] ?? key;
+  let str = getNested(translations, key) ?? key;
 
-  // simple {{var}} interpolation
   Object.entries(vars).forEach(([k, v]) => {
     str = str.replaceAll(`{{${k}}}`, v);
   });
 
   return str;
+}
+
+function getNested(obj, path) {
+  return path.split('.').reduce((acc, key) => acc?.[key], obj);
 }
 
 /* =========================================================
@@ -67,3 +70,4 @@ export function resolveLangField(field, lang = getLanguage()) {
 window.t = t;
 window.resolveLangField = resolveLangField;
 window.__I18N__ = translations;
+window.getLanguage = getLanguage;
