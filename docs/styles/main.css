@@ -539,17 +539,19 @@
   background: #333;
 }
 
+/* Main dropdown */
 .game-menu {
   position: absolute;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 6px;
   top: 100%;
   left: 0;
-  background: #222;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   z-index: 100;
-  min-width: 180px;
   display: none;
   flex-direction: column;
+  min-width: 220px;
   padding: 6px 0;
 }
 
@@ -557,26 +559,43 @@
   display: flex;
 }
 
+/* Gen level (e.g., Generation I) */
 .game-menu-gen {
-  padding: 6px 12px;
+  padding: 8px 12px;
+  cursor: pointer;
   font-weight: bold;
-  color: #ccc;
+  position: relative;
+  background: #2a2a2a;
+  border-bottom: 1px solid #333;
 }
 
+.game-menu-gen:hover {
+  background: #333;
+}
+
+/* Nested submenu for games */
 .game-menu-sub {
-  display: flex;
+  display: none;
   flex-direction: column;
-  margin-left: 10px;
+  background: #1b1b1b;
+  padding-left: 12px;
+  margin-top: 4px;
 }
 
+.game-menu-gen.open .game-menu-sub {
+  display: flex;
+}
+
+/* Game item */
 .game-menu-item {
   padding: 6px 12px;
   cursor: pointer;
-  color: #eee;
+  font-weight: normal;
 }
 
 .game-menu-item:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #444;
+  color: #ffd966;
 }
 
 #game-selector-btn::after {
