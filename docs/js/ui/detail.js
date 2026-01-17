@@ -40,25 +40,25 @@ function buildObtainHTML(entry, generation) {
   }
 
   const timeStr = generation === 2 && time.length
-    ? `Time: ${time.join(', ')}`
-    : '';
+   ? `${t('detail.time')}: ${time.join(', ')}`
+   : '';
 
   const dayStr = generation === 2 && days.length
-    ? `Days: ${days.join(', ')}`
-    : '';
-
+   ? `${t('detail.days')}: ${days.join(', ')}`
+   : '';
+   
   const locationStr = locations.length
-    ? `Locations: ${locations.join(', ')}`
-    : '';
-
+   ? `${t('detail.locations')}: ${locations.join(', ')}`
+   : '';
+   
   return `
-    <div class="obtain-method">
-       <strong>${t('detail.method')}:</strong> ${method}<br />
-       ${locationStr ? `<strong>${t('detail.locations')}: ${locationStr}</strong><br />` : ''}
-       ${timeStr ? `<span class="time-label">${t('detail.time')}: ${time.join(', ')}</span><br />` : ''}
-       ${dayStr ? `<span class="day-label">${t('detail.days')}: ${days.join(', ')}</span><br />` : ''}
-       ${notes ? `<p class="notes">${notes}</p>` : ''}
-    </div>
+   <div class="obtain-method">
+    <strong>${t('detail.method')}:</strong> ${method}<br />
+    ${locationStr ? `<strong>${locationStr}</strong><br />` : ''}
+    ${timeStr ? `<span class="time-label">${timeStr}</span><br />` : ''}
+    ${dayStr ? `<span class="day-label">${dayStr}</span><br />` : ''}
+    ${notes ? `<p class="notes">${notes}</p>` : ''}
+   </div>
   `;
 }
 
