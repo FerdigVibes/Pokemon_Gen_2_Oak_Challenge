@@ -148,5 +148,24 @@
     "rock": "Roca",
     "steel": "Acero",
     "water": "Agua"
+  },
+  "methods": {
+    "starter": "Inicial",
+    "wild": "Salvaje",
+    "gift": "Regalo",
+    "event": "Evento",
+    "trade": "Intercambio",
+    "evolution": "Evolución",
+    "fossil": "Fósil",
+    "held_item": "Objeto equipado",
+    "day_care": "Guardería",
+    "headbutt": "Golpe Cabeza",
+    "radio": "Radio",
+    "bug_contest": "Concurso de Bichos",
+    "swarm": "Manada",
+    "rock_smash": "Golpe Roca",
+    "safari": "Zona Safari",
+    "special": "Especial",
+    "purchase": "Compra"
   }
 }
