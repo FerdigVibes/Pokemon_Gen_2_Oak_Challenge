@@ -43,8 +43,18 @@ function buildObtainHTML(entry, generation) {
    ? `${t('detail.time')}: ${time.join(', ')}`
    : '';
 
+  const fullDayMap = {
+   mon: 'monday',
+   tue: 'tuesday',
+   wed: 'wednesday',
+   thu: 'thursday',
+   fri: 'friday',
+   sat: 'saturday',
+   sun: 'sunday'
+  };
+
   const dayStr = generation === 2 && days.length
-   ? `${t('detail.days')}: ${days.join(', ')}`
+   ? `${t('detail.days')}: ${days.map(d => t(`days.${fullDayMap[d] || d}`)).join(', ')}`
    : '';
    
   const locationStr = locations.length
