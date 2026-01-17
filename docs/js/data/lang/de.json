@@ -160,6 +160,13 @@
     "safari": "Safari-Zone",
     "special": "Spezial",
     "purchase": "Kauf"
+  },
+  "detail": {
+    "obtainTitle": "Wie man es erhält",
+    "method": "Methode",
+    "locations": "Orte",
+    "time": "Uhrzeit",
+    "days": "Tage"
   }
 }
 
