@@ -45,6 +45,7 @@
 
   "chooseYourStarter": "Wähle dein Starter-Pokémon",
 
+"objective": {
   "BEFORE_PEWTER": "Vor der Arena von Marmoria City",
   "PEWTER_POKEMON": "Pokémon aus Marmoria City",
 
@@ -94,6 +95,7 @@
 
   "BEFORE_BLACKTHORN": "Vor der Arena von Ebenholz City",
   "BLACKTHORN_POKEMON": "Pokémon aus Ebenholz City"
+},
 
   "moonStoneOne": "Entwicklung mit Mondstein",
   "moonStoneTwo": "Entwicklung mit Mondstein (zweites Mal)",
