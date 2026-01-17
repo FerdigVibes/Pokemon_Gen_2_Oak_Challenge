@@ -161,6 +161,13 @@
     "safari": "Safari Zone",
     "special": "Special",
     "purchase": "Purchase"
+  },
+  "detail": {
+    "obtainTitle": "How to Obtain",
+    "method": "Method",
+    "locations": "Locations",
+    "time": "Time",
+    "days": "Days"
   }
 }
 
