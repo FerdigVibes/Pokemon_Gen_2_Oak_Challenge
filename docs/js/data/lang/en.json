@@ -50,78 +50,78 @@
   "crystal_gbc": "Pokémon Crystal (Game Boy Color)",
   "crystal_vc": "Pokémon Crystal (3DS Virtual Console)",
 
-  "chooseYourStarter": "Choose Your Starter",
-
   "objective": {
-    "BEFORE_PEWTER": "Before Pewter Gym",
-    "PEWTER_POKEMON": "Pewter Pokémon",
-
-    "BEFORE_CERULEAN": "Before Cerulean Gym",
-    "CERULEAN_POKEMON": "Cerulean Pokémon",
-
-    "BEFORE_VERMILION": "Before Vermilion Gym",
-    "AFTER_VERMILION": "After Vermilion Gym",
-
-    "BEFORE_CELADON": "Before Celadon Gym",
-    "CELADON_POKEMON": "Celadon Pokémon",
-
-    "BEFORE_FUCHSIA": "Before Fuchsia Gym",
-    "FUCHSIA_POKEMON": "Fuchsia Pokémon",
-
-    "BEFORE_FIFTH": "Before Fifth Gym",
-
-    "BEFORE_ELITE_FOUR": "Before the Elite Four",
-    "ELITE_FOUR_POKEMON": "Elite Four Pokémon",
-
-    "CERULEAN_CAVE": "Cerulean Cave",
-    "CERULEAN_CAVE_POKEMON": "Cerulean Cave Pokémon",
-
-    "MT_SILVER": "Mt. Silver",
-    "MT_SILVER_POKEMON": "Mt. Silver Pokémon",
-
-    "BEFORE_KANTO_BADGES": "Before Kanto Badges",
-    "KANTO_POKEMON": "Kanto Pokémon",
-
-    "BEFORE_VIOLET": "Before Violet Gym",
-    "VIOLET_POKEMON": "Violet Pokémon",
-
-    "BEFORE_AZALEA": "Before Azalea Gym",
-    "AZALEA_POKEMON": "Azalea Pokémon",
-
-    "BEFORE_GOLDENROD": "Before Goldenrod Gym",
-    "GOLDENROD_POKEMON": "Goldenrod Pokémon",
-
-    "BEFORE_ECRUTEAK": "Before Ecruteak Gym",
-    "ECRUTEAK_POKEMON": "Ecruteak Pokémon",
-
-    "BEFORE_MAHOGANY": "Before Mahogany Gym",
-    "MAHOGANY_POKEMON": "Mahogany Pokémon",
-
-    "BEFORE_CIANWOOD_OLIVINE": "Before Cianwood & Olivine Gyms",
-    "CIANWOOD_OLIVINE_POKEMON": "Cianwood & Olivine Pokémon",
-
-    "BEFORE_BLACKTHORN": "Before Blackthorn Gym",
-    "BLACKTHORN_POKEMON": "Blackthorn Pokémon"
+    "beforePewter": "Before Pewter Gym",
+    "pewterPokemon": "Pewter Pokémon",
+  
+    "beforeCerulean": "Before Cerulean Gym",
+    "ceruleanPokemon": "Cerulean Pokémon",
+  
+    "beforeVermilion": "Before Vermilion Gym",
+    "afterVermilion": "After Vermilion Gym",
+  
+    "beforeCeladon": "Before Celadon Gym",
+    "celadonPokemon": "Celadon Pokémon",
+  
+    "beforeFuchsia": "Before Fuchsia Gym",
+    "fuchsiaPokemon": "Fuchsia Pokémon",
+  
+    "beforeFifth": "Before Fifth Gym",
+  
+    "beforeEliteFour": "Before the Elite Four",
+    "eliteFourPokemon": "Elite Four Pokémon",
+  
+    "ceruleanCave": "Cerulean Cave",
+    "ceruleanCavePokemon": "Cerulean Cave Pokémon",
+  
+    "mtSilver": "Mt. Silver",
+    "mtSilverPokemon": "Mt. Silver Pokémon",
+  
+    "beforeKantoBadges": "Before Kanto Badges",
+    "kantoPokemon": "Kanto Pokémon",
+  
+    "beforeViolet": "Before Violet Gym",
+    "violetPokemon": "Violet Pokémon",
+  
+    "beforeAzalea": "Before Azalea Gym",
+    "azaleaPokemon": "Azalea Pokémon",
+  
+    "beforeGoldenrod": "Before Goldenrod Gym",
+    "goldenrodPokemon": "Goldenrod Pokémon",
+  
+    "beforeEcruteak": "Before Ecruteak Gym",
+    "ecruteakPokemon": "Ecruteak Pokémon",
+  
+    "beforeMahogany": "Before Mahogany Gym",
+    "mahoganyPokemon": "Mahogany Pokémon",
+  
+    "beforeCianwoodOlivine": "Before Cianwood & Olivine Gyms",
+    "cianwoodOlivinePokemon": "Cianwood & Olivine Pokémon",
+  
+    "beforeBlackthorn": "Before Blackthorn Gym",
+    "blackthornPokemon": "Blackthorn Pokémon",
+  
+    "moonStoneOne": "Moon Stone Evolution",
+    "moonStoneTwo": "Moon Stone Evolution (Second)",
+  
+    "leafStone": "Choose a Leaf Stone Evolution",
+    "fireStone": "Choose a Fire Stone Evolution",
+    "waterStone": "Choose a Water Stone Evolution",
+    "thunderStone": "Choose a Thunder Stone Evolution",
+  
+    "eeveeEvolutions": "Choose your Eevee Evolution",
+    "hitmonPrize": "Hitmon Prize Pokémon",
+    "reviveFossil": "Revived Fossil Pokémon",
+  
+    "articuno": "Articuno",
+    "moltres": "Moltres",
+    "mewtwo": "Mewtwo",
+  
+    "pikachu": "I Choose You, Pikachu!",
+    "squirtlesquad": "Squirtle Squad",
+  
+    "chooseYourStarter": "Choose Your Starter"
   },
-
-  "moonStoneOne": "Moon Stone Evolution",
-  "moonStoneTwo": "Moon Stone Evolution (Second)",
-
-  "leafStone": "Choose a Leaf Stone Evolution",
-  "fireStone": "Choose a Fire Stone Evolution",
-  "waterStone": "Choose a Water Stone Evolution",
-  "thunderStone": "Choose a Thunder Stone Evolution",
-
-  "eeveeEvolutions": "Choose your Eevee Evolution",
-  "hitmonPrize": "Hitmon Prize Pokémon",
-  "reviveFossil": "Revived Fossil Pokémon",
-
-  "articuno": "Articuno",
-  "moltres": "Moltres",
-  "mewtwo": "Mewtwo",
-
-  "pikachu": "I Choose You, Pikachu!",
-  "squirtlesquad": "Squirtle Squad",
 
   "types": {
     "bug": "Bug",
