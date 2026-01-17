@@ -567,3 +567,18 @@
   margin-left: 4px;
   opacity: 0.8;
 }
+
+#language-selector {
+  background-color: #222;     /* Dark dropdown background */
+  color: #fff;                /* White text */
+  border: 1px solid #555;     /* Subtle border */
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: inherit;       /* Match your main font */
+  font-size: 0.9rem;
+}
+
+#language-selector option {
+  background-color: #222;
+  color: #fff;
+}
