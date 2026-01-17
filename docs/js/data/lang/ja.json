@@ -42,80 +42,79 @@
   "crystal_gbc": "ポケットモンスター クリスタル（ゲームボーイカラー）",
   "crystal_vc": "ポケットモンスター クリスタル（ニンテンドー3DS バーチャルコンソール）",
 
-  "chooseYourStarter": "最初のポケモンを選ぼう",
-
   "objective": {
-    "BEFORE_PEWTER": "ニビジムの前",
-    "PEWTER_POKEMON": "ニビシティのポケモン",
+    "beforePewter": "ニビジムの前",
+    "pewterPokemon": "ニビのポケモン",
   
-    "BEFORE_CERULEAN": "ハナダジムの前",
-    "CERULEAN_POKEMON": "ハナダシティのポケモン",
+    "beforeCerulean": "ハナダジムの前",
+    "ceruleanPokemon": "ハナダのポケモン",
   
-    "BEFORE_VERMILION": "クチバジムの前",
-    "AFTER_VERMILION": "クチバジムの後",
+    "beforeVermilion": "クチバジムの前",
+    "afterVermilion": "クチバジムの後",
   
-    "BEFORE_CELADON": "タマムシジムの前",
-    "CELADON_POKEMON": "タマムシシティのポケモン",
+    "beforeCeladon": "タマムシジムの前",
+    "celadonPokemon": "タマムシのポケモン",
   
-    "BEFORE_FUCHSIA": "セキチクジムの前",
-    "FUCHSIA_POKEMON": "セキチクシティのポケモン",
+    "beforeFuchsia": "セキチクジムの前",
+    "fuchsiaPokemon": "セキチクのポケモン",
   
-    "BEFORE_FIFTH": "5つ目のジムの前",
+    "beforeFifth": "5つ目のバッジの前",
   
-    "BEFORE_ELITE_FOUR": "四天王の前",
-    "ELITE_FOUR_POKEMON": "四天王エリアのポケモン",
+    "beforeEliteFour": "四天王の前",
+    "eliteFourPokemon": "四天王のポケモン",
   
-    "CERULEAN_CAVE": "ハナダのどうくつ",
-    "CERULEAN_CAVE_POKEMON": "ハナダのどうくつのポケモン",
+    "ceruleanCave": "ハナダのどうくつ",
+    "ceruleanCavePokemon": "ハナダのどうくつのポケモン",
   
-    "MT_SILVER": "シロガネやま",
-    "MT_SILVER_POKEMON": "シロガネやまのポケモン",
+    "mtSilver": "シロガネやま",
+    "mtSilverPokemon": "シロガネやまのポケモン",
   
-    "BEFORE_KANTO_BADGES": "カントーバッジ入手前",
-    "KANTO_POKEMON": "カントー地方のポケモン",
+    "beforeKantoBadges": "カントーバッジの前",
+    "kantoPokemon": "カントーのポケモン",
   
-    "BEFORE_VIOLET": "キキョウジムの前",
-    "VIOLET_POKEMON": "キキョウシティのポケモン",
+    "beforeViolet": "キキョウジムの前",
+    "violetPokemon": "キキョウのポケモン",
   
-    "BEFORE_AZALEA": "ヒワダジムの前",
-    "AZALEA_POKEMON": "ヒワダタウンのポケモン",
+    "beforeAzalea": "ヒワダジムの前",
+    "azaleaPokemon": "ヒワダのポケモン",
   
-    "BEFORE_GOLDENROD": "コガネジムの前",
-    "GOLDENROD_POKEMON": "コガネシティのポケモン",
+    "beforeGoldenrod": "コガネジムの前",
+    "goldenrodPokemon": "コガネのポケモン",
   
-    "BEFORE_ECRUTEAK": "エンジュジムの前",
-    "ECRUTEAK_POKEMON": "エンジュシティのポケモン",
+    "beforeEcruteak": "エンジュジムの前",
+    "ecruteakPokemon": "エンジュのポケモン",
   
-    "BEFORE_MAHOGANY": "チョウジジムの前",
-    "MAHOGANY_POKEMON": "チョウジタウンのポケモン",
+    "beforeMahogany": "チョウジジムの前",
+    "mahoganyPokemon": "チョウジのポケモン",
   
-    "BEFORE_CIANWOOD_OLIVINE": "アサギ＆タンバジムの前",
-    "CIANWOOD_OLIVINE_POKEMON": "アサギ＆タンバのポケモン",
+    "beforeCianwoodOlivine": "タンバ＆アサギジムの前",
+    "cianwoodOlivinePokemon": "タンバ＆アサギのポケモン",
   
-    "BEFORE_BLACKTHORN": "フスベジムの前",
-    "BLACKTHORN_POKEMON": "フスベシティのポケモン"
+    "beforeBlackthorn": "フスベジムの前",
+    "blackthornPokemon": "フスベのポケモン",
+  
+    "moonStoneOne": "つきのいし で しんか",
+    "moonStoneTwo": "つきのいし で しんか（2回目）",
+  
+    "leafStone": "リーフのいし の しんか を えらぶ",
+    "fireStone": "ほのおのいし の しんか を えらぶ",
+    "waterStone": "みずのいし の しんか を えらぶ",
+    "thunderStone": "かみなりのいし の しんか を えらぶ",
+  
+    "eeveeEvolutions": "イーブイの しんか を えらぶ",
+    "hitmonPrize": "サワムラー / エビワラーの ごほうびポケモン",
+    "reviveFossil": "かせき から ふっかつ した ポケモン",
+  
+    "articuno": "フリーザー",
+    "moltres": "ファイヤー",
+    "mewtwo": "ミュウツー",
+  
+    "pikachu": "ピカチュウ、きみにきめた！",
+    "squirtlesquad": "ゼニガメだん",
+  
+    "chooseYourStarter": "はじめのポケモンをえらぶ"
   },
 
-
-  "moonStoneOne": "つきのいし進化",
-  "moonStoneTwo": "つきのいし進化（2回目）",
-
-  "leafStone": "リーフのいし進化を選択",
-  "fireStone": "ほのおのいし進化を選択",
-  "waterStone": "みずのいし進化を選択",
-  "thunderStone": "かみなりのいし進化を選択",
-
-  "eeveeEvolutions": "イーブイの進化を選択",
-  "hitmonPrize": "サワムラー／エビワラー報酬",
-
-  "reviveFossil": "化石から復元したポケモン",
-
-  "articuno": "フリーザー",
-  "moltres": "ファイヤー",
-  "mewtwo": "ミュウツー",
-
-  "pikachu": "いけ！ピカチュウ！",
-  "squirtlesquad": "ゼニガメだん",
   "time": {
     "morningRange": "4:00〜9:59",
     "dayRange": "10:00〜17:59",
