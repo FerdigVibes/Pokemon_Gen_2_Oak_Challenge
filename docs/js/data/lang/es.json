@@ -18,14 +18,23 @@
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Hora del juego",
   "days": {
-    "mon": "Lun.",
-    "tue": "Mar.",
-    "wed": "Mié.",
-    "thu": "Jue.",
-    "fri": "Vie.",
-    "sat": "Sáb.",
-    "sun": "Dom."
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mié",
+    "thu": "Jue",
+    "fri": "Vie",
+    "sat": "Sáb",
+    "sun": "Dom",
+  
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
   },
+  
   "gameTime": {
     "title": "Configurar hora del juego",
     "day": "Día",
