@@ -182,6 +182,11 @@ function applyTranslations() {
     titleEl.textContent = t('appTitleNoVersion');
   }
 
+  const obj = document.getElementById('current-objective');
+  if (obj && !window.__CURRENT_GAME__) {
+    obj.textContent = t('pickVersionPrompt');
+  }
+
   const search = document.getElementById('search-input');
   if (search) search.placeholder = t('searchPlaceholder');
 
