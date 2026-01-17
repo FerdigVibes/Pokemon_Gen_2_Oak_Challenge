@@ -131,7 +131,10 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
     </div>
 
     <div class="type-list">
-      ${types.map(type => `<span class="type-badge type-${type}">${type.toUpperCase()}</span>`).join('')}
+      ${types.map(type => {
+        const label = t(`types.${type}`) || type.toUpperCase();
+        return `<span class="type-badge type-${type}">${label}</span>`;
+      }).join('')}
     </div>
 
     <div class="obtain-section">
