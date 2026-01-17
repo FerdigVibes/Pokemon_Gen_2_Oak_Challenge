@@ -29,7 +29,8 @@ function buildObtainHTML(entry, generation) {
     days = [],
     notes = ''
   } = entry;
-
+   
+  const notes = typeof entry.notes === 'string' ? entry.notes : '';
   const hasTime = generation >= 2 && Array.isArray(time) && time.length;
   const hasDays = generation >= 2 && Array.isArray(days) && days.length;
 
