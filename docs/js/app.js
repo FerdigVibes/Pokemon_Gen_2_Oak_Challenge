@@ -15,6 +15,8 @@ import { openGameTimeModal } from './ui/gameTimeModal.js';
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const btn = document.getElementById('game-time-btn');
 
+let __CURRENT_OBJECTIVE_SECTION_ID__ = null;
+
 window.__CURRENT_GAME__ = null;
 window.__POKEMON_CACHE__ = null;
 
@@ -439,14 +441,50 @@ function updateCurrentObjective(game, pokemon) {
   const label = document.getElementById('current-objective');
   if (!label) return;
 
-  // Animate transition
-  label.classList.add('updating');
+  const newObjective = getCurrentObjectiveSectionId(game, pokemon);
 
-  // Wait for CSS to apply, then update text and remove class
-  setTimeout(() => {
-    label.textContent = getCurrentObjective(game, pokemon);
-    label.classList.remove('updating');
-  }, 200); // Halfway through transition for smoother feel
+  // Only update if changed
+  if (newObjective !== __CURRENT_OBJECTIVE_SECTION_ID__) {
+    __CURRENT_OBJECTIVE_SECTION_ID__ = newObjective;
+
+    const section = game.sections.find(s => s.id === newObjective);
+    const text = section ? t(section.titleKey) : t('challengeComplete');
+    label.textContent = text;
+  }
+}
+
+function getCurrentObjectiveSectionId(game, pokemon) {
+  const gameKey = normalizeGameId(game.id);
+
+  const parentSections = game.sections
+    .filter(s => Array.isArray(s.children))
+    .sort((a, b) => a.order - b.order);
+
+  for (const parent of parentSections) {
+    let allComplete = true;
+
+    for (const childId of parent.children) {
+      const child = game.sections.find(s => s.id === childId);
+      if (!child || typeof child.requiredCount !== 'number') continue;
+
+      const matches = pokemon.filter(p =>
+        p.games?.[gameKey]?.some(e => e.sections?.includes(childId))
+      );
+
+      const caughtCount = matches.filter(p =>
+        isCaught(game.id, p.dex)
+      ).length;
+
+      if (caughtCount < child.requiredCount) {
+        allComplete = false;
+        break;
+      }
+    }
+
+    if (!allComplete) return parent.id;
+  }
+
+  return null; // All complete
 }
 
 function applySearchFilter(query) {
