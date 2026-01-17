@@ -8,6 +8,7 @@ export function getLanguage() {
 
 export function setLanguage(lang) {
   currentLang = lang;
+  window.__LANG__ = lang; // ✅ FIX: expose to global scope
   localStorage.setItem(STORAGE_KEY, lang);
 
   window.dispatchEvent(new CustomEvent('language-changed', {
