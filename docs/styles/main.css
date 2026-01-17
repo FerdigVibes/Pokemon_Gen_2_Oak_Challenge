@@ -242,10 +242,6 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.objective strong {
-  margin-right: 6px;
-}
-
 #game-time-modal.hidden {
   display: none;
 }
@@ -289,6 +285,39 @@
 
 #game-time-btn.hidden {
   display: none;
+}
+
+/* Objective Section */
+.objective {
+  background: rgba(0, 0, 0, 0.15); /* Matches other top bar rows */
+  padding: 6px 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Label (e.g., "Current Objective:") */
+.objective strong {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Dynamic objective text (e.g., "Before Violet") */
+#current-objective {
+  color: #ffd966; /* Light gold for contrast */
+  font-weight: bold;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* When updating — apply this class briefly */
+#current-objective.updating {
+  opacity: 0;
+  transform: translateY(4px);
 }
 /* -----------------------------
    AVAILABLE & UNCAUGHT
