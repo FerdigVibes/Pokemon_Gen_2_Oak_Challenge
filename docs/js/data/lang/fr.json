@@ -140,5 +140,13 @@
     "rock": "Roche",
     "steel": "Acier",
     "water": "Eau"
+  },
+  "detail": {
+    "obtainTitle": "Comment l'obtenir",
+    "method": "Méthode",
+    "locations": "Lieux",
+    "time": "Heure",
+    "days": "Jours"
   }
+
 }
