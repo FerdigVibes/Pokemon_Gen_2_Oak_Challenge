@@ -140,6 +140,25 @@
     "rock": "いわ",
     "steel": "はがね",
     "water": "みず"
+  },
+  "methods": {
+    "starter": "はじめにもらう",
+    "wild": "野生で出現",
+    "gift": "もらう",
+    "event": "イベント",
+    "trade": "交換",
+    "evolution": "進化",
+    "fossil": "化石復元",
+    "held_item": "持ち物と一緒",
+    "day_care": "育て屋",
+    "headbutt": "いあいぎり・いわくだきなど",
+    "radio": "ラジオ",
+    "bug_contest": "むしとり大会",
+    "swarm": "大量発生",
+    "rock_smash": "いわくだき",
+    "safari": "サファリゾーン",
+    "special": "特別な方法",
+    "purchase": "購入"
   }
 
 }
