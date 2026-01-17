@@ -155,8 +155,8 @@ function resetAppToBlankState() {
   }
   if (progressFill) progressFill.style.width = '0%';
 
-  const obj = document.getElementById('current-objective').textContent = t(`objective.${section.id}`) || t(section.titleKey);
-  if (obj) obj.textContent = t('pickVersionPrompt');
+  const obj = document.getElementById('current-objective');
+  if (obj) obj.textContent = t('pickVersionPrompt'); // ← fallback message
 }
 
 function applyTranslations() {
