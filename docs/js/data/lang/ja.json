@@ -159,6 +159,13 @@
     "safari": "サファリゾーン",
     "special": "特別な方法",
     "purchase": "購入"
+  },
+  "detail": {
+    "obtainTitle": "入手方法",
+    "method": "入手手段",
+    "locations": "場所",
+    "time": "時間帯",
+    "days": "曜日"
   }
 
 }
