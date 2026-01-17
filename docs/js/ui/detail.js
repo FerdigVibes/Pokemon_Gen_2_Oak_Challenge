@@ -4,6 +4,7 @@ import { playPokemonCry } from './cry.js';
 import { getLanguage } from '../state/language.js';
 import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
+import { getLanguage, t } from '../data/i18n.js';
 
 let currentSelection = null; // { pokemon, game }
 
@@ -53,11 +54,11 @@ function buildObtainHTML(entry, generation) {
 
   return `
     <div class="obtain-method">
-      <strong>Method:</strong> ${method}<br />
-      ${locationStr ? `<strong>${locationStr}</strong><br />` : ''}
-      ${timeStr ? `<span class="time-label">${timeStr}</span><br />` : ''}
-      ${dayStr ? `<span class="day-label">${dayStr}</span><br />` : ''}
-      ${notes ? `<p class="notes">${notes}</p>` : ''}
+       <strong>${t('detail.method')}:</strong> ${method}<br />
+       ${locationStr ? `<strong>${t('detail.locations')}: ${locationStr}</strong><br />` : ''}
+       ${timeStr ? `<span class="time-label">${t('detail.time')}: ${time.join(', ')}</span><br />` : ''}
+       ${dayStr ? `<span class="day-label">${t('detail.days')}: ${days.join(', ')}</span><br />` : ''}
+       ${notes ? `<p class="notes">${notes}</p>` : ''}
     </div>
   `;
 }
@@ -135,7 +136,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
     </div>
 
     <div class="obtain-section">
-      <h3>How to Obtain</h3>
+      <h3>${t('detail.obtainTitle')}</h3>
       ${obtain.length
         ? obtain.map(o => buildObtainHTML(o, gameData.generation)).join('')
         : '<p>—</p>'}
