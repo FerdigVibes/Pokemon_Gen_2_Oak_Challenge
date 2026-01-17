@@ -45,98 +45,101 @@
 
   "chooseYourStarter": "Wähle dein Starter-Pokémon",
 
-"objective": {
-  "BEFORE_PEWTER": "Vor der Arena von Marmoria City",
-  "PEWTER_POKEMON": "Pokémon aus Marmoria City",
-
-  "BEFORE_CERULEAN": "Vor der Arena von Azuria City",
-  "CERULEAN_POKEMON": "Pokémon aus Azuria City",
-
-  "BEFORE_VERMILION": "Vor der Arena von Orania City",
-  "AFTER_VERMILION": "Nach der Arena von Orania City",
-
-  "BEFORE_CELADON": "Vor der Arena von Prismania City",
-  "CELADON_POKEMON": "Pokémon aus Prismania City",
-
-  "BEFORE_FUCHSIA": "Vor der Arena von Fuchsania City",
-  "FUCHSIA_POKEMON": "Pokémon aus Fuchsania City",
-
-  "BEFORE_FIFTH": "Vor dem fünften Orden",
-
-  "BEFORE_ELITE_FOUR": "Vor der Pokémon-Liga",
-  "ELITE_FOUR_POKEMON": "Pokémon der Top Vier",
-
-  "CERULEAN_CAVE": "Azuria-Höhle",
-  "CERULEAN_CAVE_POKEMON": "Pokémon aus der Azuria-Höhle",
-
-  "MT_SILVER": "Silberberg",
-  "MT_SILVER_POKEMON": "Pokémon aus dem Silberberg",
-
-  "BEFORE_KANTO_BADGES": "Vor den Kanto-Orden",
-  "KANTO_POKEMON": "Pokémon aus Kanto",
-
-  "BEFORE_VIOLET": "Vor der Arena von Viola City",
-  "VIOLET_POKEMON": "Pokémon aus Viola City",
-
-  "BEFORE_AZALEA": "Vor der Arena von Azalea City",
-  "AZALEA_POKEMON": "Pokémon aus Azalea City",
-
-  "BEFORE_GOLDENROD": "Vor der Arena von Dukatia City",
-  "GOLDENROD_POKEMON": "Pokémon aus Dukatia City",
-
-  "BEFORE_ECRUTEAK": "Vor der Arena von Teak City",
-  "ECRUTEAK_POKEMON": "Pokémon aus Teak City",
-
-  "BEFORE_MAHOGANY": "Vor der Arena von Mahagonia City",
-  "MAHOGANY_POKEMON": "Pokémon aus Mahagonia City",
-
-  "BEFORE_CIANWOOD_OLIVINE": "Vor den Arenen von Oliviana & Anemonia City",
-  "CIANWOOD_OLIVINE_POKEMON": "Pokémon aus Oliviana & Anemonia City",
-
-  "BEFORE_BLACKTHORN": "Vor der Arena von Ebenholz City",
-  "BLACKTHORN_POKEMON": "Pokémon aus Ebenholz City"
-},
-
-"types": {
-  "bug": "Käfer",
-  "dark": "Unlicht",
-  "dragon": "Drache",
-  "electric": "Elektro",
-  "fairy": "Fee",
-  "fighting": "Kampf",
-  "fire": "Feuer",
-  "flying": "Flug",
-  "ghost": "Geist",
-  "grass": "Pflanze",
-  "ground": "Boden",
-  "ice": "Eis",
-  "normal": "Normal",
-  "poison": "Gift",
-  "psychic": "Psycho",
-  "rock": "Gestein",
-  "steel": "Stahl",
-  "water": "Wasser"
-},
+  "objective": {
+    "beforePewter": "Vor dem Vertania-Arenaleiter",
+    "pewterPokemon": "Vertania-Pokémon",
   
-  "moonStoneOne": "Entwicklung mit Mondstein",
-  "moonStoneTwo": "Entwicklung mit Mondstein (zweites Mal)",
+    "beforeCerulean": "Vor dem Azuria-Arenaleiter",
+    "ceruleanPokemon": "Azuria-Pokémon",
+  
+    "beforeVermilion": "Vor dem Orania-Arenaleiter",
+    "afterVermilion": "Nach dem Orania-Arenaleiter",
+  
+    "beforeCeladon": "Vor dem Prismania-Arenaleiter",
+    "celadonPokemon": "Prismania-Pokémon",
+  
+    "beforeFuchsia": "Vor dem Fuchsania-Arenaleiter",
+    "fuchsiaPokemon": "Fuchsania-Pokémon",
+  
+    "beforeFifth": "Vor dem fünften Orden",
+  
+    "beforeEliteFour": "Vor der Pokémon-Liga",
+    "eliteFourPokemon": "Pokémon der Liga",
+  
+    "ceruleanCave": "Azuria-Höhle",
+    "ceruleanCavePokemon": "Azuria-Höhlen-Pokémon",
+  
+    "mtSilver": "Silberberg",
+    "mtSilverPokemon": "Silberberg-Pokémon",
+  
+    "beforeKantoBadges": "Vor den Kanto-Orden",
+    "kantoPokemon": "Kanto-Pokémon",
+  
+    "beforeViolet": "Vor dem Viola-Arenaleiter",
+    "violetPokemon": "Viola City Pokémon",
+  
+    "beforeAzalea": "Vor dem Azalea-Arenaleiter",
+    "azaleaPokemon": "Azalea-Pokémon",
+  
+    "beforeGoldenrod": "Vor dem Dukatia-Arenaleiter",
+    "goldenrodPokemon": "Dukatia-Pokémon",
+  
+    "beforeEcruteak": "Vor dem Teak-Arenaleiter",
+    "ecruteakPokemon": "Teak City Pokémon",
+  
+    "beforeMahogany": "Vor dem Mahagonia-Arenaleiter",
+    "mahoganyPokemon": "Mahagonia-Pokémon",
+  
+    "beforeCianwoodOlivine": "Vor dem Anemonia- & Oliviana-Arenaleiter",
+    "cianwoodOlivinePokemon": "Anemonia- & Oliviana-Pokémon",
+  
+    "beforeBlackthorn": "Vor dem Ebenholz-Arenaleiter",
+    "blackthornPokemon": "Ebenholz-Pokémon",
+  
+    "moonStoneOne": "Mondstein-Entwicklung",
+    "moonStoneTwo": "Mondstein-Entwicklung (Zweite)",
+  
+    "leafStone": "Wähle eine Blattstein-Entwicklung",
+    "fireStone": "Wähle eine Feuerstein-Entwicklung",
+    "waterStone": "Wähle eine Wasserstein-Entwicklung",
+    "thunderStone": "Wähle eine Donnerstein-Entwicklung",
+  
+    "eeveeEvolutions": "Wähle deine Evoli-Entwicklung",
+    "hitmonPrize": "Karate-Prämien-Pokémon",
+    "reviveFossil": "Wiederbelebtes Fossil-Pokémon",
+  
+    "articuno": "Arktos",
+    "moltres": "Lavados",
+    "mewtwo": "Mewtu",
+  
+    "pikachu": "Ich wähle dich, Pikachu!",
+    "squirtlesquad": "Schiggy-Squad",
+  
+    "chooseYourStarter": "Wähle dein Starter-Pokémon"
+  },
 
-  "leafStone": "Blattstein-Entwicklung auswählen",
-  "fireStone": "Feuerstein-Entwicklung auswählen",
-  "waterStone": "Wasserstein-Entwicklung auswählen",
-  "thunderStone": "Donnerstein-Entwicklung auswählen",
 
-  "eeveeEvolutions": "Evolis Entwicklung auswählen",
-  "hitmonPrize": "Kicklee / Nockchan-Belohnung",
-
-  "reviveFossil": "Aus Fossilien wiederbelebte Pokémon",
-
-  "articuno": "Arktos",
-  "moltres": "Lavados",
-  "mewtwo": "Mewtu",
-
-  "pikachu": "Los, Pikachu!",
-  "squirtlesquad": "Schiggy-Trupp",
+  "types": {
+    "bug": "Käfer",
+    "dark": "Unlicht",
+    "dragon": "Drache",
+    "electric": "Elektro",
+    "fairy": "Fee",
+    "fighting": "Kampf",
+    "fire": "Feuer",
+    "flying": "Flug",
+    "ghost": "Geist",
+    "grass": "Pflanze",
+    "ground": "Boden",
+    "ice": "Eis",
+    "normal": "Normal",
+    "poison": "Gift",
+    "psychic": "Psycho",
+    "rock": "Gestein",
+    "steel": "Stahl",
+    "water": "Wasser"
+  },
+  
   "time": {
     "morningRange": "04:00 – 09:59",
     "dayRange": "10:00 – 17:59",
