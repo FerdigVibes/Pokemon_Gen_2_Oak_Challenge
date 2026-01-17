@@ -36,15 +36,15 @@
     "day": "Day",
     "time": "Time",
     "dst": "Daylight Saving Time",
-    "morning": "Morning",
-    "daytime": "Day",
-    "night": "Night"
   },
 
   "time": {
     "morningRange": "4:00 a.m. – 9:59 a.m.",
     "dayRange": "10:00 a.m. – 5:59 p.m.",
-    "nightRange": "6:00 p.m. – 3:59 a.m."
+    "nightRange": "6:00 p.m. – 3:59 a.m.",
+    "morning": "Morning",
+    "daytime": "Day",
+    "night": "Night"
   },
 
   "gold": "Gold",
