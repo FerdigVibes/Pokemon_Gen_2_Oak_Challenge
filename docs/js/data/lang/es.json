@@ -52,12 +52,6 @@
   "crystal_gbc": "Pokémon Cristal (Game Boy Color)",
   "crystal_vc": "Pokémon Cristal (Consola Virtual de 3DS)",
 
-  "time": {
-   "morning": "Morning",
-   "day": "Day",
-   "night": "Night"
-  },
-
   "objective": {
     "beforePewter": "Antes del Gimnasio de Plateada",
     "pewterPokemon": "Pokémon de Plateada",
