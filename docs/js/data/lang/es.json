@@ -167,5 +167,12 @@
     "safari": "Zona Safari",
     "special": "Especial",
     "purchase": "Compra"
+  },
+  "detail": {
+    "obtainTitle": "Cómo obtenerlo",
+    "method": "Método",
+    "locations": "Ubicaciones",
+    "time": "Hora",
+    "days": "Días"
   }
 }
