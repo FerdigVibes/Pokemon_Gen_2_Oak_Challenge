@@ -45,55 +45,55 @@
 
   "chooseYourStarter": "Wähle dein Starter-Pokémon",
 
-  "beforePewter": "Vor der Arena von Marmoria",
-  "pewterPokemon": "Pokémon aus Marmoria City",
+  "BEFORE_PEWTER": "Vor der Arena von Marmoria City",
+  "PEWTER_POKEMON": "Pokémon aus Marmoria City",
 
-  "beforeCerulean": "Vor der Arena von Azuria",
-  "ceruleanPokemon": "Pokémon aus Azuria City",
+  "BEFORE_CERULEAN": "Vor der Arena von Azuria City",
+  "CERULEAN_POKEMON": "Pokémon aus Azuria City",
 
-  "beforeVermilion": "Vor der Arena von Orania City",
-  "afterVermilion": "Nach der Arena von Orania City",
+  "BEFORE_VERMILION": "Vor der Arena von Orania City",
+  "AFTER_VERMILION": "Nach der Arena von Orania City",
 
-  "beforeCeladon": "Vor der Arena von Prismania City",
-  "celadonPokemon": "Pokémon aus Prismania City",
+  "BEFORE_CELADON": "Vor der Arena von Prismania City",
+  "CELADON_POKEMON": "Pokémon aus Prismania City",
 
-  "beforeFuchsia": "Vor der Arena von Fuchsania City",
-  "fuchsiaPokemon": "Pokémon aus Fuchsania City",
+  "BEFORE_FUCHSIA": "Vor der Arena von Fuchsania City",
+  "FUCHSIA_POKEMON": "Pokémon aus Fuchsania City",
 
-  "beforeFifth": "Vor der fünften Arena",
+  "BEFORE_FIFTH": "Vor dem fünften Orden",
 
-  "beforeEliteFour": "Vor der Top Vier",
-  "eliteFourPokemon": "Pokémon der Top Vier",
+  "BEFORE_ELITE_FOUR": "Vor der Pokémon-Liga",
+  "ELITE_FOUR_POKEMON": "Pokémon der Top Vier",
 
-  "ceruleanCave": "Azuria-Höhle",
-  "ceruleanCavePokemon": "Pokémon aus der Azuria-Höhle",
+  "CERULEAN_CAVE": "Azuria-Höhle",
+  "CERULEAN_CAVE_POKEMON": "Pokémon aus der Azuria-Höhle",
 
-  "mtSilver": "Silberberg",
-  "mtSilverPokemon": "Pokémon vom Silberberg",
+  "MT_SILVER": "Silberberg",
+  "MT_SILVER_POKEMON": "Pokémon aus dem Silberberg",
 
-  "beforeKanto": "Vor der Kanto-Herausforderung",
-  "kantoPokemon": "Pokémon aus Kanto",
+  "BEFORE_KANTO_BADGES": "Vor den Kanto-Orden",
+  "KANTO_POKEMON": "Pokémon aus Kanto",
 
-  "beforeViolet": "Vor der Arena von Viola City",
-  "violetPokemon": "Pokémon aus Viola City",
+  "BEFORE_VIOLET": "Vor der Arena von Viola City",
+  "VIOLET_POKEMON": "Pokémon aus Viola City",
 
-  "beforeAzalea": "Vor der Arena von Azalea City",
-  "azaleaPokemon": "Pokémon aus Azalea City",
+  "BEFORE_AZALEA": "Vor der Arena von Azalea City",
+  "AZALEA_POKEMON": "Pokémon aus Azalea City",
 
-  "beforeGoldenrod": "Vor der Arena von Dukatia City",
-  "goldenrodPokemon": "Pokémon aus Dukatia City",
+  "BEFORE_GOLDENROD": "Vor der Arena von Dukatia City",
+  "GOLDENROD_POKEMON": "Pokémon aus Dukatia City",
 
-  "beforeEcruteak": "Vor der Arena von Teak City",
-  "ecruteakPokemon": "Pokémon aus Teak City",
+  "BEFORE_ECRUTEAK": "Vor der Arena von Teak City",
+  "ECRUTEAK_POKEMON": "Pokémon aus Teak City",
 
-  "beforeMahogany": "Vor der Arena von Mahagonia City",
-  "mahoganyPokemon": "Pokémon aus Mahagonia City",
+  "BEFORE_MAHOGANY": "Vor der Arena von Mahagonia City",
+  "MAHOGANY_POKEMON": "Pokémon aus Mahagonia City",
 
-  "beforeCianwoodOlivine": "Vor den Arenen von Anemonia und Oliviana",
-  "cianwoodOlivinePokemon": "Pokémon aus Anemonia und Oliviana",
+  "BEFORE_CIANWOOD_OLIVINE": "Vor den Arenen von Oliviana & Anemonia City",
+  "CIANWOOD_OLIVINE_POKEMON": "Pokémon aus Oliviana & Anemonia City",
 
-  "beforeBlackthorn": "Vor der Arena von Ebenholz City",
-  "blackthornPokemon": "Pokémon aus Ebenholz City",
+  "BEFORE_BLACKTHORN": "Vor der Arena von Ebenholz City",
+  "BLACKTHORN_POKEMON": "Pokémon aus Ebenholz City"
 
   "moonStoneOne": "Entwicklung mit Mondstein",
   "moonStoneTwo": "Entwicklung mit Mondstein (zweites Mal)",
