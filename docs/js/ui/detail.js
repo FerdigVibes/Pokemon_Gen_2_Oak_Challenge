@@ -27,28 +27,37 @@ function buildObtainHTML(entry, generation) {
     locations = [],
     time = [],
     days = [],
-    notes = ''
   } = entry;
-   
-  const notes = typeof entry.notes === 'string' ? entry.notes : '';
-  const hasTime = generation >= 2 && Array.isArray(time) && time.length;
-  const hasDays = generation >= 2 && Array.isArray(days) && days.length;
 
-  const timeStr = hasTime ? `Time: ${time.join(', ')}` : '';
-  const dayStr = hasDays ? `Days: ${days.join(', ')}` : '';
-  const locationStr = locations.length ? `Locations: ${locations.join(', ')}` : '';
+  const lang = getLanguage();
+
+  // 🧠 If notes is an object with translations, grab the right one
+  let notes = '';
+  if (typeof entry.notes === 'string') {
+    notes = entry.notes;
+  } else if (typeof entry.notes === 'object' && entry.notes !== null) {
+    notes = entry.notes[lang] || entry.notes.en || '';
+  }
+
+  const timeStr = generation === 2 && time.length
+    ? `Time: ${time.join(', ')}`
+    : '';
+
+  const dayStr = generation === 2 && days.length
+    ? `Days: ${days.join(', ')}`
+    : '';
+
+  const locationStr = locations.length
+    ? `Locations: ${locations.join(', ')}`
+    : '';
 
   return `
     <div class="obtain-method">
-      <strong>Method:</strong> ${method}<br/>
-      ${locationStr ? `<div class="obtain-locations">${locationStr}</div>` : ''}
-      ${hasDays || hasTime ? `
-        <div class="obtain-availability">
-          ${dayStr ? `<div class="obtain-days">${dayStr}</div>` : ''}
-          ${timeStr ? `<div class="obtain-time">${timeStr}</div>` : ''}
-        </div>
-      ` : ''}
-      ${notes ? `<div class="obtain-notes">${notes}</div>` : ''}
+      <strong>Method:</strong> ${method}<br />
+      ${locationStr ? `<strong>${locationStr}</strong><br />` : ''}
+      ${timeStr ? `<span class="time-label">${timeStr}</span><br />` : ''}
+      ${dayStr ? `<span class="day-label">${dayStr}</span><br />` : ''}
+      ${notes ? `<p class="notes">${notes}</p>` : ''}
     </div>
   `;
 }
