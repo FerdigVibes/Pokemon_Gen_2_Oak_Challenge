@@ -425,11 +425,16 @@ function rebuildGameSelector() {
 
 function updateCurrentObjective(game, pokemon) {
   const label = document.getElementById('current-objective');
-  if (!label) {
-    console.warn('Missing .game-time-label');
-  }
+  if (!label) return;
 
-  label.textContent = getCurrentObjective(game, pokemon);
+  // Animate transition
+  label.classList.add('updating');
+
+  // Wait for CSS to apply, then update text and remove class
+  setTimeout(() => {
+    label.textContent = getCurrentObjective(game, pokemon);
+    label.classList.remove('updating');
+  }, 200); // Halfway through transition for smoother feel
 }
 
 function applySearchFilter(query) {
