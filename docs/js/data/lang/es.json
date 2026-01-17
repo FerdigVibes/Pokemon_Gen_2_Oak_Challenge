@@ -123,9 +123,12 @@
   },
 
   "time": {
-    "morningRange": "4:00 – 9:59",
-    "dayRange": "10:00 – 17:59",
-    "nightRange": "18:00 – 3:59"
+    "morningRange": "4:00 – 9:59 a. m.",
+    "dayRange": "10:00 a. m. – 5:59 p. m.",
+    "nightRange": "6:00 p. m. – 3:59 a. m.",
+    "morning": "Mañana",
+    "day": "Día",
+    "night": "Noche"
   },
 
   "types": {
