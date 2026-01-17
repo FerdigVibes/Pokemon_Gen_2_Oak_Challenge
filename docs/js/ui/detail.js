@@ -208,7 +208,7 @@ function renderObtainEntry(o, lang) {
 
   return `
     <li style="margin-bottom:8px;">
-      ${method ? `<strong>${method}</strong><br/>` : ''}
+      ${method ? `<strong>${t('method')}:</strong><br/>` : ''}
       ${locations ? `<strong>${t('locations')}:</strong> ${locations}<br/>` : ''}
       ${time ? `<strong>${t('time')}:</strong> ${time}<br/>` : ''}
       ${notes ? `<em>${notes}</em>` : ''}
