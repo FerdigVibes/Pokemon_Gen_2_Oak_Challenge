@@ -142,6 +142,25 @@
     "rock": "Rock",
     "steel": "Steel",
     "water": "Water"
+  },
+  "methods": {
+    "starter": "Starter",
+    "wild": "Wild",
+    "gift": "Gift",
+    "event": "Event",
+    "trade": "Trade",
+    "evolution": "Evolution",
+    "fossil": "Fossil",
+    "held_item": "Held Item",
+    "day_care": "Day-Care",
+    "headbutt": "Headbutt",
+    "radio": "Radio",
+    "bug_contest": "Bug-Catching Contest",
+    "swarm": "Swarm",
+    "rock_smash": "Rock Smash",
+    "safari": "Safari Zone",
+    "special": "Special",
+    "purchase": "Purchase"
   }
 }
 
