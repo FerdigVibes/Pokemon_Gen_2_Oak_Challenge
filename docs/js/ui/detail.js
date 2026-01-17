@@ -23,32 +23,31 @@ window.addEventListener('language-changed', () => {
 
 function buildObtainHTML(entry, generation) {
   const {
-    method,
+    method = '—',
     locations = [],
     time = [],
     days = [],
-    notes
+    notes = ''
   } = entry;
 
-  const timeStr = generation === 2 && time.length
-    ? `Time: ${time.join(', ')}`
-    : '';
+  const hasTime = generation >= 2 && Array.isArray(time) && time.length;
+  const hasDays = generation >= 2 && Array.isArray(days) && days.length;
 
-  const dayStr = generation === 2 && days.length
-    ? `Days: ${days.join(', ')}`
-    : '';
-
-  const locationStr = locations.length
-    ? `Locations: ${locations.join(', ')}`
-    : '';
+  const timeStr = hasTime ? `Time: ${time.join(', ')}` : '';
+  const dayStr = hasDays ? `Days: ${days.join(', ')}` : '';
+  const locationStr = locations.length ? `Locations: ${locations.join(', ')}` : '';
 
   return `
     <div class="obtain-method">
-      <strong>Method:</strong> ${method}<br />
-      ${locationStr ? `<strong>${locationStr}</strong><br />` : ''}
-      ${timeStr ? `<span class="time-label">${timeStr}</span><br />` : ''}
-      ${dayStr ? `<span class="day-label">${dayStr}</span><br />` : ''}
-      ${notes ? `<p class="notes">${notes}</p>` : ''}
+      <strong>Method:</strong> ${method}<br/>
+      ${locationStr ? `<div class="obtain-locations">${locationStr}</div>` : ''}
+      ${hasDays || hasTime ? `
+        <div class="obtain-availability">
+          ${dayStr ? `<div class="obtain-days">${dayStr}</div>` : ''}
+          ${timeStr ? `<div class="obtain-time">${timeStr}</div>` : ''}
+        </div>
+      ` : ''}
+      ${notes ? `<div class="obtain-notes">${notes}</div>` : ''}
     </div>
   `;
 }
