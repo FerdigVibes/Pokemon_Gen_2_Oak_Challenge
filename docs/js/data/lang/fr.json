@@ -42,85 +42,85 @@
   "crystal_gbc": "Pokémon Cristal (Game Boy Color)",
   "crystal_vc": "Pokémon Cristal (Console Virtuelle 3DS)",
 
-  "chooseYourStarter": "Choisissez votre Pokémon de départ",
-
   "objective": {
-    "BEFORE_PEWTER": "Avant l'Arène d'Argenta",
-    "PEWTER_POKEMON": "Pokémon d'Argenta",
+    "beforePewter": "Avant l'Arène d'Argenta",
+    "pewterPokemon": "Pokémon d'Argenta",
   
-    "BEFORE_CERULEAN": "Avant l'Arène d'Azuria",
-    "CERULEAN_POKEMON": "Pokémon d'Azuria",
+    "beforeCerulean": "Avant l'Arène d'Azuria",
+    "ceruleanPokemon": "Pokémon d'Azuria",
   
-    "BEFORE_VERMILION": "Avant l'Arène de Carmin-sur-Mer",
-    "AFTER_VERMILION": "Après l'Arène de Carmin-sur-Mer",
+    "beforeVermilion": "Avant l'Arène de Carmin-sur-Mer",
+    "afterVermilion": "Après l'Arène de Carmin-sur-Mer",
   
-    "BEFORE_CELADON": "Avant l'Arène de Céladopole",
-    "CELADON_POKEMON": "Pokémon de Céladopole",
+    "beforeCeladon": "Avant l'Arène de Céladopole",
+    "celadonPokemon": "Pokémon de Céladopole",
   
-    "BEFORE_FUCHSIA": "Avant l'Arène de Parmanie",
-    "FUCHSIA_POKEMON": "Pokémon de Parmanie",
+    "beforeFuchsia": "Avant l'Arène de Parmanie",
+    "fuchsiaPokemon": "Pokémon de Parmanie",
   
-    "BEFORE_FIFTH": "Avant la cinquième arène",
+    "beforeFifth": "Avant la Cinquième Arène",
   
-    "BEFORE_ELITE_FOUR": "Avant le Conseil 4",
-    "ELITE_FOUR_POKEMON": "Pokémon du Conseil 4",
+    "beforeEliteFour": "Avant la Ligue Pokémon",
+    "eliteFourPokemon": "Pokémon de la Ligue",
   
-    "CERULEAN_CAVE": "Grotte Inconnue",
-    "CERULEAN_CAVE_POKEMON": "Pokémon de la Grotte Inconnue",
+    "ceruleanCave": "Caverne Azurée",
+    "ceruleanCavePokemon": "Pokémon de la Caverne Azurée",
   
-    "MT_SILVER": "Mont Argenté",
-    "MT_SILVER_POKEMON": "Pokémon du Mont Argenté",
+    "mtSilver": "Mont Argenté",
+    "mtSilverPokemon": "Pokémon du Mont Argenté",
   
-    "BEFORE_KANTO_BADGES": "Avant les badges de Kanto",
-    "KANTO_POKEMON": "Pokémon de Kanto",
+    "beforeKantoBadges": "Avant les Badges de Kanto",
+    "kantoPokemon": "Pokémon de Kanto",
   
-    "BEFORE_VIOLET": "Avant l'Arène de Mauville",
-    "VIOLET_POKEMON": "Pokémon de Mauville",
+    "beforeViolet": "Avant l'Arène de Mauville",
+    "violetPokemon": "Pokémon de Mauville",
   
-    "BEFORE_AZALEA": "Avant l'Arène d'Écorcia",
-    "AZALEA_POKEMON": "Pokémon d'Écorcia",
+    "beforeAzalea": "Avant l'Arène d'Écorcia",
+    "azaleaPokemon": "Pokémon d'Écorcia",
   
-    "BEFORE_GOLDENROD": "Avant l'Arène de Doublonville",
-    "GOLDENROD_POKEMON": "Pokémon de Doublonville",
+    "beforeGoldenrod": "Avant l'Arène de Doublonville",
+    "goldenrodPokemon": "Pokémon de Doublonville",
   
-    "BEFORE_ECRUTEAK": "Avant l'Arène de Rosalia",
-    "ECRUTEAK_POKEMON": "Pokémon de Rosalia",
+    "beforeEcruteak": "Avant l'Arène de Rosalia",
+    "ecruteakPokemon": "Pokémon de Rosalia",
   
-    "BEFORE_MAHOGANY": "Avant l'Arène de Mogane",
-    "MAHOGANY_POKEMON": "Pokémon de Mogane",
+    "beforeMahogany": "Avant l'Arène de Mogoria",
+    "mahoganyPokemon": "Pokémon de Mogoria",
   
-    "BEFORE_CIANWOOD_OLIVINE": "Avant les Arènes d'Irisia et Oliville",
-    "CIANWOOD_OLIVINE_POKEMON": "Pokémon d'Irisia et Oliville",
+    "beforeCianwoodOlivine": "Avant les Arènes d'Oliville et Irisia",
+    "cianwoodOlivinePokemon": "Pokémon d'Oliville et Irisia",
   
-    "BEFORE_BLACKTHORN": "Avant l'Arène d'Ébènelle",
-    "BLACKTHORN_POKEMON": "Pokémon d'Ébènelle"
+    "beforeBlackthorn": "Avant l'Arène d'Ébènelle",
+    "blackthornPokemon": "Pokémon d'Ébènelle",
+  
+    "moonStoneOne": "Évolution avec Pierre Lune",
+    "moonStoneTwo": "Évolution avec Pierre Lune (Deuxième)",
+  
+    "leafStone": "Choisissez une Évolution avec Pierre Plante",
+    "fireStone": "Choisissez une Évolution avec Pierre Feu",
+    "waterStone": "Choisissez une Évolution avec Pierre Eau",
+    "thunderStone": "Choisissez une Évolution avec Pierre Foudre",
+  
+    "eeveeEvolutions": "Choisissez l'évolution d'Évoli",
+    "hitmonPrize": "Pokémon Prix Hitmon",
+    "reviveFossil": "Pokémon Ramené à la vie par Fossile",
+  
+    "articuno": "Artikodin",
+    "moltres": "Sulfura",
+    "mewtwo": "Mewtwo",
+  
+    "pikachu": "Je te choisis, Pikachu !",
+    "squirtlesquad": "Escouade Carapuce",
+  
+    "chooseYourStarter": "Choisissez votre Pokémon de départ"
   },
 
-
-  "moonStoneOne": "Évolution par Pierre Lune",
-  "moonStoneTwo": "Évolution par Pierre Lune (2e fois)",
-
-  "leafStone": "Choisir une évolution avec Pierre Plante",
-  "fireStone": "Choisir une évolution avec Pierre Feu",
-  "waterStone": "Choisir une évolution avec Pierre Eau",
-  "thunderStone": "Choisir une évolution avec Pierre Foudre",
-
-  "eeveeEvolutions": "Choisir l’évolution d’Évoli",
-  "hitmonPrize": "Récompense Kicklee / Tygnon",
-
-  "reviveFossil": "Pokémon ressuscités depuis un fossile",
-
-  "articuno": "Artikodin",
-  "moltres": "Sulfura",
-  "mewtwo": "Mewtwo",
-
-  "pikachu": "À toi, Pikachu !",
-  "squirtlesquad": "La bande des Carapuce",
   "time": {
     "morningRange": "4 h 00 – 9 h 59",
     "dayRange": "10 h 00 – 17 h 59",
     "nightRange": "18 h 00 – 3 h 59"
   },
+  
   "types": {
     "bug": "Insecte",
     "dark": "Ténèbres",
@@ -141,6 +141,7 @@
     "steel": "Acier",
     "water": "Eau"
   },
+  
   "detail": {
     "obtainTitle": "Comment l'obtenir",
     "method": "Méthode",
@@ -148,6 +149,7 @@
     "time": "Heure",
     "days": "Jours"
   },
+  
   "methods": {
     "starter": "Starter",
     "wild": "Sauvage",
@@ -167,5 +169,4 @@
     "special": "Spécial",
     "purchase": "Achat"
   }
-
 }
