@@ -211,6 +211,8 @@ export function getCurrentDetailSelection() {
   return currentSelection;
 }
 
+window.getCurrentDetailSelection = getCurrentDetailSelection
+
 
 
 
