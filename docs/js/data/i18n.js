@@ -9,12 +9,26 @@ let translations = {};
    ========================================================= */
 
 export async function loadLanguage(lang) {
-  const res = await fetch(`./js/data/lang/${lang}.json`);
-  if (!res.ok) {
-    console.warn(`Language file not found: ${lang}, falling back to en`);
-    return;
+  const tryLoad = async (code) => {
+    const res = await fetch(`./js/data/lang/${code}.json`);
+    if (!res.ok) return null;
+    return await res.json();
+  };
+
+  translations = await tryLoad(lang);
+
+  if (!translations && lang !== 'en') {
+    console.warn(`Falling back to English`);
+    translations = await tryLoad('en');
   }
-  translations = await res.json();
+
+  if (!translations) {
+    console.error('Failed to load any language data.');
+    translations = {};
+  }
+
+  // Expose for debugging
+  window.__I18N__ = translations;
 }
 
 /* =========================================================
