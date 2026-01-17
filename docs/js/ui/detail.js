@@ -53,7 +53,7 @@ function buildObtainHTML(entry, generation) {
    
   return `
    <div class="obtain-method">
-    <strong>${t('detail.method')}:</strong> ${method}<br />
+    <strong>${t('detail.method')}:</strong> ${t(`methods.${method}`) || method}<br />
     ${locationStr ? `<strong>${locationStr}</strong><br />` : ''}
     ${timeStr ? `<span class="time-label">${timeStr}</span><br />` : ''}
     ${dayStr ? `<span class="day-label">${dayStr}</span><br />` : ''}
