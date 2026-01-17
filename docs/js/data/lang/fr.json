@@ -45,56 +45,56 @@
   "chooseYourStarter": "Choisissez votre Pokémon de départ",
 
   "objective": {
-  "BEFORE_PEWTER": "Avant l'Arène d'Argenta",
-  "PEWTER_POKEMON": "Pokémon d'Argenta",
-
-  "BEFORE_CERULEAN": "Avant l'Arène d'Azuria",
-  "CERULEAN_POKEMON": "Pokémon d'Azuria",
-
-  "BEFORE_VERMILION": "Avant l'Arène de Carmin-sur-Mer",
-  "AFTER_VERMILION": "Après l'Arène de Carmin-sur-Mer",
-
-  "BEFORE_CELADON": "Avant l'Arène de Céladopole",
-  "CELADON_POKEMON": "Pokémon de Céladopole",
-
-  "BEFORE_FUCHSIA": "Avant l'Arène de Parmanie",
-  "FUCHSIA_POKEMON": "Pokémon de Parmanie",
-
-  "BEFORE_FIFTH": "Avant la cinquième arène",
-
-  "BEFORE_ELITE_FOUR": "Avant le Conseil 4",
-  "ELITE_FOUR_POKEMON": "Pokémon du Conseil 4",
-
-  "CERULEAN_CAVE": "Grotte Inconnue",
-  "CERULEAN_CAVE_POKEMON": "Pokémon de la Grotte Inconnue",
-
-  "MT_SILVER": "Mont Argenté",
-  "MT_SILVER_POKEMON": "Pokémon du Mont Argenté",
-
-  "BEFORE_KANTO_BADGES": "Avant les badges de Kanto",
-  "KANTO_POKEMON": "Pokémon de Kanto",
-
-  "BEFORE_VIOLET": "Avant l'Arène de Mauville",
-  "VIOLET_POKEMON": "Pokémon de Mauville",
-
-  "BEFORE_AZALEA": "Avant l'Arène d'Écorcia",
-  "AZALEA_POKEMON": "Pokémon d'Écorcia",
-
-  "BEFORE_GOLDENROD": "Avant l'Arène de Doublonville",
-  "GOLDENROD_POKEMON": "Pokémon de Doublonville",
-
-  "BEFORE_ECRUTEAK": "Avant l'Arène de Rosalia",
-  "ECRUTEAK_POKEMON": "Pokémon de Rosalia",
-
-  "BEFORE_MAHOGANY": "Avant l'Arène de Mogane",
-  "MAHOGANY_POKEMON": "Pokémon de Mogane",
-
-  "BEFORE_CIANWOOD_OLIVINE": "Avant les Arènes d'Irisia et Oliville",
-  "CIANWOOD_OLIVINE_POKEMON": "Pokémon d'Irisia et Oliville",
-
-  "BEFORE_BLACKTHORN": "Avant l'Arène d'Ébènelle",
-  "BLACKTHORN_POKEMON": "Pokémon d'Ébènelle"
-},
+    "BEFORE_PEWTER": "Avant l'Arène d'Argenta",
+    "PEWTER_POKEMON": "Pokémon d'Argenta",
+  
+    "BEFORE_CERULEAN": "Avant l'Arène d'Azuria",
+    "CERULEAN_POKEMON": "Pokémon d'Azuria",
+  
+    "BEFORE_VERMILION": "Avant l'Arène de Carmin-sur-Mer",
+    "AFTER_VERMILION": "Après l'Arène de Carmin-sur-Mer",
+  
+    "BEFORE_CELADON": "Avant l'Arène de Céladopole",
+    "CELADON_POKEMON": "Pokémon de Céladopole",
+  
+    "BEFORE_FUCHSIA": "Avant l'Arène de Parmanie",
+    "FUCHSIA_POKEMON": "Pokémon de Parmanie",
+  
+    "BEFORE_FIFTH": "Avant la cinquième arène",
+  
+    "BEFORE_ELITE_FOUR": "Avant le Conseil 4",
+    "ELITE_FOUR_POKEMON": "Pokémon du Conseil 4",
+  
+    "CERULEAN_CAVE": "Grotte Inconnue",
+    "CERULEAN_CAVE_POKEMON": "Pokémon de la Grotte Inconnue",
+  
+    "MT_SILVER": "Mont Argenté",
+    "MT_SILVER_POKEMON": "Pokémon du Mont Argenté",
+  
+    "BEFORE_KANTO_BADGES": "Avant les badges de Kanto",
+    "KANTO_POKEMON": "Pokémon de Kanto",
+  
+    "BEFORE_VIOLET": "Avant l'Arène de Mauville",
+    "VIOLET_POKEMON": "Pokémon de Mauville",
+  
+    "BEFORE_AZALEA": "Avant l'Arène d'Écorcia",
+    "AZALEA_POKEMON": "Pokémon d'Écorcia",
+  
+    "BEFORE_GOLDENROD": "Avant l'Arène de Doublonville",
+    "GOLDENROD_POKEMON": "Pokémon de Doublonville",
+  
+    "BEFORE_ECRUTEAK": "Avant l'Arène de Rosalia",
+    "ECRUTEAK_POKEMON": "Pokémon de Rosalia",
+  
+    "BEFORE_MAHOGANY": "Avant l'Arène de Mogane",
+    "MAHOGANY_POKEMON": "Pokémon de Mogane",
+  
+    "BEFORE_CIANWOOD_OLIVINE": "Avant les Arènes d'Irisia et Oliville",
+    "CIANWOOD_OLIVINE_POKEMON": "Pokémon d'Irisia et Oliville",
+  
+    "BEFORE_BLACKTHORN": "Avant l'Arène d'Ébènelle",
+    "BLACKTHORN_POKEMON": "Pokémon d'Ébènelle"
+  },
 
 
   "moonStoneOne": "Évolution par Pierre Lune",
