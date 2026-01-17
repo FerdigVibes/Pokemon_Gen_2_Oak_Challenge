@@ -452,7 +452,11 @@ function updateCurrentObjective(game, pokemon) {
     __CURRENT_OBJECTIVE_SECTION_ID__ = newObjective;
 
     const section = game.sections.find(s => s.id === newObjective);
-    const text = section ? t(`objective.${section.id}`) : t('challengeComplete');
+    const rawKey = section?.titleKey || '';
+    const translated = rawKey.startsWith('objective.')
+      ? t(rawKey.slice('objective.'.length)) // slice off the prefix
+      : t(rawKey);
+    const text = translated || t('challengeComplete');
     label.textContent = text;
   }
 }
