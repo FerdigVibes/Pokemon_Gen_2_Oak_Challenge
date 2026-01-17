@@ -467,9 +467,11 @@ function getCurrentObjectiveSectionId(game, pokemon) {
       const child = game.sections.find(s => s.id === childId);
       if (!child || typeof child.requiredCount !== 'number') continue;
 
-      const matches = pokemon.filter(p =>
-        p.games?.[gameKey]?.some(e => e.sections?.includes(childId))
-      );
+      const matches = pokemon.filter(p => {
+        const entries = p.games?.[gameKey];
+        const entryArray = Array.isArray(entries) ? entries : entries ? [entries] : [];
+        return entryArray.some(e => e.sections?.includes(childId));
+      });
 
       const caughtCount = matches.filter(p =>
         isCaught(game.id, p.dex)
