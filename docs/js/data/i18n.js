@@ -48,3 +48,8 @@ export function resolveLangField(field, lang = getLanguage()) {
   // Language object → resolve safely
   return field[lang] ?? field.en ?? null;
 }
+
+// Expose for debugging in dev tools
+window.t = t;
+window.resolveLangField = resolveLangField;
+window.__I18N__ = translations;
