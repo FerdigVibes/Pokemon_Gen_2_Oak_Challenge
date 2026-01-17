@@ -155,7 +155,7 @@ function resetAppToBlankState() {
   }
   if (progressFill) progressFill.style.width = '0%';
 
-  const obj = document.getElementById('current-objective');
+  const obj = document.getElementById('current-objective').textContent = t(`objective.${section.id}`) || t(section.titleKey);
   if (obj) obj.textContent = t('pickVersionPrompt');
 }
 
@@ -438,7 +438,7 @@ function rebuildGameSelector() {
 }
 
 function updateCurrentObjective(game, pokemon) {
-  const label = document.getElementById('current-objective');
+  const label = document.getElementById('current-objective').textContent = t(`objective.${section.id}`) || t(section.titleKey);
   if (!label) return;
 
   const newObjective = getCurrentObjectiveSectionId(game, pokemon);
