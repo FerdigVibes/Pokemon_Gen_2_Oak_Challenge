@@ -4,7 +4,6 @@ import { playPokemonCry } from './cry.js';
 import { getLanguage } from '../state/language.js';
 import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
-import { getLanguage, t } from '../data/i18n.js';
 
 let currentSelection = null; // { pokemon, game }
 
