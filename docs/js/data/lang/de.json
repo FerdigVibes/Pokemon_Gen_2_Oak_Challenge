@@ -141,6 +141,25 @@
     "morningRange": "04:00 – 09:59",
     "dayRange": "10:00 – 17:59",
     "nightRange": "18:00 – 03:59"
+  },
+  "methods": {
+    "starter": "Starter",
+    "wild": "Wild",
+    "gift": "Geschenk",
+    "event": "Event",
+    "trade": "Tausch",
+    "evolution": "Entwicklung",
+    "fossil": "Fossil",
+    "held_item": "Getragener Gegenstand",
+    "day_care": "Pension",
+    "headbutt": "Kopfnuss",
+    "radio": "Radio",
+    "bug_contest": "Käferturnier",
+    "swarm": "Schwarm",
+    "rock_smash": "Zerschneider",
+    "safari": "Safari-Zone",
+    "special": "Spezial",
+    "purchase": "Kauf"
   }
 }
 
