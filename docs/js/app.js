@@ -231,24 +231,36 @@ function buildGameSelector() {
     });
 
     genItem.appendChild(submenu);
+
+    // 🔁 Toggle submenu on click
+    genItem.addEventListener('click', (e) => {
+      e.stopPropagation();
+      // Close other open submenus
+      container.querySelectorAll('.game-menu-gen.open')
+        .forEach(el => {
+          if (el !== genItem) el.classList.remove('open');
+        });
+      genItem.classList.toggle('open');
+    });
+
     container.appendChild(genItem);
   });
 
   btn.parentElement.appendChild(container);
 
-  // Open/close on click
+  // Toggle main dropdown
   btn.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent global click from firing
+    e.stopPropagation();
     container.classList.toggle('open');
   });
-  
-  // Close if clicking outside the dropdown
-  document.addEventListener('click', (e) => {
-    if (!btn.contains(e.target) && !container.contains(e.target)) {
-      container.classList.remove('open');
-    }
+
+  // Close menu on outside click
+  document.addEventListener('click', () => {
+    container.classList.remove('open');
+    container.querySelectorAll('.game-menu-gen').forEach(g => g.classList.remove('open'));
   });
 }
+
 
 function wireMuteToggle() {
   const btn = document.getElementById('mute-toggle');
