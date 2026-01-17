@@ -51,55 +51,58 @@
 
   "chooseYourStarter": "Elige tu Pokémon inicial",
 
-  "BEFORE_PEWTER": "Avant l'Arène d'Argenta",
-  "PEWTER_POKEMON": "Pokémon d'Argenta",
+  "objective": {
+  "BEFORE_PEWTER": "Antes del Gimnasio de Plateada",
+  "PEWTER_POKEMON": "Pokémon de Plateada",
 
-  "BEFORE_CERULEAN": "Avant l'Arène d'Azuria",
-  "CERULEAN_POKEMON": "Pokémon d'Azuria",
+  "BEFORE_CERULEAN": "Antes del Gimnasio de Celeste",
+  "CERULEAN_POKEMON": "Pokémon de Celeste",
 
-  "BEFORE_VERMILION": "Avant l'Arène de Carmin-sur-Mer",
-  "AFTER_VERMILION": "Après l'Arène de Carmin-sur-Mer",
+  "BEFORE_VERMILION": "Antes del Gimnasio de Carmín",
+  "AFTER_VERMILION": "Después del Gimnasio de Carmín",
 
-  "BEFORE_CELADON": "Avant l'Arène de Céladopole",
-  "CELADON_POKEMON": "Pokémon de Céladopole",
+  "BEFORE_CELADON": "Antes del Gimnasio de Azulona",
+  "CELADON_POKEMON": "Pokémon de Azulona",
 
-  "BEFORE_FUCHSIA": "Avant l'Arène de Parmanie",
-  "FUCHSIA_POKEMON": "Pokémon de Parmanie",
+  "BEFORE_FUCHSIA": "Antes del Gimnasio de Fucsia",
+  "FUCHSIA_POKEMON": "Pokémon de Fucsia",
 
-  "BEFORE_FIFTH": "Avant la cinquième arène",
+  "BEFORE_FIFTH": "Antes del quinto gimnasio",
 
-  "BEFORE_ELITE_FOUR": "Avant le Conseil 4",
-  "ELITE_FOUR_POKEMON": "Pokémon du Conseil 4",
+  "BEFORE_ELITE_FOUR": "Antes del Alto Mando",
+  "ELITE_FOUR_POKEMON": "Pokémon del Alto Mando",
 
-  "CERULEAN_CAVE": "Grotte Inconnue",
-  "CERULEAN_CAVE_POKEMON": "Pokémon de la Grotte Inconnue",
+  "CERULEAN_CAVE": "Cueva Celeste",
+  "CERULEAN_CAVE_POKEMON": "Pokémon de la Cueva Celeste",
 
-  "MT_SILVER": "Mont Argenté",
-  "MT_SILVER_POKEMON": "Pokémon du Mont Argenté",
+  "MT_SILVER": "Monte Plateado",
+  "MT_SILVER_POKEMON": "Pokémon del Monte Plateado",
 
-  "BEFORE_KANTO_BADGES": "Avant les badges de Kanto",
+  "BEFORE_KANTO_BADGES": "Antes de las medallas de Kanto",
   "KANTO_POKEMON": "Pokémon de Kanto",
 
-  "BEFORE_VIOLET": "Avant l'Arène de Mauville",
-  "VIOLET_POKEMON": "Pokémon de Mauville",
+  "BEFORE_VIOLET": "Antes del Gimnasio de Malva",
+  "VIOLET_POKEMON": "Pokémon de Malva",
 
-  "BEFORE_AZALEA": "Avant l'Arène d'Écorcia",
-  "AZALEA_POKEMON": "Pokémon d'Écorcia",
+  "BEFORE_AZALEA": "Antes del Gimnasio de Azalea",
+  "AZALEA_POKEMON": "Pokémon de Azalea",
 
-  "BEFORE_GOLDENROD": "Avant l'Arène de Doublonville",
-  "GOLDENROD_POKEMON": "Pokémon de Doublonville",
+  "BEFORE_GOLDENROD": "Antes del Gimnasio de Trigal",
+  "GOLDENROD_POKEMON": "Pokémon de Trigal",
 
-  "BEFORE_ECRUTEAK": "Avant l'Arène de Rosalia",
-  "ECRUTEAK_POKEMON": "Pokémon de Rosalia",
+  "BEFORE_ECRUTEAK": "Antes del Gimnasio de Iris",
+  "ECRUTEAK_POKEMON": "Pokémon de Iris",
 
-  "BEFORE_MAHOGANY": "Avant l'Arène de Mogane",
-  "MAHOGANY_POKEMON": "Pokémon de Mogane",
+  "BEFORE_MAHOGANY": "Antes del Gimnasio de Caoba",
+  "MAHOGANY_POKEMON": "Pokémon de Caoba",
 
-  "BEFORE_CIANWOOD_OLIVINE": "Avant les Arènes d'Irisia et Oliville",
-  "CIANWOOD_OLIVINE_POKEMON": "Pokémon d'Irisia et Oliville",
+  "BEFORE_CIANWOOD_OLIVINE": "Antes de los Gimnasios de Orquídea y Olivo",
+  "CIANWOOD_OLIVINE_POKEMON": "Pokémon de Orquídea y Olivo",
 
-  "BEFORE_BLACKTHORN": "Avant l'Arène d'Ébènelle",
-  "BLACKTHORN_POKEMON": "Pokémon d'Ébènelle",
+  "BEFORE_BLACKTHORN": "Antes del Gimnasio de Endrino",
+  "BLACKTHORN_POKEMON": "Pokémon de Endrino"
+},
+
 
   "moonStoneOne": "Evolución con Piedra Lunar",
   "moonStoneTwo": "Evolución con Piedra Lunar (segunda vez)",
