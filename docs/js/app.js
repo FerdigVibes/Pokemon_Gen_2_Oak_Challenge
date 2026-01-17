@@ -64,10 +64,9 @@ async function init() {
     wireMuteToggle();
     wireLanguageSelector();
 
-    await loadLanguage(getLanguage());
+    await loadLanguage(getLanguage()); // ✅ make sure translations are loaded first
 
-    resetAppToBlankState();   // ← must be first
-
+    resetAppToBlankState();   // ✅ now safe to call t()
     buildGameSelector();
     applyTranslations();
 
