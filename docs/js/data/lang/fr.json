@@ -147,6 +147,25 @@
     "locations": "Lieux",
     "time": "Heure",
     "days": "Jours"
+  },
+  "methods": {
+    "starter": "Starter",
+    "wild": "Sauvage",
+    "gift": "Cadeau",
+    "event": "Événement",
+    "trade": "Échange",
+    "evolution": "Évolution",
+    "fossil": "Fossile",
+    "held_item": "Objet tenu",
+    "day_care": "Pension",
+    "headbutt": "Coup d'Boule",
+    "radio": "Radio",
+    "bug_contest": "Concours de Capture d'Insectes",
+    "swarm": "Essaim",
+    "rock_smash": "Éclate-Roc",
+    "safari": "Parc Safari",
+    "special": "Spécial",
+    "purchase": "Achat"
   }
 
 }
