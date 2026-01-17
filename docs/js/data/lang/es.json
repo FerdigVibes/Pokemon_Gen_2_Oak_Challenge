@@ -52,56 +52,56 @@
   "chooseYourStarter": "Elige tu Pokémon inicial",
 
   "objective": {
-  "BEFORE_PEWTER": "Antes del Gimnasio de Plateada",
-  "PEWTER_POKEMON": "Pokémon de Plateada",
-
-  "BEFORE_CERULEAN": "Antes del Gimnasio de Celeste",
-  "CERULEAN_POKEMON": "Pokémon de Celeste",
-
-  "BEFORE_VERMILION": "Antes del Gimnasio de Carmín",
-  "AFTER_VERMILION": "Después del Gimnasio de Carmín",
-
-  "BEFORE_CELADON": "Antes del Gimnasio de Azulona",
-  "CELADON_POKEMON": "Pokémon de Azulona",
-
-  "BEFORE_FUCHSIA": "Antes del Gimnasio de Fucsia",
-  "FUCHSIA_POKEMON": "Pokémon de Fucsia",
-
-  "BEFORE_FIFTH": "Antes del quinto gimnasio",
-
-  "BEFORE_ELITE_FOUR": "Antes del Alto Mando",
-  "ELITE_FOUR_POKEMON": "Pokémon del Alto Mando",
-
-  "CERULEAN_CAVE": "Cueva Celeste",
-  "CERULEAN_CAVE_POKEMON": "Pokémon de la Cueva Celeste",
-
-  "MT_SILVER": "Monte Plateado",
-  "MT_SILVER_POKEMON": "Pokémon del Monte Plateado",
-
-  "BEFORE_KANTO_BADGES": "Antes de las medallas de Kanto",
-  "KANTO_POKEMON": "Pokémon de Kanto",
-
-  "BEFORE_VIOLET": "Antes del Gimnasio de Malva",
-  "VIOLET_POKEMON": "Pokémon de Malva",
-
-  "BEFORE_AZALEA": "Antes del Gimnasio de Azalea",
-  "AZALEA_POKEMON": "Pokémon de Azalea",
-
-  "BEFORE_GOLDENROD": "Antes del Gimnasio de Trigal",
-  "GOLDENROD_POKEMON": "Pokémon de Trigal",
-
-  "BEFORE_ECRUTEAK": "Antes del Gimnasio de Iris",
-  "ECRUTEAK_POKEMON": "Pokémon de Iris",
-
-  "BEFORE_MAHOGANY": "Antes del Gimnasio de Caoba",
-  "MAHOGANY_POKEMON": "Pokémon de Caoba",
-
-  "BEFORE_CIANWOOD_OLIVINE": "Antes de los Gimnasios de Orquídea y Olivo",
-  "CIANWOOD_OLIVINE_POKEMON": "Pokémon de Orquídea y Olivo",
-
-  "BEFORE_BLACKTHORN": "Antes del Gimnasio de Endrino",
-  "BLACKTHORN_POKEMON": "Pokémon de Endrino"
-},
+    "BEFORE_PEWTER": "Antes del Gimnasio de Plateada",
+    "PEWTER_POKEMON": "Pokémon de Plateada",
+  
+    "BEFORE_CERULEAN": "Antes del Gimnasio de Celeste",
+    "CERULEAN_POKEMON": "Pokémon de Celeste",
+  
+    "BEFORE_VERMILION": "Antes del Gimnasio de Carmín",
+    "AFTER_VERMILION": "Después del Gimnasio de Carmín",
+  
+    "BEFORE_CELADON": "Antes del Gimnasio de Azulona",
+    "CELADON_POKEMON": "Pokémon de Azulona",
+  
+    "BEFORE_FUCHSIA": "Antes del Gimnasio de Fucsia",
+    "FUCHSIA_POKEMON": "Pokémon de Fucsia",
+  
+    "BEFORE_FIFTH": "Antes del quinto gimnasio",
+  
+    "BEFORE_ELITE_FOUR": "Antes del Alto Mando",
+    "ELITE_FOUR_POKEMON": "Pokémon del Alto Mando",
+  
+    "CERULEAN_CAVE": "Cueva Celeste",
+    "CERULEAN_CAVE_POKEMON": "Pokémon de la Cueva Celeste",
+  
+    "MT_SILVER": "Monte Plateado",
+    "MT_SILVER_POKEMON": "Pokémon del Monte Plateado",
+  
+    "BEFORE_KANTO_BADGES": "Antes de las medallas de Kanto",
+    "KANTO_POKEMON": "Pokémon de Kanto",
+  
+    "BEFORE_VIOLET": "Antes del Gimnasio de Malva",
+    "VIOLET_POKEMON": "Pokémon de Malva",
+  
+    "BEFORE_AZALEA": "Antes del Gimnasio de Azalea",
+    "AZALEA_POKEMON": "Pokémon de Azalea",
+  
+    "BEFORE_GOLDENROD": "Antes del Gimnasio de Trigal",
+    "GOLDENROD_POKEMON": "Pokémon de Trigal",
+  
+    "BEFORE_ECRUTEAK": "Antes del Gimnasio de Iris",
+    "ECRUTEAK_POKEMON": "Pokémon de Iris",
+  
+    "BEFORE_MAHOGANY": "Antes del Gimnasio de Caoba",
+    "MAHOGANY_POKEMON": "Pokémon de Caoba",
+  
+    "BEFORE_CIANWOOD_OLIVINE": "Antes de los Gimnasios de Orquídea y Olivo",
+    "CIANWOOD_OLIVINE_POKEMON": "Pokémon de Orquídea y Olivo",
+  
+    "BEFORE_BLACKTHORN": "Antes del Gimnasio de Endrino",
+    "BLACKTHORN_POKEMON": "Pokémon de Endrino"
+  },
 
 
   "moonStoneOne": "Evolución con Piedra Lunar",
