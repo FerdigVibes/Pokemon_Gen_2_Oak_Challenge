@@ -447,20 +447,20 @@ function updateCurrentObjective(game, pokemon) {
 
   const newObjective = getCurrentObjectiveSectionId(game, pokemon);
 
-  // Only update if changed
   if (newObjective !== __CURRENT_OBJECTIVE_SECTION_ID__) {
     __CURRENT_OBJECTIVE_SECTION_ID__ = newObjective;
 
     const section = game.sections.find(s => s.id === newObjective);
-    const rawKey = section?.titleKey || '';
-    const translated = rawKey.startsWith('objective.')
-      ? t(rawKey.slice('objective.'.length)) // slice off the prefix
-      : t(rawKey);
-    const text = translated || t('challengeComplete');
+    const titleKey = section?.titleKey;
+
+    // ✅ This is the important part:
+    const text = titleKey
+      ? t(`objective.${titleKey}`)
+      : t('challengeComplete');
+
     label.textContent = text;
   }
 }
-
 
 function getCurrentObjectiveSectionId(game, pokemon) {
   const gameKey = normalizeGameId(game.id);
