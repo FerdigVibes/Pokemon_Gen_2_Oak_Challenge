@@ -43,7 +43,7 @@
     "title": "Set Game Time",
     "day": "Day",
     "time": "Time",
-    "dst": "Daylight Saving Time",
+    "dst": "Daylight Saving Time"
   },
 
   "time": {
