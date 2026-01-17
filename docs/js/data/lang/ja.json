@@ -29,6 +29,7 @@
     "sat": "土",
     "sun": "日"
   },
+  
   "gameTime": {
     "title": "ゲーム内の時間設定",
     "day": "曜日",
@@ -120,6 +121,7 @@
     "dayRange": "10:00〜17:59",
     "nightRange": "18:00〜3:59"
   },
+  
   "types": {
     "bug": "むし",
     "dark": "あく",
@@ -140,6 +142,7 @@
     "steel": "はがね",
     "water": "みず"
   },
+  
   "methods": {
     "starter": "はじめにもらう",
     "wild": "野生で出現",
@@ -159,6 +162,7 @@
     "special": "特別な方法",
     "purchase": "購入"
   },
+  
   "detail": {
     "obtainTitle": "入手方法",
     "method": "入手手段",
@@ -166,6 +170,5 @@
     "time": "時間帯",
     "days": "曜日"
   }
-
 }
 
