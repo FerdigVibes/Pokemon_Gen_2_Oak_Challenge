@@ -438,18 +438,21 @@ function rebuildGameSelector() {
 }
 
 function updateCurrentObjective(game, pokemon) {
-  const label = document.getElementById('current-objective').textContent = t(`objective.${section.id}`) || t(section.titleKey);
-  if (!label) return;
+  const objectiveEl = document.getElementById('current-objective');
+  if (!objectiveEl) return;
 
-  const newObjective = getCurrentObjectiveSectionId(game, pokemon);
+  const newObjectiveId = getCurrentObjectiveSectionId(game, pokemon);
 
   // Only update if changed
-  if (newObjective !== __CURRENT_OBJECTIVE_SECTION_ID__) {
-    __CURRENT_OBJECTIVE_SECTION_ID__ = newObjective;
+  if (newObjectiveId !== __CURRENT_OBJECTIVE_SECTION_ID__) {
+    __CURRENT_OBJECTIVE_SECTION_ID__ = newObjectiveId;
 
-    const section = game.sections.find(s => s.id === newObjective);
-    const text = section ? t(section.titleKey) : t('challengeComplete');
-    label.textContent = text;
+    const section = game.sections.find(s => s.id === newObjectiveId);
+    const text = section
+      ? t(`objective.${section.id}`) || t(section.titleKey)
+      : t('challengeComplete');
+
+    objectiveEl.textContent = text;
   }
 }
 
