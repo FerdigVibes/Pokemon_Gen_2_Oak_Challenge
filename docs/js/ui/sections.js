@@ -403,6 +403,11 @@ export function renderSections({ game, pokemon }) {
         }
       
         row.classList.add('is-active');
+        currentSelection = {
+          pokemon: p,
+          game: game,
+          sectionId: sectionId
+        };
         renderPokemonDetail(p, game, sectionId);
         playPokemonCry(p);
         app?.classList.add('has-detail');
