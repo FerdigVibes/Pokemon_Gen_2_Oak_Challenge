@@ -23,6 +23,12 @@
   width: 320px;
 }
 
+.has-detail #detail-panel {
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .intro-panel {
   color: #f2f2f2;
   text-shadow: 0 1px 2px rgba(0,0,0,0.5);
@@ -475,7 +481,7 @@
 }
 
 @media (max-width: 600px) {
-  #detail-panel {
+  # {
     padding: 16px;
     max-width: 100%;
     border-width: 2px;
@@ -501,6 +507,12 @@
   margin: 24px auto;
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
   position: relative;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+  transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
+  position: relative;
+  z-index: 10;
 }
 
 .detail-header h2 {
