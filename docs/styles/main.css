@@ -85,6 +85,12 @@
   width: 128px;
   height: 128px;
   image-rendering: pixelated;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+  opacity: 1;
+}
+
+.detail-sprite-img.shiny-toggle-out {
+  opacity: 0;
 }
 
 .caught-toggle {
