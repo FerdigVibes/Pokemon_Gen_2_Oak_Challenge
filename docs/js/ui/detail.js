@@ -211,6 +211,10 @@ export function getCurrentDetailSelection() {
   return currentSelection;
 }
 
+export function setCurrentDetailSelection(value) {
+  currentSelection = value;
+}
+
 window.getCurrentDetailSelection = getCurrentDetailSelection
 
 
