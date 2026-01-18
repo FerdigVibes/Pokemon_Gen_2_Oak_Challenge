@@ -155,6 +155,7 @@ function isPokemonAvailable(gameEntry) {
 function applyStarterExclusivity(sectionBlock, gameId) {
   const rows = sectionBlock.querySelectorAll('.pokemon-row');
 
+  // Group rows by family
   const families = {};
   rows.forEach(row => {
     const family = row.dataset.family;
@@ -163,41 +164,33 @@ function applyStarterExclusivity(sectionBlock, gameId) {
     families[family].push(row);
   });
 
-  // Reset all rows
+  // Reset visibility and remove animations
   rows.forEach(row => {
     row.style.display = '';
     row.classList.remove('starter-collapsed');
   });
 
-  // Count how many are caught
-  const caughtRows = Array.from(rows).filter(row =>
-    row.classList.contains('is-caught')
-  );
+  // Determine if exactly one family has any caught Pokémon
+  let caughtFamilies = [];
 
-  const onlyOneCaught = caughtRows.length === 1;
-
-  // Smoothly collapse all unchosen starters
-  if (onlyOneCaught) {
-    rows.forEach(row => {
-      if (!row.classList.contains('is-caught')) {
-        row.classList.add('starter-collapsed'); // This class should have a transition
-      }
-    });
-  }
-
-  // Hard hide other families if one family is chosen
-  let chosenFamily = null;
   Object.entries(families).forEach(([family, familyRows]) => {
-    if (familyRows.some(row => isCaught(gameId, Number(row.dataset.dex)))) {
-      chosenFamily = family;
+    const isFamilyCaught = familyRows.some(row =>
+      isCaught(gameId, Number(row.dataset.dex))
+    );
+    if (isFamilyCaught) {
+      caughtFamilies.push(family);
     }
   });
 
-  if (chosenFamily) {
+  const onlyOneCaught = caughtFamilies.length === 1;
+
+  // Collapse other families if exactly one is caught
+  if (onlyOneCaught) {
+    const chosenFamily = caughtFamilies[0];
     Object.entries(families).forEach(([family, familyRows]) => {
       if (family !== chosenFamily) {
         familyRows.forEach(row => {
-          row.style.display = 'none';
+          row.classList.add('starter-collapsed'); // Collapse with animation
         });
       }
     });
