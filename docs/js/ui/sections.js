@@ -172,6 +172,14 @@ function applyStarterExclusivity(sectionBlock, gameId) {
     }
   });
 
+  if (onlyOneCaught) {
+    rows.forEach(row => {
+      if (!row.classList.contains('is-caught')) {
+        row.classList.add('starter-collapsed');
+      }
+    });
+  }
+
   if (chosenFamily) {
     Object.entries(families).forEach(([family, familyRows]) => {
       if (family !== chosenFamily) {
