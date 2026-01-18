@@ -114,7 +114,6 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
 
   // Types
   const types = pokemon.types || [];
-  console.log('[OBTAIN]', obtain);
   // Obtain info
   const obtain = Array.isArray(gameEntry.obtain) ? gameEntry.obtain : [];
 
