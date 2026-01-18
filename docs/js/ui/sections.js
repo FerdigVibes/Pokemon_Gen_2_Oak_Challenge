@@ -163,8 +163,29 @@ function applyStarterExclusivity(sectionBlock, gameId) {
     families[family].push(row);
   });
 
-  rows.forEach(row => { row.style.display = ''; });
+  // Reset all rows
+  rows.forEach(row => {
+    row.style.display = '';
+    row.classList.remove('starter-collapsed');
+  });
 
+  // Count how many are caught
+  const caughtRows = Array.from(rows).filter(row =>
+    row.classList.contains('is-caught')
+  );
+
+  const onlyOneCaught = caughtRows.length === 1;
+
+  // Smoothly collapse all unchosen starters
+  if (onlyOneCaught) {
+    rows.forEach(row => {
+      if (!row.classList.contains('is-caught')) {
+        row.classList.add('starter-collapsed'); // This class should have a transition
+      }
+    });
+  }
+
+  // Hard hide other families if one family is chosen
   let chosenFamily = null;
   Object.entries(families).forEach(([family, familyRows]) => {
     if (familyRows.some(row => isCaught(gameId, Number(row.dataset.dex)))) {
@@ -172,18 +193,12 @@ function applyStarterExclusivity(sectionBlock, gameId) {
     }
   });
 
-  if (onlyOneCaught) {
-    rows.forEach(row => {
-      if (!row.classList.contains('is-caught')) {
-        row.classList.add('starter-collapsed');
-      }
-    });
-  }
-
   if (chosenFamily) {
     Object.entries(families).forEach(([family, familyRows]) => {
       if (family !== chosenFamily) {
-        familyRows.forEach(row => { row.style.display = 'none'; });
+        familyRows.forEach(row => {
+          row.style.display = 'none';
+        });
       }
     });
   }
