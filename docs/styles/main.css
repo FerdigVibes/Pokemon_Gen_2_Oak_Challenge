@@ -474,13 +474,39 @@
   }
 }
 
+@media (max-width: 600px) {
+  #detail-panel {
+    padding: 16px;
+    max-width: 100%;
+    border-width: 2px;
+  }
+
+  .type-badge {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+}
+
 /* ===============================
    SECTION 3 – POKÉDEX DISPLAY
    =============================== */
 
 #detail-panel {
-  padding: 16px;
-  overflow-y: auto;
+  font-family: 'Arial', sans-serif;
+  background: #fafafa;
+  border: 4px solid #d32f2f;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 520px;
+  margin: 24px auto;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.detail-header h2 {
+  font-size: 26px;
+  margin-bottom: 4px;
+  color: #d32f2f;
 }
 
 .detail-sprite-window {
@@ -504,39 +530,67 @@
 
 /* Sprite itself */
 .detail-sprite-window {
-  margin: 16px auto;
-  background: #f9f9f9;
+  position: relative;
+  background: radial-gradient(circle at center, #ffffff 60%, #e0e0e0 100%);
+  background-image: url('./assets/ui/pokeball-bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 20px;
   border-radius: 12px;
-  padding: 10px;
-  text-align: center;
   border: 2px solid #ccc;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
 }
 
 .detail-dex {
-  font-size: 0.9rem;
-  opacity: 0.8;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
 }
 
 .type-list {
-  margin: 12px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 
 .type-badge {
+  display: inline-block;
   padding: 4px 10px;
-  border-radius: 4px;
-  background: #555;
-  color: #fff;
+  border-radius: 12px;
+  font-size: 12px;
   font-weight: bold;
-  font-size: 0.8rem;
+  color: white;
+  margin-right: 6px;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
 }
 
-.type-badge.type-bug { background: #A8B820; }
-.type-badge.type-poison { background: #A040A0; }
-/* Add more types as needed */
+/* Generation 1 & 2 Types */
+.type-normal    { background-color: #A8A878; }
+.type-fire      { background-color: #F08030; }
+.type-water     { background-color: #6890F0; }
+.type-electric  { background-color: #F8D030; color: #000; }
+.type-grass     { background-color: #78C850; }
+.type-ice       { background-color: #98D8D8; color: #000; }
+.type-fighting  { background-color: #C03028; }
+.type-poison    { background-color: #A040A0; }
+.type-ground    { background-color: #E0C068; color: #000; }
+.type-flying    { background-color: #A890F0; }
+.type-psychic   { background-color: #F85888; }
+.type-bug       { background-color: #A8B820; }
+.type-rock      { background-color: #B8A038; }
+.type-ghost     { background-color: #705898; }
+.type-dragon    { background-color: #7038F8; }
+.type-dark      { background-color: #705848; }
+.type-steel     { background-color: #B8B8D0; }
+
+/* Optional Hover Effect */
+.type-badge:hover {
+  filter: brightness(1.1);
+}
 
 .shiny-icon {
   margin-left: 8px;
@@ -557,14 +611,22 @@
 }
 
 .obtain-section {
-  margin-top: 20px;
-  font-size: 0.9rem;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
 }
 
 .obtain-method {
-  margin-bottom: 16px;
-  border-top: 1px solid #ccc;
-  padding-top: 10px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.notes {
+  font-style: italic;
+  margin-top: 6px;
+  color: #444;
 }
 
 .dropdown-menu {
