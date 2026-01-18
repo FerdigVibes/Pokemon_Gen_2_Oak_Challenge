@@ -7,6 +7,7 @@ import { getLanguage } from '../state/language.js';
 import { t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 import { getGameTime } from '../state/gameTime.js';
+import { setCurrentDetailSelection } from './detail.js';
 
 const MOON_STONE_SECTIONS = new Set([
   'MOON_STONE_1',
@@ -403,11 +404,11 @@ export function renderSections({ game, pokemon }) {
         }
       
         row.classList.add('is-active');
-        currentSelection = {
+        setCurrentDetailSelection({
           pokemon: p,
           game: game,
           sectionId: sectionId
-        };
+        }};
         renderPokemonDetail(p, game, sectionId);
         playPokemonCry(p);
         app?.classList.add('has-detail');
