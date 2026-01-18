@@ -114,7 +114,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
 
   // Types
   const types = pokemon.types || [];
-
+  console.log('[OBTAIN]', obtain);
   // Obtain info
   const obtain = Array.isArray(gameEntry.obtain) ? gameEntry.obtain : [];
 
@@ -194,6 +194,7 @@ function renderObtainMethods(obtain, lang) {
 }
 
 function renderObtainEntry(o, lang) {
+  console.log('[renderObtainEntry]', { o, lang, notes: resolveLangField(o.notes, lang) });
   const method = o.method ? t(`methods.${o.method}`) : '';
 
   const locations = Array.isArray(o.locations)
