@@ -115,7 +115,8 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
   // Types
   const types = pokemon.types || [];
   // Obtain info
-  const obtain = Array.isArray(gameEntry.obtain) ? gameEntry.obtain : [];
+  const detailEntry = getDetailEntry(pokemon, gameData, sectionId);
+  const obtain = Array.isArray(detailEntry?.obtain) ? detailEntry.obtain : [];
 
   panel.innerHTML = `
     <div class="detail-header">
