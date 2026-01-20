@@ -23,7 +23,7 @@
         "sections": ["MOON_STONE_1"],
         "availability": {
           "afterSection": "BEFORE_CERULEAN",
-          "excludeDex": [31]
+          "excludeDex": [34]
         },
         "obtain": [
           {
@@ -42,7 +42,7 @@
         "sections": ["MOON_STONE_2"],
         "availability": {
           "afterSection": "BEFORE_FUCHSIA",
-          "excludeDex": [31]
+          "excludeDex": [34]
         },
         "obtain": [
           {
@@ -64,7 +64,7 @@
         "sections": ["MOON_STONE_1"],
         "availability": {
           "afterSection": "BEFORE_CERULEAN",
-          "excludeDex": [31]
+          "excludeDex": [34]
         },
         "obtain": [
           {
@@ -86,7 +86,7 @@
         "sections": ["MOON_STONE_1"],
         "availability": {
           "afterSection": "BEFORE_CERULEAN",
-          "excludeDex": [31]
+          "excludeDex": [34]
         },
         "obtain": [
           {
@@ -108,7 +108,7 @@
         "sections": ["MOON_STONE_1"],
         "availability": {
           "afterSection": "BEFORE_MAHOGANY",
-          "excludeDex": [31]
+          "excludeDex": [34]
         },
         "obtain": [
           {
@@ -123,6 +123,70 @@
           }
         ]
       }
+    ],
+
+    "silver": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_MAHOGANY",
+          "excludeDex": [34]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorino using a Moon Stone. A Moon Stone can be found in Tohjo Falls east of New Bark Town.",
+              "ja": "ニドリーノに「つきのいし」を使って進化。つきのいしはワカバタウン東のトージョウのたきで入手できる。",
+              "fr": "Faites évoluer Nidorino avec une Pierre Lune. Une Pierre Lune se trouve aux Chutes Tohjo à l’est de Bourg Geon.",
+              "de": "Entwickle Nidorino mit einem Mondstein. Ein Mondstein befindet sich in den Tohjo-Fällen östlich von Neuborkia.",
+              "es": "Evoluciona a Nidorino con una Piedra Lunar. La Piedra Lunar se encuentra en las Cataratas Tohjo al este de Pueblo Primavera."
+            }
+          }
+        ]
+      }
+    ],
+
+    "crystal": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_GOLDENROD",
+          "excludeDex": [34]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Receive a Moon Stone from Mom after saving approximately ₽15,000.",
+              "ja": "約15,000円を貯金すると、ママから「つきのいし」を受け取れる。",
+              "fr": "Recevez une Pierre Lune de votre mère après avoir économisé environ ₽15 000.",
+              "de": "Erhalte einen Mondstein von deiner Mutter nach etwa ₽15.000 Ersparnissen.",
+              "es": "Recibe una Piedra Lunar de tu madre tras ahorrar aproximadamente ₽15.000."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_MAHOGANY",
+          "excludeDex": [34]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "One Moon Stone is found in Tohjo Falls, and another can be obtained in the Ruins of Alph.",
+              "ja": "つきのいしはトージョウのたきとアルフのいせきで入手できる。",
+              "fr": "Une Pierre Lune se trouve aux Chutes Tohjo et une autre aux Ruines d’Alpha.",
+              "de": "Ein Mondstein befindet sich in den Tohjo-Fällen, ein weiterer in den Ruinen von Alph.",
+              "es": "Una Piedra Lunar se encuentra en las Cataratas Tohjo y otra en las Ruinas Alfa."
+            }
+          }
+        ]
+      }
     ]
   }
 }
+
