@@ -1,0 +1,154 @@
+{
+  "dex": 36,
+  "slug": "clefable",
+
+  "names": {
+    "en": "Clefable",
+    "ja": "ピクシー",
+    "fr": "Mélodelfe",
+    "de": "Pixi",
+    "es": "Clefable"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["cleffa", "clefairy", "clefable"],
+    "stage": 3
+  },
+
+  "games": {
+    "red": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [36]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Clefairy using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ピッピに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Mélofée avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Piepi mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Clefairy con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [36]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Clefairy with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "ピッピに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Mélofée avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Piepi mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Clefairy con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "blue": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [36]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Clefairy using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ピッピに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Mélofée avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Piepi mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Clefairy con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "yellow": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [36]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Clefairy using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ピッピに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Mélofée avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Piepi mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Clefairy con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Clefairy with a Moon Stone. Requires Rock Smash. Find a Moon Stone on Monday 🌙 during the Dancing Clefairy event.",
+            "ja": "ピッピに「つきのいし」を使って進化。いわくだきが必要。月曜日🌙の「おどるピッピ」イベントでつきのいしを入手できる。",
+            "fr": "Faites évoluer Mélofée avec une Pierre Lune. Nécessite Éclate-Roc. Trouvez une Pierre Lune le lundi 🌙 lors de l’événement de la Mélofée dansante.",
+            "de": "Entwickle Piepi mit einem Mondstein. Zertrümmerer erforderlich. Montags 🌙 beim tanzenden Piepi erhältlich.",
+            "es": "Evoluciona a Clefairy con una Piedra Lunar. Requiere Golpe Roca. Consíguela el lunes 🌙 durante el evento de la Clefairy danzante."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Clefairy with a Moon Stone. Requires Rock Smash. Find a Moon Stone on Monday 🌙 during the Dancing Clefairy event.",
+            "ja": "ピッピに「つきのいし」を使って進化。いわくだきが必要。月曜日🌙の「おどるピッピ」イベントでつきのいしを入手できる。",
+            "fr": "Faites évoluer Mélofée avec une Pierre Lune. Nécessite Éclate-Roc. Trouvez une Pierre Lune le lundi 🌙 lors de l’événement de la Mélofée dansante.",
+            "de": "Entwickle Piepi mit einem Mondstein. Zertrümmerer erforderlich. Montags 🌙 beim tanzenden Piepi erhältlich.",
+            "es": "Evoluciona a Clefairy con una Piedra Lunar. Requiere Golpe Roca. Consíguela el lunes 🌙 durante el evento de la Clefairy danzante."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Clefairy with a Moon Stone. Requires Rock Smash. Find a Moon Stone on Monday 🌙 during the Dancing Clefairy event.",
+            "ja": "ピッピに「つきのいし」を使って進化。いわくだきが必要。月曜日🌙の「おどるピッピ」イベントでつきのいしを入手できる。",
+            "fr": "Faites évoluer Mélofée avec une Pierre Lune. Nécessite Éclate-Roc. Trouvez une Pierre Lune le lundi 🌙 lors de l’événement de la Mélofée dansante.",
+            "de": "Entwickle Piepi mit einem Mondstein. Zertrümmerer erforderlich. Montags 🌙 beim tanzenden Piepi erhältlich.",
+            "es": "Evoluciona a Clefairy con una Piedra Lunar. Requiere Golpe Roca. Consíguela el lunes 🌙 durante el evento de la Clefairy danzante."
+          }
+        }
+      ]
+    }
+  }
+}
