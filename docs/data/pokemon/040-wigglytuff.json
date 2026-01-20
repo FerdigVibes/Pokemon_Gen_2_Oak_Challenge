@@ -1,0 +1,179 @@
+{
+  "dex": 40,
+  "slug": "wigglytuff",
+
+  "names": {
+    "en": "Wigglytuff",
+    "ja": "プクリン",
+    "fr": "Grodoudou",
+    "de": "Knuddeluff",
+    "es": "Wigglytuff"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["igglybuff", "jigglypuff", "wigglytuff"],
+    "stage": 3
+  },
+
+  "games": {
+    "red": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Jigglypuff using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "プリンに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Rondoudou avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Pummeluff mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Jigglypuff con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Jigglypuff with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "プリンに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Rondoudou avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Pummeluff mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Jigglypuff con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "blue": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Jigglypuff using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "プリンに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Rondoudou avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Pummeluff mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Jigglypuff con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "yellow": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Jigglypuff using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "プリンに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Rondoudou avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Pummeluff mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Jigglypuff con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Receive the Moon Stone from Mom after saving ₽15,000. She will call you.",
+            "ja": "約15,000円を貯金すると、ママからの電話で「つきのいし」を受け取れる。",
+            "fr": "Recevez une Pierre Lune de votre mère après avoir économisé environ ₽15 000.",
+            "de": "Erhalte einen Mondstein von deiner Mutter, nachdem du etwa ₽15.000 gespart hast.",
+            "es": "Recibe una Piedra Lunar de tu madre tras ahorrar aproximadamente ₽15.000."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Receive the Moon Stone from Mom after saving ₽15,000. She will call you.",
+            "ja": "約15,000円を貯金すると、ママからの電話で「つきのいし」を受け取れる。",
+            "fr": "Recevez une Pierre Lune de votre mère après avoir économisé environ ₽15 000.",
+            "de": "Erhalte einen Mondstein von deiner Mutter, nachdem du etwa ₽15.000 gespart hast.",
+            "es": "Recibe una Piedra Lunar de tu madre tras ahorrar aproximadamente ₽15.000."
+          }
+        }
+      ]
+    },
+
+    "crystal": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_GOLDENROD",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Receive a Moon Stone from Mom after saving approximately ₽15,000.",
+              "ja": "約15,000円を貯金すると、ママから「つきのいし」を受け取れる。",
+              "fr": "Recevez une Pierre Lune de votre mère après avoir économisé environ ₽15 000.",
+              "de": "Erhalte einen Mondstein von deiner Mutter nach etwa ₽15.000 Ersparnissen.",
+              "es": "Recibe una Piedra Lunar de tu madre tras ahorrar aproximadamente ₽15.000."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_MAHOGANY",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "One Moon Stone is found in Tohjo Falls, and another can be obtained in the Ruins of Alph.",
+              "ja": "つきのいしはトージョウのたきとアルフのいせきで入手できる。",
+              "fr": "Une Pierre Lune se trouve aux Chutes Tohjo et une autre aux Ruines d’Alpha.",
+              "de": "Ein Mondstein befindet sich in den Tohjo-Fällen, ein weiterer in den Ruinen von Alph.",
+              "es": "Una Piedra Lunar se encuentra en las Cataratas Tohjo y otra en las Ruinas Alfa."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
