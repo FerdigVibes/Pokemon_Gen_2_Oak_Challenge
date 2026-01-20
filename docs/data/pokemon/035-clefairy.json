@@ -25,7 +25,13 @@
         {
           "method": "wild",
           "locations": ["Mt. Moon"],
-          "notes": "Rare encounter inside Mt. Moon.Catch before leaving Mt. Moon!"
+          "notes": {
+            "en": "Rare encounter inside Mt. Moon. Catch before leaving Mt. Moon!",
+            "ja": "おつきみやま内部でまれに出現。出る前に必ず捕まえよう！",
+            "fr": "Rencontre rare à l’intérieur du Mont Sélénite. Attrapez-la avant de quitter le Mont Sélénite !",
+            "de": "Seltene Begegnung im Mondberg. Vor dem Verlassen unbedingt fangen!",
+            "es": "Encuentro raro dentro del Monte Moon. ¡Atrápala antes de salir del Monte Moon!"
+          }
         }
       ]
     },
@@ -36,7 +42,13 @@
         {
           "method": "wild",
           "locations": ["Mt. Moon"],
-          "notes": "Rare encounter inside Mt. Moon.Catch before leaving Mt. Moon!"
+          "notes": {
+            "en": "Rare encounter inside Mt. Moon. Catch before leaving Mt. Moon!",
+            "ja": "おつきみやま内部でまれに出現。出る前に必ず捕まえよう！",
+            "fr": "Rencontre rare à l’intérieur du Mont Sélénite. Attrapez-la avant de quitter le Mont Sélénite !",
+            "de": "Seltene Begegnung im Mondberg. Vor dem Verlassen unbedingt fangen!",
+            "es": "Encuentro raro dentro del Monte Moon. ¡Atrápala antes de salir del Monte Moon!"
+          }
         }
       ]
     },
@@ -47,7 +59,13 @@
         {
           "method": "wild",
           "locations": ["Mt. Moon"],
-          "notes": "Rare encounter inside Mt. Moon.Catch before leaving Mt. Moon!"
+          "notes": {
+            "en": "Rare encounter inside Mt. Moon. Catch before leaving Mt. Moon!",
+            "ja": "おつきみやま内部でまれに出現。出る前に必ず捕まえよう！",
+            "fr": "Rencontre rare à l’intérieur du Mont Sélénite. Attrapez-la avant de quitter le Mont Sélénite !",
+            "de": "Seltene Begegnung im Mondberg. Vor dem Verlassen unbedingt fangen!",
+            "es": "Encuentro raro dentro del Monte Moon. ¡Atrápala antes de salir del Monte Moon!"
+          }
         }
       ]
     },
@@ -58,7 +76,13 @@
         {
           "method": "wild",
           "locations": ["Mt. Moon"],
-          "notes": "They have a 2% chance of holding a Moon Stone!"
+          "notes": {
+            "en": "They have a 2% chance of holding a Moon Stone.",
+            "ja": "2％の確率で「つきのいし」を持っている。",
+            "fr": "Ils ont 2 % de chances de tenir une Pierre Lune.",
+            "de": "Sie tragen mit einer Wahrscheinlichkeit von 2 % einen Mondstein.",
+            "es": "Tienen un 2 % de probabilidad de llevar una Piedra Lunar."
+          }
         }
       ]
     },
@@ -69,7 +93,13 @@
         {
           "method": "wild",
           "locations": ["Mt. Moon"],
-          "notes": "They have a 2% chance of holding a Moon Stone!"
+          "notes": {
+            "en": "They have a 2% chance of holding a Moon Stone.",
+            "ja": "2％の確率で「つきのいし」を持っている。",
+            "fr": "Ils ont 2 % de chances de tenir une Pierre Lune.",
+            "de": "Sie tragen mit einer Wahrscheinlichkeit von 2 % einen Mondstein.",
+            "es": "Tienen un 2 % de probabilidad de llevar una Piedra Lunar."
+          }
         }
       ]
     },
@@ -80,15 +110,28 @@
         {
           "method": "wild",
           "locations": ["Mt. Moon"],
-          "notes": "They have a 2% chance of holding a Moon Stone!"
+          "notes": {
+            "en": "They have a 2% chance of holding a Moon Stone.",
+            "ja": "2％の確率で「つきのいし」を持っている。",
+            "fr": "Ils ont 2 % de chances de tenir une Pierre Lune.",
+            "de": "Sie tragen mit einer Wahrscheinlichkeit von 2 % einen Mondstein.",
+            "es": "Tienen un 2 % de probabilidad de llevar una Piedra Lunar."
+          }
         },
         {
           "method": "wild",
           "locations": ["Route 3", "Route 4"],
           "time": ["night"],
-          "notes": "Very rare nighttime encounter."
+          "notes": {
+            "en": "Very rare nighttime encounter.",
+            "ja": "夜のみ出現する非常にレアなポケモン。",
+            "fr": "Rencontre nocturne très rare.",
+            "de": "Sehr seltene Begegnung in der Nacht.",
+            "es": "Encuentro nocturno muy raro."
+          }
         }
       ]
     }
   }
 }
+
