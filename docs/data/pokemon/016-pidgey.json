@@ -24,7 +24,13 @@
         {
           "method": "wild",
           "locations": ["Route 1", "Route 2"],
-          "notes": "Very common early-route Pokémon."
+          "notes": {
+            "en": "Very common early-route Pokémon.",
+            "ja": "序盤の道路にとてもよく出現するポケモン。",
+            "fr": "Pokémon très commun des routes du début.",
+            "de": "Sehr häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon muy común de las primeras rutas."
+          }
         }
       ]
     },
@@ -35,7 +41,13 @@
         {
           "method": "wild",
           "locations": ["Route 1", "Route 2"],
-          "notes": "Very common early-route Pokémon."
+          "notes": {
+            "en": "Very common early-route Pokémon.",
+            "ja": "序盤の道路にとてもよく出現するポケモン。",
+            "fr": "Pokémon très commun des routes du début.",
+            "de": "Sehr häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon muy común de las primeras rutas."
+          }
         }
       ]
     },
@@ -46,7 +58,13 @@
         {
           "method": "wild",
           "locations": ["Route 1", "Route 2"],
-          "notes": "Very common early-route Pokémon."
+          "notes": {
+            "en": "Very common early-route Pokémon.",
+            "ja": "序盤の道路にとてもよく出現するポケモン。",
+            "fr": "Pokémon très commun des routes du début.",
+            "de": "Sehr häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon muy común de las primeras rutas."
+          }
         }
       ]
     },
@@ -58,7 +76,13 @@
           "method": "wild",
           "locations": ["Route 29", "Route 30", "Route 31"],
           "time": ["morning", "day"],
-          "notes": "Appears during morning and daytime."
+          "notes": {
+            "en": "Appears during morning and daytime.",
+            "ja": "朝と昼に出現する。",
+            "fr": "Apparaît le matin et en journée.",
+            "de": "Erscheint morgens und tagsüber.",
+            "es": "Aparece por la mañana y durante el día."
+          }
         }
       ]
     },
@@ -70,7 +94,13 @@
           "method": "wild",
           "locations": ["Route 29", "Route 30", "Route 31"],
           "time": ["morning", "day"],
-          "notes": "Appears during morning and daytime."
+          "notes": {
+            "en": "Appears during morning and daytime.",
+            "ja": "朝と昼に出現する。",
+            "fr": "Apparaît le matin et en journée.",
+            "de": "Erscheint morgens und tagsüber.",
+            "es": "Aparece por la mañana y durante el día."
+          }
         }
       ]
     },
@@ -82,7 +112,13 @@
           "method": "wild",
           "locations": ["Route 29", "Route 30", "Route 31", "Route 36"],
           "time": ["morning", "day"],
-          "notes": "Appears during morning and daytime."
+          "notes": {
+            "en": "Appears during morning and daytime.",
+            "ja": "朝と昼に出現する。",
+            "fr": "Apparaît le matin et en journée.",
+            "de": "Erscheint morgens und tagsüber.",
+            "es": "Aparece por la mañana y durante el día."
+          }
         }
       ]
     }
