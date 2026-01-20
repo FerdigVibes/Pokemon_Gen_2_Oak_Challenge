@@ -1,0 +1,128 @@
+{
+  "dex": 31,
+  "slug": "nidoking",
+
+  "names": {
+    "en": "Nidoking",
+    "ja": "ニドキング",
+    "fr": "Nidoking",
+    "de": "Nidoking",
+    "es": "Nidoking"
+  },
+
+  "types": ["poison", "ground"],
+
+  "evolution": {
+    "family": ["nidoranm", "nidorino", "nidoking"],
+    "stage": 3
+  },
+
+  "games": {
+    "red": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorino using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ニドリーノに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Nidorino avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Nidorino mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Nidorino con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorino with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "ニドリーノに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Nidorino avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Nidorino mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Nidorino con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "blue": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorino using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ニドリーノに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Nidorino avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Nidorino mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Nidorino con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "yellow": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_CERULEAN",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorino using a Moon Stone. Only two Moon Stones are available at this point: 1. Mt. Moon 1F near the Hiker. 2. Mt. Moon B2F near the fossils (hidden).",
+              "ja": "ニドリーノに「つきのいし」を使って進化。現時点で入手できるつきのいしは2つ：① おつきみやま1F（ハイカー付近）② おつきみやまB2F（化石付近・隠し）。",
+              "fr": "Faites évoluer Nidorino avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
+              "de": "Entwickle Nidorino mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
+              "es": "Evoluciona a Nidorino con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      }
+    ],
+
+    "gold": [
+      {
+        "sections": ["MOON_STONE_1"],
+        "availability": {
+          "afterSection": "BEFORE_MAHOGANY",
+          "excludeDex": [31]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Nidorino using a Moon Stone. A Moon Stone can be found in Tohjo Falls east of New Bark Town.",
+              "ja": "ニドリーノに「つきのいし」を使って進化。つきのいしはワカバタウン東のトージョウのたきで入手できる。",
+              "fr": "Faites évoluer Nidorino avec une Pierre Lune. Une Pierre Lune se trouve aux Chutes Tohjo à l’est de Bourg Geon.",
+              "de": "Entwickle Nidorino mit einem Mondstein. Ein Mondstein befindet sich in den Tohjo-Fällen östlich von Neuborkia.",
+              "es": "Evoluciona a Nidorino con una Piedra Lunar. La Piedra Lunar se encuentra en las Cataratas Tohjo al este de Pueblo Primavera."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
