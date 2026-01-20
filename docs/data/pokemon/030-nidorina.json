@@ -25,7 +25,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Nidoran♀ at level 16."
+          "notes": {
+            "en": "Evolves from Nidoran♀ at level 16.",
+            "ja": "ニドラン♀がレベル16で進化する。",
+            "fr": "Évolue de Nidoran♀ au niveau 16.",
+            "de": "Entwickelt sich aus Nidoran♀ auf Level 16.",
+            "es": "Evoluciona de Nidoran♀ al nivel 16."
+          }
         }
       ]
     },
@@ -35,7 +41,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Nidoran♀ at level 16."
+          "notes": {
+            "en": "Evolves from Nidoran♀ at level 16.",
+            "ja": "ニドラン♀がレベル16で進化する。",
+            "fr": "Évolue de Nidoran♀ au niveau 16.",
+            "de": "Entwickelt sich aus Nidoran♀ auf Level 16.",
+            "es": "Evoluciona de Nidoran♀ al nivel 16."
+          }
         }
       ]
     },
@@ -45,7 +57,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Nidoran♀ at level 16."
+          "notes": {
+            "en": "Evolves from Nidoran♀ at level 16.",
+            "ja": "ニドラン♀がレベル16で進化する。",
+            "fr": "Évolue de Nidoran♀ au niveau 16.",
+            "de": "Entwickelt sich aus Nidoran♀ auf Level 16.",
+            "es": "Evoluciona de Nidoran♀ al nivel 16."
+          }
         }
       ]
     },
@@ -55,7 +73,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Nidoran♀ at level 16."
+          "notes": {
+            "en": "Evolves from Nidoran♀ at level 16.",
+            "ja": "ニドラン♀がレベル16で進化する。",
+            "fr": "Évolue de Nidoran♀ au niveau 16.",
+            "de": "Entwickelt sich aus Nidoran♀ auf Level 16.",
+            "es": "Evoluciona de Nidoran♀ al nivel 16."
+          }
         }
       ]
     },
@@ -65,7 +89,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Nidoran♀ at level 16."
+          "notes": {
+            "en": "Evolves from Nidoran♀ at level 16.",
+            "ja": "ニドラン♀がレベル16で進化する。",
+            "fr": "Évolue de Nidoran♀ au niveau 16.",
+            "de": "Entwickelt sich aus Nidoran♀ auf Level 16.",
+            "es": "Evoluciona de Nidoran♀ al nivel 16."
+          }
         }
       ]
     },
@@ -75,10 +105,17 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Nidoran♀ at level 16."
+          "notes": {
+            "en": "Evolves from Nidoran♀ at level 16.",
+            "ja": "ニドラン♀がレベル16で進化する。",
+            "fr": "Évolue de Nidoran♀ au niveau 16.",
+            "de": "Entwickelt sich aus Nidoran♀ auf Level 16.",
+            "es": "Evoluciona de Nidoran♀ al nivel 16."
+          }
         }
       ]
     }
   }
 }
+
 
