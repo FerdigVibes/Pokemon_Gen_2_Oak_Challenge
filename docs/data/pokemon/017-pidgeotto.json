@@ -25,7 +25,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgey at level 18."
+          "notes": {
+            "en": "Evolves from Pidgey at level 18.",
+            "ja": "ポッポがレベル18で進化する。",
+            "fr": "Évolue de Roucool au niveau 18.",
+            "de": "Entwickelt sich aus Taubsi auf Level 18.",
+            "es": "Evoluciona de Pidgey al nivel 18."
+          }
         }
       ]
     },
@@ -35,7 +41,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgey at level 18."
+          "notes": {
+            "en": "Evolves from Pidgey at level 18.",
+            "ja": "ポッポがレベル18で進化する。",
+            "fr": "Évolue de Roucool au niveau 18.",
+            "de": "Entwickelt sich aus Taubsi auf Level 18.",
+            "es": "Evoluciona de Pidgey al nivel 18."
+          }
         }
       ]
     },
@@ -46,11 +58,23 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Rare 1% encounter rate."
+          "notes": {
+            "en": "Rare 1% encounter rate.",
+            "ja": "出現率1%のレアなポケモン。",
+            "fr": "Rencontre rare avec un taux de 1 %.",
+            "de": "Seltene Begegnung mit einer Rate von 1 %.",
+            "es": "Encuentro raro con una probabilidad del 1 %."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgey at level 18."
+          "notes": {
+            "en": "Evolves from Pidgey at level 18.",
+            "ja": "ポッポがレベル18で進化する。",
+            "fr": "Évolue de Roucool au niveau 18.",
+            "de": "Entwickelt sich aus Taubsi auf Level 18.",
+            "es": "Evoluciona de Pidgey al nivel 18."
+          }
         }
       ]
     },
@@ -60,7 +84,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgey at level 18."
+          "notes": {
+            "en": "Evolves from Pidgey at level 18.",
+            "ja": "ポッポがレベル18で進化する。",
+            "fr": "Évolue de Roucool au niveau 18.",
+            "de": "Entwickelt sich aus Taubsi auf Level 18.",
+            "es": "Evoluciona de Pidgey al nivel 18."
+          }
         }
       ]
     },
@@ -70,7 +100,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgey at level 18."
+          "notes": {
+            "en": "Evolves from Pidgey at level 18.",
+            "ja": "ポッポがレベル18で進化する。",
+            "fr": "Évolue de Roucool au niveau 18.",
+            "de": "Entwickelt sich aus Taubsi auf Level 18.",
+            "es": "Evoluciona de Pidgey al nivel 18."
+          }
         }
       ]
     },
@@ -80,7 +116,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgey at level 18."
+          "notes": {
+            "en": "Evolves from Pidgey at level 18.",
+            "ja": "ポッポがレベル18で進化する。",
+            "fr": "Évolue de Roucool au niveau 18.",
+            "de": "Entwickelt sich aus Taubsi auf Level 18.",
+            "es": "Evoluciona de Pidgey al nivel 18."
+          }
         }
       ]
     }
