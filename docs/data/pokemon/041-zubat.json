@@ -1,0 +1,135 @@
+{
+  "dex": 41,
+  "slug": "zubat",
+
+  "names": {
+    "en": "Zubat",
+    "ja": "ズバット",
+    "fr": "Nosferapti",
+    "de": "Zubat",
+    "es": "Zubat"
+  },
+
+  "types": ["poison", "flying"],
+
+  "evolution": {
+    "family": ["zubat", "golbat", "crobat"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に捕まえておくこと。",
+            "fr": "À attraper avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に捕まえておくこと。",
+            "fr": "À attraper avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に捕まえておくこと。",
+            "fr": "À attraper avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "notes": {
+            "en": "Common cave Pokémon found in Dark Cave.",
+            "ja": "くらやみのどうくつでよく出現するポケモン。",
+            "fr": "Pokémon de grotte courant dans la Grotte Noire.",
+            "de": "Häufiges Höhlen-Pokémon in der Dunkelhöhle.",
+            "es": "Pokémon común de cueva en la Cueva Oscura."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "notes": {
+            "en": "Common cave Pokémon found in Dark Cave.",
+            "ja": "くらやみのどうくつでよく出現するポケモン。",
+            "fr": "Pokémon de grotte courant dans la Grotte Noire.",
+            "de": "Häufiges Höhlen-Pokémon in der Dunkelhöhle.",
+            "es": "Pokémon común de cueva en la Cueva Oscura."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["night"],
+          "notes": {
+            "en": "Appears on Routes 30 and 31 only at night.",
+            "ja": "30ばんどうろ・31ばんどうろでは夜のみ出現。",
+            "fr": "Apparaît uniquement la nuit sur les Routes 30 et 31.",
+            "de": "Erscheint auf Route 30 und 31 nur nachts.",
+            "es": "Aparece en las Rutas 30 y 31 solo por la noche."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "notes": {
+            "en": "Available in Dark Cave at any time.",
+            "ja": "くらやみのどうくつでは時間帯を問わず出現。",
+            "fr": "Disponible dans la Grotte Noire à tout moment.",
+            "de": "In der Dunkelhöhle jederzeit anzutreffen.",
+            "es": "Disponible en la Cueva Oscura en cualquier momento."
+          }
+        }
+      ]
+    }
+  }
+}
