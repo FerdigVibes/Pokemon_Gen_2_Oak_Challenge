@@ -24,7 +24,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Spearow at level 20."
+          "notes": {
+            "en": "Evolves from Spearow at level 20.",
+            "ja": "オニスズメがレベル20で進化する。",
+            "fr": "Évolue de Piafabec au niveau 20.",
+            "de": "Entwickelt sich aus Habitak auf Level 20.",
+            "es": "Evoluciona de Spearow al nivel 20."
+          }
         }
       ]
     },
@@ -34,7 +40,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Spearow at level 20."
+          "notes": {
+            "en": "Evolves from Spearow at level 20.",
+            "ja": "オニスズメがレベル20で進化する。",
+            "fr": "Évolue de Piafabec au niveau 20.",
+            "de": "Entwickelt sich aus Habitak auf Level 20.",
+            "es": "Evoluciona de Spearow al nivel 20."
+          }
         }
       ]
     },
@@ -44,7 +56,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Spearow at level 20."
+          "notes": {
+            "en": "Evolves from Spearow at level 20.",
+            "ja": "オニスズメがレベル20で進化する。",
+            "fr": "Évolue de Piafabec au niveau 20.",
+            "de": "Entwickelt sich aus Habitak auf Level 20.",
+            "es": "Evoluciona de Spearow al nivel 20."
+          }
         }
       ]
     },
@@ -54,7 +72,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Spearow at level 20."
+          "notes": {
+            "en": "Evolves from Spearow at level 20.",
+            "ja": "オニスズメがレベル20で進化する。",
+            "fr": "Évolue de Piafabec au niveau 20.",
+            "de": "Entwickelt sich aus Habitak auf Level 20.",
+            "es": "Evoluciona de Spearow al nivel 20."
+          }
         }
       ]
     },
@@ -64,7 +88,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Spearow at level 20."
+          "notes": {
+            "en": "Evolves from Spearow at level 20.",
+            "ja": "オニスズメがレベル20で進化する。",
+            "fr": "Évolue de Piafabec au niveau 20.",
+            "de": "Entwickelt sich aus Habitak auf Level 20.",
+            "es": "Evoluciona de Spearow al nivel 20."
+          }
         }
       ]
     },
@@ -74,9 +104,16 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Spearow at level 20."
+          "notes": {
+            "en": "Evolves from Spearow at level 20.",
+            "ja": "オニスズメがレベル20で進化する。",
+            "fr": "Évolue de Piafabec au niveau 20.",
+            "de": "Entwickelt sich aus Habitak auf Level 20.",
+            "es": "Evoluciona de Spearow al nivel 20."
+          }
         }
       ]
     }
   }
 }
+
