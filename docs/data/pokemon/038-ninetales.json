@@ -1,0 +1,70 @@
+{
+  "dex": 38,
+  "slug": "ninetales",
+
+  "names": {
+    "en": "Ninetales",
+    "ja": "キュウコン",
+    "fr": "Feunard",
+    "de": "Vulnona",
+    "es": "Ninetales"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["vulpix", "ninetales"],
+    "stage": 2,
+    "evolvesFrom": "vulpix"
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Vulpix with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "ロコンに「ほのおのいし」を使って進化。タマムシデパート4Fで入手できる。",
+            "fr": "Faites évoluer Goupix avec une Pierre Feu (Centre Commercial de Céladopole, 4e étage).",
+            "de": "Entwickle Vulpix mit einem Feuerstein (Prismania City Kaufhaus, 4. Etage).",
+            "es": "Evoluciona a Vulpix con una Piedra Fuego (Centro Comercial de Ciudad Azulona, 4.ª planta)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Vulpix with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "ロコンに「ほのおのいし」を使って進化。タマムシデパート4Fで入手できる。",
+            "fr": "Faites évoluer Goupix avec une Pierre Feu (Centre Commercial de Céladopole, 4e étage).",
+            "de": "Entwickle Vulpix mit einem Feuerstein (Prismania City Kaufhaus, 4. Etage).",
+            "es": "Evoluciona a Vulpix con una Piedra Fuego (Centro Comercial de Ciudad Azulona, 4.ª planta)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["FIRE_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Vulpix with a Fire Stone. Show Bill’s grandfather a Vulpix on Route 25 to receive a Fire Stone.",
+            "ja": "ロコンに「ほのおのいし」を使って進化。25番道路でマサキの祖父にロコンを見せると、ほのおのいしがもらえる。",
+            "fr": "Faites évoluer Goupix avec une Pierre Feu. Montrez un Goupix au grand-père de Léo sur la Route 25 pour obtenir une Pierre Feu.",
+            "de": "Entwickle Vulpix mit einem Feuerstein. Zeige Bills Großvater auf Route 25 ein Vulpix, um einen Feuerstein zu erhalten.",
+            "es": "Evoluciona a Vulpix con una Piedra Fuego. Muestra un Vulpix al abuelo de Bill en la Ruta 25 para recibir una Piedra Fuego."
+          }
+        }
+      ]
+    }
+  }
+}
