@@ -24,7 +24,13 @@
         {
           "method": "wild",
           "locations": ["Route 2", "Viridian Forest"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     },
@@ -35,7 +41,13 @@
         {
           "method": "wild",
           "locations": ["Route 2", "Viridian Forest"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     },
@@ -46,7 +58,13 @@
         {
           "method": "wild",
           "locations": ["Route 2", "Viridian Forest"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     },
@@ -58,7 +76,13 @@
           "method": "wild",
           "locations": ["Route 30", "Route 31"],
           "time": ["morning", "day"],
-          "notes": "Common early Johto Pokémon."
+          "notes": {
+            "en": "Common early Johto Pokémon.",
+            "ja": "ジョウト地方序盤によく出現するポケモン。",
+            "fr": "Pokémon courant du début de Johto.",
+            "de": "Häufiges Pokémon zu Beginn von Johto.",
+            "es": "Pokémon común al inicio de Johto."
+          }
         }
       ]
     },
@@ -68,9 +92,18 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Breed Metapod/Butterfree", "Bug Catching Contest"],
+          "locations": [
+            "Breed Metapod/Butterfree",
+            "Bug Catching Contest"
+          ],
           "time": ["morning", "day", "night"],
-          "notes": "Bug Catching Contest is held every Tuesday, Thursday, and Saturday in the National Park north of Goldenrod City"
+          "notes": {
+            "en": "Available via breeding or during the Bug Catching Contest held every Tuesday, Thursday, and Saturday in the National Park.",
+            "ja": "メタモン以外のトランセルやバタフリーを育てるか、毎週火・木・土に行われるむしとり大会で入手可能。",
+            "fr": "Disponible par reproduction ou lors du Concours de Capture de Bugs, organisé les mardis, jeudis et samedis au Parc Naturel.",
+            "de": "Erhältlich durch Zucht oder beim Käferturnier, das dienstags, donnerstags und samstags im Nationalpark stattfindet.",
+            "es": "Disponible mediante crianza o durante el Concurso de Captura de Bichos, que se celebra los martes, jueves y sábados en el Parque Nacional."
+          }
         }
       ]
     },
@@ -82,7 +115,13 @@
           "method": "wild",
           "locations": ["Route 30", "Route 31"],
           "time": ["morning", "day"],
-          "notes": "Common early Johto Pokémon."
+          "notes": {
+            "en": "Common early Johto Pokémon.",
+            "ja": "ジョウト地方序盤によく出現するポケモン。",
+            "fr": "Pokémon courant du début de Johto.",
+            "de": "Häufiges Pokémon zu Beginn von Johto.",
+            "es": "Pokémon común al inicio de Johto."
+          }
         }
       ]
     }
