@@ -1,0 +1,118 @@
+{
+  "dex": 42,
+  "slug": "golbat",
+
+  "names": {
+    "en": "Golbat",
+    "ja": "ゴルバット",
+    "fr": "Nosferalto",
+    "de": "Golbat",
+    "es": "Golbat"
+  },
+
+  "types": ["poison", "flying"],
+
+  "evolution": {
+    "family": ["zubat", "golbat", "crobat"],
+    "stage": 2,
+    "evolvesFrom": "zubat"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Zubat at level 22.",
+            "ja": "ズバットがレベル22で進化する。",
+            "fr": "Évolue de Nosferapti au niveau 22.",
+            "de": "Entwickelt sich aus Zubat auf Level 22.",
+            "es": "Evoluciona de Zubat al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Zubat at level 22.",
+            "ja": "ズバットがレベル22で進化する。",
+            "fr": "Évolue de Nosferapti au niveau 22.",
+            "de": "Entwickelt sich aus Zubat auf Level 22.",
+            "es": "Evoluciona de Zubat al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Zubat at level 22.",
+            "ja": "ズバットがレベル22で進化する。",
+            "fr": "Évolue de Nosferapti au niveau 22.",
+            "de": "Entwickelt sich aus Zubat auf Level 22.",
+            "es": "Evoluciona de Zubat al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Zubat at level 22.",
+            "ja": "ズバットがレベル22で進化する。",
+            "fr": "Évolue de Nosferapti au niveau 22.",
+            "de": "Entwickelt sich aus Zubat auf Level 22.",
+            "es": "Evoluciona de Zubat al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Zubat at level 22.",
+            "ja": "ズバットがレベル22で進化する。",
+            "fr": "Évolue de Nosferapti au niveau 22.",
+            "de": "Entwickelt sich aus Zubat auf Level 22.",
+            "es": "Evoluciona de Zubat al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Zubat at level 22.",
+            "ja": "ズバットがレベル22で進化する。",
+            "fr": "Évolue de Nosferapti au niveau 22.",
+            "de": "Entwickelt sich aus Zubat auf Level 22.",
+            "es": "Evoluciona de Zubat al nivel 22."
+          }
+        }
+      ]
+    }
+  }
+}
