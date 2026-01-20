@@ -1,0 +1,76 @@
+{
+  "dex": 37,
+  "slug": "vulpix",
+
+  "names": {
+    "en": "Vulpix",
+    "ja": "ロコン",
+    "fr": "Goupix",
+    "de": "Vulpix",
+    "es": "Vulpix"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["vulpix", "ninetales"],
+    "stage": 1
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7", "Route 8"],
+          "notes": {
+            "en": "Exclusive to Pokémon Blue. Found on Routes 7 and 8.",
+            "ja": "ポケットモンスター青限定。7番道路と8番道路に出現する。",
+            "fr": "Exclusif à Pokémon Bleu. Se trouve sur les Routes 7 et 8.",
+            "de": "Exklusiv in Pokémon Blau. Erscheint auf Route 7 und 8.",
+            "es": "Exclusivo de Pokémon Azul. Aparece en las Rutas 7 y 8."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "cost": {
+            "coins": 1000
+          },
+          "notes": {
+            "en": "Available at the Celadon Game Corner for 1,000 Coins.",
+            "ja": "タマムシゲームコーナーでコイン1000枚と交換できる。",
+            "fr": "Disponible au Casino de Céladopole pour 1 000 jetons.",
+            "de": "Im Spielcasino von Prismania City für 1.000 Münzen erhältlich.",
+            "es": "Disponible en el Casino de Ciudad Azulona por 1.000 fichas."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 36"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Rare encounter on Route 36 during the morning and daytime.",
+            "ja": "36番道路に朝と昼のみまれに出現する。",
+            "fr": "Rencontre rare sur la Route 36 le matin et en journée.",
+            "de": "Seltene Begegnung auf Route 36 am Morgen und tagsüber.",
+            "es": "Encuentro raro en la Ruta 36 por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
