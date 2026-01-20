@@ -35,6 +35,17 @@ function getPokemonTimeAvailability(gameData) {
   );
 }
 
+function isAvailableToday(entry) {
+  if (!entry?.obtain) return true;
+
+  const { day } = getGameTime();
+
+  return entry.obtain.some(o => {
+    if (!o.days) return true; // If no restriction, it's always available
+    return o.days.includes(day);
+  });
+}
+
 function hasTimeOrDayRestriction(entry) {
   if (!entry?.obtain) return false;
   return entry.obtain.some(o =>
@@ -355,6 +366,11 @@ export function renderSections({ game, pokemon }) {
       const entry =
         entries.find(e => e.sections?.includes(sectionId)) ??
         entries[0];
+
+      const isAvailable = isAvailableToday(entry);
+      if (isAvailable) {
+        row.classList.add('is-available-today');
+      }
     
       // 4️⃣ AVAILABILITY
       const availableNow = !caught && isPokemonAvailable(entry);
