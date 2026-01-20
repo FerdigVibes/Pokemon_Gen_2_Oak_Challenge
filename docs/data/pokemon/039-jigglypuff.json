@@ -1,0 +1,124 @@
+{
+  "dex": 39,
+  "slug": "jigglypuff",
+
+  "names": {
+    "en": "Jigglypuff",
+    "ja": "プリン",
+    "fr": "Rondoudou",
+    "de": "Pummeluff",
+    "es": "Jigglypuff"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["igglybuff", "jigglypuff", "wigglytuff"],
+    "stage": 2,
+    "evolvesTo": "wigglytuff"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 3"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に必ず捕まえよう。",
+            "fr": "À attraper avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 3"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に必ず捕まえよう。",
+            "fr": "À attraper avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 3"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に必ず捕まえよう。",
+            "fr": "À attraper avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 46"],
+          "notes": {
+            "en": "Found on Route 46.",
+            "ja": "46番道路に出現する。",
+            "fr": "Se trouve sur la Route 46.",
+            "de": "Erscheint auf Route 46.",
+            "es": "Se encuentra en la Ruta 46."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 46"],
+          "notes": {
+            "en": "Found on Route 46.",
+            "ja": "46番道路に出現する。",
+            "fr": "Se trouve sur la Route 46.",
+            "de": "Erscheint auf Route 46.",
+            "es": "Se encuentra en la Ruta 46."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 34", "Route 35"],
+          "notes": {
+            "en": "Found on Routes 34 and 35.",
+            "ja": "34番道路と35番道路に出現する。",
+            "fr": "Se trouve sur les Routes 34 et 35.",
+            "de": "Erscheint auf Route 34 und 35.",
+            "es": "Se encuentra en las Rutas 34 y 35."
+          }
+        }
+      ]
+    }
+  }
+}
