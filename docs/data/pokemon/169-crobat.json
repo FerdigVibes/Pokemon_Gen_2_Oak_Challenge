@@ -1,0 +1,73 @@
+{
+  "dex": 169,
+  "slug": "crobat",
+
+  "names": {
+    "en": "Crobat",
+    "ja": "クロバット",
+    "fr": "Nostenfer",
+    "de": "Iksbat",
+    "es": "Crobat"
+  },
+
+  "types": ["poison", "flying"],
+
+  "evolution": {
+    "family": ["zubat", "golbat", "crobat"],
+    "stage": 3,
+    "evolvesFrom": "golbat"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "conditions": ["high-happiness"],
+          "notes": {
+            "en": "Evolves from Golbat when leveled up with high happiness.",
+            "ja": "なつき度が高い状態でレベルアップするとゴルバットから進化する。",
+            "fr": "Évolue de Nosferalto en montant de niveau avec un bonheur élevé.",
+            "de": "Entwickelt sich aus Golbat bei einem Levelaufstieg mit hoher Freundschaft.",
+            "es": "Evoluciona de Golbat al subir de nivel con alta amistad."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "conditions": ["high-happiness"],
+          "notes": {
+            "en": "Evolves from Golbat when leveled up with high happiness.",
+            "ja": "なつき度が高い状態でレベルアップするとゴルバットから進化する。",
+            "fr": "Évolue de Nosferalto en montant de niveau avec un bonheur élevé.",
+            "de": "Entwickelt sich aus Golbat bei einem Levelaufstieg mit hoher Freundschaft.",
+            "es": "Evoluciona de Golbat al subir de nivel con alta amistad."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "conditions": ["high-happiness"],
+          "notes": {
+            "en": "Evolves from Golbat when leveled up with high happiness.",
+            "ja": "なつき度が高い状態でレベルアップするとゴルバットから進化する。",
+            "fr": "Évolue de Nosferalto en montant de niveau avec un bonheur élevé.",
+            "de": "Entwickelt sich aus Golbat bei einem Levelaufstieg mit hoher Freundschaft.",
+            "es": "Evoluciona de Golbat al subir de nivel con alta amistad."
+          }
+        }
+      ]
+    }
+  }
+}
