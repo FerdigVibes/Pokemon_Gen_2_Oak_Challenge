@@ -24,7 +24,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgeotto at level 36."
+          "notes": {
+            "en": "Evolves from Pidgeotto at level 36.",
+            "ja": "ピジョンがレベル36で進化する。",
+            "fr": "Évolue de Roucoups au niveau 36.",
+            "de": "Entwickelt sich aus Tauboga auf Level 36.",
+            "es": "Evoluciona de Pidgeotto al nivel 36."
+          }
         }
       ]
     },
@@ -34,7 +40,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgeotto at level 36."
+          "notes": {
+            "en": "Evolves from Pidgeotto at level 36.",
+            "ja": "ピジョンがレベル36で進化する。",
+            "fr": "Évolue de Roucoups au niveau 36.",
+            "de": "Entwickelt sich aus Tauboga auf Level 36.",
+            "es": "Evoluciona de Pidgeotto al nivel 36."
+          }
         }
       ]
     },
@@ -44,7 +56,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgeotto at level 36."
+          "notes": {
+            "en": "Evolves from Pidgeotto at level 36.",
+            "ja": "ピジョンがレベル36で進化する。",
+            "fr": "Évolue de Roucoups au niveau 36.",
+            "de": "Entwickelt sich aus Tauboga auf Level 36.",
+            "es": "Evoluciona de Pidgeotto al nivel 36."
+          }
         }
       ]
     },
@@ -54,7 +72,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgeotto at level 36."
+          "notes": {
+            "en": "Evolves from Pidgeotto at level 36.",
+            "ja": "ピジョンがレベル36で進化する。",
+            "fr": "Évolue de Roucoups au niveau 36.",
+            "de": "Entwickelt sich aus Tauboga auf Level 36.",
+            "es": "Evoluciona de Pidgeotto al nivel 36."
+          }
         }
       ]
     },
@@ -64,7 +88,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgeotto at level 36."
+          "notes": {
+            "en": "Evolves from Pidgeotto at level 36.",
+            "ja": "ピジョンがレベル36で進化する。",
+            "fr": "Évolue de Roucoups au niveau 36.",
+            "de": "Entwickelt sich aus Tauboga auf Level 36.",
+            "es": "Evoluciona de Pidgeotto al nivel 36."
+          }
         }
       ]
     },
@@ -74,9 +104,16 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Pidgeotto at level 36."
+          "notes": {
+            "en": "Evolves from Pidgeotto at level 36.",
+            "ja": "ピジョンがレベル36で進化する。",
+            "fr": "Évolue de Roucoups au niveau 36.",
+            "de": "Entwickelt sich aus Tauboga auf Level 36.",
+            "es": "Evoluciona de Pidgeotto al nivel 36."
+          }
         }
       ]
     }
   }
 }
+
