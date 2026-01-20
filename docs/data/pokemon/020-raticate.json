@@ -24,7 +24,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Rattata at level 20."
+          "notes": {
+            "en": "Evolves from Rattata at level 20.",
+            "ja": "コラッタがレベル20で進化する。",
+            "fr": "Évolue de Rattata au niveau 20.",
+            "de": "Entwickelt sich aus Rattfratz auf Level 20.",
+            "es": "Evoluciona de Rattata al nivel 20."
+          }
         }
       ]
     },
@@ -34,7 +40,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Rattata at level 20."
+          "notes": {
+            "en": "Evolves from Rattata at level 20.",
+            "ja": "コラッタがレベル20で進化する。",
+            "fr": "Évolue de Rattata au niveau 20.",
+            "de": "Entwickelt sich aus Rattfratz auf Level 20.",
+            "es": "Evoluciona de Rattata al nivel 20."
+          }
         }
       ]
     },
@@ -44,7 +56,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Rattata at level 20."
+          "notes": {
+            "en": "Evolves from Rattata at level 20.",
+            "ja": "コラッタがレベル20で進化する。",
+            "fr": "Évolue de Rattata au niveau 20.",
+            "de": "Entwickelt sich aus Rattfratz auf Level 20.",
+            "es": "Evoluciona de Rattata al nivel 20."
+          }
         }
       ]
     },
@@ -54,7 +72,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Rattata at level 20."
+          "notes": {
+            "en": "Evolves from Rattata at level 20.",
+            "ja": "コラッタがレベル20で進化する。",
+            "fr": "Évolue de Rattata au niveau 20.",
+            "de": "Entwickelt sich aus Rattfratz auf Level 20.",
+            "es": "Evoluciona de Rattata al nivel 20."
+          }
         }
       ]
     },
@@ -64,7 +88,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Rattata at level 20."
+          "notes": {
+            "en": "Evolves from Rattata at level 20.",
+            "ja": "コラッタがレベル20で進化する。",
+            "fr": "Évolue de Rattata au niveau 20.",
+            "de": "Entwickelt sich aus Rattfratz auf Level 20.",
+            "es": "Evoluciona de Rattata al nivel 20."
+          }
         }
       ]
     },
@@ -74,9 +104,17 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Rattata at level 20."
+          "notes": {
+            "en": "Evolves from Rattata at level 20.",
+            "ja": "コラッタがレベル20で進化する。",
+            "fr": "Évolue de Rattata au niveau 20.",
+            "de": "Entwickelt sich aus Rattfratz auf Level 20.",
+            "es": "Evoluciona de Rattata al nivel 20."
+          }
         }
       ]
     }
   }
 }
+
+
