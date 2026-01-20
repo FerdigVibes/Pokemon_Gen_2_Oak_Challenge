@@ -1,0 +1,102 @@
+{
+  "dex": 44,
+  "slug": "gloom",
+
+  "names": {
+    "en": "Gloom",
+    "ja": "クサイハナ",
+    "fr": "Ortide",
+    "de": "Duflor",
+    "es": "Gloom"
+  },
+
+  "types": ["grass", "poison"],
+
+  "evolution": {
+    "family": ["oddish", "gloom", "vileplume", "bellossom"],
+    "stage": 2,
+    "evolvesFrom": "oddish"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Oddish at level 21.",
+            "ja": "ナゾノクサがレベル21で進化する。",
+            "fr": "Évolue de Mystherbe au niveau 21.",
+            "de": "Entwickelt sich aus Myrapla auf Level 21.",
+            "es": "Evoluciona de Oddish al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Oddish at level 21.",
+            "ja": "ナゾノクサがレベル21で進化する。",
+            "fr": "Évolue de Mystherbe au niveau 21.",
+            "de": "Entwickelt sich aus Myrapla auf Level 21.",
+            "es": "Evoluciona de Oddish al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Oddish at level 21.",
+            "ja": "ナゾノクサがレベル21で進化する。",
+            "fr": "Évolue de Mystherbe au niveau 21.",
+            "de": "Entwickelt sich aus Myrapla auf Level 21.",
+            "es": "Evoluciona de Oddish al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Oddish at level 21.",
+            "ja": "ナゾノクサがレベル21で進化する。",
+            "fr": "Évolue de Mystherbe au niveau 21.",
+            "de": "Entwickelt sich aus Myrapla auf Level 21.",
+            "es": "Evoluciona de Oddish al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Oddish at level 21.",
+            "ja": "ナゾノクサがレベル21で進化する。",
+            "fr": "Évolue de Mystherbe au niveau 21.",
+            "de": "Entwickelt sich aus Myrapla auf Level 21.",
+            "es": "Evoluciona de Oddish al nivel 21."
+          }
+        }
+      ]
+    }
+  }
+}
