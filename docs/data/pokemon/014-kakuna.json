@@ -26,11 +26,23 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Can be encountered wild at a low rate."
+          "notes": {
+            "en": "Can be encountered wild at a low rate.",
+            "ja": "トキワの森で低確率で出現する。",
+            "fr": "Peut être rencontré à l’état sauvage à un faible taux.",
+            "de": "Kann in freier Wildbahn mit niedriger Rate angetroffen werden.",
+            "es": "Puede encontrarse en estado salvaje con una probabilidad baja."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Weedle at level 7."
+          "notes": {
+            "en": "Evolves from Weedle at level 7.",
+            "ja": "ビードルがレベル7で進化する。",
+            "fr": "Évolue d’Aspicot au niveau 7.",
+            "de": "Entwickelt sich aus Hornliu auf Level 7.",
+            "es": "Evoluciona de Weedle al nivel 7."
+          }
         }
       ]
     },
@@ -41,11 +53,23 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Can be encountered wild at a low rate."
+          "notes": {
+            "en": "Can be encountered wild at a low rate.",
+            "ja": "トキワの森で低確率で出現する。",
+            "fr": "Peut être rencontré à l’état sauvage à un faible taux.",
+            "de": "Kann in freier Wildbahn mit niedriger Rate angetroffen werden.",
+            "es": "Puede encontrarse en estado salvaje con una probabilidad baja."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Weedle at level 7."
+          "notes": {
+            "en": "Evolves from Weedle at level 7.",
+            "ja": "ビードルがレベル7で進化する。",
+            "fr": "Évolue d’Aspicot au niveau 7.",
+            "de": "Entwickelt sich aus Hornliu auf Level 7.",
+            "es": "Evoluciona de Weedle al nivel 7."
+          }
         }
       ]
     },
@@ -57,11 +81,23 @@
           "method": "wild",
           "locations": ["National Park"],
           "conditions": ["bug-catching-contest"],
-          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+          "notes": {
+            "en": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday, and Saturday.",
+            "ja": "毎週火・木・土に行われるむしとり大会でのみ入手可能。",
+            "fr": "Disponible uniquement lors du Concours de Capture de Bugs les mardis, jeudis et samedis.",
+            "de": "Nur während des Käferturniers am Dienstag, Donnerstag und Samstag erhältlich.",
+            "es": "Solo se puede obtener durante el Concurso de Captura de Bichos los martes, jueves y sábados."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Weedle at level 7."
+          "notes": {
+            "en": "Evolves from Weedle at level 7.",
+            "ja": "ビードルがレベル7で進化する。",
+            "fr": "Évolue d’Aspicot au niveau 7.",
+            "de": "Entwickelt sich aus Hornliu auf Level 7.",
+            "es": "Evoluciona de Weedle al nivel 7."
+          }
         }
       ]
     },
@@ -73,11 +109,23 @@
           "method": "wild",
           "locations": ["Route 30", "Route 31"],
           "time": ["morning", "day"],
-          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+          "notes": {
+            "en": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday, and Saturday.",
+            "ja": "毎週火・木・土に行われるむしとり大会でのみ入手可能。",
+            "fr": "Disponible uniquement lors du Concours de Capture de Bugs les mardis, jeudis et samedis.",
+            "de": "Nur während des Käferturniers am Dienstag, Donnerstag und Samstag erhältlich.",
+            "es": "Solo se puede obtener durante el Concurso de Captura de Bichos los martes, jueves y sábados."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Weedle at level 7."
+          "notes": {
+            "en": "Evolves from Weedle at level 7.",
+            "ja": "ビードルがレベル7で進化する。",
+            "fr": "Évolue d’Aspicot au niveau 7.",
+            "de": "Entwickelt sich aus Hornliu auf Level 7.",
+            "es": "Evoluciona de Weedle al nivel 7."
+          }
         }
       ]
     },
@@ -87,9 +135,16 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Weedle at level 7."
+          "notes": {
+            "en": "Evolves from Weedle at level 7.",
+            "ja": "ビードルがレベル7で進化する。",
+            "fr": "Évolue d’Aspicot au niveau 7.",
+            "de": "Entwickelt sich aus Hornliu auf Level 7.",
+            "es": "Evoluciona de Weedle al nivel 7."
+          }
         }
       ]
     }
   }
 }
+
