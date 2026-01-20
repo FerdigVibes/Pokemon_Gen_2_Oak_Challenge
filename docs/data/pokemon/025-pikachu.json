@@ -25,7 +25,13 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Uncommon wild encounter."
+          "notes": {
+            "en": "Uncommon wild encounter.",
+            "ja": "やや珍しい野生のポケモン。",
+            "fr": "Rencontre sauvage peu commune.",
+            "de": "Nicht sehr häufige wilde Begegnung.",
+            "es": "Encuentro salvaje poco común."
+          }
         }
       ]
     },
@@ -36,7 +42,13 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Uncommon wild encounter."
+          "notes": {
+            "en": "Uncommon wild encounter.",
+            "ja": "やや珍しい野生のポケモン。",
+            "fr": "Rencontre sauvage peu commune.",
+            "de": "Nicht sehr häufige wilde Begegnung.",
+            "es": "Encuentro salvaje poco común."
+          }
         }
       ]
     },
@@ -46,7 +58,13 @@
       "obtain": [
         {
           "method": "starter",
-          "notes": "Received from Professor Oak at the start of the game."
+          "notes": {
+            "en": "Received from Professor Oak at the start of the game.",
+            "ja": "ゲーム開始時にオーキド博士から受け取る。",
+            "fr": "Reçu du Professeur Chen au début du jeu.",
+            "de": "Zu Beginn des Spiels von Professor Eich erhalten.",
+            "es": "Recibido del Profesor Oak al comienzo del juego."
+          }
         }
       ]
     },
@@ -57,7 +75,13 @@
         {
           "method": "wild",
           "locations": ["Route 2"],
-          "notes": "Rare wild encounter."
+          "notes": {
+            "en": "Rare wild encounter.",
+            "ja": "低確率で出現する野生のポケモン。",
+            "fr": "Rencontre sauvage rare.",
+            "de": "Seltene wilde Begegnung.",
+            "es": "Encuentro salvaje raro."
+          }
         }
       ]
     },
@@ -68,7 +92,13 @@
         {
           "method": "wild",
           "locations": ["Route 2"],
-          "notes": "Rare wild encounter."
+          "notes": {
+            "en": "Rare wild encounter.",
+            "ja": "低確率で出現する野生のポケモン。",
+            "fr": "Rencontre sauvage rare.",
+            "de": "Seltene wilde Begegnung.",
+            "es": "Encuentro salvaje raro."
+          }
         }
       ]
     },
@@ -79,9 +109,16 @@
         {
           "method": "wild",
           "locations": ["Route 2"],
-          "notes": "Rare wild encounter."
+          "notes": {
+            "en": "Rare wild encounter.",
+            "ja": "低確率で出現する野生のポケモン。",
+            "fr": "Rencontre sauvage rare.",
+            "de": "Seltene wilde Begegnung.",
+            "es": "Encuentro salvaje raro."
+          }
         }
       ]
     }
   }
 }
+
