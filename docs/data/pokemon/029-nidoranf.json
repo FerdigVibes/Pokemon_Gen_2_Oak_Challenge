@@ -24,7 +24,13 @@
         {
           "method": "wild",
           "locations": ["Route 22"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     },
@@ -35,7 +41,13 @@
         {
           "method": "wild",
           "locations": ["Route 22"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     },
@@ -46,7 +58,13 @@
         {
           "method": "wild",
           "locations": ["Route 22"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     },
@@ -57,7 +75,13 @@
         {
           "method": "wild",
           "locations": ["Route 35", "Route 36"],
-          "notes": "Appears on routes near Goldenrod City."
+          "notes": {
+            "en": "Appears on routes near Goldenrod City.",
+            "ja": "コガネシティ周辺の道路に出現する。",
+            "fr": "Apparaît sur les routes près de Doublonville.",
+            "de": "Erscheint auf Routen in der Nähe von Dukatia City.",
+            "es": "Aparece en rutas cercanas a Ciudad Trigal."
+          }
         }
       ]
     },
@@ -68,7 +92,13 @@
         {
           "method": "wild",
           "locations": ["Route 35", "Route 36"],
-          "notes": "Appears on routes near Goldenrod City."
+          "notes": {
+            "en": "Appears on routes near Goldenrod City.",
+            "ja": "コガネシティ周辺の道路に出現する。",
+            "fr": "Apparaît sur les routes près de Doublonville.",
+            "de": "Erscheint auf Routen in der Nähe von Dukatia City.",
+            "es": "Aparece en rutas cercanas a Ciudad Trigal."
+          }
         }
       ]
     },
@@ -80,16 +110,29 @@
           "method": "wild",
           "locations": ["Route 35"],
           "conditions": ["swarm"],
-          "notes": "You need Fisherman Ralph (Route 32) to call you about a swarm."
+          "notes": {
+            "en": "You need Fisherman Ralph (Route 32) to call you about a swarm.",
+            "ja": "32番道路のつりびと・ラルフから大量発生の連絡を受ける必要がある。",
+            "fr": "Le Pêcheur Ralph (Route 32) doit vous appeler pour signaler une invasion.",
+            "de": "Angler Ralph (Route 32) muss dich über einen Schwarm informieren.",
+            "es": "El Pescador Ralph (Ruta 32) debe llamarte para avisar de una aparición masiva."
+          }
         },
         {
           "method": "wild",
           "locations": ["National Park"],
           "time": ["morning", "day"],
-          "notes": "Appears during morning and daytime."
+          "notes": {
+            "en": "Appears during morning and daytime.",
+            "ja": "朝と昼に出現する。",
+            "fr": "Apparaît le matin et en journée.",
+            "de": "Erscheint morgens und tagsüber.",
+            "es": "Aparece por la mañana y durante el día."
+          }
         }
       ]
     }
   }
 }
+
 
