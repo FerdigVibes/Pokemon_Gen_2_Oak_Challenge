@@ -24,7 +24,13 @@
         {
           "method": "wild",
           "locations": ["Route 1", "Route 2", "Route 22"],
-          "notes": "Very common early-route Pokémon."
+          "notes": {
+            "en": "Very common early-route Pokémon.",
+            "ja": "序盤の道路にとてもよく出現するポケモン。",
+            "fr": "Pokémon très commun des routes du début.",
+            "de": "Sehr häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon muy común de las primeras rutas."
+          }
         }
       ]
     },
@@ -35,7 +41,13 @@
         {
           "method": "wild",
           "locations": ["Route 1", "Route 2", "Route 22"],
-          "notes": "Very common early-route Pokémon."
+          "notes": {
+            "en": "Very common early-route Pokémon.",
+            "ja": "序盤の道路にとてもよく出現するポケモン。",
+            "fr": "Pokémon très commun des routes du début.",
+            "de": "Sehr häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon muy común de las primeras rutas."
+          }
         }
       ]
     },
@@ -46,7 +58,13 @@
         {
           "method": "wild",
           "locations": ["Route 1", "Route 2", "Route 22"],
-          "notes": "Very common early-route Pokémon."
+          "notes": {
+            "en": "Very common early-route Pokémon.",
+            "ja": "序盤の道路にとてもよく出現するポケモン。",
+            "fr": "Pokémon très commun des routes du début.",
+            "de": "Sehr häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon muy común de las primeras rutas."
+          }
         }
       ]
     },
@@ -55,15 +73,27 @@
       "sections": ["VIOLET_POKEMON"],
       "obtain": [
         {
-        "method": "wild",
-        "locations": ["Route 29", "Route 46", "Sprout Tower"],
-        "notes": "Common early-route Pokémon."
+          "method": "wild",
+          "locations": ["Route 29", "Route 46", "Sprout Tower"],
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         },
         {
           "method": "wild",
           "locations": ["Route 30", "Route 31"],
           "time": ["night"],
-          "notes": "Only appears at night on these routes."
+          "notes": {
+            "en": "Only appears at night on these routes.",
+            "ja": "これらの道路では夜のみ出現する。",
+            "fr": "Apparaît uniquement la nuit sur ces routes.",
+            "de": "Erscheint auf diesen Routen nur nachts.",
+            "es": "Solo aparece de noche en estas rutas."
+          }
         }
       ]
     },
@@ -72,15 +102,27 @@
       "sections": ["VIOLET_POKEMON"],
       "obtain": [
         {
-        "method": "wild",
-        "locations": ["Route 29", "Route 46", "Sprout Tower"],
-        "notes": "Common early-route Pokémon."
+          "method": "wild",
+          "locations": ["Route 29", "Route 46", "Sprout Tower"],
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         },
         {
           "method": "wild",
           "locations": ["Route 30", "Route 31"],
           "time": ["night"],
-          "notes": "Only appears at night on these routes."
+          "notes": {
+            "en": "Only appears at night on these routes.",
+            "ja": "これらの道路では夜のみ出現する。",
+            "fr": "Apparaît uniquement la nuit sur ces routes.",
+            "de": "Erscheint auf diesen Routen nur nachts.",
+            "es": "Solo aparece de noche en estas rutas."
+          }
         }
       ]
     },
@@ -91,7 +133,13 @@
         {
           "method": "wild",
           "locations": ["Route 29", "Route 46", "Sprout Tower"],
-          "notes": "Common early-route Pokémon."
+          "notes": {
+            "en": "Common early-route Pokémon.",
+            "ja": "序盤の道路によく出現するポケモン。",
+            "fr": "Pokémon commun des routes du début.",
+            "de": "Häufiges Pokémon auf frühen Routen.",
+            "es": "Pokémon común de las primeras rutas."
+          }
         }
       ]
     }
