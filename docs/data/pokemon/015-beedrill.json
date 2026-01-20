@@ -25,11 +25,23 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Rare wild encounter."
+          "notes": {
+            "en": "Rare wild encounter.",
+            "ja": "トキワの森で低確率で出現する。",
+            "fr": "Rencontre sauvage rare.",
+            "de": "Seltene wilde Begegnung.",
+            "es": "Encuentro salvaje poco común."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Kakuna at level 10."
+          "notes": {
+            "en": "Evolves from Kakuna at level 10.",
+            "ja": "コクーンがレベル10で進化する。",
+            "fr": "Évolue de Coconfort au niveau 10.",
+            "de": "Entwickelt sich aus Kokuna auf Level 10.",
+            "es": "Evoluciona de Kakuna al nivel 10."
+          }
         }
       ]
     },
@@ -40,11 +52,23 @@
         {
           "method": "wild",
           "locations": ["Viridian Forest"],
-          "notes": "Rare wild encounter."
+          "notes": {
+            "en": "Rare wild encounter.",
+            "ja": "トキワの森で低確率で出現する。",
+            "fr": "Rencontre sauvage rare.",
+            "de": "Seltene wilde Begegnung.",
+            "es": "Encuentro salvaje poco común."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Kakuna at level 10."
+          "notes": {
+            "en": "Evolves from Kakuna at level 10.",
+            "ja": "コクーンがレベル10で進化する。",
+            "fr": "Évolue de Coconfort au niveau 10.",
+            "de": "Entwickelt sich aus Kokuna auf Level 10.",
+            "es": "Evoluciona de Kakuna al nivel 10."
+          }
         }
       ]
     },
@@ -56,11 +80,23 @@
           "method": "wild",
           "locations": ["National Park"],
           "conditions": ["bug-catching-contest"],
-          "notes": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday and Saturday."
+          "notes": {
+            "en": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday, and Saturday.",
+            "ja": "毎週火・木・土に行われるむしとり大会でのみ入手可能。",
+            "fr": "Disponible uniquement lors du Concours de Capture de Bugs les mardis, jeudis et samedis.",
+            "de": "Nur während des Käferturniers am Dienstag, Donnerstag und Samstag erhältlich.",
+            "es": "Solo se puede obtener durante el Concurso de Captura de Bichos los martes, jueves y sábados."
+          }
         },
         {
           "method": "evolution",
-          "notes": "Evolves from Kakuna at level 10."
+          "notes": {
+            "en": "Evolves from Kakuna at level 10.",
+            "ja": "コクーンがレベル10で進化する。",
+            "fr": "Évolue de Coconfort au niveau 10.",
+            "de": "Entwickelt sich aus Kokuna auf Level 10.",
+            "es": "Evoluciona de Kakuna al nivel 10."
+          }
         }
       ]
     },
@@ -70,7 +106,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Kakuna at level 10."
+          "notes": {
+            "en": "Evolves from Kakuna at level 10.",
+            "ja": "コクーンがレベル10で進化する。",
+            "fr": "Évolue de Coconfort au niveau 10.",
+            "de": "Entwickelt sich aus Kokuna auf Level 10.",
+            "es": "Evoluciona de Kakuna al nivel 10."
+          }
         }
       ]
     },
@@ -80,9 +122,16 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Kakuna at level 10."
+          "notes": {
+            "en": "Evolves from Kakuna at level 10.",
+            "ja": "コクーンがレベル10で進化する。",
+            "fr": "Évolue de Coconfort au niveau 10.",
+            "de": "Entwickelt sich aus Kokuna auf Level 10.",
+            "es": "Evoluciona de Kakuna al nivel 10."
+          }
         }
       ]
     }
   }
 }
+
