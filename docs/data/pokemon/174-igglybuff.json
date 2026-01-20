@@ -1,0 +1,69 @@
+{
+  "dex": 174,
+  "slug": "igglybuff",
+
+  "names": {
+    "en": "Igglybuff",
+    "ja": "ププリン",
+    "fr": "Toudoudou",
+    "de": "Fluffeluff",
+    "es": "Igglybuff"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["igglybuff", "jigglypuff", "wigglytuff"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "notes": {
+            "en": "Breed Jigglypuff or Wigglytuff.",
+            "ja": "プリンまたはプクリンを育て屋に預けてタマゴを孵す。",
+            "fr": "Faire éclore un œuf en reproduisant Rondoudou ou Grodoudou.",
+            "de": "Züchte Pummeluff oder Knuddeluff.",
+            "es": "Cría a Jigglypuff o Wigglytuff."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "notes": {
+            "en": "Breed Jigglypuff or Wigglytuff.",
+            "ja": "プリンまたはプクリンを育て屋に預けてタマゴを孵す。",
+            "fr": "Faire éclore un œuf en reproduisant Rondoudou ou Grodoudou.",
+            "de": "Züchte Pummeluff oder Knuddeluff.",
+            "es": "Cría a Jigglypuff o Wigglytuff."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "notes": {
+            "en": "Breed Jigglypuff or Wigglytuff.",
+            "ja": "プリンまたはプクリンを育て屋に預けてタマゴを孵す。",
+            "fr": "Faire éclore un œuf en reproduisant Rondoudou ou Grodoudou.",
+            "de": "Züchte Pummeluff oder Knuddeluff.",
+            "es": "Cría a Jigglypuff o Wigglytuff."
+          }
+        }
+      ]
+    }
+  }
+}
