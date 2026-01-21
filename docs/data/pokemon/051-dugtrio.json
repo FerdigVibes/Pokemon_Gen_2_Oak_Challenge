@@ -1,0 +1,118 @@
+{
+  "dex": 51,
+  "slug": "dugtrio",
+
+  "names": {
+    "en": "Dugtrio",
+    "ja": "ダグトリオ",
+    "fr": "Triopikeur",
+    "de": "Digdrio",
+    "es": "Dugtrio"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["diglett", "dugtrio"],
+    "stage": 2,
+    "evolvesFrom": "diglett"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Diglett at level 26.",
+            "ja": "ディグダがレベル26で進化する。",
+            "fr": "Évolue de Taupiqueur au niveau 26.",
+            "de": "Entwickelt sich aus Digda auf Level 26.",
+            "es": "Evoluciona de Diglett al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Diglett at level 26.",
+            "ja": "ディグダがレベル26で進化する。",
+            "fr": "Évolue de Taupiqueur au niveau 26.",
+            "de": "Entwickelt sich aus Digda auf Level 26.",
+            "es": "Evoluciona de Diglett al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Diglett at level 26.",
+            "ja": "ディグダがレベル26で進化する。",
+            "fr": "Évolue de Taupiqueur au niveau 26.",
+            "de": "Entwickelt sich aus Digda auf Level 26.",
+            "es": "Evoluciona de Diglett al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Diglett at level 26.",
+            "ja": "ディグダがレベル26で進化する。",
+            "fr": "Évolue de Taupiqueur au niveau 26.",
+            "de": "Entwickelt sich aus Digda auf Level 26.",
+            "es": "Evoluciona de Diglett al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Diglett at level 26.",
+            "ja": "ディグダがレベル26で進化する。",
+            "fr": "Évolue de Taupiqueur au niveau 26.",
+            "de": "Entwickelt sich aus Digda auf Level 26.",
+            "es": "Evoluciona de Diglett al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Diglett at level 26.",
+            "ja": "ディグダがレベル26で進化する。",
+            "fr": "Évolue de Taupiqueur au niveau 26.",
+            "de": "Entwickelt sich aus Digda auf Level 26.",
+            "es": "Evoluciona de Diglett al nivel 26."
+          }
+        }
+      ]
+    }
+  }
+}
