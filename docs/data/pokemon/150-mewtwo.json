@@ -1,0 +1,72 @@
+{
+  "dex": 150,
+  "slug": "mewtwo",
+
+  "names": {
+    "en": "Mewtwo",
+    "ja": "ミュウツー",
+    "fr": "Mewtwo",
+    "de": "Mewtu",
+    "es": "Mewtwo"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["mewtwo"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["MEWTWO"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cerulean Cave"],
+          "notes": {
+            "en": "Found at the deepest level of Cerulean Cave after becoming Champion.",
+            "ja": "チャンピオンになった後、ハナダのどうくつ最深部に出現。",
+            "fr": "Se trouve au fond de la Caverne Azurée après être devenu Maître.",
+            "de": "Erscheint im tiefsten Bereich der Azuria-Höhle nach dem Sieg über die Pokémon-Liga.",
+            "es": "Se encuentra en lo más profundo de la Cueva Celeste tras convertirte en Campeón."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["MEWTWO"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cerulean Cave"],
+          "notes": {
+            "en": "Found at the deepest level of Cerulean Cave after becoming Champion.",
+            "ja": "チャンピオンになった後、ハナダのどうくつ最深部に出現。",
+            "fr": "Se trouve au fond de la Caverne Azurée après être devenu Maître.",
+            "de": "Erscheint im tiefsten Bereich der Azuria-Höhle nach dem Sieg über die Pokémon-Liga.",
+            "es": "Se encuentra en lo más profundo de la Cueva Celeste tras convertirte en Campeón."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_CAVE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cerulean Cave"],
+          "notes": {
+            "en": "Found at the deepest level of Cerulean Cave after becoming Champion.",
+            "ja": "チャンピオンになった後、ハナダのどうくつ最深部に出現。",
+            "fr": "Se trouve au fond de la Caverne Azurée après être devenu Maître.",
+            "de": "Erscheint im tiefsten Bereich der Azuria-Höhle nach dem Sieg über die Pokémon-Liga.",
+            "es": "Se encuentra en lo más profundo de la Cueva Celeste tras convertirte en Campeón."
+          }
+        }
+      ]
+    }
+  }
+}
