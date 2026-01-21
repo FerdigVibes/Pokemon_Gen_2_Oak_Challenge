@@ -1,0 +1,123 @@
+{
+  "dex": 50,
+  "slug": "diglett",
+
+  "names": {
+    "en": "Diglett",
+    "ja": "ディグダ",
+    "fr": "Taupiqueur",
+    "de": "Digda",
+    "es": "Diglett"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["diglett", "dugtrio"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Diglett's Cave"],
+          "notes": {
+            "en": "Catch before leaving Diglett's Cave.",
+            "ja": "ディグダのあなを出る前に捕まえておくこと。",
+            "fr": "À attraper avant de quitter la Cave Taupiqueur.",
+            "de": "Vor dem Verlassen der Digda-Höhle fangen.",
+            "es": "Atrápalo antes de salir de la Cueva Diglett."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Diglett's Cave"],
+          "notes": {
+            "en": "Catch before leaving Diglett's Cave.",
+            "ja": "ディグダのあなを出る前に捕まえておくこと。",
+            "fr": "À attraper avant de quitter la Cave Taupiqueur.",
+            "de": "Vor dem Verlassen der Digda-Höhle fangen.",
+            "es": "Atrápalo antes de salir de la Cueva Diglett."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Diglett's Cave"],
+          "notes": {
+            "en": "Catch before leaving Diglett's Cave.",
+            "ja": "ディグダのあなを出る前に捕まえておくこと。",
+            "fr": "À attraper avant de quitter la Cave Taupiqueur.",
+            "de": "Vor dem Verlassen der Digda-Höhle fangen.",
+            "es": "Atrápalo antes de salir de la Cueva Diglett."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Diglett's Cave"],
+          "notes": {
+            "en": "Found inside Diglett's Cave.",
+            "ja": "ディグダのあなで出現する。",
+            "fr": "Se trouve dans la Cave Taupiqueur.",
+            "de": "In der Digda-Höhle anzutreffen.",
+            "es": "Se encuentra en la Cueva Diglett."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Diglett's Cave"],
+          "notes": {
+            "en": "Found inside Diglett's Cave.",
+            "ja": "ディグダのあなで出現する。",
+            "fr": "Se trouve dans la Cave Taupiqueur.",
+            "de": "In der Digda-Höhle anzutreffen.",
+            "es": "Se encuentra en la Cueva Diglett."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Diglett's Cave"],
+          "notes": {
+            "en": "Found inside Diglett's Cave.",
+            "ja": "ディグダのあなで出現する。",
+            "fr": "Se trouve dans la Cave Taupiqueur.",
+            "de": "In der Digda-Höhle anzutreffen.",
+            "es": "Se encuentra en la Cueva Diglett."
+          }
+        }
+      ]
+    }
+  }
+}
