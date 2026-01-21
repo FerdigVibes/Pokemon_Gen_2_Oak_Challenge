@@ -1,0 +1,139 @@
+{
+  "dex": 48,
+  "slug": "venonat",
+
+  "names": {
+    "en": "Venonat",
+    "ja": "コンパン",
+    "fr": "Mimitoss",
+    "de": "Bluzuk",
+    "es": "Venonat"
+  },
+
+  "types": ["bug", "poison"],
+
+  "evolution": {
+    "family": ["venonat", "venomoth"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": [
+            "Safari Zone (Area 1)",
+            "Safari Zone (Area 4)",
+            "Route 12",
+            "Route 13",
+            "Route 14",
+            "Route 15"
+          ],
+          "notes": {
+            "en": "Available in the Safari Zone and on routes south of Lavender Town.",
+            "ja": "サファリゾーンやシオンタウン南の道路で出現する。",
+            "fr": "Disponible dans le Parc Safari et sur les routes au sud de Lavanville.",
+            "de": "Erscheint in der Safari-Zone und auf den Routen südlich von Lavandia.",
+            "es": "Aparece en la Zona Safari y en las rutas al sur de Pueblo Lavanda."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": [
+            "Safari Zone (Area 1)",
+            "Safari Zone (Area 4)",
+            "Route 12",
+            "Route 13",
+            "Route 14",
+            "Route 15"
+          ],
+          "notes": {
+            "en": "Available in the Safari Zone and on routes south of Lavender Town.",
+            "ja": "サファリゾーンやシオンタウン南の道路で出現する。",
+            "fr": "Disponible dans le Parc Safari et sur les routes au sud de Lavanville.",
+            "de": "Erscheint in der Safari-Zone und auf den Routen südlich von Lavandia.",
+            "es": "Aparece en la Zona Safari y en las rutas al sur de Pueblo Lavanda."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 24", "Route 25"],
+          "notes": {
+            "en": "Found north of Cerulean City.",
+            "ja": "ハナダシティ北の道路で出現する。",
+            "fr": "Trouvé au nord d’Azuria.",
+            "de": "Nördlich von Azuria City anzutreffen.",
+            "es": "Se encuentra al norte de Ciudad Celeste."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "conditions": ["bug-catching-contest"],
+          "notes": {
+            "en": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday, and Saturday.",
+            "ja": "火・木・土に行われるむしとりたいかいでのみ入手可能。",
+            "fr": "Disponible uniquement lors du Concours de Capture de Pokémon les mardi, jeudi et samedi.",
+            "de": "Nur während des Käferturniers am Dienstag, Donnerstag und Samstag erhältlich.",
+            "es": "Solo se puede obtener durante el Concurso de Captura los martes, jueves y sábados."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "conditions": ["bug-catching-contest"],
+          "notes": {
+            "en": "Only obtainable during the Bug-Catching Contest on Tuesday, Thursday, and Saturday.",
+            "ja": "火・木・土に行われるむしとりたいかいでのみ入手可能。",
+            "fr": "Disponible uniquement lors du Concours de Capture de Pokémon les mardi, jeudi et samedi.",
+            "de": "Nur während des Käferturniers am Dienstag, Donnerstag und Samstag erhältlich.",
+            "es": "Solo se puede obtener durante el Concurso de Captura los martes, jueves y sábados."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ilex Forest"],
+          "notes": {
+            "en": "Found in Ilex Forest.",
+            "ja": "ウバメのもりで出現する。",
+            "fr": "Se trouve dans la Forêt d’Ilex.",
+            "de": "Im Steineichenwald anzutreffen.",
+            "es": "Se encuentra en el Encinar."
+          }
+        }
+      ]
+    }
+  }
+}
