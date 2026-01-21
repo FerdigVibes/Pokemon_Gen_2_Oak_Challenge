@@ -1,0 +1,118 @@
+{
+  "dex": 49,
+  "slug": "venomoth",
+
+  "names": {
+    "en": "Venomoth",
+    "ja": "モルフォン",
+    "fr": "Aéromite",
+    "de": "Omot",
+    "es": "Venomoth"
+  },
+
+  "types": ["bug", "poison"],
+
+  "evolution": {
+    "family": ["venonat", "venomoth"],
+    "stage": 2,
+    "evolvesFrom": "venonat"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Venonat at level 31.",
+            "ja": "コンパンはレベル31でモルフォンに進化する。",
+            "fr": "Mimitoss évolue en Aéromite au niveau 31.",
+            "de": "Bluzuk entwickelt sich auf Level 31 zu Omot.",
+            "es": "Venonat evoluciona a Venomoth al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Venonat at level 31.",
+            "ja": "コンパンはレベル31でモルフォンに進化する。",
+            "fr": "Mimitoss évolue en Aéromite au niveau 31.",
+            "de": "Bluzuk entwickelt sich auf Level 31 zu Omot.",
+            "es": "Venonat evoluciona a Venomoth al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Venonat at level 31.",
+            "ja": "コンパンはレベル31でモルフォンに進化する。",
+            "fr": "Mimitoss évolue en Aéromite au niveau 31.",
+            "de": "Bluzuk entwickelt sich auf Level 31 zu Omot.",
+            "es": "Venonat evoluciona a Venomoth al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Venonat at level 31.",
+            "ja": "コンパンはレベル31でモルフォンに進化する。",
+            "fr": "Mimitoss évolue en Aéromite au niveau 31.",
+            "de": "Bluzuk entwickelt sich auf Level 31 zu Omot.",
+            "es": "Venonat evoluciona a Venomoth al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Venonat at level 31.",
+            "ja": "コンパンはレベル31でモルフォンに進化する。",
+            "fr": "Mimitoss évolue en Aéromite au niveau 31.",
+            "de": "Bluzuk entwickelt sich auf Level 31 zu Omot.",
+            "es": "Venonat evoluciona a Venomoth al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Venonat at level 31.",
+            "ja": "コンパンはレベル31でモルフォンに進化する。",
+            "fr": "Mimitoss évolue en Aéromite au niveau 31.",
+            "de": "Bluzuk entwickelt sich auf Level 31 zu Omot.",
+            "es": "Venonat evoluciona a Venomoth al nivel 31."
+          }
+        }
+      ]
+    }
+  }
+}
