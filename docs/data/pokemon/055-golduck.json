@@ -1,0 +1,151 @@
+{
+  "dex": 55,
+  "slug": "golduck",
+
+  "names": {
+    "en": "Golduck",
+    "ja": "ゴルダック",
+    "fr": "Akwakwak",
+    "de": "Entoron",
+    "es": "Golduck"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["psyduck", "golduck"],
+    "stage": 2,
+    "evolvesFrom": "psyduck"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Psyduck at level 33.",
+            "ja": "コダックがレベル33で進化する。",
+            "fr": "Évolue de Psykokwak au niveau 33.",
+            "de": "Entwickelt sich aus Enton auf Level 33.",
+            "es": "Evoluciona de Psyduck al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Psyduck at level 33.",
+            "ja": "コダックがレベル33で進化する。",
+            "fr": "Évolue de Psykokwak au niveau 33.",
+            "de": "Entwickelt sich aus Enton auf Level 33.",
+            "es": "Evoluciona de Psyduck al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Psyduck at level 33.",
+            "ja": "コダックがレベル33で進化する。",
+            "fr": "Évolue de Psykokwak au niveau 33.",
+            "de": "Entwickelt sich aus Enton auf Level 33.",
+            "es": "Evoluciona de Psyduck al nivel 33."
+          }
+        },
+        {
+          "method": "surf",
+          "locations": ["Route 6"],
+          "notes": {
+            "en": "Found by surfing on Route 6.",
+            "ja": "6ばんどうろでなみのりをすると出現する。",
+            "fr": "Se trouve en surfant sur la Route 6.",
+            "de": "Beim Surfen auf Route 6 anzutreffen.",
+            "es": "Se encuentra usando Surf en la Ruta 6."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Psyduck at level 33.",
+            "ja": "コダックがレベル33で進化する。",
+            "fr": "Évolue de Psykokwak au niveau 33.",
+            "de": "Entwickelt sich aus Enton auf Level 33.",
+            "es": "Evoluciona de Psyduck al nivel 33."
+          }
+        },
+        {
+          "method": "surf",
+          "locations": ["Route 35", "Ilex Forest"],
+          "notes": {
+            "en": "Found by surfing on these waters.",
+            "ja": "これらのみずうみでなみのりをすると出現する。",
+            "fr": "Se trouve en surfant sur ces étendues d’eau.",
+            "de": "Beim Surfen auf diesen Gewässern anzutreffen.",
+            "es": "Se encuentra usando Surf en estas aguas."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Psyduck at level 33.",
+            "ja": "コダックがレベル33で進化する。",
+            "fr": "Évolue de Psykokwak au niveau 33.",
+            "de": "Entwickelt sich aus Enton auf Level 33.",
+            "es": "Evoluciona de Psyduck al nivel 33."
+          }
+        },
+        {
+          "method": "surf",
+          "locations": ["Route 35", "Ilex Forest"],
+          "notes": {
+            "en": "Found by surfing on these waters.",
+            "ja": "これらのみずうみでなみのりをすると出現する。",
+            "fr": "Se trouve en surfant sur ces étendues d’eau.",
+            "de": "Beim Surfen auf diesen Gewässern anzutreffen.",
+            "es": "Se encuentra usando Surf en estas aguas."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Psyduck at level 33.",
+            "ja": "コダックがレベル33で進化する。",
+            "fr": "Évolue de Psykokwak au niveau 33.",
+            "de": "Entwickelt sich aus Enton auf Level 33.",
+            "es": "Evoluciona de Psyduck al nivel 33."
+          }
+        }
+      ]
+    }
+  }
+}
