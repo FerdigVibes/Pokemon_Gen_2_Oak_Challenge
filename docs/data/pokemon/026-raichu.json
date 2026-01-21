@@ -52,7 +52,7 @@
     },
 
     "gold": {
-      "sections": ["KANTO_POKEMON"],
+      "sections": ["THUNDER_STONE_EVOLUTION"],
       "obtain": [
         {
           "method": "evolution",
@@ -68,7 +68,7 @@
     },
 
     "silver": {
-      "sections": ["KANTO_POKEMON"],
+      "sections": ["THUNDER_STONE_EVOLUTION"],
       "obtain": [
         {
           "method": "evolution",
