@@ -1,0 +1,120 @@
+{
+  "dex": 60,
+  "slug": "poliwag",
+
+  "names": {
+    "en": "Poliwag",
+    "ja": "ニョロモ",
+    "fr": "Ptitard",
+    "de": "Quapsel",
+    "es": "Poliwag"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["poliwag", "poliwhirl", "poliwrath", "politoed"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "notes": {
+            "en": "Good Rod: Most areas. Super Rod: Pallet Town, Viridian City, Route 22.",
+            "ja": "いいつりざお：ほぼすべての場所。すごいつりざお：マサラタウン、トキワシティ、22ばんどうろ。",
+            "fr": "Canne : la plupart des zones. Super Canne : Bourg Palette, Jadielle, Route 22.",
+            "de": "Angel: Die meisten Gebiete. Superangel: Alabastia, Vertania City, Route 22.",
+            "es": "Súper Caña: Pueblo Paleta, Ciudad Verde, Ruta 22. Caña Buena: la mayoría de zonas."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "notes": {
+            "en": "Good Rod: Most areas. Super Rod: Pallet Town, Viridian City, Route 22.",
+            "ja": "いいつりざお：ほぼすべての場所。すごいつりざお：マサラタウン、トキワシティ、22ばんどうろ。",
+            "fr": "Canne : la plupart des zones. Super Canne : Bourg Palette, Jadielle, Route 22.",
+            "de": "Angel: Die meisten Gebiete. Superangel: Alabastia, Vertania City, Route 22.",
+            "es": "Súper Caña: Pueblo Paleta, Ciudad Verde, Ruta 22. Caña Buena: la mayoría de zonas."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "notes": {
+            "en": "Good Rod: Most areas. Super Rod: Pallet Town, Viridian City, Route 22.",
+            "ja": "いいつりざお：ほぼすべての場所。すごいつりざお：マサラタウン、トキワシティ、22ばんどうろ。",
+            "fr": "Canne : la plupart des zones. Super Canne : Bourg Palette, Jadielle, Route 22.",
+            "de": "Angel: Die meisten Gebiete. Superangel: Alabastia, Vertania City, Route 22.",
+            "es": "Súper Caña: Pueblo Paleta, Ciudad Verde, Ruta 22. Caña Buena: la mayoría de zonas."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "locations": ["Route 30", "Route 31", "Ruins of Alph", "Violet City"],
+          "notes": {
+            "en": "Fish using an Old Rod.",
+            "ja": "ボロのつりざおで釣る。",
+            "fr": "Pêchez avec la Vieille Canne.",
+            "de": "Mit der Angel fangen (Angler).",
+            "es": "Pesca usando la Caña Vieja."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "locations": ["Route 30", "Route 31", "Ruins of Alph", "Violet City"],
+          "notes": {
+            "en": "Fish using an Old Rod.",
+            "ja": "ボロのつりざおで釣る。",
+            "fr": "Pêchez avec la Vieille Canne.",
+            "de": "Mit der Angel fangen (Angler).",
+            "es": "Pesca usando la Caña Vieja."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "locations": ["Route 30", "Route 31"],
+          "notes": {
+            "en": "Fish using an Old Rod.",
+            "ja": "ボロのつりざおで釣る。",
+            "fr": "Pêchez avec la Vieille Canne.",
+            "de": "Mit der Angel fangen (Angler).",
+            "es": "Pesca usando la Caña Vieja."
+          }
+        }
+      ]
+    }
+  }
+}
