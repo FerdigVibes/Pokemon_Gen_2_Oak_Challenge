@@ -1,0 +1,136 @@
+{
+  "dex": 54,
+  "slug": "psyduck",
+
+  "names": {
+    "en": "Psyduck",
+    "ja": "コダック",
+    "fr": "Psykokwak",
+    "de": "Enton",
+    "es": "Psyduck"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["psyduck", "golduck"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "locations": [
+            "Cerulean Gym",
+            "Safari Zone",
+            "Route 24",
+            "Route 25"
+          ],
+          "tool": "Super Rod",
+          "notes": {
+            "en": "Obtainable by fishing with the Super Rod.",
+            "ja": "すごいつりざおでつりをすると出現する。",
+            "fr": "Peut être obtenu en pêchant avec la Super Canne.",
+            "de": "Mit der Superangel fangbar.",
+            "es": "Se obtiene pescando con la Supercaña."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "locations": [
+            "Cerulean Gym",
+            "Safari Zone",
+            "Route 24",
+            "Route 25"
+          ],
+          "tool": "Super Rod",
+          "notes": {
+            "en": "Obtainable by fishing with the Super Rod.",
+            "ja": "すごいつりざおでつりをすると出現する。",
+            "fr": "Peut être obtenu en pêchant avec la Super Canne.",
+            "de": "Mit der Superangel fangbar.",
+            "es": "Se obtiene pescando con la Supercaña."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "locations": ["Route 6"],
+          "notes": {
+            "en": "Found by surfing on Route 6.",
+            "ja": "6ばんどうろでなみのりをすると出現する。",
+            "fr": "Se trouve en surfant sur la Route 6.",
+            "de": "Beim Surfen auf Route 6 anzutreffen.",
+            "es": "Se encuentra usando Surf en la Ruta 6."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "locations": ["Route 35", "Ilex Forest"],
+          "notes": {
+            "en": "Found by surfing on these waters.",
+            "ja": "これらのみずうみでなみのりをすると出現する。",
+            "fr": "Se trouve en surfant sur ces étendues d’eau.",
+            "de": "Beim Surfen auf diesen Gewässern anzutreffen.",
+            "es": "Se encuentra usando Surf en estas aguas."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "locations": ["Route 35", "Ilex Forest"],
+          "notes": {
+            "en": "Found by surfing on these waters.",
+            "ja": "これらのみずうみでなみのりをすると出現する。",
+            "fr": "Se trouve en surfant sur ces étendues d’eau.",
+            "de": "Beim Surfen auf diesen Gewässern anzutreffen.",
+            "es": "Se encuentra usando Surf en estas aguas."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ilex Forest"],
+          "time": ["night"],
+          "notes": {
+            "en": "Very rare encounter in tall grass at night.",
+            "ja": "ウバメのもりのくさむらで夜にごくまれに出現する。",
+            "fr": "Rencontre très rare dans les hautes herbes la nuit.",
+            "de": "Sehr seltene Begegnung im hohen Gras bei Nacht.",
+            "es": "Encuentro muy raro en la hierba alta por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
