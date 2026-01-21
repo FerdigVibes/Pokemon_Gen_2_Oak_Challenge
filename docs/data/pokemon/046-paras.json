@@ -1,0 +1,123 @@
+{
+  "dex": 46,
+  "slug": "paras",
+
+  "names": {
+    "en": "Paras",
+    "ja": "パラス",
+    "fr": "Paras",
+    "de": "Paras",
+    "es": "Paras"
+  },
+
+  "types": ["bug", "grass"],
+
+  "evolution": {
+    "family": ["paras", "parasect"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に捕まえる。",
+            "fr": "À capturer avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に捕まえる。",
+            "fr": "À capturer avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Moon"],
+          "notes": {
+            "en": "Catch before leaving Mt. Moon.",
+            "ja": "おつきみやまを出る前に捕まえる。",
+            "fr": "À capturer avant de quitter le Mont Sélénite.",
+            "de": "Vor dem Verlassen des Mondbergs fangen.",
+            "es": "Atrápalo antes de salir del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ilex Forest"],
+          "notes": {
+            "en": "Found in Ilex Forest.",
+            "ja": "ウバメのもりに出現。",
+            "fr": "Se trouve dans la Forêt d’Ilex.",
+            "de": "Im Steineichenwald zu finden.",
+            "es": "Se encuentra en el Bosque Encinar."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ilex Forest"],
+          "notes": {
+            "en": "Found in Ilex Forest.",
+            "ja": "ウバメのもりに出現。",
+            "fr": "Se trouve dans la Forêt d’Ilex.",
+            "de": "Im Steineichenwald zu finden.",
+            "es": "Se encuentra en el Bosque Encinar."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ilex Forest"],
+          "notes": {
+            "en": "Found in Ilex Forest.",
+            "ja": "ウバメのもりに出現。",
+            "fr": "Se trouve dans la Forêt d’Ilex.",
+            "de": "Im Steineichenwald zu finden.",
+            "es": "Se encuentra en el Bosque Encinar."
+          }
+        }
+      ]
+    }
+  }
+}
