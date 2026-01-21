@@ -1,0 +1,118 @@
+{
+  "dex": 47,
+  "slug": "parasect",
+
+  "names": {
+    "en": "Parasect",
+    "ja": "パラセクト",
+    "fr": "Parasect",
+    "de": "Parasek",
+    "es": "Parasect"
+  },
+
+  "types": ["bug", "grass"],
+
+  "evolution": {
+    "family": ["paras", "parasect"],
+    "stage": 2,
+    "evolvesFrom": "paras"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Paras at level 22.",
+            "ja": "パラスはレベル22でパラセクトに進化する。",
+            "fr": "Paras évolue en Parasect au niveau 22.",
+            "de": "Paras entwickelt sich auf Level 22 zu Parasek.",
+            "es": "Paras evoluciona a Parasect al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Paras at level 22.",
+            "ja": "パラスはレベル22でパラセクトに進化する。",
+            "fr": "Paras évolue en Parasect au niveau 22.",
+            "de": "Paras entwickelt sich auf Level 22 zu Parasek.",
+            "es": "Paras evoluciona a Parasect al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Paras at level 22.",
+            "ja": "パラスはレベル22でパラセクトに進化する。",
+            "fr": "Paras évolue en Parasect au niveau 22.",
+            "de": "Paras entwickelt sich auf Level 22 zu Parasek.",
+            "es": "Paras evoluciona a Parasect al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Paras at level 22.",
+            "ja": "パラスはレベル22でパラセクトに進化する。",
+            "fr": "Paras évolue en Parasect au niveau 22.",
+            "de": "Paras entwickelt sich auf Level 22 zu Parasek.",
+            "es": "Paras evoluciona a Parasect al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Paras at level 22.",
+            "ja": "パラスはレベル22でパラセクトに進化する。",
+            "fr": "Paras évolue en Parasect au niveau 22.",
+            "de": "Paras entwickelt sich auf Level 22 zu Parasek.",
+            "es": "Paras evoluciona a Parasect al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Paras at level 22.",
+            "ja": "パラスはレベル22でパラセクトに進化する。",
+            "fr": "Paras évolue en Parasect au niveau 22.",
+            "de": "Paras entwickelt sich auf Level 22 zu Parasek.",
+            "es": "Paras evoluciona a Parasect al nivel 22."
+          }
+        }
+      ]
+    }
+  }
+}
