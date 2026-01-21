@@ -1,0 +1,70 @@
+{
+  "dex": 182,
+  "slug": "bellossom",
+
+  "names": {
+    "en": "Bellossom",
+    "ja": "キレイハナ",
+    "fr": "Joliflor",
+    "de": "Blubella",
+    "es": "Bellossom"
+  },
+
+  "types": ["grass"],
+
+  "evolution": {
+    "family": ["oddish", "gloom", "vileplume", "bellossom"],
+    "stage": 3,
+    "evolvesFrom": "gloom"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gloom with a Sun Stone. Receive a Sun Stone by placing first in the Bug-Catching Contest at the National Park.",
+            "ja": "クサイハナに「たいようのいし」を使って進化。しぜんこうえんのむしとりたいかいで1位になるとたいようのいしがもらえる。",
+            "fr": "Faites évoluer Ortide avec une Pierre Soleil. Obtenez une Pierre Soleil en terminant premier au Concours de Capture d’Insecte au Parc Naturel.",
+            "de": "Entwickle Duflor mit einem Sonnenstein. Erhalte einen Sonnenstein durch den ersten Platz beim Käferfangwettbewerb im Nationalpark.",
+            "es": "Evoluciona a Gloom con una Piedra Solar. Obtén una Piedra Solar al quedar primero en el Concurso de Captura de Bichos del Parque Nacional."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gloom with a Sun Stone. Receive a Sun Stone by placing first in the Bug-Catching Contest at the National Park.",
+            "ja": "クサイハナに「たいようのいし」を使って進化。しぜんこうえんのむしとりたいかいで1位になるとたいようのいしがもらえる。",
+            "fr": "Faites évoluer Ortide avec une Pierre Soleil. Obtenez une Pierre Soleil en terminant premier au Concours de Capture d’Insecte au Parc Naturel.",
+            "de": "Entwickle Duflor mit einem Sonnenstein. Erhalte einen Sonnenstein durch den ersten Platz beim Käferfangwettbewerb im Nationalpark.",
+            "es": "Evoluciona a Gloom con una Piedra Solar. Obtén una Piedra Solar al quedar primero en el Concurso de Captura de Bichos del Parque Nacional."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gloom with a Sun Stone. Receive a Sun Stone by placing first in the Bug-Catching Contest at the National Park.",
+            "ja": "クサイハナに「たいようのいし」を使って進化。しぜんこうえんのむしとりたいかいで1位になるとたいようのいしがもらえる。",
+            "fr": "Faites évoluer Ortide avec une Pierre Soleil. Obtenez une Pierre Soleil en terminant premier au Concours de Capture d’Insecte au Parc Naturel.",
+            "de": "Entwickle Duflor mit einem Sonnenstein. Erhalte einen Sonnenstein durch den ersten Platz beim Käferfangwettbewerb im Nationalpark.",
+            "es": "Evoluciona a Gloom con una Piedra Solar. Obtén una Piedra Solar al quedar primero en el Concurso de Captura de Bichos del Parque Nacional."
+          }
+        }
+      ]
+    }
+  }
+}
