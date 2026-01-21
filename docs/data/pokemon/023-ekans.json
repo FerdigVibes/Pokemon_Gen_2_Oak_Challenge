@@ -1,0 +1,114 @@
+{
+  "dex": 23,
+  "slug": "ekans",
+
+  "names": {
+    "en": "Ekans",
+    "ja": "アーボ",
+    "fr": "Abo",
+    "de": "Rettan",
+    "es": "Ekans"
+  },
+
+  "types": ["poison"],
+
+  "evolution": {
+    "family": ["ekans", "arbok"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 4", "Route 11"],
+          "notes": {
+            "en": "Found on routes east of Cerulean City.",
+            "ja": "ハナダシティ東のどうろで出現する。",
+            "fr": "Se trouve sur les routes à l’est d’Azuria.",
+            "de": "Auf den Routen östlich von Azuria City anzutreffen.",
+            "es": "Se encuentra en las rutas al este de Ciudad Celeste."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Goldenrod Game Corner"],
+          "cost": "700 Coins",
+          "notes": {
+            "en": "Purchased at the Goldenrod Game Corner.",
+            "ja": "コガネゲームコーナーでコインと交換できる。",
+            "fr": "Acheté au Casino de Doublonville.",
+            "de": "Im Spielcasino von Dukatia City erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32", "Route 33"],
+          "notes": {
+            "en": "Appears on routes south of Azalea Town.",
+            "ja": "ヒワダタウン南のどうろで出現する。",
+            "fr": "Apparaît sur les routes au sud d’Écorcia.",
+            "de": "Erscheint auf den Routen südlich von Azalea City.",
+            "es": "Aparece en las rutas al sur de Pueblo Azalea."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Low encounter rate during the morning and day.",
+            "ja": "あさ・ひるにごく低い確率で出現する。",
+            "fr": "Faible taux d’apparition le matin et la journée.",
+            "de": "Geringe Begegnungsrate am Morgen und Tag.",
+            "es": "Baja probabilidad de aparición por la mañana y el día."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Route 33"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Very rare encounter during the morning and day.",
+            "ja": "あさ・ひるにとてもまれに出現する。",
+            "fr": "Rencontre très rare le matin et la journée.",
+            "de": "Sehr seltene Begegnung am Morgen und Tag.",
+            "es": "Encuentro muy raro por la mañana y el día."
+          }
+        },
+        {
+          "method": "headbutt",
+          "locations": ["Route 32", "Route 33", "Azalea Town"],
+          "notes": {
+            "en": "Can be encountered by headbutting trees.",
+            "ja": "きにずつきをすると出現することがある。",
+            "fr": "Peut être rencontré en utilisant Coup d’Boule sur les arbres.",
+            "de": "Kann durch Kopfnuss an Bäumen erscheinen.",
+            "es": "Puede aparecer golpeando árboles con Golpe Cabeza."
+          }
+        }
+      ]
+    }
+  }
+}
