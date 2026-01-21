@@ -1,0 +1,86 @@
+{
+  "dex": 24,
+  "slug": "arbok",
+
+  "names": {
+    "en": "Arbok",
+    "ja": "アーボック",
+    "fr": "Arbok",
+    "de": "Arbok",
+    "es": "Arbok"
+  },
+
+  "types": ["poison"],
+
+  "evolution": {
+    "family": ["ekans", "arbok"],
+    "stage": 2,
+    "evolvesFrom": "ekans"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Ekans at level 22.",
+            "ja": "アーボがレベル22で進化する。",
+            "fr": "Évolue d’Abo au niveau 22.",
+            "de": "Entwickelt sich aus Rettan auf Level 22.",
+            "es": "Evoluciona de Ekans al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Ekans at level 22.",
+            "ja": "アーボがレベル22で進化する。",
+            "fr": "Évolue d’Abo au niveau 22.",
+            "de": "Entwickelt sich aus Rettan auf Level 22.",
+            "es": "Evoluciona de Ekans al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Ekans at level 22.",
+            "ja": "アーボがレベル22で進化する。",
+            "fr": "Évolue d’Abo au niveau 22.",
+            "de": "Entwickelt sich aus Rettan auf Level 22.",
+            "es": "Evoluciona de Ekans al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Ekans at level 22.",
+            "ja": "アーボがレベル22で進化する。",
+            "fr": "Évolue d’Abo au niveau 22.",
+            "de": "Entwickelt sich aus Rettan auf Level 22.",
+            "es": "Evoluciona de Ekans al nivel 22."
+          }
+        }
+      ]
+    }
+  }
+}
