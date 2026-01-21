@@ -1,0 +1,102 @@
+{
+  "dex": 26,
+  "slug": "raichu",
+
+  "names": {
+    "en": "Raichu",
+    "ja": "ライチュウ",
+    "fr": "Raichu",
+    "de": "Raichu",
+    "es": "Raichu"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["pichu", "pikachu", "raichu"],
+    "stage": 3,
+    "evolvesFrom": "pikachu"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pikachu with a Thunder Stone (Celadon Dept. Store 4F).",
+            "ja": "ピカチュウに「かみなりのいし」を使って進化（タマムシデパート4F）。",
+            "fr": "Faites évoluer Pikachu avec une Pierre Foudre (Centre Commercial de Céladopole 4F).",
+            "de": "Entwickle Pikachu mit einem Donnerstein (Prismania City Kaufhaus 4F).",
+            "es": "Evoluciona a Pikachu con una Piedra Trueno (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pikachu with a Thunder Stone (Celadon Dept. Store 4F).",
+            "ja": "ピカチュウに「かみなりのいし」を使って進化（タマムシデパート4F）。",
+            "fr": "Faites évoluer Pikachu avec une Pierre Foudre (Centre Commercial de Céladopole 4F).",
+            "de": "Entwickle Pikachu mit einem Donnerstein (Prismania City Kaufhaus 4F).",
+            "es": "Evoluciona a Pikachu con una Piedra Trueno (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pikachu with a Thunder Stone. Show Bill’s Grandfather a Pichu on Route 25 to receive a Thunder Stone.",
+            "ja": "ピカチュウに「かみなりのいし」を使って進化。25ばんどうろでマサキのおじいさんにピチューを見せると、かみなりのいしがもらえる。",
+            "fr": "Faites évoluer Pikachu avec une Pierre Foudre. Montrez un Pichu au grand-père de Léo sur la Route 25 pour obtenir une Pierre Foudre.",
+            "de": "Entwickle Pikachu mit einem Donnerstein. Zeige Bills Großvater auf Route 25 ein Pichu, um einen Donnerstein zu erhalten.",
+            "es": "Evoluciona a Pikachu con una Piedra Trueno. Muestra un Pichu al abuelo de Bill en la Ruta 25 para recibir una Piedra Trueno."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pikachu with a Thunder Stone. Show Bill’s Grandfather a Pichu on Route 25 to receive a Thunder Stone.",
+            "ja": "ピカチュウに「かみなりのいし」を使って進化。25ばんどうろでマサキのおじいさんにピチューを見せると、かみなりのいしがもらえる。",
+            "fr": "Faites évoluer Pikachu avec une Pierre Foudre. Montrez un Pichu au grand-père de Léo sur la Route 25 pour obtenir une Pierre Foudre.",
+            "de": "Entwickle Pikachu mit einem Donnerstein. Zeige Bills Großvater auf Route 25 ein Pichu, um einen Donnerstein zu erhalten.",
+            "es": "Evoluciona a Pikachu con una Piedra Trueno. Muestra un Pichu al abuelo de Bill en la Ruta 25 para recibir una Piedra Trueno."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pikachu with a Thunder Stone. Receive the Thunder Stone from Lass Dana on Route 38 after she calls you (item varies).",
+            "ja": "ピカチュウに「かみなりのいし」を使って進化。38ばんどうろのミニスカート・ダナから電話後に、かみなりのいしをもらえる（アイテムはランダム）。",
+            "fr": "Faites évoluer Pikachu avec une Pierre Foudre. Recevez la Pierre Foudre de la Fillette Dana sur la Route 38 après son appel (objet variable).",
+            "de": "Entwickle Pikachu mit einem Donnerstein. Erhalte den Donnerstein von Schulmädchen Dana auf Route 38 nach ihrem Anruf (Item variiert).",
+            "es": "Evoluciona a Pikachu con una Piedra Trueno. Recibe la Piedra Trueno de la Chica Dana en la Ruta 38 tras su llamada (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
