@@ -1,0 +1,129 @@
+{
+  "dex": 67,
+  "slug": "machoke",
+
+  "names": {
+    "en": "Machoke",
+    "ja": "ゴーリキー",
+    "fr": "Machopeur",
+    "de": "Maschock",
+    "es": "Machoke"
+  },
+
+  "types": ["fighting"],
+
+  "evolution": {
+    "family": ["machop", "machoke", "machamp"],
+    "stage": 2,
+    "evolvesFrom": "machop"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Machop at Lv. 28.",
+            "ja": "ワンリキーをLv.28で進化。",
+            "fr": "Faites évoluer Machoc au niveau 28.",
+            "de": "Entwickle Machollo auf Level 28.",
+            "es": "Evoluciona a Machop al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Machop at Lv. 28.",
+            "ja": "ワンリキーをLv.28で進化。",
+            "fr": "Faites évoluer Machoc au niveau 28.",
+            "de": "Entwickle Machollo auf Level 28.",
+            "es": "Evoluciona a Machop al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Machop at Lv. 28.",
+            "ja": "ワンリキーをLv.28で進化。",
+            "fr": "Faites évoluer Machoc au niveau 28.",
+            "de": "Entwickle Machollo auf Level 28.",
+            "es": "Evoluciona a Machop al nivel 28."
+          }
+        },
+        {
+          "method": "trade",
+          "location": ["Underground Path (South of Cerulean City)"],
+          "notes": {
+            "en": "Trade for a Cubone near the Underground Path south of Cerulean City to receive a Machamp.",
+            "ja": "ハナダシティ南のちかつうろ付近でカラカラと交換するとカイリキーがもらえる。",
+            "fr": "Échangez un Ossatueur près du Souterrain au sud d’Azuria pour obtenir un Mackogneur.",
+            "de": "Tausche ein Tragosso nahe dem Untergrundpfad südlich von Azuria City, um Machomei zu erhalten.",
+            "es": "Intercambia un Cubone cerca del Pasaje Subterráneo al sur de Ciudad Celeste para recibir un Machamp."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Machop at Lv. 28.",
+            "ja": "ワンリキーをLv.28で進化。",
+            "fr": "Faites évoluer Machoc au niveau 28.",
+            "de": "Entwickle Machollo auf Level 28.",
+            "es": "Evoluciona a Machop al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Machop at Lv. 28.",
+            "ja": "ワンリキーをLv.28で進化。",
+            "fr": "Faites évoluer Machoc au niveau 28.",
+            "de": "Entwickle Machollo auf Level 28.",
+            "es": "Evoluciona a Machop al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Machop at Lv. 28.",
+            "ja": "ワンリキーをLv.28で進化。",
+            "fr": "Faites évoluer Machoc au niveau 28.",
+            "de": "Entwickle Machollo auf Level 28.",
+            "es": "Evoluciona a Machop al nivel 28."
+          }
+        }
+      ]
+    }
+  }
+}
