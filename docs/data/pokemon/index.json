@@ -37,12 +37,23 @@
   "032-nidoranm.json",
   "033-nidorino.json",
   "034-nidoking.json",
-
   "035-clefairy.json",
   "036-clefable.json",
+  "037-vulpix.json",
+  "038-ninetales.json",
+  "039-jigglypuff.json",
+  "040-wigglytuff.json",
+  "041-zubat.json",
+  "042-golbat.json",
+  "043-oddish.json",
+  "044-gloom.json",
+  "045-vileplume.jsom",
 
   "056-mankey.json",
   "057-primeape.json",
   "131-lapras.json",
+  "169-crobat.json",
+  "174-igglybuff.json",
+  "182-bellossom.json",
   "251-celebi.json"
 ]
