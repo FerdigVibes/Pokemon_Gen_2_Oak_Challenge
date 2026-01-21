@@ -1,0 +1,123 @@
+{
+  "dex": 66,
+  "slug": "machop",
+
+  "names": {
+    "en": "Machop",
+    "ja": "ワンリキー",
+    "fr": "Machoc",
+    "de": "Machollo",
+    "es": "Machop"
+  },
+
+  "types": ["fighting"],
+
+  "evolution": {
+    "family": ["machop", "machoke", "machamp"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Rock Tunnel"],
+          "notes": {
+            "en": "Found in Rock Tunnel.",
+            "ja": "いわやまトンネルで出現。",
+            "fr": "Disponible dans la Grotte.",
+            "de": "Im Felstunnel zu finden.",
+            "es": "Se encuentra en el Túnel Roca."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Rock Tunnel"],
+          "notes": {
+            "en": "Found in Rock Tunnel.",
+            "ja": "いわやまトンネルで出現。",
+            "fr": "Disponible dans la Grotte.",
+            "de": "Im Felstunnel zu finden.",
+            "es": "Se encuentra en el Túnel Roca."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Rock Tunnel", "Route 10"],
+          "notes": {
+            "en": "Found in Rock Tunnel and on Route 10.",
+            "ja": "いわやまトンネル・10ばんどうろで出現。",
+            "fr": "Disponible dans la Grotte et sur la Route 10.",
+            "de": "Im Felstunnel und auf Route 10 zu finden.",
+            "es": "Se encuentra en el Túnel Roca y en la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Goldenrod City Department Store 5F"],
+          "notes": {
+            "en": "Trade a Drowzee on the fifth floor of the Goldenrod City Department Store.",
+            "ja": "コガネシティデパート5かいでスリープと交換。",
+            "fr": "Échangez un Soporifik au Centre Commercial de Doublonville (5e étage).",
+            "de": "Tausche ein Traumato im Dukatia City Kaufhaus (5. Stock).",
+            "es": "Intercambia un Drowzee en el Centro Comercial de Ciudad Trigal (quinta planta)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Goldenrod City Department Store 5F"],
+          "notes": {
+            "en": "Trade a Drowzee on the fifth floor of the Goldenrod City Department Store.",
+            "ja": "コガネシティデパート5かいでスリープと交換。",
+            "fr": "Échangez un Soporifik au Centre Commercial de Doublonville (5e étage).",
+            "de": "Tausche ein Traumato im Dukatia City Kaufhaus (5. Stock).",
+            "es": "Intercambia un Drowzee en el Centro Comercial de Ciudad Trigal (quinta planta)."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Goldenrod City Department Store 5F"],
+          "notes": {
+            "en": "Trade a Drowzee on the fifth floor of the Goldenrod City Department Store.",
+            "ja": "コガネシティデパート5かいでスリープと交換。",
+            "fr": "Échangez un Soporifik au Centre Commercial de Doublonville (5e étage).",
+            "de": "Tausche ein Traumato im Dukatia City Kaufhaus (5. Stock).",
+            "es": "Intercambia un Drowzee en el Centro Comercial de Ciudad Trigal (quinta planta)."
+          }
+        }
+      ]
+    }
+  }
+}
