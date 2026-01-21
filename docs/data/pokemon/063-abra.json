@@ -1,0 +1,147 @@
+{
+  "dex": 63,
+  "slug": "abra",
+
+  "names": {
+    "en": "Abra",
+    "ja": "ケーシィ",
+    "fr": "Abra",
+    "de": "Abra",
+    "es": "Abra"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["abra", "kadabra", "alakazam"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "notes": {
+            "en": "Found on Routes 24 and 25.",
+            "ja": "24ばんどうろ・25ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 24 et 25.",
+            "de": "Auf den Routen 24 und 25 zu finden.",
+            "es": "Se encuentra en las Rutas 24 y 25."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "notes": {
+            "en": "Found on Routes 24 and 25.",
+            "ja": "24ばんどうろ・25ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 24 et 25.",
+            "de": "Auf den Routen 24 und 25 zu finden.",
+            "es": "Se encuentra en las Rutas 24 y 25."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "notes": {
+            "en": "Found on Routes 5 and 6.",
+            "ja": "5ばんどうろ・6ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 5 et 6.",
+            "de": "Auf den Routen 5 und 6 zu finden.",
+            "es": "Se encuentra en las Rutas 5 y 6."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "notes": {
+            "en": "Found on Routes 34 and 35.",
+            "ja": "34ばんどうろ・35ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 34 et 35.",
+            "de": "Auf den Routen 34 und 35 zu finden.",
+            "es": "Se encuentra en las Rutas 34 y 35."
+          }
+        },
+        {
+          "method": "game_corner",
+          "notes": {
+            "en": "Purchased at the Goldenrod Game Corner for 200 coins.",
+            "ja": "コガネゲームコーナーで200コインと交換。",
+            "fr": "Obtenu au Casino de Doublonville pour 200 jetons.",
+            "de": "Im Dukatia Spielsalon für 200 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Trigal por 200 monedas."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "notes": {
+            "en": "Found on Routes 34 and 35.",
+            "ja": "34ばんどうろ・35ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 34 et 35.",
+            "de": "Auf den Routen 34 und 35 zu finden.",
+            "es": "Se encuentra en las Rutas 34 y 35."
+          }
+        },
+        {
+          "method": "game_corner",
+          "notes": {
+            "en": "Purchased at the Goldenrod Game Corner for 200 coins.",
+            "ja": "コガネゲームコーナーで200コインと交換。",
+            "fr": "Obtenu au Casino de Doublonville pour 200 jetons.",
+            "de": "Im Dukatia Spielsalon für 200 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Trigal por 200 monedas."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "notes": {
+            "en": "Found on Routes 34 and 35.",
+            "ja": "34ばんどうろ・35ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 34 et 35.",
+            "de": "Auf den Routen 34 und 35 zu finden.",
+            "es": "Se encuentra en las Rutas 34 y 35."
+          }
+        },
+        {
+          "method": "game_corner",
+          "notes": {
+            "en": "Purchased at the Goldenrod Game Corner for 200 coins.",
+            "ja": "コガネゲームコーナーで200コインと交換。",
+            "fr": "Obtenu au Casino de Doublonville pour 200 jetons.",
+            "de": "Im Dukatia Spielsalon für 200 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Trigal por 200 monedas."
+          }
+        }
+      ]
+    }
+  }
+}
