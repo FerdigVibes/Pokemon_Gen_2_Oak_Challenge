@@ -23,6 +23,7 @@
       "obtain": [
         {
           "method": "wild",
+          "location": ["Route 24", "Route 25"],
           "notes": {
             "en": "Found on Routes 24 and 25.",
             "ja": "24ばんどうろ・25ばんどうろで出現。",
@@ -39,6 +40,7 @@
       "obtain": [
         {
           "method": "wild",
+          "location": ["Route 24", "Route 25"],
           "notes": {
             "en": "Found on Routes 24 and 25.",
             "ja": "24ばんどうろ・25ばんどうろで出現。",
@@ -55,6 +57,7 @@
       "obtain": [
         {
           "method": "wild",
+          "location": ["Route 5", "Route 6"],
           "notes": {
             "en": "Found on Routes 5 and 6.",
             "ja": "5ばんどうろ・6ばんどうろで出現。",
@@ -71,6 +74,7 @@
       "obtain": [
         {
           "method": "wild",
+          "location": ["Route 34", "Route 35"],
           "notes": {
             "en": "Found on Routes 34 and 35.",
             "ja": "34ばんどうろ・35ばんどうろで出現。",
@@ -81,6 +85,7 @@
         },
         {
           "method": "game_corner",
+          "location": ["Goldenrod Game Corner"],
           "notes": {
             "en": "Purchased at the Goldenrod Game Corner for 200 coins.",
             "ja": "コガネゲームコーナーで200コインと交換。",
@@ -97,16 +102,18 @@
       "obtain": [
         {
           "method": "wild",
+          "location": ["Route 34", "Route 35"],
           "notes": {
             "en": "Found on Routes 34 and 35.",
             "ja": "34ばんどうろ・35ばんどうろで出現。",
             "fr": "Disponible sur les Routes 34 et 35.",
-            "de": "Auf den Routen 34 und 35 zu finden.",
+            "de": "Auf den Routen 34 and 35 zu finden.",
             "es": "Se encuentra en las Rutas 34 y 35."
           }
         },
         {
           "method": "game_corner",
+          "location": ["Goldenrod Game Corner"],
           "notes": {
             "en": "Purchased at the Goldenrod Game Corner for 200 coins.",
             "ja": "コガネゲームコーナーで200コインと交換。",
@@ -123,6 +130,7 @@
       "obtain": [
         {
           "method": "wild",
+          "location": ["Route 34", "Route 35"],
           "notes": {
             "en": "Found on Routes 34 and 35.",
             "ja": "34ばんどうろ・35ばんどうろで出現。",
@@ -133,6 +141,7 @@
         },
         {
           "method": "game_corner",
+          "location": ["Goldenrod Game Corner"],
           "notes": {
             "en": "Purchased at the Goldenrod Game Corner for 200 coins.",
             "ja": "コガネゲームコーナーで200コインと交換。",
@@ -145,3 +154,4 @@
     }
   }
 }
+
