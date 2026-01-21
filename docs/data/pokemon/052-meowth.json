@@ -1,0 +1,73 @@
+{
+  "dex": 52,
+  "slug": "meowth",
+
+  "names": {
+    "en": "Meowth",
+    "ja": "ニャース",
+    "fr": "Miaouss",
+    "de": "Mauzi",
+    "es": "Meowth"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["meowth", "persian"],
+    "stage": 1
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 5", "Route 6", "Route 7", "Route 8"],
+          "notes": {
+            "en": "Found on routes near Cerulean City.",
+            "ja": "ハナダシティ周辺のどうろで出現する。",
+            "fr": "Se trouve sur les routes autour d’Azuria.",
+            "de": "Auf den Routen rund um Azuria City anzutreffen.",
+            "es": "Se encuentra en las rutas cercanas a Ciudad Celeste."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Appears on routes west of Ecruteak City.",
+            "ja": "エンジュシティ西のどうろで出現する。",
+            "fr": "Apparaît sur les routes à l’ouest de Rosalia.",
+            "de": "Erscheint auf den Routen westlich von Teak City.",
+            "es": "Aparece en las rutas al oeste de Ciudad Iris."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "time": ["night"],
+          "notes": {
+            "en": "Only appears at night on these routes.",
+            "ja": "これらのどうろでは夜のみ出現する。",
+            "fr": "N’apparaît que la nuit sur ces routes.",
+            "de": "Erscheint auf diesen Routen nur nachts.",
+            "es": "Solo aparece por la noche en estas rutas."
+          }
+        }
+      ]
+    }
+  }
+}
