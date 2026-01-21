@@ -1,0 +1,110 @@
+{
+  "dex": 27,
+  "slug": "sandshrew",
+
+  "names": {
+    "en": "Sandshrew",
+    "ja": "サンド",
+    "fr": "Sabelette",
+    "de": "Sandan",
+    "es": "Sandshrew"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["sandshrew", "sandslash"],
+    "stage": 1
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 4", "Route 11"],
+          "notes": {
+            "en": "Exclusive to Pokémon Blue. Found on Routes 4 and 11.",
+            "ja": "ポケットモンスター青限定。4ばんどうろと11ばんどうろに出現。",
+            "fr": "Exclusif à Pokémon Bleu. Se trouve sur les Routes 4 et 11.",
+            "de": "Exklusiv in Pokémon Blau. Erscheint auf Route 4 und 11.",
+            "es": "Exclusivo de Pokémon Azul. Aparece en las Rutas 4 y 11."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 3", "Route 4", "Mt. Moon"],
+          "notes": {
+            "en": "Found on Routes 3 and 4 and inside Mt. Moon.",
+            "ja": "3ばんどうろ・4ばんどうろ、そしておつきみやまで出現。",
+            "fr": "Se trouve sur les Routes 3 et 4 ainsi qu’au Mont Sélénite.",
+            "de": "Erscheint auf Route 3, Route 4 und im Mondberg.",
+            "es": "Aparece en las Rutas 3 y 4 y dentro del Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Union Cave 1F", "Union Cave B1F"],
+          "notes": {
+            "en": "Found in Union Cave on the first floor and basement.",
+            "ja": "つながりのどうくつ1FとB1Fに出現。",
+            "fr": "Se trouve dans la Grotte Union au 1er étage et au sous-sol.",
+            "de": "In der Einheitshöhle auf Ebene 1 und im Untergeschoss zu finden.",
+            "es": "Se encuentra en la Cueva Unión en la planta 1 y el sótano."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Goldenrod Game Corner"],
+          "cost": {
+            "coins": 700
+          },
+          "notes": {
+            "en": "Available at the Goldenrod Game Corner for 700 Coins.",
+            "ja": "コガネゲームコーナーでコイン700枚と交換できる。",
+            "fr": "Disponible au Casino de Doublonville pour 700 jetons.",
+            "de": "Im Spielcasino von Dukatia City für 700 Münzen erhältlich.",
+            "es": "Disponible en el Casino de Ciudad Trigal por 700 fichas."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Union Cave 1F"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Appears in Union Cave 1F during the morning and daytime.",
+            "ja": "つながりのどうくつ1Fで朝と昼に出現。",
+            "fr": "Apparaît dans la Grotte Union (1er étage) le matin et en journée.",
+            "de": "Erscheint in der Einheitshöhle (1. Ebene) morgens und tagsüber.",
+            "es": "Aparece en la Cueva Unión (planta 1) por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
