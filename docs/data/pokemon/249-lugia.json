@@ -1,0 +1,72 @@
+{
+  "dex": 249,
+  "slug": "lugia",
+
+  "names": {
+    "en": "Lugia",
+    "ja": "ルギア",
+    "fr": "Lugia",
+    "de": "Lugia",
+    "es": "Lugia"
+  },
+
+  "types": ["psychic", "flying"],
+
+  "evolution": {
+    "family": ["lugia"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Whirl Islands B2F"],
+          "notes": {
+            "en": "Found in the Whirl Islands after obtaining the Silver Wing.",
+            "ja": "ぎんいろのはねを入手後、うずまきじまB2Fに出現。",
+            "fr": "Se trouve aux Îles Tourbillon après avoir obtenu l’Aile Argent.",
+            "de": "Erscheint in den Strudelinseln, nachdem die Silberflügel erhalten wurden.",
+            "es": "Se encuentra en las Islas Remolino tras obtener el Ala Plateada."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Whirl Islands B2F"],
+          "notes": {
+            "en": "Found in the Whirl Islands after obtaining the Silver Wing.",
+            "ja": "ぎんいろのはねを入手後、うずまきじまB2Fに出現。",
+            "fr": "Se trouve aux Îles Tourbillon après avoir obtenu l’Aile Argent.",
+            "de": "Erscheint in den Strudelinseln, nachdem die Silberflügel erhalten wurden.",
+            "es": "Se encuentra en las Islas Remolino tras obtener el Ala Plateada."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Whirl Islands B2F"],
+          "notes": {
+            "en": "Obtain the Silver Wing from the man in Pewter City, then find Lugia in the Whirl Islands B2F.",
+            "ja": "ニビシティの男性から「ぎんいろのはね」を入手後、うずまきじまB2Fでルギアと出会える。",
+            "fr": "Obtenez l’Aile Argent auprès d’un homme à Argenta, puis trouvez Lugia aux Îles Tourbillon B2F.",
+            "de": "Erhalte den Silberflügel von einem Mann in Marmoria City und finde Lugia in den Strudelinseln B2F.",
+            "es": "Obtén el Ala Plateada de un hombre en Ciudad Plateada y luego encuentra a Lugia en las Islas Remolino B2F."
+          }
+        }
+      ]
+    }
+  }
+}
