@@ -1,0 +1,101 @@
+{
+  "dex": 59,
+  "slug": "arcanine",
+
+  "names": {
+    "en": "Arcanine",
+    "ja": "ウインディ",
+    "fr": "Arcanin",
+    "de": "Arkani",
+    "es": "Arcanine"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["growlithe", "arcanine"],
+    "stage": 2
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Growlithe with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "ガーディに「ほのおのいし」を使って進化（タマムシデパート4F）。",
+            "fr": "Faites évoluer Caninos avec une Pierre Feu (Centre Commercial de Céladopole 4F).",
+            "de": "Entwickle Fukano mit einem Feuerstein (Prismania City Kaufhaus 4F).",
+            "es": "Evoluciona a Growlithe con una Piedra Fuego (Centro Comercial de Ciudad Azulona 4F)."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Growlithe with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "ガーディに「ほのおのいし」を使って進化（タマムシデパート4F）。",
+            "fr": "Faites évoluer Caninos avec une Pierre Feu (Centre Commercial de Céladopole 4F).",
+            "de": "Entwickle Fukano mit einem Feuerstein (Prismania City Kaufhaus 4F).",
+            "es": "Evoluciona a Growlithe con una Piedra Fuego (Centro Comercial de Ciudad Azulona 4F)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Growlithe with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "ガーディに「ほのおのいし」を使って進化（タマムシデパート4F）。",
+            "fr": "Faites évoluer Caninos avec une Pierre Feu (Centre Commercial de Céladopole 4F).",
+            "de": "Entwickle Fukano mit einem Feuerstein (Prismania City Kaufhaus 4F).",
+            "es": "Evoluciona a Growlithe con una Piedra Fuego (Centro Comercial de Ciudad Azulona 4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["FIRE_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Growlithe with a Fire Stone. Show Bill’s Grandfather a Growlithe on Route 25 to receive a Fire Stone.",
+            "ja": "ガーディに「ほのおのいし」を使って進化。25ばんどうろでマサキのじいさんにガーディを見せると入手できる。",
+            "fr": "Faites évoluer Caninos avec une Pierre Feu. Montrez un Caninos au grand-père de Léo sur la Route 25 pour obtenir une Pierre Feu.",
+            "de": "Entwickle Fukano mit einem Feuerstein. Zeige Bills Großvater auf Route 25 ein Fukano, um einen Feuerstein zu erhalten.",
+            "es": "Evoluciona a Growlithe con una Piedra Fuego. Muestra un Growlithe al abuelo de Bill en la Ruta 25 para obtenerla."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Growlithe with a Fire Stone. Receive the Fire Stone from Schoolkid Alan on Route 36 when he calls you (item varies).",
+            "ja": "ガーディに「ほのおのいし」を使って進化。36ばんどうろのがくせいアランからの電話で入手（アイテムはランダム）。",
+            "fr": "Faites évoluer Caninos avec une Pierre Feu. Recevez-la de l’Écolier Alain sur la Route 36 lorsqu’il vous appelle (objet variable).",
+            "de": "Entwickle Fukano mit einem Feuerstein. Erhalte ihn von Schüler Alan auf Route 36 nach seinem Anruf (Item variiert).",
+            "es": "Evoluciona a Growlithe con una Piedra Fuego. Recíbela del Estudiante Alan en la Ruta 36 cuando te llame (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
