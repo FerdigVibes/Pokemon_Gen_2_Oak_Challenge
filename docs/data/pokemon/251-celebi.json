@@ -23,7 +23,7 @@
         "sections": ["MT_SILVER_POKEMON"],
         "obtain": [
           {
-            "method": "event",
+            "method": "wild",
             "locations": ["Ilex Forest"],
             "notes": {
               "en": "Obtain the GS Ball from the Goldenrod City Pokémon Center, take it to Kurt in Azalea Town. Wait one day, then interact with the shrine in Ilex Forest.",
