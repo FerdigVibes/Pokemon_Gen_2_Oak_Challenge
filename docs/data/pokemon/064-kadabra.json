@@ -1,0 +1,118 @@
+{
+  "dex": 64,
+  "slug": "kadabra",
+
+  "names": {
+    "en": "Kadabra",
+    "ja": "ユンゲラー",
+    "fr": "Kadabra",
+    "de": "Kadabra",
+    "es": "Kadabra"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["abra", "kadabra", "alakazam"],
+    "stage": 2,
+    "evolvesFrom": "abra"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Abra at Lv. 16.",
+            "ja": "ケーシィをLv.16で進化。",
+            "fr": "Faites évoluer Abra au niveau 16.",
+            "de": "Entwickle Abra auf Level 16.",
+            "es": "Evoluciona a Abra al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Abra at Lv. 16.",
+            "ja": "ケーシィをLv.16で進化。",
+            "fr": "Faites évoluer Abra au niveau 16.",
+            "de": "Entwickle Abra auf Level 16.",
+            "es": "Evoluciona a Abra al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Abra at Lv. 16.",
+            "ja": "ケーシィをLv.16で進化。",
+            "fr": "Faites évoluer Abra au niveau 16.",
+            "de": "Entwickle Abra auf Level 16.",
+            "es": "Evoluciona a Abra al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Abra at Lv. 16.",
+            "ja": "ケーシィをLv.16で進化。",
+            "fr": "Faites évoluer Abra au niveau 16.",
+            "de": "Entwickle Abra auf Level 16.",
+            "es": "Evoluciona a Abra al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Abra at Lv. 16.",
+            "ja": "ケーシィをLv.16で進化。",
+            "fr": "Faites évoluer Abra au niveau 16.",
+            "de": "Entwickle Abra auf Level 16.",
+            "es": "Evoluciona a Abra al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Abra at Lv. 16.",
+            "ja": "ケーシィをLv.16で進化。",
+            "fr": "Faites évoluer Abra au niveau 16.",
+            "de": "Entwickle Abra auf Level 16.",
+            "es": "Evoluciona a Abra al nivel 16."
+          }
+        }
+      ]
+    }
+  }
+}
