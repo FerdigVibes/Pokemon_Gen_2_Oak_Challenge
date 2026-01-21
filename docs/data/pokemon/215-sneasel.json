@@ -1,0 +1,75 @@
+{
+  "dex": 215,
+  "slug": "sneasel",
+
+  "names": {
+    "en": "Sneasel",
+    "ja": "ニューラ",
+    "fr": "Farfuret",
+    "de": "Sniebel",
+    "es": "Sneasel"
+  },
+
+  "types": ["dark", "ice"],
+
+  "evolution": {
+    "family": ["sneasel", "weavile"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 28", "Mt. Silver Exterior"],
+          "time": ["night"],
+          "notes": {
+            "en": "Rare nighttime encounter on Route 28 and outside Mt. Silver.",
+            "ja": "28ばんどうろとシロガネやま外周で、夜に低確率で出現。",
+            "fr": "Apparaît rarement la nuit sur la Route 28 et à l’extérieur du Mont Argenté.",
+            "de": "Erscheint nachts mit geringer Wahrscheinlichkeit auf Route 28 und außerhalb des Silberbergs.",
+            "es": "Aparece raramente por la noche en la Ruta 28 y en el exterior del Monte Plateado."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 28", "Mt. Silver Exterior"],
+          "time": ["night"],
+          "notes": {
+            "en": "Rare nighttime encounter on Route 28 and outside Mt. Silver.",
+            "ja": "28ばんどうろとシロガネやま外周で、夜に低確率で出現。",
+            "fr": "Apparaît rarement la nuit sur la Route 28 et à l’extérieur du Mont Argenté.",
+            "de": "Erscheint nachts mit geringer Wahrscheinlichkeit auf Route 28 und außerhalb des Silberbergs.",
+            "es": "Aparece raramente por la noche en la Ruta 28 y en el exterior del Monte Plateado."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "time": ["night"],
+          "notes": {
+            "en": "Very rare nighttime encounter inside Ice Path.",
+            "ja": "こおりのぬけみちで夜にごく低確率で出現。",
+            "fr": "Apparaît très rarement la nuit dans le Chemin de Glace.",
+            "de": "Sehr seltene nächtliche Begegnung im Eispfad.",
+            "es": "Encuentro muy raro por la noche dentro de la Ruta Helada."
+          }
+        }
+      ]
+    }
+  }
+}
