@@ -2,33 +2,27 @@
   "001-bulbasaur.json",
   "002-ivysaur.json",
   "003-venusaur.json",
-
   "004-charmander.json",
   "005-charmeleon.json",
   "006-charizard.json",
-
   "007-squirtle.json",
   "008-wartortle.json",
   "009-blastoise.json",
-
   "010-caterpie.json",
   "011-metapod.json",
   "012-butterfree.json",
-
   "013-weedle.json",
   "014-kakuna.json",
   "015-beedrill.json",
-
   "016-pidgey.json",
   "017-pidgeotto.json",
   "018-pidgeot.json",
-
   "019-rattata.json",
   "020-raticate.json",
-
   "021-spearow.json",
   "022-fearow.json",
-
+  "023-ekans.json",
+  "024-arbok.json",
   "025-pikachu.json",
   "026-raichu.json",
   "027-sandshrew.json",
@@ -62,6 +56,7 @@
   "055-golduck.json",
   "056-mankey.json",
   "057-primeape.json",
+  
   "131-lapras.json",
   "150-mewtwo.json",
   "169-crobat.json",
