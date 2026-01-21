@@ -328,12 +328,25 @@ async function selectGame(gameMeta) {
       pokemon: gameData.pokemon
     });
 
-    // 7️⃣ Reconcile Section 3
+    // 7️⃣ Reconcile Section 3 (FIXED)
     const selection = getCurrentDetailSelection();
     if (selection) {
       const { pokemon } = selection;
-      const gameKey = normalizeGameId(gameMeta.id);
-      if (!pokemon.games?.[gameKey]) {
+
+      const gameId = gameMeta.id;
+      const baseId = gameMeta.base || normalizeGameId(gameId);
+
+      // Prefer exact game match, fall back to base game
+      const entries =
+        pokemon.games?.[gameId] ??
+        pokemon.games?.[baseId];
+
+      // VC-only guard (prevents Celebi leaking into crystal_gbc)
+      const blockedByVcOnly =
+        entries?.some(e => e.availability?.vcOnly) &&
+        gameId !== 'crystal_vc';
+
+      if (!entries || blockedByVcOnly) {
         closePokemonDetail();
       } else {
         renderPokemonDetail(pokemon, gameData);
@@ -349,11 +362,6 @@ async function selectGame(gameMeta) {
     alert(err.message); // TEMPORARY — remove later
   }
 }
-
-
-
-
-
 
 /* =========================================================
    GLOBAL PROGRESS
