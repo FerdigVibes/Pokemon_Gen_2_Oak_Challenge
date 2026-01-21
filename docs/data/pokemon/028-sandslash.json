@@ -1,0 +1,102 @@
+{
+  "dex": 28,
+  "slug": "sandslash",
+
+  "names": {
+    "en": "Sandslash",
+    "ja": "サンドパン",
+    "fr": "Sablaireau",
+    "de": "Sandamer",
+    "es": "Sandslash"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["sandshrew", "sandslash"],
+    "stage": 2,
+    "evolvesFrom": "sandshrew"
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Sandshrew at level 22.",
+            "ja": "サンドがレベル22で進化する。",
+            "fr": "Évolue de Sabelette au niveau 22.",
+            "de": "Entwickelt sich aus Sandan auf Level 22.",
+            "es": "Evoluciona de Sandshrew al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Sandshrew at level 22.",
+            "ja": "サンドがレベル22で進化する。",
+            "fr": "Évolue de Sabelette au niveau 22.",
+            "de": "Entwickelt sich aus Sandan auf Level 22.",
+            "es": "Evoluciona de Sandshrew al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Sandshrew at level 22.",
+            "ja": "サンドがレベル22で進化する。",
+            "fr": "Évolue de Sabelette au niveau 22.",
+            "de": "Entwickelt sich aus Sandan auf Level 22.",
+            "es": "Evoluciona de Sandshrew al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Sandshrew at level 22.",
+            "ja": "サンドがレベル22で進化する。",
+            "fr": "Évolue de Sabelette au niveau 22.",
+            "de": "Entwickelt sich aus Sandan auf Level 22.",
+            "es": "Evoluciona de Sandshrew al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolves from Sandshrew at level 22.",
+            "ja": "サンドがレベル22で進化する。",
+            "fr": "Évolue de Sabelette au niveau 22.",
+            "de": "Entwickelt sich aus Sandan auf Level 22.",
+            "es": "Evoluciona de Sandshrew al nivel 22."
+          }
+        }
+      ]
+    }
+  }
+}
