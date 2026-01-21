@@ -1,0 +1,108 @@
+{
+  "dex": 58,
+  "slug": "growlithe",
+
+  "names": {
+    "en": "Growlithe",
+    "ja": "ガーディ",
+    "fr": "Caninos",
+    "de": "Fukano",
+    "es": "Growlithe"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["growlithe", "arcanine"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7", "Route 8"],
+          "notes": {
+            "en": "Appears on routes near Celadon City.",
+            "ja": "タマムシシティ周辺のどうろで出現する。",
+            "fr": "Apparaît sur les routes près de Céladopole.",
+            "de": "Erscheint auf den Routen nahe Prismania City.",
+            "es": "Aparece en rutas cercanas a Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7", "Route 8"],
+          "notes": {
+            "en": "Appears on routes near Celadon City.",
+            "ja": "タマムシシティ周辺のどうろで出現する。",
+            "fr": "Apparaît sur les routes près de Céladopole.",
+            "de": "Erscheint auf den Routen nahe Prismania City.",
+            "es": "Aparece en rutas cercanas a Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokémon Mansion 1F"],
+          "notes": {
+            "en": "Found inside the Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンじまのポケモンやしき1Fで出現する。",
+            "fr": "Se trouve dans le Manoir Pokémon sur l’Île Cramois’Île.",
+            "de": "Im Pokémon-Haus auf der Zinnoberinsel anzutreffen.",
+            "es": "Se encuentra en la Mansión Pokémon en Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 36"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Rare encounter during the morning and daytime.",
+            "ja": "あさ・ひるにまれに出現する。",
+            "fr": "Rencontre rare le matin et la journée.",
+            "de": "Seltene Begegnung am Morgen und Tag.",
+            "es": "Encuentro raro por la mañana y el día."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 36"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Rare encounter during the morning and daytime.",
+            "ja": "あさ・ひるにまれに出現する。",
+            "fr": "Rencontre rare le matin et la journée.",
+            "de": "Seltene Begegnung am Morgen und Tag.",
+            "es": "Encuentro raro por la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
