@@ -1,0 +1,118 @@
+{
+  "dex": 61,
+  "slug": "poliwhirl",
+
+  "names": {
+    "en": "Poliwhirl",
+    "ja": "ニョロゾ",
+    "fr": "Têtarte",
+    "de": "Quaputzi",
+    "es": "Poliwhirl"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["poliwag", "poliwhirl", "poliwrath", "politoed"],
+    "stage": 2,
+    "evolvesFrom": "poliwag"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Poliwag at Lv. 25.",
+            "ja": "ニョロモがレベル25で進化。",
+            "fr": "Faites évoluer Ptitard au niveau 25.",
+            "de": "Entwickelt sich aus Quapsel auf Level 25.",
+            "es": "Evoluciona de Poliwag al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Poliwag at Lv. 25.",
+            "ja": "ニョロモがレベル25で進化。",
+            "fr": "Faites évoluer Ptitard au niveau 25.",
+            "de": "Entwickelt sich aus Quapsel auf Level 25.",
+            "es": "Evoluciona de Poliwag al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Poliwag at Lv. 25. Can also be caught by fishing with the Super Rod on Route 22.",
+            "ja": "ニョロモがレベル25で進化。22ばんどうろで、すごいつりざおでも入手可能。",
+            "fr": "Faites évoluer Ptitard au niveau 25. Peut aussi être pêché avec la Super Canne sur la Route 22.",
+            "de": "Entwickelt sich aus Quapsel auf Level 25. Alternativ mit der Superangel auf Route 22 fangbar.",
+            "es": "Evoluciona de Poliwag al nivel 25. También puede pescarse con la Súper Caña en la Ruta 22."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Poliwag at Lv. 25.",
+            "ja": "ニョロモがレベル25で進化。",
+            "fr": "Faites évoluer Ptitard au niveau 25.",
+            "de": "Entwickelt sich aus Quapsel auf Level 25.",
+            "es": "Evoluciona de Poliwag al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Poliwag at Lv. 25.",
+            "ja": "ニョロモがレベル25で進化。",
+            "fr": "Faites évoluer Ptitard au niveau 25.",
+            "de": "Entwickelt sich aus Quapsel auf Level 25.",
+            "es": "Evoluciona de Poliwag al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Poliwag at Lv. 25.",
+            "ja": "ニョロモがレベル25で進化。",
+            "fr": "Faites évoluer Ptitard au niveau 25.",
+            "de": "Entwickelt sich aus Quapsel auf Level 25.",
+            "es": "Evoluciona de Poliwag al nivel 25."
+          }
+        }
+      ]
+    }
+  }
+}
