@@ -1,0 +1,39 @@
+{
+  "dex": 68,
+  "slug": "machamp",
+
+  "names": {
+    "en": "Machamp",
+    "ja": "カイリキー",
+    "fr": "Mackogneur",
+    "de": "Machomei",
+    "es": "Machamp"
+  },
+
+  "types": ["fighting"],
+
+  "evolution": {
+    "family": ["machop", "machoke", "machamp"],
+    "stage": 3,
+    "evolvesFrom": "machoke"
+  },
+
+  "games": {
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Underground Path (South of Cerulean City)"],
+          "notes": {
+            "en": "Trade Machoke for a Cubone near the Underground Path south of Cerulean City.",
+            "ja": "ハナダシティ南のちかつうろ付近でゴーリキーをカラカラと交換。",
+            "fr": "Échangez un Machopeur contre un Ossatueur près du Souterrain au sud d’Azuria.",
+            "de": "Tausche ein Maschock gegen ein Tragosso nahe dem Untergrundpfad südlich von Azuria City.",
+            "es": "Intercambia un Machoke por un Cubone cerca del Pasaje Subterráneo al sur de Ciudad Celeste."
+          }
+        }
+      ]
+    }
+  }
+}
