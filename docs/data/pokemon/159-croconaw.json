@@ -1,0 +1,70 @@
+{
+  "dex": 159,
+  "slug": "croconaw",
+
+  "names": {
+    "en": "Croconaw",
+    "ja": "アリゲイツ",
+    "fr": "Crocrodil",
+    "de": "Tyracroc",
+    "es": "Croconaw"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["totodile", "croconaw", "feraligatr"],
+    "stage": 2,
+    "evolvesFrom": "totodile"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Totodile at Lv. 18.",
+            "ja": "ワニノコをLv.18で進化。",
+            "fr": "Faites évoluer Kaiminus au niveau 18.",
+            "de": "Entwickle Karnimani auf Level 18.",
+            "es": "Evoluciona a Totodile al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Totodile at Lv. 18.",
+            "ja": "ワニノコをLv.18で進化。",
+            "fr": "Faites évoluer Kaiminus au niveau 18.",
+            "de": "Entwickle Karnimani auf Level 18.",
+            "es": "Evoluciona a Totodile al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Totodile at Lv. 18.",
+            "ja": "ワニノコをLv.18で進化。",
+            "fr": "Faites évoluer Kaiminus au niveau 18.",
+            "de": "Entwickle Karnimani auf Level 18.",
+            "es": "Evoluciona a Totodile al nivel 18."
+          }
+        }
+      ]
+    }
+  }
+}
