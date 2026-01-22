@@ -1,0 +1,70 @@
+{
+  "dex": 160,
+  "slug": "feraligatr",
+
+  "names": {
+    "en": "Feraligatr",
+    "ja": "オーダイル",
+    "fr": "Aligatueur",
+    "de": "Impergator",
+    "es": "Feraligatr"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["totodile", "croconaw", "feraligatr"],
+    "stage": 3,
+    "evolvesFrom": "croconaw"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Croconaw at Lv. 30.",
+            "ja": "アリゲイツをLv.30で進化。",
+            "fr": "Faites évoluer Crocrodil au niveau 30.",
+            "de": "Entwickle Tyracroc auf Level 30.",
+            "es": "Evoluciona a Croconaw al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Croconaw at Lv. 30.",
+            "ja": "アリゲイツをLv.30で進化。",
+            "fr": "Faites évoluer Crocrodil au niveau 30.",
+            "de": "Entwickle Tyracroc auf Level 30.",
+            "es": "Evoluciona a Croconaw al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Croconaw at Lv. 30.",
+            "ja": "アリゲイツをLv.30で進化。",
+            "fr": "Faites évoluer Crocrodil au niveau 30.",
+            "de": "Entwickle Tyracroc auf Level 30.",
+            "es": "Evoluciona a Croconaw al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
