@@ -1,0 +1,70 @@
+{
+  "dex": 154,
+  "slug": "meganium",
+
+  "names": {
+    "en": "Meganium",
+    "ja": "メガニウム",
+    "fr": "Méganium",
+    "de": "Meganie",
+    "es": "Meganium"
+  },
+
+  "types": ["grass"],
+
+  "evolution": {
+    "family": ["chikorita", "bayleef", "meganium"],
+    "stage": 3,
+    "evolvesFrom": "bayleef"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bayleef at Lv. 32.",
+            "ja": "ベイリーフをLv.32で進化。",
+            "fr": "Faites évoluer Macronium au niveau 32.",
+            "de": "Entwickle Lorblatt auf Level 32.",
+            "es": "Evoluciona a Bayleef al nivel 32."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bayleef at Lv. 32.",
+            "ja": "ベイリーフをLv.32で進化。",
+            "fr": "Faites évoluer Macronium au niveau 32.",
+            "de": "Entwickle Lorblatt auf Level 32.",
+            "es": "Evoluciona a Bayleef al nivel 32."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bayleef at Lv. 32.",
+            "ja": "ベイリーフをLv.32で進化。",
+            "fr": "Faites évoluer Macronium au niveau 32.",
+            "de": "Entwickle Lorblatt auf Level 32.",
+            "es": "Evoluciona a Bayleef al nivel 32."
+          }
+        }
+      ]
+    }
+  }
+}
