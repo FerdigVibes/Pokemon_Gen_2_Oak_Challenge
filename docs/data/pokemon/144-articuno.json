@@ -1,0 +1,72 @@
+{
+  "dex": 144,
+  "slug": "articuno",
+
+  "names": {
+    "en": "Articuno",
+    "ja": "フリーザー",
+    "fr": "Artikodin",
+    "de": "Arktos",
+    "es": "Articuno"
+  },
+
+  "types": ["ice", "flying"],
+
+  "evolution": {
+    "family": ["articuno"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["ARTICUNO"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Seafoam Islands B4F"],
+          "notes": {
+            "en": "Seafoam Islands B4F – SAVE BEFORE INTERACTING!!",
+            "ja": "ふたごじま B4F – ちかづくまえに セーブ！！",
+            "fr": "Îles Écume B4F – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Seeschauminseln B4F – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Islas Espuma B4F – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["ARTICUNO"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Seafoam Islands B4F"],
+          "notes": {
+            "en": "Seafoam Islands B4F – SAVE BEFORE INTERACTING!!",
+            "ja": "ふたごじま B4F – ちかづくまえに セーブ！！",
+            "fr": "Îles Écume B4F – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Seeschauminseln B4F – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Islas Espuma B4F – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["ARTICUNO"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Seafoam Islands B4F"],
+          "notes": {
+            "en": "Seafoam Islands B4F – SAVE BEFORE INTERACTING!!",
+            "ja": "ふたごじま B4F – ちかづくまえに セーブ！！",
+            "fr": "Îles Écume B4F – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Seeschauminseln B4F – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Islas Espuma B4F – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    }
+  }
+}
