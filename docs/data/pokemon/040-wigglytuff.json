@@ -78,6 +78,25 @@
             }
           }
         ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Jigglypuff with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "プリンに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Rondoudou avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Pummeluff mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Jigglypuff con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
+            }
+          }
+        ]
       }
     ],
 
@@ -97,6 +116,25 @@
               "fr": "Faites évoluer Rondoudou avec une Pierre Lune. À ce stade, seules deux Pierres Lune sont disponibles : 1. Mont Sélénite 1F près du Montagnard. 2. Mont Sélénite B2F près des fossiles (cachée).",
               "de": "Entwickle Pummeluff mit einem Mondstein. Zu diesem Zeitpunkt sind nur zwei Mondsteine verfügbar: 1. Mondberg 1F nahe dem Wanderer. 2. Mondberg B2F bei den Fossilien (versteckt).",
               "es": "Evoluciona a Jigglypuff con una Piedra Lunar. En este punto solo hay dos disponibles: 1. Monte Moon 1F cerca del Montañero. 2. Monte Moon B2F cerca de los fósiles (oculta)."
+            }
+          }
+        ]
+      },
+      {
+        "sections": ["MOON_STONE_2"],
+        "availability": {
+          "afterSection": "BEFORE_FUCHSIA",
+          "excludeDex": [40]
+        },
+        "obtain": [
+          {
+            "method": "evolution",
+            "notes": {
+              "en": "Evolve Jigglypuff with a Moon Stone. Two remaining Moon Stones: 1. Team Rocket Hideout. 2. Celadon City (CUT required).",
+              "ja": "プリンに「つきのいし」を使って進化。残りのつきのいし：① ロケットだんアジト ② タマムシシティ（いあいぎり必要）。",
+              "fr": "Faites évoluer Rondoudou avec une Pierre Lune. Deux Pierres Lune restantes : 1. Repaire de la Team Rocket. 2. Céladopole (Coupe requise).",
+              "de": "Entwickle Pummeluff mit einem Mondstein. Zwei verbleibende Mondsteine: 1. Versteck der Team Rocket. 2. Prismania City (Zerschneider erforderlich).",
+              "es": "Evoluciona a Jigglypuff con una Piedra Lunar. Quedan dos: 1. Guarida del Team Rocket. 2. Ciudad Azulona (requiere Corte)."
             }
           }
         ]
