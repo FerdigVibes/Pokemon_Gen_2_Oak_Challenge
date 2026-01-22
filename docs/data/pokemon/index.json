@@ -61,8 +61,20 @@
   "060-poliwag.json",
   "061-poliwhirl.json",
   "062-poliwrath.json",
+  "063-abra.json",
+  "064-kadabra.json",
+  "066-machop.json",
+  "067-machoke.json",
+  "068-machamp.json",
+  
   "131-lapras.json",
+  "138-omanyte.json",
+  "139-omastar.json",
+  "140-kabuto.json",
+  "141-kabutops.json",
+  
   "150-mewtwo.json",
+  
   "169-crobat.json",
   "174-igglybuff.json",
   "182-bellossom.json",
