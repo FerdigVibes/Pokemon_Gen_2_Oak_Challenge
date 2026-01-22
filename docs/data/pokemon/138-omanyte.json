@@ -1,0 +1,72 @@
+{
+  "dex": 138,
+  "slug": "omanyte",
+
+  "names": {
+    "en": "Omanyte",
+    "ja": "オムナイト",
+    "fr": "Amonita",
+    "de": "Amonitas",
+    "es": "Omanyte"
+  },
+
+  "types": ["rock", "water"],
+
+  "evolution": {
+    "family": ["omanyte", "omastar"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "fossil",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive Helix Fossil at the Cinnabar Island Lab.",
+            "ja": "グレンタウンのけんきゅうじょで「かいのカセキ」をふっかつさせる。",
+            "fr": "Ressuscitez le Fossile Nautile au Laboratoire de Cramois’Île.",
+            "de": "Belebe das Helixfossil im Labor auf Zinnoberinsel wieder.",
+            "es": "Revive el Fósil Helix en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "fossil",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive Helix Fossil at the Cinnabar Island Lab.",
+            "ja": "グレンタウンのけんきゅうじょで「かいのカセキ」をふっかつさせる。",
+            "fr": "Ressuscitez le Fossile Nautile au Laboratoire de Cramois’Île.",
+            "de": "Belebe das Helixfossil im Labor auf Zinnoberinsel wieder.",
+            "es": "Revive el Fósil Helix en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "fossil",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive Helix Fossil at the Cinnabar Island Lab.",
+            "ja": "グレンタウンのけんきゅうじょで「かいのカセキ」をふっかつさせる。",
+            "fr": "Ressuscitez le Fossile Nautile au Laboratoire de Cramois’Île.",
+            "de": "Belebe das Helixfossil im Labor auf Zinnoberinsel wieder.",
+            "es": "Revive el Fósil Helix en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    }
+  }
+}
