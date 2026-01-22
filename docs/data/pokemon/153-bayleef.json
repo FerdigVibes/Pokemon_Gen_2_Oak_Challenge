@@ -1,1 +1,71 @@
+{
+  "dex": 153,
+  "slug": "bayleef",
+
+  "names": {
+    "en": "Bayleef",
+    "ja": "ベイリーフ",
+    "fr": "Macronium",
+    "de": "Lorblatt",
+    "es": "Bayleef"
+  },
+
+  "types": ["grass"],
+
+  "evolution": {
+    "family": ["chikorita", "bayleef", "meganium"],
+    "stage": 2,
+    "evolvesFrom": "chikorita"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chikorita at Lv. 16.",
+            "ja": "チコリータをLv.16で進化。",
+            "fr": "Faites évoluer Germignon au niveau 16.",
+            "de": "Entwickle Endivie auf Level 16.",
+            "es": "Evoluciona a Chikorita al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chikorita at Lv. 16.",
+            "ja": "チコリータをLv.16で進化。",
+            "fr": "Faites évoluer Germignon au niveau 16.",
+            "de": "Entwickle Endivie auf Level 16.",
+            "es": "Evoluciona a Chikorita al nivel 16."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chikorita at Lv. 16.",
+            "ja": "チコリータをLv.16で進化。",
+            "fr": "Faites évoluer Germignon au niveau 16.",
+            "de": "Entwickle Endivie auf Level 16.",
+            "es": "Evoluciona a Chikorita al nivel 16."
+          }
+        }
+      ]
+    }
+  }
+}
 
