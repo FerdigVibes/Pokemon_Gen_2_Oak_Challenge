@@ -1,0 +1,124 @@
+{
+  "dex": 77,
+  "slug": "ponyta",
+
+  "names": {
+    "en": "Ponyta",
+    "ja": "ポニータ",
+    "fr": "Ponyta",
+    "de": "Ponita",
+    "es": "Ponyta"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["ponyta", "rapidash"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンじまのポケモンやしきで出現。",
+            "fr": "Disponible au Manoir Pokémon sur Cramois’Île.",
+            "de": "Im Pokémon-Haus auf Zinnoberinsel zu finden.",
+            "es": "Se encuentra en la Mansión Pokémon en Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンじまのポケモンやしきで出現。",
+            "fr": "Disponible au Manoir Pokémon sur Cramois’Île.",
+            "de": "Im Pokémon-Haus auf Zinnoberinsel zu finden.",
+            "es": "Se encuentra en la Mansión Pokémon en Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 17"],
+          "notes": {
+            "en": "Found on Route 17.",
+            "ja": "17ばんどうろで出現。",
+            "fr": "Disponible sur la Route 17.",
+            "de": "Auf Route 17 zu finden.",
+            "es": "Se encuentra en la Ruta 17."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 26", "Route 27"],
+          "notes": {
+            "en": "Found on Routes 26 and 27.",
+            "ja": "26ばんどうろ・27ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 26 et 27.",
+            "de": "Auf den Routen 26 und 27 zu finden.",
+            "es": "Se encuentra en las Rutas 26 y 27."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 26", "Route 27"],
+          "notes": {
+            "en": "Found on Routes 26 and 27.",
+            "ja": "26ばんどうろ・27ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 26 et 27.",
+            "de": "Auf den Routen 26 und 27 zu finden.",
+            "es": "Se encuentra en las Rutas 26 y 27."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 26", "Route 27"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 26 and 27 during the morning and daytime.",
+            "ja": "26ばんどうろ・27ばんどうろで あさ・ひるに出現。",
+            "fr": "Disponible sur les Routes 26 et 27 le matin et en journée.",
+            "de": "Auf den Routen 26 und 27 am Morgen und tagsüber zu finden.",
+            "es": "Se encuentra en las Rutas 26 y 27 por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
