@@ -1,0 +1,119 @@
+{
+  "dex": 78,
+  "slug": "rapidash",
+
+  "names": {
+    "en": "Rapidash",
+    "ja": "ギャロップ",
+    "fr": "Galopa",
+    "de": "Gallopa",
+    "es": "Rapidash"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["ponyta", "rapidash"],
+    "stage": 2,
+    "evolvesFrom": "ponyta"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ponyta at Lv. 40.",
+            "ja": "ポニータをLv.40で進化。",
+            "fr": "Faites évoluer Ponyta au niveau 40.",
+            "de": "Entwickle Ponita auf Level 40.",
+            "es": "Evoluciona a Ponyta al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ponyta at Lv. 40.",
+            "ja": "ポニータをLv.40で進化。",
+            "fr": "Faites évoluer Ponyta au niveau 40.",
+            "de": "Entwickle Ponita auf Level 40.",
+            "es": "Evoluciona a Ponyta al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ponyta at Lv. 40.",
+            "ja": "ポニータをLv.40で進化。",
+            "fr": "Faites évoluer Ponyta au niveau 40.",
+            "de": "Entwickle Ponita auf Level 40.",
+            "es": "Evoluciona a Ponyta al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ponyta at Lv. 40.",
+            "ja": "ポニータをLv.40で進化。",
+            "fr": "Faites évoluer Ponyta au niveau 40.",
+            "de": "Entwickle Ponita auf Level 40.",
+            "es": "Evoluciona a Ponyta al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ponyta at Lv. 40.",
+            "ja": "ポニータをLv.40で進化。",
+            "fr": "Faites évoluer Ponyta au niveau 40.",
+            "de": "Entwickle Ponita auf Level 40.",
+            "es": "Evoluciona a Ponyta al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Evolve Ponyta at Lv. 40. (Morning and daytime only in Crystal.)",
+            "ja": "ポニータをLv.40で進化（クリスタルでは あさ・ひるのみ）。",
+            "fr": "Faites évoluer Ponyta au niveau 40 (uniquement le matin et en journée dans Cristal).",
+            "de": "Entwickle Ponita auf Level 40 (in Kristall nur morgens und tagsüber).",
+            "es": "Evoluciona a Ponyta al nivel 40 (solo por la mañana y durante el día en Cristal)."
+          }
+        }
+      ]
+    }
+  }
+}
