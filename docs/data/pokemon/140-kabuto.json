@@ -1,0 +1,72 @@
+{
+  "dex": 140,
+  "slug": "kabuto",
+
+  "names": {
+    "en": "Kabuto",
+    "ja": "カブト",
+    "fr": "Kabuto",
+    "de": "Kabuto",
+    "es": "Kabuto"
+  },
+
+  "types": ["rock", "water"],
+
+  "evolution": {
+    "family": ["kabuto", "kabutops"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "fossil",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive Dome Fossil at the Cinnabar Island Lab.",
+            "ja": "グレンタウンのけんきゅうじょで「こうらのカセキ」をふっかつさせる。",
+            "fr": "Ressuscitez le Fossile Dôme au Laboratoire de Cramois’Île.",
+            "de": "Belebe das Domfossil im Labor auf Zinnoberinsel wieder.",
+            "es": "Revive el Fósil Domo en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "fossil",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive Dome Fossil at the Cinnabar Island Lab.",
+            "ja": "グレンタウンのけんきゅうじょで「こうらのカセキ」をふっかつさせる。",
+            "fr": "Ressuscitez le Fossile Dôme au Laboratoire de Cramois’Île.",
+            "de": "Belebe das Domfossil im Labor auf Zinnoberinsel wieder.",
+            "es": "Revive el Fósil Domo en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "fossil",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive Dome Fossil at the Cinnabar Island Lab.",
+            "ja": "グレンタウンのけんきゅうじょで「こうらのカセキ」をふっかつさせる。",
+            "fr": "Ressuscitez le Fossile Dôme au Laboratoire de Cramois’Île.",
+            "de": "Belebe das Domfossil im Labor auf Zinnoberinsel wieder.",
+            "es": "Revive el Fósil Domo en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    }
+  }
+}
