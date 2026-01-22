@@ -1,0 +1,129 @@
+{
+  "dex": 80,
+  "slug": "slowbro",
+
+  "names": {
+    "en": "Slowbro",
+    "ja": "ヤドラン",
+    "fr": "Flagadoss",
+    "de": "Lahmus",
+    "es": "Slowbro"
+  },
+
+  "types": ["water", "psychic"],
+
+  "evolution": {
+    "family": ["slowpoke", "slowbro", "slowking"],
+    "stage": 2,
+    "evolvesFrom": "slowpoke"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slowpoke at Lv. 37.",
+            "ja": "ヤドンをLv.37で進化。",
+            "fr": "Faites évoluer Ramoloss au niveau 37.",
+            "de": "Entwickle Flegmon auf Level 37.",
+            "es": "Evoluciona a Slowpoke al nivel 37."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slowpoke at Lv. 37.",
+            "ja": "ヤドンをLv.37で進化。",
+            "fr": "Faites évoluer Ramoloss au niveau 37.",
+            "de": "Entwickle Flegmon auf Level 37.",
+            "es": "Evoluciona a Slowpoke al nivel 37."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slowpoke at Lv. 37.",
+            "ja": "ヤドンをLv.37で進化。",
+            "fr": "Faites évoluer Ramoloss au niveau 37.",
+            "de": "Entwickle Flegmon auf Level 37.",
+            "es": "Evoluciona a Slowpoke al nivel 37."
+          }
+        },
+        {
+          "method": "surf",
+          "location": ["Route 12", "Route 13", "Seafoam Islands B2F"],
+          "notes": {
+            "en": "Found while surfing on Routes 12 and 13, and in Seafoam Islands B2F.",
+            "ja": "12ばんどうろ・13ばんどうろ・ふたごじまB2Fで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant sur les Routes 12 et 13, ainsi qu’aux Îles Écume B2F.",
+            "de": "Beim Surfen auf Route 12, Route 13 und in den Seeschauminseln B2F zu finden.",
+            "es": "Se encuentra usando Surf en las Rutas 12 y 13 y en Islas Espuma B2F."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slowpoke at Lv. 37.",
+            "ja": "ヤドンをLv.37で進化。",
+            "fr": "Faites évoluer Ramoloss au niveau 37.",
+            "de": "Entwickle Flegmon auf Level 37.",
+            "es": "Evoluciona a Slowpoke al nivel 37."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slowpoke at Lv. 37.",
+            "ja": "ヤドンをLv.37で進化。",
+            "fr": "Faites évoluer Ramoloss au niveau 37.",
+            "de": "Entwickle Flegmon auf Level 37.",
+            "es": "Evoluciona a Slowpoke al nivel 37."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slowpoke at Lv. 37.",
+            "ja": "ヤドンをLv.37で進化。",
+            "fr": "Faites évoluer Ramoloss au niveau 37.",
+            "de": "Entwickle Flegmon auf Level 37.",
+            "es": "Evoluciona a Slowpoke al nivel 37."
+          }
+        }
+      ]
+    }
+  }
+}
