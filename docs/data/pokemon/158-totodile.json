@@ -1,0 +1,69 @@
+{
+  "dex": 158,
+  "slug": "totodile",
+
+  "names": {
+    "en": "Totodile",
+    "ja": "ワニノコ",
+    "fr": "Kaiminus",
+    "de": "Karnimani",
+    "es": "Totodile"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["totodile", "croconaw", "feraligatr"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "starter",
+          "notes": {
+            "en": "Your first Pokémon! Enjoy your journey!",
+            "ja": "はじめてのポケモン！ ぼうけんを たのしもう！",
+            "fr": "Votre premier Pokémon ! Profitez de votre aventure !",
+            "de": "Dein erstes Pokémon! Viel Spaß auf deiner Reise!",
+            "es": "¡Tu primer Pokémon! ¡Disfruta de tu aventura!"
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "starter",
+          "notes": {
+            "en": "Your first Pokémon! Enjoy your journey!",
+            "ja": "はじめてのポケモン！ ぼうけんを たのしもう！",
+            "fr": "Votre premier Pokémon ! Profitez de votre aventure !",
+            "de": "Dein erstes Pokémon! Viel Spaß auf deiner Reise!",
+            "es": "¡Tu primer Pokémon! ¡Disfruta de tu aventura!"
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "starter",
+          "notes": {
+            "en": "Your first Pokémon! Enjoy your journey!",
+            "ja": "はじめてのポケモン！ ぼうけんを たのしもう！",
+            "fr": "Votre premier Pokémon ! Profitez de votre aventure !",
+            "de": "Dein erstes Pokémon! Viel Spaß auf deiner Reise!",
+            "es": "¡Tu primer Pokémon! ¡Disfruta de tu aventura!"
+          }
+        }
+      ]
+    }
+  }
+}
