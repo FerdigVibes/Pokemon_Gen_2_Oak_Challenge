@@ -1,0 +1,72 @@
+{
+  "dex": 146,
+  "slug": "moltres",
+
+  "names": {
+    "en": "Moltres",
+    "ja": "ファイヤー",
+    "fr": "Sulfura",
+    "de": "Lavados",
+    "es": "Moltres"
+  },
+
+  "types": ["fire", "flying"],
+
+  "evolution": {
+    "family": ["moltres"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["MOLTRES"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Victory Road 2F"],
+          "notes": {
+            "en": "Victory Road 2F – SAVE BEFORE INTERACTING!!",
+            "ja": "チャンピオンロード 2F – ちかづくまえに セーブ！！",
+            "fr": "Route Victoire 2F – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Siegesstraße 2F – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Calle Victoria 2F – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["MOLTRES"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Victory Road 2F"],
+          "notes": {
+            "en": "Victory Road 2F – SAVE BEFORE INTERACTING!!",
+            "ja": "チャンピオンロード 2F – ちかづくまえに セーブ！！",
+            "fr": "Route Victoire 2F – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Siegesstraße 2F – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Calle Victoria 2F – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["MOLTRES"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Victory Road 2F"],
+          "notes": {
+            "en": "Victory Road 2F – SAVE BEFORE INTERACTING!!",
+            "ja": "チャンピオンロード 2F – ちかづくまえに セーブ！！",
+            "fr": "Route Victoire 2F – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Siegesstraße 2F – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Calle Victoria 2F – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    }
+  }
+}
