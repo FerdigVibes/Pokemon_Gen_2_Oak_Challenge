@@ -1,0 +1,70 @@
+{
+  "dex": 157,
+  "slug": "typhlosion",
+
+  "names": {
+    "en": "Typhlosion",
+    "ja": "バクフーン",
+    "fr": "Typhlosion",
+    "de": "Tornupto",
+    "es": "Typhlosion"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["cyndaquil", "quilava", "typhlosion"],
+    "stage": 3,
+    "evolvesFrom": "quilava"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Quilava at Lv. 36.",
+            "ja": "マグマラシをLv.36で進化。",
+            "fr": "Faites évoluer Feurisson au niveau 36.",
+            "de": "Entwickle Igelavar auf Level 36.",
+            "es": "Evoluciona a Quilava al nivel 36."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Quilava at Lv. 36.",
+            "ja": "マグマラシをLv.36で進化。",
+            "fr": "Faites évoluer Feurisson au niveau 36.",
+            "de": "Entwickle Igelavar auf Level 36.",
+            "es": "Evoluciona a Quilava al nivel 36."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Quilava at Lv. 36.",
+            "ja": "マグマラシをLv.36で進化。",
+            "fr": "Faites évoluer Feurisson au niveau 36.",
+            "de": "Entwickle Igelavar auf Level 36.",
+            "es": "Evoluciona a Quilava al nivel 36."
+          }
+        }
+      ]
+    }
+  }
+}
