@@ -1,0 +1,72 @@
+{
+  "dex": 145,
+  "slug": "zapdos",
+
+  "names": {
+    "en": "Zapdos",
+    "ja": "サンダー",
+    "fr": "Électhor",
+    "de": "Zapdos",
+    "es": "Zapdos"
+  },
+
+  "types": ["electric", "flying"],
+
+  "evolution": {
+    "family": ["zapdos"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Power Plant on Route 10, requires SURF – SAVE BEFORE INTERACTING!!",
+            "ja": "10ばんどうろのはつでんしょ（なみのりがひつよう）– ちかづくまえに セーブ！！",
+            "fr": "Centrale sur la Route 10, nécessite Surf – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Kraftwerk auf Route 10, benötigt Surfer – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Central Eléctrica en la Ruta 10, requiere Surf – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Power Plant on Route 10, requires SURF – SAVE BEFORE INTERACTING!!",
+            "ja": "10ばんどうろのはつでんしょ（なみのりがひつよう）– ちかづくまえに セーブ！！",
+            "fr": "Centrale sur la Route 10, nécessite Surf – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Kraftwerk auf Route 10, benötigt Surfer – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Central Eléctrica en la Ruta 10, requiere Surf – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Power Plant on Route 10, requires SURF – SAVE BEFORE INTERACTING!!",
+            "ja": "10ばんどうろのはつでんしょ（なみのりがひつよう）– ちかづくまえに セーブ！！",
+            "fr": "Centrale sur la Route 10, nécessite Surf – SAUVEGARDEZ AVANT D’INTERAGIR !!",
+            "de": "Kraftwerk auf Route 10, benötigt Surfer – VOR DEM ANSPRECHEN SPEICHERN!!",
+            "es": "Central Eléctrica en la Ruta 10, requiere Surf – ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    }
+  }
+}
