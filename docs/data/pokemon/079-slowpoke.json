@@ -1,0 +1,123 @@
+{
+  "dex": 79,
+  "slug": "slowpoke",
+
+  "names": {
+    "en": "Slowpoke",
+    "ja": "ヤドン",
+    "fr": "Ramoloss",
+    "de": "Flegmon",
+    "es": "Slowpoke"
+  },
+
+  "types": ["water", "psychic"],
+
+  "evolution": {
+    "family": ["slowpoke", "slowbro", "slowking"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "location": ["Route 10", "Celadon City", "Safari Zone"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod on Route 10, in Celadon City, and in the Safari Zone.",
+            "ja": "10ばんどうろ・タマムシシティ・サファリゾーンで「すごいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne sur la Route 10, à Céladopole et dans le Parc Safari.",
+            "de": "Durch Angeln mit der Superangel auf Route 10, in Prismania City und in der Safari-Zone zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en la Ruta 10, Ciudad Azulona y la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "location": ["Route 10", "Celadon City", "Safari Zone"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod on Route 10, in Celadon City, and in the Safari Zone.",
+            "ja": "10ばんどうろ・タマムシシティ・サファリゾーンで「すごいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne sur la Route 10, à Céladopole et dans le Parc Safari.",
+            "de": "Durch Angeln mit der Superangel auf Route 10, in Prismania City und in der Safari-Zone zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en la Ruta 10, Ciudad Azulona y la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "location": ["Route 12", "Route 13", "Seafoam Islands"],
+          "notes": {
+            "en": "Found while surfing on Routes 12 and 13, and in the Seafoam Islands.",
+            "ja": "12ばんどうろ・13ばんどうろ・ふたごじまで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant sur les Routes 12 et 13, ainsi qu’aux Îles Écume.",
+            "de": "Beim Surfen auf Route 12, Route 13 und auf den Seeschauminseln zu finden.",
+            "es": "Se encuentra usando Surf en las Rutas 12 y 13 y en las Islas Espuma."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Slowpoke Well"],
+          "notes": {
+            "en": "Found in the Slowpoke Well.",
+            "ja": "ヤドンのいどで出現。",
+            "fr": "Disponible dans le Puits Ramoloss.",
+            "de": "Im Flegmon-Brunnen zu finden.",
+            "es": "Se encuentra en el Pozo Slowpoke."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Slowpoke Well"],
+          "notes": {
+            "en": "Found in the Slowpoke Well.",
+            "ja": "ヤドンのいどで出現。",
+            "fr": "Disponible dans le Puits Ramoloss.",
+            "de": "Im Flegmon-Brunnen zu finden.",
+            "es": "Se encuentra en el Pozo Slowpoke."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Slowpoke Well"],
+          "notes": {
+            "en": "Found in the Slowpoke Well.",
+            "ja": "ヤドンのいどで出現。",
+            "fr": "Disponible dans le Puits Ramoloss.",
+            "de": "Im Flegmon-Brunnen zu finden.",
+            "es": "Se encuentra en el Pozo Slowpoke."
+          }
+        }
+      ]
+    }
+  }
+}
