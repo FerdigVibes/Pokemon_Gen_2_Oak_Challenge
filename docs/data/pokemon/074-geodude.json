@@ -1,0 +1,123 @@
+{
+  "dex": 74,
+  "slug": "geodude",
+
+  "names": {
+    "en": "Geodude",
+    "ja": "イシツブテ",
+    "fr": "Racaillou",
+    "de": "Kleinstein",
+    "es": "Geodude"
+  },
+
+  "types": ["rock", "ground"],
+
+  "evolution": {
+    "family": ["geodude", "graveler", "golem"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Mt. Moon"],
+          "notes": {
+            "en": "Found in Mt. Moon.",
+            "ja": "おつきみやまで出現。",
+            "fr": "Disponible au Mont Sélénite.",
+            "de": "Im Mondberg zu finden.",
+            "es": "Se encuentra en el Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Mt. Moon"],
+          "notes": {
+            "en": "Found in Mt. Moon.",
+            "ja": "おつきみやまで出現。",
+            "fr": "Disponible au Mont Sélénite.",
+            "de": "Im Mondberg zu finden.",
+            "es": "Se encuentra en el Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Mt. Moon"],
+          "notes": {
+            "en": "Found in Mt. Moon.",
+            "ja": "おつきみやまで出現。",
+            "fr": "Disponible au Mont Sélénite.",
+            "de": "Im Mondberg zu finden.",
+            "es": "Se encuentra en el Monte Moon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 46", "Dark Cave"],
+          "notes": {
+            "en": "Found on Route 46 and in Dark Cave.",
+            "ja": "46ばんどうろ・くらやみのどうくつで出現。",
+            "fr": "Disponible sur la Route 46 et dans la Grotte Noire.",
+            "de": "Auf Route 46 und in der Dunkelhöhle zu finden.",
+            "es": "Se encuentra en la Ruta 46 y en la Cueva Oscura."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 46", "Dark Cave"],
+          "notes": {
+            "en": "Found on Route 46 and in Dark Cave.",
+            "ja": "46ばんどうろ・くらやみのどうくつで出現。",
+            "fr": "Disponible sur la Route 46 et dans la Grotte Noire.",
+            "de": "Auf Route 46 und in der Dunkelhöhle zu finden.",
+            "es": "Se encuentra en la Ruta 46 y en la Cueva Oscura."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 46", "Dark Cave"],
+          "notes": {
+            "en": "Found on Route 46 and in Dark Cave.",
+            "ja": "46ばんどうろ・くらやみのどうくつで出現。",
+            "fr": "Disponible sur la Route 46 et dans la Grotte Noire.",
+            "de": "Auf Route 46 und in der Dunkelhöhle zu finden.",
+            "es": "Se encuentra en la Ruta 46 y en la Cueva Oscura."
+          }
+        }
+      ]
+    }
+  }
+}
