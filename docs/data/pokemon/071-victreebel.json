@@ -1,0 +1,107 @@
+{
+  "dex": 71,
+  "slug": "victreebel",
+
+  "names": {
+    "en": "Victreebel",
+    "ja": "ウツボット",
+    "fr": "Empiflor",
+    "de": "Sarzenia",
+    "es": "Victreebel"
+  },
+
+  "types": ["grass", "poison"],
+
+  "evolution": {
+    "family": ["bellsprout", "weepinbell", "victreebel"],
+    "stage": 3,
+    "evolvesFrom": "weepinbell"
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "stone",
+          "location": ["Celadon Dept. Store 4F"],
+          "notes": {
+            "en": "Evolve Weepinbell with a Leaf Stone (Celadon Dept. Store 4F).",
+            "ja": "タマムシデパート4Fで入手できる「リーフのいし」でウツドンを進化。",
+            "fr": "Faites évoluer Boustiflor avec une Pierre Plante (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Ultrigaria mit einem Blattstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Weepinbell con una Piedra Hoja (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "stone",
+          "location": ["Celadon Dept. Store 4F"],
+          "notes": {
+            "en": "Evolve Weepinbell with a Leaf Stone (Celadon Dept. Store 4F).",
+            "ja": "タマムシデパート4Fで入手できる「リーフのいし」でウツドンを進化。",
+            "fr": "Faites évoluer Boustiflor avec une Pierre Plante (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Ultrigaria mit einem Blattstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Weepinbell con una Piedra Hoja (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["LEAF_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "stone",
+          "location": ["Route 25"],
+          "notes": {
+            "en": "Evolve Weepinbell with a Leaf Stone. Show Bill's Grandfather an Oddish on Route 25 for a Leaf Stone.",
+            "ja": "ウツドンを「リーフのいし」で進化。25ばんどうろでマサキの おじいさんにナゾノクサを見せると、リーフのいしがもらえる。",
+            "fr": "Faites évoluer Boustiflor avec une Pierre Plante. Montrez un Mystherbe à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Plante.",
+            "de": "Entwickle Ultrigaria mit einem Blattstein. Zeige Bills Großvater ein Myrapla auf Route 25, um einen Blattstein zu erhalten.",
+            "es": "Evoluciona a Weepinbell con una Piedra Hoja. Muestra un Oddish al abuelo de Bill en la Ruta 25 para conseguir una Piedra Hoja."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["LEAF_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "stone",
+          "location": ["Route 25"],
+          "notes": {
+            "en": "Evolve Weepinbell with a Leaf Stone. Show Bill's Grandfather an Oddish on Route 25 for a Leaf Stone.",
+            "ja": "ウツドンを「リーフのいし」で進化。25ばんどうろでマサキの おじいさんにナゾノクサを見せると、リーフのいしがもらえる。",
+            "fr": "Faites évoluer Boustiflor avec une Pierre Plante. Montrez un Mystherbe à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Plante.",
+            "de": "Entwickle Ultrigaria mit einem Blattstein. Zeige Bills Großvater ein Myrapla auf Route 25, um einen Blattstein zu erhalten.",
+            "es": "Evoluciona a Weepinbell con una Piedra Hoja. Muestra un Oddish al abuelo de Bill en la Ruta 25 para conseguir una Piedra Hoja."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "stone",
+          "location": ["Route 34"],
+          "notes": {
+            "en": "Evolve Weepinbell with a Leaf Stone. Receive the Leaf Stone from Picnicker Gina on Route 34 after she calls you (item varies).",
+            "ja": "ウツドンを「リーフのいし」で進化。34ばんどうろのピクニックガール・ミキから電話でもらえる（アイテムはランダム）。",
+            "fr": "Faites évoluer Boustiflor avec une Pierre Plante. Recevez la Pierre Plante de la Pique-Niqueuse Gina sur la Route 34 après son appel (objet variable).",
+            "de": "Entwickle Ultrigaria mit einem Blattstein. Erhalte den Blattstein von Picknickerin Gina auf Route 34 nach einem Anruf (Item variiert).",
+            "es": "Evoluciona a Weepinbell con una Piedra Hoja. Recibe la Piedra Hoja de la Campista Gina en la Ruta 34 cuando te llame (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
