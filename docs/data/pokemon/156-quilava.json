@@ -1,0 +1,70 @@
+{
+  "dex": 156,
+  "slug": "quilava",
+
+  "names": {
+    "en": "Quilava",
+    "ja": "マグマラシ",
+    "fr": "Feurisson",
+    "de": "Igelavar",
+    "es": "Quilava"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["cyndaquil", "quilava", "typhlosion"],
+    "stage": 2,
+    "evolvesFrom": "cyndaquil"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cyndaquil at Lv. 14.",
+            "ja": "ヒノアラシをLv.14で進化。",
+            "fr": "Faites évoluer Héricendre au niveau 14.",
+            "de": "Entwickle Feurigel auf Level 14.",
+            "es": "Evoluciona a Cyndaquil al nivel 14."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cyndaquil at Lv. 14.",
+            "ja": "ヒノアラシをLv.14で進化。",
+            "fr": "Faites évoluer Héricendre au niveau 14.",
+            "de": "Entwickle Feurigel auf Level 14.",
+            "es": "Evoluciona a Cyndaquil al nivel 14."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["STARTER"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cyndaquil at Lv. 14.",
+            "ja": "ヒノアラシをLv.14で進化。",
+            "fr": "Faites évoluer Héricendre au niveau 14.",
+            "de": "Entwickle Feurigel auf Level 14.",
+            "es": "Evoluciona a Cyndaquil al nivel 14."
+          }
+        }
+      ]
+    }
+  }
+}
