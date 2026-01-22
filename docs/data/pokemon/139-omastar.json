@@ -1,0 +1,70 @@
+{
+  "dex": 139,
+  "slug": "omastar",
+
+  "names": {
+    "en": "Omastar",
+    "ja": "オムスター",
+    "fr": "Amonistar",
+    "de": "Amoroso",
+    "es": "Omastar"
+  },
+
+  "types": ["rock", "water"],
+
+  "evolution": {
+    "family": ["omanyte", "omastar"],
+    "stage": 2,
+    "evolvesFrom": "omanyte"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Omanyte at Lv. 40.",
+            "ja": "オムナイトをLv.40で進化。",
+            "fr": "Faites évoluer Amonita au niveau 40.",
+            "de": "Entwickle Amonitas auf Level 40.",
+            "es": "Evoluciona a Omanyte al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Omanyte at Lv. 40.",
+            "ja": "オムナイトをLv.40で進化。",
+            "fr": "Faites évoluer Amonita au niveau 40.",
+            "de": "Entwickle Amonitas auf Level 40.",
+            "es": "Evoluciona a Omanyte al nivel 40."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["REVIVE_FOSSIL"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Omanyte at Lv. 40.",
+            "ja": "オムナイトをLv.40で進化。",
+            "fr": "Faites évoluer Amonita au niveau 40.",
+            "de": "Entwickle Amonitas auf Level 40.",
+            "es": "Evoluciona a Omanyte al nivel 40."
+          }
+        }
+      ]
+    }
+  }
+}
