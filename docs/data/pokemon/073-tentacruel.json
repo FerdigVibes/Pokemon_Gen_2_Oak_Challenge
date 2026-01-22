@@ -1,0 +1,129 @@
+{
+  "dex": 73,
+  "slug": "tentacruel",
+
+  "names": {
+    "en": "Tentacruel",
+    "ja": "ドククラゲ",
+    "fr": "Tentacruel",
+    "de": "Tentoxa",
+    "es": "Tentacruel"
+  },
+
+  "types": ["water", "poison"],
+
+  "evolution": {
+    "family": ["tentacool", "tentacruel"],
+    "stage": 2,
+    "evolvesFrom": "tentacool"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tentacool at Lv. 30.",
+            "ja": "メノクラゲをLv.30で進化。",
+            "fr": "Faites évoluer Tentacool au niveau 30.",
+            "de": "Entwickle Tentacha auf Level 30.",
+            "es": "Evoluciona a Tentacool al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tentacool at Lv. 30.",
+            "ja": "メノクラゲをLv.30で進化。",
+            "fr": "Faites évoluer Tentacool au niveau 30.",
+            "de": "Entwickle Tentacha auf Level 30.",
+            "es": "Evoluciona a Tentacool al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tentacool at Lv. 30.",
+            "ja": "メノクラゲをLv.30で進化。",
+            "fr": "Faites évoluer Tentacool au niveau 30.",
+            "de": "Entwickle Tentacha auf Level 30.",
+            "es": "Evoluciona a Tentacool al nivel 30."
+          }
+        },
+        {
+          "method": "fishing",
+          "location": ["Route 19"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod on Route 19.",
+            "ja": "19ばんどうろで「すごいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne sur la Route 19.",
+            "de": "Durch Angeln mit der Superangel auf Route 19 zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tentacool at Lv. 30.",
+            "ja": "メノクラゲをLv.30で進化。",
+            "fr": "Faites évoluer Tentacool au niveau 30.",
+            "de": "Entwickle Tentacha auf Level 30.",
+            "es": "Evoluciona a Tentacool al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tentacool at Lv. 30.",
+            "ja": "メノクラゲをLv.30で進化。",
+            "fr": "Faites évoluer Tentacool au niveau 30.",
+            "de": "Entwickle Tentacha auf Level 30.",
+            "es": "Evoluciona a Tentacool al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tentacool at Lv. 30.",
+            "ja": "メノクラゲをLv.30で進化。",
+            "fr": "Faites évoluer Tentacool au niveau 30.",
+            "de": "Entwickle Tentacha auf Level 30.",
+            "es": "Evoluciona a Tentacool al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
