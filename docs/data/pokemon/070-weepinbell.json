@@ -1,0 +1,102 @@
+{
+  "dex": 70,
+  "slug": "weepinbell",
+
+  "names": {
+    "en": "Weepinbell",
+    "ja": "ウツドン",
+    "fr": "Boustiflor",
+    "de": "Ultrigaria",
+    "es": "Weepinbell"
+  },
+
+  "types": ["grass", "poison"],
+
+  "evolution": {
+    "family": ["bellsprout", "weepinbell", "victreebel"],
+    "stage": 2,
+    "evolvesFrom": "bellsprout"
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bellsprout at Lv. 21.",
+            "ja": "マダツボミをLv.21で進化。",
+            "fr": "Faites évoluer Chétiflor au niveau 21.",
+            "de": "Entwickle Knofensa auf Level 21.",
+            "es": "Evoluciona a Bellsprout al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bellsprout at Lv. 21.",
+            "ja": "マダツボミをLv.21で進化。",
+            "fr": "Faites évoluer Chétiflor au niveau 21.",
+            "de": "Entwickle Knofensa auf Level 21.",
+            "es": "Evoluciona a Bellsprout al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bellsprout at Lv. 21.",
+            "ja": "マダツボミをLv.21で進化。",
+            "fr": "Faites évoluer Chétiflor au niveau 21.",
+            "de": "Entwickle Knofensa auf Level 21.",
+            "es": "Evoluciona a Bellsprout al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bellsprout at Lv. 21.",
+            "ja": "マダツボミをLv.21で進化。",
+            "fr": "Faites évoluer Chétiflor au niveau 21.",
+            "de": "Entwickle Knofensa auf Level 21.",
+            "es": "Evoluciona a Bellsprout al nivel 21."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Bellsprout at Lv. 21.",
+            "ja": "マダツボミをLv.21で進化。",
+            "fr": "Faites évoluer Chétiflor au niveau 21.",
+            "de": "Entwickle Knofensa auf Level 21.",
+            "es": "Evoluciona a Bellsprout al nivel 21."
+          }
+        }
+      ]
+    }
+  }
+}
