@@ -1,0 +1,118 @@
+{
+  "dex": 75,
+  "slug": "graveler",
+
+  "names": {
+    "en": "Graveler",
+    "ja": "ゴローン",
+    "fr": "Gravalanch",
+    "de": "Georok",
+    "es": "Graveler"
+  },
+
+  "types": ["rock", "ground"],
+
+  "evolution": {
+    "family": ["geodude", "graveler", "golem"],
+    "stage": 2,
+    "evolvesFrom": "geodude"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Geodude at Lv. 25.",
+            "ja": "イシツブテをLv.25で進化。",
+            "fr": "Faites évoluer Racaillou au niveau 25.",
+            "de": "Entwickle Kleinstein auf Level 25.",
+            "es": "Evoluciona a Geodude al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Geodude at Lv. 25.",
+            "ja": "イシツブテをLv.25で進化。",
+            "fr": "Faites évoluer Racaillou au niveau 25.",
+            "de": "Entwickle Kleinstein auf Level 25.",
+            "es": "Evoluciona a Geodude al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Geodude at Lv. 25.",
+            "ja": "イシツブテをLv.25で進化。",
+            "fr": "Faites évoluer Racaillou au niveau 25.",
+            "de": "Entwickle Kleinstein auf Level 25.",
+            "es": "Evoluciona a Geodude al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Geodude at Lv. 25.",
+            "ja": "イシツブテをLv.25で進化。",
+            "fr": "Faites évoluer Racaillou au niveau 25.",
+            "de": "Entwickle Kleinstein auf Level 25.",
+            "es": "Evoluciona a Geodude al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Geodude at Lv. 25.",
+            "ja": "イシツブテをLv.25で進化。",
+            "fr": "Faites évoluer Racaillou au niveau 25.",
+            "de": "Entwickle Kleinstein auf Level 25.",
+            "es": "Evoluciona a Geodude al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Geodude at Lv. 25.",
+            "ja": "イシツブテをLv.25で進化。",
+            "fr": "Faites évoluer Racaillou au niveau 25.",
+            "de": "Entwickle Kleinstein auf Level 25.",
+            "es": "Evoluciona a Geodude al nivel 25."
+          }
+        }
+      ]
+    }
+  }
+}
