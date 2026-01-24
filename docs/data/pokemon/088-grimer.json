@@ -76,11 +76,22 @@
           "method": "surf",
           "location": ["Celadon City"],
           "notes": {
-            "en": "Found by surfing in Celadon City or on Routes 16, 17, and 18.",
-            "ja": "タマムシシティや16・17・18ばんどうろで「なみのり」をすると出現。",
-            "fr": "Disponible en surfant à Céladopole ou sur les Routes 16, 17 et 18.",
-            "de": "Beim Surfen in Prismania City oder auf Route 16, 17 und 18 zu finden.",
-            "es": "Se encuentra usando Surf en Ciudad Azulona o en las Rutas 16, 17 y 18."
+            "en": "Found by surfing in Celadon City.",
+            "ja": "タマムシシティで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant à Céladopole.",
+            "de": "Beim Surfen in Prismania City zu finden.",
+            "es": "Se encuentra usando Surf en Ciudad Azulona."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found in tall grass on Routes 16, 17, and 18.",
+            "ja": "16・17・18ばんどうろの くさむらで出現。",
+            "fr": "Disponible dans les hautes herbes des Routes 16, 17 et 18.",
+            "de": "In hohem Gras auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra en la hierba alta de las Rutas 16, 17 y 18."
           }
         }
       ]
@@ -93,11 +104,22 @@
           "method": "surf",
           "location": ["Celadon City"],
           "notes": {
-            "en": "Found by surfing in Celadon City or on Routes 16, 17, and 18.",
-            "ja": "タマムシシティや16・17・18ばんどうろで「なみのり」をすると出現。",
-            "fr": "Disponible en surfant à Céladopole ou sur les Routes 16, 17 et 18.",
-            "de": "Beim Surfen in Prismania City oder auf Route 16, 17 und 18 zu finden.",
-            "es": "Se encuentra usando Surf en Ciudad Azulona o en las Rutas 16, 17 y 18."
+            "en": "Found by surfing in Celadon City.",
+            "ja": "タマムシシティで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant à Céladopole.",
+            "de": "Beim Surfen in Prismania City zu finden.",
+            "es": "Se encuentra usando Surf en Ciudad Azulona."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found in tall grass on Routes 16, 17, and 18.",
+            "ja": "16・17・18ばんどうろの くさむらで出現。",
+            "fr": "Disponible dans les hautes herbes des Routes 16, 17 et 18.",
+            "de": "In hohem Gras auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra en la hierba alta de las Rutas 16, 17 y 18."
           }
         }
       ]
@@ -110,11 +132,22 @@
           "method": "surf",
           "location": ["Celadon City"],
           "notes": {
-            "en": "Found by surfing in Celadon City or on Routes 16, 17, and 18.",
-            "ja": "タマムシシティや16・17・18ばんどうろで「なみのり」をすると出現。",
-            "fr": "Disponible en surfant à Céladopole ou sur les Routes 16, 17 et 18.",
-            "de": "Beim Surfen in Prismania City oder auf Route 16, 17 und 18 zu finden.",
-            "es": "Se encuentra usando Surf en Ciudad Azulona o en las Rutas 16, 17 y 18."
+            "en": "Found by surfing in Celadon City.",
+            "ja": "タマムシシティで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant à Céladopole.",
+            "de": "Beim Surfen in Prismania City zu finden.",
+            "es": "Se encuentra usando Surf en Ciudad Azulona."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found in tall grass on Routes 16, 17, and 18.",
+            "ja": "16・17・18ばんどうろの くさむらで出現。",
+            "fr": "Disponible dans les hautes herbes des Routes 16, 17 et 18.",
+            "de": "In hohem Gras auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra en la hierba alta de las Rutas 16, 17 y 18."
           }
         }
       ]
