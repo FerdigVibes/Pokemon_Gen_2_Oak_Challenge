@@ -1,0 +1,129 @@
+{
+  "dex": 90,
+  "slug": "shellder",
+
+  "names": {
+    "en": "Shellder",
+    "ja": "シェルダー",
+    "fr": "Kokiyas",
+    "de": "Muschas",
+    "es": "Shellder"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["shellder", "cloyster"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Vermilion City", "Route 19"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in Vermilion City or on Route 19.",
+            "ja": "クチバシティ、19ばんどうろで「すごいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne à Carmin sur Mer ou sur la Route 19.",
+            "de": "Durch Angeln mit der Superangel in Orania City oder auf Route 19 zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en Ciudad Carmín o en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Vermilion City", "Route 19"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in Vermilion City or on Route 19.",
+            "ja": "クチバシティ、19ばんどうろで「すごいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne à Carmin sur Mer ou sur la Route 19.",
+            "de": "Durch Angeln mit der Superangel in Orania City oder auf Route 19 zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en Ciudad Carmín o en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Route 17", "Route 18"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod on Routes 17 and 18.",
+            "ja": "17ばんどうろ・18ばんどうろで「すごいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne sur les Routes 17 et 18.",
+            "de": "Durch Angeln mit der Superangel auf Route 17 und Route 18 zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en las Rutas 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Good Rod",
+          "location": ["New Bark Town", "Olivine City Harbor"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod in New Bark Town and at the Olivine City harbor.",
+            "ja": "ワカバタウン、アサギシティの みなとで「いいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Bonne Canne à Bourg Geon et au port d’Oliville.",
+            "de": "Durch Angeln mit der Profiangel in Neuborkia und im Hafen von Oliviana City zu finden.",
+            "es": "Se obtiene pescando con la Buena Caña en Pueblo Primavera y en el puerto de Ciudad Olivo."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Good Rod",
+          "location": ["New Bark Town", "Olivine City Harbor"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod in New Bark Town and at the Olivine City harbor.",
+            "ja": "ワカバタウン、アサギシティの みなとで「いいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Bonne Canne à Bourg Geon et au port d’Oliville.",
+            "de": "Durch Angeln mit der Profiangel in Neuborkia und im Hafen von Oliviana City zu finden.",
+            "es": "Se obtiene pescando con la Buena Caña en Pueblo Primavera y en el puerto de Ciudad Olivo."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Good Rod",
+          "location": ["New Bark Town", "Olivine City Harbor"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod in New Bark Town and at the Olivine City harbor.",
+            "ja": "ワカバタウン、アサギシティの みなとで「いいつりざお」を使うとつれる。",
+            "fr": "Obtenu en pêchant avec la Bonne Canne à Bourg Geon et au port d’Oliville.",
+            "de": "Durch Angeln mit der Profiangel in Neuborkia und im Hafen von Oliviana City zu finden.",
+            "es": "Se obtiene pescando con la Buena Caña en Pueblo Primavera y en el puerto de Ciudad Olivo."
+          }
+        }
+      ]
+    }
+  }
+}
