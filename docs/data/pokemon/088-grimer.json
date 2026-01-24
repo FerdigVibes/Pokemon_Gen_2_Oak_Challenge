@@ -1,0 +1,123 @@
+{
+  "dex": 88,
+  "slug": "grimer",
+
+  "names": {
+    "en": "Grimer",
+    "ja": "ベトベター",
+    "fr": "Tadmorv",
+    "de": "Sleima",
+    "es": "Grimer"
+  },
+
+  "types": ["poison"],
+
+  "evolution": {
+    "family": ["grimer", "muk"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンじまのポケモンやしきで出現。",
+            "fr": "Disponible au Manoir Pokémon sur Cramois’Île.",
+            "de": "Im Pokémon-Haus auf Zinnoberinsel zu finden.",
+            "es": "Se encuentra en la Mansión Pokémon en Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンじまのポケモンやしきで出現。",
+            "fr": "Disponible au Manoir Pokémon sur Cramois’Île.",
+            "de": "Im Pokémon-Haus auf Zinnoberinsel zu finden.",
+            "es": "Se encuentra en la Mansión Pokémon en Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Mansion", "Power Plant (Route 10)"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island and in the Power Plant on Route 10.",
+            "ja": "グレンじまのポケモンやしき、10ばんどうろのはつでんしょで出現。",
+            "fr": "Disponible au Manoir Pokémon sur Cramois’Île et à la Centrale sur la Route 10.",
+            "de": "Im Pokémon-Haus auf Zinnoberinsel sowie im Kraftwerk auf Route 10 zu finden.",
+            "es": "Se encuentra en la Mansión Pokémon en Isla Canela y en la Central Eléctrica de la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "location": ["Celadon City"],
+          "notes": {
+            "en": "Found by surfing in Celadon City or on Routes 16, 17, and 18.",
+            "ja": "タマムシシティや16・17・18ばんどうろで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant à Céladopole ou sur les Routes 16, 17 et 18.",
+            "de": "Beim Surfen in Prismania City oder auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra usando Surf en Ciudad Azulona o en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "location": ["Celadon City"],
+          "notes": {
+            "en": "Found by surfing in Celadon City or on Routes 16, 17, and 18.",
+            "ja": "タマムシシティや16・17・18ばんどうろで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant à Céladopole ou sur les Routes 16, 17 et 18.",
+            "de": "Beim Surfen in Prismania City oder auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra usando Surf en Ciudad Azulona o en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "location": ["Celadon City"],
+          "notes": {
+            "en": "Found by surfing in Celadon City or on Routes 16, 17, and 18.",
+            "ja": "タマムシシティや16・17・18ばんどうろで「なみのり」をすると出現。",
+            "fr": "Disponible en surfant à Céladopole ou sur les Routes 16, 17 et 18.",
+            "de": "Beim Surfen in Prismania City oder auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra usando Surf en Ciudad Azulona o en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    }
+  }
+}
