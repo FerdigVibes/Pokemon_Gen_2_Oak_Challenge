@@ -1,0 +1,154 @@
+{
+  "dex": 85,
+  "slug": "dodrio",
+
+  "names": {
+    "en": "Dodrio",
+    "ja": "ドードリオ",
+    "fr": "Dodrio",
+    "de": "Dodri",
+    "es": "Dodrio"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["doduo", "dodrio"],
+    "stage": 2,
+    "evolvesFrom": "doduo"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Doduo at Lv. 31.",
+            "ja": "ドードーをLv.31で進化。",
+            "fr": "Faites évoluer Doduo au niveau 31.",
+            "de": "Entwickle Dodu auf Level 31.",
+            "es": "Evoluciona a Doduo al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Doduo at Lv. 31.",
+            "ja": "ドードーをLv.31で進化。",
+            "fr": "Faites évoluer Doduo au niveau 31.",
+            "de": "Entwickle Dodu auf Level 31.",
+            "es": "Evoluciona a Doduo al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Doduo at Lv. 31.",
+            "ja": "ドードーをLv.31で進化。",
+            "fr": "Faites évoluer Doduo au niveau 31.",
+            "de": "Entwickle Dodu auf Level 31.",
+            "es": "Evoluciona a Doduo al nivel 31."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 17"],
+          "notes": {
+            "en": "Very rare encounter on Route 17.",
+            "ja": "17ばんどうろで ごくまれに出現。",
+            "fr": "Rencontre très rare sur la Route 17.",
+            "de": "Sehr seltene Begegnung auf Route 17.",
+            "es": "Encuentro muy raro en la Ruta 17."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Doduo at Lv. 31.",
+            "ja": "ドードーをLv.31で進化。",
+            "fr": "Faites évoluer Doduo au niveau 31.",
+            "de": "Entwickle Dodu auf Level 31.",
+            "es": "Evoluciona a Doduo al nivel 31."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 26"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Extremely rare encounter on Route 26 during the morning and daytime.",
+            "ja": "26ばんどうろで あさ・ひるに ごくまれに出現。",
+            "fr": "Rencontre extrêmement rare sur la Route 26 le matin et en journée.",
+            "de": "Extrem seltene Begegnung auf Route 26 am Morgen und tagsüber.",
+            "es": "Encuentro extremadamente raro en la Ruta 26 por la mañana y durante el día."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Doduo at Lv. 31.",
+            "ja": "ドードーをLv.31で進化。",
+            "fr": "Faites évoluer Doduo au niveau 31.",
+            "de": "Entwickle Dodu auf Level 31.",
+            "es": "Evoluciona a Doduo al nivel 31."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 26"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Extremely rare encounter on Route 26 during the morning and daytime.",
+            "ja": "26ばんどうろで あさ・ひるに ごくまれに出現。",
+            "fr": "Rencontre extrêmement rare sur la Route 26 le matin et en journée.",
+            "de": "Extrem seltene Begegnung auf Route 26 am Morgen und tagsüber.",
+            "es": "Encuentro extremadamente raro en la Ruta 26 por la mañana y durante el día."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Blackthorn City"],
+          "notes": {
+            "en": "Trade for a female Dragonair in Blackthorn City (eastern house).",
+            "ja": "フスベシティ ひがしのいえで メスのハクリューと交換。",
+            "fr": "Échangez un Draco femelle à Ébènelle (maison à l’est).",
+            "de": "Tausche ein weibliches Dragonir in Ebenholz City (östliches Haus).",
+            "es": "Intercambia una Dragonair hembra en Ciudad Endrino (casa del este)."
+          }
+        }
+      ]
+    }
+  }
+}
