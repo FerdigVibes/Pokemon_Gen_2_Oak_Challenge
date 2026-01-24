@@ -1,0 +1,146 @@
+{
+  "dex": 86,
+  "slug": "seel",
+
+  "names": {
+    "en": "Seel",
+    "ja": "パウワウ",
+    "fr": "Otaria",
+    "de": "Jurob",
+    "es": "Seel"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["seel", "dewgong"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Seafoam Islands"],
+          "notes": {
+            "en": "Found in the Seafoam Islands.",
+            "ja": "ふたごじまで出現。",
+            "fr": "Disponible aux Îles Écume.",
+            "de": "Auf den Seeschauminseln zu finden.",
+            "es": "Se encuentra en las Islas Espuma."
+          }
+        },
+        {
+          "method": "trade",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Trade a Ponyta at the Cinnabar Island Lab.",
+            "ja": "グレンじまのけんきゅうじょで ポニータと交換。",
+            "fr": "Échangez un Ponyta au Laboratoire de Cramois’Île.",
+            "de": "Tausche ein Ponita im Labor auf Zinnoberinsel.",
+            "es": "Intercambia un Ponyta en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Seafoam Islands"],
+          "notes": {
+            "en": "Found in the Seafoam Islands.",
+            "ja": "ふたごじまで出現。",
+            "fr": "Disponible aux Îles Écume.",
+            "de": "Auf den Seeschauminseln zu finden.",
+            "es": "Se encuentra en las Islas Espuma."
+          }
+        },
+        {
+          "method": "trade",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Trade a Ponyta at the Cinnabar Island Lab.",
+            "ja": "グレンじまのけんきゅうじょで ポニータと交換。",
+            "fr": "Échangez un Ponyta au Laboratoire de Cramois’Île.",
+            "de": "Tausche ein Ponita im Labor auf Zinnoberinsel.",
+            "es": "Intercambia un Ponyta en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Seafoam Islands"],
+          "notes": {
+            "en": "Found in the Seafoam Islands.",
+            "ja": "ふたごじまで出現。",
+            "fr": "Disponible aux Îles Écume.",
+            "de": "Auf den Seeschauminseln zu finden.",
+            "es": "Se encuentra en las Islas Espuma."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Whirl Islands"],
+          "notes": {
+            "en": "Found in the Whirl Islands.",
+            "ja": "うずまきじまで出現。",
+            "fr": "Disponible aux Tourb’Îles.",
+            "de": "In den Strudelinseln zu finden.",
+            "es": "Se encuentra en las Islas Remolino."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Whirl Islands"],
+          "notes": {
+            "en": "Found in the Whirl Islands.",
+            "ja": "うずまきじまで出現。",
+            "fr": "Disponible aux Tourb’Îles.",
+            "de": "In den Strudelinseln zu finden.",
+            "es": "Se encuentra en las Islas Remolino."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Whirl Islands"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found in the Whirl Islands during the morning and daytime. Rare encounter.",
+            "ja": "うずまきじまで あさ・ひるに まれに出現。",
+            "fr": "Disponible aux Tourb’Îles le matin et en journée. Rencontre rare.",
+            "de": "In den Strudelinseln am Morgen und tagsüber zu finden. Seltene Begegnung.",
+            "es": "Se encuentra en las Islas Remolino por la mañana y durante el día. Encuentro raro."
+          }
+        }
+      ]
+    }
+  }
+}
