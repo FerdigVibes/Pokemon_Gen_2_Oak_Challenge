@@ -1,0 +1,123 @@
+{
+  "dex": 81,
+  "slug": "magnemite",
+
+  "names": {
+    "en": "Magnemite",
+    "ja": "コイル",
+    "fr": "Magnéti",
+    "de": "Magnetilo",
+    "es": "Magnemite"
+  },
+
+  "types": ["electric", "steel"],
+
+  "evolution": {
+    "family": ["magnemite", "magneton", "magnezone"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Found in the Power Plant on Route 10.",
+            "ja": "10ばんどうろのはつでんしょで出現。",
+            "fr": "Disponible à la Centrale sur la Route 10.",
+            "de": "Im Kraftwerk auf Route 10 zu finden.",
+            "es": "Se encuentra en la Central Eléctrica de la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Found in the Power Plant on Route 10.",
+            "ja": "10ばんどうろのはつでんしょで出現。",
+            "fr": "Disponible à la Centrale sur la Route 10.",
+            "de": "Im Kraftwerk auf Route 10 zu finden.",
+            "es": "Se encuentra en la Central Eléctrica de la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 10"],
+          "notes": {
+            "en": "Found on Route 10.",
+            "ja": "10ばんどうろで出現。",
+            "fr": "Disponible sur la Route 10.",
+            "de": "Auf Route 10 zu finden.",
+            "es": "Se encuentra en la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39.",
+            "ja": "38ばんどうろ・39ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 38 et 39.",
+            "de": "Auf den Routen 38 und 39 zu finden.",
+            "es": "Se encuentra en las Rutas 38 y 39."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39.",
+            "ja": "38ばんどうろ・39ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 38 et 39.",
+            "de": "Auf den Routen 38 und 39 zu finden.",
+            "es": "Se encuentra en las Rutas 38 y 39."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39.",
+            "ja": "38ばんどうろ・39ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 38 et 39.",
+            "de": "Auf den Routen 38 und 39 zu finden.",
+            "es": "Se encuentra en las Rutas 38 y 39."
+          }
+        }
+      ]
+    }
+  }
+}
