@@ -1,0 +1,124 @@
+{
+  "dex": 84,
+  "slug": "doduo",
+
+  "names": {
+    "en": "Doduo",
+    "ja": "ドードー",
+    "fr": "Doduo",
+    "de": "Dodu",
+    "es": "Doduo"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["doduo", "dodrio"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Safari Zone Area 4", "Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found in Safari Zone Area 4 and in the wild on Routes 16, 17, and 18.",
+            "ja": "サファリゾーン エリア4、16ばんどうろ・17ばんどうろ・18ばんどうろで出現。",
+            "fr": "Disponible dans la Zone Safari (Zone 4) et sur les Routes 16, 17 et 18.",
+            "de": "In der Safari-Zone (Bereich 4) sowie auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra en la Zona Safari (Área 4) y en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Safari Zone Area 4", "Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found in Safari Zone Area 4 and in the wild on Routes 16, 17, and 18.",
+            "ja": "サファリゾーン エリア4、16ばんどうろ・17ばんどうろ・18ばんどうろで出現。",
+            "fr": "Disponible dans la Zone Safari (Zone 4) et sur les Routes 16, 17 et 18.",
+            "de": "In der Safari-Zone (Bereich 4) sowie auf Route 16, 17 und 18 zu finden.",
+            "es": "Se encuentra en la Zona Safari (Área 4) y en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found on Routes 16, 17, and 18.",
+            "ja": "16ばんどうろ・17ばんどうろ・18ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 16, 17 et 18.",
+            "de": "Auf den Routen 16, 17 und 18 zu finden.",
+            "es": "Se encuentra en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 26", "Route 27"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 26 and 27 during the morning and daytime.",
+            "ja": "26ばんどうろ・27ばんどうろで あさ・ひるに出現。",
+            "fr": "Disponible sur les Routes 26 et 27 le matin et en journée.",
+            "de": "Auf den Routen 26 und 27 am Morgen und tagsüber zu finden.",
+            "es": "Se encuentra en las Rutas 26 y 27 por la mañana y durante el día."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 26", "Route 27"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 26 and 27 during the morning and daytime.",
+            "ja": "26ばんどうろ・27ばんどうろで あさ・ひるに出現。",
+            "fr": "Disponible sur les Routes 26 et 27 le matin et en journée.",
+            "de": "Auf den Routen 26 und 27 am Morgen und tagsüber zu finden.",
+            "es": "Se encuentra en las Rutas 26 y 27 por la mañana y durante el día."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "notes": {
+            "en": "Breed from a Dodrio obtained via trade.",
+            "ja": "こうかんで てにいれた ドードリオから タマゴを かえす。",
+            "fr": "Éclore un œuf issu d’un Dodrio obtenu par échange.",
+            "de": "Züchte es aus einem durch Tausch erhaltenen Dodri.",
+            "es": "Cría un huevo a partir de un Dodrio obtenido por intercambio."
+          }
+        }
+      ]
+    }
+  }
+}
