@@ -1,0 +1,118 @@
+{
+  "dex": 82,
+  "slug": "magneton",
+
+  "names": {
+    "en": "Magneton",
+    "ja": "レアコイル",
+    "fr": "Magnéton",
+    "de": "Magneton",
+    "es": "Magneton"
+  },
+
+  "types": ["electric", "steel"],
+
+  "evolution": {
+    "family": ["magnemite", "magneton", "magnezone"],
+    "stage": 2,
+    "evolvesFrom": "magnemite"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magnemite at Lv. 30.",
+            "ja": "コイルをLv.30で進化。",
+            "fr": "Faites évoluer Magnéti au niveau 30.",
+            "de": "Entwickle Magnetilo auf Level 30.",
+            "es": "Evoluciona a Magnemite al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magnemite at Lv. 30.",
+            "ja": "コイルをLv.30で進化。",
+            "fr": "Faites évoluer Magnéti au niveau 30.",
+            "de": "Entwickle Magnetilo auf Level 30.",
+            "es": "Evoluciona a Magnemite al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magnemite at Lv. 30.",
+            "ja": "コイルをLv.30で進化。",
+            "fr": "Faites évoluer Magnéti au niveau 30.",
+            "de": "Entwickle Magnetilo auf Level 30.",
+            "es": "Evoluciona a Magnemite al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magnemite at Lv. 30.",
+            "ja": "コイルをLv.30で進化。",
+            "fr": "Faites évoluer Magnéti au niveau 30.",
+            "de": "Entwickle Magnetilo auf Level 30.",
+            "es": "Evoluciona a Magnemite al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magnemite at Lv. 30.",
+            "ja": "コイルをLv.30で進化。",
+            "fr": "Faites évoluer Magnéti au niveau 30.",
+            "de": "Entwickle Magnetilo auf Level 30.",
+            "es": "Evoluciona a Magnemite al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magnemite at Lv. 30.",
+            "ja": "コイルをLv.30で進化。",
+            "fr": "Faites évoluer Magnéti au niveau 30.",
+            "de": "Entwickle Magnetilo auf Level 30.",
+            "es": "Evoluciona a Magnemite al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
