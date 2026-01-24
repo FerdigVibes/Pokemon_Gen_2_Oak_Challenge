@@ -1,0 +1,129 @@
+{
+  "dex": 87,
+  "slug": "dewgong",
+
+  "names": {
+    "en": "Dewgong",
+    "ja": "ジュゴン",
+    "fr": "Lamantine",
+    "de": "Jugong",
+    "es": "Dewgong"
+  },
+
+  "types": ["water", "ice"],
+
+  "evolution": {
+    "family": ["seel", "dewgong"],
+    "stage": 2,
+    "evolvesFrom": "seel"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Seel at Lv. 34.",
+            "ja": "パウワウをLv.34で進化。",
+            "fr": "Faites évoluer Otaria au niveau 34.",
+            "de": "Entwickle Jurob auf Level 34.",
+            "es": "Evoluciona a Seel al nivel 34."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Seel at Lv. 34.",
+            "ja": "パウワウをLv.34で進化。",
+            "fr": "Faites évoluer Otaria au niveau 34.",
+            "de": "Entwickle Jurob auf Level 34.",
+            "es": "Evoluciona a Seel al nivel 34."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Seel at Lv. 34.",
+            "ja": "パウワウをLv.34で進化。",
+            "fr": "Faites évoluer Otaria au niveau 34.",
+            "de": "Entwickle Jurob auf Level 34.",
+            "es": "Evoluciona a Seel al nivel 34."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Seafoam Islands B1F", "Seafoam Islands B3F"],
+          "notes": {
+            "en": "Very rare encounter in Seafoam Islands B1F and B3F.",
+            "ja": "ふたごじまB1F・B3Fで ごくまれに出現。",
+            "fr": "Rencontre très rare aux Îles Écume B1F et B3F.",
+            "de": "Sehr seltene Begegnung auf den Seeschauminseln B1F und B3F.",
+            "es": "Encuentro muy raro en Islas Espuma B1F y B3F."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Seel at Lv. 34.",
+            "ja": "パウワウをLv.34で進化。",
+            "fr": "Faites évoluer Otaria au niveau 34.",
+            "de": "Entwickle Jurob auf Level 34.",
+            "es": "Evoluciona a Seel al nivel 34."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Seel at Lv. 34.",
+            "ja": "パウワウをLv.34で進化。",
+            "fr": "Faites évoluer Otaria au niveau 34.",
+            "de": "Entwickle Jurob auf Level 34.",
+            "es": "Evoluciona a Seel al nivel 34."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Seel at Lv. 34.",
+            "ja": "パウワウをLv.34で進化。",
+            "fr": "Faites évoluer Otaria au niveau 34.",
+            "de": "Entwickle Jurob auf Level 34.",
+            "es": "Evoluciona a Seel al nivel 34."
+          }
+        }
+      ]
+    }
+  }
+}
