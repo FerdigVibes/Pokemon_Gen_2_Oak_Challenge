@@ -1,0 +1,126 @@
+{
+  "dex": 83,
+  "slug": "farfetchd",
+
+  "names": {
+    "en": "Farfetch’d",
+    "ja": "カモネギ",
+    "fr": "Canarticho",
+    "de": "Porenta",
+    "es": "Farfetch’d"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["farfetchd"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Vermilion City"],
+          "notes": {
+            "en": "Trade a Spearow in Vermilion City.",
+            "ja": "クチバシティでオニスズメと交換。",
+            "fr": "Échangez un Piafabec à Carmin sur Mer.",
+            "de": "Tausche ein Habitak in Orania City.",
+            "es": "Intercambia un Spearow en Ciudad Carmín."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Vermilion City"],
+          "notes": {
+            "en": "Trade a Spearow in Vermilion City.",
+            "ja": "クチバシティでオニスズメと交換。",
+            "fr": "Échangez un Piafabec à Carmin sur Mer.",
+            "de": "Tausche ein Habitak in Orania City.",
+            "es": "Intercambia un Spearow en Ciudad Carmín."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 12", "Route 13"],
+          "notes": {
+            "en": "Found on Routes 12 and 13.",
+            "ja": "12ばんどうろ・13ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 12 et 13.",
+            "de": "Auf den Routen 12 und 13 zu finden.",
+            "es": "Se encuentra en las Rutas 12 y 13."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 38", "Route 39"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 38 and 39 during the morning and daytime. Very rare encounter.",
+            "ja": "38ばんどうろ・39ばんどうろで あさ・ひるに出現（出現りつは とてもひくい）。",
+            "fr": "Disponible sur les Routes 38 et 39 le matin et en journée. Rencontre très rare.",
+            "de": "Auf den Routen 38 und 39 am Morgen und tagsüber zu finden. Sehr seltene Begegnung.",
+            "es": "Se encuentra en las Rutas 38 y 39 por la mañana y durante el día. Encuentro muy raro."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 38", "Route 39"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 38 and 39 during the morning and daytime. Very rare encounter.",
+            "ja": "38ばんどうろ・39ばんどうろで あさ・ひるに出現（出現りつは とてもひくい）。",
+            "fr": "Disponible sur les Routes 38 et 39 le matin et en journée. Rencontre très rare.",
+            "de": "Auf den Routen 38 und 39 am Morgen und tagsüber zu finden. Sehr seltene Begegnung.",
+            "es": "Se encuentra en las Rutas 38 y 39 por la mañana y durante el día. Encuentro muy raro."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 43"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Route 43 during the morning and daytime.",
+            "ja": "43ばんどうろで あさ・ひるに出現。",
+            "fr": "Disponible sur la Route 43 le matin et en journée.",
+            "de": "Auf Route 43 am Morgen und tagsüber zu finden.",
+            "es": "Se encuentra en la Ruta 43 por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
