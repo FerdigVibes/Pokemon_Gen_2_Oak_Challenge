@@ -1,0 +1,124 @@
+{
+  "dex": 103,
+  "slug": "exeggutor",
+
+  "names": {
+    "en": "Exeggutor",
+    "ja": "ナッシー",
+    "fr": "Noadkoko",
+    "de": "Kokowei",
+    "es": "Exeggutor"
+  },
+
+  "types": ["grass", "psychic"],
+
+  "evolution": {
+    "family": ["exeggcute", "exeggutor"],
+    "stage": 2,
+    "evolvesFrom": "exeggcute"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "locations": ["Celadon Dept. Store 4F"],
+          "notes": {
+            "en": "Evolve Exeggcute with a Leaf Stone purchased on the 4th floor of the Celadon Department Store.",
+            "ja": "タマタマに リーフのいしを つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Noeunoeuf avec une Pierre Plante achetée au 4e étage du Centre Commercial de Céladopole.",
+            "de": "Entwickle Owei mit einem Blattstein aus dem Prismania City Kaufhaus (4. Stock).",
+            "es": "Evoluciona a Exeggcute con una Piedra Hoja comprada en el Centro Comercial de Ciudad Azulona (4F)."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "locations": ["Celadon Dept. Store 4F"],
+          "notes": {
+            "en": "Evolve Exeggcute with a Leaf Stone purchased on the 4th floor of the Celadon Department Store.",
+            "ja": "タマタマに リーフのいしを つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Noeunoeuf avec une Pierre Plante achetée au 4e étage du Centre Commercial de Céladopole.",
+            "de": "Entwickle Owei mit einem Blattstein aus dem Prismania City Kaufhaus (4. Stock).",
+            "es": "Evoluciona a Exeggcute con una Piedra Hoja comprada en el Centro Comercial de Ciudad Azulona (4F)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "locations": ["Celadon Dept. Store 4F"],
+          "notes": {
+            "en": "Evolve Exeggcute with a Leaf Stone purchased on the 4th floor of the Celadon Department Store.",
+            "ja": "タマタマに リーフのいしを つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Noeunoeuf avec une Pierre Plante achetée au 4e étage du Centre Commercial de Céladopole.",
+            "de": "Entwickle Owei mit einem Blattstein aus dem Prismania City Kaufhaus (4. Stock).",
+            "es": "Evoluciona a Exeggcute con una Piedra Hoja comprada en el Centro Comercial de Ciudad Azulona (4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["LEAF_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "locations": ["Route 25"],
+          "notes": {
+            "en": "Evolve Exeggcute with a Leaf Stone. Show Bill’s Grandfather an Oddish on Route 25 to receive a Leaf Stone.",
+            "ja": "タマタマに リーフのいしを つかって しんか。25ばんどうろで マサキの おじいさんに ナゾノクサを みせると リーフのいしが もらえる。",
+            "fr": "Faites évoluer Noeunoeuf avec une Pierre Plante. Montrez un Mystherbe à l’Oncle de Léo sur la Route 25 pour obtenir la Pierre.",
+            "de": "Entwickle Owei mit einem Blattstein. Zeige Bills Großvater ein Myrapla auf Route 25, um einen Blattstein zu erhalten.",
+            "es": "Evoluciona a Exeggcute con una Piedra Hoja. Muestra un Oddish al abuelo de Bill en la Ruta 25 para obtener la Piedra."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["LEAF_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "locations": ["Route 25"],
+          "notes": {
+            "en": "Evolve Exeggcute with a Leaf Stone. Show Bill’s Grandfather an Oddish on Route 25 to receive a Leaf Stone.",
+            "ja": "タマタマに リーフのいしを つかって しんか。25ばんどうろで マサキの おじいさんに ナゾノクサを みせると リーフのいしが もらえる。",
+            "fr": "Faites évoluer Noeunoeuf avec une Pierre Plante. Montrez un Mystherbe à l’Oncle de Léo sur la Route 25 pour obtenir la Pierre.",
+            "de": "Entwickle Owei mit einem Blattstein. Zeige Bills Großvater ein Myrapla auf Route 25, um einen Blattstein zu erhalten.",
+            "es": "Evoluciona a Exeggcute con una Piedra Hoja. Muestra un Oddish al abuelo de Bill en la Ruta 25 para obtener la Piedra."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "locations": ["Route 34"],
+          "notes": {
+            "en": "Evolve Exeggcute with a Leaf Stone. Receive the Leaf Stone from Picnicker Gina on Route 34 after she calls you (item varies).",
+            "ja": "タマタマに リーフのいしを つかって しんか。34ばんどうろの ピクニックガール・ミキから でんわで もらえる（アイテムは ランダム）。",
+            "fr": "Faites évoluer Noeunoeuf avec une Pierre Plante. Recevez-la de la Pique-niqueuse Gina sur la Route 34 après son appel (objet variable).",
+            "de": "Entwickle Owei mit einem Blattstein. Erhalte den Blattstein von Picknickerin Gina auf Route 34 nach einem Anruf (Item variiert).",
+            "es": "Evoluciona a Exeggcute con una Piedra Hoja. Recibe la Piedra Hoja de la Campista Gina en la Ruta 34 tras su llamada (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
