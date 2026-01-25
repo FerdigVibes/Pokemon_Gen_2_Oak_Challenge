@@ -1,0 +1,130 @@
+{
+  "dex": 148,
+  "slug": "dragonair",
+
+  "names": {
+    "en": "Dragonair",
+    "ja": "ハクリュー",
+    "fr": "Draco",
+    "de": "Dragonir",
+    "es": "Dragonair"
+  },
+
+  "types": ["dragon"],
+
+  "evolution": {
+    "family": ["dratini", "dragonair", "dragonite"],
+    "stage": 2,
+    "evolvesFrom": "dratini"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dratini at Lv. 30.",
+            "ja": "ミニリュウをLv.30で進化。",
+            "fr": "Faites évoluer Minidraco au niveau 30.",
+            "de": "Entwickle Dratini auf Level 30.",
+            "es": "Evoluciona a Dratini al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dratini at Lv. 30.",
+            "ja": "ミニリュウをLv.30で進化。",
+            "fr": "Faites évoluer Minidraco au niveau 30.",
+            "de": "Entwickle Dratini auf Level 30.",
+            "es": "Evoluciona a Dratini al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dratini at Lv. 30.",
+            "ja": "ミニリュウをLv.30で進化。",
+            "fr": "Faites évoluer Minidraco au niveau 30.",
+            "de": "Entwickle Dratini auf Level 30.",
+            "es": "Evoluciona a Dratini al nivel 30."
+          }
+        },
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Safari Zone Area 1"],
+          "notes": {
+            "en": "Very rare encounter when fishing with the Super Rod in Safari Zone Area 1.",
+            "ja": "サファリゾーン エリア1で すごいつりざおを使うと ごくまれに出現。",
+            "fr": "Rencontre très rare en pêchant avec la Super Canne dans le Parc Safari (Zone 1).",
+            "de": "Sehr seltene Begegnung beim Angeln mit der Superangel in der Safari-Zone (Bereich 1).",
+            "es": "Encuentro muy raro pescando con la Súper Caña en la Zona Safari (Área 1)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dratini at Lv. 30.",
+            "ja": "ミニリュウをLv.30で進化。",
+            "fr": "Faites évoluer Minidraco au niveau 30.",
+            "de": "Entwickle Dratini auf Level 30.",
+            "es": "Evoluciona a Dratini al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dratini at Lv. 30.",
+            "ja": "ミニリュウをLv.30で進化。",
+            "fr": "Faites évoluer Minidraco au niveau 30.",
+            "de": "Entwickle Dratini auf Level 30.",
+            "es": "Evoluciona a Dratini al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dratini at Lv. 30.",
+            "ja": "ミニリュウをLv.30で進化。",
+            "fr": "Faites évoluer Minidraco au niveau 30.",
+            "de": "Entwickle Dratini auf Level 30.",
+            "es": "Evoluciona a Dratini al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
