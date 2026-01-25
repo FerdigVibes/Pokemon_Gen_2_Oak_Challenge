@@ -1,0 +1,146 @@
+{
+  "dex": 118,
+  "slug": "goldeen",
+
+  "names": {
+    "en": "Goldeen",
+    "ja": "トサキント",
+    "fr": "Poissirène",
+    "de": "Goldini",
+    "es": "Goldeen"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["goldeen", "seaking"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Most waters"],
+          "notes": {
+            "en": "Caught using a Good Rod in most bodies of water.",
+            "ja": "ほとんどの すいめんで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne dans la plupart des étendues d’eau.",
+            "de": "Mit der Profiangel in den meisten Gewässern fangbar.",
+            "es": "Se captura con la Caña Buena en la mayoría de las aguas."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Most waters"],
+          "notes": {
+            "en": "Caught using a Good Rod in most bodies of water.",
+            "ja": "ほとんどの すいめんで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne dans la plupart des étendues d’eau.",
+            "de": "Mit der Profiangel in den meisten Gewässern fangbar.",
+            "es": "Se captura con la Caña Buena en la mayoría de las aguas."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Most waters"],
+          "notes": {
+            "en": "Caught using a Good Rod in most bodies of water.",
+            "ja": "ほとんどの すいめんで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne dans la plupart des étendues d’eau.",
+            "de": "Mit der Profiangel in den meisten Gewässern fangbar.",
+            "es": "Se captura con la Caña Buena en la mayoría de las aguas."
+          }
+        },
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": [
+            "Celadon City",
+            "Cerulean Gym",
+            "Route 6",
+            "Route 24"
+          ],
+          "notes": {
+            "en": "Also caught using a Super Rod in Celadon City, Cerulean Gym, and on Routes 6 and 24.",
+            "ja": "タマムシシティ、ハナダジム、6・24ばんどうろで すごいつりざおでも つれる。",
+            "fr": "Peut aussi être pêché avec la Super Canne à Céladopole, à l’Arène d’Azuria et sur les Routes 6 et 24.",
+            "de": "Kann zusätzlich mit der Superangel in Prismania City, der Azuria-Arena sowie auf Route 6 und 24 gefangen werden.",
+            "es": "También se captura con la Supercaña en Ciudad Azulona, el Gimnasio Celeste y en las Rutas 6 y 24."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Dark Cave", "Union Cave", "Slowpoke Well"],
+          "notes": {
+            "en": "Caught using an Old Rod in Dark Cave, Union Cave, and the Slowpoke Well.",
+            "ja": "くらやみのどうくつ、つながりのどうくつ、ヤドンのいどで ボロのつりざおを つかって つれる。",
+            "fr": "Pêché avec la Vieille Canne dans la Grotte Sombre, la Grotte Union et le Puits Ramoloss.",
+            "de": "Mit der Angel in der Dunkelhöhle, der Durchgangshöhle und im Flegmon-Brunnen fangbar.",
+            "es": "Se captura con la Caña Vieja en la Cueva Oscura, la Cueva Unión y el Pozo Slowpoke."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Dark Cave", "Union Cave", "Slowpoke Well"],
+          "notes": {
+            "en": "Caught using an Old Rod in Dark Cave, Union Cave, and the Slowpoke Well.",
+            "ja": "くらやみのどうくつ、つながりのどうくつ、ヤドンのいどで ボロのつりざおを つかって つれる。",
+            "fr": "Pêché avec la Vieille Canne dans la Grotte Sombre, la Grotte Union et le Puits Ramoloss.",
+            "de": "Mit der Angel in der Dunkelhöhle, der Durchgangshöhle und im Flegmon-Brunnen fangbar.",
+            "es": "Se captura con la Caña Vieja en la Cueva Oscura, la Cueva Unión y el Pozo Slowpoke."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Dark Cave", "Union Cave", "Slowpoke Well"],
+          "notes": {
+            "en": "Caught using an Old Rod in Dark Cave, Union Cave, and the Slowpoke Well.",
+            "ja": "くらやみのどうくつ、つながりのどうくつ、ヤドンのいどで ボロのつりざおを つかって つれる。",
+            "fr": "Pêché avec la Vieille Canne dans la Grotte Sombre, la Grotte Union et le Puits Ramoloss.",
+            "de": "Mit der Angel in der Dunkelhöhle, der Durchgangshöhle und im Flegmon-Brunnen fangbar.",
+            "es": "Se captura con la Caña Vieja en la Cueva Oscura, la Cueva Unión y el Pozo Slowpoke."
+          }
+        }
+      ]
+    }
+  }
+}
