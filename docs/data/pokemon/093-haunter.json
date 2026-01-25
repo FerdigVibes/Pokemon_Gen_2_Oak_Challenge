@@ -1,0 +1,129 @@
+{
+  "dex": 93,
+  "slug": "haunter",
+
+  "names": {
+    "en": "Haunter",
+    "ja": "ゴースト",
+    "fr": "Spectrum",
+    "de": "Alpollo",
+    "es": "Haunter"
+  },
+
+  "types": ["ghost", "poison"],
+
+  "evolution": {
+    "family": ["gastly", "haunter", "gengar"],
+    "stage": 2,
+    "evolvesFrom": "gastly"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gastly at Lv. 25.",
+            "ja": "ゴースをLv.25で進化。",
+            "fr": "Faites évoluer Fantominus au niveau 25.",
+            "de": "Entwickle Nebulak auf Level 25.",
+            "es": "Evoluciona a Gastly al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gastly at Lv. 25.",
+            "ja": "ゴースをLv.25で進化。",
+            "fr": "Faites évoluer Fantominus au niveau 25.",
+            "de": "Entwickle Nebulak auf Level 25.",
+            "es": "Evoluciona a Gastly al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gastly at Lv. 25.",
+            "ja": "ゴースをLv.25で進化。",
+            "fr": "Faites évoluer Fantominus au niveau 25.",
+            "de": "Entwickle Nebulak auf Level 25.",
+            "es": "Evoluciona a Gastly al nivel 25."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Pokémon Tower"],
+          "notes": {
+            "en": "Low encounter rate in Pokémon Tower.",
+            "ja": "ポケモンタワーで ひくい かくりつで出現。",
+            "fr": "Rencontre à faible taux à la Tour Pokémon.",
+            "de": "Niedrige Begegnungsrate im Pokémon-Turm.",
+            "es": "Encuentro de baja probabilidad en la Torre Pokémon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gastly at Lv. 25.",
+            "ja": "ゴースをLv.25で進化。",
+            "fr": "Faites évoluer Fantominus au niveau 25.",
+            "de": "Entwickle Nebulak auf Level 25.",
+            "es": "Evoluciona a Gastly al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gastly at Lv. 25.",
+            "ja": "ゴースをLv.25で進化。",
+            "fr": "Faites évoluer Fantominus au niveau 25.",
+            "de": "Entwickle Nebulak auf Level 25.",
+            "es": "Evoluciona a Gastly al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Gastly at Lv. 25.",
+            "ja": "ゴースをLv.25で進化。",
+            "fr": "Faites évoluer Fantominus au niveau 25.",
+            "de": "Entwickle Nebulak auf Level 25.",
+            "es": "Evoluciona a Gastly al nivel 25."
+          }
+        }
+      ]
+    }
+  }
+}
