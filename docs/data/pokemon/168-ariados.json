@@ -1,0 +1,54 @@
+{
+  "dex": 168,
+  "slug": "ariados",
+
+  "names": {
+    "en": "Ariados",
+    "ja": "アリアドス",
+    "fr": "Migalos",
+    "de": "Ariados",
+    "es": "Ariados"
+  },
+
+  "types": ["bug", "poison"],
+
+  "evolution": {
+    "family": ["spinarak", "ariados"],
+    "stage": 2,
+    "evolvesFrom": "spinarak"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Spinarak at Lv. 22.",
+            "ja": "イトマルを レベル22で しんか。",
+            "fr": "Faites évoluer Mimigal au niveau 22.",
+            "de": "Entwickle Webarak auf Level 22.",
+            "es": "Evoluciona a Spinarak al nivel 22."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Spinarak at Lv. 22.",
+            "ja": "イトマルを レベル22で しんか。",
+            "fr": "Faites évoluer Mimigal au niveau 22.",
+            "de": "Entwickle Webarak auf Level 22.",
+            "es": "Evoluciona a Spinarak al nivel 22."
+          }
+        }
+      ]
+    }
+  }
+}
