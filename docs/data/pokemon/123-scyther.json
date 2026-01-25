@@ -1,0 +1,162 @@
+{
+  "dex": 123,
+  "slug": "scyther",
+
+  "names": {
+    "en": "Scyther",
+    "ja": "ストライク",
+    "fr": "Insécateur",
+    "de": "Sichlor",
+    "es": "Scyther"
+  },
+
+  "types": ["bug", "flying"],
+
+  "evolution": {
+    "family": ["scyther", "scizor"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 1", "Safari Zone Area 2"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 1 and 2.",
+            "ja": "サファリゾーン エリア1・2に しゅつげん。",
+            "fr": "Trouvé dans les Zones 1 et 2 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 1 und 2) anzutreffen.",
+            "es": "Se encuentra en las Zonas 1 y 2 de la Zona Safari."
+          }
+        },
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "cost": "5,500 Coins",
+          "notes": {
+            "en": "Purchased from the Celadon Game Corner for 5,500 Coins.",
+            "ja": "タマムシゲームコーナーで 5500コインと こうかん。",
+            "fr": "Achetable au Casino de Céladopole pour 5 500 Jetons.",
+            "de": "Im Prismania-Spielcasino für 5.500 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Azulona por 5.500 Monedas."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 1", "Safari Zone Area 2"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 1 and 2.",
+            "ja": "サファリゾーン エリア1・2に しゅつげん。",
+            "fr": "Trouvé dans les Zones 1 et 2 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 1 und 2) anzutreffen.",
+            "es": "Se encuentra en las Zonas 1 y 2 de la Zona Safari."
+          }
+        },
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "cost": "5,500 Coins",
+          "notes": {
+            "en": "Purchased from the Celadon Game Corner for 5,500 Coins.",
+            "ja": "タマムシゲームコーナーで 5500コインと こうかん。",
+            "fr": "Achetable au Casino de Céladopole pour 5 500 Jetons.",
+            "de": "Im Prismania-Spielcasino für 5.500 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Azulona por 5.500 Monedas."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 2", "Safari Zone Area 3"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 2 and 3.",
+            "ja": "サファリゾーン エリア2・3に しゅつげん。",
+            "fr": "Trouvé dans les Zones 2 et 3 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 2 und 3) anzutreffen.",
+            "es": "Se encuentra en las Zonas 2 y 3 de la Zona Safari."
+          }
+        },
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "cost": "6,500 Coins",
+          "notes": {
+            "en": "Purchased from the Celadon Game Corner for 6,500 Coins.",
+            "ja": "タマムシゲームコーナーで 6500コインと こうかん。",
+            "fr": "Achetable au Casino de Céladopole pour 6 500 Jetons.",
+            "de": "Im Prismania-Spielcasino für 6.500 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Azulona por 6.500 Monedas."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "event",
+          "locations": ["National Park"],
+          "requirements": ["Bug-Catching Contest"],
+          "notes": {
+            "en": "Caught during the Bug-Catching Contest held every Tuesday, Thursday, and Saturday in National Park.",
+            "ja": "しぜんこうえんの むしとりたいかい（かよう・もくよう・どよう）で つかまえられる。",
+            "fr": "Attrapable lors du Concours de Capture d’Insectes au Parc Naturel (mardi, jeudi et samedi).",
+            "de": "Kann beim Käferturnier im Nationalpark (Dienstag, Donnerstag, Samstag) gefangen werden.",
+            "es": "Se captura durante el Concurso de Bichos en el Parque Nacional (martes, jueves y sábado)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "event",
+          "locations": ["National Park"],
+          "requirements": ["Bug-Catching Contest"],
+          "notes": {
+            "en": "Caught during the Bug-Catching Contest held every Tuesday, Thursday, and Saturday in National Park.",
+            "ja": "しぜんこうえんの むしとりたいかい（かよう・もくよう・どよう）で つかまえられる。",
+            "fr": "Attrapable lors du Concours de Capture d’Insectes au Parc Naturel (mardi, jeudi et samedi).",
+            "de": "Kann beim Käferturnier im Nationalpark (Dienstag, Donnerstag, Samstag) gefangen werden.",
+            "es": "Se captura durante el Concurso de Bichos en el Parque Nacional (martes, jueves y sábado)."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "event",
+          "locations": ["National Park"],
+          "requirements": ["Bug-Catching Contest"],
+          "notes": {
+            "en": "Caught during the Bug-Catching Contest held every Tuesday, Thursday, and Saturday in National Park.",
+            "ja": "しぜんこうえんの むしとりたいかい（かよう・もくよう・どよう）で つかまえられる。",
+            "fr": "Attrapable lors du Concours de Capture d’Insectes au Parc Naturel (mardi, jeudi et samedi).",
+            "de": "Kann beim Käferturnier im Nationalpark (Dienstag, Donnerstag, Samstag) gefangen werden.",
+            "es": "Se captura durante el Concurso de Bichos en el Parque Nacional (martes, jueves y sábado)."
+          }
+        }
+      ]
+    }
+  }
+}
