@@ -1,0 +1,72 @@
+{
+  "dex": 172,
+  "slug": "pichu",
+
+  "names": {
+    "en": "Pichu",
+    "ja": "ピチュー",
+    "fr": "Pichu",
+    "de": "Pichu",
+    "es": "Pichu"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["pichu", "pikachu", "raichu"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Pikachu", "Raichu"],
+          "notes": {
+            "en": "Breed Pikachu or Raichu to obtain Pichu.",
+            "ja": "ピカチュウ または ライチュウを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Pikachu ou Raichu pour obtenir Pichu.",
+            "de": "Züchte Pikachu oder Raichu, um Pichu zu erhalten.",
+            "es": "Cría a Pikachu o Raichu para obtener a Pichu."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Pikachu", "Raichu"],
+          "notes": {
+            "en": "Breed Pikachu or Raichu to obtain Pichu.",
+            "ja": "ピカチュウ または ライチュウを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Pikachu ou Raichu pour obtenir Pichu.",
+            "de": "Züchte Pikachu oder Raichu, um Pichu zu erhalten.",
+            "es": "Cría a Pikachu o Raichu para obtener a Pichu."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Pikachu", "Raichu"],
+          "notes": {
+            "en": "Breed Pikachu or Raichu to obtain Pichu.",
+            "ja": "ピカチュウ または ライチュウを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Pikachu ou Raichu pour obtenir Pichu.",
+            "de": "Züchte Pikachu oder Raichu, um Pichu zu erhalten.",
+            "es": "Cría a Pikachu o Raichu para obtener a Pichu."
+          }
+        }
+      ]
+    }
+  }
+}
