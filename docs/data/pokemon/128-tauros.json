@@ -1,0 +1,124 @@
+{
+  "dex": 128,
+  "slug": "tauros",
+
+  "names": {
+    "en": "Tauros",
+    "ja": "ケンタロス",
+    "fr": "Tauros",
+    "de": "Tauros",
+    "es": "Tauros"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["tauros"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 2", "Safari Zone Area 4"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 2 and 4.",
+            "ja": "サファリゾーン エリア2・4に しゅつげん。",
+            "fr": "Trouvé dans les Zones 2 et 4 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 2 und 4) anzutreffen.",
+            "es": "Se encuentra en las Zonas 2 y 4 de la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 2", "Safari Zone Area 4"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 2 and 4.",
+            "ja": "サファリゾーン エリア2・4に しゅつげん。",
+            "fr": "Trouvé dans les Zones 2 et 4 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 2 und 4) anzutreffen.",
+            "es": "Se encuentra en las Zonas 2 y 4 de la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 2", "Safari Zone Area 4"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 2 and 4.",
+            "ja": "サファリゾーン エリア2・4に しゅつげん。",
+            "fr": "Trouvé dans les Zones 2 et 4 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 2 und 4) anzutreffen.",
+            "es": "Se encuentra en las Zonas 2 y 4 de la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39 at an extremely low encounter rate.",
+            "ja": "38・39ばんどうろで ごくまれに しゅつげん。",
+            "fr": "Apparaît extrêmement rarement sur les Routes 38 et 39.",
+            "de": "Extrem seltene Begegnung auf Route 38 und 39.",
+            "es": "Aparece de forma extremadamente rara en las Rutas 38 y 39."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39 at an extremely low encounter rate.",
+            "ja": "38・39ばんどうろで ごくまれに しゅつげん。",
+            "fr": "Apparaît extrêmement rarement sur les Routes 38 et 39.",
+            "de": "Extrem seltene Begegnung auf Route 38 und 39.",
+            "es": "Aparece de forma extremadamente rara en las Rutas 38 y 39."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 38 and 39 at an extremely low encounter rate during the morning and daytime.",
+            "ja": "38・39ばんどうろで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Apparaît extrêmement rarement sur les Routes 38 et 39 le matin et le jour.",
+            "de": "Extrem seltene Begegnung auf Route 38 und 39 am Morgen und tagsüber.",
+            "es": "Aparece de forma extremadamente rara en las Rutas 38 y 39 durante la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
