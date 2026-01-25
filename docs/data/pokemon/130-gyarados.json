@@ -1,0 +1,118 @@
+{
+  "dex": 130,
+  "slug": "gyarados",
+
+  "names": {
+    "en": "Gyarados",
+    "ja": "ギャラドス",
+    "fr": "Léviator",
+    "de": "Garados",
+    "es": "Gyarados"
+  },
+
+  "types": ["water", "flying"],
+
+  "evolution": {
+    "family": ["magikarp", "gyarados"],
+    "stage": 2,
+    "evolvesFrom": "magikarp"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magikarp at Lv. 20.",
+            "ja": "コイキングを レベル20で しんか。",
+            "fr": "Faites évoluer Magicarpe au niveau 20.",
+            "de": "Entwickle Karpador auf Level 20.",
+            "es": "Evoluciona a Magikarp al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magikarp at Lv. 20.",
+            "ja": "コイキングを レベル20で しんか。",
+            "fr": "Faites évoluer Magicarpe au niveau 20.",
+            "de": "Entwickle Karpador auf Level 20.",
+            "es": "Evoluciona a Magikarp al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magikarp at Lv. 20.",
+            "ja": "コイキングを レベル20で しんか。",
+            "fr": "Faites évoluer Magicarpe au niveau 20.",
+            "de": "Entwickle Karpador auf Level 20.",
+            "es": "Evoluciona a Magikarp al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magikarp at Lv. 20.",
+            "ja": "コイキングを レベル20で しんか。",
+            "fr": "Faites évoluer Magicarpe au niveau 20.",
+            "de": "Entwickle Karpador auf Level 20.",
+            "es": "Evoluciona a Magikarp al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magikarp at Lv. 20.",
+            "ja": "コイキングを レベル20で しんか。",
+            "fr": "Faites évoluer Magicarpe au niveau 20.",
+            "de": "Entwickle Karpador auf Level 20.",
+            "es": "Evoluciona a Magikarp al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Magikarp at Lv. 20.",
+            "ja": "コイキングを レベル20で しんか。",
+            "fr": "Faites évoluer Magicarpe au niveau 20.",
+            "de": "Entwickle Karpador auf Level 20.",
+            "es": "Evoluciona a Magikarp al nivel 20."
+          }
+        }
+      ]
+    }
+  }
+}
