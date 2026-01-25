@@ -47,7 +47,7 @@
       ]
     },
     "crystal": {
-      "sections": ["BLACKTHORN_POKEMON"],
+      "sections": ["KANTO_POKEMON"],
       "obtain": [
         {
           "method": "static",
