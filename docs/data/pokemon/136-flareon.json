@@ -1,0 +1,125 @@
+{
+  "dex": 136,
+  "slug": "flareon",
+
+  "names": {
+    "en": "Flareon",
+    "ja": "ブースター",
+    "fr": "Pyroli",
+    "de": "Flamara",
+    "es": "Flareon"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon"
+    ],
+    "stage": 2,
+    "evolvesFrom": "eevee"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「ほのおのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Feu (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Feuerstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Fuego (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「ほのおのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Feu (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Feuerstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Fuego (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Fire Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「ほのおのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Feu (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Feuerstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Fuego (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["FIRE_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Fire Stone. Show Bill’s Grandfather a Growlithe on Route 25 for a Fire Stone.",
+            "ja": "イーブイに「ほのおのいし」を使って進化。25ばんどうろでマサキの おじいさんにガーディを見せると、ほのおのいしがもらえる。",
+            "fr": "Faites évoluer Évoli avec une Pierre Feu. Montrez un Caninos à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Feu.",
+            "de": "Entwickle Evoli mit einem Feuerstein. Zeige Bills Großvater ein Fukano auf Route 25, um einen Feuerstein zu erhalten.",
+            "es": "Evoluciona a Eevee con una Piedra Fuego. Muestra un Growlithe al abuelo de Bill en la Ruta 25 para conseguir una Piedra Fuego."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["FIRE_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Fire Stone. Show Bill’s Grandfather a Vulpix on Route 25 for a Fire Stone.",
+            "ja": "イーブイに「ほのおのいし」を使って進化。25ばんどうろでマサキの おじいさんにロコンを見せると、ほのおのいしがもらえる。",
+            "fr": "Faites évoluer Évoli avec une Pierre Feu. Montrez un Goupix à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Feu.",
+            "de": "Entwickle Evoli mit einem Feuerstein. Zeige Bills Großvater ein Vulpix auf Route 25, um einen Feuerstein zu erhalten.",
+            "es": "Evoluciona a Eevee con una Piedra Fuego. Muestra un Vulpix al abuelo de Bill en la Ruta 25 para conseguir una Piedra Fuego."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Fire Stone. Receive the Fire Stone from Schoolkid Alan on Route 36 when he calls you (item varies).",
+            "ja": "イーブイに「ほのおのいし」を使って進化。36ばんどうろの じどう・アランから電話でもらえる（アイテムはランダム）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Feu. Recevez la Pierre Feu de l’Écolier Alan sur la Route 36 après son appel (objet variable).",
+            "de": "Entwickle Evoli mit einem Feuerstein. Erhalte den Feuerstein von Schuljunge Alan auf Route 36 nach einem Anruf (Item variiert).",
+            "es": "Evoluciona a Eevee con una Piedra Fuego. Recibe la Piedra Fuego del Escolar Alan en la Ruta 36 cuando te llame (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
