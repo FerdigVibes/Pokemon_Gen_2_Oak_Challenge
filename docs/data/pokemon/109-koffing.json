@@ -1,0 +1,106 @@
+{
+  "dex": 109,
+  "slug": "koffing",
+
+  "names": {
+    "en": "Koffing",
+    "ja": "ドガース",
+    "fr": "Smogo",
+    "de": "Smogon",
+    "es": "Koffing"
+  },
+
+  "types": ["poison"],
+
+  "evolution": {
+    "family": ["koffing", "weezing"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンタウンの ポケモンやしきに しゅつげん。",
+            "fr": "Trouvé au Manoir Pokémon de Cramois’Île.",
+            "de": "Im Pokémon-Herrenhaus auf der Zinnoberinsel anzutreffen.",
+            "es": "Se encuentra en la Mansión Pokémon de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンタウンの ポケモンやしきに しゅつげん。",
+            "fr": "Trouvé au Manoir Pokémon de Cramois’Île.",
+            "de": "Im Pokémon-Herrenhaus auf der Zinnoberinsel anzutreffen.",
+            "es": "Se encuentra en la Mansión Pokémon de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Burned Tower"],
+          "notes": {
+            "en": "Found in the Burned Tower.",
+            "ja": "やけたとうに しゅつげん。",
+            "fr": "Trouvé dans la Tour Brûlée.",
+            "de": "Im Verbrannten Turm anzutreffen.",
+            "es": "Se encuentra en la Torre Quemada."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Burned Tower"],
+          "notes": {
+            "en": "Found in the Burned Tower.",
+            "ja": "やけたとうに しゅつげん。",
+            "fr": "Trouvé dans la Tour Brûlée.",
+            "de": "Im Verbrannten Turm anzutreffen.",
+            "es": "Se encuentra en la Torre Quemada."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Burned Tower"],
+          "notes": {
+            "en": "Found in the Burned Tower.",
+            "ja": "やけたとうに しゅつげん。",
+            "fr": "Trouvé dans la Tour Brûlée.",
+            "de": "Im Verbrannten Turm anzutreffen.",
+            "es": "Se encuentra en la Torre Quemada."
+          }
+        }
+      ]
+    }
+  }
+}
