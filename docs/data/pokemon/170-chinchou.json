@@ -1,0 +1,75 @@
+{
+  "dex": 170,
+  "slug": "chinchou",
+
+  "names": {
+    "en": "Chinchou",
+    "ja": "チョンチー",
+    "fr": "Loupio",
+    "de": "Lampi",
+    "es": "Chinchou"
+  },
+
+  "types": ["water", "electric"],
+
+  "evolution": {
+    "family": ["chinchou", "lanturn"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["New Bark Town", "Olivine City Harbor"],
+          "notes": {
+            "en": "Caught with the Good Rod in New Bark Town and Olivine City Harbor.",
+            "ja": "ワカバタウンと アサギシティの みなとで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne à Bourg Geon et au Port d’Olivine.",
+            "de": "Mit der Profiangel in Neuborkia und im Hafen von Oliviana City fangbar.",
+            "es": "Se captura con la Supercaña en Pueblo Primavera y el Puerto de Ciudad Olivo."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["New Bark Town", "Olivine City Harbor"],
+          "notes": {
+            "en": "Caught with the Good Rod in New Bark Town and Olivine City Harbor.",
+            "ja": "ワカバタウンと アサギシティの みなとで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne à Bourg Geon et au Port d’Olivine.",
+            "de": "Mit der Profiangel in Neuborkia und im Hafen von Oliviana City fangbar.",
+            "es": "Se captura con la Supercaña en Pueblo Primavera y el Puerto de Ciudad Olivo."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["New Bark Town", "Olivine City Harbor"],
+          "notes": {
+            "en": "Caught with the Good Rod in New Bark Town and Olivine City Harbor.",
+            "ja": "ワカバタウンと アサギシティの みなとで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne à Bourg Geon et au Port d’Olivine.",
+            "de": "Mit der Profiangel in Neuborkia und im Hafen von Oliviana City fangbar.",
+            "es": "Se captura con la Supercaña en Pueblo Primavera y el Puerto de Ciudad Olivo."
+          }
+        }
+      ]
+    }
+  }
+}
