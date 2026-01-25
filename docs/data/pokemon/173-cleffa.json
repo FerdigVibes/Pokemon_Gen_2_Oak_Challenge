@@ -1,0 +1,72 @@
+{
+  "dex": 173,
+  "slug": "cleffa",
+
+  "names": {
+    "en": "Cleffa",
+    "ja": "ピィ",
+    "fr": "Mélo",
+    "de": "Pii",
+    "es": "Cleffa"
+  },
+
+  "types": ["fairy"],
+
+  "evolution": {
+    "family": ["cleffa", "clefairy", "clefable"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Clefairy", "Clefable"],
+          "notes": {
+            "en": "Breed Clefairy or Clefable to obtain Cleffa.",
+            "ja": "ピッピ または ピクシーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Mélofée ou Mélodelfe pour obtenir Mélo.",
+            "de": "Züchte Piepi oder Pixi, um Pii zu erhalten.",
+            "es": "Cría a Clefairy o Clefable para obtener a Cleffa."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Clefairy", "Clefable"],
+          "notes": {
+            "en": "Breed Clefairy or Clefable to obtain Cleffa.",
+            "ja": "ピッピ または ピクシーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Mélofée ou Mélodelfe pour obtenir Mélo.",
+            "de": "Züchte Piepi oder Pixi, um Pii zu erhalten.",
+            "es": "Cría a Clefairy o Clefable para obtener a Cleffa."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Clefairy", "Clefable"],
+          "notes": {
+            "en": "Breed Clefairy or Clefable to obtain Cleffa.",
+            "ja": "ピッピ または ピクシーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Mélofée ou Mélodelfe pour obtenir Mélo.",
+            "de": "Züchte Piepi oder Pixi, um Pii zu erhalten.",
+            "es": "Cría a Clefairy o Clefable para obtener a Cleffa."
+          }
+        }
+      ]
+    }
+  }
+}
