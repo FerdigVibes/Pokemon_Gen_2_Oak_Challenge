@@ -1,0 +1,131 @@
+{
+  "dex": 124,
+  "slug": "jynx",
+
+  "names": {
+    "en": "Jynx",
+    "ja": "ルージュラ",
+    "fr": "Lippoutou",
+    "de": "Rossana",
+    "es": "Jynx"
+  },
+
+  "types": ["ice", "psychic"],
+
+  "evolution": {
+    "family": ["smoochum", "jynx"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Cerulean City (House next to Pokémon Center)"],
+          "notes": {
+            "en": "Trade a Poliwhirl to receive Jynx in Cerulean City, in the house next to the Pokémon Center.",
+            "ja": "ハナダシティの ポケモンセンターの となりの いえで ニョロゾと こうかん。",
+            "fr": "Échangez un Têtarte pour obtenir Lippoutou à Azuria, dans la maison près du Centre Pokémon.",
+            "de": "Tausche ein Quaputzi gegen Rossana im Haus neben dem Pokémon-Center in Azuria.",
+            "es": "Intercambia un Poliwhirl para recibir a Jynx en Ciudad Celeste, en la casa junto al Centro Pokémon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Cerulean City (House next to Pokémon Center)"],
+          "notes": {
+            "en": "Trade a Poliwhirl to receive Jynx in Cerulean City, in the house next to the Pokémon Center.",
+            "ja": "ハナダシティの ポケモンセンターの となりの いえで ニョロゾと こうかん。",
+            "fr": "Échangez un Têtarte pour obtenir Lippoutou à Azuria, dans la maison près du Centre Pokémon.",
+            "de": "Tausche ein Quaputzi gegen Rossana im Haus neben dem Pokémon-Center in Azuria.",
+            "es": "Intercambia un Poliwhirl para recibir a Jynx en Ciudad Celeste, en la casa junto al Centro Pokémon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "notes": {
+            "en": "Found in the Ice Path.",
+            "ja": "こおりのぬけみちに しゅつげん。",
+            "fr": "Trouvé dans la Route de Glace.",
+            "de": "Im Eispfad anzutreffen.",
+            "es": "Se encuentra en la Ruta Helada."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "notes": {
+            "en": "Found in the Ice Path.",
+            "ja": "こおりのぬけみちに しゅつげん。",
+            "fr": "Trouvé dans la Route de Glace.",
+            "de": "Im Eispfad anzutreffen.",
+            "es": "Se encuentra en la Ruta Helada."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path B1F"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found in Ice Path B1F during the morning and daytime at a 1% encounter rate.",
+            "ja": "こおりのぬけみち ちか1かいで あさ・ひるに 1%の そうぐうりつ。",
+            "fr": "Apparaît à 1 % dans la Route de Glace (Sous-sol 1) le matin et le jour.",
+            "de": "1%-Begegnung im Eispfad (1. Untergeschoss) am Morgen und tagsüber.",
+            "es": "Aparece al 1 % en la Ruta Helada (Sótano 1) durante la mañana y el día."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Ice Path B2F"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found in Ice Path B2F during the morning and daytime.",
+            "ja": "こおりのぬけみち ちか2かいで あさ・ひるに しゅつげん。",
+            "fr": "Apparaît dans la Route de Glace (Sous-sol 2) le matin et le jour.",
+            "de": "Begegnung im Eispfad (2. Untergeschoss) am Morgen und tagsüber.",
+            "es": "Aparece en la Ruta Helada (Sótano 2) durante la mañana y el día."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Ice Path B3F"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found in Ice Path B3F during the morning and daytime at a 10% encounter rate.",
+            "ja": "こおりのぬけみち ちか3かいで あさ・ひるに 10%の そうぐうりつ。",
+            "fr": "Apparaît à 10 % dans la Route de Glace (Sous-sol 3) le matin et le jour.",
+            "de": "10%-Begegnung im Eispfad (3. Untergeschoss) am Morgen und tagsüber.",
+            "es": "Aparece al 10 % en la Ruta Helada (Sótano 3) durante la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
