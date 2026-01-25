@@ -1,0 +1,72 @@
+{
+  "dex": 240,
+  "slug": "magby",
+
+  "names": {
+    "en": "Magby",
+    "ja": "ブビィ",
+    "fr": "Magby",
+    "de": "Magby",
+    "es": "Magby"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["magby", "magmar", "magmortar"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Magmar"],
+          "notes": {
+            "en": "Breed Magmar to obtain Magby.",
+            "ja": "ブーバーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Magmar pour obtenir Magby.",
+            "de": "Züchte Magmar, um Magby zu erhalten.",
+            "es": "Cría a Magmar para obtener a Magby."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Magmar"],
+          "notes": {
+            "en": "Breed Magmar to obtain Magby.",
+            "ja": "ブーバーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Magmar pour obtenir Magby.",
+            "de": "Züchte Magmar, um Magby zu erhalten.",
+            "es": "Cría a Magmar para obtener a Magby."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Magmar"],
+          "notes": {
+            "en": "Breed Magmar to obtain Magby.",
+            "ja": "ブーバーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Magmar pour obtenir Magby.",
+            "de": "Züchte Magmar, um Magby zu erhalten.",
+            "es": "Cría a Magmar para obtener a Magby."
+          }
+        }
+      ]
+    }
+  }
+}
