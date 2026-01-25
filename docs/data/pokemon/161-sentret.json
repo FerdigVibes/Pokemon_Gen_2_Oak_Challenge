@@ -1,0 +1,75 @@
+{
+  "dex": 161,
+  "slug": "sentret",
+
+  "names": {
+    "en": "Sentret",
+    "ja": "オタチ",
+    "fr": "Fouinette",
+    "de": "Wiesor",
+    "es": "Sentret"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["sentret", "furret"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Found on Route 29 during the morning.",
+            "ja": "29ばんどうろで あさに しゅつげん。",
+            "fr": "Apparaît sur la Route 29 le matin.",
+            "de": "Erscheint morgens auf Route 29.",
+            "es": "Aparece en la Ruta 29 por la mañana."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Found on Route 29 during the morning.",
+            "ja": "29ばんどうろで あさに しゅつげん。",
+            "fr": "Apparaît sur la Route 29 le matin.",
+            "de": "Erscheint morgens auf Route 29.",
+            "es": "Aparece en la Ruta 29 por la mañana."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Found on Route 29 during the morning.",
+            "ja": "29ばんどうろで あさに しゅつげん。",
+            "fr": "Apparaît sur la Route 29 le matin.",
+            "de": "Erscheint morgens auf Route 29.",
+            "es": "Aparece en la Ruta 29 por la mañana."
+          }
+        }
+      ]
+    }
+  }
+}
