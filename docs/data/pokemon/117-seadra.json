@@ -1,0 +1,130 @@
+{
+  "dex": 117,
+  "slug": "seadra",
+
+  "names": {
+    "en": "Seadra",
+    "ja": "シードラ",
+    "fr": "Hypocéan",
+    "de": "Seemon",
+    "es": "Seadra"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["horsea", "seadra", "kingdra"],
+    "stage": 2,
+    "evolvesFrom": "horsea"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Horsea at Lv. 32.",
+            "ja": "タッツーを レベル32で しんか。",
+            "fr": "Faites évoluer Hypotrempe au niveau 32.",
+            "de": "Entwickle Seepferd auf Level 32.",
+            "es": "Evoluciona a Horsea al nivel 32."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Horsea at Lv. 32.",
+            "ja": "タッツーを レベル32で しんか。",
+            "fr": "Faites évoluer Hypotrempe au niveau 32.",
+            "de": "Entwickle Seepferd auf Level 32.",
+            "es": "Evoluciona a Horsea al nivel 32."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Horsea at Lv. 32.",
+            "ja": "タッツーを レベル32で しんか。",
+            "fr": "Faites évoluer Hypotrempe au niveau 32.",
+            "de": "Entwickle Seepferd auf Level 32.",
+            "es": "Evoluciona a Horsea al nivel 32."
+          }
+        },
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Route 12", "Route 13"],
+          "notes": {
+            "en": "Caught using a Super Rod on Routes 12 and 13 at a very low encounter rate.",
+            "ja": "12・13ばんどうろで すごいつりざおを つかうと ごくまれに つれる。",
+            "fr": "Pêché avec la Super Canne sur les Routes 12 et 13 à un taux très faible.",
+            "de": "Sehr selten mit der Superangel auf Route 12 und 13 fangbar.",
+            "es": "Se captura con la Supercaña en las Rutas 12 y 13 a una tasa muy baja."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Horsea at Lv. 32.",
+            "ja": "タッツーを レベル32で しんか。",
+            "fr": "Faites évoluer Hypotrempe au niveau 32.",
+            "de": "Entwickle Seepferd auf Level 32.",
+            "es": "Evoluciona a Horsea al nivel 32."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Horsea at Lv. 32.",
+            "ja": "タッツーを レベル32で しんか。",
+            "fr": "Faites évoluer Hypotrempe au niveau 32.",
+            "de": "Entwickle Seepferd auf Level 32.",
+            "es": "Evoluciona a Horsea al nivel 32."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Horsea at Lv. 32.",
+            "ja": "タッツーを レベル32で しんか。",
+            "fr": "Faites évoluer Hypotrempe au niveau 32.",
+            "de": "Entwickle Seepferd auf Level 32.",
+            "es": "Evoluciona a Horsea al nivel 32."
+          }
+        }
+      ]
+    }
+  }
+}
