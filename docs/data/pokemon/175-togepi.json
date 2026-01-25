@@ -1,0 +1,72 @@
+{
+  "dex": 175,
+  "slug": "togepi",
+
+  "names": {
+    "en": "Togepi",
+    "ja": "トゲピー",
+    "fr": "Togepi",
+    "de": "Togepi",
+    "es": "Togepi"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["togepi", "togetic", "togekiss"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Violet City Pokémon Center"],
+          "notes": {
+            "en": "Gifted by Professor Elm’s aide in the Violet City Pokémon Center.",
+            "ja": "キキョウシティの ポケモンセンターで ウツギはかせの じょしゅから もらえる。",
+            "fr": "Offert par l’assistant du Professeur Orme au Centre Pokémon de Mauville.",
+            "de": "Als Geschenk vom Assistenten von Professor Lind im Pokémon-Center von Viola City.",
+            "es": "Regalo del ayudante del Profesor Elm en el Centro Pokémon de Ciudad Malva."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Violet City Pokémon Center"],
+          "notes": {
+            "en": "Gifted by Professor Elm’s aide in the Violet City Pokémon Center.",
+            "ja": "キキョウシティの ポケモンセンターで ウツギはかせの じょしゅから もらえる。",
+            "fr": "Offert par l’assistant du Professeur Orme au Centre Pokémon de Mauville.",
+            "de": "Als Geschenk vom Assistenten von Professor Lind im Pokémon-Center von Viola City.",
+            "es": "Regalo del ayudante del Profesor Elm en el Centro Pokémon de Ciudad Malva."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Violet City Pokémon Center"],
+          "notes": {
+            "en": "Gifted by Professor Elm’s aide in the Violet City Pokémon Center.",
+            "ja": "キキョウシティの ポケモンセンターで ウツギはかせの じょしゅから もらえる。",
+            "fr": "Offert par l’assistant du Professeur Orme au Centre Pokémon de Mauville.",
+            "de": "Als Geschenk vom Assistenten von Professor Lind im Pokémon-Center von Viola City.",
+            "es": "Regalo del ayudante del Profesor Elm en el Centro Pokémon de Ciudad Malva."
+          }
+        }
+      ]
+    }
+  }
+}
