@@ -118,7 +118,7 @@
     },
 
     "crystal": {
-      "sections": ["GOLDENROD_POKEMON"],
+      "sections": ["VIOLET_POKEMON"],
       "obtain": [
         {
           "method": "evolution",
