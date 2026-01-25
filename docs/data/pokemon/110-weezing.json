@@ -1,0 +1,113 @@
+{
+  "dex": 110,
+  "slug": "weezing",
+
+  "names": {
+    "en": "Weezing",
+    "ja": "マタドガス",
+    "fr": "Smogogo",
+    "de": "Smogmog",
+    "es": "Weezing"
+  },
+
+  "types": ["poison"],
+
+  "evolution": {
+    "family": ["koffing", "weezing"],
+    "stage": 2,
+    "evolvesFrom": "koffing"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Koffing at Lv. 35.",
+            "ja": "ドガースを レベル35で しんか。",
+            "fr": "Faites évoluer Smogo au niveau 35.",
+            "de": "Entwickle Smogon auf Level 35.",
+            "es": "Evoluciona a Koffing al nivel 35."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Koffing at Lv. 35.",
+            "ja": "ドガースを レベル35で しんか。",
+            "fr": "Faites évoluer Smogo au niveau 35.",
+            "de": "Entwickle Smogon auf Level 35.",
+            "es": "Evoluciona a Koffing al nivel 35."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Koffing at Lv. 35.",
+            "ja": "ドガースを レベル35で しんか。",
+            "fr": "Faites évoluer Smogo au niveau 35.",
+            "de": "Entwickle Smogon auf Level 35.",
+            "es": "Evoluciona a Koffing al nivel 35."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Koffing at Lv. 35.",
+            "ja": "ドガースを レベル35で しんか。",
+            "fr": "Faites évoluer Smogo au niveau 35.",
+            "de": "Entwickle Smogon auf Level 35.",
+            "es": "Evoluciona a Koffing al nivel 35."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Koffing at Lv. 35.",
+            "ja": "ドガースを レベル35で しんか。",
+            "fr": "Faites évoluer Smogo au niveau 35.",
+            "de": "Entwickle Smogon auf Level 35.",
+            "es": "Evoluciona a Koffing al nivel 35."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Burned Tower B1F"],
+          "notes": {
+            "en": "Found in Burned Tower B1F at a very low encounter rate.",
+            "ja": "やけたとう ちか1かいで ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement dans la Tour Brûlée (Sous-sol).",
+            "de": "Sehr seltene Begegnung im Verbrannten Turm (Untergeschoss).",
+            "es": "Aparece muy raramente en la Torre Quemada (Sótano)."
+          }
+        }
+      ]
+    }
+  }
+}
