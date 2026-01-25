@@ -1,0 +1,73 @@
+{
+  "dex": 245,
+  "slug": "suicune",
+
+  "names": {
+    "en": "Suicune",
+    "ja": "スイクン",
+    "fr": "Suicune",
+    "de": "Suicune",
+    "es": "Suicune"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["suicune"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "roaming",
+          "location": ["Johto (random grass encounters)"],
+          "notes": {
+            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Track its location using the Pokédex after the first encounter. Use Mean Look if possible to prevent it from fleeing.",
+            "ja": "ジョウトちほうを ほうろうする ポケモン。いちど あうと ポケデックスで いちを かくにんできる。にげられないように「くろいまなざし」を つかうと よい。",
+            "fr": "Pokémon errant rencontré aléatoirement dans les hautes herbes de Johto. Une fois rencontré, sa position peut être suivie via le Pokédex. Utilisez Regard Noir pour l’empêcher de fuir.",
+            "de": "Ein wanderndes Pokémon, das zufällig im hohen Gras in Johto erscheint. Nach der ersten Begegnung kann sein Standort im Pokédex verfolgt werden. Setze Finsterblick ein, um die Flucht zu verhindern.",
+            "es": "Pokémon errante que aparece aleatoriamente en la hierba por Johto. Tras el primer encuentro, puede rastrearse con la Pokédex. Usa Mal de Ojo para evitar que huya."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "roaming",
+          "location": ["Johto (random grass encounters)"],
+          "notes": {
+            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Track its location using the Pokédex after the first encounter. Use Mean Look if possible to prevent it from fleeing.",
+            "ja": "ジョウトちほうを ほうろうする ポケモン。いちど あうと ポケデックスで いちを かくにんできる。にげられないように「くろいまなざし」を つかうと よい。",
+            "fr": "Pokémon errant rencontré aléatoirement dans les hautes herbes de Johto. Une fois rencontré, sa position peut être suivie via le Pokédex. Utilisez Regard Noir pour l’empêcher de fuir.",
+            "de": "Ein wanderndes Pokémon, das zufällig im hohen Gras in Johto erscheint. Nach der ersten Begegnung kann sein Standort im Pokédex verfolgt werden. Setze Finsterblick ein, um die Flucht zu verhindern.",
+            "es": "Pokémon errante que aparece aleatoriamente en la hierba por Johto. Tras el primer encuentro, puede rastrearse con la Pokédex. Usa Mal de Ojo para evitar que huya."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Bell Tower"],
+          "requirements": ["Clear Bell"],
+          "notes": {
+            "en": "Static encounter in the Bell Tower in Ecruteak City. SAVE OUTSIDE THE TOWER BEFORE INTERACTING! Requires the Clear Bell obtained after defeating Team Rocket in Goldenrod City.",
+            "ja": "エンジュシティの スズのとうで こていで しゅつげん。たたかう まえに そとで セーブ！ コガネシティで ロケットだんを たおすと もらえる とうめいなスズが ひつよう。",
+            "fr": "Rencontre fixe dans la Tour Carillon à Rosalia. SAUVEGARDEZ À L’EXTÉRIEUR AVANT ! Nécessite le Clairon obtenu après avoir vaincu la Team Rocket à Doublonville.",
+            "de": "Statische Begegnung im Glockenturm in Teak City. AUSSERHALB DES TURMS SPEICHERN! Benötigt die Klar-Glocke nach dem Sieg über Team Rocket in Dukatia City.",
+            "es": "Encuentro fijo en la Torre Campana de Ciudad Iris. ¡GUARDA FUERA DE LA TORRE ANTES DE INTERACTUAR! Requiere la Campana Clara obtenida tras derrotar al Team Rocket en Ciudad Trigal."
+          }
+        }
+      ]
+    }
+  }
+}
