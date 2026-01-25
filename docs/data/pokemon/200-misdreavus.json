@@ -1,0 +1,75 @@
+{
+  "dex": 200,
+  "slug": "misdreavus",
+
+  "names": {
+    "en": "Misdreavus",
+    "ja": "ムウマ",
+    "fr": "Feuforêve",
+    "de": "Traunfugil",
+    "es": "Misdreavus"
+  },
+
+  "types": ["ghost"],
+
+  "evolution": {
+    "family": ["misdreavus", "mismagius"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Silver 2F", "Mt. Silver 2F Caves"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in Mt. Silver (2F and 2F Caves) at a low encounter rate during the night.",
+            "ja": "シロガネやま2かい・2かいどうくつで よるに ひくい そうぐうりつで しゅつげん。",
+            "fr": "Apparaît à un faible taux au Mont Argenté (2e étage et grottes) la nuit.",
+            "de": "Seltene Begegnung im Silberberg (2. Stock und Höhlen) nachts.",
+            "es": "Aparece con baja probabilidad en el Monte Plateado (Piso 2 y cuevas) durante la noche."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Silver 2F", "Mt. Silver 2F Caves"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in Mt. Silver (2F and 2F Caves) at a low encounter rate during the night.",
+            "ja": "シロガネやま2かい・2かいどうくつで よるに ひくい そうぐうりつで しゅつげん。",
+            "fr": "Apparaît à un faible taux au Mont Argenté (2e étage et grottes) la nuit.",
+            "de": "Seltene Begegnung im Silberberg (2. Stock und Höhlen) nachts.",
+            "es": "Aparece con baja probabilidad en el Monte Plateado (Piso 2 y cuevas) durante la noche."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Silver 2F", "Mt. Silver 2F Caves"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in Mt. Silver (2F and 2F Caves) at a low encounter rate during the night.",
+            "ja": "シロガネやま2かい・2かいどうくつで よるに ひくい そうぐうりつで しゅつげん。",
+            "fr": "Apparaît à un faible taux au Mont Argenté (2e étage et grottes) la nuit.",
+            "de": "Seltene Begegnung im Silberberg (2. Stock und Höhlen) nachts.",
+            "es": "Aparece con baja probabilidad en el Monte Plateado (Piso 2 y cuevas) durante la noche."
+          }
+        }
+      ]
+    }
+  }
+}
