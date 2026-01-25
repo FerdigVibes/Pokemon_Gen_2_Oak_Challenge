@@ -1,0 +1,90 @@
+{
+  "dex": 126,
+  "slug": "magmar",
+
+  "names": {
+    "en": "Magmar",
+    "ja": "ブーバー",
+    "fr": "Magmar",
+    "de": "Magmar",
+    "es": "Magmar"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["magmar", "magmortar"],
+    "stage": 1
+  },
+
+  "games": {
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokémon Mansion"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island.",
+            "ja": "グレンタウンの ポケモンやしきに しゅつげん。",
+            "fr": "Trouvé au Manoir Pokémon de Cramois’Île.",
+            "de": "Im Pokémon-Herrenhaus auf der Zinnoberinsel anzutreffen.",
+            "es": "Se encuentra en la Mansión Pokémon de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Burned Tower B1F"],
+          "notes": {
+            "en": "Found in the Burned Tower (B1F).",
+            "ja": "やけたとう ちか1かいに しゅつげん。",
+            "fr": "Trouvé dans la Tour Brûlée (Sous-sol).",
+            "de": "Im verbrannten Turm (Untergeschoss) anzutreffen.",
+            "es": "Se encuentra en la Torre Quemada (Sótano)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Burned Tower B1F"],
+          "notes": {
+            "en": "Found in the Burned Tower (B1F).",
+            "ja": "やけたとう ちか1かいに しゅつげん。",
+            "fr": "Trouvé dans la Tour Brûlée (Sous-sol).",
+            "de": "Im verbrannten Turm (Untergeschoss) anzutreffen.",
+            "es": "Se encuentra en la Torre Quemada (Sótano)."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Silver 1F"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found in Mt. Silver (1F) at a very low encounter rate during the morning and daytime.",
+            "ja": "シロガネやま 1かいで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement au Mont Argenté (1er étage) le matin et le jour.",
+            "de": "Sehr seltene Begegnung im Silberberg (1. Stock) am Morgen und tagsüber.",
+            "es": "Aparece muy raramente en el Monte Plateado (Piso 1) durante la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
