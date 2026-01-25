@@ -1,0 +1,118 @@
+{
+  "dex": 97,
+  "slug": "hypno",
+
+  "names": {
+    "en": "Hypno",
+    "ja": "スリーパー",
+    "fr": "Hypnomade",
+    "de": "Hypno",
+    "es": "Hypno"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["drowzee", "hypno"],
+    "stage": 2,
+    "evolvesFrom": "drowzee"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Drowzee at Lv. 26.",
+            "ja": "スリープをLv.26で進化。",
+            "fr": "Faites évoluer Soporifik au niveau 26.",
+            "de": "Entwickle Traumato auf Level 26.",
+            "es": "Evoluciona a Drowzee al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Drowzee at Lv. 26.",
+            "ja": "スリープをLv.26で進化。",
+            "fr": "Faites évoluer Soporifik au niveau 26.",
+            "de": "Entwickle Traumato auf Level 26.",
+            "es": "Evoluciona a Drowzee al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Drowzee at Lv. 26.",
+            "ja": "スリープをLv.26で進化。",
+            "fr": "Faites évoluer Soporifik au niveau 26.",
+            "de": "Entwickle Traumato auf Level 26.",
+            "es": "Evoluciona a Drowzee al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Drowzee at Lv. 26.",
+            "ja": "スリープをLv.26で進化。",
+            "fr": "Faites évoluer Soporifik au niveau 26.",
+            "de": "Entwickle Traumato auf Level 26.",
+            "es": "Evoluciona a Drowzee al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Drowzee at Lv. 26.",
+            "ja": "スリープをLv.26で進化。",
+            "fr": "Faites évoluer Soporifik au niveau 26.",
+            "de": "Entwickle Traumato auf Level 26.",
+            "es": "Evoluciona a Drowzee al nivel 26."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Drowzee at Lv. 26.",
+            "ja": "スリープをLv.26で進化。",
+            "fr": "Faites évoluer Soporifik au niveau 26.",
+            "de": "Entwickle Traumato auf Level 26.",
+            "es": "Evoluciona a Drowzee al nivel 26."
+          }
+        }
+      ]
+    }
+  }
+}
