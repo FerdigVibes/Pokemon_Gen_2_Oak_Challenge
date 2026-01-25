@@ -1,0 +1,151 @@
+{
+  "dex": 105,
+  "slug": "marowak",
+
+  "names": {
+    "en": "Marowak",
+    "ja": "ガラガラ",
+    "fr": "Ossatueur",
+    "de": "Knogga",
+    "es": "Marowak"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["cubone", "marowak"],
+    "stage": 2,
+    "evolvesFrom": "cubone"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cubone at Lv. 28.",
+            "ja": "カラカラを レベル28で しんか。",
+            "fr": "Faites évoluer Osselait au niveau 28.",
+            "de": "Entwickle Tragosso auf Level 28.",
+            "es": "Evoluciona a Cubone al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cubone at Lv. 28.",
+            "ja": "カラカラを レベル28で しんか。",
+            "fr": "Faites évoluer Osselait au niveau 28.",
+            "de": "Entwickle Tragosso auf Level 28.",
+            "es": "Evoluciona a Cubone al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cubone at Lv. 28.",
+            "ja": "カラカラを レベル28で しんか。",
+            "fr": "Faites évoluer Osselait au niveau 28.",
+            "de": "Entwickle Tragosso auf Level 28.",
+            "es": "Evoluciona a Cubone al nivel 28."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 2", "Safari Zone Area 4"],
+          "notes": {
+            "en": "Found at a very rare encounter rate in Safari Zone Areas 2 and 4.",
+            "ja": "サファリゾーン2・4で ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement dans les Zones 2 et 4 du Parc Safari.",
+            "de": "Sehr seltene Begegnung in der Safarizone (Bereiche 2 und 4).",
+            "es": "Aparece a una tasa muy baja en las Zonas 2 y 4 de la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cubone at Lv. 28.",
+            "ja": "カラカラを レベル28で しんか。",
+            "fr": "Faites évoluer Osselait au niveau 28.",
+            "de": "Entwickle Tragosso auf Level 28.",
+            "es": "Evoluciona a Cubone al nivel 28."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Rock Tunnel B1F"],
+          "notes": {
+            "en": "Found at a rare encounter rate in Rock Tunnel B1F.",
+            "ja": "イワヤマトンネルちか1かいで まれに しゅつげん。",
+            "fr": "Apparaît rarement dans le Tunnel Rocheux (Sous-sol).",
+            "de": "Seltene Begegnung im Felstunnel (Untergeschoss).",
+            "es": "Aparece a una tasa baja en el Túnel Roca (Sótano)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cubone at Lv. 28.",
+            "ja": "カラカラを レベル28で しんか。",
+            "fr": "Faites évoluer Osselait au niveau 28.",
+            "de": "Entwickle Tragosso auf Level 28.",
+            "es": "Evoluciona a Cubone al nivel 28."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Rock Tunnel B1F"],
+          "notes": {
+            "en": "Found at a rare encounter rate in Rock Tunnel B1F.",
+            "ja": "イワヤマトンネルちか1かいで まれに しゅつげん。",
+            "fr": "Apparaît rarement dans le Tunnel Rocheux (Sous-sol).",
+            "de": "Seltene Begegnung im Felstunnel (Untergeschoss).",
+            "es": "Aparece a una tasa baja en el Túnel Roca (Sótano)."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Cubone at Lv. 28.",
+            "ja": "カラカラを レベル28で しんか。",
+            "fr": "Faites évoluer Osselait au niveau 28.",
+            "de": "Entwickle Tragosso auf Level 28.",
+            "es": "Evoluciona a Cubone al nivel 28."
+          }
+        }
+      ]
+    }
+  }
+}
