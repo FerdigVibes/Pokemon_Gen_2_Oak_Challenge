@@ -1,0 +1,72 @@
+{
+  "dex": 238,
+  "slug": "smoochum",
+
+  "names": {
+    "en": "Smoochum",
+    "ja": "ムチュール",
+    "fr": "Lippouti",
+    "de": "Kussilla",
+    "es": "Smoochum"
+  },
+
+  "types": ["ice", "psychic"],
+
+  "evolution": {
+    "family": ["smoochum", "jynx"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Jynx"],
+          "notes": {
+            "en": "Breed Jynx to obtain Smoochum.",
+            "ja": "ルージュラを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Lippoutou pour obtenir Lippouti.",
+            "de": "Züchte Rossana, um Kussilla zu erhalten.",
+            "es": "Cría a Jynx para obtener a Smoochum."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Jynx"],
+          "notes": {
+            "en": "Breed Jynx to obtain Smoochum.",
+            "ja": "ルージュラを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Lippoutou pour obtenir Lippouti.",
+            "de": "Züchte Rossana, um Kussilla zu erhalten.",
+            "es": "Cría a Jynx para obtener a Smoochum."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Jynx"],
+          "notes": {
+            "en": "Breed Jynx to obtain Smoochum.",
+            "ja": "ルージュラを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Lippoutou pour obtenir Lippouti.",
+            "de": "Züchte Rossana, um Kussilla zu erhalten.",
+            "es": "Cría a Jynx para obtener a Smoochum."
+          }
+        }
+      ]
+    }
+  }
+}
