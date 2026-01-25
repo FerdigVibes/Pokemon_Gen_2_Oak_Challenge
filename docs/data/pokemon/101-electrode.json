@@ -1,0 +1,129 @@
+{
+  "dex": 101,
+  "slug": "electrode",
+
+  "names": {
+    "en": "Electrode",
+    "ja": "マルマイン",
+    "fr": "Électrode",
+    "de": "Lektrobal",
+    "es": "Electrode"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["voltorb", "electrode"],
+    "stage": 2,
+    "evolvesFrom": "voltorb"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Voltorb at Lv. 30.",
+            "ja": "ビリリダマをLv.30で進化。",
+            "fr": "Faites évoluer Voltorbe au niveau 30.",
+            "de": "Entwickle Voltobal auf Level 30.",
+            "es": "Evoluciona a Voltorb al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Voltorb at Lv. 30.",
+            "ja": "ビリリダマをLv.30で進化。",
+            "fr": "Faites évoluer Voltorbe au niveau 30.",
+            "de": "Entwickle Voltobal auf Level 30.",
+            "es": "Evoluciona a Voltorb al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Voltorb at Lv. 30.",
+            "ja": "ビリリダマをLv.30で進化。",
+            "fr": "Faites évoluer Voltorbe au niveau 30.",
+            "de": "Entwickle Voltobal auf Level 30.",
+            "es": "Evoluciona a Voltorb al nivel 30."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Found in the Power Plant on Route 10.",
+            "ja": "10ばんどうろのはつでんしょで出現。",
+            "fr": "Disponible à la Centrale sur la Route 10.",
+            "de": "Im Kraftwerk auf Route 10 zu finden.",
+            "es": "Se encuentra en la Central Eléctrica de la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Voltorb at Lv. 30.",
+            "ja": "ビリリダマをLv.30で進化。",
+            "fr": "Faites évoluer Voltorbe au niveau 30.",
+            "de": "Entwickle Voltobal auf Level 30.",
+            "es": "Evoluciona a Voltorb al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Voltorb at Lv. 30.",
+            "ja": "ビリリダマをLv.30で進化。",
+            "fr": "Faites évoluer Voltorbe au niveau 30.",
+            "de": "Entwickle Voltobal auf Level 30.",
+            "es": "Evoluciona a Voltorb al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Voltorb at Lv. 30.",
+            "ja": "ビリリダマをLv.30で進化。",
+            "fr": "Faites évoluer Voltorbe au niveau 30.",
+            "de": "Entwickle Voltobal auf Level 30.",
+            "es": "Evoluciona a Voltorb al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
