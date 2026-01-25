@@ -1,0 +1,118 @@
+{
+  "dex": 149,
+  "slug": "dragonite",
+
+  "names": {
+    "en": "Dragonite",
+    "ja": "カイリュー",
+    "fr": "Dracolosse",
+    "de": "Dragoran",
+    "es": "Dragonite"
+  },
+
+  "types": ["dragon", "flying"],
+
+  "evolution": {
+    "family": ["dratini", "dragonair", "dragonite"],
+    "stage": 3,
+    "evolvesFrom": "dragonair"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dragonair at Lv. 55.",
+            "ja": "ハクリューをLv.55で進化。",
+            "fr": "Faites évoluer Draco au niveau 55.",
+            "de": "Entwickle Dragonir auf Level 55.",
+            "es": "Evoluciona a Dragonair al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dragonair at Lv. 55.",
+            "ja": "ハクリューをLv.55で進化。",
+            "fr": "Faites évoluer Draco au niveau 55.",
+            "de": "Entwickle Dragonir auf Level 55.",
+            "es": "Evoluciona a Dragonair al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dragonair at Lv. 55.",
+            "ja": "ハクリューをLv.55で進化。",
+            "fr": "Faites évoluer Draco au niveau 55.",
+            "de": "Entwickle Dragonir auf Level 55.",
+            "es": "Evoluciona a Dragonair al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dragonair at Lv. 55.",
+            "ja": "ハクリューをLv.55で進化。",
+            "fr": "Faites évoluer Draco au niveau 55.",
+            "de": "Entwickle Dragonir auf Level 55.",
+            "es": "Evoluciona a Dragonair al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dragonair at Lv. 55.",
+            "ja": "ハクリューをLv.55で進化。",
+            "fr": "Faites évoluer Draco au niveau 55.",
+            "de": "Entwickle Dragonir auf Level 55.",
+            "es": "Evoluciona a Dragonair al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Dragonair at Lv. 55.",
+            "ja": "ハクリューをLv.55で進化。",
+            "fr": "Faites évoluer Draco au niveau 55.",
+            "de": "Entwickle Dragonir auf Level 55.",
+            "es": "Evoluciona a Dragonair al nivel 55."
+          }
+        }
+      ]
+    }
+  }
+}
