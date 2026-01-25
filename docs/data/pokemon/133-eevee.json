@@ -1,0 +1,130 @@
+{
+  "dex": 133,
+  "slug": "eevee",
+
+  "names": {
+    "en": "Eevee",
+    "ja": "イーブイ",
+    "fr": "Évoli",
+    "de": "Evoli",
+    "es": "Eevee"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon"
+    ],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Celadon Mansion (Top Floor)"],
+          "notes": {
+            "en": "Received as a gift at the top floor of Celadon Mansion in Celadon City.",
+            "ja": "タマムシシティの タマムシマンション さいじょうかいで もらえる。",
+            "fr": "Reçu en cadeau au dernier étage du Manoir de Céladopole.",
+            "de": "Als Geschenk im obersten Stockwerk der Prismania-Villa erhältlich.",
+            "es": "Se recibe como regalo en el último piso de la Mansión Azulona."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Celadon Mansion (Top Floor)"],
+          "notes": {
+            "en": "Received as a gift at the top floor of Celadon Mansion in Celadon City.",
+            "ja": "タマムシシティの タマムシマンション さいじょうかいで もらえる。",
+            "fr": "Reçu en cadeau au dernier étage du Manoir de Céladopole.",
+            "de": "Als Geschenk im obersten Stockwerk der Prismania-Villa erhältlich.",
+            "es": "Se recibe como regalo en el último piso de la Mansión Azulona."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Celadon Mansion (Top Floor)"],
+          "notes": {
+            "en": "Received as a gift at the top floor of Celadon Mansion in Celadon City.",
+            "ja": "タマムシシティの タマムシマンション さいじょうかいで もらえる。",
+            "fr": "Reçu en cadeau au dernier étage du Manoir de Céladopole.",
+            "de": "Als Geschenk im obersten Stockwerk der Prismania-Villa erhältlich.",
+            "es": "Se recibe como regalo en el último piso de la Mansión Azulona."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Goldenrod City"],
+          "notes": {
+            "en": "Received as a gift from Bill in Goldenrod City.",
+            "ja": "コガネシティで マサキから もらえる。",
+            "fr": "Reçu en cadeau de Léo à Doublonville.",
+            "de": "Als Geschenk von Bill in Dukatia City erhältlich.",
+            "es": "Se recibe como regalo de Bill en Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Goldenrod City"],
+          "notes": {
+            "en": "Received as a gift from Bill in Goldenrod City.",
+            "ja": "コガネシティで マサキから もらえる。",
+            "fr": "Reçu en cadeau de Léo à Doublonville.",
+            "de": "Als Geschenk von Bill in Dukatia City erhältlich.",
+            "es": "Se recibe como regalo de Bill en Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Goldenrod City"],
+          "notes": {
+            "en": "Received as a gift from Bill in Goldenrod City.",
+            "ja": "コガネシティで マサキから もらえる。",
+            "fr": "Reçu en cadeau de Léo à Doublonville.",
+            "de": "Als Geschenk von Bill in Dukatia City erhältlich.",
+            "es": "Se recibe como regalo de Bill en Ciudad Trigal."
+          }
+        }
+      ]
+    }
+  }
+}
