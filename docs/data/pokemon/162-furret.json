@@ -1,0 +1,70 @@
+{
+  "dex": 162,
+  "slug": "furret",
+
+  "names": {
+    "en": "Furret",
+    "ja": "オオタチ",
+    "fr": "Fouinar",
+    "de": "Wiesenior",
+    "es": "Furret"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["sentret", "furret"],
+    "stage": 2,
+    "evolvesFrom": "sentret"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Sentret at Lv. 15.",
+            "ja": "オタチを レベル15で しんか。",
+            "fr": "Faites évoluer Fouinette au niveau 15.",
+            "de": "Entwickle Wiesor auf Level 15.",
+            "es": "Evoluciona a Sentret al nivel 15."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Sentret at Lv. 15.",
+            "ja": "オタチを レベル15で しんか。",
+            "fr": "Faites évoluer Fouinette au niveau 15.",
+            "de": "Entwickle Wiesor auf Level 15.",
+            "es": "Evoluciona a Sentret al nivel 15."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Sentret at Lv. 15.",
+            "ja": "オタチを レベル15で しんか。",
+            "fr": "Faites évoluer Fouinette au niveau 15.",
+            "de": "Entwickle Wiesor auf Level 15.",
+            "es": "Evoluciona a Sentret al nivel 15."
+          }
+        }
+      ]
+    }
+  }
+}
