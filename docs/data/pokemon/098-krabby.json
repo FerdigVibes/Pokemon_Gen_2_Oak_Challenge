@@ -1,0 +1,153 @@
+{
+  "dex": 98,
+  "slug": "krabby",
+
+  "names": {
+    "en": "Krabby",
+    "ja": "クラブ",
+    "fr": "Krabby",
+    "de": "Krabby",
+    "es": "Krabby"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["krabby", "kingler"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": [
+            "Route 6",
+            "Route 12",
+            "Route 13",
+            "Route 17",
+            "Route 18",
+            "Route 24",
+            "Route 25",
+            "Cerulean Gym",
+            "Vermilion City",
+            "Fuchsia City",
+            "Safari Zone"
+          ],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in multiple coastal and city locations, including the Safari Zone.",
+            "ja": "すごいつりざおで さまざまな ばしょ（サファリゾーン ふくむ）につれる。",
+            "fr": "Obtenu avec la Super Canne dans de nombreuses zones côtières et urbaines, y compris le Parc Safari.",
+            "de": "Mit der Superangel an vielen Küsten- und Stadtorten, einschließlich der Safari-Zone, zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en múltiples ubicaciones costeras y urbanas, incluida la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": [
+            "Route 6",
+            "Route 12",
+            "Route 13",
+            "Route 17",
+            "Route 18",
+            "Route 24",
+            "Route 25",
+            "Cerulean Gym",
+            "Vermilion City",
+            "Fuchsia City",
+            "Safari Zone"
+          ],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in multiple coastal and city locations, including the Safari Zone.",
+            "ja": "すごいつりざおで さまざまな ばしょ（サファリゾーン ふくむ）につれる。",
+            "fr": "Obtenu avec la Super Canne dans de nombreuses zones côtières et urbaines, y compris le Parc Safari.",
+            "de": "Mit der Superangel an vielen Küsten- und Stadtorten, einschließlich der Safari-Zone, zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en múltiples ubicaciones costeras y urbanas, incluida la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Route 10", "Route 25"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod on Routes 10 and 25.",
+            "ja": "10ばんどうろ・25ばんどうろで すごいつりざおを つかうと つれる。",
+            "fr": "Obtenu avec la Super Canne sur les Routes 10 et 25.",
+            "de": "Durch Angeln mit der Superangel auf Route 10 und Route 25 zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en las Rutas 10 y 25."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Old Rod",
+          "location": ["Cherrygrove City"],
+          "notes": {
+            "en": "Found by fishing with the Old Rod in Cherrygrove City.",
+            "ja": "ヨシノシティで いいつりざおより まえの つりざおを つかうと つれる。",
+            "fr": "Obtenu avec la Vieille Canne à Ville Griotte.",
+            "de": "Durch Angeln mit der Angel in Rosalia City zu finden.",
+            "es": "Se obtiene pescando con la Caña Vieja en Ciudad Cerezo."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Old Rod",
+          "location": ["Cherrygrove City"],
+          "notes": {
+            "en": "Found by fishing with the Old Rod in Cherrygrove City.",
+            "ja": "ヨシノシティで いいつりざおより まえの つりざおを つかうと つれる。",
+            "fr": "Obtenu avec la Vieille Canne à Ville Griotte.",
+            "de": "Durch Angeln mit der Angel in Rosalia City zu finden.",
+            "es": "Se obtiene pescando con la Caña Vieja en Ciudad Cerezo."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Old Rod",
+          "location": ["Cherrygrove City"],
+          "notes": {
+            "en": "Found by fishing with the Old Rod in Cherrygrove City.",
+            "ja": "ヨシノシティで いいつりざおより まえの つりざおを つかうと つれる。",
+            "fr": "Obtenu avec la Vieille Canne à Ville Griotte.",
+            "de": "Durch Angeln mit der Angel in Rosalia City zu finden.",
+            "es": "Se obtiene pescando con la Caña Vieja en Ciudad Cerezo."
+          }
+        }
+      ]
+    }
+  }
+}
