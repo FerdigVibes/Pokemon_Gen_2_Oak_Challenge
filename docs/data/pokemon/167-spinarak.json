@@ -1,0 +1,57 @@
+{
+  "dex": 167,
+  "slug": "spinarak",
+
+  "names": {
+    "en": "Spinarak",
+    "ja": "イトマル",
+    "fr": "Mimigal",
+    "de": "Webarak",
+    "es": "Spinarak"
+  },
+
+  "types": ["bug", "poison"],
+
+  "evolution": {
+    "family": ["spinarak", "ariados"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Routes 30 and 31 at night.",
+            "ja": "30・31ばんどうろで よるに しゅつげん。",
+            "fr": "Apparaît la nuit sur les Routes 30 et 31.",
+            "de": "Erscheint nachts auf den Routen 30 und 31.",
+            "es": "Aparece por la noche en las Rutas 30 y 31."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31", "Route 36"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Routes 30, 31, and 36 at night.",
+            "ja": "30・31・36ばんどうろで よるに しゅつげん。",
+            "fr": "Apparaît la nuit sur les Routes 30, 31 et 36.",
+            "de": "Erscheint nachts auf den Routen 30, 31 und 36.",
+            "es": "Aparece por la noche en las Rutas 30, 31 y 36."
+          }
+        }
+      ]
+    }
+  }
+}
