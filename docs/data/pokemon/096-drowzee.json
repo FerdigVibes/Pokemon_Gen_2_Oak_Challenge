@@ -1,0 +1,124 @@
+{
+  "dex": 96,
+  "slug": "drowzee",
+
+  "names": {
+    "en": "Drowzee",
+    "ja": "スリープ",
+    "fr": "Soporifik",
+    "de": "Traumato",
+    "es": "Drowzee"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["drowzee", "hypno"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 11"],
+          "notes": {
+            "en": "Found on Route 11.",
+            "ja": "11ばんどうろで出現。",
+            "fr": "Disponible sur la Route 11.",
+            "de": "Auf Route 11 zu finden.",
+            "es": "Se encuentra en la Ruta 11."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 11"],
+          "notes": {
+            "en": "Found on Route 11.",
+            "ja": "11ばんどうろで出現。",
+            "fr": "Disponible sur la Route 11.",
+            "de": "Auf Route 11 zu finden.",
+            "es": "Se encuentra en la Ruta 11."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 11"],
+          "notes": {
+            "en": "Found on Route 11.",
+            "ja": "11ばんどうろで出現。",
+            "fr": "Disponible sur la Route 11.",
+            "de": "Auf Route 11 zu finden.",
+            "es": "Se encuentra en la Ruta 11."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 34", "Route 35"],
+          "notes": {
+            "en": "Found on Routes 34 and 35.",
+            "ja": "34ばんどうろ・35ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 34 et 35.",
+            "de": "Auf den Routen 34 und 35 zu finden.",
+            "es": "Se encuentra en las Rutas 34 y 35."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 34", "Route 35"],
+          "notes": {
+            "en": "Found on Routes 34 and 35.",
+            "ja": "34ばんどうろ・35ばんどうろで出現。",
+            "fr": "Disponible sur les Routes 34 et 35.",
+            "de": "Auf den Routen 34 und 35 zu finden.",
+            "es": "Se encuentra en las Rutas 34 y 35."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 34", "Route 35"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Routes 34 and 35 at night.",
+            "ja": "34ばんどうろ・35ばんどうろで よるに出現。",
+            "fr": "Disponible sur les Routes 34 et 35 la nuit.",
+            "de": "Auf den Routen 34 und 35 nachts zu finden.",
+            "es": "Se encuentra en las Rutas 34 y 35 por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
