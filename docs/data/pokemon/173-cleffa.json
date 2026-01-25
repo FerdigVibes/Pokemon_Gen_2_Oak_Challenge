@@ -10,7 +10,7 @@
     "es": "Cleffa"
   },
 
-  "types": ["fairy"],
+  "types": ["normal"],
 
   "evolution": {
     "family": ["cleffa", "clefairy", "clefable"],
