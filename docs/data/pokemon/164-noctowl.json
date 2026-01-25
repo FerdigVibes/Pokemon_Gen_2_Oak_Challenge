@@ -1,0 +1,70 @@
+{
+  "dex": 164,
+  "slug": "noctowl",
+
+  "names": {
+    "en": "Noctowl",
+    "ja": "ヨルノズク",
+    "fr": "Noarfang",
+    "de": "Noctuh",
+    "es": "Noctowl"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["hoothoot", "noctowl"],
+    "stage": 2,
+    "evolvesFrom": "hoothoot"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Hoothoot at Lv. 20.",
+            "ja": "ホーホーを レベル20で しんか。",
+            "fr": "Faites évoluer Hoothoot au niveau 20.",
+            "de": "Entwickle Hoothoot auf Level 20.",
+            "es": "Evoluciona a Hoothoot al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Hoothoot at Lv. 20.",
+            "ja": "ホーホーを レベル20で しんか。",
+            "fr": "Faites évoluer Hoothoot au niveau 20.",
+            "de": "Entwickle Hoothoot auf Level 20.",
+            "es": "Evoluciona a Hoothoot al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Hoothoot at Lv. 20.",
+            "ja": "ホーホーを レベル20で しんか。",
+            "fr": "Faites évoluer Hoothoot au niveau 20.",
+            "de": "Entwickle Hoothoot auf Level 20.",
+            "es": "Evoluciona a Hoothoot al nivel 20."
+          }
+        }
+      ]
+    }
+  }
+}
