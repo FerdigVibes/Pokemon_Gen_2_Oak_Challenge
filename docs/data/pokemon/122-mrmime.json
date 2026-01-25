@@ -1,0 +1,127 @@
+{
+  "dex": 122,
+  "slug": "mrmime",
+
+  "names": {
+    "en": "Mr. Mime",
+    "ja": "バリヤード",
+    "fr": "M. Mime",
+    "de": "Pantimos",
+    "es": "Mr. Mime"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["mimejr", "mrmime"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Route 2"],
+          "requirements": ["Abra"],
+          "notes": {
+            "en": "Trade an Abra on Route 2 to receive Mr. Mime.",
+            "ja": "2ばんどうろで ケーシィと こうかんして バリヤードを もらう。",
+            "fr": "Échangez un Abra sur la Route 2 pour obtenir M. Mime.",
+            "de": "Tausche ein Abra auf Route 2 gegen Pantimos.",
+            "es": "Intercambia un Abra en la Ruta 2 para obtener a Mr. Mime."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Route 2"],
+          "requirements": ["Abra"],
+          "notes": {
+            "en": "Trade an Abra on Route 2 to receive Mr. Mime.",
+            "ja": "2ばんどうろで ケーシィと こうかんして バリヤードを もらう。",
+            "fr": "Échangez un Abra sur la Route 2 pour obtenir M. Mime.",
+            "de": "Tausche ein Abra auf Route 2 gegen Pantimos.",
+            "es": "Intercambia un Abra en la Ruta 2 para obtener a Mr. Mime."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Route 2"],
+          "requirements": ["Clefairy"],
+          "notes": {
+            "en": "Trade a Clefairy on Route 2 to receive Mr. Mime.",
+            "ja": "2ばんどうろで ピッピと こうかんして バリヤードを もらう。",
+            "fr": "Échangez un Mélofée sur la Route 2 pour obtenir M. Mime.",
+            "de": "Tausche ein Piepi auf Route 2 gegen Pantimos.",
+            "es": "Intercambia un Clefairy en la Ruta 2 para obtener a Mr. Mime."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 21"],
+          "notes": {
+            "en": "Found on Route 21 at a very low encounter rate.",
+            "ja": "21ばんどうろで ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 21.",
+            "de": "Sehr seltene Begegnung auf Route 21.",
+            "es": "Aparece muy raramente en la Ruta 21."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 21"],
+          "notes": {
+            "en": "Found on Route 21 at a very low encounter rate.",
+            "ja": "21ばんどうろで ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 21.",
+            "de": "Sehr seltene Begegnung auf Route 21.",
+            "es": "Aparece muy raramente en la Ruta 21."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 21"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Route 21 at a very low encounter rate during the morning and daytime.",
+            "ja": "21ばんどうろで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 21 le matin et le jour.",
+            "de": "Sehr seltene Begegnung auf Route 21 am Morgen und tagsüber.",
+            "es": "Aparece muy raramente en la Ruta 21 durante la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
