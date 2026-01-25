@@ -1,0 +1,73 @@
+{
+  "dex": 250,
+  "slug": "ho-oh",
+
+  "names": {
+    "en": "Ho-Oh",
+    "ja": "ホウオウ",
+    "fr": "Ho-Oh",
+    "de": "Ho-Oh",
+    "es": "Ho-Oh"
+  },
+
+  "types": ["fire", "flying"],
+
+  "evolution": {
+    "family": ["ho-oh"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Bell Tower 10F"],
+          "notes": {
+            "en": "Static encounter at the top of Bell Tower (10F). SAVE BEFORE INTERACTING!",
+            "ja": "スズのとう10かいで こていで しゅつげん。まえに セーブ！",
+            "fr": "Rencontre fixe au sommet de la Tour Carillon (10e étage). SAUVEGARDEZ AVANT !",
+            "de": "Statische Begegnung im Glockenturm (10. Stock). VOR DEM KAMPF SPEICHERN!",
+            "es": "Encuentro fijo en la Torre Campana (Piso 10). ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Bell Tower 10F"],
+          "notes": {
+            "en": "Static encounter at the top of Bell Tower (10F). SAVE BEFORE INTERACTING!",
+            "ja": "スズのとう10かいで こていで しゅつげん。まえに セーブ！",
+            "fr": "Rencontre fixe au sommet de la Tour Carillon (10e étage). SAUVEGARDEZ AVANT !",
+            "de": "Statische Begegnung im Glockenturm (10. Stock). VOR DEM KAMPF SPEICHERN!",
+            "es": "Encuentro fijo en la Torre Campana (Piso 10). ¡GUARDA ANTES DE INTERACTUAR!"
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "location": ["Bell Tower 10F"],
+          "requirements": ["Rainbow Wing"],
+          "notes": {
+            "en": "Static encounter at the top of Bell Tower (10F). Requires the Rainbow Wing from the man in Tin Tower in Ecruteak City. SAVE BEFORE INTERACTING!",
+            "ja": "スズのとう10かいで こていで しゅつげん。エンジュシティの すずのとうで もらえる にじいろのはねが ひつよう。まえに セーブ！",
+            "fr": "Rencontre fixe au sommet de la Tour Carillon (10e étage). Nécessite l’Aile Arc-en-ciel obtenue à Rosalia. SAUVEGARDEZ AVANT !",
+            "de": "Statische Begegnung im Glockenturm (10. Stock). Benötigt die Regenbogenfeder aus Teak City. VOR DEM KAMPF SPEICHERN!",
+            "es": "Encuentro fijo en la Torre Campana (Piso 10). Requiere el Ala Arcoíris obtenida en Ciudad Iris. ¡GUARDA ANTES!"
+          }
+        }
+      ]
+    }
+  }
+}
