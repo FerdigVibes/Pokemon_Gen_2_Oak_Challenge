@@ -1,0 +1,123 @@
+{
+  "dex": 142,
+  "slug": "aerodactyl",
+
+  "names": {
+    "en": "Aerodactyl",
+    "ja": "プテラ",
+    "fr": "Ptéra",
+    "de": "Aerodactyl",
+    "es": "Aerodactyl"
+  },
+
+  "types": ["rock", "flying"],
+
+  "evolution": {
+    "family": ["aerodactyl"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "revive",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive the Old Amber at the Cinnabar Island Lab.",
+            "ja": "グレンタウンの けんきゅうじょで ひみつのコハクを ふっかつさせる。",
+            "fr": "Ravivez l’Ambre Vieil au Laboratoire de Cramois’Île.",
+            "de": "Belebe den Altbernstein im Labor von Zinnoberinsel wieder.",
+            "es": "Revive el Ámbar Viejo en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "revive",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive the Old Amber at the Cinnabar Island Lab.",
+            "ja": "グレンタウンの けんきゅうじょで ひみつのコハクを ふっかつさせる。",
+            "fr": "Ravivez l’Ambre Vieil au Laboratoire de Cramois’Île.",
+            "de": "Belebe den Altbernstein im Labor von Zinnoberinsel wieder.",
+            "es": "Revive el Ámbar Viejo en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "revive",
+          "location": ["Cinnabar Island Lab"],
+          "notes": {
+            "en": "Revive the Old Amber at the Cinnabar Island Lab.",
+            "ja": "グレンタウンの けんきゅうじょで ひみつのコハクを ふっかつさせる。",
+            "fr": "Ravivez l’Ambre Vieil au Laboratoire de Cramois’Île.",
+            "de": "Belebe den Altbernstein im Labor von Zinnoberinsel wieder.",
+            "es": "Revive el Ámbar Viejo en el Laboratorio de Isla Canela."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Route 14"],
+          "notes": {
+            "en": "Trade for a Chansey with an NPC located east of Vermilion City on Route 14, past a tree that requires CUT.",
+            "ja": "クチバシティ ひがしの 14ばんどうろで、いあいぎりが ひつような きの さきにいる NPCに ラッキーを わたして こうかん。",
+            "fr": "Échangez un Leveinard avec un PNJ sur la Route 14, à l’est de Carmin sur Mer, après un arbre nécessitant Coupe.",
+            "de": "Tausche ein Chaneira mit einem NPC auf Route 14 östlich von Orania City hinter einem Baum, der ZERSCHNEIDER erfordert.",
+            "es": "Intercambia un Chansey con un NPC en la Ruta 14, al este de Ciudad Carmín, pasando un árbol que requiere CORTE."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Route 14"],
+          "notes": {
+            "en": "Trade for a Chansey with an NPC located east of Vermilion City on Route 14, past a tree that requires CUT.",
+            "ja": "クチバシティ ひがしの 14ばんどうろで、いあいぎりが ひつような きの さきにいる NPCに ラッキーを わたして こうかん。",
+            "fr": "Échangez un Leveinard avec un PNJ sur la Route 14, à l’est de Carmin sur Mer, après un arbre nécessitant Coupe.",
+            "de": "Tausche ein Chaneira mit einem NPC auf Route 14 östlich von Orania City hinter einem Baum, der ZERSCHNEIDER erfordert.",
+            "es": "Intercambia un Chansey con un NPC en la Ruta 14, al este de Ciudad Carmín, pasando un árbol que requiere CORTE."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Route 14"],
+          "notes": {
+            "en": "Trade for a Chansey with an NPC located east of Vermilion City on Route 14, past a tree that requires CUT.",
+            "ja": "クチバシティ ひがしの 14ばんどうろで、いあいぎりが ひつような きの さきにいる NPCに ラッキーを わたして こうかん。",
+            "fr": "Échangez un Leveinard avec un PNJ sur la Route 14, à l’est de Carmin sur Mer, après un arbre nécessitant Coupe.",
+            "de": "Tausche ein Chaneira mit einem NPC auf Route 14 östlich von Orania City hinter einem Baum, der ZERSCHNEIDER erfordert.",
+            "es": "Intercambia un Chansey con un NPC en la Ruta 14, al este de Ciudad Carmín, pasando un árbol que requiere CORTE."
+          }
+        }
+      ]
+    }
+  }
+}
