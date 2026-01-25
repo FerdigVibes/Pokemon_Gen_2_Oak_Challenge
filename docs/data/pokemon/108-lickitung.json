@@ -1,0 +1,124 @@
+{
+  "dex": 108,
+  "slug": "lickitung",
+
+  "names": {
+    "en": "Lickitung",
+    "ja": "ベロリンガ",
+    "fr": "Excelangue",
+    "de": "Schlurp",
+    "es": "Lickitung"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["lickitung", "lickilicky"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Route 18 Gatehouse"],
+          "notes": {
+            "en": "Trade for a Slowbro at the Route 18 gatehouse.",
+            "ja": "18ばんどうろの ゲートで ヤドランと こうかん。",
+            "fr": "Échangez un Flagadoss au poste de la Route 18.",
+            "de": "Tausche ein Lahmus im Torhaus von Route 18.",
+            "es": "Intercambia un Slowbro en la caseta de la Ruta 18."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "locations": ["Route 18 Gatehouse"],
+          "notes": {
+            "en": "Trade for a Slowbro at the Route 18 gatehouse.",
+            "ja": "18ばんどうろの ゲートで ヤドランと こうかん。",
+            "fr": "Échangez un Flagadoss au poste de la Route 18.",
+            "de": "Tausche ein Lahmus im Torhaus von Route 18.",
+            "es": "Intercambia un Slowbro en la caseta de la Ruta 18."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_CAVE_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cerulean Cave B1F"],
+          "notes": {
+            "en": "Found in Cerulean Cave (B1F).",
+            "ja": "ハナダのどうくつ ちか1かいに しゅつげん。",
+            "fr": "Trouvé dans la Caverne Azurée (Sous-sol).",
+            "de": "In der Azuria-Höhle (Untergeschoss) anzutreffen.",
+            "es": "Se encuentra en la Cueva Celeste (Sótano)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 44"],
+          "notes": {
+            "en": "Found on Route 44.",
+            "ja": "44ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 44.",
+            "de": "Auf Route 44 anzutreffen.",
+            "es": "Se encuentra en la Ruta 44."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 44"],
+          "notes": {
+            "en": "Found on Route 44.",
+            "ja": "44ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 44.",
+            "de": "Auf Route 44 anzutreffen.",
+            "es": "Se encuentra en la Ruta 44."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 44"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Route 44 at a rare encounter rate during the morning and daytime.",
+            "ja": "44ばんどうろで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Apparaît rarement sur la Route 44 le matin et le jour.",
+            "de": "Seltene Begegnung auf Route 44 am Morgen und tagsüber.",
+            "es": "Aparece raramente en la Ruta 44 durante la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
