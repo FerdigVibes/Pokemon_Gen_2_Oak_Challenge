@@ -115,15 +115,23 @@
    "117-seadra.json",
    "118-goldeen.json",
    "119-seaking.json",
-
-   
+   "120-staryu.json",
+   "121-starmie.json",
+   "122-mrmime.json",
+   "123-scyther.json",
    "124-jynx.json",
    "125-electabuzz.json",
    "126-magmar.json",
-   
+   "127-pinsir.json",
+   "128-tauros.json",
+   "129-magikarp.json",
+   "130-gyarados.json",
    "131-lapras.json",
    "132-ditto.json",
-   
+   "133-eevee.json",
+   "134-vaporeon.json",
+   "135-jolteon.json",
+   "136-flareon.json",
    "137-porygon.json",
    "138-omanyte.json",
    "139-omastar.json",
@@ -154,6 +162,9 @@
    
    "182-bellossom.json",
 
+   "196-espeon.json",
+   "197-umbreon.json",
+   
    "200-misdreavus.json",
    
    "215-sneasel.json",
