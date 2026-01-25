@@ -1,0 +1,83 @@
+{
+  "dex": 196,
+  "slug": "espeon",
+
+  "names": {
+    "en": "Espeon",
+    "ja": "エーフィ",
+    "fr": "Mentali",
+    "de": "Psiana",
+    "es": "Espeon"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon"
+    ],
+    "stage": 2,
+    "evolvesFrom": "eevee"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "time": ["morning", "day"],
+          "requirements": ["High friendship"],
+          "notes": {
+            "en": "Evolve Eevee with high happiness during the morning or daytime. Use the Soothe Bell found in National Park to speed up happiness gain.",
+            "ja": "なつきどが たかい イーブイを あさ・ひるに レベルアップさせる。しぜんこうえんで もらえる やすらぎのすずを つかうと よい。",
+            "fr": "Faites évoluer Évoli avec un haut niveau de bonheur le matin ou le jour. Utilisez la Clochette Soothe obtenue au Parc Naturel.",
+            "de": "Entwickle Evoli mit hoher Freundschaft am Morgen oder tagsüber. Die Sanftglocke aus dem Nationalpark beschleunigt den Prozess.",
+            "es": "Evoluciona a Eevee con alta amistad durante la mañana o el día. Usa la Campana Alivio del Parque Nacional para aumentar la amistad."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "time": ["morning", "day"],
+          "requirements": ["High friendship"],
+          "notes": {
+            "en": "Evolve Eevee with high happiness during the morning or daytime. Use the Soothe Bell found in National Park to speed up happiness gain.",
+            "ja": "なつきどが たかい イーブイを あさ・ひるに レベルアップさせる。しぜんこうえんで もらえる やすらぎのすずを つかうと よい。",
+            "fr": "Faites évoluer Évoli avec un haut niveau de bonheur le matin ou le jour. Utilisez la Clochette Soothe obtenue au Parc Naturel.",
+            "de": "Entwickle Evoli mit hoher Freundschaft am Morgen oder tagsüber. Die Sanftglocke aus dem Nationalpark beschleunigt le processus.",
+            "es": "Evoluciona a Eevee con alta amistad durante la mañana o el día. Usa la Campana Alivio del Parque Nacional para aumentar la amistad."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "time": ["morning", "day"],
+          "requirements": ["High friendship"],
+          "notes": {
+            "en": "Evolve Eevee with high happiness during the morning or daytime. Use the Soothe Bell found in National Park to speed up happiness gain.",
+            "ja": "なつきどが たかい イーブイを あさ・ひるに レベルアップさせる。しぜんこうえんで もらえる やすらぎのすずを つかうと よい。",
+            "fr": "Faites évoluer Évoli avec un haut niveau de bonheur le matin ou le jour. Utilisez la Clochette Soothe obtenue au Parc Naturel.",
+            "de": "Entwickle Evoli mit hoher Freundschaft am Morgen oder tagsüber. Die Sanftglocke aus dem Nationalpark beschleunigt den Prozess.",
+            "es": "Evoluciona a Eevee con alta amistad durante la mañana o el día. Usa la Campana Alivio del Parque Nacional para aumentar la amistad."
+          }
+        }
+      ]
+    }
+  }
+}
