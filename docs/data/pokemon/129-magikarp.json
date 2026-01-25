@@ -1,0 +1,165 @@
+{
+  "dex": 129,
+  "slug": "magikarp",
+
+  "names": {
+    "en": "Magikarp",
+    "ja": "コイキング",
+    "fr": "Magicarpe",
+    "de": "Karpador",
+    "es": "Magikarp"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["magikarp", "gyarados"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Any water"],
+          "notes": {
+            "en": "Caught anywhere there is water using the Old Rod.",
+            "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
+            "fr": "Pêché partout où il y a de l’eau avec la Vieille Canne.",
+            "de": "Mit der Angel überall dort fangbar, wo es Wasser gibt.",
+            "es": "Se captura en cualquier lugar con agua usando la Caña Vieja."
+          }
+        },
+        {
+          "method": "purchase",
+          "locations": ["Route 3 Pokémon Center"],
+          "cost": "500 Pokédollars",
+          "notes": {
+            "en": "Purchased at the Route 3 Pokémon Center for 500 Pokédollars.",
+            "ja": "3ばんどうろの ポケモンセンターで 500えんで こうにゅう。",
+            "fr": "Acheté au Centre Pokémon de la Route 3 pour 500 Pokédollars.",
+            "de": "Für 500 Pokédollar im Pokémon-Center auf Route 3 erhältlich.",
+            "es": "Se compra en el Centro Pokémon de la Ruta 3 por 500 Pokédólares."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Any water"],
+          "notes": {
+            "en": "Caught anywhere there is water using the Old Rod.",
+            "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
+            "fr": "Pêché partout où il y a de l’eau avec la Vieille Canne.",
+            "de": "Mit der Angel überall dort fangbar, wo es Wasser gibt.",
+            "es": "Se captura en cualquier lugar con agua usando la Caña Vieja."
+          }
+        },
+        {
+          "method": "purchase",
+          "locations": ["Route 3 Pokémon Center"],
+          "cost": "500 Pokédollars",
+          "notes": {
+            "en": "Purchased at the Route 3 Pokémon Center for 500 Pokédollars.",
+            "ja": "3ばんどうろの ポケモンセンターで 500えんで こうにゅう。",
+            "fr": "Acheté au Centre Pokémon de la Route 3 pour 500 Pokédollars.",
+            "de": "Für 500 Pokédollar im Pokémon-Center auf Route 3 erhältlich.",
+            "es": "Se compra en el Centro Pokémon de la Ruta 3 por 500 Pokédólares."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Any water"],
+          "notes": {
+            "en": "Caught anywhere there is water using the Old Rod.",
+            "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
+            "fr": "Pêché partout où il y a de l’eau avec la Vieille Canne.",
+            "de": "Mit der Angel überall dort fangbar, wo es Wasser gibt.",
+            "es": "Se captura en cualquier lugar con agua usando la Caña Vieja."
+          }
+        },
+        {
+          "method": "purchase",
+          "locations": ["Route 3 Pokémon Center"],
+          "cost": "500 Pokédollars",
+          "notes": {
+            "en": "Purchased at the Route 3 Pokémon Center for 500 Pokédollars.",
+            "ja": "3ばんどうろの ポケモンセンターで 500えんで こうにゅう。",
+            "fr": "Acheté au Centre Pokémon de la Route 3 pour 500 Pokédollars.",
+            "de": "Für 500 Pokédollar im Pokémon-Center auf Route 3 erhältlich.",
+            "es": "Se compra en el Centro Pokémon de la Ruta 3 por 500 Pokédólares."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Any water"],
+          "notes": {
+            "en": "Caught anywhere there is water using the Old Rod.",
+            "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
+            "fr": "Pêché partout où il y a de l’eau avec la Vieille Canne.",
+            "de": "Mit der Angel überall dort fangbar, wo es Wasser gibt.",
+            "es": "Se captura en cualquier lugar con agua usando la Caña Vieja."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Any water"],
+          "notes": {
+            "en": "Caught anywhere there is water using the Old Rod.",
+            "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
+            "fr": "Pêché partout où il y a de l’eau avec la Vieille Canne.",
+            "de": "Mit der Angel überall dort fangbar, wo es Wasser gibt.",
+            "es": "Se captura en cualquier lugar con agua usando la Caña Vieja."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Old Rod",
+          "locations": ["Any water"],
+          "notes": {
+            "en": "Caught anywhere there is water using the Old Rod.",
+            "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
+            "fr": "Pêché partout où il y a de l’eau avec la Vieille Canne.",
+            "de": "Mit der Angel überall dort fangbar, wo es Wasser gibt.",
+            "es": "Se captura en cualquier lugar con agua usando la Caña Vieja."
+          }
+        }
+      ]
+    }
+  }
+}
