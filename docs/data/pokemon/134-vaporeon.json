@@ -1,0 +1,125 @@
+{
+  "dex": 134,
+  "slug": "vaporeon",
+
+  "names": {
+    "en": "Vaporeon",
+    "ja": "シャワーズ",
+    "fr": "Aquali",
+    "de": "Aquana",
+    "es": "Vaporeon"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon"
+    ],
+    "stage": 2,
+    "evolvesFrom": "eevee"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Water Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「みずのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Eau (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Wasserstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Agua (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Water Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「みずのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Eau (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Wasserstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Agua (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Water Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「みずのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Eau (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Wasserstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Agua (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["WATER_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Water Stone. Show Bill’s Grandfather a Staryu on Route 25 for a Water Stone.",
+            "ja": "イーブイに「みずのいし」を使って進化。25ばんどうろでマサキの おじいさんにヒトデマンを見せると、みずのいしがもらえる。",
+            "fr": "Faites évoluer Évoli avec une Pierre Eau. Montrez un Stari à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Eau.",
+            "de": "Entwickle Evoli mit einem Wasserstein. Zeige Bills Großvater ein Sterndu auf Route 25, um einen Wasserstein zu erhalten.",
+            "es": "Evoluciona a Eevee con una Piedra Agua. Muestra un Staryu al abuelo de Bill en la Ruta 25 para conseguir una Piedra Agua."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["WATER_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Water Stone. Show Bill’s Grandfather a Staryu on Route 25 for a Water Stone.",
+            "ja": "イーブイに「みずのいし」を使って進化。25ばんどうろでマサキの おじいさんにヒトデマンを見せると、みずのいしがもらえる。",
+            "fr": "Faites évoluer Évoli avec une Pierre Eau. Montrez un Stari à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Eau.",
+            "de": "Entwickle Evoli mit einem Wasserstein. Zeige Bills Großvater ein Sterndu auf Route 25, um einen Wasserstein zu erhalten.",
+            "es": "Evoluciona a Eevee con una Piedra Agua. Muestra un Staryu al abuelo de Bill en la Ruta 25 para conseguir una Piedra Agua."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Water Stone. Receive the Water Stone from Fisherman Tully on Route 42 when he calls you (item varies).",
+            "ja": "イーブイに「みずのいし」を使って進化。42ばんどうろのつりびと・タケシから電話でもらえる（アイテムはランダム）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Eau. Recevez la Pierre Eau du Pêcheur Tully sur la Route 42 après son appel (objet variable).",
+            "de": "Entwickle Evoli mit einem Wasserstein. Erhalte den Wasserstein von Angler Tully auf Route 42 nach einem Anruf (Item variiert).",
+            "es": "Evoluciona a Eevee con una Piedra Agua. Recibe la Piedra Agua del Pescador Tully en la Ruta 42 cuando te llame (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
