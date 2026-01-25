@@ -1,0 +1,123 @@
+{
+  "dex": 95,
+  "slug": "onix",
+
+  "names": {
+    "en": "Onix",
+    "ja": "イワーク",
+    "fr": "Onix",
+    "de": "Onix",
+    "es": "Onix"
+  },
+
+  "types": ["rock", "ground"],
+
+  "evolution": {
+    "family": ["onix", "steelix"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Rock Tunnel"],
+          "notes": {
+            "en": "Found in Rock Tunnel.",
+            "ja": "いわやまで出現。",
+            "fr": "Disponible dans le Tunnel Rocheux.",
+            "de": "Im Felstunnel zu finden.",
+            "es": "Se encuentra en el Túnel Roca."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Rock Tunnel"],
+          "notes": {
+            "en": "Found in Rock Tunnel.",
+            "ja": "いわやまで出現。",
+            "fr": "Disponible dans le Tunnel Rocheux.",
+            "de": "Im Felstunnel zu finden.",
+            "es": "Se encuentra en el Túnel Roca."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Rock Tunnel"],
+          "notes": {
+            "en": "Found in Rock Tunnel.",
+            "ja": "いわやまで出現。",
+            "fr": "Disponible dans le Tunnel Rocheux.",
+            "de": "Im Felstunnel zu finden.",
+            "es": "Se encuentra en el Túnel Roca."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Violet City"],
+          "notes": {
+            "en": "Trade for a Bellsprout in Violet City in the first house on the left near the Pokémon Center.",
+            "ja": "キキョウシティの ポケモンセンターちかく ひだりの いえで マダツボミと交換。",
+            "fr": "Échangez un Chétiflor à Mauville dans la première maison à gauche près du Centre Pokémon.",
+            "de": "Tausche ein Knofensa in Viola City im ersten Haus links neben dem Pokémon-Center.",
+            "es": "Intercambia un Bellsprout en Ciudad Malva en la primera casa a la izquierda cerca del Centro Pokémon."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Violet City"],
+          "notes": {
+            "en": "Trade for a Bellsprout in Violet City in the first house on the left near the Pokémon Center.",
+            "ja": "キキョウシティの ポケモンセンターちかく ひだりの いえで マダツボミと交換。",
+            "fr": "Échangez un Chétiflor à Mauville dans la première maison à gauche près du Centre Pokémon.",
+            "de": "Tausche ein Knofensa in Viola City im ersten Haus links neben dem Pokémon-Center.",
+            "es": "Intercambia un Bellsprout en Ciudad Malva en la primera casa a la izquierda cerca del Centro Pokémon."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Violet City"],
+          "notes": {
+            "en": "Trade for a Bellsprout in Violet City in the first house on the left near the Pokémon Center.",
+            "ja": "キキョウシティの ポケモンセンターちかく ひだりの いえで マダツボミと交換。",
+            "fr": "Échangez un Chétiflor à Mauville dans la première maison à gauche près du Centre Pokémon.",
+            "de": "Tausche ein Knofensa in Viola City im ersten Haus links neben dem Pokémon-Center.",
+            "es": "Intercambia un Bellsprout en Ciudad Malva en la primera casa a la izquierda cerca del Centro Pokémon."
+          }
+        }
+      ]
+    }
+  }
+}
