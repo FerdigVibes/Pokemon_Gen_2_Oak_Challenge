@@ -1,0 +1,121 @@
+{
+  "dex": 107,
+  "slug": "hitmonchan",
+
+  "names": {
+    "en": "Hitmonchan",
+    "ja": "エビワラー",
+    "fr": "Tygnon",
+    "de": "Nockchan",
+    "es": "Hitmonchan"
+  },
+
+  "types": ["fighting"],
+
+  "evolution": {
+    "family": ["tyrogue", "hitmonlee", "hitmonchan", "hitmontop"],
+    "stage": 2,
+    "evolvesFrom": "tyrogue"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["HITMON_PRIZE"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Saffron City Fighting Dojo"],
+          "notes": {
+            "en": "Prize Pokémon for defeating the Fighting Dojo Master in Saffron City.",
+            "ja": "セキチクシティの かくとうどうじょうで ししょうに かつと もらえる。",
+            "fr": "Pokémon offert après avoir vaincu le Maître du Dojo de Safrania.",
+            "de": "Preis-Pokémon nach dem Sieg über den Dojo-Meister in Saffronia.",
+            "es": "Pokémon premio por derrotar al Maestro del Dojo Lucha en Ciudad Azafrán."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["HITMON_PRIZE"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Saffron City Fighting Dojo"],
+          "notes": {
+            "en": "Prize Pokémon for defeating the Fighting Dojo Master in Saffron City.",
+            "ja": "セキチクシティの かくとうどうじょうで ししょうに かつと もらえる。",
+            "fr": "Pokémon offert après avoir vaincu le Maître du Dojo de Safrania.",
+            "de": "Preis-Pokémon nach dem Sieg über den Dojo-Meister in Saffronia.",
+            "es": "Pokémon premio por derrotar al Maestro del Dojo Lucha en Ciudad Azafrán."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["HITMON_PRIZE"],
+      "obtain": [
+        {
+          "method": "gift",
+          "locations": ["Saffron City Fighting Dojo"],
+          "notes": {
+            "en": "Prize Pokémon for defeating the Fighting Dojo Master in Saffron City.",
+            "ja": "セキチクシティの かくとうどうじょうで ししょうに かつと もらえる。",
+            "fr": "Pokémon offert après avoir vaincu le Maître du Dojo de Safrania.",
+            "de": "Preis-Pokémon nach dem Sieg über den Dojo-Meister in Saffronia.",
+            "es": "Pokémon premio por derrotar al Maestro del Dojo Lucha en Ciudad Azafrán."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tyrogue at Lv. 20 with its Defense stat higher than its Attack stat.",
+            "ja": "バルキーを レベル20で ぼうぎょが こうげきより たかいと しんか。",
+            "fr": "Faites évoluer Debugant au niveau 20 si sa Défense est supérieure à son Attaque.",
+            "de": "Entwickle Rabauz auf Level 20, wenn seine Verteidigung höher als sein Angriff ist.",
+            "es": "Evoluciona a Tyrogue al nivel 20 si su Defensa es mayor que su Ataque."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tyrogue at Lv. 20 with its Defense stat higher than its Attack stat.",
+            "ja": "バルキーを レベル20で ぼうぎょが こうげきより たかいと しんか。",
+            "fr": "Faites évoluer Debugant au niveau 20 si sa Défense est supérieure à son Attaque.",
+            "de": "Entwickle Rabauz auf Level 20, wenn seine Verteidigung höher als sein Angriff ist.",
+            "es": "Evoluciona a Tyrogue al nivel 20 si su Defensa es mayor que su Ataque."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tyrogue at Lv. 20 with its Defense stat higher than its Attack stat.",
+            "ja": "バルキーを レベル20で ぼうぎょが こうげきより たかいと しんか。",
+            "fr": "Faites évoluer Debugant au niveau 20 si sa Défense est supérieure à son Attaque.",
+            "de": "Entwickle Rabauz auf Level 20, wenn seine Verteidigung höher als sein Angriff ist.",
+            "es": "Evoluciona a Tyrogue al nivel 20 si su Defensa es mayor que su Ataque."
+          }
+        }
+      ]
+    }
+  }
+}
