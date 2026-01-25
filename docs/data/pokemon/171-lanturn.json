@@ -1,0 +1,70 @@
+{
+  "dex": 171,
+  "slug": "lanturn",
+
+  "names": {
+    "en": "Lanturn",
+    "ja": "ランターン",
+    "fr": "Lanturn",
+    "de": "Lanturn",
+    "es": "Lanturn"
+  },
+
+  "types": ["water", "electric"],
+
+  "evolution": {
+    "family": ["chinchou", "lanturn"],
+    "stage": 2,
+    "evolvesFrom": "chinchou"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chinchou at Lv. 27.",
+            "ja": "チョンチーを レベル27で しんか。",
+            "fr": "Faites évoluer Loupio au niveau 27.",
+            "de": "Entwickle Lampi auf Level 27.",
+            "es": "Evoluciona a Chinchou al nivel 27."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chinchou at Lv. 27.",
+            "ja": "チョンチーを レベル27で しんか。",
+            "fr": "Faites évoluer Loupio au niveau 27.",
+            "de": "Entwickle Lampi auf Level 27.",
+            "es": "Evoluciona a Chinchou al nivel 27."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chinchou at Lv. 27.",
+            "ja": "チョンチーを レベル27で しんか。",
+            "fr": "Faites évoluer Loupio au niveau 27.",
+            "de": "Entwickle Lampi auf Level 27.",
+            "es": "Evoluciona a Chinchou al nivel 27."
+          }
+        }
+      ]
+    }
+  }
+}
