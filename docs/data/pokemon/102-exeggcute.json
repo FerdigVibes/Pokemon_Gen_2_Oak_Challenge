@@ -1,0 +1,123 @@
+{
+  "dex": 102,
+  "slug": "exeggcute",
+
+  "names": {
+    "en": "Exeggcute",
+    "ja": "タマタマ",
+    "fr": "Noeunoeuf",
+    "de": "Owei",
+    "es": "Exeggcute"
+  },
+
+  "types": ["grass", "psychic"],
+
+  "evolution": {
+    "family": ["exeggcute", "exeggutor"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone"],
+          "notes": {
+            "en": "Found in the Safari Zone.",
+            "ja": "サファリゾーンに しゅつげん。",
+            "fr": "Trouvé dans le Parc Safari.",
+            "de": "Im Safarizone anzutreffen.",
+            "es": "Se encuentra en la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone"],
+          "notes": {
+            "en": "Found in the Safari Zone.",
+            "ja": "サファリゾーンに しゅつげん。",
+            "fr": "Trouvé dans le Parc Safari.",
+            "de": "Im Safarizone anzutreffen.",
+            "es": "Se encuentra en la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone"],
+          "notes": {
+            "en": "Found in the Safari Zone.",
+            "ja": "サファリゾーンに しゅつげん。",
+            "fr": "Trouvé dans le Parc Safari.",
+            "de": "Im Safarizone anzutreffen.",
+            "es": "Se encuentra en la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 36", "Ilex Forest", "Azalea Town"],
+          "notes": {
+            "en": "Headbutt trees on Route 36, in Ilex Forest, or in Azalea Town.",
+            "ja": "36ばんどうろ、ウバメのもり、ヒワダタウンで きを ゆすって そうぐう。",
+            "fr": "Frappez les arbres sur la Route 36, dans le Bois aux Chênes ou à Écorcia.",
+            "de": "Schüttle Bäume auf Route 36, im Steineichenwald oder in Azalea City.",
+            "es": "Golpea árboles en la Ruta 36, el Encinar o Pueblo Azalea."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 36", "Ilex Forest", "Azalea Town"],
+          "notes": {
+            "en": "Headbutt trees on Route 36, in Ilex Forest, or in Azalea Town.",
+            "ja": "36ばんどうろ、ウバメのもり、ヒワダタウンで きを ゆすって そうぐう。",
+            "fr": "Frappez les arbres sur la Route 36, dans le Bois aux Chênes ou à Écorcia.",
+            "de": "Schüttle Bäume auf Route 36, im Steineichenwald oder in Azalea City.",
+            "es": "Golpea árboles en la Ruta 36, el Encinar o Pueblo Azalea."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_TOWN"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 29", "Route 30", "Route 31", "Route 32", "Route 36"],
+          "notes": {
+            "en": "Headbutt trees on Routes 29, 30, 31, 32, and 36.",
+            "ja": "29・30・31・32・36ばんどうろで きを ゆすって そうぐう。",
+            "fr": "Frappez les arbres sur les Routes 29, 30, 31, 32 et 36.",
+            "de": "Schüttle Bäume auf den Routen 29, 30, 31, 32 und 36.",
+            "es": "Golpea árboles en las Rutas 29, 30, 31, 32 y 36."
+          }
+        }
+      ]
+    }
+  }
+}
