@@ -1,0 +1,130 @@
+{
+  "dex": 119,
+  "slug": "seaking",
+
+  "names": {
+    "en": "Seaking",
+    "ja": "アズマオウ",
+    "fr": "Poissoroy",
+    "de": "Golking",
+    "es": "Seaking"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["goldeen", "seaking"],
+    "stage": 2,
+    "evolvesFrom": "goldeen"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Goldeen at Lv. 33.",
+            "ja": "トサキントを レベル33で しんか。",
+            "fr": "Faites évoluer Poissirène au niveau 33.",
+            "de": "Entwickle Goldini auf Level 33.",
+            "es": "Evoluciona a Goldeen al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Goldeen at Lv. 33.",
+            "ja": "トサキントを レベル33で しんか。",
+            "fr": "Faites évoluer Poissirène au niveau 33.",
+            "de": "Entwickle Goldini auf Level 33.",
+            "es": "Evoluciona a Goldeen al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Goldeen at Lv. 33.",
+            "ja": "トサキントを レベル33で しんか。",
+            "fr": "Faites évoluer Poissirène au niveau 33.",
+            "de": "Entwickle Goldini auf Level 33.",
+            "es": "Evoluciona a Goldeen al nivel 33."
+          }
+        },
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Cerulean Gym", "Route 24"],
+          "notes": {
+            "en": "Caught using a Super Rod in the Cerulean Gym and on Route 24 at a very low encounter rate.",
+            "ja": "ハナダジムと 24ばんどうろで すごいつりざおを つかうと ごくまれに つれる。",
+            "fr": "Pêché avec la Super Canne à l’Arène d’Azuria et sur la Route 24 à un taux très faible.",
+            "de": "Sehr selten mit der Superangel in der Azuria-Arena und auf Route 24 fangbar.",
+            "es": "Se captura con la Supercaña en el Gimnasio Celeste y en la Ruta 24 a una tasa muy baja."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Goldeen at Lv. 33.",
+            "ja": "トサキントを レベル33で しんか。",
+            "fr": "Faites évoluer Poissirène au niveau 33.",
+            "de": "Entwickle Goldini auf Level 33.",
+            "es": "Evoluciona a Goldeen al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Goldeen at Lv. 33.",
+            "ja": "トサキントを レベル33で しんか。",
+            "fr": "Faites évoluer Poissirène au niveau 33.",
+            "de": "Entwickle Goldini auf Level 33.",
+            "es": "Evoluciona a Goldeen al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Goldeen at Lv. 33.",
+            "ja": "トサキントを レベル33で しんか。",
+            "fr": "Faites évoluer Poissirène au niveau 33.",
+            "de": "Entwickle Goldini auf Level 33.",
+            "es": "Evoluciona a Goldeen al nivel 33."
+          }
+        }
+      ]
+    }
+  }
+}
