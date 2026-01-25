@@ -1,0 +1,123 @@
+{
+  "dex": 132,
+  "slug": "ditto",
+
+  "names": {
+    "en": "Ditto",
+    "ja": "メタモン",
+    "fr": "Métamorph",
+    "de": "Ditto",
+    "es": "Ditto"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["ditto"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 13", "Route 14", "Route 15"],
+          "notes": {
+            "en": "Found on Routes 13, 14, and 15.",
+            "ja": "13・14・15ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur les Routes 13, 14 et 15.",
+            "de": "Auf den Routen 13, 14 und 15 anzutreffen.",
+            "es": "Se encuentra en las Rutas 13, 14 y 15."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 13", "Route 14", "Route 15"],
+          "notes": {
+            "en": "Found on Routes 13, 14, and 15.",
+            "ja": "13・14・15ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur les Routes 13, 14 et 15.",
+            "de": "Auf den Routen 13, 14 und 15 anzutreffen.",
+            "es": "Se encuentra en las Rutas 13, 14 y 15."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokémon Mansion B1F"],
+          "notes": {
+            "en": "Found in the Pokémon Mansion on Cinnabar Island (B1F).",
+            "ja": "グレンタウンの ポケモンやしき ちか1かいに しゅつげん。",
+            "fr": "Trouvé au Manoir Pokémon de Cramois’Île (Sous-sol).",
+            "de": "Im Pokémon-Herrenhaus auf der Zinnoberinsel (Untergeschoss) anzutreffen.",
+            "es": "Se encuentra en la Mansión Pokémon de Isla Canela (Sótano)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 34", "Route 35"],
+          "notes": {
+            "en": "Found on Routes 34 and 35 at a low encounter rate.",
+            "ja": "34・35ばんどうろで ひくい そうぐうりつで しゅつげん。",
+            "fr": "Trouvé sur les Routes 34 et 35 à un faible taux d’apparition.",
+            "de": "Seltene Begegnung auf Route 34 und 35.",
+            "es": "Aparece en las Rutas 34 y 35 con baja probabilidad."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 34", "Route 35"],
+          "notes": {
+            "en": "Found on Routes 34 and 35 at a low encounter rate.",
+            "ja": "34・35ばんどうろで ひくい そうぐうりつで しゅつげん。",
+            "fr": "Trouvé sur les Routes 34 et 35 à un faible taux d’apparition.",
+            "de": "Seltene Begegnung auf Route 34 und 35.",
+            "es": "Aparece en las Rutas 34 y 35 con baja probabilidad."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 34", "Route 35"],
+          "notes": {
+            "en": "Found on Routes 34 and 35 at a low encounter rate.",
+            "ja": "34・35ばんどうろで ひくい そうぐうりつで しゅつげん。",
+            "fr": "Trouvé sur les Routes 34 et 35 à un faible taux d’apparition.",
+            "de": "Seltene Begegnung auf Route 34 und 35.",
+            "es": "Aparece en las Rutas 34 y 35 con baja probabilidad."
+          }
+        }
+      ]
+    }
+  }
+}
