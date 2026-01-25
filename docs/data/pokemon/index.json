@@ -97,11 +97,23 @@
    "099-kingler.json",
    "100-voltorb.json",
    "101-electrode.json",
+   "102-exeggcute.json",
+   "103-exeggutor.json",
+   "104-cubone.json",
+   "105-marowak.json",
+   "106-hitmonlee.json",
+   "107-hitmonchan.json",
+   "108-lickitung.json",
    
    "113-chansey.json",
+   "124-jynx.json",
+   "125-electabuzz.json",
+   "126-magmar.json",
    
    "131-lapras.json",
+   "132-ditto.json",
    
+   "137-porygon.json",
    "138-omanyte.json",
    "139-omastar.json",
    "140-kabuto.json",
@@ -130,9 +142,17 @@
    "174-igglybuff.json",
    
    "182-bellossom.json",
+
+   "200-misdreavus.json",
    
    "215-sneasel.json",
-   
+
+   "236-tyrogue.json",
+   "237-hitmontop.json",
+   "238-smoochum.json",
+   "239-elekid.json",
+   "240-magby.json",
+   "241-miltank.json",
    "242-blissey.json",
    "243-raikou.json",
    "244-entei.json",
