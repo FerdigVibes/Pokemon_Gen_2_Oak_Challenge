@@ -1,0 +1,73 @@
+{
+  "dex": 176,
+  "slug": "togetic",
+
+  "names": {
+    "en": "Togetic",
+    "ja": "トゲチック",
+    "fr": "Togetic",
+    "de": "Togetic",
+    "es": "Togetic"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["togepi", "togetic", "togekiss"],
+    "stage": 2,
+    "evolvesFrom": "togepi"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "requirements": ["High friendship"],
+          "notes": {
+            "en": "Evolve Togepi with high happiness.",
+            "ja": "なつきどが たかい トゲピーを レベルアップさせて しんか。",
+            "fr": "Faites évoluer Togepi avec un haut niveau de bonheur.",
+            "de": "Entwickle Togepi mit hoher Freundschaft.",
+            "es": "Evoluciona a Togepi con alta amistad."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "requirements": ["High friendship"],
+          "notes": {
+            "en": "Evolve Togepi with high happiness.",
+            "ja": "なつきどが たかい トゲピーを レベルアップさせて しんか。",
+            "fr": "Faites évoluer Togepi avec un haut niveau de bonheur.",
+            "de": "Entwickle Togepi mit hoher Freundschaft.",
+            "es": "Evoluciona a Togepi con alta amistad."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "requirements": ["High friendship"],
+          "notes": {
+            "en": "Evolve Togepi with high happiness.",
+            "ja": "なつきどが たかい トゲピーを レベルアップさせて しんか。",
+            "fr": "Faites évoluer Togepi avec un haut niveau de bonheur.",
+            "de": "Entwickle Togepi mit hoher Freundschaft.",
+            "es": "Evoluciona a Togepi con alta amistad."
+          }
+        }
+      ]
+    }
+  }
+}
