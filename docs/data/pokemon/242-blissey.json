@@ -1,1 +1,72 @@
+{
+  "dex": 242,
+  "slug": "blissey",
+
+  "names": {
+    "en": "Blissey",
+    "ja": "ハピナス",
+    "fr": "Leuphorie",
+    "de": "Heiteira",
+    "es": "Blissey"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["chansey", "blissey"],
+    "stage": 2,
+    "evolvesFrom": "chansey",
+    "method": "happiness"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chansey with high happiness.",
+            "ja": "なつきどが たかい ラッキーを レベルアップで しんか。",
+            "fr": "Faites évoluer Leveinard avec un haut niveau de bonheur.",
+            "de": "Entwickle Chaneira mit hoher Freundschaft.",
+            "es": "Evoluciona a Chansey con alta felicidad."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chansey with high happiness.",
+            "ja": "なつきどが たかい ラッキーを レベルアップで しんか。",
+            "fr": "Faites évoluer Leveinard avec un haut niveau de bonheur.",
+            "de": "Entwickle Chaneira mit hoher Freundschaft.",
+            "es": "Evoluciona a Chansey con alta felicidad."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Chansey with high happiness.",
+            "ja": "なつきどが たかい ラッキーを レベルアップで しんか。",
+            "fr": "Faites évoluer Leveinard avec un haut niveau de bonheur.",
+            "de": "Entwickle Chaneira mit hoher Freundschaft.",
+            "es": "Evoluciona a Chansey con alta felicidad."
+          }
+        }
+      ]
+    }
+  }
+}
 
