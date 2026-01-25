@@ -1,0 +1,123 @@
+{
+  "dex": 104,
+  "slug": "cubone",
+
+  "names": {
+    "en": "Cubone",
+    "ja": "カラカラ",
+    "fr": "Osselait",
+    "de": "Tragosso",
+    "es": "Cubone"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["cubone", "marowak"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokemon Tower"],
+          "notes": {
+            "en": "Found in Pokémon Tower.",
+            "ja": "ポケモンタワーに しゅつげん。",
+            "fr": "Trouvé à la Tour Pokémon.",
+            "de": "Im Pokémon-Turm anzutreffen.",
+            "es": "Se encuentra en la Torre Pokémon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokemon Tower"],
+          "notes": {
+            "en": "Found in Pokémon Tower.",
+            "ja": "ポケモンタワーに しゅつげん。",
+            "fr": "Trouvé à la Tour Pokémon.",
+            "de": "Im Pokémon-Turm anzutreffen.",
+            "es": "Se encuentra en la Torre Pokémon."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Pokemon Tower", "Safari Zone Area 2", "Safari Zone Area 3", "Safari Zone Area 4"],
+          "notes": {
+            "en": "Found in Pokémon Tower and in Safari Zone Areas 2, 3, and 4.",
+            "ja": "ポケモンタワーおよび サファリゾーン2・3・4に しゅつげん。",
+            "fr": "Trouvé à la Tour Pokémon et dans les Zones 2, 3 et 4 du Parc Safari.",
+            "de": "Im Pokémon-Turm sowie in der Safarizone (Bereiche 2, 3 und 4) anzutreffen.",
+            "es": "Se encuentra en la Torre Pokémon y en las Zonas 2, 3 y 4 de la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Rock Tunnel 1F", "Rock Tunnel B1F"],
+          "notes": {
+            "en": "Found in Rock Tunnel (1F and B1F).",
+            "ja": "イワヤマトンネル1かい・ちか1かいに しゅつげん。",
+            "fr": "Trouvé dans le Tunnel Rocheux (1F et Sous-sol).",
+            "de": "Im Felstunnel (1. Stock und Untergeschoss) anzutreffen.",
+            "es": "Se encuentra en el Túnel Roca (1F y Sótano)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Rock Tunnel 1F", "Rock Tunnel B1F"],
+          "notes": {
+            "en": "Found in Rock Tunnel (1F and B1F).",
+            "ja": "イワヤマトンネル1かい・ちか1かいに しゅつげん。",
+            "fr": "Trouvé dans le Tunnel Rocheux (1F et Sous-sol).",
+            "de": "Im Felstunnel (1. Stock und Untergeschoss) anzutreffen.",
+            "es": "Se encuentra en el Túnel Roca (1F y Sótano)."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Goldenrod Game Corner"],
+          "notes": {
+            "en": "Purchase for 800 coins at the Goldenrod Game Corner.",
+            "ja": "コガネゲームコーナーで 800コインで こうかん。",
+            "fr": "Achetable pour 800 jetons au Casino de Doublonville.",
+            "de": "Für 800 Münzen im Dukatia-Spielcasino erhältlich.",
+            "es": "Se compra por 800 fichas en el Casino de Ciudad Trigal."
+          }
+        }
+      ]
+    }
+  }
+}
