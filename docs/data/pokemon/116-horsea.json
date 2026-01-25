@@ -1,0 +1,162 @@
+{
+  "dex": 116,
+  "slug": "horsea",
+
+  "names": {
+    "en": "Horsea",
+    "ja": "タッツー",
+    "fr": "Hypotrempe",
+    "de": "Seepferd",
+    "es": "Horsea"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["horsea", "seadra", "kingdra"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Route 19"],
+          "notes": {
+            "en": "Caught using a Super Rod on Route 19.",
+            "ja": "19ばんどうろで すごいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne sur la Route 19.",
+            "de": "Mit der Superangel auf Route 19 fangbar.",
+            "es": "Se captura usando la Supercaña en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Route 19"],
+          "notes": {
+            "en": "Caught using a Super Rod on Route 19.",
+            "ja": "19ばんどうろで すごいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne sur la Route 19.",
+            "de": "Mit der Superangel auf Route 19 fangbar.",
+            "es": "Se captura usando la Supercaña en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Vermilion City", "Route 10", "Route 12", "Route 13"],
+          "notes": {
+            "en": "Caught using a Super Rod in Vermilion City and on Routes 10, 12, and 13.",
+            "ja": "クチバシティや 10・12・13ばんどうろで すごいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne à Carmin-sur-Mer et sur les Routes 10, 12 et 13.",
+            "de": "Mit der Superangel in Orania City sowie auf Route 10, 12 und 13 fangbar.",
+            "es": "Se captura con la Supercaña en Ciudad Carmín y en las Rutas 10, 12 y 13."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "locations": ["Whirl Islands 1F"],
+          "notes": {
+            "en": "Found while surfing in Whirl Islands (1F).",
+            "ja": "うずまきじまで なみのりを つかうと しゅつげん。",
+            "fr": "Trouvé en surfant dans les Tourb’Îles (1er étage).",
+            "de": "Beim Surfen auf den Strudelinseln (1. Stock) anzutreffen.",
+            "es": "Se encuentra al usar Surf en las Islas Remolino (Piso 1)."
+          }
+        },
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Whirl Islands"],
+          "notes": {
+            "en": "Caught using a Good Rod in the Whirl Islands.",
+            "ja": "うずまきじまで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne sur les Tourb’Îles.",
+            "de": "Mit der Profiangel auf den Strudelinseln fangbar.",
+            "es": "Se captura usando la Caña Buena en las Islas Remolino."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "locations": ["Whirl Islands 1F"],
+          "notes": {
+            "en": "Found while surfing in Whirl Islands (1F).",
+            "ja": "うずまきじまで なみのりを つかうと しゅつげん。",
+            "fr": "Trouvé en surfant dans les Tourb’Îles (1er étage).",
+            "de": "Beim Surfen auf den Strudelinseln (1. Stock) anzutreffen.",
+            "es": "Se encuentra al usar Surf en las Islas Remolino (Piso 1)."
+          }
+        },
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Whirl Islands"],
+          "notes": {
+            "en": "Caught using a Good Rod in the Whirl Islands.",
+            "ja": "うずまきじまで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne sur les Tourb’Îles.",
+            "de": "Mit der Profiangel auf den Strudelinseln fangbar.",
+            "es": "Se captura usando la Caña Buena en las Islas Remolino."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["CIANWOOD_OLIVINE_POKEMON"],
+      "obtain": [
+        {
+          "method": "surf",
+          "locations": ["Whirl Islands 1F"],
+          "notes": {
+            "en": "Found while surfing in Whirl Islands (1F).",
+            "ja": "うずまきじまで なみのりを つかうと しゅつげん。",
+            "fr": "Trouvé en surfant dans les Tourb’Îles (1er étage).",
+            "de": "Beim Surfen auf den Strudelinseln (1. Stock) anzutreffen.",
+            "es": "Se encuentra al usar Surf en las Islas Remolino (Piso 1)."
+          }
+        },
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Whirl Islands"],
+          "notes": {
+            "en": "Caught using a Good Rod in the Whirl Islands.",
+            "ja": "うずまきじまで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne sur les Tourb’Îles.",
+            "de": "Mit der Profiangel auf den Strudelinseln fangbar.",
+            "es": "Se captura usando la Caña Buena en las Islas Remolino."
+          }
+        }
+      ]
+    }
+  }
+}
