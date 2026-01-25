@@ -97,8 +97,11 @@
    "099-kingler.json",
    "100-voltorb.json",
    "101-electrode.json",
+   
    "113-chansey.json",
+   
    "131-lapras.json",
+   
    "138-omanyte.json",
    "139-omastar.json",
    "140-kabuto.json",
@@ -121,11 +124,20 @@
    "158-totodile.json",
    "159-croconaw.json",
    "160-feraligatr.json",
+   
    "169-crobat.json",
+   
    "174-igglybuff.json",
+   
    "182-bellossom.json",
+   
    "215-sneasel.json",
+   
    "242-blissey.json",
+   "243-raikou.json",
+   "244-entei.json",
+   "245-suicune.json",
+   
    "249-lugia.json",
    "250-ho-oh.json",
    "251-celebi.json"
