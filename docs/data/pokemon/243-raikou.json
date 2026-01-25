@@ -1,19 +1,19 @@
 {
-  "dex": 244,
-  "slug": "entei",
+  "dex": 243,
+  "slug": "raikou",
 
   "names": {
-    "en": "Entei",
-    "ja": "エンテイ",
-    "fr": "Entei",
-    "de": "Entei",
-    "es": "Entei"
+    "en": "Raikou",
+    "ja": "ライコウ",
+    "fr": "Raikou",
+    "de": "Raikou",
+    "es": "Raikou"
   },
 
-  "types": ["fire"],
+  "types": ["electric"],
 
   "evolution": {
-    "family": ["entei"],
+    "family": ["raikou"],
     "stage": 1
   },
 
@@ -25,7 +25,7 @@
           "method": "roaming",
           "location": ["Johto (random grass encounters)"],
           "notes": {
-            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Entei will begin roaming after first being encountered. Track its location using the Pokédex. Use Mean Look if possible to prevent it from fleeing.",
+            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Raikou begins roaming after first being encountered. Track its location using the Pokédex. Use Mean Look if possible to prevent it from fleeing.",
             "ja": "ジョウトちほうを ほうろうする ポケモン。くさむらで ランダムに そうぐう。いちど あうと ポケデックスで いちが かくにんできる。にげられないように「くろいまなざし」を つかうと よい。",
             "fr": "Pokémon errant rencontré aléatoirement dans les hautes herbes de Johto. Une fois rencontré, sa position peut être suivie via le Pokédex. Utilisez Regard Noir pour l’empêcher de fuir.",
             "de": "Ein wanderndes Pokémon, das zufällig im hohen Gras in Johto erscheint. Nach der ersten Begegnung kann sein Standort im Pokédex verfolgt werden. Setze Finsterblick ein, um die Flucht zu verhindern.",
@@ -42,7 +42,7 @@
           "method": "roaming",
           "location": ["Johto (random grass encounters)"],
           "notes": {
-            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Entei will begin roaming after first being encountered. Track its location using the Pokédex. Use Mean Look if possible to prevent it from fleeing.",
+            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Raikou begins roaming after first being encountered. Track its location using the Pokédex. Use Mean Look if possible to prevent it from fleeing.",
             "ja": "ジョウトちほうを ほうろうする ポケモン。くさむらで ランダムに そうぐう。いちど あうと ポケデックスで いちが かくにんできる。にげられないように「くろいまなざし」を つかうと よい。",
             "fr": "Pokémon errant rencontré aléatoirement dans les hautes herbes de Johto. Une fois rencontré, sa position peut être suivie via le Pokédex. Utilisez Regard Noir pour l’empêcher de fuir.",
             "de": "Ein wanderndes Pokémon, das zufällig im hohen Gras in Johto erscheint. Nach der ersten Begegnung kann sein Standort im Pokédex verfolgt werden. Setze Finsterblick ein, um die Flucht zu verhindern.",
@@ -59,7 +59,7 @@
           "method": "roaming",
           "location": ["Johto (random grass encounters)"],
           "notes": {
-            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Entei will begin roaming after first being encountered. Track its location using the Pokédex. Use Mean Look if possible to prevent it from fleeing.",
+            "en": "Roaming Pokémon encountered randomly in grass throughout Johto. Raikou begins roaming after first being encountered. Track its location using the Pokédex. Use Mean Look if possible to prevent it from fleeing.",
             "ja": "ジョウトちほうを ほうろうする ポケモン。くさむらで ランダムに そうぐう。いちど あうと ポケデックスで いちが かくにんできる。にげられないように「くろいまなざし」を つかうと よい。",
             "fr": "Pokémon errant rencontré aléatoirement dans les hautes herbes de Johto. Une fois rencontré, sa position peut être suivie via le Pokédex. Utilisez Regard Noir pour l’empêcher de fuir.",
             "de": "Ein wanderndes Pokémon, das zufällig im hohen Gras in Johto erscheint. Nach der ersten Begegnung kann sein Standort im Pokédex verfolgt werden. Setze Finsterblick ein, um die Flucht zu verhindern.",
@@ -68,5 +68,8 @@
         }
       ]
     }
+  }
+}
+
   }
 }
