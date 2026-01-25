@@ -1,0 +1,153 @@
+{
+  "dex": 147,
+  "slug": "dratini",
+
+  "names": {
+    "en": "Dratini",
+    "ja": "ミニリュウ",
+    "fr": "Minidraco",
+    "de": "Dratini",
+    "es": "Dratini"
+  },
+
+  "types": ["dragon"],
+
+  "evolution": {
+    "family": ["dratini", "dragonair", "dragonite"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Safari Zone"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in the Safari Zone.",
+            "ja": "サファリゾーンで すごいつりざおを つかうと つれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne dans le Parc Safari.",
+            "de": "Durch Angeln mit der Superangel in der Safari-Zone zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en la Zona Safari."
+          }
+        },
+        {
+          "method": "purchase",
+          "location": ["Celadon Game Corner"],
+          "cost": "2800 Coins",
+          "notes": {
+            "en": "Available for 2,800 Coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで コイン2800まいと こうかん。",
+            "fr": "Disponible pour 2 800 jetons au Casino de Céladopole.",
+            "de": "Für 2.800 Münzen im Prismania City Spielsalon erhältlich.",
+            "es": "Disponible por 2.800 monedas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Safari Zone"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in the Safari Zone.",
+            "ja": "サファリゾーンで すごいつりざおを つかうと つれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne dans le Parc Safari.",
+            "de": "Durch Angeln mit der Superangel in der Safari-Zone zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en la Zona Safari."
+          }
+        },
+        {
+          "method": "purchase",
+          "location": ["Celadon Game Corner"],
+          "cost": "2800 Coins",
+          "notes": {
+            "en": "Available for 2,800 Coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで コイン2800まいと こうかん。",
+            "fr": "Disponible pour 2 800 jetons au Casino de Céladopole.",
+            "de": "Für 2.800 Münzen im Prismania City Spielsalon erhältlich.",
+            "es": "Disponible por 2.800 monedas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Safari Zone"],
+          "notes": {
+            "en": "Found by fishing with the Super Rod in the Safari Zone.",
+            "ja": "サファリゾーンで すごいつりざおを つかうと つれる。",
+            "fr": "Obtenu en pêchant avec la Super Canne dans le Parc Safari.",
+            "de": "Durch Angeln mit der Superangel in der Safari-Zone zu finden.",
+            "es": "Se obtiene pescando con la Súper Caña en la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "location": ["Goldenrod Game Corner"],
+          "cost": "2100 Coins",
+          "notes": {
+            "en": "Available for 2,100 Coins at the Goldenrod Game Corner.",
+            "ja": "コガネゲームコーナーで コイン2100まいと こうかん。",
+            "fr": "Disponible pour 2 100 jetons au Casino de Doublonville.",
+            "de": "Für 2.100 Münzen im Dukatia City Spielsalon erhältlich.",
+            "es": "Disponible por 2.100 monedas en el Casino de Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "location": ["Goldenrod Game Corner"],
+          "cost": "2100 Coins",
+          "notes": {
+            "en": "Available for 2,100 Coins at the Goldenrod Game Corner.",
+            "ja": "コガネゲームコーナーで コイン2100まいと こうかん。",
+            "fr": "Disponible pour 2 100 jetons au Casino de Doublonville.",
+            "de": "Für 2.100 Münzen im Dukatia City Spielsalon erhältlich.",
+            "es": "Disponible por 2.100 monedas en el Casino de Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "fishing",
+          "rod": "Good Rod",
+          "location": ["Route 45"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod on Route 45.",
+            "ja": "45ばんどうろで いいつりざおを つかうと つれる。",
+            "fr": "Obtenu en pêchant avec la Bonne Canne sur la Route 45.",
+            "de": "Durch Angeln mit der Profiangel auf Route 45 zu finden.",
+            "es": "Se obtiene pescando con la Buena Caña en la Ruta 45."
+          }
+        }
+      ]
+    }
+  }
+}
