@@ -1,0 +1,89 @@
+{
+  "dex": 125,
+  "slug": "electabuzz",
+
+  "names": {
+    "en": "Electabuzz",
+    "ja": "エレブー",
+    "fr": "Élektek",
+    "de": "Elektek",
+    "es": "Electabuzz"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["electabuzz", "electivire"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Power Plant", "Route 10"],
+          "notes": {
+            "en": "Found in the Power Plant on Route 10.",
+            "ja": "10ばんどうろの はつでんしょに しゅつげん。",
+            "fr": "Trouvé à la Centrale sur la Route 10.",
+            "de": "Im Kraftwerk auf Route 10 anzutreffen.",
+            "es": "Se encuentra en la Central Eléctrica de la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 10"],
+          "notes": {
+            "en": "Found on Route 10.",
+            "ja": "10ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 10.",
+            "de": "Auf Route 10 anzutreffen.",
+            "es": "Se encuentra en la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 10"],
+          "notes": {
+            "en": "Found on Route 10.",
+            "ja": "10ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 10.",
+            "de": "Auf Route 10 anzutreffen.",
+            "es": "Se encuentra en la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 10"],
+          "notes": {
+            "en": "Found on Route 10.",
+            "ja": "10ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 10.",
+            "de": "Auf Route 10 anzutreffen.",
+            "es": "Se encuentra en la Ruta 10."
+          }
+        }
+      ]
+    }
+  }
+}
