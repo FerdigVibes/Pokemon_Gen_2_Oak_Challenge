@@ -1,0 +1,75 @@
+{
+  "dex": 163,
+  "slug": "hoothoot",
+
+  "names": {
+    "en": "Hoothoot",
+    "ja": "ホーホー",
+    "fr": "Hoothoot",
+    "de": "Hoothoot",
+    "es": "Hoothoot"
+  },
+
+  "types": ["normal", "flying"],
+
+  "evolution": {
+    "family": ["hoothoot", "noctowl"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Routes 29, 30, and 31 at night.",
+            "ja": "29・30・31ばんどうろで よるに しゅつげん。",
+            "fr": "Apparaît la nuit sur les Routes 29, 30 et 31.",
+            "de": "Erscheint nachts auf den Routen 29, 30 und 31.",
+            "es": "Aparece por la noche en las Rutas 29, 30 y 31."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Routes 29, 30, and 31 at night.",
+            "ja": "29・30・31ばんどうろで よるに しゅつげん。",
+            "fr": "Apparaît la nuit sur les Routes 29, 30 et 31.",
+            "de": "Erscheint nachts auf den Routen 29, 30 und 31.",
+            "es": "Aparece por la noche en las Rutas 29, 30 y 31."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31", "Route 36"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Routes 29, 30, 31, and 36 at night.",
+            "ja": "29・30・31・36ばんどうろで よるに しゅつげん。",
+            "fr": "Apparaît la nuit sur les Routes 29, 30, 31 et 36.",
+            "de": "Erscheint nachts auf den Routen 29, 30, 31 und 36.",
+            "es": "Aparece por la noche en las Rutas 29, 30, 31 y 36."
+          }
+        }
+      ]
+    }
+  }
+}
