@@ -1,0 +1,70 @@
+{
+  "dex": 237,
+  "slug": "hitmontop",
+
+  "names": {
+    "en": "Hitmontop",
+    "ja": "カポエラー",
+    "fr": "Kapoera",
+    "de": "Kapoera",
+    "es": "Hitmontop"
+  },
+
+  "types": ["fighting"],
+
+  "evolution": {
+    "family": ["tyrogue", "hitmonlee", "hitmonchan", "hitmontop"],
+    "stage": 2,
+    "evolvesFrom": "tyrogue"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tyrogue at Lv. 20 with its Attack and Defense stats equal.",
+            "ja": "バルキーを レベル20で こうげきと ぼうぎょが おなじだと しんか。",
+            "fr": "Faites évoluer Debugant au niveau 20 si son Attaque et sa Défense sont égales.",
+            "de": "Entwickle Rabauz auf Level 20, wenn Angriff und Verteidigung gleich sind.",
+            "es": "Evoluciona a Tyrogue al nivel 20 si su Ataque y Defensa son iguales."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ELITE_FOUR_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tyrogue at Lv. 20 with its Attack and Defense stats equal.",
+            "ja": "バルキーを レベル20で こうげきと ぼうぎょが おなじだと しんか。",
+            "fr": "Faites évoluer Debugant au niveau 20 si son Attaque et sa Défense sont égales.",
+            "de": "Entwickle Rabauz auf Level 20, wenn Angriff und Verteidigung gleich sind.",
+            "es": "Evoluciona a Tyrogue al nivel 20 si su Ataque y Defensa son iguales."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Tyrogue at Lv. 20 with its Attack and Defense stats equal.",
+            "ja": "バルキーを レベル20で こうげきと ぼうぎょが おなじだと しんか。",
+            "fr": "Faites évoluer Debugant au niveau 20 si son Attaque et sa Défense sont égales.",
+            "de": "Entwickle Rabauz auf Level 20, wenn Angriff und Verteidigung gleich sind.",
+            "es": "Evoluciona a Tyrogue al nivel 20 si su Ataque y Defensa son iguales."
+          }
+        }
+      ]
+    }
+  }
+}
