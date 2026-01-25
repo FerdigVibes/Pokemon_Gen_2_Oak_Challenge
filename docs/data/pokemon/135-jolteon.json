@@ -1,0 +1,125 @@
+{
+  "dex": 135,
+  "slug": "jolteon",
+
+  "names": {
+    "en": "Jolteon",
+    "ja": "サンダース",
+    "fr": "Voltali",
+    "de": "Blitza",
+    "es": "Jolteon"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon"
+    ],
+    "stage": 2,
+    "evolvesFrom": "eevee"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Thunder Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「かみなりのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Foudre (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Donnerstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Trueno (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Thunder Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「かみなりのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Foudre (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Donnerstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Trueno (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["EEVEE_EVOLUTIONS"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Thunder Stone (Celadon Dept. Store 4F).",
+            "ja": "イーブイに「かみなりのいし」を つかって しんか（タマムシデパート4F）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Foudre (Centre Commercial de Céladopole, 4F).",
+            "de": "Entwickle Evoli mit einem Donnerstein (Prismania City Kaufhaus, 4. Stock).",
+            "es": "Evoluciona a Eevee con una Piedra Trueno (Centro Comercial de Ciudad Azulona, 4F)."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["THUNDER_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Thunder Stone. Show Bill’s Grandfather a Pichu on Route 25 for a Thunder Stone.",
+            "ja": "イーブイに「かみなりのいし」を使って進化。25ばんどうろでマサキの おじいさんにピチューを見せると、かみなりのいしがもらえる。",
+            "fr": "Faites évoluer Évoli avec une Pierre Foudre. Montrez un Pichu à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Foudre.",
+            "de": "Entwickle Evoli mit einem Donnerstein. Zeige Bills Großvater ein Pichu auf Route 25, um einen Donnerstein zu erhalten.",
+            "es": "Evoluciona a Eevee con una Piedra Trueno. Muestra un Pichu al abuelo de Bill en la Ruta 25 para conseguir una Piedra Trueno."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["THUNDER_STONE_EVOLUTION"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Thunder Stone. Show Bill’s Grandfather a Pichu on Route 25 for a Thunder Stone.",
+            "ja": "イーブイに「かみなりのいし」を使って進化。25ばんどうろでマサキの おじいさんにピチューを見せると、かみなりのいしがもらえる。",
+            "fr": "Faites évoluer Évoli avec une Pierre Foudre. Montrez un Pichu à l’Oncle de Léo sur la Route 25 pour obtenir une Pierre Foudre.",
+            "de": "Entwickle Evoli mit einem Donnerstein. Zeige Bills Großvater ein Pichu auf Route 25, um einen Donnerstein zu erhalten.",
+            "es": "Evoluciona a Eevee con una Piedra Trueno. Muestra un Pichu al abuelo de Bill en la Ruta 25 para conseguir una Piedra Trueno."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Eevee with a Thunder Stone. Receive the Thunder Stone from Lass Dana on Route 38 after she calls you (item varies).",
+            "ja": "イーブイに「かみなりのいし」を使って進化。38ばんどうろのミニスカート・ダナから電話でもらえる（アイテムはランダム）。",
+            "fr": "Faites évoluer Évoli avec une Pierre Foudre. Recevez la Pierre Foudre de la Fillette Dana sur la Route 38 après son appel (objet variable).",
+            "de": "Entwickle Evoli mit einem Donnerstein. Erhalte den Donnerstein von Schulmädchen Dana auf Route 38 nach einem Anruf (Item variiert).",
+            "es": "Evoluciona a Eevee con una Piedra Trueno. Recibe la Piedra Trueno de la Chica Dana en la Ruta 38 cuando te llame (el objeto varía)."
+          }
+        }
+      ]
+    }
+  }
+}
