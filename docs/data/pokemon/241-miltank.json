@@ -1,0 +1,73 @@
+{
+  "dex": 241,
+  "slug": "miltank",
+
+  "names": {
+    "en": "Miltank",
+    "ja": "ミルタンク",
+    "fr": "Écrémeuh",
+    "de": "Miltank",
+    "es": "Miltank"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["miltank"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39.",
+            "ja": "38・39ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur les Routes 38 et 39.",
+            "de": "Auf den Routen 38 und 39 anzutreffen.",
+            "es": "Se encuentra en las Rutas 38 y 39."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "notes": {
+            "en": "Found on Routes 38 and 39.",
+            "ja": "38・39ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur les Routes 38 et 39.",
+            "de": "Auf den Routen 38 und 39 anzutreffen.",
+            "es": "Se encuentra en las Rutas 38 y 39."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38", "Route 39"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found on Routes 38 and 39 at a very low encounter rate during the morning and daytime.",
+            "ja": "38・39ばんどうろで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Apparaît très rarement sur les Routes 38 et 39 le matin et le jour.",
+            "de": "Sehr seltene Begegnung auf Route 38 und 39 am Morgen und tagsüber.",
+            "es": "Aparece muy raramente en las Rutas 38 y 39 durante la mañana y el día."
+          }
+        }
+      ]
+    }
+  }
+}
