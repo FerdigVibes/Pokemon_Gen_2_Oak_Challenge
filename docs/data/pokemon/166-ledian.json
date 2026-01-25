@@ -1,0 +1,54 @@
+{
+  "dex": 166,
+  "slug": "ledian",
+
+  "names": {
+    "en": "Ledian",
+    "ja": "レディアン",
+    "fr": "Coxyclaque",
+    "de": "Ledian",
+    "es": "Ledian"
+  },
+
+  "types": ["bug", "flying"],
+
+  "evolution": {
+    "family": ["ledyba", "ledian"],
+    "stage": 2,
+    "evolvesFrom": "ledyba"
+  },
+
+  "games": {
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ledyba at Lv. 18.",
+            "ja": "レディバを レベル18で しんか。",
+            "fr": "Faites évoluer Coxy au niveau 18.",
+            "de": "Entwickle Ledyba auf Level 18.",
+            "es": "Evoluciona a Ledyba al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Ledyba at Lv. 18.",
+            "ja": "レディバを レベル18で しんか。",
+            "fr": "Faites évoluer Coxy au niveau 18.",
+            "de": "Entwickle Ledyba auf Level 18.",
+            "es": "Evoluciona a Ledyba al nivel 18."
+          }
+        }
+      ]
+    }
+  }
+}
