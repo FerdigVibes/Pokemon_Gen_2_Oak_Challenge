@@ -1,0 +1,130 @@
+{
+  "dex": 99,
+  "slug": "kingler",
+
+  "names": {
+    "en": "Kingler",
+    "ja": "キングラー",
+    "fr": "Krabboss",
+    "de": "Kingler",
+    "es": "Kingler"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["krabby", "kingler"],
+    "stage": 2,
+    "evolvesFrom": "krabby"
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Krabby at Lv. 28.",
+            "ja": "クラブをLv.28で進化。",
+            "fr": "Faites évoluer Krabby au niveau 28.",
+            "de": "Entwickle Krabby auf Level 28.",
+            "es": "Evoluciona a Krabby al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Krabby at Lv. 28.",
+            "ja": "クラブをLv.28で進化。",
+            "fr": "Faites évoluer Krabby au niveau 28.",
+            "de": "Entwickle Krabby auf Level 28.",
+            "es": "Evoluciona a Krabby al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Krabby at Lv. 28.",
+            "ja": "クラブをLv.28で進化。",
+            "fr": "Faites évoluer Krabby au niveau 28.",
+            "de": "Entwickle Krabby auf Level 28.",
+            "es": "Evoluciona a Krabby al nivel 28."
+          }
+        },
+        {
+          "method": "fishing",
+          "rod": "Super Rod",
+          "location": ["Route 10", "Route 25"],
+          "notes": {
+            "en": "Low encounter rate when fishing with the Super Rod on Routes 10 and 25.",
+            "ja": "10ばんどうろ・25ばんどうろで すごいつりざおを使うと ひくい かくりつで出現。",
+            "fr": "Rencontre à faible taux en pêchant avec la Super Canne sur les Routes 10 et 25.",
+            "de": "Niedrige Begegnungsrate beim Angeln mit der Superangel auf Route 10 und 25.",
+            "es": "Encuentro de baja probabilidad pescando con la Súper Caña en las Rutas 10 y 25."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Krabby at Lv. 28.",
+            "ja": "クラブをLv.28で進化。",
+            "fr": "Faites évoluer Krabby au niveau 28.",
+            "de": "Entwickle Krabby auf Level 28.",
+            "es": "Evoluciona a Krabby al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Krabby at Lv. 28.",
+            "ja": "クラブをLv.28で進化。",
+            "fr": "Faites évoluer Krabby au niveau 28.",
+            "de": "Entwickle Krabby auf Level 28.",
+            "es": "Evoluciona a Krabby al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Krabby at Lv. 28.",
+            "ja": "クラブをLv.28で進化。",
+            "fr": "Faites évoluer Krabby au niveau 28.",
+            "de": "Entwickle Krabby auf Level 28.",
+            "es": "Evoluciona a Krabby al nivel 28."
+          }
+        }
+      ]
+    }
+  }
+}
