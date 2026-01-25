@@ -1,0 +1,130 @@
+{
+  "dex": 120,
+  "slug": "staryu",
+
+  "names": {
+    "en": "Staryu",
+    "ja": "ヒトデマン",
+    "fr": "Stari",
+    "de": "Sterndu",
+    "es": "Staryu"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["staryu", "starmie"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Route 19"],
+          "notes": {
+            "en": "Caught using a Super Rod on Route 19.",
+            "ja": "19ばんどうろで すごいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne sur la Route 19.",
+            "de": "Mit der Superangel auf Route 19 fangbar.",
+            "es": "Se captura con la Supercaña en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Route 19"],
+          "notes": {
+            "en": "Caught using a Super Rod on Route 19.",
+            "ja": "19ばんどうろで すごいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne sur la Route 19.",
+            "de": "Mit der Superangel auf Route 19 fangbar.",
+            "es": "Se captura con la Supercaña en la Ruta 19."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Super Rod",
+          "locations": ["Route 19", "Pallet Town"],
+          "notes": {
+            "en": "Caught using a Super Rod on Route 19 and in Pallet Town.",
+            "ja": "19ばんどうろと マサラタウンで すごいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Super Canne sur la Route 19 et à Bourg Palette.",
+            "de": "Mit der Superangel auf Route 19 und in Alabastia fangbar.",
+            "es": "Se captura con la Supercaña en la Ruta 19 y en Pueblo Paleta."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Cherrygrove City", "Olivine City", "Route 34", "Route 40"],
+          "notes": {
+            "en": "Caught using a Good Rod in Cherrygrove City, Olivine City, and on Routes 34 and 40.",
+            "ja": "ヨシノシティ、アサギシティ、34・40ばんどうろで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne à Ville Griotte, Oliville et sur les Routes 34 et 40.",
+            "de": "Mit der Profiangel in Neuborkia, Oliviana City sowie auf Route 34 und 40 fangbar.",
+            "es": "Se captura con la Caña Buena en Ciudad Cerezo, Ciudad Olivo y en las Rutas 34 y 40."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Cherrygrove City", "Olivine City", "Route 34", "Route 40"],
+          "notes": {
+            "en": "Caught using a Good Rod in Cherrygrove City, Olivine City, and on Routes 34 and 40.",
+            "ja": "ヨシノシティ、アサギシティ、34・40ばんどうろで いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne à Ville Griotte, Oliville et sur les Routes 34 et 40.",
+            "de": "Mit der Profiangel in Neuborkia, Oliviana City sowie auf Route 34 und 40 fangbar.",
+            "es": "Se captura con la Caña Buena en Ciudad Cerezo, Ciudad Olivo y en las Rutas 34 y 40."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "fish",
+          "rod": "Good Rod",
+          "locations": ["Cherrygrove City", "Olivine City", "Route 34", "Route 40"],
+          "time": ["night"],
+          "notes": {
+            "en": "Caught using a Good Rod in Cherrygrove City, Olivine City, and on Routes 34 and 40 at night only.",
+            "ja": "ヨシノシティ、アサギシティ、34・40ばんどうろで よるにだけ いいつりざおを つかって つれる。",
+            "fr": "Pêché avec la Canne à Ville Griotte, Oliville et sur les Routes 34 et 40 uniquement la nuit.",
+            "de": "Nur nachts mit der Profiangel in Neuborkia, Oliviana City sowie auf Route 34 und 40 fangbar.",
+            "es": "Se captura con la Caña Buena en Ciudad Cerezo, Ciudad Olivo y en las Rutas 34 y 40 solo por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
