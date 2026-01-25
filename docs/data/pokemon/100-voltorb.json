@@ -1,0 +1,123 @@
+{
+  "dex": 100,
+  "slug": "voltorb",
+
+  "names": {
+    "en": "Voltorb",
+    "ja": "ビリリダマ",
+    "fr": "Voltorbe",
+    "de": "Voltobal",
+    "es": "Voltorb"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["voltorb", "electrode"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 10"],
+          "notes": {
+            "en": "Found on Route 10.",
+            "ja": "10ばんどうろで出現。",
+            "fr": "Disponible sur la Route 10.",
+            "de": "Auf Route 10 zu finden.",
+            "es": "Se encuentra en la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 10"],
+          "notes": {
+            "en": "Found on Route 10.",
+            "ja": "10ばんどうろで出現。",
+            "fr": "Disponible sur la Route 10.",
+            "de": "Auf Route 10 zu finden.",
+            "es": "Se encuentra en la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Power Plant (Route 10)"],
+          "notes": {
+            "en": "Found in the Power Plant on Route 10.",
+            "ja": "10ばんどうろのはつでんしょで出現。",
+            "fr": "Disponible à la Centrale sur la Route 10.",
+            "de": "Im Kraftwerk auf Route 10 zu finden.",
+            "es": "Se encuentra en la Central Eléctrica de la Ruta 10."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Olivine City"],
+          "notes": {
+            "en": "Trade a Krabby with Tim in Olivine City on the northeast side of town.",
+            "ja": "アサギシティの ひがしがわで タイムに クラブを わたすと こうかんしてもらえる。",
+            "fr": "Échangez un Krabby avec Tim à Oliville, au nord-est de la ville.",
+            "de": "Tausche ein Krabby mit Tim in Oliviana City im Nordosten der Stadt.",
+            "es": "Intercambia un Krabby con Tim en Ciudad Olivo, en el lado noreste de la ciudad."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Olivine City"],
+          "notes": {
+            "en": "Trade a Krabby with Tim in Olivine City on the northeast side of town.",
+            "ja": "アサギシティの ひがしがわで タイムに クラブを わたすと こうかんしてもらえる。",
+            "fr": "Échangez un Krabby avec Tim à Oliville, au nord-est de la ville.",
+            "de": "Tausche ein Krabby mit Tim in Oliviana City im Nordosten der Stadt.",
+            "es": "Intercambia un Krabby con Tim en Ciudad Olivo, en el lado noreste de la ciudad."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "trade",
+          "location": ["Olivine City"],
+          "notes": {
+            "en": "Trade a Krabby with Tim in Olivine City on the northeast side of town.",
+            "ja": "アサギシティの ひがしがわで タイムに クラブを わたすと こうかんしてもらえる。",
+            "fr": "Échangez un Krabby avec Tim à Oliville, au nord-est de la ville.",
+            "de": "Tausche ein Krabby mit Tim in Oliviana City im Nordosten der Stadt.",
+            "es": "Intercambia un Krabby con Tim en Ciudad Olivo, en el lado noreste de la ciudad."
+          }
+        }
+      ]
+    }
+  }
+}
