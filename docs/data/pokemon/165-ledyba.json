@@ -1,0 +1,57 @@
+{
+  "dex": 165,
+  "slug": "ledyba",
+
+  "names": {
+    "en": "Ledyba",
+    "ja": "レディバ",
+    "fr": "Coxy",
+    "de": "Ledyba",
+    "es": "Ledyba"
+  },
+
+  "types": ["bug", "flying"],
+
+  "evolution": {
+    "family": ["ledyba", "ledian"],
+    "stage": 1
+  },
+
+  "games": {
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Found on Routes 30 and 31 during the morning.",
+            "ja": "30・31ばんどうろで あさに しゅつげん。",
+            "fr": "Apparaît le matin sur les Routes 30 et 31.",
+            "de": "Erscheint morgens auf den Routen 30 und 31.",
+            "es": "Aparece por la mañana en las Rutas 30 y 31."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 30", "Route 31", "Route 36"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Found on Routes 30, 31, and 36 during the morning.",
+            "ja": "30・31・36ばんどうろで あさに しゅつげん。",
+            "fr": "Apparaît le matin sur les Routes 30, 31 et 36.",
+            "de": "Erscheint morgens auf den Routen 30, 31 und 36.",
+            "es": "Aparece por la mañana en las Rutas 30, 31 y 36."
+          }
+        }
+      ]
+    }
+  }
+}
