@@ -1,0 +1,72 @@
+{
+  "dex": 239,
+  "slug": "elekid",
+
+  "names": {
+    "en": "Elekid",
+    "ja": "エレキッド",
+    "fr": "Élekid",
+    "de": "Elekid",
+    "es": "Elekid"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["elekid", "electabuzz", "electivire"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Electabuzz"],
+          "notes": {
+            "en": "Breed Electabuzz to obtain Elekid.",
+            "ja": "エレブーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Élektek pour obtenir Élekid.",
+            "de": "Züchte Elektek, um Elekid zu erhalten.",
+            "es": "Cría a Electabuzz para obtener a Elekid."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Electabuzz"],
+          "notes": {
+            "en": "Breed Electabuzz to obtain Elekid.",
+            "ja": "エレブーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Élektek pour obtenir Élekid.",
+            "de": "Züchte Elektek, um Elekid zu erhalten.",
+            "es": "Cría a Electabuzz para obtener a Elekid."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "breed",
+          "requirements": ["Electabuzz"],
+          "notes": {
+            "en": "Breed Electabuzz to obtain Elekid.",
+            "ja": "エレブーを いくじやに あずけて タマゴから うまれる。",
+            "fr": "Faites reproduire Élektek pour obtenir Élekid.",
+            "de": "Züchte Elektek, um Elekid zu erhalten.",
+            "es": "Cría a Electabuzz para obtener a Elekid."
+          }
+        }
+      ]
+    }
+  }
+}
