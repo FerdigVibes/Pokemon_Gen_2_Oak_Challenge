@@ -1,0 +1,123 @@
+{
+  "dex": 137,
+  "slug": "porygon",
+
+  "names": {
+    "en": "Porygon",
+    "ja": "ポリゴン",
+    "fr": "Porygon",
+    "de": "Porygon",
+    "es": "Porygon"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["porygon", "porygon2", "porygon-z"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "notes": {
+            "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
+            "fr": "Achetable pour 9 999 jetons au Casino de Céladopole.",
+            "de": "Für 9.999 Münzen im Prismania-Spielcasino erhältlich.",
+            "es": "Se compra por 9.999 fichas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "notes": {
+            "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
+            "fr": "Achetable pour 9 999 jetons au Casino de Céladopole.",
+            "de": "Für 9.999 Münzen im Prismania-Spielcasino erhältlich.",
+            "es": "Se compra por 9.999 fichas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "notes": {
+            "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
+            "fr": "Achetable pour 9 999 jetons au Casino de Céladopole.",
+            "de": "Für 9.999 Münzen im Prismania-Spielcasino erhältlich.",
+            "es": "Se compra por 9.999 fichas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "notes": {
+            "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
+            "fr": "Achetable pour 9 999 jetons au Casino de Céladopole.",
+            "de": "Für 9.999 Münzen im Prismania-Spielcasino erhältlich.",
+            "es": "Se compra por 9.999 fichas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "notes": {
+            "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
+            "fr": "Achetable pour 9 999 jetons au Casino de Céladopole.",
+            "de": "Für 9.999 Münzen im Prismania-Spielcasino erhältlich.",
+            "es": "Se compra por 9.999 fichas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "notes": {
+            "en": "Purchase for 5,555 coins at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 5555コインと こうかん。",
+            "fr": "Achetable pour 5 555 jetons au Casino de Céladopole.",
+            "de": "Für 5.555 Münzen im Prismania-Spielcasino erhältlich.",
+            "es": "Se compra por 5.555 fichas en el Casino de Ciudad Azulona."
+          }
+        }
+      ]
+    }
+  }
+}
