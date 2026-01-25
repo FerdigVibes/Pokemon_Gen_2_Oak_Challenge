@@ -1,0 +1,138 @@
+{
+  "dex": 92,
+  "slug": "gastly",
+
+  "names": {
+    "en": "Gastly",
+    "ja": "ゴース",
+    "fr": "Fantominus",
+    "de": "Nebulak",
+    "es": "Gastly"
+  },
+
+  "types": ["ghost", "poison"],
+
+  "evolution": {
+    "family": ["gastly", "haunter", "gengar"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Tower"],
+          "notes": {
+            "en": "Found in Pokémon Tower.",
+            "ja": "ポケモンタワーで出現。",
+            "fr": "Disponible à la Tour Pokémon.",
+            "de": "Im Pokémon-Turm zu finden.",
+            "es": "Se encuentra en la Torre Pokémon."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Tower"],
+          "notes": {
+            "en": "Found in Pokémon Tower.",
+            "ja": "ポケモンタワーで出現。",
+            "fr": "Disponible à la Tour Pokémon.",
+            "de": "Im Pokémon-Turm zu finden.",
+            "es": "Se encuentra en la Torre Pokémon."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Pokémon Tower"],
+          "notes": {
+            "en": "Found in Pokémon Tower.",
+            "ja": "ポケモンタワーで出現。",
+            "fr": "Disponible à la Tour Pokémon.",
+            "de": "Im Pokémon-Turm zu finden.",
+            "es": "Se encuentra en la Torre Pokémon."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Sprout Tower 2F", "Sprout Tower 3F"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in Sprout Tower 2F and 3F at night.",
+            "ja": "マダツボミのとう2F・3Fで よるに出現。",
+            "fr": "Disponible à la Tour Chétiflor (2F et 3F) la nuit.",
+            "de": "Im Knofensa-Turm (2F und 3F) nachts zu finden.",
+            "es": "Se encuentra en la Torre Bellsprout (2F y 3F) por la noche."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Sprout Tower 2F", "Sprout Tower 3F"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in Sprout Tower 2F and 3F at night.",
+            "ja": "マダツボミのとう2F・3Fで よるに出現。",
+            "fr": "Disponible à la Tour Chétiflor (2F et 3F) la nuit.",
+            "de": "Im Knofensa-Turm (2F und 3F) nachts zu finden.",
+            "es": "Se encuentra en la Torre Bellsprout (2F y 3F) por la noche."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Sprout Tower 2F", "Sprout Tower 3F"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in Sprout Tower 2F and 3F at night.",
+            "ja": "マダツボミのとう2F・3Fで よるに出現。",
+            "fr": "Disponible à la Tour Chétiflor (2F et 3F) la nuit.",
+            "de": "Im Knofensa-Turm (2F und 3F) nachts zu finden.",
+            "es": "Se encuentra en la Torre Bellsprout (2F y 3F) por la noche."
+          }
+        },
+        {
+          "method": "wild",
+          "location": ["Route 31", "Route 36"],
+          "time": ["night"],
+          "notes": {
+            "en": "Extremely rare encounter on Routes 31 and 36 at night.",
+            "ja": "31ばんどうろ・36ばんどうろで よるに ごくまれに出現。",
+            "fr": "Rencontre extrêmement rare sur les Routes 31 et 36 la nuit.",
+            "de": "Extrem seltene Begegnung auf Route 31 und 36 nachts.",
+            "es": "Encuentro extremadamente raro en las Rutas 31 y 36 por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
