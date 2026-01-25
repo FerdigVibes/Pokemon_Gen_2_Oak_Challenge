@@ -1,0 +1,147 @@
+{
+  "dex": 114,
+  "slug": "tangela",
+
+  "names": {
+    "en": "Tangela",
+    "ja": "モンジャラ",
+    "fr": "Saquedeneu",
+    "de": "Tangela",
+    "es": "Tangela"
+  },
+
+  "types": ["grass"],
+
+  "evolution": {
+    "family": ["tangela", "tangrowth"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 21"],
+          "notes": {
+            "en": "Found on Route 21.",
+            "ja": "21ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 21.",
+            "de": "Auf Route 21 anzutreffen.",
+            "es": "Se encuentra en la Ruta 21."
+          }
+        },
+        {
+          "method": "trade",
+          "locations": ["Cinnabar Island Lab"],
+          "requirements": ["Venonat"],
+          "notes": {
+            "en": "Trade a Venonat at the Cinnabar Island Lab to receive Tangela.",
+            "ja": "グレンタウンの けんきゅうじょで コンパンと こうかん。",
+            "fr": "Échangez un Mimitoss au Laboratoire de Cramois’Île pour obtenir Saquedeneu.",
+            "de": "Tausche ein Myrapla… äh, Omot… Venonat im Labor von Zinnoberinsel gegen Tangela.",
+            "es": "Intercambia un Venonat en el Laboratorio de Isla Canela para obtener a Tangela."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CELADON_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 21"],
+          "notes": {
+            "en": "Found on Route 21.",
+            "ja": "21ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 21.",
+            "de": "Auf Route 21 anzutreffen.",
+            "es": "Se encuentra en la Ruta 21."
+          }
+        },
+        {
+          "method": "trade",
+          "locations": ["Cinnabar Island Lab"],
+          "requirements": ["Venonat"],
+          "notes": {
+            "en": "Trade a Venonat at the Cinnabar Island Lab to receive Tangela.",
+            "ja": "グレンタウンの けんきゅうじょで コンパンと こうかん。",
+            "fr": "Échangez un Mimitoss au Laboratoire de Cramois’Île pour obtenir Saquedeneu.",
+            "de": "Tausche ein Venonat im Labor von Zinnoberinsel gegen Tangela.",
+            "es": "Intercambia un Venonat en el Laboratorio de Isla Canela para obtener a Tangela."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Safari Zone Area 1", "Safari Zone Area 4"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 1 and 4.",
+            "ja": "サファリゾーン エリア1・4に しゅつげん。",
+            "fr": "Trouvé dans les Zones 1 et 4 du Parc Safari.",
+            "de": "In der Safarizone (Bereiche 1 und 4) anzutreffen.",
+            "es": "Se encuentra en las Zonas 1 y 4 de la Zona Safari."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 44"],
+          "notes": {
+            "en": "Found on Route 44.",
+            "ja": "44ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 44.",
+            "de": "Auf Route 44 anzutreffen.",
+            "es": "Se encuentra en la Ruta 44."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 44"],
+          "notes": {
+            "en": "Found on Route 44.",
+            "ja": "44ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 44.",
+            "de": "Auf Route 44 anzutreffen.",
+            "es": "Se encuentra en la Ruta 44."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 44"],
+          "notes": {
+            "en": "Found on Route 44.",
+            "ja": "44ばんどうろに しゅつげん。",
+            "fr": "Trouvé sur la Route 44.",
+            "de": "Auf Route 44 anzutreffen.",
+            "es": "Se encuentra en la Ruta 44."
+          }
+        }
+      ]
+    }
+  }
+}
