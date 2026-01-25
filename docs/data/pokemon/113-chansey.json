@@ -1,0 +1,123 @@
+{
+  "dex": 113,
+  "slug": "chansey",
+
+  "names": {
+    "en": "Chansey",
+    "ja": "ラッキー",
+    "fr": "Leveinard",
+    "de": "Chaneira",
+    "es": "Chansey"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["chansey", "blissey"],
+    "stage": 1
+  },
+
+  "games": {
+    "red": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Safari Zone Area 1", "Safari Zone Area 3"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 1 and 3 at a 1% encounter rate.",
+            "ja": "サファリゾーン エリア1・3で 1％の かくりつで出現。",
+            "fr": "Disponible dans les Zones 1 et 3 du Parc Safari avec un taux d’apparition de 1 %.",
+            "de": "In der Safari-Zone (Bereiche 1 und 3) mit einer Begegnungsrate von 1 % zu finden.",
+            "es": "Se encuentra en la Zona Safari (Áreas 1 y 3) con una probabilidad del 1 %."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Safari Zone Area 1", "Safari Zone Area 3"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 1 and 3 at a 1% encounter rate.",
+            "ja": "サファリゾーン エリア1・3で 1％の かくりつで出現。",
+            "fr": "Disponible dans les Zones 1 et 3 du Parc Safari avec un taux d’apparition de 1 %.",
+            "de": "In der Safari-Zone (Bereiche 1 und 3) mit einer Begegnungsrate von 1 % zu finden.",
+            "es": "Se encuentra en la Zona Safari (Áreas 1 y 3) con una probabilidad del 1 %."
+          }
+        }
+      ]
+    },
+
+    "yellow": {
+      "sections": ["FUCHSIA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Safari Zone Area 1", "Safari Zone Area 2"],
+          "notes": {
+            "en": "Found in Safari Zone Areas 1 and 2 at a 1% encounter rate.",
+            "ja": "サファリゾーン エリア1・2で 1％の かくりつで出現。",
+            "fr": "Disponible dans les Zones 1 et 2 du Parc Safari avec un taux d’apparition de 1 %.",
+            "de": "In der Safari-Zone (Bereiche 1 und 2) mit einer Begegnungsrate von 1 % zu finden.",
+            "es": "Se encuentra en la Zona Safari (Áreas 1 y 2) con una probabilidad del 1 %."
+          }
+        }
+      ]
+    },
+
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 13", "Route 14", "Route 15"],
+          "notes": {
+            "en": "Found on Routes 13, 14, and 15 at a 1% encounter rate. Two are required to obtain Aerodactyl.",
+            "ja": "13・14・15ばんどうろで 1％の かくりつで出現。プテラを入手するには 2ひき ひつよう。",
+            "fr": "Disponible sur les Routes 13, 14 et 15 avec un taux d’apparition de 1 %. Deux sont nécessaires pour obtenir Ptéra.",
+            "de": "Auf den Routen 13, 14 und 15 mit einer Begegnungsrate von 1 % zu finden. Zwei werden benötigt, um Aerodactyl zu erhalten.",
+            "es": "Se encuentra en las Rutas 13, 14 y 15 con una probabilidad del 1 %. Se necesitan dos para obtener a Aerodactyl."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 13", "Route 14", "Route 15"],
+          "notes": {
+            "en": "Found on Routes 13, 14, and 15 at a 1% encounter rate. Two are required to obtain Aerodactyl.",
+            "ja": "13・14・15ばんどうろで 1％の かくりつで出現。プテラを入手するには 2ひき ひつよう。",
+            "fr": "Disponible sur les Routes 13, 14 et 15 avec un taux d’apparition de 1 %. Deux sont nécessaires pour obtenir Ptéra.",
+            "de": "Auf den Routen 13, 14 und 15 mit einer Begegnungsrate von 1 % zu finden. Zwei werden benötigt, um Aerodactyl zu erhalten.",
+            "es": "Se encuentra en las Rutas 13, 14 y 15 con una probabilidad del 1 %. Se necesitan dos para obtener a Aerodactyl."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "location": ["Route 13", "Route 14", "Route 15"],
+          "notes": {
+            "en": "Found on Routes 13, 14, and 15 at a 1% encounter rate. Two are required to obtain Aerodactyl.",
+            "ja": "13・14・15ばんどうろで 1％の かくりつで出現。プテラを入手するには 2ひき ひつよう。",
+            "fr": "Disponible sur les Routes 13, 14 et 15 avec un taux d’apparition de 1 %. Deux sont nécessaires pour obtenir Ptéra.",
+            "de": "Auf den Routen 13, 14 und 15 mit einer Begegnungsrate von 1 % zu finden. Zwei werden benötigt, um Aerodactyl zu erhalten.",
+            "es": "Se encuentra en las Rutas 13, 14 y 15 con una probabilidad del 1 %. Se necesitan dos para obtener a Aerodactyl."
+          }
+        }
+      ]
+    }
+  }
+}
