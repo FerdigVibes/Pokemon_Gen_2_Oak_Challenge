@@ -5,7 +5,7 @@
   "totalPokemon": 129,
 
   "moonStone": {
-    "pool": ["nidoqueen", "nidoking", "clefable", "wigglytuff"],
+    "pool": ["nidorina", "nidorino", "clefairy", "jigglypuff"],
     "sections": {
       "MOON_STONE_1": { "capacity": 2 },
       "MOON_STONE_2": { "capacity": 2 }
