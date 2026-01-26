@@ -1,0 +1,75 @@
+{
+  "dex": 191,
+  "slug": "sunkern",
+
+  "names": {
+    "en": "Sunkern",
+    "ja": "ヒマナッツ",
+    "fr": "Tournegrin",
+    "de": "Sonnkern",
+    "es": "Sunkern"
+  },
+
+  "types": ["grass"],
+
+  "evolution": {
+    "family": ["sunkern", "sunflora"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "time": ["day"],
+          "notes": {
+            "en": "Low encounter rate during the daytime in National Park.",
+            "ja": "しぜんこうえんで ひるに まれに しゅつげん。",
+            "fr": "Rencontre rare en journée au Parc Naturel.",
+            "de": "Seltene Begegnung tagsüber im Nationalpark.",
+            "es": "Encuentro raro durante el día en el Parque Nacional."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "time": ["day"],
+          "notes": {
+            "en": "Low encounter rate during the daytime in National Park.",
+            "ja": "しぜんこうえんで ひるに まれに しゅつげん。",
+            "fr": "Rencontre rare en journée au Parc Naturel.",
+            "de": "Seltene Begegnung tagsüber im Nationalpark.",
+            "es": "Encuentro raro durante el día en el Parque Nacional."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["National Park"],
+          "time": ["day"],
+          "notes": {
+            "en": "Low encounter rate during the daytime in National Park.",
+            "ja": "しぜんこうえんで ひるに まれに しゅつげん。",
+            "fr": "Rencontre rare en journée au Parc Naturel.",
+            "de": "Seltene Begegnung tagsüber im Nationalpark.",
+            "es": "Encuentro raro durante el día en el Parque Nacional."
+          }
+        }
+      ]
+    }
+  }
+}
