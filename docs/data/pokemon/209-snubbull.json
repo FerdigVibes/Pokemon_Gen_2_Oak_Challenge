@@ -1,0 +1,73 @@
+{
+  "dex": 209,
+  "slug": "snubbull",
+
+  "names": {
+    "en": "Snubbull",
+    "ja": "ブルー",
+    "fr": "Snubbull",
+    "de": "Snubbull",
+    "es": "Snubbull"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["snubbull", "granbull"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38"],
+          "notes": {
+            "en": "Appears during a swarm on Route 38. Fisherman Ralph on Route 32 will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、38ばんどうろで むれが はっせいする。",
+            "fr": "Apparaît lors d’une invasion sur la Route 38 après l’appel du Pêcheur Ralph (Route 32).",
+            "de": "Erscheint während eines Schwarms auf Route 38 nach einem Anruf von Angler Ralph (Route 32).",
+            "es": "Aparece en una oleada en la Ruta 38 tras la llamada del Pescador Ralph (Ruta 32)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 38"],
+          "notes": {
+            "en": "Appears during a swarm on Route 38. Fisherman Ralph on Route 32 will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、38ばんどうろで むれが はっせいする。",
+            "fr": "Apparaît lors d’une invasion sur la Route 38 après l’appel du Pêcheur Ralph (Route 32).",
+            "de": "Erscheint während eines Schwarms auf Route 38 nach einem Anruf von Angler Ralph (Route 32).",
+            "es": "Aparece en una oleada en la Ruta 38 tras la llamada del Pescador Ralph (Ruta 32)."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 34", "Route 35"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Appears during a swarm on Routes 34 and 35 in the morning and daytime.",
+            "ja": "あさ・ひるに、34ばん・35ばんどうろで むれが はっせいすると しゅつげんする。",
+            "fr": "Apparaît lors d’une invasion sur les Routes 34 et 35 le matin et la journée.",
+            "de": "Erscheint während eines Schwarms auf den Routen 34 und 35 am Morgen und Tag.",
+            "es": "Aparece en una oleada en las Rutas 34 y 35 por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
