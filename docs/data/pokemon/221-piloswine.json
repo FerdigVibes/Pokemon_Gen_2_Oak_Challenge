@@ -1,0 +1,70 @@
+{
+  "dex": 221,
+  "slug": "piloswine",
+
+  "names": {
+    "en": "Piloswine",
+    "ja": "イノムー",
+    "fr": "Cochignon",
+    "de": "Keifel",
+    "es": "Piloswine"
+  },
+
+  "types": ["ice", "ground"],
+
+  "evolution": {
+    "family": ["swinub", "piloswine"],
+    "stage": 2,
+    "evolvesFrom": "swinub"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Swinub at level 33.",
+            "ja": "ウリムーが レベル33で しんかする。",
+            "fr": "Évolue de Marcacrin au niveau 33.",
+            "de": "Entwickelt sich aus Quiekel auf Level 33.",
+            "es": "Evoluciona de Swinub al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Swinub at level 33.",
+            "ja": "ウリムーが レベル33で しんかする。",
+            "fr": "Évolue de Marcacrin au niveau 33.",
+            "de": "Entwickelt sich aus Quiekel auf Level 33.",
+            "es": "Evoluciona de Swinub al nivel 33."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Swinub at level 33.",
+            "ja": "ウリムーが レベル33で しんかする。",
+            "fr": "Évolue de Marcacrin au niveau 33.",
+            "de": "Entwickelt sich aus Quiekel auf Level 33.",
+            "es": "Evoluciona de Swinub al nivel 33."
+          }
+        }
+      ]
+    }
+  }
+}
