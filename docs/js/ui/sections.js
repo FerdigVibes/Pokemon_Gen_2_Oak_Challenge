@@ -227,7 +227,6 @@ function applyPokemonAvailabilityState(row, caught, availableNow, timeGated = fa
 function applyMoonStoneLocks(gameId) {
   const rows = document.querySelectorAll('.pokemon-row');
 
-  // Group Moon Stone rows by dex
   const groupsByDex = {};
 
   rows.forEach(row => {
@@ -244,27 +243,27 @@ function applyMoonStoneLocks(gameId) {
   Object.values(groupsByDex).forEach(group => {
     if (group.length < 2) return;
 
-    // Find which section (if any) resolved this dex
-    let resolvedSection = null;
+    // Find the exact row that resolved the dex
+    let resolvedRow = null;
 
     for (const row of group) {
       const dex = Number(row.dataset.dex);
       if (isCaught(gameId, dex)) {
-        resolvedSection =
-          row.closest('.section-block')?.dataset.sectionId;
+        resolvedRow = row;
         break;
       }
     }
 
     group.forEach(row => {
-      const sectionId =
-        row.closest('.section-block')?.dataset.sectionId;
+      // Always clear first
+      row.classList.remove('is-locked');
 
-      // Lock ONLY the opposite section
-      if (resolvedSection && sectionId !== resolvedSection) {
+      // If nothing resolved yet, nothing is locked
+      if (!resolvedRow) return;
+
+      // Lock ONLY the opposite row
+      if (row !== resolvedRow) {
         row.classList.add('is-locked');
-      } else {
-        row.classList.remove('is-locked');
       }
     });
   });
