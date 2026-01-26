@@ -1,0 +1,73 @@
+{
+  "dex": 220,
+  "slug": "swinub",
+
+  "names": {
+    "en": "Swinub",
+    "ja": "ウリムー",
+    "fr": "Marcacrin",
+    "de": "Quiekel",
+    "es": "Swinub"
+  },
+
+  "types": ["ice", "ground"],
+
+  "evolution": {
+    "family": ["swinub", "piloswine"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "notes": {
+            "en": "Found in the Ice Path.",
+            "ja": "こおりのぬけみちで しゅつげん。",
+            "fr": "Se trouve dans le Passage de Glace.",
+            "de": "Im Eispfad fangbar.",
+            "es": "Se encuentra en la Senda Helada."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "notes": {
+            "en": "Found in the Ice Path.",
+            "ja": "こおりのぬけみちで しゅつげん。",
+            "fr": "Se trouve dans le Passage de Glace.",
+            "de": "Im Eispfad fangbar.",
+            "es": "Se encuentra en la Senda Helada."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found in the Ice Path during the morning and daytime.",
+            "ja": "あさ・ひるに こおりのぬけみちで しゅつげん。",
+            "fr": "Se trouve dans le Passage de Glace le matin et la journée.",
+            "de": "Im Eispfad am Morgen und tagsüber anzutreffen.",
+            "es": "Se encuentra en la Senda Helada por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
