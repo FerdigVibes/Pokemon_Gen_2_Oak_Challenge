@@ -1,0 +1,73 @@
+{
+  "dex": 235,
+  "slug": "smeargle",
+
+  "names": {
+    "en": "Smeargle",
+    "ja": "ドーブル",
+    "fr": "Queulorior",
+    "de": "Farbeagle",
+    "es": "Smeargle"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["smeargle"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph (Exterior)"],
+          "notes": {
+            "en": "Very rare encounter outside the Ruins of Alph. Accessed by passing through Union Cave.",
+            "ja": "つながりのどうくつを ぬけた さきの アルフのいせきがいで ごくまれに しゅつげん。",
+            "fr": "Rencontre très rare à l’extérieur des Ruines d’Alpha, accessible via la Grotte Sombre.",
+            "de": "Sehr seltene Begegnung außerhalb der Alph-Ruinen, erreichbar über die Einheits-Höhle.",
+            "es": "Encuentro muy raro en el exterior de las Ruinas Alfa, accesible a través de la Cueva Unión."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph (Exterior)"],
+          "notes": {
+            "en": "Very rare encounter outside the Ruins of Alph. Accessed by passing through Union Cave.",
+            "ja": "つながりのどうくつを ぬけた さきの アルフのいせきがいで ごくまれに しゅつげん。",
+            "fr": "Rencontre très rare à l’extérieur des Ruines d’Alpha, accessible via la Grotte Sombre.",
+            "de": "Sehr seltene Begegnung außerhalb der Alph-Ruinen, erreichbar über die Einheits-Höhle.",
+            "es": "Encuentro muy raro en el exterior de las Ruinas Alfa, accesible a través de la Cueva Unión."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph (Exterior)"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Very rare encounter outside the Ruins of Alph during the morning and daytime. Accessed by passing through Union Cave.",
+            "ja": "あさ・ひるに、つながりのどうくつを ぬけた さきの アルフのいせきがいで ごくまれに しゅつげん。",
+            "fr": "Rencontre très rare le matin et la journée à l’extérieur des Ruines d’Alpha, accessible via la Grotte Sombre.",
+            "de": "Sehr seltene Begegnung am Morgen und tagsüber außerhalb der Alph-Ruinen, erreichbar über die Einheits-Höhle.",
+            "es": "Encuentro muy raro por la mañana y durante el día en el exterior de las Ruinas Alfa, accesible a través de la Cueva Unión."
+          }
+        }
+      ]
+    }
+  }
+}
