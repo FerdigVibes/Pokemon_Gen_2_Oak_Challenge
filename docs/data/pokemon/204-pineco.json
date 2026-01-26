@@ -1,0 +1,72 @@
+{
+  "dex": 204,
+  "slug": "pineco",
+
+  "names": {
+    "en": "Pineco",
+    "ja": "クヌギダマ",
+    "fr": "Pomdepik",
+    "de": "Tannza",
+    "es": "Pineco"
+  },
+
+  "types": ["bug"],
+
+  "evolution": {
+    "family": ["pineco", "forretress"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 36", "Azalea Town", "Ilex Forest"],
+          "notes": {
+            "en": "Can be encountered by headbutting trees.",
+            "ja": "きにずつきをすると しゅつげんすることがある。",
+            "fr": "Peut être rencontré en frappant les arbres.",
+            "de": "Kann durch Kopfnuss an Bäumen erscheinen.",
+            "es": "Puede aparecer golpeando árboles con Golpe Cabeza."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 36", "Azalea Town", "Ilex Forest"],
+          "notes": {
+            "en": "Can be encountered by headbutting trees.",
+            "ja": "きにずつきをすると しゅつげんすることがある。",
+            "fr": "Peut être rencontré en frappant les arbres.",
+            "de": "Kann durch Kopfnuss an Bäumen erscheinen.",
+            "es": "Puede aparecer golpeando árboles con Golpe Cabeza."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 29", "Route 30", "Route 31", "Route 32", "Route 36", "Ilex Forest"],
+          "notes": {
+            "en": "Can be encountered by headbutting trees.",
+            "ja": "きにずつきをすると しゅつげんすることがある。",
+            "fr": "Peut être rencontré en frappant les arbres.",
+            "de": "Kann durch Kopfnuss an Bäumen erscheinen.",
+            "es": "Puede aparecer golpeando árboles con Golpe Cabeza."
+          }
+        }
+      ]
+    }
+  }
+}
