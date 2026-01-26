@@ -223,14 +223,14 @@ function applyMoonStoneLogic(game) {
   const { pool, sections } = config;
   const gameId = game.id;
 
-  // Collect all Moon Stone rows
   const rows = [...document.querySelectorAll('.pokemon-row')]
-    .filter(r =>
-      pool.includes(Number(r.dataset.dex)) &&
-      sections[r.closest('.section-block')?.dataset.sectionId]
-    );
+    .filter(row => {
+      const dex = Number(row.dataset.dex);
+      const sectionId = row.closest('.section-block')?.dataset.sectionId;
+      return pool.includes(dex) && sections[sectionId];
+    });
 
-  // Group rows by section
+  // Group by section
   const rowsBySection = {};
   rows.forEach(row => {
     const sectionId = row.closest('.section-block').dataset.sectionId;
@@ -238,14 +238,12 @@ function applyMoonStoneLogic(game) {
     rowsBySection[sectionId].push(row);
   });
 
-  // Determine resolved Pokémon (caught anywhere)
+  // Dex resolved anywhere
   const resolvedDex = new Set(
-    rows
-      .filter(r => isCaught(gameId, Number(r.dataset.dex)))
-      .map(r => Number(r.dataset.dex))
+    rows.filter(r => isCaught(gameId, Number(r.dataset.dex)))
+        .map(r => Number(r.dataset.dex))
   );
 
-  // Apply per-section logic
   Object.entries(rowsBySection).forEach(([sectionId, sectionRows]) => {
     const capacity = sections[sectionId].capacity;
 
@@ -254,26 +252,28 @@ function applyMoonStoneLogic(game) {
     );
 
     sectionRows.forEach(row => {
-      row.classList.remove('is-capacity-locked', 'is-counterpart-locked');
-
       const dex = Number(row.dataset.dex);
+
+      // 🔄 Always reset
+      row.classList.remove('is-capacity-locked', 'is-counterpart-locked');
 
       // Already caught → never lock
       if (isCaught(gameId, dex)) return;
 
-      // Pokémon resolved elsewhere
+      // 🔒 Counterpart lock (caught in another section)
       if (resolvedDex.has(dex)) {
         row.classList.add('is-counterpart-locked');
         return;
       }
 
-      // Section capacity reached
+      // 🔒 Capacity lock (this section full)
       if (caughtHere.length >= capacity) {
         row.classList.add('is-capacity-locked');
       }
     });
   });
 }
+
 
 
 /* =========================================================
