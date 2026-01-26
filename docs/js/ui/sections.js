@@ -359,7 +359,7 @@ window.addEventListener('caught-changed', () => {
   });
 
   if (window.__CURRENT_GAME__) {
-    applyMoonStoneLocks(window.__CURRENT_GAME__.data.id);
+    applyMoonStoneLogic(window.__CURRENT_GAME__.data);
     document.querySelectorAll('.section-block').forEach(updateSectionCounter);
   }
 });
@@ -550,6 +550,11 @@ export function renderSections({ game, pokemon }) {
 
     if (section.id === 'STARTER') {
       applyStarterExclusivity(sectionBlock, game.id);
+    }
+
+    // Initial Moon Stone evaluation after render
+    if (game) {
+      applyMoonStoneLogic(game);
     }
 
     sectionBlock.append(header, sectionRows);
