@@ -241,13 +241,13 @@ function applyMoonStoneLocks(gameId) {
     );
 
     group.forEach(row => {
-      row.classList.remove('is-locked');
+      row.classList.remove('is-counterpart-locked');
 
       if (!resolvedRow) return;
 
       // Lock ONLY the opposite row
       if (row !== resolvedRow) {
-        row.classList.add('is-locked');
+        row.classList.add('is-counterpart-locked');
       }
     });
   });
@@ -426,7 +426,10 @@ export function renderSections({ game, pokemon }) {
       ball.addEventListener('click', e => {
         e.stopPropagation();
 
-        if (row.classList.contains('is-locked')) return;
+        if (
+          row.classList.contains('is-capacity-locked') ||
+          row.classList.contains('is-counterpart-locked')
+        ) return;
 
         const newState = toggleCaught(game.id, p.dex);
         ball.style.backgroundImage = `url(./assets/icons/${
