@@ -1,0 +1,75 @@
+{
+  "dex": 198,
+  "slug": "murkrow",
+
+  "names": {
+    "en": "Murkrow",
+    "ja": "ヤミカラス",
+    "fr": "Cornèbre",
+    "de": "Kramurx",
+    "es": "Murkrow"
+  },
+
+  "types": ["dark", "flying"],
+
+  "evolution": {
+    "family": ["murkrow", "honchkrow"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7", "Route 16"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found at night on Routes 7 and 16.",
+            "ja": "7ばんどうろ と 16ばんどうろで よるに しゅつげん。",
+            "fr": "Se trouve la nuit sur les Routes 7 et 16.",
+            "de": "Nachts auf Route 7 und 16 fangbar.",
+            "es": "Se encuentra por la noche en las Rutas 7 y 16."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7", "Route 16"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found at night on Routes 7 and 16.",
+            "ja": "7ばんどうろ と 16ばんどうろで よるに しゅつげん。",
+            "fr": "Se trouve la nuit sur les Routes 7 et 16.",
+            "de": "Nachts auf Route 7 und 16 fangbar.",
+            "es": "Se encuentra por la noche en las Rutas 7 y 16."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7", "Route 16"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found at night on Routes 7 and 16.",
+            "ja": "7ばんどうろ と 16ばんどうろで よるに しゅつげん。",
+            "fr": "Se trouve la nuit sur les Routes 7 et 16.",
+            "de": "Nachts auf Route 7 und 16 fangbar.",
+            "es": "Se encuentra por la noche en las Rutas 7 y 16."
+          }
+        }
+      ]
+    }
+  }
+}
