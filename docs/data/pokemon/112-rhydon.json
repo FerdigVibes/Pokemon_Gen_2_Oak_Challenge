@@ -1,20 +1,21 @@
 {
-  "dex": 111,
-  "slug": "rhyhorn",
+  "dex": 112,
+  "slug": "rhydon",
 
   "names": {
-    "en": "Rhyhorn",
-    "ja": "サイホーン",
-    "fr": "Rhinocorne",
-    "de": "Rihorn",
-    "es": "Rhyhorn"
+    "en": "Rhydon",
+    "ja": "サイドン",
+    "fr": "Rhinoféros",
+    "de": "Rizeros",
+    "es": "Rhydon"
   },
 
   "types": ["ground", "rock"],
 
   "evolution": {
     "family": ["rhyhorn", "rhydon", "rhyperior"],
-    "stage": 1
+    "stage": 2,
+    "evolvesFrom": "rhyhorn"
   },
 
   "games": {
@@ -22,14 +23,13 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "wild",
-          "locations": ["Safari Zone Area 1", "Safari Zone Area 3"],
+          "method": "evolution",
           "notes": {
-            "en": "Found in Safari Zone Areas 1 and 3.",
-            "ja": "サファリゾーン エリア1・3に しゅつげん。",
-            "fr": "Trouvé dans les Zones 1 et 3 du Parc Safari.",
-            "de": "In der Safarizone (Bereiche 1 und 3) anzutreffen.",
-            "es": "Se encuentra en las Zonas 1 y 3 de la Zona Safari."
+            "en": "Evolve Rhyhorn at Lv. 42.",
+            "ja": "サイホーンを レベル42で しんか。",
+            "fr": "Faites évoluer Rhinocorne au niveau 42.",
+            "de": "Entwickle Rihorn auf Level 42.",
+            "es": "Evoluciona a Rhyhorn al nivel 42."
           }
         }
       ]
@@ -39,14 +39,13 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "wild",
-          "locations": ["Safari Zone Area 1", "Safari Zone Area 3"],
+          "method": "evolution",
           "notes": {
-            "en": "Found in Safari Zone Areas 1 and 3.",
-            "ja": "サファリゾーン エリア1・3に しゅつげん。",
-            "fr": "Trouvé dans les Zones 1 et 3 du Parc Safari.",
-            "de": "In der Safarizone (Bereiche 1 und 3) anzutreffen.",
-            "es": "Se encuentra en las Zonas 1 y 3 de la Zona Safari."
+            "en": "Evolve Rhyhorn at Lv. 42.",
+            "ja": "サイホーンを レベル42で しんか。",
+            "fr": "Faites évoluer Rhinocorne au niveau 42.",
+            "de": "Entwickle Rihorn auf Level 42.",
+            "es": "Evoluciona a Rhyhorn al nivel 42."
           }
         }
       ]
@@ -56,14 +55,13 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "wild",
-          "locations": ["Safari Zone Area 1", "Safari Zone Area 3"],
+          "method": "evolution",
           "notes": {
-            "en": "Found in Safari Zone Areas 1 and 3.",
-            "ja": "サファリゾーン エリア1・3に しゅつげん。",
-            "fr": "Trouvé dans les Zones 1 et 3 du Parc Safari.",
-            "de": "In der Safarizone (Bereiche 1 und 3) anzutreffen.",
-            "es": "Se encuentra en las Zonas 1 y 3 de la Zona Safari."
+            "en": "Evolve Rhyhorn at Lv. 42.",
+            "ja": "サイホーンを レベル42で しんか。",
+            "fr": "Faites évoluer Rhinocorne au niveau 42.",
+            "de": "Entwickle Rihorn auf Level 42.",
+            "es": "Evoluciona a Rhyhorn al nivel 42."
           }
         }
       ]
@@ -73,14 +71,15 @@
       "sections": ["BLACKTHORN_POKEMON"],
       "obtain": [
         {
-          "method": "breed",
-          "requirements": ["Rhydon"],
+          "method": "trade",
+          "locations": ["Blackthorn City (Eastern House)"],
+          "requirements": ["Female Dragonair"],
           "notes": {
-            "en": "Breed Rhydon to obtain Rhyhorn.",
-            "ja": "サイドンを いくじやに あずけて タマゴから うまれる。",
-            "fr": "Faites reproduire Rhinoféros pour obtenir Rhinocorne.",
-            "de": "Züchte Rizeros, um Rihorn zu erhalten.",
-            "es": "Cría a Rhydon para obtener a Rhyhorn."
+            "en": "Trade a female Dragonair in Blackthorn City (eastern house) to receive Rhydon. Required to obtain Rhyhorn in this version.",
+            "ja": "フスベシティの ひがしの いえで メスの ハクリューと こうかん。",
+            "fr": "Échangez une Draco femelle à Ébènelle (maison à l’est) pour obtenir Rhinoféros.",
+            "de": "Tausche ein weibliches Dragonir im östlichen Haus von Ebenholz City gegen Rizeros.",
+            "es": "Intercambia una Dragonair hembra en Ciudad Endrino (casa del este) para obtener a Rhydon."
           }
         }
       ]
@@ -90,14 +89,15 @@
       "sections": ["BLACKTHORN_POKEMON"],
       "obtain": [
         {
-          "method": "breed",
-          "requirements": ["Rhydon"],
+          "method": "trade",
+          "locations": ["Blackthorn City (Eastern House)"],
+          "requirements": ["Female Dragonair"],
           "notes": {
-            "en": "Breed Rhydon to obtain Rhyhorn.",
-            "ja": "サイドンを いくじやに あずけて タマゴから うまれる。",
-            "fr": "Faites reproduire Rhinoféros pour obtenir Rhinocorne.",
-            "de": "Züchte Rizeros, um Rihorn zu erhalten.",
-            "es": "Cría a Rhydon para obtener a Rhyhorn."
+            "en": "Trade a female Dragonair in Blackthorn City (eastern house) to receive Rhydon. Required to obtain Rhyhorn in this version.",
+            "ja": "フスベシティの ひがしの いえで メスの ハクリューと こうかん。",
+            "fr": "Échangez une Draco femelle à Ébènelle (maison à l’est) pour obtenir Rhinoféros.",
+            "de": "Tausche ein weibliches Dragonir im östlichen Haus von Ebenholz City gegen Rizeros.",
+            "es": "Intercambia una Dragonair hembra en Ciudad Endrino (casa del este) para obtener a Rhydon."
           }
         }
       ]
@@ -107,14 +107,13 @@
       "sections": ["ELITE_FOUR_POKEMON"],
       "obtain": [
         {
-          "method": "breed",
-          "requirements": ["Rhydon"],
+          "method": "evolution",
           "notes": {
-            "en": "Breed Rhydon to obtain Rhyhorn.",
-            "ja": "サイドンを いくじやに あずけて タマゴから うまれる。",
-            "fr": "Faites reproduire Rhinoféros pour obtenir Rhinocorne.",
-            "de": "Züchte Rizeros, um Rihorn zu erhalten.",
-            "es": "Cría a Rhydon para obtener a Rhyhorn."
+            "en": "Evolve Rhyhorn at Lv. 42.",
+            "ja": "サイホーンを レベル42で しんか。",
+            "fr": "Faites évoluer Rhinocorne au niveau 42.",
+            "de": "Entwickle Rihorn auf Level 42.",
+            "es": "Evoluciona a Rhyhorn al nivel 42."
           }
         },
         {
@@ -122,14 +121,15 @@
           "locations": ["Victory Road"],
           "time": ["morning", "day"],
           "notes": {
-            "en": "Found on Victory Road at a low encounter rate during the morning and daytime.",
-            "ja": "チャンピオンロードで あさ・ひるに ひくい そうぐうりつで しゅつげん。",
-            "fr": "Apparaît rarement sur la Route Victoire le matin et le jour.",
-            "de": "Seltene Begegnung auf der Siegesstraße am Morgen und tagsüber.",
-            "es": "Aparece con baja probabilidad en la Calle Victoria durante la mañana y el día."
+            "en": "Found on Victory Road at an extremely low encounter rate during the morning and daytime.",
+            "ja": "チャンピオンロードで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Apparaît extrêmement rarement sur la Route Victoire le matin et le jour.",
+            "de": "Extrem seltene Begegnung auf der Siegesstraße am Morgen und tagsüber.",
+            "es": "Aparece de forma extremadamente rara en la Calle Victoria durante la mañana y el día."
           }
         }
       ]
     }
   }
 }
+
