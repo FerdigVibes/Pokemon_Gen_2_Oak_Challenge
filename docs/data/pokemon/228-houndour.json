@@ -1,0 +1,75 @@
+{
+  "dex": 228,
+  "slug": "houndour",
+
+  "names": {
+    "en": "Houndour",
+    "ja": "デルビル",
+    "fr": "Malosse",
+    "de": "Hunduster",
+    "es": "Houndour"
+  },
+
+  "types": ["dark", "fire"],
+
+  "evolution": {
+    "family": ["houndour", "houndoom"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7"],
+          "time": ["night"],
+          "notes": {
+            "en": "Very rare encounter on Route 7 at night.",
+            "ja": "よるのみ、7ばんどうろで ごくていかくりつで しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 7 la nuit.",
+            "de": "Sehr seltene Begegnung auf Route 7 nachts.",
+            "es": "Aparece muy raramente en la Ruta 7 por la noche."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7"],
+          "time": ["night"],
+          "notes": {
+            "en": "Very rare encounter on Route 7 at night.",
+            "ja": "よるのみ、7ばんどうろで ごくていかくりつで しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 7 la nuit.",
+            "de": "Sehr seltene Begegnung auf Route 7 nachts.",
+            "es": "Aparece muy raramente en la Ruta 7 por la noche."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 7"],
+          "time": ["night"],
+          "notes": {
+            "en": "Very rare encounter on Route 7 at night.",
+            "ja": "よるのみ、7ばんどうろで ごくていかくりつで しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 7 la nuit.",
+            "de": "Sehr seltene Begegnung auf Route 7 nachts.",
+            "es": "Aparece muy raramente en la Ruta 7 por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
