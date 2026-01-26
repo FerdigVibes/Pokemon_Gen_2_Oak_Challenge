@@ -771,6 +771,6 @@
 
 .pokemon-row.is-locked {
   opacity: 0.35;
-  filter: grayscale(1);
+  filter: grayscale(0.7);
   pointer-events: none;
 }
