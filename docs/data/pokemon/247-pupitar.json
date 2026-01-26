@@ -1,0 +1,70 @@
+{
+  "dex": 247,
+  "slug": "pupitar",
+
+  "names": {
+    "en": "Pupitar",
+    "ja": "サナギラス",
+    "fr": "Ymphect",
+    "de": "Pupitar",
+    "es": "Pupitar"
+  },
+
+  "types": ["rock", "ground"],
+
+  "evolution": {
+    "family": ["larvitar", "pupitar", "tyranitar"],
+    "stage": 2,
+    "evolvesFrom": "larvitar"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Larvitar at level 30.",
+            "ja": "ヨーギラスが レベル30で しんかする。",
+            "fr": "Évolue de Embrylex au niveau 30.",
+            "de": "Entwickelt sich aus Larvitar auf Level 30.",
+            "es": "Evoluciona de Larvitar al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Larvitar at level 30.",
+            "ja": "ヨーギラスが レベル30で しんかする。",
+            "fr": "Évolue de Embrylex au niveau 30.",
+            "de": "Entwickelt sich aus Larvitar auf Level 30.",
+            "es": "Evoluciona de Larvitar al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Larvitar at level 30.",
+            "ja": "ヨーギラスが レベル30で しんかする。",
+            "fr": "Évolue de Embrylex au niveau 30.",
+            "de": "Entwickelt sich aus Larvitar auf Level 30.",
+            "es": "Evoluciona de Larvitar al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
