@@ -1,0 +1,70 @@
+{
+  "dex": 184,
+  "slug": "azumarill",
+
+  "names": {
+    "en": "Azumarill",
+    "ja": "マリルリ",
+    "fr": "Azumarill",
+    "de": "Azumarill",
+    "es": "Azumarill"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["azurill", "marill", "azumarill"],
+    "stage": 2,
+    "evolvesFrom": "marill"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Marill at Lv. 18.",
+            "ja": "マリルを レベル18で しんか。",
+            "fr": "Faites évoluer Marill au niveau 18.",
+            "de": "Entwickle Marill auf Level 18.",
+            "es": "Evoluciona a Marill al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Marill at Lv. 18.",
+            "ja": "マリルを レベル18で しんか。",
+            "fr": "Faites évoluer Marill au niveau 18.",
+            "de": "Entwickle Marill auf Level 18.",
+            "es": "Evoluciona a Marill al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Marill at Lv. 18.",
+            "ja": "マリルを レベル18で しんか。",
+            "fr": "Faites évoluer Marill au niveau 18.",
+            "de": "Entwickle Marill auf Level 18.",
+            "es": "Evoluciona a Marill al nivel 18."
+          }
+        }
+      ]
+    }
+  }
+}
