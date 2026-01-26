@@ -1,0 +1,73 @@
+{
+  "dex": 218,
+  "slug": "slugma",
+
+  "names": {
+    "en": "Slugma",
+    "ja": "マグマッグ",
+    "fr": "Limagma",
+    "de": "Schneckmag",
+    "es": "Slugma"
+  },
+
+  "types": ["fire"],
+
+  "evolution": {
+    "family": ["slugma", "magcargo"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found on Routes 16, 17, and 18.",
+            "ja": "16・17・18ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur les Routes 16, 17 et 18.",
+            "de": "Auf den Routen 16, 17 und 18 fangbar.",
+            "es": "Se encuentra en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 16", "Route 17", "Route 18"],
+          "notes": {
+            "en": "Found on Routes 16, 17, and 18.",
+            "ja": "16・17・18ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur les Routes 16, 17 et 18.",
+            "de": "Auf den Routen 16, 17 und 18 fangbar.",
+            "es": "Se encuentra en las Rutas 16, 17 y 18."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 16", "Route 17", "Route 18"],
+          "time": ["day"],
+          "notes": {
+            "en": "Found on Routes 16, 17, and 18 during the daytime only.",
+            "ja": "ひるのみ、16・17・18ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur les Routes 16, 17 et 18 uniquement en journée.",
+            "de": "Erscheint auf den Routen 16, 17 und 18 nur tagsüber.",
+            "es": "Se encuentra en las Rutas 16, 17 y 18 solo durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
