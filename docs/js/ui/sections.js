@@ -94,7 +94,10 @@ function updateSectionCounter(sectionBlock) {
       ) {
         return false;
       }
-    
+      if (row.classList.contains('is-locked')) {
+        return false;
+      }
+      
       return isCaught(gameId, dex);
     }).length;
   }
@@ -272,7 +275,7 @@ window.addEventListener('caught-changed', () => {
   });
 
   if (window.__CURRENT_GAME__) {
-    applyMoonStoneExclusivity(window.__CURRENT_GAME__.data.id);
+    applyMoonStoneLocks(window.__CURRENT_GAME__.data.id);
     document.querySelectorAll('.section-block').forEach(updateSectionCounter);
   }
 });
@@ -402,6 +405,8 @@ export function renderSections({ game, pokemon }) {
 
       ball.addEventListener('click', e => {
         e.stopPropagation();
+
+        if (row.classList.contains('is-locked')) return;
 
         const newState = toggleCaught(game.id, p.dex);
         ball.style.backgroundImage = `url(./assets/icons/${
