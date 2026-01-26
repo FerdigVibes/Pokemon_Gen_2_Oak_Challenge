@@ -1,0 +1,55 @@
+{
+  "dex": 179,
+  "slug": "mareep",
+
+  "names": {
+    "en": "Mareep",
+    "ja": "メリープ",
+    "fr": "Wattouat",
+    "de": "Voltilamm",
+    "es": "Mareep"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["mareep", "flaaffy", "ampharos"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Found on Route 32.",
+            "ja": "32ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 32.",
+            "de": "Auf Route 32 fangbar.",
+            "es": "Se encuentra en la Ruta 32."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Found on Route 32.",
+            "ja": "32ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 32.",
+            "de": "Auf Route 32 fangbar.",
+            "es": "Se encuentra en la Ruta 32."
+          }
+        }
+      ]
+    }
+  }
+}
