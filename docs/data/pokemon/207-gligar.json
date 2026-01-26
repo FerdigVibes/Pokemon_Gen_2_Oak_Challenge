@@ -1,0 +1,55 @@
+{
+  "dex": 207,
+  "slug": "gligar",
+
+  "names": {
+    "en": "Gligar",
+    "ja": "グライガー",
+    "fr": "Scorplane",
+    "de": "Skorgla",
+    "es": "Gligar"
+  },
+
+  "types": ["ground", "flying"],
+
+  "evolution": {
+    "family": ["gligar"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 45"],
+          "notes": {
+            "en": "Found on Route 45.",
+            "ja": "45ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 45.",
+            "de": "Auf Route 45 fangbar.",
+            "es": "Se encuentra en la Ruta 45."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 45"],
+          "notes": {
+            "en": "Found on Route 45.",
+            "ja": "45ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 45.",
+            "de": "Auf Route 45 fangbar.",
+            "es": "Se encuentra en la Ruta 45."
+          }
+        }
+      ]
+    }
+  }
+}
