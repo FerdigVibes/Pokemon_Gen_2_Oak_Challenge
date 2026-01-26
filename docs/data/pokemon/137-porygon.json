@@ -19,7 +19,7 @@
 
   "games": {
     "red": {
-      "sections": ["CELADON_POKEMON"],
+      "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
           "method": "purchase",
@@ -36,7 +36,7 @@
     },
 
     "blue": {
-      "sections": ["CELADON_POKEMON"],
+      "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
           "method": "purchase",
@@ -53,7 +53,7 @@
     },
 
     "yellow": {
-      "sections": ["CELADON_POKEMON"],
+      "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
           "method": "purchase",
