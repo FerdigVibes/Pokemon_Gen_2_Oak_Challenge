@@ -1,0 +1,73 @@
+{
+  "dex": 202,
+  "slug": "wobbuffet",
+
+  "names": {
+    "en": "Wobbuffet",
+    "ja": "ソーナンス",
+    "fr": "Qulbutoké",
+    "de": "Woingenau",
+    "es": "Wobbuffet"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["wobbuffet"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave (Blackthorn City side)"],
+          "notes": {
+            "en": "Found in Dark Cave on the Blackthorn City side.",
+            "ja": "くらやみのどうくつ（フスベシティがわ）で しゅつげん。",
+            "fr": "Se trouve dans la Grotte Noire côté Ébènelle.",
+            "de": "In der Dunkelhöhle (Anemonia-Seite) fangbar.",
+            "es": "Se encuentra en la Cueva Oscura, lado de Endrino."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave (Blackthorn City side)"],
+          "notes": {
+            "en": "Found in Dark Cave on the Blackthorn City side.",
+            "ja": "くらやみのどうくつ（フスベシティがわ）で しゅつげん。",
+            "fr": "Se trouve dans la Grotte Noire côté Ébènelle.",
+            "de": "In der Dunkelhöhle (Anemonia-Seite) fangbar.",
+            "es": "Se encuentra en la Cueva Oscura, lado de Endrino."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Goldenrod Game Corner"],
+          "cost": "1,500 Coins",
+          "notes": {
+            "en": "Purchased at the Goldenrod Game Corner.",
+            "ja": "コガネゲームコーナーでコインと交換できる。",
+            "fr": "Acheté au Casino de Doublonville.",
+            "de": "Im Spielcasino von Dukatia City erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Trigal."
+          }
+        }
+      ]
+    }
+  }
+}
