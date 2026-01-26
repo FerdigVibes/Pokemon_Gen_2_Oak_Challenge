@@ -769,7 +769,8 @@
   color: #fff;
 }
 
-.pokemon-row.is-locked {
+.pokemon-row.is-capacity-locked,
+.pokemon-row.is-counterpart-locked {
   opacity: 0.35;
   filter: grayscale(0.7);
   pointer-events: none;
