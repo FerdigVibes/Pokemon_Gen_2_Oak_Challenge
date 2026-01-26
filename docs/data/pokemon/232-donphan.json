@@ -1,0 +1,54 @@
+{
+  "dex": 232,
+  "slug": "donphan",
+
+  "names": {
+    "en": "Donphan",
+    "ja": "ドンファン",
+    "fr": "Donphan",
+    "de": "Donphan",
+    "es": "Donphan"
+  },
+
+  "types": ["ground"],
+
+  "evolution": {
+    "family": ["phanpy", "donphan"],
+    "stage": 2,
+    "evolvesFrom": "phanpy"
+  },
+
+  "games": {
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Phanpy at level 25.",
+            "ja": "ゴマゾウが レベル25で しんかする。",
+            "fr": "Évolue de Phanpy au niveau 25.",
+            "de": "Entwickelt sich aus Phanpy auf Level 25.",
+            "es": "Evoluciona de Phanpy al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Phanpy at level 25.",
+            "ja": "ゴマゾウが レベル25で しんかする。",
+            "fr": "Évolue de Phanpy au niveau 25.",
+            "de": "Entwickelt sich aus Phanpy auf Level 25.",
+            "es": "Evoluciona de Phanpy al nivel 25."
+          }
+        }
+      ]
+    }
+  }
+}
