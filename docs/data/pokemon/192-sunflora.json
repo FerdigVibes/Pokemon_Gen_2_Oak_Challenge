@@ -1,0 +1,73 @@
+{
+  "dex": 192,
+  "slug": "sunflora",
+
+  "names": {
+    "en": "Sunflora",
+    "ja": "キマワリ",
+    "fr": "Héliatronc",
+    "de": "Sonnflora",
+    "es": "Sunflora"
+  },
+
+  "types": ["grass"],
+
+  "evolution": {
+    "family": ["sunkern", "sunflora"],
+    "stage": 2,
+    "evolvesFrom": "sunkern"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "requirements": ["Sun Stone"],
+          "notes": {
+            "en": "Evolve Sunkern with a Sun Stone. Obtain a Sun Stone by placing first in the Bug-Catching Contest.",
+            "ja": "たいようのいしで ヒマナッツを しんか。むしとりたいかいで ゆうしょうすると てにはいる。",
+            "fr": "Faites évoluer Tournegrin avec une Pierre Soleil. Obtenez-la en remportant le Concours de Capture de Pokémon.",
+            "de": "Entwickle Sonnkern mit einem Sonnenstein. Erhältlich durch den ersten Platz beim Käferturnier.",
+            "es": "Evoluciona a Sunkern con una Piedra Solar. Se obtiene al quedar primero en el Concurso de Captura de Bichos."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "requirements": ["Sun Stone"],
+          "notes": {
+            "en": "Evolve Sunkern with a Sun Stone. Obtain a Sun Stone by placing first in the Bug-Catching Contest.",
+            "ja": "たいようのいしで ヒマナッツを しんか。むしとりたいかいで ゆうしょうすると てにはいる。",
+            "fr": "Faites évoluer Tournegrin avec une Pierre Soleil. Obtenez-la en remportant le Concours de Capture de Pokémon.",
+            "de": "Entwickle Sonnkern mit einem Sonnenstein. Erhältlich durch den ersten Platz beim Käferturnier.",
+            "es": "Evoluciona a Sunkern con una Piedra Solar. Se obtiene al quedar primero en el Concurso de Captura de Bichos."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "requirements": ["Sun Stone"],
+          "notes": {
+            "en": "Evolve Sunkern with a Sun Stone. Obtain a Sun Stone by placing first in the Bug-Catching Contest.",
+            "ja": "たいようのいしで ヒマナッツを しんか。むしとりたいかいで ゆうしょうすると てにはいる。",
+            "fr": "Faites évoluer Tournegrin avec une Pierre Soleil. Obtenez-la en remportant le Concours de Capture de Pokémon.",
+            "de": "Entwickle Sonnkern mit einem Sonnenstein. Erhältlich durch den ersten Platz beim Käferturnier.",
+            "es": "Evoluciona a Sunkern con una Piedra Solar. Se obtiene al quedar primero en el Concurso de Captura de Bichos."
+          }
+        }
+      ]
+    }
+  }
+}
