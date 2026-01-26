@@ -1,0 +1,72 @@
+{
+  "dex": 201,
+  "slug": "unown",
+
+  "names": {
+    "en": "Unown",
+    "ja": "アンノーン",
+    "fr": "Zarbi",
+    "de": "Icognito",
+    "es": "Unown"
+  },
+
+  "types": ["psychic"],
+
+  "evolution": {
+    "family": ["unown"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph"],
+          "notes": {
+            "en": "Found in the Ruins of Alph.",
+            "ja": "アルフのいせきで しゅつげん。",
+            "fr": "Se trouve dans les Ruines d’Alpha.",
+            "de": "In den Alph-Ruinen fangbar.",
+            "es": "Se encuentra en las Ruinas Alfa."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph"],
+          "notes": {
+            "en": "Found in the Ruins of Alph.",
+            "ja": "アルフのいせきで しゅつげん。",
+            "fr": "Se trouve dans les Ruines d’Alpha.",
+            "de": "In den Alph-Ruinen fangbar.",
+            "es": "Se encuentra en las Ruinas Alfa."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph"],
+          "notes": {
+            "en": "Found in the Ruins of Alph.",
+            "ja": "アルフのいせきで しゅつげん。",
+            "fr": "Se trouve dans les Ruines d’Alpha.",
+            "de": "In den Alph-Ruinen fangbar.",
+            "es": "Se encuentra en las Ruinas Alfa."
+          }
+        }
+      ]
+    }
+  }
+}
