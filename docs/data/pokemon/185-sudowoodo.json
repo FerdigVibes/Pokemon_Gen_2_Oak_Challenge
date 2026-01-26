@@ -1,0 +1,75 @@
+{
+  "dex": 185,
+  "slug": "sudowoodo",
+
+  "names": {
+    "en": "Sudowoodo",
+    "ja": "ウソッキー",
+    "fr": "Simularbre",
+    "de": "Mogelbaum",
+    "es": "Sudowoodo"
+  },
+
+  "types": ["rock"],
+
+  "evolution": {
+    "family": ["bonsly", "sudowoodo"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "locations": ["Route 36"],
+          "requirements": ["SquirtBottle"],
+          "notes": {
+            "en": "Static encounter on Route 36. Requires the SquirtBottle from the Flower Shop next to Goldenrod Gym.",
+            "ja": "36ばんどうろで こていで しゅつげん。コガネシティの くさやさんで もらえる じょうろが ひつよう。",
+            "fr": "Rencontre fixe sur la Route 36. Nécessite le Carapuceur obtenu à la Fleuriste près de l’Arène de Doublonville.",
+            "de": "Statische Begegnung auf Route 36. Benötigt die Schiggykanne aus dem Blumenladen neben der Arena von Dukatia City.",
+            "es": "Encuentro fijo en la Ruta 36. Requiere la Regadera del Florista junto al Gimnasio de Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "locations": ["Route 36"],
+          "requirements": ["SquirtBottle"],
+          "notes": {
+            "en": "Static encounter on Route 36. Requires the SquirtBottle from the Flower Shop next to Goldenrod Gym.",
+            "ja": "36ばんどうろで こていで しゅつげん。コガネシティの くさやさんで もらえる じょうろが ひつよう。",
+            "fr": "Rencontre fixe sur la Route 36. Nécessite le Carapuceur obtenu à la Fleuriste près de l’Arène de Doublonville.",
+            "de": "Statische Begegnung auf Route 36. Benötigt die Schiggykanne aus dem Blumenladen neben der Arena von Dukatia City.",
+            "es": "Encuentro fijo en la Ruta 36. Requiere la Regadera del Florista junto al Gimnasio de Ciudad Trigal."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "static",
+          "locations": ["Route 36"],
+          "requirements": ["SquirtBottle"],
+          "notes": {
+            "en": "Static encounter on Route 36. Requires the SquirtBottle from the Flower Shop next to Goldenrod Gym.",
+            "ja": "36ばんどうろで こていで しゅつげん。コガネシティの くさやさんで もらえる じょうろが ひつよう。",
+            "fr": "Rencontre fixe sur la Route 36. Nécessite le Carapuceur obtenu à la Fleuriste près de l’Arène de Doublonville.",
+            "de": "Statische Begegnung auf Route 36. Benötigt die Schiggykanne aus dem Blumenladen neben der Arena von Dukatia City.",
+            "es": "Encuentro fijo en la Ruta 36. Requiere la Regadera del Florista junto al Gimnasio de Ciudad Trigal."
+          }
+        }
+      ]
+    }
+  }
+}
