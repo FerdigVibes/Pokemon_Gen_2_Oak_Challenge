@@ -1,0 +1,72 @@
+{
+  "dex": 206,
+  "slug": "dunsparce",
+
+  "names": {
+    "en": "Dunsparce",
+    "ja": "ノコッチ",
+    "fr": "Insolourdo",
+    "de": "Dummisel",
+    "es": "Dunsparce"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["dunsparce"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "notes": {
+            "en": "Rare 1% encounter rate in Dark Cave.",
+            "ja": "くらやみのどうくつで 1％の かくりつで しゅつげん。",
+            "fr": "Apparaît avec un taux de 1 % dans la Grotte Noire.",
+            "de": "Erscheint mit einer Rate von 1 % in der Dunkelhöhle.",
+            "es": "Aparece con una probabilidad del 1 % en la Cueva Oscura."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "notes": {
+            "en": "Rare 1% encounter rate in Dark Cave.",
+            "ja": "くらやみのどうくつで 1％の かくりつで しゅつげん。",
+            "fr": "Apparaît avec un taux de 1 % dans la Grotte Noire.",
+            "de": "Erscheint mit einer Rate von 1 % in der Dunkelhöhle.",
+            "es": "Aparece con una probabilidad del 1 % en la Cueva Oscura."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "notes": {
+            "en": "Rare 1% encounter rate in Dark Cave.",
+            "ja": "くらやみのどうくつで 1％の かくりつで しゅつげん。",
+            "fr": "Apparaît avec un taux de 1 % dans la Grotte Noire.",
+            "de": "Erscheint mit einer Rate von 1 % in der Dunkelhöhle.",
+            "es": "Aparece con una probabilidad del 1 % en la Cueva Oscura."
+          }
+        }
+      ]
+    }
+  }
+}
