@@ -1,0 +1,56 @@
+{
+  "dex": 225,
+  "slug": "delibird",
+
+  "names": {
+    "en": "Delibird",
+    "ja": "デリバード",
+    "fr": "Cadoizo",
+    "de": "Botogel",
+    "es": "Delibird"
+  },
+
+  "types": ["ice", "flying"],
+
+  "evolution": {
+    "family": ["delibird"],
+    "stage": 1
+  },
+
+  "games": {
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "notes": {
+            "en": "Found in the Ice Path.",
+            "ja": "こおりのぬけみちで しゅつげん。",
+            "fr": "Se trouve dans le Passage de Glace.",
+            "de": "Im Eispfad fangbar.",
+            "es": "Se encuentra en la Senda Helada."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ice Path"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found in the Ice Path at night only.",
+            "ja": "よるのみ こおりのぬけみちで しゅつげん。",
+            "fr": "Se trouve dans le Passage de Glace uniquement la nuit.",
+            "de": "Im Eispfad nur nachts anzutreffen.",
+            "es": "Se encuentra en la Senda Helada solo por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
