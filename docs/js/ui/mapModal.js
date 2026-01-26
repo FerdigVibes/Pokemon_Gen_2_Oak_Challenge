@@ -33,7 +33,7 @@ export function openMap({ gameId, locations }) {
     console.warn('[MapModal] No resolvable locations:', locations);
     return;
   }
-
+  
   // Use the FIRST location to choose map
   const mapKey = resolved[0].map;
   const mapSrc = MAP_IMAGES[mapKey];
@@ -68,6 +68,18 @@ export function openMap({ gameId, locations }) {
     );
   });
 }
+
+function resolveLocationKey(locationName, gameId) {
+  const region =
+    gameId.startsWith('crystal') || gameId.startsWith('gold') || gameId.startsWith('silver')
+      ? 'johto'
+      : 'kanto';
+
+  const key = `${region}:${locationName}`;
+
+  return LOCATION_REGISTRY[key] ? key : null;
+}
+
 
 /* ================= CLOSE HANDLING ================= */
 
