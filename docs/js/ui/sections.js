@@ -216,67 +216,6 @@ function applyPokemonAvailabilityState(row, caught, availableNow, timeGated = fa
   }
 }
 
-function applyMoonStoneLocks(gameId) {
-  const rows = document.querySelectorAll('.pokemon-row');
-
-  const groupsByDex = {};
-
-  rows.forEach(row => {
-    const sectionId =
-      row.closest('.section-block')?.dataset.sectionId;
-
-    if (!MOON_STONE_SECTIONS.has(sectionId)) return;
-
-    const dex = Number(row.dataset.dex);
-    if (!groupsByDex[dex]) groupsByDex[dex] = [];
-    groupsByDex[dex].push(row);
-  });
-
-  Object.values(groupsByDex).forEach(group => {
-    if (group.length < 2) return;
-
-    // 🔑 Find resolver by DOM state, not global caught state
-    const resolvedRow = group.find(row =>
-      row.classList.contains('is-caught')
-    );
-
-    group.forEach(row => {
-      row.classList.remove('is-counterpart-locked');
-
-      if (!resolvedRow) return;
-
-      // Lock ONLY the opposite row
-      if (row !== resolvedRow) {
-        row.classList.add('is-counterpart-locked');
-      }
-    });
-  });
-}
-
-function applyMoonStoneSectionCapacity(sectionBlock) {
-  const sectionId = sectionBlock.dataset.sectionId;
-  if (sectionId !== 'MOON_STONE_1') return;
-
-  const gameId = sectionBlock.dataset.gameId;
-  const rows = Array.from(sectionBlock.querySelectorAll('.pokemon-row'));
-
-  const caughtRows = rows.filter(row =>
-    isCaught(gameId, Number(row.dataset.dex))
-  );
-
-  const capacityReached = caughtRows.length >= 2;
-
-  rows.forEach(row => {
-    row.classList.remove('is-capacity-locked');
-
-    if (isCaught(gameId, Number(row.dataset.dex))) return;
-
-    if (capacityReached) {
-      row.classList.add('is-capacity-locked');
-    }
-  });
-}
-
 function applyMoonStoneLogic(game) {
   const config = game.moonStone;
   if (!config) return;
@@ -287,7 +226,7 @@ function applyMoonStoneLogic(game) {
   // Collect all Moon Stone rows
   const rows = [...document.querySelectorAll('.pokemon-row')]
     .filter(r =>
-      pool.includes(r.dataset.slug) &&
+      pool.includes(Number(r.dataset.dex)) &&
       sections[r.closest('.section-block')?.dataset.sectionId]
     );
 
@@ -347,14 +286,6 @@ window.addEventListener('caught-changed', () => {
 
     if (section.dataset.sectionId === 'STARTER') {
       applyStarterExclusivity(section, section.dataset.gameId);
-    }
-
-    if (window.__CURRENT_GAME__) {
-      applyMoonStoneLogic(window.__CURRENT_GAME__.data);
-    }
-
-    if (section.dataset.sectionId === 'MOON_STONE_1') {
-      applyMoonStoneSectionCapacity(section);
     }
   });
 
@@ -552,13 +483,11 @@ export function renderSections({ game, pokemon }) {
       applyStarterExclusivity(sectionBlock, game.id);
     }
 
-    // Initial Moon Stone evaluation after render
-    if (game) {
-      applyMoonStoneLogic(game);
-    }
-
     sectionBlock.append(header, sectionRows);
     container.appendChild(sectionBlock);
+
+    // After all sections rendered
+    applyMoonStoneLogic(game);
 
     updateSectionCounter(sectionBlock);
   });
