@@ -1,0 +1,70 @@
+{
+  "dex": 219,
+  "slug": "magcargo",
+
+  "names": {
+    "en": "Magcargo",
+    "ja": "マグカルゴ",
+    "fr": "Volcaropod",
+    "de": "Magcargo",
+    "es": "Magcargo"
+  },
+
+  "types": ["fire", "rock"],
+
+  "evolution": {
+    "family": ["slugma", "magcargo"],
+    "stage": 2,
+    "evolvesFrom": "slugma"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slugma at level 38.",
+            "ja": "マグマッグが レベル38で しんかする。",
+            "fr": "Évolue de Limagma au niveau 38.",
+            "de": "Entwickelt sich aus Schneckmag auf Level 38.",
+            "es": "Evoluciona de Slugma al nivel 38."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slugma at level 38.",
+            "ja": "マグマッグが レベル38で しんかする。",
+            "fr": "Évolue de Limagma au niveau 38.",
+            "de": "Entwickelt sich aus Schneckmag auf Level 38.",
+            "es": "Evoluciona de Slugma al nivel 38."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Slugma at level 38.",
+            "ja": "マグマッグが レベル38で しんかする。",
+            "fr": "Évolue de Limagma au niveau 38.",
+            "de": "Entwickelt sich aus Schneckmag auf Level 38.",
+            "es": "Evoluciona de Slugma al nivel 38."
+          }
+        }
+      ]
+    }
+  }
+}
