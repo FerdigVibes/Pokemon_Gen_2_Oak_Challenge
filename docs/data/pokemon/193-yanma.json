@@ -1,0 +1,108 @@
+{
+  "dex": 193,
+  "slug": "yanma",
+
+  "names": {
+    "en": "Yanma",
+    "ja": "ヤンヤンマ",
+    "fr": "Yanma",
+    "de": "Yanma",
+    "es": "Yanma"
+  },
+
+  "types": ["bug", "flying"],
+
+  "evolution": {
+    "family": ["yanma", "yanmega"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 35"],
+          "notes": {
+            "en": "1% encounter rate on Route 35. Encounter rate increases significantly during a swarm.",
+            "ja": "35ばんどうろで 1%の かくりつで しゅつげん。たいりょうはっせいちゅうは でやすくなる。",
+            "fr": "Taux d’apparition de 1 % sur la Route 35. Le taux augmente fortement lors d’une invasion.",
+            "de": "1%-Begegnungsrate auf Route 35. Während eines Schwarms deutlich häufiger.",
+            "es": "Aparece con un 1 % de probabilidad en la Ruta 35. La tasa aumenta durante una invasión."
+          }
+        },
+        {
+          "method": "swarm",
+          "trigger": "Fisherman Ralph",
+          "locations": ["Route 35"],
+          "notes": {
+            "en": "During a swarm triggered by Fisherman Ralph on Route 32, Yanma appears much more frequently on Route 35.",
+            "ja": "32ばんどうろの つりびと・ラルフから たいりょうはっせいの れんらくを うけると、35ばんどうろで でやすくなる。",
+            "fr": "Lors d’une invasion annoncée par le Pêcheur Ralph sur la Route 32, Yanma apparaît beaucoup plus souvent sur la Route 35.",
+            "de": "Bei einem von Angler Ralph (Route 32) angekündigten Schwarm erscheint Yanma auf Route 35 deutlich häufiger.",
+            "es": "Durante una invasión anunciada por el Pescador Ralph en la Ruta 32, Yanma aparece con mucha más frecuencia en la Ruta 35."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 35"],
+          "notes": {
+            "en": "1% encounter rate on Route 35. Encounter rate increases significantly during a swarm.",
+            "ja": "35ばんどうろで 1%の かくりつで しゅつげん。たいりょうはっせいちゅうは でやすくなる。",
+            "fr": "Taux d’apparition de 1 % sur la Route 35. Le taux augmente fortement lors d’une invasion.",
+            "de": "1%-Begegnungsrate auf Route 35. Während eines Schwarms deutlich häufiger.",
+            "es": "Aparece con un 1 % de probabilidad en la Ruta 35. La tasa aumenta durante una invasión."
+          }
+        },
+        {
+          "method": "swarm",
+          "trigger": "Fisherman Ralph",
+          "locations": ["Route 35"],
+          "notes": {
+            "en": "During a swarm triggered by Fisherman Ralph on Route 32, Yanma appears much more frequently on Route 35.",
+            "ja": "32ばんどうろの つりびと・ラルフから たいりょうはっせいの れんらくを うけると、35ばんどうろで でやすくなる。",
+            "fr": "Lors d’une invasion annoncée par le Pêcheur Ralph sur la Route 32, Yanma apparaît beaucoup plus souvent sur la Route 35.",
+            "de": "Bei einem von Angler Ralph (Route 32) angekündigten Schwarm erscheint Yanma auf Route 35 deutlich häufiger.",
+            "es": "Durante una invasión anunciada por el Pescador Ralph en la Ruta 32, Yanma aparece con mucha más frecuencia en la Ruta 35."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 35"],
+          "notes": {
+            "en": "1% encounter rate on Route 35. Encounter rate increases significantly during a swarm.",
+            "ja": "35ばんどうろで 1%の かくりつで しゅつげん。たいりょうはっせいちゅうは でやすくなる。",
+            "fr": "Taux d’apparition de 1 % sur la Route 35. Le taux augmente fortement lors d’une invasion.",
+            "de": "1%-Begegnungsrate auf Route 35. Während eines Schwarms deutlich häufiger.",
+            "es": "Aparece con un 1 % de probabilidad en la Ruta 35. La tasa aumenta durante una invasión."
+          }
+        },
+        {
+          "method": "swarm",
+          "trigger": "Fisherman Ralph",
+          "locations": ["Route 35"],
+          "notes": {
+            "en": "During a swarm triggered by Fisherman Ralph on Route 32, Yanma appears much more frequently on Route 35.",
+            "ja": "32ばんどうろの つりびと・ラルフから たいりょうはっせいの れんらくを うけると、35ばんどうろで でやすくなる。",
+            "fr": "Lors d’une invasion annoncée par le Pêcheur Ralph sur la Route 32, Yanma apparaît beaucoup plus souvent sur la Route 35.",
+            "de": "Bei einem von Angler Ralph (Route 32) angekündigten Schwarm erscheint Yanma auf Route 35 deutlich häufiger.",
+            "es": "Durante una invasión anunciada por el Pescador Ralph en la Ruta 32, Yanma aparece con mucha más frecuencia en la Ruta 35."
+          }
+        }
+      ]
+    }
+  }
+}
