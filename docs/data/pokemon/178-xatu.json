@@ -1,0 +1,70 @@
+{
+  "dex": 178,
+  "slug": "xatu",
+
+  "names": {
+    "en": "Xatu",
+    "ja": "ネイティオ",
+    "fr": "Xatu",
+    "de": "Xatu",
+    "es": "Xatu"
+  },
+
+  "types": ["psychic", "flying"],
+
+  "evolution": {
+    "family": ["natu", "xatu"],
+    "stage": 2,
+    "evolvesFrom": "natu"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Natu at Lv. 25.",
+            "ja": "ネイティを レベル25で しんか。",
+            "fr": "Faites évoluer Natu au niveau 25.",
+            "de": "Entwickle Natu auf Level 25.",
+            "es": "Evoluciona a Natu al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Natu at Lv. 25.",
+            "ja": "ネイティを レベル25で しんか。",
+            "fr": "Faites évoluer Natu au niveau 25.",
+            "de": "Entwickle Natu auf Level 25.",
+            "es": "Evoluciona a Natu al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Natu at Lv. 25.",
+            "ja": "ネイティを レベル25で しんか。",
+            "fr": "Faites évoluer Natu au niveau 25.",
+            "de": "Entwickle Natu auf Level 25.",
+            "es": "Evoluciona a Natu al nivel 25."
+          }
+        }
+      ]
+    }
+  }
+}
