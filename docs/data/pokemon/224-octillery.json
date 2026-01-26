@@ -1,0 +1,54 @@
+{
+  "dex": 224,
+  "slug": "octillery",
+
+  "names": {
+    "en": "Octillery",
+    "ja": "オクタン",
+    "fr": "Octillery",
+    "de": "Octillery",
+    "es": "Octillery"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["remoraid", "octillery"],
+    "stage": 2,
+    "evolvesFrom": "remoraid"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Remoraid at level 25.",
+            "ja": "テッポウオが レベル25で しんかする。",
+            "fr": "Évolue de Rémoraid au niveau 25.",
+            "de": "Entwickelt sich aus Remoraid auf Level 25.",
+            "es": "Evoluciona de Remoraid al nivel 25."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Remoraid at level 25.",
+            "ja": "テッポウオが レベル25で しんかする。",
+            "fr": "Évolue de Rémoraid au niveau 25.",
+            "de": "Entwickelt sich aus Remoraid auf Level 25.",
+            "es": "Evoluciona de Remoraid al nivel 25."
+          }
+        }
+      ]
+    }
+  }
+}
