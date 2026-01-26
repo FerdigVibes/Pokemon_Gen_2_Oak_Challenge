@@ -1,0 +1,70 @@
+{
+  "dex": 248,
+  "slug": "tyranitar",
+
+  "names": {
+    "en": "Tyranitar",
+    "ja": "バンギラス",
+    "fr": "Tyranocif",
+    "de": "Despotar",
+    "es": "Tyranitar"
+  },
+
+  "types": ["rock", "dark"],
+
+  "evolution": {
+    "family": ["larvitar", "pupitar", "tyranitar"],
+    "stage": 3,
+    "evolvesFrom": "pupitar"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pupitar at level 55.",
+            "ja": "サナギラスが レベル55で しんかする。",
+            "fr": "Évolue de Ymphect au niveau 55.",
+            "de": "Entwickelt sich aus Pupitar auf Level 55.",
+            "es": "Evoluciona de Pupitar al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pupitar at level 55.",
+            "ja": "サナギラスが レベル55で しんかする。",
+            "fr": "Évolue de Ymphect au niveau 55.",
+            "de": "Entwickelt sich aus Pupitar auf Level 55.",
+            "es": "Evoluciona de Pupitar al nivel 55."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pupitar at level 55.",
+            "ja": "サナギラスが レベル55で しんかする。",
+            "fr": "Évolue de Ymphect au niveau 55.",
+            "de": "Entwickelt sich aus Pupitar auf Level 55.",
+            "es": "Evoluciona de Pupitar al nivel 55."
+          }
+        }
+      ]
+    }
+  }
+}
