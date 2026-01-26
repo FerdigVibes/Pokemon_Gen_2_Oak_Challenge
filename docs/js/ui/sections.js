@@ -227,32 +227,41 @@ function applyPokemonAvailabilityState(row, caught, availableNow, timeGated = fa
 function applyMoonStoneLocks(gameId) {
   const rows = document.querySelectorAll('.pokemon-row');
 
-  // Group Moon Stone Pokémon by dex
-  const byDex = {};
+  // Group Moon Stone rows by dex
+  const groupsByDex = {};
 
   rows.forEach(row => {
-    const sectionId = row.closest('.section-block')?.dataset.sectionId;
+    const sectionId =
+      row.closest('.section-block')?.dataset.sectionId;
+
     if (!MOON_STONE_SECTIONS.has(sectionId)) return;
 
     const dex = Number(row.dataset.dex);
-    if (!byDex[dex]) byDex[dex] = [];
-    byDex[dex].push(row);
+    if (!groupsByDex[dex]) groupsByDex[dex] = [];
+    groupsByDex[dex].push(row);
   });
 
-  Object.values(byDex).forEach(group => {
-    const caughtInAny = group.some(row =>
-      isCaught(gameId, Number(row.dataset.dex))
-    );
+  Object.values(groupsByDex).forEach(group => {
+    if (group.length < 2) return;
+
+    // Find which section (if any) resolved this dex
+    let resolvedSection = null;
+
+    for (const row of group) {
+      const dex = Number(row.dataset.dex);
+      if (isCaught(gameId, dex)) {
+        resolvedSection =
+          row.closest('.section-block')?.dataset.sectionId;
+        break;
+      }
+    }
 
     group.forEach(row => {
       const sectionId =
         row.closest('.section-block')?.dataset.sectionId;
 
-      // Only lock the *other* section
-      if (
-        caughtInAny &&
-        !isCaught(gameId, Number(row.dataset.dex))
-      ) {
+      // Lock ONLY the opposite section
+      if (resolvedSection && sectionId !== resolvedSection) {
         row.classList.add('is-locked');
       } else {
         row.classList.remove('is-locked');
@@ -260,6 +269,7 @@ function applyMoonStoneLocks(gameId) {
     });
   });
 }
+
 
 /* =========================================================
    React to caught changes
