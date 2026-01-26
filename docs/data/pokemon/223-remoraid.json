@@ -1,0 +1,55 @@
+{
+  "dex": 223,
+  "slug": "remoraid",
+
+  "names": {
+    "en": "Remoraid",
+    "ja": "テッポウオ",
+    "fr": "Rémoraid",
+    "de": "Remoraid",
+    "es": "Remoraid"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["remoraid", "octillery"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Caught by fishing with the Good Rod during a swarm. Fisherman Ralph on Route 32 will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、いいつりざおで つることで しゅつげんする。",
+            "fr": "Attrapable en pêchant avec la Super Canne lors d’une invasion annoncée par le Pêcheur Ralph (Route 32).",
+            "de": "Mit der Profiangel während eines Schwarms fangbar, nachdem Angler Ralph (Route 32) angerufen hat.",
+            "es": "Se captura pescando con la Supercaña durante una oleada tras la llamada del Pescador Ralph (Ruta 32)."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Caught by fishing with the Good Rod during a swarm. Fisherman Ralph on Route 32 will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、いいつりざおで つることで しゅつげんする。",
+            "fr": "Attrapable en pêchant avec la Super Canne lors d’une invasion annoncée par le Pêcheur Ralph (Route 32).",
+            "de": "Mit der Profiangel während eines Schwarms fangbar, nachdem Angler Ralph (Route 32) angerufen hat.",
+            "es": "Se captura pescando con la Supercaña durante una oleada tras la llamada del Pescador Ralph (Ruta 32)."
+          }
+        }
+      ]
+    }
+  }
+}
