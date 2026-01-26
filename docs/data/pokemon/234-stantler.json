@@ -1,0 +1,73 @@
+{
+  "dex": 234,
+  "slug": "stantler",
+
+  "names": {
+    "en": "Stantler",
+    "ja": "オドシシ",
+    "fr": "Cerfrousse",
+    "de": "Damhirplex",
+    "es": "Stantler"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["stantler"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 36"],
+          "notes": {
+            "en": "Found on Route 36.",
+            "ja": "36ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 36.",
+            "de": "Auf Route 36 fangbar.",
+            "es": "Se encuentra en la Ruta 36."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 36"],
+          "notes": {
+            "en": "Found on Route 36.",
+            "ja": "36ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 36.",
+            "de": "Auf Route 36 fangbar.",
+            "es": "Se encuentra en la Ruta 36."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 37"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found on Route 37 at night only.",
+            "ja": "よるのみ、37ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 37 uniquement la nuit.",
+            "de": "Auf Route 37 nur nachts anzutreffen.",
+            "es": "Se encuentra en la Ruta 37 solo por la noche."
+          }
+        }
+      ]
+    }
+  }
+}
