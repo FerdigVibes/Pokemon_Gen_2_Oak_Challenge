@@ -1,0 +1,72 @@
+{
+  "dex": 177,
+  "slug": "natu",
+
+  "names": {
+    "en": "Natu",
+    "ja": "ネイティ",
+    "fr": "Natu",
+    "de": "Natu",
+    "es": "Natu"
+  },
+
+  "types": ["psychic", "flying"],
+
+  "evolution": {
+    "family": ["natu", "xatu"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph (Exterior)"],
+          "notes": {
+            "en": "Found outside the Ruins of Alph. Reach the area by traveling through Union Cave.",
+            "ja": "つながりのどうくつを とおって アルフのいせきの そとで しゅつげん。",
+            "fr": "Se trouve à l’extérieur des Ruines d’Alpha. Accessible via la Grotte Sombre.",
+            "de": "Außerhalb der Alph-Ruinen fangbar. Erreichbar über die Einhöhle.",
+            "es": "Se encuentra en el exterior de las Ruinas Alfa. Se accede atravesando la Cueva Unión."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph (Exterior)"],
+          "notes": {
+            "en": "Found outside the Ruins of Alph. Reach the area by traveling through Union Cave.",
+            "ja": "つながりのどうくつを とおって アルフのいせきの そとで しゅつげん。",
+            "fr": "Se trouve à l’extérieur des Ruines d’Alpha. Accessible via la Grotte Sombre.",
+            "de": "Außerhalb der Alph-Ruinen fangbar. Erreichbar über die Einhöhle.",
+            "es": "Se encuentra en el exterior de las Ruinas Alfa. Se accede atravesando la Cueva Unión."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Ruins of Alph (Exterior)"],
+          "notes": {
+            "en": "Found outside the Ruins of Alph. Reach the area by traveling through Union Cave.",
+            "ja": "つながりのどうくつを とおって アルフのいせきの そとで しゅつげん。",
+            "fr": "Se trouve à l’extérieur des Ruines d’Alpha. Accessible via la Grotte Sombre.",
+            "de": "Außerhalb der Alph-Ruinen fangbar. Erreichbar über die Einhöhle.",
+            "es": "Se encuentra en el exterior de las Ruinas Alfa. Se accede atravesando la Cueva Unión."
+          }
+        }
+      ]
+    }
+  }
+}
