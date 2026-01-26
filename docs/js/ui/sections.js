@@ -243,22 +243,14 @@ function applyMoonStoneLocks(gameId) {
   Object.values(groupsByDex).forEach(group => {
     if (group.length < 2) return;
 
-    // Find the exact row that resolved the dex
-    let resolvedRow = null;
-
-    for (const row of group) {
-      const dex = Number(row.dataset.dex);
-      if (isCaught(gameId, dex)) {
-        resolvedRow = row;
-        break;
-      }
-    }
+    // 🔑 Find resolver by DOM state, not global caught state
+    const resolvedRow = group.find(row =>
+      row.classList.contains('is-caught')
+    );
 
     group.forEach(row => {
-      // Always clear first
       row.classList.remove('is-locked');
 
-      // If nothing resolved yet, nothing is locked
       if (!resolvedRow) return;
 
       // Lock ONLY the opposite row
