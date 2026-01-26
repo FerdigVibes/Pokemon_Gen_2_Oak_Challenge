@@ -1,0 +1,70 @@
+{
+  "dex": 210,
+  "slug": "granbull",
+
+  "names": {
+    "en": "Granbull",
+    "ja": "グランブル",
+    "fr": "Granbull",
+    "de": "Granbull",
+    "es": "Granbull"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["snubbull", "granbull"],
+    "stage": 2,
+    "evolvesFrom": "snubbull"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Snubbull at level 23.",
+            "ja": "ブルーが レベル23で しんかする。",
+            "fr": "Évolue de Snubbull au niveau 23.",
+            "de": "Entwickelt sich aus Snubbull auf Level 23.",
+            "es": "Evoluciona de Snubbull al nivel 23."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Snubbull at level 23.",
+            "ja": "ブルーが レベル23で しんかする。",
+            "fr": "Évolue de Snubbull au niveau 23.",
+            "de": "Entwickelt sich aus Snubbull auf Level 23.",
+            "es": "Evoluciona de Snubbull al nivel 23."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["GOLDENROD_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Snubbull at level 23.",
+            "ja": "ブルーが レベル23で しんかする。",
+            "fr": "Évolue de Snubbull au niveau 23.",
+            "de": "Entwickelt sich aus Snubbull auf Level 23.",
+            "es": "Evoluciona de Snubbull al nivel 23."
+          }
+        }
+      ]
+    }
+  }
+}
