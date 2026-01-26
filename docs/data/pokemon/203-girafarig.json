@@ -1,0 +1,55 @@
+{
+  "dex": 203,
+  "slug": "girafarig",
+
+  "names": {
+    "en": "Girafarig",
+    "ja": "キリンリキ",
+    "fr": "Girafarig",
+    "de": "Girafarig",
+    "es": "Girafarig"
+  },
+
+  "types": ["normal", "psychic"],
+
+  "evolution": {
+    "family": ["girafarig"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 43"],
+          "notes": {
+            "en": "Found on Route 43.",
+            "ja": "43ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 43.",
+            "de": "Auf Route 43 fangbar.",
+            "es": "Se encuentra en la Ruta 43."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 43"],
+          "notes": {
+            "en": "Found on Route 43.",
+            "ja": "43ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 43.",
+            "de": "Auf Route 43 fangbar.",
+            "es": "Se encuentra en la Ruta 43."
+          }
+        }
+      ]
+    }
+  }
+}
