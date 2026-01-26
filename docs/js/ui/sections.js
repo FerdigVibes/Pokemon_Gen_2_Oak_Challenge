@@ -277,6 +277,66 @@ function applyMoonStoneSectionCapacity(sectionBlock) {
   });
 }
 
+function applyMoonStoneLogic(game) {
+  const config = game.moonStone;
+  if (!config) return;
+
+  const { pool, sections } = config;
+  const gameId = game.id;
+
+  // Collect all Moon Stone rows
+  const rows = [...document.querySelectorAll('.pokemon-row')]
+    .filter(r =>
+      pool.includes(r.dataset.slug) &&
+      sections[r.closest('.section-block')?.dataset.sectionId]
+    );
+
+  // Group rows by section
+  const rowsBySection = {};
+  rows.forEach(row => {
+    const sectionId = row.closest('.section-block').dataset.sectionId;
+    rowsBySection[sectionId] ??= [];
+    rowsBySection[sectionId].push(row);
+  });
+
+  // Determine resolved Pokémon (caught anywhere)
+  const resolvedDex = new Set(
+    rows
+      .filter(r => isCaught(gameId, Number(r.dataset.dex)))
+      .map(r => Number(r.dataset.dex))
+  );
+
+  // Apply per-section logic
+  Object.entries(rowsBySection).forEach(([sectionId, sectionRows]) => {
+    const capacity = sections[sectionId].capacity;
+
+    const caughtHere = sectionRows.filter(r =>
+      isCaught(gameId, Number(r.dataset.dex))
+    );
+
+    sectionRows.forEach(row => {
+      row.classList.remove('is-capacity-locked', 'is-counterpart-locked');
+
+      const dex = Number(row.dataset.dex);
+
+      // Already caught → never lock
+      if (isCaught(gameId, dex)) return;
+
+      // Pokémon resolved elsewhere
+      if (resolvedDex.has(dex)) {
+        row.classList.add('is-counterpart-locked');
+        return;
+      }
+
+      // Section capacity reached
+      if (caughtHere.length >= capacity) {
+        row.classList.add('is-capacity-locked');
+      }
+    });
+  });
+}
+
+
 /* =========================================================
    React to caught changes
    ========================================================= */
