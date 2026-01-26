@@ -1,0 +1,73 @@
+{
+  "dex": 246,
+  "slug": "larvitar",
+
+  "names": {
+    "en": "Larvitar",
+    "ja": "ヨーギラス",
+    "fr": "Embrylex",
+    "de": "Larvitar",
+    "es": "Larvitar"
+  },
+
+  "types": ["rock", "ground"],
+
+  "evolution": {
+    "family": ["larvitar", "pupitar", "tyranitar"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Silver"],
+          "notes": {
+            "en": "Found in Mt. Silver.",
+            "ja": "シロガネやまで しゅつげん。",
+            "fr": "Se trouve au Mont Argenté.",
+            "de": "Im Silberberg fangbar.",
+            "es": "Se encuentra en el Monte Plateado."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["MT_SILVER_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Silver"],
+          "notes": {
+            "en": "Found in Mt. Silver.",
+            "ja": "シロガネやまで しゅつげん。",
+            "fr": "Se trouve au Mont Argenté.",
+            "de": "Im Silberberg fangbar.",
+            "es": "Se encuentra en el Monte Plateado."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "purchase",
+          "locations": ["Celadon Game Corner"],
+          "cost": "8,888 Coins",
+          "notes": {
+            "en": "Purchased at the Celadon Game Corner.",
+            "ja": "タマムシゲームコーナーで 8888コインと こうかん。",
+            "fr": "Acheté au Casino de Céladopole pour 8 888 Jetons.",
+            "de": "Im Prismania-Spielcasino für 8.888 Münzen erhältlich.",
+            "es": "Se compra en el Casino de Ciudad Azulona por 8.888 fichas."
+          }
+        }
+      ]
+    }
+  }
+}
