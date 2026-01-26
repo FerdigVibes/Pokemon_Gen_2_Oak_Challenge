@@ -264,23 +264,18 @@ function applyMoonStoneSectionCapacity(sectionBlock) {
     isCaught(gameId, Number(row.dataset.dex))
   );
 
-  // MOON_STONE_1 capacity = 2
   const capacityReached = caughtRows.length >= 2;
 
   rows.forEach(row => {
-    // Always clear first
-    row.classList.remove('is-locked');
+    row.classList.remove('is-capacity-locked');
 
-    // Never lock already caught Pokémon
     if (isCaught(gameId, Number(row.dataset.dex))) return;
 
-    // Lock remaining choices once capacity reached
     if (capacityReached) {
-      row.classList.add('is-locked');
+      row.classList.add('is-capacity-locked');
     }
   });
 }
-
 
 /* =========================================================
    React to caught changes
