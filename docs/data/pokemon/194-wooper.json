@@ -1,0 +1,99 @@
+{
+  "dex": 194,
+  "slug": "wooper",
+
+  "names": {
+    "en": "Wooper",
+    "ja": "ウパー",
+    "fr": "Axoloto",
+    "de": "Felino",
+    "es": "Wooper"
+  },
+
+  "types": ["water", "ground"],
+
+  "evolution": {
+    "family": ["wooper", "quagsire"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "time": ["night"],
+          "notes": {
+            "en": "Uncommon encounter on Route 32 at night.",
+            "ja": "32ばんどうろで よるに やや でやすい。",
+            "fr": "Rencontre peu commune la nuit sur la Route 32.",
+            "de": "Nachts auf Route 32 relativ häufig.",
+            "es": "Encuentro poco común por la noche en la Ruta 32."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Extremely rare encounter on Route 32 during the morning.",
+            "ja": "32ばんどうろで あさに ごくまれに しゅつげん。",
+            "fr": "Rencontre extrêmement rare le matin sur la Route 32.",
+            "de": "Extrem seltene Begegnung morgens auf Route 32.",
+            "es": "Encuentro extremadamente raro por la mañana en la Ruta 32."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "time": ["night"],
+          "notes": {
+            "en": "Uncommon encounter on Route 32 at night.",
+            "ja": "32ばんどうろで よるに やや でやすい。",
+            "fr": "Rencontre peu commune la nuit sur la Route 32.",
+            "de": "Nachts auf Route 32 relativ häufig.",
+            "es": "Encuentro poco común por la noche en la Ruta 32."
+          }
+        },
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Extremely rare encounter on Route 32 during the morning.",
+            "ja": "32ばんどうろで あさに ごくまれに しゅつげん。",
+            "fr": "Rencontre extrêmement rare le matin sur la Route 32.",
+            "de": "Extrem seltene Begegnung morgens auf Route 32.",
+            "es": "Encuentro extremadamente raro por la mañana en la Ruta 32."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32", "Union Cave 1F", "Union Cave 2F"],
+          "time": ["night"],
+          "notes": {
+            "en": "Found at night on Route 32 and in Union Cave (1F and 2F).",
+            "ja": "よるに 32ばんどうろ と つながりのどうくつ（1かい・2かい）で しゅつげん。",
+            "fr": "Se trouve la nuit sur la Route 32 et dans la Grotte Union (1F et 2F).",
+            "de": "Nachts auf Route 32 sowie in der Einhöhle (1F und 2F) fangbar.",
+            "es": "Se encuentra por la noche en la Ruta 32 y en la Cueva Unión (P1 y P2)."
+          }
+        }
+      ]
+    }
+  }
+}
