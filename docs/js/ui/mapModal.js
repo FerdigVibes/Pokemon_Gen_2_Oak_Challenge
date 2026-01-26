@@ -55,6 +55,18 @@ export function openMap({ gameId, locations }) {
     pinsContainer.appendChild(pin);
   });
 
+  locations.forEach(locationName => {
+    const key = `${region}:${locationName}`;
+    const data = LOCATION_REGISTRY[key];
+  
+    if (!data) {
+      console.warn('[Map] Unknown location:', key);
+      return;
+    }
+  
+    createPin(data);
+  });
+
   // Show modal
   modal.classList.remove('hidden');
 
