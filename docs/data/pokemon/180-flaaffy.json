@@ -1,0 +1,54 @@
+{
+  "dex": 180,
+  "slug": "flaaffy",
+
+  "names": {
+    "en": "Flaaffy",
+    "ja": "モココ",
+    "fr": "Lainergie",
+    "de": "Waaty",
+    "es": "Flaaffy"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["mareep", "flaaffy", "ampharos"],
+    "stage": 2,
+    "evolvesFrom": "mareep"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Mareep at Lv. 15.",
+            "ja": "メリープを レベル15で しんか。",
+            "fr": "Faites évoluer Wattouat au niveau 15.",
+            "de": "Entwickle Voltilamm auf Level 15.",
+            "es": "Evoluciona a Mareep al nivel 15."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Mareep at Lv. 15.",
+            "ja": "メリープを レベル15で しんか。",
+            "fr": "Faites évoluer Wattouat au niveau 15.",
+            "de": "Entwickle Voltilamm auf Level 15.",
+            "es": "Evoluciona a Mareep al nivel 15."
+          }
+        }
+      ]
+    }
+  }
+}
