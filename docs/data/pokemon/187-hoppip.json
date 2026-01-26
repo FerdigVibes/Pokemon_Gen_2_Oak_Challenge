@@ -1,0 +1,75 @@
+{
+  "dex": 187,
+  "slug": "hoppip",
+
+  "names": {
+    "en": "Hoppip",
+    "ja": "ハネッコ",
+    "fr": "Granivol",
+    "de": "Hoppspross",
+    "es": "Hoppip"
+  },
+
+  "types": ["grass", "flying"],
+
+  "evolution": {
+    "family": ["hoppip", "skiploom", "jumpluff"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32", "Route 33"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Low encounter rate during the morning and daytime on Routes 32 and 33.",
+            "ja": "32ばんどうろ と 33ばんどうろで あさ・ひるに まれに しゅつげん。",
+            "fr": "Rencontre peu fréquente le matin et le jour sur les Routes 32 et 33.",
+            "de": "Seltene Begegnung morgens und tagsüber auf Route 32 und 33.",
+            "es": "Encuentro poco frecuente por la mañana y durante el día en las Rutas 32 y 33."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32", "Route 33"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Low encounter rate during the morning and daytime on Routes 32 and 33.",
+            "ja": "32ばんどうろ と 33ばんどうろで あさ・ひるに まれに しゅつげん。",
+            "fr": "Rencontre peu fréquente le matin et le jour sur les Routes 32 et 33.",
+            "de": "Seltene Begegnung morgens und tagsüber auf Route 32 und 33.",
+            "es": "Encuentro poco frecuente por la mañana y durante el día en las Rutas 32 y 33."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 29", "Route 30", "Route 31"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Extremely rare encounter during the morning and daytime on Routes 29, 30, and 31.",
+            "ja": "29ばん・30ばん・31ばんどうろで あさ・ひるに ごくまれに しゅつげん。",
+            "fr": "Rencontre extrêmement rare le matin et le jour sur les Routes 29, 30 et 31.",
+            "de": "Extrem seltene Begegnung morgens und tagsüber auf Route 29, 30 und 31.",
+            "es": "Encuentro extremadamente raro por la mañana y durante el día en las Rutas 29, 30 y 31."
+          }
+        }
+      ]
+    }
+  }
+}
