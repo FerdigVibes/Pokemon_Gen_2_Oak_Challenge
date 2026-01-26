@@ -2,6 +2,11 @@
 
 import { LOCATION_REGISTRY } from '../../data/maps/locations.js';
 
+const modal = document.getElementById('map-modal');
+const mapImage = document.getElementById('map-image');
+const mapPins = document.getElementById('map-pins');
+const mapContainer = document.querySelector('#map-modal .map-container');
+
 const MAP_IMAGES = {
   johto: './assets/maps/johto.jpeg',
   kanto: './assets/maps/kanto.png'
