@@ -4,6 +4,7 @@ import { playPokemonCry } from './cry.js';
 import { getLanguage } from '../state/language.js';
 import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
+import { openMap } from './mapModal.js';
 
 let currentSelection = null; // { pokemon, game }
 
@@ -205,6 +206,18 @@ function renderObtainEntry(o, lang) {
   const time = Array.isArray(timeRaw) ? timeRaw.join(', ') : timeRaw;
 
   const notes = resolveLangField(o.notes, lang);
+
+  const locations = entry.obtain?.flatMap(o => o.locations ?? []);
+
+  if (locations.length) {
+   const mapBtn = document.createElement('button');
+   mapBtn.className = 'map-button';
+   mapBtn.textContent = 'View Map';
+   mapBtn.onclick = () => openMap(locations);
+   
+   detailPanel.appendChild(mapBtn);
+  }
+
 
   return `
     <li style="margin-bottom:8px;">
