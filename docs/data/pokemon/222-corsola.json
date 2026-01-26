@@ -1,0 +1,73 @@
+{
+  "dex": 222,
+  "slug": "corsola",
+
+  "names": {
+    "en": "Corsola",
+    "ja": "サニーゴ",
+    "fr": "Corayon",
+    "de": "Corasonn",
+    "es": "Corsola"
+  },
+
+  "types": ["water", "rock"],
+
+  "evolution": {
+    "family": ["corsola"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cherrygrove City", "Olivine City", "Route 34", "Route 40"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod.",
+            "ja": "いいつりざおで つると しゅつげんする。",
+            "fr": "Peut être rencontré en pêchant avec la Super Canne.",
+            "de": "Mit der Profiangel fangbar.",
+            "es": "Se encuentra pescando con la Supercaña."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cherrygrove City", "Olivine City", "Route 34", "Route 40"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod.",
+            "ja": "いいつりざおで つると しゅつげんする。",
+            "fr": "Peut être rencontré en pêchant avec la Super Canne.",
+            "de": "Mit der Profiangel fangbar.",
+            "es": "Se encuentra pescando con la Supercaña."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Cherrygrove City", "Olivine City", "Route 34", "Route 40"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Found by fishing with the Good Rod during the morning and daytime.",
+            "ja": "あさ・ひるに いいつりざおで つると しゅつげんする。",
+            "fr": "Peut être rencontré le matin et la journée en pêchant avec la Super Canne.",
+            "de": "Mit der Profiangel am Morgen und tagsüber fangbar.",
+            "es": "Se encuentra pescando con la Supercaña por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
