@@ -155,7 +155,23 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
        : '<p>—</p>'}
     </div>
   `;
-
+  // ================= MAP BUTTON WIRING =================
+  const allLocations = obtain.flatMap(o => o.locations ?? []);
+   
+  if (allLocations.length) {
+   const mapBtn = document.createElement('button');
+   mapBtn.className = 'map-button';
+   mapBtn.textContent = t('detail.viewMap') || 'View Map';
+   
+   mapBtn.addEventListener('click', () => {
+    openMap({
+     gameId: normalizeGameId(gameData.id),
+     locations: allLocations
+    });
+   });
+   
+   panel.querySelector('.obtain-section')?.appendChild(mapBtn);
+  }
   const shinyToggle = document.getElementById('shiny-toggle');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
@@ -195,29 +211,16 @@ function renderObtainMethods(obtain, lang) {
 }
 
 function renderObtainEntry(o, lang) {
-  console.log('[renderObtainEntry]', { o, lang, notes: resolveLangField(o.notes, lang) });
   const method = o.method ? t(`methods.${o.method}`) : '';
 
   const locations = Array.isArray(o.locations)
     ? o.locations.map(l => resolveLangField(l, lang)).join(', ')
-    : resolveLangField(o.location, lang);
+    : '';
 
   const timeRaw = resolveLangField(o.time, lang);
   const time = Array.isArray(timeRaw) ? timeRaw.join(', ') : timeRaw;
 
   const notes = resolveLangField(o.notes, lang);
-
-  const locations = entry.obtain?.flatMap(o => o.locations ?? []);
-
-  if (locations.length) {
-   const mapBtn = document.createElement('button');
-   mapBtn.className = 'map-button';
-   mapBtn.textContent = 'View Map';
-   mapBtn.onclick = () => openMap(locations);
-   
-   detailPanel.appendChild(mapBtn);
-  }
-
 
   return `
     <li style="margin-bottom:8px;">
