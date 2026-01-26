@@ -289,6 +289,10 @@ window.addEventListener('caught-changed', () => {
       applyStarterExclusivity(section, section.dataset.gameId);
     }
 
+    if (window.__CURRENT_GAME__) {
+      applyMoonStoneLogic(window.__CURRENT_GAME__.data);
+    }
+
     if (section.dataset.sectionId === 'MOON_STONE_1') {
       applyMoonStoneSectionCapacity(section);
     }
