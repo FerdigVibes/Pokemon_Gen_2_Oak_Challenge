@@ -25,7 +25,10 @@ export function openMap({ gameId, locations }) {
   pinsContainer.innerHTML = '';
 
   const resolved = locations
-    .map(loc => LOCATION_REGISTRY[loc])
+    .map(loc => {
+      const key = resolveLocationKey(loc, gameId);
+      return key ? LOCATION_REGISTRY[key] : null;
+    })
     .filter(Boolean);
 
   if (!resolved.length) {
