@@ -86,14 +86,6 @@ function updateSectionCounter(sectionBlock) {
     caughtCount = Array.from(rows).filter(row => {
       const dex = Number(row.dataset.dex);
     
-      // If this is a Moon Stone section AND the dex was already resolved elsewhere,
-      // do NOT count this row at all
-      if (
-        MOON_STONE_SECTIONS.has(sectionId) &&
-        isMoonStoneDexResolved(gameId, dex)
-      ) {
-        return false;
-      }
       if (row.classList.contains('is-locked')) {
         return false;
       }
