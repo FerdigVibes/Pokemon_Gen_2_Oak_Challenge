@@ -776,40 +776,44 @@
   pointer-events: none;
 }
 
+.map-modal.hidden {
+  display: none;
+}
+
 .map-modal {
   position: fixed;
   inset: 0;
-  z-index: 2000;
-}
-
-.map-modal.hidden {
-  display: none;
+  z-index: 1000;
 }
 
 .map-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.6);
 }
 
 .map-window {
-  position: absolute;
-  inset: 5%;
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  margin: 5vh auto;
   background: #111;
   border-radius: 12px;
-  overflow: hidden;
+  padding: 12px;
 }
 
 .map-container {
   position: relative;
-  width: 100%;
-  height: 100%;
 }
 
-.map-container img {
+#map-image {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  display: block;
+}
+
+#map-pins {
+  position: absolute;
+  inset: 0;
 }
 
 .map-pin {
@@ -819,13 +823,6 @@
   background: red;
   border-radius: 50%;
   transform: translate(-50%, -100%);
-  box-shadow: 0 0 8px rgba(255,0,0,0.6);
-}
-
-.map-close {
-  position: absolute;
-  top: 8px;
-  right: 12px;
-  font-size: 24px;
+  box-shadow: 0 0 6px black;
 }
 
