@@ -1,0 +1,72 @@
+{
+  "dex": 190,
+  "slug": "aipom",
+
+  "names": {
+    "en": "Aipom",
+    "ja": "エイパム",
+    "fr": "Capumain",
+    "de": "Griffel",
+    "es": "Aipom"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["aipom", "ambipom"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 29", "Route 30", "Route 31", "Route 32", "Route 33"],
+          "notes": {
+            "en": "Found by headbutting trees on Routes 29, 30, 31, 32, and 33.",
+            "ja": "29〜33ばんどうろの きに ずつきをして しゅつげん。",
+            "fr": "Se trouve en donnant des coups de tête aux arbres sur les Routes 29 à 33.",
+            "de": "Durch Kopfnuss an Bäumen auf Route 29 bis 33 fangbar.",
+            "es": "Se obtiene golpeando árboles en las Rutas 29 a 33."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 29", "Route 30", "Route 31", "Route 32", "Route 33"],
+          "notes": {
+            "en": "Found by headbutting trees on Routes 29, 30, 31, 32, and 33.",
+            "ja": "29〜33ばんどうろの きに ずつきをして しゅつげん。",
+            "fr": "Se trouve en donnant des coups de tête aux arbres sur les Routes 29 à 33.",
+            "de": "Durch Kopfnuss an Bäumen auf Route 29 bis 33 fangbar.",
+            "es": "Se obtiene golpeando árboles en las Rutas 29 a 33."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "headbutt",
+          "locations": ["Route 33"],
+          "notes": {
+            "en": "Found by headbutting trees on Route 33.",
+            "ja": "33ばんどうろの きに ずつきをして しゅつげん。",
+            "fr": "Se trouve en donnant des coups de tête aux arbres sur la Route 33.",
+            "de": "Durch Kopfnuss an Bäumen auf Route 33 fangbar.",
+            "es": "Se obtiene golpeando árboles en la Ruta 33."
+          }
+        }
+      ]
+    }
+  }
+}
