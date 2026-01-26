@@ -4,6 +4,14 @@
   "generation": 2,
   "totalPokemon": 199,
 
+  "moonStone": {
+    "pool": ["nidorina", "nidorino"],
+    "sections": {
+      "MOON_STONE_1": { "capacity": 1 },
+      "MOON_STONE_2": { "capacity": 1 }
+    }
+  },
+
   "regionalDex": {
     "152": 1,
     "153": 2,
