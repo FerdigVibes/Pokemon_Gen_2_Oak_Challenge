@@ -1,0 +1,73 @@
+{
+  "dex": 216,
+  "slug": "teddiursa",
+
+  "names": {
+    "en": "Teddiursa",
+    "ja": "ヒメグマ",
+    "fr": "Teddiursa",
+    "de": "Teddiursa",
+    "es": "Teddiursa"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["teddiursa", "ursaring"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 45"],
+          "notes": {
+            "en": "Found on Route 45 at a very low encounter rate.",
+            "ja": "45ばんどうろで ごくていかくりつで しゅつげんする。",
+            "fr": "Apparaît sur la Route 45 avec un taux de rencontre très faible.",
+            "de": "Erscheint auf Route 45 mit sehr niedriger Begegnungsrate.",
+            "es": "Aparece en la Ruta 45 con una tasa de encuentro muy baja."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 45"],
+          "notes": {
+            "en": "Found on Route 45 at a very low encounter rate.",
+            "ja": "45ばんどうろで ごくていかくりつで しゅつげんする。",
+            "fr": "Apparaît sur la Route 45 avec un taux de rencontre très faible.",
+            "de": "Erscheint auf Route 45 mit sehr niedriger Begegnungsrate.",
+            "es": "Aparece en la Ruta 45 con una tasa de encuentro muy baja."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Dark Cave"],
+          "time": ["morning"],
+          "notes": {
+            "en": "Very rare encounter in Dark Cave during the morning only.",
+            "ja": "あさのみ、くらやみのどうくつで ごくまれに しゅつげんする。",
+            "fr": "Rencontre très rare dans la Grotte Noire le matin uniquement.",
+            "de": "Sehr seltene Begegnung in der Dunkelhöhle nur am Morgen.",
+            "es": "Encuentro muy raro en la Cueva Oscura solo por la mañana."
+          }
+        }
+      ]
+    }
+  }
+}
