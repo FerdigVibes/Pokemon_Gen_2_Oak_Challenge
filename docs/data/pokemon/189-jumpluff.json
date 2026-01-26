@@ -1,0 +1,70 @@
+{
+  "dex": 189,
+  "slug": "jumpluff",
+
+  "names": {
+    "en": "Jumpluff",
+    "ja": "ワタッコ",
+    "fr": "Cotovol",
+    "de": "Papungha",
+    "es": "Jumpluff"
+  },
+
+  "types": ["grass", "flying"],
+
+  "evolution": {
+    "family": ["hoppip", "skiploom", "jumpluff"],
+    "stage": 3,
+    "evolvesFrom": "skiploom"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Skiploom at Lv. 27.",
+            "ja": "ポポッコを レベル27で しんか。",
+            "fr": "Faites évoluer Floravol au niveau 27.",
+            "de": "Entwickle Hubelupf auf Level 27.",
+            "es": "Evoluciona a Skiploom al nivel 27."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Skiploom at Lv. 27.",
+            "ja": "ポポッコを レベル27で しんか。",
+            "fr": "Faites évoluer Floravol au niveau 27.",
+            "de": "Entwickle Hubelupf auf Level 27.",
+            "es": "Evoluciona a Skiploom al nivel 27."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Skiploom at Lv. 27.",
+            "ja": "ポポッコを レベル27で しんか。",
+            "fr": "Faites évoluer Floravol au niveau 27.",
+            "de": "Entwickle Hubelupf auf Level 27.",
+            "es": "Evoluciona a Skiploom al nivel 27."
+          }
+        }
+      ]
+    }
+  }
+}
