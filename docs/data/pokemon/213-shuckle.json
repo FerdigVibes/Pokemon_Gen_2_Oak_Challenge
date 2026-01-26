@@ -1,0 +1,72 @@
+{
+  "dex": 213,
+  "slug": "shuckle",
+
+  "names": {
+    "en": "Shuckle",
+    "ja": "ツボツボ",
+    "fr": "Caratroc",
+    "de": "Pottrott",
+    "es": "Shuckle"
+  },
+
+  "types": ["bug", "rock"],
+
+  "evolution": {
+    "family": ["shuckle"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "rock_smash",
+          "locations": ["Dark Cave", "Route 40"],
+          "notes": {
+            "en": "Can be encountered by using Rock Smash.",
+            "ja": "いわくだきを つかうと しゅつげんすることがある。",
+            "fr": "Peut être rencontré en utilisant Éclate-Roc.",
+            "de": "Kann durch Zertrümmerer erscheinen.",
+            "es": "Puede aparecer usando Golpe Roca."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "rock_smash",
+          "locations": ["Dark Cave", "Route 40"],
+          "notes": {
+            "en": "Can be encountered by using Rock Smash.",
+            "ja": "いわくだきを つかうと しゅつげんすることがある。",
+            "fr": "Peut être rencontré en utilisant Éclate-Roc.",
+            "de": "Kann durch Zertrümmerer erscheinen.",
+            "es": "Puede aparecer usando Golpe Roca."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "rock_smash",
+          "locations": ["Dark Cave", "Route 40"],
+          "notes": {
+            "en": "Can be encountered by using Rock Smash.",
+            "ja": "いわくだきを つかうと しゅつげんすることがある。",
+            "fr": "Peut être rencontré en utilisant Éclate-Roc.",
+            "de": "Kann durch Zertrümmerer erscheinen.",
+            "es": "Puede aparecer usando Golpe Roca."
+          }
+        }
+      ]
+    }
+  }
+}
