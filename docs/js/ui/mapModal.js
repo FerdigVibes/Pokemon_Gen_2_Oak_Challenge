@@ -1,41 +1,71 @@
+// docs/js/ui/mapModal.js
+
 import { LOCATION_REGISTRY } from '../../data/maps/locations.js';
 
-const modal = document.getElementById('map-modal');
-const mapImage = document.getElementById('map-image');
-const pinsContainer = document.getElementById('map-pins');
+const MAP_IMAGES = {
+  johto: './assets/maps/johto.jpeg',
+  kanto: './assets/maps/kanto.png'
+};
 
-document.querySelector('.map-close').onclick = closeMap;
-document.querySelector('.map-backdrop').onclick = closeMap;
+export function openMap({ gameId, locations }) {
+  const modal = document.getElementById('map-modal');
+  const img = document.getElementById('map-image');
+  const pinsContainer = document.getElementById('map-pins');
 
-export function openMap(locations = []) {
+  if (!modal || !img || !pinsContainer) {
+    console.error('[MapModal] Modal elements missing');
+    return;
+  }
+
+  // Clear old pins
   pinsContainer.innerHTML = '';
 
-  // Resolve valid locations
+  // Resolve locations → coordinates
   const resolved = locations
-    .map(l => LOCATION_REGISTRY[l])
+    .map(loc => LOCATION_REGISTRY[loc])
     .filter(Boolean);
 
-  if (!resolved.length) return;
+  if (!resolved.length) {
+    console.warn('[MapModal] No resolvable locations:', locations);
+    return;
+  }
 
-  // Determine which map to show
-  const mapType = resolved[0].map;
+  // Use the FIRST location to choose map
+  const mapKey = resolved[0].map;
+  const mapSrc = MAP_IMAGES[mapKey];
 
-  mapImage.src =
-    mapType === 'johto'
-      ? './assets/maps/johto.png'
-      : './assets/maps/kanto.png';
+  if (!mapSrc) {
+    console.error('[MapModal] Unknown map:', mapKey);
+    return;
+  }
 
-  resolved.forEach(loc => {
+  // Set map image
+  img.src = mapSrc;
+
+  // Create pins
+  resolved.forEach(({ x, y }) => {
     const pin = document.createElement('div');
     pin.className = 'map-pin';
-    pin.style.left = `${loc.x}%`;
-    pin.style.top = `${loc.y}%`;
+    pin.style.left = `${x}%`;
+    pin.style.top = `${y}%`;
     pinsContainer.appendChild(pin);
   });
 
+  // Show modal
   modal.classList.remove('hidden');
 }
 
+/* ================= CLOSE HANDLING ================= */
+
 function closeMap() {
-  modal.classList.add('hidden');
+  document.getElementById('map-modal')?.classList.add('hidden');
 }
+
+document.addEventListener('click', e => {
+  if (
+    e.target.classList.contains('map-backdrop') ||
+    e.target.classList.contains('map-close')
+  ) {
+    closeMap();
+  }
+});
