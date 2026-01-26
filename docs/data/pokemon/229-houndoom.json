@@ -1,0 +1,70 @@
+{
+  "dex": 229,
+  "slug": "houndoom",
+
+  "names": {
+    "en": "Houndoom",
+    "ja": "ヘルガー",
+    "fr": "Démolosse",
+    "de": "Hundemon",
+    "es": "Houndoom"
+  },
+
+  "types": ["dark", "fire"],
+
+  "evolution": {
+    "family": ["houndour", "houndoom"],
+    "stage": 2,
+    "evolvesFrom": "houndour"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Houndour at level 24.",
+            "ja": "デルビルが レベル24で しんかする。",
+            "fr": "Évolue de Malosse au niveau 24.",
+            "de": "Entwickelt sich aus Hunduster auf Level 24.",
+            "es": "Evoluciona de Houndour al nivel 24."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Houndour at level 24.",
+            "ja": "デルビルが レベル24で しんかする。",
+            "fr": "Évolue de Malosse au niveau 24.",
+            "de": "Entwickelt sich aus Hunduster auf Level 24.",
+            "es": "Evoluciona de Houndour al nivel 24."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["KANTO_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Houndour at level 24.",
+            "ja": "デルビルが レベル24で しんかする。",
+            "fr": "Évolue de Malosse au niveau 24.",
+            "de": "Entwickelt sich aus Hunduster auf Level 24.",
+            "es": "Evoluciona de Houndour al nivel 24."
+          }
+        }
+      ]
+    }
+  }
+}
