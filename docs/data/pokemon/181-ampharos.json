@@ -1,0 +1,54 @@
+{
+  "dex": 181,
+  "slug": "ampharos",
+
+  "names": {
+    "en": "Ampharos",
+    "ja": "デンリュウ",
+    "fr": "Pharamp",
+    "de": "Ampharos",
+    "es": "Ampharos"
+  },
+
+  "types": ["electric"],
+
+  "evolution": {
+    "family": ["mareep", "flaaffy", "ampharos"],
+    "stage": 3,
+    "evolvesFrom": "flaaffy"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Flaaffy at Lv. 30.",
+            "ja": "モココを レベル30で しんか。",
+            "fr": "Faites évoluer Lainergie au niveau 30.",
+            "de": "Entwickle Waaty auf Level 30.",
+            "es": "Evoluciona a Flaaffy al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Flaaffy at Lv. 30.",
+            "ja": "モココを レベル30で しんか。",
+            "fr": "Faites évoluer Lainergie au niveau 30.",
+            "de": "Entwickle Waaty auf Level 30.",
+            "es": "Evoluciona a Flaaffy al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
