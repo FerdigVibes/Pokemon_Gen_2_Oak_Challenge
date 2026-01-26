@@ -1,0 +1,72 @@
+{
+  "dex": 211,
+  "slug": "qwilfish",
+
+  "names": {
+    "en": "Qwilfish",
+    "ja": "ハリーセン",
+    "fr": "Qwilfish",
+    "de": "Baldorfish",
+    "es": "Qwilfish"
+  },
+
+  "types": ["water", "poison"],
+
+  "evolution": {
+    "family": ["qwilfish"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Appears during a swarm on Route 32. Fisherman Ralph, located on Route 32, will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、32ばんどうろで むれが はっせいする。",
+            "fr": "Apparaît lors d’une invasion sur la Route 32 après l’appel du Pêcheur Ralph, situé sur la Route 32.",
+            "de": "Erscheint während eines Schwarms auf Route 32 nach einem Anruf von Angler Ralph (Route 32).",
+            "es": "Aparece en una oleada en la Ruta 32 tras la llamada del Pescador Ralph, situado en la Ruta 32."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Appears during a swarm on Route 32. Fisherman Ralph, located on Route 32, will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、32ばんどうろで むれが はっせいする。",
+            "fr": "Apparaît lors d’une invasion sur la Route 32 après l’appel du Pêcheur Ralph, situé sur la Route 32.",
+            "de": "Erscheint während eines Schwarms auf Route 32 nach einem Anruf von Angler Ralph (Route 32).",
+            "es": "Aparece en una oleada en la Ruta 32 tras la llamada del Pescador Ralph, situado en la Ruta 32."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 32"],
+          "notes": {
+            "en": "Appears during a swarm on Route 32. Fisherman Ralph, located on Route 32, will call to announce the swarm.",
+            "ja": "32ばんどうろの つりびと・ラルフから れんらくが あると、32ばんどうろで むれが はっせいする。",
+            "fr": "Apparaît lors d’une invasion sur la Route 32 après l’appel du Pêcheur Ralph, situé sur la Route 32.",
+            "de": "Erscheint während eines Schwarms auf Route 32 nach einem Anruf von Angler Ralph (Route 32).",
+            "es": "Aparece en una oleada en la Ruta 32 tras la llamada del Pescador Ralph, situado en la Ruta 32."
+          }
+        }
+      ]
+    }
+  }
+}
