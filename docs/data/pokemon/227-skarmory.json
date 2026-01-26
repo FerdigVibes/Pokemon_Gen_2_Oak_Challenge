@@ -1,0 +1,56 @@
+{
+  "dex": 227,
+  "slug": "skarmory",
+
+  "names": {
+    "en": "Skarmory",
+    "ja": "エアームド",
+    "fr": "Airmure",
+    "de": "Panzaeron",
+    "es": "Skarmory"
+  },
+
+  "types": ["steel", "flying"],
+
+  "evolution": {
+    "family": ["skarmory"],
+    "stage": 1
+  },
+
+  "games": {
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 45"],
+          "notes": {
+            "en": "Very rare encounter on Route 45.",
+            "ja": "45ばんどうろで ごくていかくりつで しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 45.",
+            "de": "Sehr seltene Begegnung auf Route 45.",
+            "es": "Aparece muy raramente en la Ruta 45."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 45"],
+          "time": ["morning", "day"],
+          "notes": {
+            "en": "Very rare encounter on Route 45 during the morning and daytime.",
+            "ja": "あさ・ひるに、45ばんどうろで ごくていかくりつで しゅつげん。",
+            "fr": "Apparaît très rarement sur la Route 45 le matin et la journée.",
+            "de": "Sehr seltene Begegnung auf Route 45 am Morgen und tagsüber.",
+            "es": "Aparece muy raramente en la Ruta 45 por la mañana y durante el día."
+          }
+        }
+      ]
+    }
+  }
+}
