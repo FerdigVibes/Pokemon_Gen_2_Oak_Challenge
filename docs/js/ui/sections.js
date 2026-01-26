@@ -208,36 +208,6 @@ function applyStarterExclusivity(sectionBlock, gameId) {
   }
 }
 
-function applyMoonStoneExclusivity(gameId) {
-  const rows = document.querySelectorAll('.pokemon-row');
-
-  // Group ONLY Moon Stone rows by Pokémon dex
-  const groupsByDex = {};
-
-  rows.forEach(row => {
-    const sectionId =
-      row.closest('.section-block')?.dataset.sectionId;
-
-    if (!MOON_STONE_SECTIONS.has(sectionId)) return;
-
-    const dex = Number(row.dataset.dex);
-    if (!groupsByDex[dex]) groupsByDex[dex] = [];
-    groupsByDex[dex].push(row);
-  });
-
-  // Apply exclusivity PER POKÉMON
-  Object.values(groupsByDex).forEach(group => {
-    const caughtRow = group.find(row =>
-      isCaught(gameId, Number(row.dataset.dex))
-    );
-
-    group.forEach(row => {
-      row.style.display =
-        caughtRow && row !== caughtRow ? 'none' : '';
-    });
-  });
-}
-
 function applyPokemonAvailabilityState(row, caught, availableNow, timeGated = false) {
   row.classList.remove('is-caught', 'is-available', 'is-unavailable', 'is-time-gated');
 
@@ -249,6 +219,43 @@ function applyPokemonAvailabilityState(row, caught, availableNow, timeGated = fa
   } else {
     row.classList.add('is-unavailable');
   }
+}
+
+function applyMoonStoneLocks(gameId) {
+  const rows = document.querySelectorAll('.pokemon-row');
+
+  // Group Moon Stone Pokémon by dex
+  const byDex = {};
+
+  rows.forEach(row => {
+    const sectionId = row.closest('.section-block')?.dataset.sectionId;
+    if (!MOON_STONE_SECTIONS.has(sectionId)) return;
+
+    const dex = Number(row.dataset.dex);
+    if (!byDex[dex]) byDex[dex] = [];
+    byDex[dex].push(row);
+  });
+
+  Object.values(byDex).forEach(group => {
+    const caughtInAny = group.some(row =>
+      isCaught(gameId, Number(row.dataset.dex))
+    );
+
+    group.forEach(row => {
+      const sectionId =
+        row.closest('.section-block')?.dataset.sectionId;
+
+      // Only lock the *other* section
+      if (
+        caughtInAny &&
+        !isCaught(gameId, Number(row.dataset.dex))
+      ) {
+        row.classList.add('is-locked');
+      } else {
+        row.classList.remove('is-locked');
+      }
+    });
+  });
 }
 
 /* =========================================================
