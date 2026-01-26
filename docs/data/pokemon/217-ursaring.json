@@ -1,0 +1,70 @@
+{
+  "dex": 217,
+  "slug": "ursaring",
+
+  "names": {
+    "en": "Ursaring",
+    "ja": "リングマ",
+    "fr": "Ursaring",
+    "de": "Ursaring",
+    "es": "Ursaring"
+  },
+
+  "types": ["normal"],
+
+  "evolution": {
+    "family": ["teddiursa", "ursaring"],
+    "stage": 2,
+    "evolvesFrom": "teddiursa"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Teddiursa at level 30.",
+            "ja": "ヒメグマが レベル30で しんかする。",
+            "fr": "Évolue de Teddiursa au niveau 30.",
+            "de": "Entwickelt sich aus Teddiursa auf Level 30.",
+            "es": "Evoluciona de Teddiursa al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["BLACKTHORN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Teddiursa at level 30.",
+            "ja": "ヒメグマが レベル30で しんかする。",
+            "fr": "Évolue de Teddiursa au niveau 30.",
+            "de": "Entwickelt sich aus Teddiursa auf Level 30.",
+            "es": "Evoluciona de Teddiursa al nivel 30."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Teddiursa at level 30.",
+            "ja": "ヒメグマが レベル30で しんかする。",
+            "fr": "Évolue de Teddiursa au niveau 30.",
+            "de": "Entwickelt sich aus Teddiursa auf Level 30.",
+            "es": "Evoluciona de Teddiursa al nivel 30."
+          }
+        }
+      ]
+    }
+  }
+}
