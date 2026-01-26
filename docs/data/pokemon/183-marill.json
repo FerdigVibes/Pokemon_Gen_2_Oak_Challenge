@@ -1,0 +1,73 @@
+{
+  "dex": 183,
+  "slug": "marill",
+
+  "names": {
+    "en": "Marill",
+    "ja": "マリル",
+    "fr": "Marill",
+    "de": "Marill",
+    "es": "Marill"
+  },
+
+  "types": ["water"],
+
+  "evolution": {
+    "family": ["azurill", "marill", "azumarill"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Mortar 1F", "Mt. Mortar Entrance"],
+          "notes": {
+            "en": "Found in Mt. Mortar 1F and the entrance.",
+            "ja": "すずのどうくつ 1かい と いりぐちで しゅつげん。",
+            "fr": "Se trouve au Mont Creuset (1F) et à l’entrée.",
+            "de": "Im Siegespfad 1F und am Eingang fangbar.",
+            "es": "Se encuentra en el Monte Mortero (1F) y la entrada."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Mortar 1F", "Mt. Mortar Entrance"],
+          "notes": {
+            "en": "Found in Mt. Mortar 1F and the entrance.",
+            "ja": "すずのどうくつ 1かい と いりぐちで しゅつげん。",
+            "fr": "Se trouve au Mont Creuset (1F) et à l’entrée.",
+            "de": "Im Siegespfad 1F und am Eingang fangbar.",
+            "es": "Se encuentra en el Monte Mortero (1F) y la entrada."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Mt. Mortar 1F Entrance", "Mt. Mortar Rear"],
+          "time": ["night"],
+          "notes": {
+            "en": "Very rare encounter at night in Mt. Mortar’s entrance and rear sections.",
+            "ja": "よるに すずのどうくつの いりぐち と おくで ごくまれに しゅつげん。",
+            "fr": "Rencontre très rare de nuit à l’entrée et à l’arrière du Mont Creuset.",
+            "de": "Sehr seltene Begegnung nachts am Eingang und im hinteren Bereich des Siegespfads.",
+            "es": "Encuentro muy raro por la noche en la entrada y la parte trasera del Monte Mortero."
+          }
+        }
+      ]
+    }
+  }
+}
