@@ -1,0 +1,70 @@
+{
+  "dex": 195,
+  "slug": "quagsire",
+
+  "names": {
+    "en": "Quagsire",
+    "ja": "ヌオー",
+    "fr": "Maraiste",
+    "de": "Morlord",
+    "es": "Quagsire"
+  },
+
+  "types": ["water", "ground"],
+
+  "evolution": {
+    "family": ["wooper", "quagsire"],
+    "stage": 2,
+    "evolvesFrom": "wooper"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Wooper at Lv. 20.",
+            "ja": "ウパーを レベル20で しんか。",
+            "fr": "Faites évoluer Axoloto au niveau 20.",
+            "de": "Entwickle Felino auf Level 20.",
+            "es": "Evoluciona a Wooper al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Wooper at Lv. 20.",
+            "ja": "ウパーを レベル20で しんか。",
+            "fr": "Faites évoluer Axoloto au niveau 20.",
+            "de": "Entwickle Felino auf Level 20.",
+            "es": "Evoluciona a Wooper al nivel 20."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Wooper at Lv. 20.",
+            "ja": "ウパーを レベル20で しんか。",
+            "fr": "Faites évoluer Axoloto au niveau 20.",
+            "de": "Entwickle Felino auf Level 20.",
+            "es": "Evoluciona a Wooper al nivel 20."
+          }
+        }
+      ]
+    }
+  }
+}
