@@ -220,17 +220,17 @@ function applyMoonStoneLogic(game) {
   const config = game.moonStone;
   if (!config) return;
 
-  const { pool, sections } = config;
   const gameId = game.id;
+  const { pool, sections } = config;
 
+  // Collect Moon Stone rows
   const rows = [...document.querySelectorAll('.pokemon-row')]
-    .filter(row => {
-      const dex = Number(row.dataset.dex);
-      const sectionId = row.closest('.section-block')?.dataset.sectionId;
-      return pool.includes(dex) && sections[sectionId];
-    });
+    .filter(row =>
+      pool.includes(Number(row.dataset.dex)) &&
+      sections[row.closest('.section-block')?.dataset.sectionId]
+    );
 
-  // Group by section
+  // Group rows by section
   const rowsBySection = {};
   rows.forEach(row => {
     const sectionId = row.closest('.section-block').dataset.sectionId;
@@ -238,7 +238,7 @@ function applyMoonStoneLogic(game) {
     rowsBySection[sectionId].push(row);
   });
 
-  // Dex resolved anywhere
+  // Dex caught anywhere
   const resolvedDex = new Set(
     rows.filter(r => isCaught(gameId, Number(r.dataset.dex)))
         .map(r => Number(r.dataset.dex))
@@ -246,27 +246,28 @@ function applyMoonStoneLogic(game) {
 
   Object.entries(rowsBySection).forEach(([sectionId, sectionRows]) => {
     const capacity = sections[sectionId].capacity;
-
     const caughtHere = sectionRows.filter(r =>
       isCaught(gameId, Number(r.dataset.dex))
     );
 
     sectionRows.forEach(row => {
-      const dex = Number(row.dataset.dex);
+      row.classList.remove(
+        'is-counterpart-locked',
+        'is-capacity-locked'
+      );
 
-      // 🔄 Always reset
-      row.classList.remove('is-capacity-locked', 'is-counterpart-locked');
+      const dex = Number(row.dataset.dex);
 
       // Already caught → never lock
       if (isCaught(gameId, dex)) return;
 
-      // 🔒 Counterpart lock (caught in another section)
+      // 1️⃣ Counterpart lock (same dex caught elsewhere)
       if (resolvedDex.has(dex)) {
         row.classList.add('is-counterpart-locked');
         return;
       }
 
-      // 🔒 Capacity lock (this section full)
+      // 2️⃣ Section capacity reached → lock remainder
       if (caughtHere.length >= capacity) {
         row.classList.add('is-capacity-locked');
       }
