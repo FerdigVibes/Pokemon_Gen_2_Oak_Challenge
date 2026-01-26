@@ -223,6 +223,7 @@ function applyMoonStoneLogic(game) {
   const { pool, sections } = config;
   const gameId = game.id;
 
+  // All Moon Stone rows (final evolutions only)
   const rows = [...document.querySelectorAll('.pokemon-row')]
     .filter(row => pool.includes(row.dataset.slug));
 
@@ -235,18 +236,18 @@ function applyMoonStoneLogic(game) {
     rowsBySection[sectionId].push(row);
   });
 
-  // Slugs resolved anywhere
+  // Slugs already resolved anywhere
   const resolvedSlugs = new Set(
     rows
-      .filter(r => isCaught(gameId, Number(r.dataset.dex)))
-      .map(r => r.dataset.slug)
+      .filter(row => isCaught(gameId, Number(row.dataset.dex)))
+      .map(row => row.dataset.slug)
   );
 
   Object.entries(rowsBySection).forEach(([sectionId, sectionRows]) => {
     const capacity = sections[sectionId].capacity;
 
-    const caughtHere = sectionRows.filter(r =>
-      isCaught(gameId, Number(r.dataset.dex))
+    const caughtHere = sectionRows.filter(row =>
+      isCaught(gameId, Number(row.dataset.dex))
     );
 
     sectionRows.forEach(row => {
