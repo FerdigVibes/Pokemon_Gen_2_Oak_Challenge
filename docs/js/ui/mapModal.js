@@ -7,6 +7,10 @@ const MAP_IMAGES = {
   kanto: './assets/maps/kanto.png'
 };
 
+const grid = document.createElement('div');
+grid.className = 'map-grid';
+mapContainer.appendChild(grid);
+
 export function openMap({ gameId, locations }) {
   const modal = document.getElementById('map-modal');
   const img = document.getElementById('map-image');
