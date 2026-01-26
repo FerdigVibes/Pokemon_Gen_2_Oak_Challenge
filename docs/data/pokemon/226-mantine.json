@@ -1,0 +1,55 @@
+{
+  "dex": 226,
+  "slug": "mantine",
+
+  "names": {
+    "en": "Mantine",
+    "ja": "マンタイン",
+    "fr": "Démanta",
+    "de": "Mantax",
+    "es": "Mantine"
+  },
+
+  "types": ["water", "flying"],
+
+  "evolution": {
+    "family": ["mantine"],
+    "stage": 1
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 41"],
+          "notes": {
+            "en": "Found while surfing on Route 41.",
+            "ja": "41ばんどうろで なみのりをすると しゅつげん。",
+            "fr": "Se trouve en surfant sur la Route 41.",
+            "de": "Beim Surfen auf Route 41 anzutreffen.",
+            "es": "Se encuentra usando Surf en la Ruta 41."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["MAHOGANY_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 41"],
+          "notes": {
+            "en": "Found while surfing on Route 41.",
+            "ja": "41ばんどうろで なみのりをすると しゅつげん。",
+            "fr": "Se trouve en surfant sur la Route 41.",
+            "de": "Beim Surfen auf Route 41 anzutreffen.",
+            "es": "Se encuentra usando Surf en la Ruta 41."
+          }
+        }
+      ]
+    }
+  }
+}
