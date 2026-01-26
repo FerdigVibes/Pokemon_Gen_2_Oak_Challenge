@@ -486,11 +486,10 @@ export function renderSections({ game, pokemon }) {
     sectionBlock.append(header, sectionRows);
     container.appendChild(sectionBlock);
 
-    // After all sections rendered
-    applyMoonStoneLogic(game);
-
     updateSectionCounter(sectionBlock);
   });
+  // After all sections rendered
+    applyMoonStoneLogic(game);
 }
 
 window.__isPokemonAvailable = isPokemonAvailable;
