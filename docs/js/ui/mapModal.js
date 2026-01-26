@@ -57,6 +57,16 @@ export function openMap({ gameId, locations }) {
 
   // Show modal
   modal.classList.remove('hidden');
+
+  mapImage.addEventListener('click', e => {
+    const rect = mapImage.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+  
+    console.log(
+      `x: ${x.toFixed(1)}, y: ${y.toFixed(1)}`
+    );
+  });
 }
 
 /* ================= CLOSE HANDLING ================= */
