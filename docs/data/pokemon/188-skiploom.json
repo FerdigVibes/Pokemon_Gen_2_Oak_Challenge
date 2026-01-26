@@ -1,0 +1,70 @@
+{
+  "dex": 188,
+  "slug": "skiploom",
+
+  "names": {
+    "en": "Skiploom",
+    "ja": "ポポッコ",
+    "fr": "Floravol",
+    "de": "Hubelupf",
+    "es": "Skiploom"
+  },
+
+  "types": ["grass", "flying"],
+
+  "evolution": {
+    "family": ["hoppip", "skiploom", "jumpluff"],
+    "stage": 2,
+    "evolvesFrom": "hoppip"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Hoppip at Lv. 18.",
+            "ja": "ハネッコを レベル18で しんか。",
+            "fr": "Faites évoluer Granivol au niveau 18.",
+            "de": "Entwickle Hoppspross auf Level 18.",
+            "es": "Evoluciona a Hoppip al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Hoppip at Lv. 18.",
+            "ja": "ハネッコを レベル18で しんか。",
+            "fr": "Faites évoluer Granivol au niveau 18.",
+            "de": "Entwickle Hoppspross auf Level 18.",
+            "es": "Evoluciona a Hoppip al nivel 18."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["VIOLET_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Hoppip at Lv. 18.",
+            "ja": "ハネッコを レベル18で しんか。",
+            "fr": "Faites évoluer Granivol au niveau 18.",
+            "de": "Entwickle Hoppspross auf Level 18.",
+            "es": "Evoluciona a Hoppip al nivel 18."
+          }
+        }
+      ]
+    }
+  }
+}
