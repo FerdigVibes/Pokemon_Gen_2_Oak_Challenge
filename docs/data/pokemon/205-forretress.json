@@ -1,0 +1,70 @@
+{
+  "dex": 205,
+  "slug": "forretress",
+
+  "names": {
+    "en": "Forretress",
+    "ja": "フォレトス",
+    "fr": "Foretress",
+    "de": "Forstellka",
+    "es": "Forretress"
+  },
+
+  "types": ["bug", "steel"],
+
+  "evolution": {
+    "family": ["pineco", "forretress"],
+    "stage": 2,
+    "evolvesFrom": "pineco"
+  },
+
+  "games": {
+    "gold": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pineco at level 31.",
+            "ja": "クヌギダマが レベル31で しんかする。",
+            "fr": "Évolue de Pomdepik au niveau 31.",
+            "de": "Entwickelt sich aus Tannza auf Level 31.",
+            "es": "Evoluciona de Pineco al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pineco at level 31.",
+            "ja": "クヌギダマが レベル31で しんかする。",
+            "fr": "Évolue de Pomdepik au niveau 31.",
+            "de": "Entwickelt sich aus Tannza auf Level 31.",
+            "es": "Evoluciona de Pineco al nivel 31."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["AZALEA_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Pineco at level 31.",
+            "ja": "クヌギダマが レベル31で しんかする。",
+            "fr": "Évolue de Pomdepik au niveau 31.",
+            "de": "Entwickelt sich aus Tannza auf Level 31.",
+            "es": "Evoluciona de Pineco al nivel 31."
+          }
+        }
+      ]
+    }
+  }
+}
