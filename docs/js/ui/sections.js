@@ -253,6 +253,34 @@ function applyMoonStoneLocks(gameId) {
   });
 }
 
+function applyMoonStoneSectionCapacity(sectionBlock) {
+  const sectionId = sectionBlock.dataset.sectionId;
+  if (sectionId !== 'MOON_STONE_1') return;
+
+  const gameId = sectionBlock.dataset.gameId;
+  const rows = Array.from(sectionBlock.querySelectorAll('.pokemon-row'));
+
+  const caughtRows = rows.filter(row =>
+    isCaught(gameId, Number(row.dataset.dex))
+  );
+
+  // MOON_STONE_1 capacity = 2
+  const capacityReached = caughtRows.length >= 2;
+
+  rows.forEach(row => {
+    // Always clear first
+    row.classList.remove('is-locked');
+
+    // Never lock already caught Pokémon
+    if (isCaught(gameId, Number(row.dataset.dex))) return;
+
+    // Lock remaining choices once capacity reached
+    if (capacityReached) {
+      row.classList.add('is-locked');
+    }
+  });
+}
+
 
 /* =========================================================
    React to caught changes
@@ -264,6 +292,10 @@ window.addEventListener('caught-changed', () => {
 
     if (section.dataset.sectionId === 'STARTER') {
       applyStarterExclusivity(section, section.dataset.gameId);
+    }
+
+    if (section.dataset.sectionId === 'MOON_STONE_1') {
+      applyMoonStoneSectionCapacity(section);
     }
   });
 
