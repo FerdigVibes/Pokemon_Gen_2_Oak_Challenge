@@ -792,22 +792,29 @@
   background: rgba(0,0,0,0.6);
 }
 
+/* Map modal window */
 .map-window {
-  position: relative;
-  width: 90%;
-  max-width: 900px;
-  margin: 5vh auto;
+  max-width: 90vw;
+  max-height: 90vh;
+  padding: 12px;
   background: #111;
   border-radius: 12px;
-  padding: 12px;
 }
 
+/* Map container */
 .map-container {
   position: relative;
+  max-width: 900px;   /* ⬅️ controls overall map size */
+  max-height: 600px;
+  margin: 0 auto;
 }
 
+/* Map image */
 #map-image {
   width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
   display: block;
 }
 
