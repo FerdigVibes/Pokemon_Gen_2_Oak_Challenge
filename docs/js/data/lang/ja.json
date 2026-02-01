@@ -20,6 +20,7 @@
   "globalCaughtCount": "{{caught}} / {{total}} 捕まえた",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "ゲーム時間",
+  "detail.viewMap": "マップを見る",
   "days": {
     "mon": "月",
     "tue": "火",
