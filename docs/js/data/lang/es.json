@@ -1,22 +1,26 @@
 {
-  "pickVersion": "Elige tu versión",
+  "pickVersion": "Elegir versión",
   "caught": "Capturados",
   "currentObjective": "Objetivo actual",
   "challengeComplete": "Desafío completado",
   "searchPlaceholder": "Buscar Pokémon…",
   "nationalDex": "Pokédex Nacional",
   "regionalDex": "Pokédex Regional",
-  "time": "Horario",
+  "time": "Momento del día",
   "howToObtain": "Cómo obtener",
   "locations": "Ubicaciones",
   "appTitle": "Desafío del Profesor Oak – Versión {{version}}",
   "gen1": "Generación I",
   "gen2": "Generación II",
   "appTitleNoVersion": "Desafío del Profesor Oak",
-  "pickVersionPrompt": "Elige una versión para comenzar",
-  "globalCaughtCount": "{{caught}} / {{total}} Capturados",
+  "pickVersionPrompt": "Por favor, elige una versión",
+  "red": "Rojo",
+  "blue": "Azul",
+  "yellow": "Amarillo",
+  "globalCaughtCount": "{{caught}} / {{total}} capturados",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Hora del juego",
+
   "days": {
     "mon": "Lun",
     "tue": "Mar",
@@ -25,7 +29,7 @@
     "fri": "Vie",
     "sat": "Sáb",
     "sun": "Dom",
-  
+
     "monday": "Lunes",
     "tuesday": "Martes",
     "wednesday": "Miércoles",
@@ -34,102 +38,99 @@
     "saturday": "Sábado",
     "sunday": "Domingo"
   },
-  
+
   "gameTime": {
-    "title": "Configurar hora del juego",
+    "title": "Establecer hora del juego",
     "day": "Día",
     "time": "Hora",
     "dst": "Horario de verano"
   },
 
-  "red": "Rojo",
-  "blue": "Azul",
-  "yellow": "Amarillo",
-
   "gold": "Oro",
   "silver": "Plata",
   "crystal": "Cristal",
   "crystal_gbc": "Pokémon Cristal (Game Boy Color)",
-  "crystal_vc": "Pokémon Cristal (Consola Virtual de 3DS)",
+  "crystal_vc": "Pokémon Cristal (Consola Virtual 3DS)",
 
   "objective": {
     "beforePewter": "Antes del Gimnasio de Plateada",
     "pewterPokemon": "Pokémon de Plateada",
-  
+
     "beforeCerulean": "Antes del Gimnasio de Celeste",
     "ceruleanPokemon": "Pokémon de Celeste",
-  
+
     "beforeVermilion": "Antes del Gimnasio de Carmín",
     "afterVermilion": "Después del Gimnasio de Carmín",
-  
+
     "beforeCeladon": "Antes del Gimnasio de Azulona",
     "celadonPokemon": "Pokémon de Azulona",
-  
+
     "beforeFuchsia": "Antes del Gimnasio de Fucsia",
     "fuchsiaPokemon": "Pokémon de Fucsia",
-  
-    "beforeFifth": "Antes del Quinto Gimnasio",
-  
+
+    "beforeFifth": "Antes de la quinta medalla",
+
     "beforeEliteFour": "Antes del Alto Mando",
     "eliteFourPokemon": "Pokémon del Alto Mando",
-  
+
     "ceruleanCave": "Cueva Celeste",
     "ceruleanCavePokemon": "Pokémon de la Cueva Celeste",
-  
+
     "mtSilver": "Monte Plateado",
     "mtSilverPokemon": "Pokémon del Monte Plateado",
-  
-    "beforeKantoBadges": "Antes de las Medallas de Kanto",
+
+    "beforeKantoBadges": "Antes de las medallas de Kanto",
     "kantoPokemon": "Pokémon de Kanto",
-  
+
     "beforeViolet": "Antes del Gimnasio de Malva",
     "violetPokemon": "Pokémon de Malva",
-  
+
     "beforeAzalea": "Antes del Gimnasio de Azalea",
     "azaleaPokemon": "Pokémon de Azalea",
-  
+
     "beforeGoldenrod": "Antes del Gimnasio de Trigal",
     "goldenrodPokemon": "Pokémon de Trigal",
-  
+
     "beforeEcruteak": "Antes del Gimnasio de Iris",
     "ecruteakPokemon": "Pokémon de Iris",
-  
+
     "beforeMahogany": "Antes del Gimnasio de Caoba",
     "mahoganyPokemon": "Pokémon de Caoba",
-  
+
     "beforeCianwoodOlivine": "Antes de los Gimnasios de Orquídea y Olivo",
     "cianwoodOlivinePokemon": "Pokémon de Orquídea y Olivo",
-  
+
     "beforeBlackthorn": "Antes del Gimnasio de Endrino",
     "blackthornPokemon": "Pokémon de Endrino",
-  
+
     "moonStoneOne": "Evolución con Piedra Lunar",
-    "moonStoneTwo": "Evolución con Piedra Lunar (Segunda)",
-  
-    "leafStone": "Elige una evolución con Piedra Hoja",
-    "fireStone": "Elige una evolución con Piedra Fuego",
-    "waterStone": "Elige una evolución con Piedra Agua",
-    "thunderStone": "Elige una evolución con Piedra Trueno",
-  
-    "eeveeEvolutions": "Elige la evolución de Eevee",
-    "hitmonPrize": "Pokémon Premio Hitmon",
-    "reviveFossil": "Pokémon Revivido de un fósil",
-  
+    "moonStoneTwo": "Evolución con Piedra Lunar (segunda vez)",
+
+    "leafStone": "Elegir una evolución con Piedra Hoja",
+    "fireStone": "Elegir una evolución con Piedra Fuego",
+    "waterStone": "Elegir una evolución con Piedra Agua",
+    "thunderStone": "Elegir una evolución con Piedra Trueno",
+
+    "eeveeEvolutions": "Elegir una evolución de Eevee",
+    "hitmonPrize": "Premio Pokémon (Hitmonlee o Hitmonchan)",
+    "reviveFossil": "Pokémon revivido de un fósil",
+
     "articuno": "Articuno",
     "moltres": "Moltres",
     "mewtwo": "Mewtwo",
-  
-    "pikachu": "¡Te elijo a ti, Pikachu!",
+
+    "pikachu": "¡Pikachu, te elijo a ti!",
     "squirtlesquad": "Escuadrón Squirtle",
-  
+
     "chooseYourStarter": "Elige tu Pokémon inicial"
   },
 
   "time": {
-    "morningRange": "4:00 – 9:59 a. m.",
-    "dayRange": "10:00 a. m. – 5:59 p. m.",
-    "nightRange": "6:00 p. m. – 3:59 a. m.",
+    "morningRange": "04:00 – 09:59",
+    "dayRange": "10:00 – 17:59",
+    "nightRange": "18:00 – 03:59",
     "morning": "Mañana",
+    "daytime": "Día",
     "day": "Día",
     "night": "Noche"
   },
@@ -154,6 +155,115 @@
     "steel": "Acero",
     "water": "Agua"
   },
+
+  "locations": {
+    "route1": "Ruta 1",
+    "route2": "Ruta 2",
+    "route3": "Ruta 3",
+    "route4": "Ruta 4",
+    "route5": "Ruta 5",
+    "route6": "Ruta 6",
+    "route7": "Ruta 7",
+    "route8": "Ruta 8",
+    "route10": "Ruta 10",
+    "route11": "Ruta 11",
+    "route12": "Ruta 12",
+    "route13": "Ruta 13",
+    "route14": "Ruta 14",
+    "route15": "Ruta 15",
+    "route16": "Ruta 16",
+    "route17": "Ruta 17",
+    "route18": "Ruta 18",
+    "route19": "Ruta 19",
+    "route21": "Ruta 21",
+    "route22": "Ruta 22",
+    "route24": "Ruta 24",
+    "route25": "Ruta 25",
+    "route28": "Ruta 28",
+    "route29": "Ruta 29",
+    "route30": "Ruta 30",
+    "route31": "Ruta 31",
+    "route32": "Ruta 32",
+    "route33": "Ruta 33",
+    "route34": "Ruta 34",
+    "route35": "Ruta 35",
+    "route36": "Ruta 36",
+    "route38": "Ruta 38",
+    "route39": "Ruta 39",
+    "route40": "Ruta 40",
+    "route41": "Ruta 41",
+    "route42": "Ruta 42",
+    "route43": "Ruta 43",
+    "route44": "Ruta 44",
+    "route45": "Ruta 45",
+    "route46": "Ruta 46",
+    "viridianForest": "Bosque Verde",
+    "mtMoon": "Monte Moon",
+    "diglettsCave": "Cueva Diglett",
+    "route34Daycare": "Guardería – Ruta 34",
+    "route3PokeCenter": "Centro Pokémon – Ruta 3",
+    "anyWater": "Cualquier cuerpo de agua",
+    "ceruleanGym": "Gimnasio de Celeste",
+    "safariZone": "Zona Safari",
+    "safariArea1": "Zona 1",
+    "safariArea2": "Zona 2",
+    "safariArea3": "Zona 3",
+    "safariArea4": "Zona 4",
+    "celadonDeptStore4F": "Centro Comercial Azulona – 4ª planta",
+    "pokemonTower": "Torre Pokémon",
+    "route18Gatehouse": "Casa de control – Ruta 18",
+    "celadonGameCorner": "Casino de Azulona",
+    "burnedTower": "Torre Quemada",
+    "burnedTowerB1F": "Torre Quemada – Sótano 1",
+    "mostWaters": "La mayoría de cuerpos de agua",
+    "ceruleanHouseNextCenter": "Casa al lado del Centro Pokémon de Celeste",
+    "silphCo7F": "Silph S.A. – Planta 7",
+    "cinnabarLab": "Laboratorio de Isla Canela",
+    "celadonMansionTop": "Mansión Azulona – Última planta",
+    "saffronDojo": "Dojo de Azafrán",
+    "pokemonMansion": "Mansión Pokémon",
+    "powerPlant": "Central Energía",
+    "ceruleanCave": "Cueva Celeste",
+    "sproutTower": "Torre Bellsprout",
+    "darkCave": "Cueva Oscura",
+    "ruinsOfAlph": "Ruinas Alfa",
+    "unionCave1F": "Cueva Unión – Planta 1",
+    "unionCaveB1F": "Cueva Unión – Sótano 1",
+    "ilexForest": "Bosque Ilex",
+    "violetCity": "Ciudad Malva",
+    "azaleaTown": "Pueblo Azalea",
+    "unionCave": "Cueva Unión",
+    "slowpokeWell": "Pozo Slowpoke",
+    "violetPokeCenter": "Centro Pokémon de Ciudad Malva",
+    "nationalPark": "Parque Nacional",
+    "goldenrodGameCorner": "Casino de Trigal",
+    "cherrygroveCity": "Ciudad Cerezo",
+    "olivineCity": "Ciudad Olivo",
+    "goldenrodCity": "Ciudad Trigal",
+    "newBarkTown": "Pueblo Primavera",
+    "olivineHarbor": "Puerto de Ciudad Olivo",
+    "mtMortar1F": "Monte Mortero – Planta 1",
+    "mtMortarB1F": "Monte Mortero – Sótano 1",
+    "mtMortarEntrance": "Entrada del Monte Mortero",
+    "unionCaveLower": "Cueva Unión – Planta inferior",
+    "ruinsOfAlphExt": "Ruinas Alfa (exterior)",
+    "darkCaveBlackthorn": "Cueva Oscura (lado Endrino)",
+    "whirlIslands1F": "Islas Remolino – Planta 1",
+    "whirlIslands": "Islas Remolino",
+    "whirlIslandsB2F": "Islas Remolino – Sótano 2",
+    "blackthornHouse": "Casa de Endrino (este)",
+    "icePath": "Ruta Helada",
+    "tinTower10F": "Torre Hojalata – Planta 10",
+    "rockTunnel1F": "Túnel Roca – Planta 1",
+    "rockTunnelB1F": "Túnel Roca – Sótano 1",
+    "mtSilver2F": "Monte Plateado – Planta 2",
+    "mtSilver2FCaves": "Monte Plateado – Cuevas 2F",
+    "mtSilverExterior": "Monte Plateado – Exterior",
+    "mtSilver": "Monte Plateado",
+    "victoryRoad": "Ruta Victoria"
+  },
+
+
   "methods": {
     "starter": "Inicial",
     "wild": "Salvaje",
@@ -171,13 +281,22 @@
     "rock_smash": "Golpe Roca",
     "safari": "Zona Safari",
     "special": "Especial",
-    "purchase": "Compra"
+    "purchase": "Compra",
+    "fish": "Pesca",
+    "static": "Fijo",
+    "revive": "Revivido",
+    "breed": "Cría",
+    "roaming": "Errante",
+    "surf": "Surf",
+    "game_corner": "Casino"
   },
+
   "detail": {
     "obtainTitle": "Cómo obtenerlo",
     "method": "Método",
-    "locations": "Ubicaciones",
-    "time": "Hora",
+    "locations": "Ubicación",
+    "time": "Momento",
     "days": "Días"
   }
 }
+
