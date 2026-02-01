@@ -25,7 +25,30 @@
         {
           "method": "wild",
           "locations": ["Route 5", "Route 6"],
-          "notes": "Version-exclusive Pokémon."
+          "notes": {
+            "en": "Found on Routes 5 and 6.",
+            "ja": "5ばんどうろ と 6ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur les Routes 5 et 6.",
+            "de": "Auf Route 5 und 6 fangbar.",
+            "es": "Se encuentra en las Rutas 5 y 6."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 5", "Route 6"],
+          "notes": {
+            "en": "Found on Routes 5 and 6.",
+            "ja": "5ばんどうろ と 6ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur les Routes 5 et 6.",
+            "de": "Auf Route 5 und 6 fangbar.",
+            "es": "Se encuentra en las Rutas 5 y 6."
+          }
         }
       ]
     },
@@ -36,7 +59,13 @@
         {
           "method": "wild",
           "locations": ["Route 22"],
-          "notes": "Early-route Pokémon in Pokémon Yellow."
+          "notes": {
+            "en": "Found on Route 22.",
+            "ja": "22ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 22.",
+            "de": "Auf Route 22 fangbar.",
+            "es": "Se encuentra en la Ruta 22."
+          }
         }
       ]
     },
@@ -47,9 +76,50 @@
         {
           "method": "wild",
           "locations": ["Route 42"],
-          "notes": "Exclusive to Pokémon Gold."
+          "notes": {
+            "en": "Found on Route 42.",
+            "ja": "42ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 42.",
+            "de": "Auf Route 42 fangbar.",
+            "es": "Se encuentra en la Ruta 42."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 42"],
+          "notes": {
+            "en": "Found on Route 42.",
+            "ja": "42ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 42.",
+            "de": "Auf Route 42 fangbar.",
+            "es": "Se encuentra en la Ruta 42."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "wild",
+          "locations": ["Route 42"],
+          "notes": {
+            "en": "Found on Route 42.",
+            "ja": "42ばんどうろで しゅつげん。",
+            "fr": "Se trouve sur la Route 42.",
+            "de": "Auf Route 42 fangbar.",
+            "es": "Se encuentra en la Ruta 42."
+          }
         }
       ]
     }
   }
 }
+
