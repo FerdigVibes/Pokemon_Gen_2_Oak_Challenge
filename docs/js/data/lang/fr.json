@@ -1,25 +1,26 @@
 {
-  "pickVersion": "Choisissez votre version",
-  "caught": "Attrapés",
+  "pickVersion": "Choisir une version",
+  "caught": "Capturés",
   "currentObjective": "Objectif actuel",
   "challengeComplete": "Défi terminé",
   "searchPlaceholder": "Rechercher un Pokémon…",
   "nationalDex": "Pokédex National",
   "regionalDex": "Pokédex Régional",
-  "time": "Horaire",
-  "howToObtain": "Comment l’obtenir",
-  "locations": "Lieux",
+  "time": "Période de la journée",
+  "howToObtain": "Méthode d'obtention",
+  "locations": "Emplacements",
   "appTitle": "Défi du Professeur Chen – Version {{version}}",
   "gen1": "Génération I",
   "gen2": "Génération II",
   "appTitleNoVersion": "Défi du Professeur Chen",
-  "pickVersionPrompt": "Choisissez une version pour commencer",
+  "pickVersionPrompt": "Veuillez choisir une version",
   "red": "Rouge",
   "blue": "Bleu",
   "yellow": "Jaune",
-  "globalCaughtCount": "{{caught}} / {{total}} Attrapés",
+  "globalCaughtCount": "{{caught}} / {{total}} capturés",
   "sectionCaughtCount": "{{caught}} / {{total}}",
-  "gameTime": "Temps du jeu",
+  "gameTime": "Heure du jeu",
+
   "days": {
     "mon": "Lun",
     "tue": "Mar",
@@ -28,7 +29,7 @@
     "fri": "Ven",
     "sat": "Sam",
     "sun": "Dim",
-  
+
     "monday": "Lundi",
     "tuesday": "Mardi",
     "wednesday": "Mercredi",
@@ -37,12 +38,12 @@
     "saturday": "Samedi",
     "sunday": "Dimanche"
   },
-  
+
   "gameTime": {
-    "title": "Définir l’heure du jeu",
+    "title": "Définir l'heure du jeu",
     "day": "Jour",
     "time": "Heure",
-    "dst": "Heure d’été"
+    "dst": "Heure d'été"
   },
 
   "gold": "Or",
@@ -52,87 +53,88 @@
   "crystal_vc": "Pokémon Cristal (Console Virtuelle 3DS)",
 
   "objective": {
-    "beforePewter": "Avant l'Arène d'Argenta",
+    "beforePewter": "Avant l'arène d'Argenta",
     "pewterPokemon": "Pokémon d'Argenta",
-  
-    "beforeCerulean": "Avant l'Arène d'Azuria",
+
+    "beforeCerulean": "Avant l'arène d'Azuria",
     "ceruleanPokemon": "Pokémon d'Azuria",
-  
-    "beforeVermilion": "Avant l'Arène de Carmin-sur-Mer",
-    "afterVermilion": "Après l'Arène de Carmin-sur-Mer",
-  
-    "beforeCeladon": "Avant l'Arène de Céladopole",
+
+    "beforeVermilion": "Avant l'arène de Carmin-sur-Mer",
+    "afterVermilion": "Après l'arène de Carmin-sur-Mer",
+
+    "beforeCeladon": "Avant l'arène de Céladopole",
     "celadonPokemon": "Pokémon de Céladopole",
-  
-    "beforeFuchsia": "Avant l'Arène de Parmanie",
+
+    "beforeFuchsia": "Avant l'arène de Parmanie",
     "fuchsiaPokemon": "Pokémon de Parmanie",
-  
-    "beforeFifth": "Avant la Cinquième Arène",
-  
-    "beforeEliteFour": "Avant la Ligue Pokémon",
-    "eliteFourPokemon": "Pokémon de la Ligue",
-  
+
+    "beforeFifth": "Avant le cinquième badge",
+
+    "beforeEliteFour": "Avant le Conseil 4",
+    "eliteFourPokemon": "Pokémon du Conseil 4",
+
     "ceruleanCave": "Caverne Azurée",
     "ceruleanCavePokemon": "Pokémon de la Caverne Azurée",
-  
+
     "mtSilver": "Mont Argenté",
     "mtSilverPokemon": "Pokémon du Mont Argenté",
-  
-    "beforeKantoBadges": "Avant les Badges de Kanto",
+
+    "beforeKantoBadges": "Avant les badges de Kanto",
     "kantoPokemon": "Pokémon de Kanto",
-  
-    "beforeViolet": "Avant l'Arène de Mauville",
+
+    "beforeViolet": "Avant l'arène de Mauville",
     "violetPokemon": "Pokémon de Mauville",
-  
-    "beforeAzalea": "Avant l'Arène d'Écorcia",
+
+    "beforeAzalea": "Avant l'arène d'Écorcia",
     "azaleaPokemon": "Pokémon d'Écorcia",
-  
-    "beforeGoldenrod": "Avant l'Arène de Doublonville",
+
+    "beforeGoldenrod": "Avant l'arène de Doublonville",
     "goldenrodPokemon": "Pokémon de Doublonville",
-  
-    "beforeEcruteak": "Avant l'Arène de Rosalia",
+
+    "beforeEcruteak": "Avant l'arène de Rosalia",
     "ecruteakPokemon": "Pokémon de Rosalia",
-  
-    "beforeMahogany": "Avant l'Arène de Mogoria",
-    "mahoganyPokemon": "Pokémon de Mogoria",
-  
-    "beforeCianwoodOlivine": "Avant les Arènes d'Oliville et Irisia",
-    "cianwoodOlivinePokemon": "Pokémon d'Oliville et Irisia",
-  
-    "beforeBlackthorn": "Avant l'Arène d'Ébènelle",
+
+    "beforeMahogany": "Avant l'arène d'Acajou",
+    "mahoganyPokemon": "Pokémon d'Acajou",
+
+    "beforeCianwoodOlivine": "Avant les arènes de Rosalia & Oliville",
+    "cianwoodOlivinePokemon": "Pokémon de Rosalia & Oliville",
+
+    "beforeBlackthorn": "Avant l'arène d'Ébènelle",
     "blackthornPokemon": "Pokémon d'Ébènelle",
-  
+
     "moonStoneOne": "Évolution avec Pierre Lune",
-    "moonStoneTwo": "Évolution avec Pierre Lune (Deuxième)",
-  
-    "leafStone": "Choisissez une Évolution avec Pierre Plante",
-    "fireStone": "Choisissez une Évolution avec Pierre Feu",
-    "waterStone": "Choisissez une Évolution avec Pierre Eau",
-    "thunderStone": "Choisissez une Évolution avec Pierre Foudre",
-  
-    "eeveeEvolutions": "Choisissez l'évolution d'Évoli",
-    "hitmonPrize": "Pokémon Prix Hitmon",
-    "reviveFossil": "Pokémon Ramené à la vie par Fossile",
-  
+    "moonStoneTwo": "Évolution avec Pierre Lune (2e fois)",
+
+    "leafStone": "Choisir une évolution avec Pierre Plante",
+    "fireStone": "Choisir une évolution avec Pierre Feu",
+    "waterStone": "Choisir une évolution avec Pierre Eau",
+    "thunderStone": "Choisir une évolution avec Pierre Foudre",
+
+    "eeveeEvolutions": "Choisir une évolution d'Évoli",
+    "hitmonPrize": "Pokémon prix (Tygnon ou Kicklee)",
+    "reviveFossil": "Pokémon ressuscité à partir d’un fossile",
+
     "articuno": "Artikodin",
     "moltres": "Sulfura",
     "mewtwo": "Mewtwo",
-  
-    "pikachu": "Je te choisis, Pikachu !",
+
+    "pikachu": "Pikachu, je te choisis !",
     "squirtlesquad": "Escouade Carapuce",
-  
+
     "chooseYourStarter": "Choisissez votre Pokémon de départ"
   },
 
   "time": {
-    "morningRange": "4 h 00 – 9 h 59",
-    "dayRange": "10 h 00 – 17 h 59",
-    "nightRange": "18 h 00 – 3 h 59",
+    "morningRange": "04:00 – 09:59",
+    "dayRange": "10:00 – 17:59",
+    "nightRange": "18:00 – 03:59",
     "morning": "Matin",
+    "daytime": "Jour",
     "day": "Jour",
     "night": "Nuit"
   },
-  
+
   "types": {
     "bug": "Insecte",
     "dark": "Ténèbres",
@@ -153,32 +155,147 @@
     "steel": "Acier",
     "water": "Eau"
   },
-  
-  "detail": {
-    "obtainTitle": "Comment l'obtenir",
-    "method": "Méthode",
-    "locations": "Lieux",
-    "time": "Heure",
-    "days": "Jours"
-  },
-  
+
   "methods": {
     "starter": "Starter",
-    "wild": "Sauvage",
-    "gift": "Cadeau",
+    "wild": "À l’état sauvage",
+    "gift": "Offert",
     "event": "Événement",
     "trade": "Échange",
     "evolution": "Évolution",
     "fossil": "Fossile",
     "held_item": "Objet tenu",
     "day_care": "Pension",
-    "headbutt": "Coup d'Boule",
+    "headbutt": "Charge",
     "radio": "Radio",
-    "bug_contest": "Concours de Capture d'Insectes",
+    "bug_contest": "Concours de Capture d’insectes",
     "swarm": "Essaim",
     "rock_smash": "Éclate-Roc",
     "safari": "Parc Safari",
     "special": "Spécial",
-    "purchase": "Achat"
+    "purchase": "Achat",
+    "fish": "Pêche",
+    "static": "Fixe",
+    "revive": "Ressuscité",
+    "breed": "Élevage",
+    "roaming": "Errant",
+    "surf": "Surf",
+    "game_corner": "Casino"
+  },
+
+  "locations": {
+    "route1": "Route 1",
+    "route2": "Route 2",
+    "route3": "Route 3",
+    "route4": "Route 4",
+    "route5": "Route 5",
+    "route6": "Route 6",
+    "route7": "Route 7",
+    "route8": "Route 8",
+    "route10": "Route 10",
+    "route11": "Route 11",
+    "route12": "Route 12",
+    "route13": "Route 13",
+    "route14": "Route 14",
+    "route15": "Route 15",
+    "route16": "Route 16",
+    "route17": "Route 17",
+    "route18": "Route 18",
+    "route19": "Route 19",
+    "route21": "Route 21",
+    "route22": "Route 22",
+    "route24": "Route 24",
+    "route25": "Route 25",
+    "route28": "Route 28",
+    "route29": "Route 29",
+    "route30": "Route 30",
+    "route31": "Route 31",
+    "route32": "Route 32",
+    "route33": "Route 33",
+    "route34": "Route 34",
+    "route35": "Route 35",
+    "route36": "Route 36",
+    "route38": "Route 38",
+    "route39": "Route 39",
+    "route40": "Route 40",
+    "route41": "Route 41",
+    "route42": "Route 42",
+    "route43": "Route 43",
+    "route44": "Route 44",
+    "route45": "Route 45",
+    "route46": "Route 46",
+    "viridianForest": "Forêt de Jade",
+    "mtMoon": "Mont Sélénite",
+    "diglettsCave": "Grotte Taupiqueur",
+    "route34Daycare": "Pension – Route 34",
+    "route3PokeCenter": "Centre Pokémon – Route 3",
+    "anyWater": "Toute zone d’eau",
+    "ceruleanGym": "Arène d’Azuria",
+    "safariZone": "Parc Safari",
+    "safariArea1": "Zone 1",
+    "safariArea2": "Zone 2",
+    "safariArea3": "Zone 3",
+    "safariArea4": "Zone 4",
+    "celadonDeptStore4F": "Centre commercial de Céladopole – 4e étage",
+    "pokemonTower": "Tour Pokémon",
+    "route18Gatehouse": "Poste frontière Route 18",
+    "celadonGameCorner": "Casino de Céladopole",
+    "burnedTower": "Tour Cendrée",
+    "burnedTowerB1F": "Tour Cendrée – Sous-sol 1",
+    "mostWaters": "La plupart des zones d’eau",
+    "ceruleanHouseNextCenter": "Maison à côté du Centre Pokémon d’Azuria",
+    "silphCo7F": "Sylph SARL – 7e étage",
+    "cinnabarLab": "Laboratoire de Cramois’Île",
+    "celadonMansionTop": "Manoir de Céladopole – Dernier étage",
+    "saffronDojo": "Dojo de Safrania",
+    "pokemonMansion": "Manoir Pokémon",
+    "powerPlant": "Centrale",
+    "ceruleanCave": "Caverne Azurée",
+    "sproutTower": "Tour Chétiflor",
+    "darkCave": "Caverne Obscure",
+    "ruinsOfAlph": "Ruines d’Alpha",
+    "unionCave1F": "Grotte Union – 1er étage",
+    "unionCaveB1F": "Grotte Union – Sous-sol 1",
+    "ilexForest": "Bois aux Chênes",
+    "violetCity": "Mauville",
+    "azaleaTown": "Écorcia",
+    "unionCave": "Grotte Union",
+    "slowpokeWell": "Puits Ramoloss",
+    "violetPokeCenter": "Centre Pokémon de Mauville",
+    "nationalPark": "Parc Naturel",
+    "goldenrodGameCorner": "Casino de Doublonville",
+    "cherrygroveCity": "Rosalia",
+    "olivineCity": "Oliville",
+    "goldenrodCity": "Doublonville",
+    "newBarkTown": "Bourg Geon",
+    "olivineHarbor": "Port d’Oliville",
+    "mtMortar1F": "Mont Creuset – 1er étage",
+    "mtMortarB1F": "Mont Creuset – Sous-sol 1",
+    "mtMortarEntrance": "Entrée du Mont Creuset",
+    "unionCaveLower": "Grotte Union – Niveau inférieur",
+    "ruinsOfAlphExt": "Ruines d’Alpha (extérieur)",
+    "darkCaveBlackthorn": "Caverne Obscure (vers Ébènelle)",
+    "whirlIslands1F": "Îles Tourbillon – 1er étage",
+    "whirlIslands": "Îles Tourbillon",
+    "whirlIslandsB2F": "Îles Tourbillon – Sous-sol 2",
+    "blackthornHouse": "Maison à Ébènelle (est)",
+    "icePath": "Chemin Gelé",
+    "tinTower10F": "Tour Ferraille – 10e étage",
+    "rockTunnel1F": "Tunnel Taupiqueur – 1er étage",
+    "rockTunnelB1F": "Tunnel Taupiqueur – Sous-sol 1",
+    "mtSilver2F": "Mont Argenté – 2e étage",
+    "mtSilver2FCaves": "Mont Argenté – Cavernes 2F",
+    "mtSilverExterior": "Mont Argenté – Extérieur",
+    "mtSilver": "Mont Argenté",
+    "victoryRoad": "Route Victoire"
+  },
+
+
+  "detail": {
+    "obtainTitle": "Comment l’obtenir",
+    "method": "Méthode",
+    "locations": "Lieu",
+    "time": "Période",
+    "days": "Jours"
   }
 }
