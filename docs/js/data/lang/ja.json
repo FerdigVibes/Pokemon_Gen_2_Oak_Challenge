@@ -125,13 +125,15 @@
   },
 
   "time": {
-    "morningRange": "午前4時～午前9時59分",
-    "dayRange": "午前10時～午後5時59分",
-    "nightRange": "午後6時～午前3時59分",
+    "morningRange": "午前4時〜午前9時59分",
+    "dayRange": "午前10時〜午後5時59分",
+    "nightRange": "午後6時〜午前3時59分",
     "morning": "朝",
+    "daytime": "昼",
+    "night": "夜",
     "day": "昼",
     "night": "夜"
-  },
+  }
   
   "types": {
     "bug": "むし",
