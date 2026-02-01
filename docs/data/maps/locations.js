@@ -631,3 +631,11 @@ export const LOCATION_REGISTRY = {
   }
 
 };
+
+export function resolveLocationName(key, lang = 'en') {
+  return (
+    LOCATION_REGISTRY[key]?.names?.[lang] ||
+    LOCATION_REGISTRY[key]?.names?.en ||
+    key.split(':')[1] // fallback: "Route 2"
+  );
+}
