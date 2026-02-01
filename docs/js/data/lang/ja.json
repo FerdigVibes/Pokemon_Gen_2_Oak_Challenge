@@ -21,6 +21,9 @@
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "ゲーム時間",
   "detail.viewMap": "マップを見る",
+  "detail.nationalDex": "全国図鑑",
+  "detail.regionalDex": "地方図鑑",
+
   "days": {
     "mon": "月",
     "tue": "火",
