@@ -126,8 +126,8 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
         <span id="shiny-toggle" class="shiny-icon" title="Toggle shiny sprite">✨</span>
       </h2>
       <div class="detail-dex">
-        National Dex: #${String(dex).padStart(3, '0')}
-        ${regDex ? ` | Regional Dex: #${regDex}` : ''}
+        ${t('detail.nationalDex')}: #${String(dex).padStart(3, '0')}
+        ${regDex ? ` | ${t('detail.regionalDex')}: #${regDex}` : ''}
       </div>
     </div>
 
