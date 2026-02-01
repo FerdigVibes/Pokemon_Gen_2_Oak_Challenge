@@ -24,7 +24,29 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Mankey at level 28."
+          "notes": {
+            "en": "Evolve Mankey at Lv. 28.",
+            "ja": "マンキーを レベル28で しんか。",
+            "fr": "Faites évoluer Férosinge au niveau 28.",
+            "de": "Entwickle Menki auf Level 28.",
+            "es": "Evoluciona a Mankey al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "blue": {
+      "sections": ["CERULEAN_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Mankey at Lv. 28.",
+            "ja": "マンキーを レベル28で しんか。",
+            "fr": "Faites évoluer Férosinge au niveau 28.",
+            "de": "Entwickle Menki auf Level 28.",
+            "es": "Evoluciona a Mankey al nivel 28."
+          }
         }
       ]
     },
@@ -34,7 +56,13 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Mankey at level 28."
+          "notes": {
+            "en": "Evolve Mankey at Lv. 28.",
+            "ja": "マンキーを レベル28で しんか。",
+            "fr": "Faites évoluer Férosinge au niveau 28.",
+            "de": "Entwickle Menki auf Level 28.",
+            "es": "Evoluciona a Mankey al nivel 28."
+          }
         }
       ]
     },
@@ -44,9 +72,48 @@
       "obtain": [
         {
           "method": "evolution",
-          "notes": "Evolves from Mankey at level 28."
+          "notes": {
+            "en": "Evolve Mankey at Lv. 28.",
+            "ja": "マンキーを レベル28で しんか。",
+            "fr": "Faites évoluer Férosinge au niveau 28.",
+            "de": "Entwickle Menki auf Level 28.",
+            "es": "Evoluciona a Mankey al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "silver": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Mankey at Lv. 28.",
+            "ja": "マンキーを レベル28で しんか。",
+            "fr": "Faites évoluer Férosinge au niveau 28.",
+            "de": "Entwickle Menki auf Level 28.",
+            "es": "Evoluciona a Mankey al nivel 28."
+          }
+        }
+      ]
+    },
+
+    "crystal": {
+      "sections": ["ECRUTEAK_POKEMON"],
+      "obtain": [
+        {
+          "method": "evolution",
+          "notes": {
+            "en": "Evolve Mankey at Lv. 28.",
+            "ja": "マンキーを レベル28で しんか。",
+            "fr": "Faites évoluer Férosinge au niveau 28.",
+            "de": "Entwickle Menki auf Level 28.",
+            "es": "Evoluciona a Mankey al nivel 28."
+          }
         }
       ]
     }
   }
 }
+
