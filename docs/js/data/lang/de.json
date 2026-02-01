@@ -1,22 +1,26 @@
 {
-  "pickVersion": "Version auswählen",
+  "pickVersion": "Version wählen",
   "caught": "Gefangen",
   "currentObjective": "Aktuelles Ziel",
   "challengeComplete": "Herausforderung abgeschlossen",
   "searchPlaceholder": "Pokémon suchen…",
-  "nationalDex": "Nationaldex",
-  "regionalDex": "Regionaldex",
+  "nationalDex": "Nationaler Pokédex",
+  "regionalDex": "Regionaler Pokédex",
   "time": "Tageszeit",
   "howToObtain": "Fundort",
   "locations": "Orte",
-  "appTitle": "Professor-Eich-Challenge – {{version}}-Edition",
+  "appTitle": "Professor Eich Herausforderung – Version {{version}}",
   "gen1": "Generation I",
   "gen2": "Generation II",
   "appTitleNoVersion": "Professor Eich Herausforderung",
-  "pickVersionPrompt": "Wähle eine Version, um zu beginnen",
-  "globalCaughtCount": "{{caught}} / {{total}} Gefangen",
+  "pickVersionPrompt": "Bitte wähle eine Version",
+  "red": "Rot",
+  "blue": "Blau",
+  "yellow": "Gelb",
+  "globalCaughtCount": "{{caught}} / {{total}} gefangen",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Spielzeit",
+
   "days": {
     "mon": "Mo",
     "tue": "Di",
@@ -25,7 +29,6 @@
     "fri": "Fr",
     "sat": "Sa",
     "sun": "So",
-  
     "monday": "Montag",
     "tuesday": "Dienstag",
     "wednesday": "Mittwoch",
@@ -34,99 +37,102 @@
     "saturday": "Samstag",
     "sunday": "Sonntag"
   },
-  
+
   "gameTime": {
-    "title": "Spielzeit festlegen",
+    "title": "Spielzeit einstellen",
     "day": "Tag",
     "time": "Uhrzeit",
     "dst": "Sommerzeit"
   },
 
-  "red": "Rot",
-  "blue": "Blau",
-  "yellow": "Gelb",
-
   "gold": "Gold",
   "silver": "Silber",
   "crystal": "Kristall",
-  "crystal_gbc": "Pokémon Kristall-Edition (Game Boy Color)",
-  "crystal_vc": "Pokémon Kristall-Edition (3DS Virtual Console)",
-
-  "chooseYourStarter": "Wähle dein Starter-Pokémon",
+  "crystal_gbc": "Pokémon Kristall (Game Boy Color)",
+  "crystal_vc": "Pokémon Kristall (3DS Virtual Console)",
 
   "objective": {
-    "beforePewter": "Vor dem Vertania-Arenaleiter",
-    "pewterPokemon": "Vertania-Pokémon",
-  
-    "beforeCerulean": "Vor dem Azuria-Arenaleiter",
-    "ceruleanPokemon": "Azuria-Pokémon",
-  
-    "beforeVermilion": "Vor dem Orania-Arenaleiter",
-    "afterVermilion": "Nach dem Orania-Arenaleiter",
-  
-    "beforeCeladon": "Vor dem Prismania-Arenaleiter",
-    "celadonPokemon": "Prismania-Pokémon",
-  
-    "beforeFuchsia": "Vor dem Fuchsania-Arenaleiter",
-    "fuchsiaPokemon": "Fuchsania-Pokémon",
-  
+    "beforePewter": "Vor der Arena von Marmoria City",
+    "pewterPokemon": "Pokémon von Marmoria",
+
+    "beforeCerulean": "Vor der Arena von Azuria City",
+    "ceruleanPokemon": "Pokémon von Azuria",
+
+    "beforeVermilion": "Vor der Arena von Orania City",
+    "afterVermilion": "Nach der Arena von Orania City",
+
+    "beforeCeladon": "Vor der Arena von Prismania City",
+    "celadonPokemon": "Pokémon von Prismania",
+
+    "beforeFuchsia": "Vor der Arena von Fuchsania City",
+    "fuchsiaPokemon": "Pokémon von Fuchsania",
+
     "beforeFifth": "Vor dem fünften Orden",
-  
-    "beforeEliteFour": "Vor der Pokémon-Liga",
-    "eliteFourPokemon": "Pokémon der Liga",
-  
+
+    "beforeEliteFour": "Vor den Top Vier",
+    "eliteFourPokemon": "Pokémon der Top Vier",
+
     "ceruleanCave": "Azuria-Höhle",
-    "ceruleanCavePokemon": "Azuria-Höhlen-Pokémon",
-  
+    "ceruleanCavePokemon": "Pokémon in der Azuria-Höhle",
+
     "mtSilver": "Silberberg",
-    "mtSilverPokemon": "Silberberg-Pokémon",
-  
+    "mtSilverPokemon": "Pokémon vom Silberberg",
+
     "beforeKantoBadges": "Vor den Kanto-Orden",
     "kantoPokemon": "Kanto-Pokémon",
-  
-    "beforeViolet": "Vor dem Viola-Arenaleiter",
-    "violetPokemon": "Viola City Pokémon",
-  
-    "beforeAzalea": "Vor dem Azalea-Arenaleiter",
-    "azaleaPokemon": "Azalea-Pokémon",
-  
-    "beforeGoldenrod": "Vor dem Dukatia-Arenaleiter",
-    "goldenrodPokemon": "Dukatia-Pokémon",
-  
-    "beforeEcruteak": "Vor dem Teak-Arenaleiter",
-    "ecruteakPokemon": "Teak City Pokémon",
-  
-    "beforeMahogany": "Vor dem Mahagonia-Arenaleiter",
-    "mahoganyPokemon": "Mahagonia-Pokémon",
-  
-    "beforeCianwoodOlivine": "Vor dem Anemonia- & Oliviana-Arenaleiter",
-    "cianwoodOlivinePokemon": "Anemonia- & Oliviana-Pokémon",
-  
-    "beforeBlackthorn": "Vor dem Ebenholz-Arenaleiter",
-    "blackthornPokemon": "Ebenholz-Pokémon",
-  
-    "moonStoneOne": "Mondstein-Entwicklung",
-    "moonStoneTwo": "Mondstein-Entwicklung (Zweite)",
-  
-    "leafStone": "Wähle eine Blattstein-Entwicklung",
-    "fireStone": "Wähle eine Feuerstein-Entwicklung",
-    "waterStone": "Wähle eine Wasserstein-Entwicklung",
-    "thunderStone": "Wähle eine Donnerstein-Entwicklung",
-  
-    "eeveeEvolutions": "Wähle deine Evoli-Entwicklung",
-    "hitmonPrize": "Karate-Prämien-Pokémon",
+
+    "beforeViolet": "Vor der Arena von Viola City",
+    "violetPokemon": "Pokémon von Viola",
+
+    "beforeAzalea": "Vor der Arena von Azalea City",
+    "azaleaPokemon": "Pokémon von Azalea",
+
+    "beforeGoldenrod": "Vor der Arena von Dukatia City",
+    "goldenrodPokemon": "Pokémon von Dukatia",
+
+    "beforeEcruteak": "Vor der Arena von Teak City",
+    "ecruteakPokemon": "Pokémon von Teak City",
+
+    "beforeMahogany": "Vor der Arena von Mahagonia City",
+    "mahoganyPokemon": "Pokémon von Mahagonia",
+
+    "beforeCianwoodOlivine": "Vor den Arenen von Oliviana & Anemonia",
+    "cianwoodOlivinePokemon": "Pokémon aus Oliviana & Anemonia",
+
+    "beforeBlackthorn": "Vor der Arena von Ebenholz City",
+    "blackthornPokemon": "Pokémon von Ebenholz",
+
+    "moonStoneOne": "Entwicklung mit Mondstein",
+    "moonStoneTwo": "Entwicklung mit Mondstein (zweite)",
+
+    "leafStone": "Entwicklung mit Blattstein",
+    "fireStone": "Entwicklung mit Feuerstein",
+    "waterStone": "Entwicklung mit Wasserstein",
+    "thunderStone": "Entwicklung mit Donnerstein",
+
+    "eeveeEvolutions": "Entwicklung von Evoli wählen",
+    "hitmonPrize": "Preispokémon (Kicklee oder Nockchan)",
     "reviveFossil": "Wiederbelebtes Fossil-Pokémon",
-  
+
     "articuno": "Arktos",
     "moltres": "Lavados",
     "mewtwo": "Mewtu",
-  
-    "pikachu": "Ich wähle dich, Pikachu!",
+
+    "pikachu": "Pikachu, ich wähle dich!",
     "squirtlesquad": "Schiggy-Squad",
-  
-    "chooseYourStarter": "Wähle dein Starter-Pokémon"
+
+    "chooseYourStarter": "Wähle deinen Starter"
   },
 
+  "time": {
+    "morningRange": "04:00 – 09:59",
+    "dayRange": "10:00 – 17:59",
+    "nightRange": "18:00 – 03:59",
+    "morning": "Morgen",
+    "daytime": "Tag",
+    "day": "Tag",
+    "night": "Nacht"
+  },
 
   "types": {
     "bug": "Käfer",
@@ -148,16 +154,7 @@
     "steel": "Stahl",
     "water": "Wasser"
   },
-  
-  "time": {
-    "morningRange": "04:00 – 09:59 Uhr",
-    "dayRange": "10:00 – 17:59 Uhr",
-    "nightRange": "18:00 – 03:59 Uhr",
-    "morning": "Morgens",
-    "day": "Tagsüber",
-    "night": "Nachts"
-  },
-  
+
   "methods": {
     "starter": "Starter",
     "wild": "Wild",
@@ -166,23 +163,138 @@
     "trade": "Tausch",
     "evolution": "Entwicklung",
     "fossil": "Fossil",
-    "held_item": "Getragener Gegenstand",
+    "held_item": "Getragenes Item",
     "day_care": "Pension",
     "headbutt": "Kopfnuss",
     "radio": "Radio",
     "bug_contest": "Käferturnier",
     "swarm": "Schwarm",
-    "rock_smash": "Zerschneider",
+    "rock_smash": "Zertrümmerer",
     "safari": "Safari-Zone",
     "special": "Spezial",
-    "purchase": "Kauf"
+    "purchase": "Kauf",
+    "fish": "Angeln",
+    "static": "Fest",
+    "revive": "Wiederbelebt",
+    "breed": "Zucht",
+    "roaming": "Streifend",
+    "surf": "Surfer",
+    "game_corner": "Spielhalle"
   },
+
   "detail": {
-    "obtainTitle": "Wie man es erhält",
+    "obtainTitle": "Fundort",
     "method": "Methode",
-    "locations": "Orte",
-    "time": "Uhrzeit",
+    "locations": "Ort",
+    "time": "Tageszeit",
     "days": "Tage"
+  },
+
+  "locations": {
+    "route1": "Route 1",
+    "route2": "Route 2",
+    "route3": "Route 3",
+    "route4": "Route 4",
+    "route5": "Route 5",
+    "route6": "Route 6",
+    "route7": "Route 7",
+    "route8": "Route 8",
+    "route10": "Route 10",
+    "route11": "Route 11",
+    "route12": "Route 12",
+    "route13": "Route 13",
+    "route14": "Route 14",
+    "route15": "Route 15",
+    "route16": "Route 16",
+    "route17": "Route 17",
+    "route18": "Route 18",
+    "route19": "Route 19",
+    "route21": "Route 21",
+    "route22": "Route 22",
+    "route24": "Route 24",
+    "route25": "Route 25",
+    "route28": "Route 28",
+    "route29": "Route 29",
+    "route30": "Route 30",
+    "route31": "Route 31",
+    "route32": "Route 32",
+    "route33": "Route 33",
+    "route34": "Route 34",
+    "route35": "Route 35",
+    "route36": "Route 36",
+    "route38": "Route 38",
+    "route39": "Route 39",
+    "route40": "Route 40",
+    "route41": "Route 41",
+    "route42": "Route 42",
+    "route43": "Route 43",
+    "route44": "Route 44",
+    "route45": "Route 45",
+    "route46": "Route 46",
+    "viridianForest": "Vertania-Wald",
+    "mtMoon": "Mondberg",
+    "diglettsCave": "Digdas Höhle",
+    "route34Daycare": "Route 34 – Pension",
+    "route3PokeCenter": "Pokémon-Center – Route 3",
+    "anyWater": "Beliebiges Gewässer",
+    "ceruleanGym": "Arena von Azuria",
+    "safariZone": "Safari-Zone",
+    "safariArea1": "Zone 1",
+    "safariArea2": "Zone 2",
+    "safariArea3": "Zone 3",
+    "safariArea4": "Zone 4",
+    "celadonDeptStore4F": "Kaufhaus Prismania – 4. Stock",
+    "pokemonTower": "Pokémon-Turm",
+    "route18Gatehouse": "Torhaus Route 18",
+    "celadonGameCorner": "Spielhalle Prismania",
+    "burnedTower": "Verbrannter Turm",
+    "burnedTowerB1F": "Verbrannter Turm – UG1",
+    "mostWaters": "Die meisten Gewässer",
+    "ceruleanHouseNextCenter": "Haus neben Pokémon-Center Azuria",
+    "silphCo7F": "Silph Co. – 7. Stock",
+    "cinnabarLab": "Labor auf Zinnoberinsel",
+    "celadonMansionTop": "Prismania-Villa – Dachgeschoss",
+    "saffronDojo": "Kampfdojo von Saffronia",
+    "pokemonMansion": "Pokémon-Villa",
+    "powerPlant": "Kraftwerk",
+    "ceruleanCave": "Azuria-Höhle",
+    "sproutTower": "Knofensa-Turm",
+    "darkCave": "Dunkelhöhle",
+    "ruinsOfAlph": "Alph-Ruinen",
+    "unionCave1F": "Einheitstunnel – EG",
+    "unionCaveB1F": "Einheitstunnel – UG1",
+    "ilexForest": "Steineichenwald",
+    "violetCity": "Viola City",
+    "azaleaTown": "Azalea City",
+    "unionCave": "Einheitstunnel",
+    "slowpokeWell": "Flegmon-Brunnen",
+    "violetPokeCenter": "Pokémon-Center Viola",
+    "nationalPark": "Nationalpark",
+    "goldenrodGameCorner": "Spielhalle Dukatia",
+    "cherrygroveCity": "Rosalia City",
+    "olivineCity": "Oliviana City",
+    "goldenrodCity": "Dukatia City",
+    "newBarkTown": "Neuborkia",
+    "olivineHarbor": "Hafen von Oliviana",
+    "mtMortar1F": "Kesselberg – EG",
+    "mtMortarB1F": "Kesselberg – UG1",
+    "mtMortarEntrance": "Kesselberg Eingang",
+    "unionCaveLower": "Einheitstunnel – Untere Etage",
+    "ruinsOfAlphExt": "Alph-Ruinen (Außen)",
+    "darkCaveBlackthorn": "Dunkelhöhle (Ebenholz-Seite)",
+    "whirlIslands1F": "Strudelinseln – EG",
+    "whirlIslands": "Strudelinseln",
+    "whirlIslandsB2F": "Strudelinseln – UG2",
+    "blackthornHouse": "Haus in Ebenholz (Ost)",
+    "icePath": "Eispfad",
+    "tinTower10F": "Zinnturm – 10. Etage",
+    "rockTunnel1F": "Felstunnel – EG",
+    "rockTunnelB1F": "Felstunnel – UG1",
+    "mtSilver2F": "Silberberg – 2. Etage",
+    "mtSilver2FCaves": "Silberberg – Höhlen 2F",
+    "mtSilverExterior": "Silberberg – Außenbereich",
+    "mtSilver": "Silberberg",
+    "victoryRoad": "Siegesstraße"
   }
 }
 
