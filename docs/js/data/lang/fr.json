@@ -20,6 +20,7 @@
   "globalCaughtCount": "{{caught}} / {{total}} capturés",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Heure du jeu",
+  "detail.viewMap": "Voir la carte",
 
   "days": {
     "mon": "Lun",
