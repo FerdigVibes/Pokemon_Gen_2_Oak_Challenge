@@ -29,7 +29,6 @@
     "fri": "Fri",
     "sat": "Sat",
     "sun": "Sun",
-  
     "monday": "Monday",
     "tuesday": "Tuesday",
     "wednesday": "Wednesday",
@@ -52,6 +51,8 @@
     "nightRange": "6:00 p.m. – 3:59 a.m.",
     "morning": "Morning",
     "daytime": "Day",
+    "night": "Night",
+    "day": "Day",
     "night": "Night"
   },
 
@@ -64,73 +65,51 @@
   "objective": {
     "beforePewter": "Before Pewter Gym",
     "pewterPokemon": "Pewter Pokémon",
-  
     "beforeCerulean": "Before Cerulean Gym",
     "ceruleanPokemon": "Cerulean Pokémon",
-  
     "beforeVermilion": "Before Vermilion Gym",
     "afterVermilion": "After Vermilion Gym",
-  
     "beforeCeladon": "Before Celadon Gym",
     "celadonPokemon": "Celadon Pokémon",
-  
     "beforeFuchsia": "Before Fuchsia Gym",
     "fuchsiaPokemon": "Fuchsia Pokémon",
-  
     "beforeFifth": "Before Fifth Gym",
-  
     "beforeEliteFour": "Before the Elite Four",
     "eliteFourPokemon": "Elite Four Pokémon",
-  
     "ceruleanCave": "Cerulean Cave",
     "ceruleanCavePokemon": "Cerulean Cave Pokémon",
-  
     "mtSilver": "Mt. Silver",
     "mtSilverPokemon": "Mt. Silver Pokémon",
-  
     "beforeKantoBadges": "Before Kanto Badges",
     "kantoPokemon": "Kanto Pokémon",
-  
     "beforeViolet": "Before Violet Gym",
     "violetPokemon": "Violet Pokémon",
-  
     "beforeAzalea": "Before Azalea Gym",
     "azaleaPokemon": "Azalea Pokémon",
-  
     "beforeGoldenrod": "Before Goldenrod Gym",
     "goldenrodPokemon": "Goldenrod Pokémon",
-  
     "beforeEcruteak": "Before Ecruteak Gym",
     "ecruteakPokemon": "Ecruteak Pokémon",
-  
     "beforeMahogany": "Before Mahogany Gym",
     "mahoganyPokemon": "Mahogany Pokémon",
-  
     "beforeCianwoodOlivine": "Before Cianwood & Olivine Gyms",
     "cianwoodOlivinePokemon": "Cianwood & Olivine Pokémon",
-  
     "beforeBlackthorn": "Before Blackthorn Gym",
     "blackthornPokemon": "Blackthorn Pokémon",
-  
     "moonStoneOne": "Moon Stone Evolution",
     "moonStoneTwo": "Moon Stone Evolution (Second)",
-  
     "leafStone": "Choose a Leaf Stone Evolution",
     "fireStone": "Choose a Fire Stone Evolution",
     "waterStone": "Choose a Water Stone Evolution",
     "thunderStone": "Choose a Thunder Stone Evolution",
-  
     "eeveeEvolutions": "Choose your Eevee Evolution",
     "hitmonPrize": "Hitmon Prize Pokémon",
     "reviveFossil": "Revived Fossil Pokémon",
-  
     "articuno": "Articuno",
     "moltres": "Moltres",
     "mewtwo": "Mewtwo",
-  
     "pikachu": "I Choose You, Pikachu!",
     "squirtlesquad": "Squirtle Squad",
-  
     "chooseYourStarter": "Choose Your Starter"
   },
 
@@ -154,6 +133,7 @@
     "steel": "Steel",
     "water": "Water"
   },
+
   "methods": {
     "starter": "Starter",
     "wild": "Wild",
@@ -171,8 +151,123 @@
     "rock_smash": "Rock Smash",
     "safari": "Safari Zone",
     "special": "Special",
-    "purchase": "Purchase"
+    "purchase": "Purchase",
+    "fish": "Fishing",
+    "static": "Static Encounter",
+    "revive": "Revive",
+    "breed": "Breed",
+    "roaming": "Roaming",
+    "surf": "Surf",
+    "game_corner": "Game Corner"
   },
+
+  "locations": {
+    "route1": "Route 1",
+    "route2": "Route 2",
+    "route3": "Route 3",
+    "route4": "Route 4",
+    "route5": "Route 5",
+    "route6": "Route 6",
+    "route7": "Route 7",
+    "route8": "Route 8",
+    "route10": "Route 10",
+    "route11": "Route 11",
+    "route12": "Route 12",
+    "route13": "Route 13",
+    "route14": "Route 14",
+    "route15": "Route 15",
+    "route16": "Route 16",
+    "route17": "Route 17",
+    "route18": "Route 18",
+    "route19": "Route 19",
+    "route21": "Route 21",
+    "route22": "Route 22",
+    "route24": "Route 24",
+    "route25": "Route 25",
+    "route28": "Route 28",
+    "route29": "Route 29",
+    "route30": "Route 30",
+    "route31": "Route 31",
+    "route32": "Route 32",
+    "route33": "Route 33",
+    "route34": "Route 34",
+    "route35": "Route 35",
+    "route36": "Route 36",
+    "route38": "Route 38",
+    "route39": "Route 39",
+    "route40": "Route 40",
+    "route41": "Route 41",
+    "route42": "Route 42",
+    "route43": "Route 43",
+    "route44": "Route 44",
+    "route45": "Route 45",
+    "route46": "Route 46",
+    "viridianForest": "Viridian Forest",
+    "mtMoon": "Mt. Moon",
+    "diglettsCave": "Diglett's Cave",
+    "route34Daycare": "Route 34 Daycare",
+    "route3PokeCenter": "Route 3 Pokémon Center",
+    "anyWater": "Any Water",
+    "ceruleanGym": "Cerulean Gym",
+    "safariZone": "Safari Zone",
+    "safariArea1": "Area 1",
+    "safariArea2": "Area 2",
+    "safariArea3": "Area 3",
+    "safariArea4": "Area 4",
+    "celadonDeptStore4F": "Celadon Dept. Store 4F",
+    "pokemonTower": "Pokémon Tower",
+    "route18Gatehouse": "Route 18 Gatehouse",
+    "celadonGameCorner": "Celadon Game Corner",
+    "burnedTower": "Burned Tower",
+    "burnedTowerB1F": "Burned Tower B1F",
+    "mostWaters": "Most waters",
+    "ceruleanHouseNextCenter": "Cerulean City (House next to Pokémon Center)",
+    "silphCo7F": "Silph Co. (7F)",
+    "cinnabarLab": "Cinnabar Island Lab",
+    "celadonMansionTop": "Celadon Mansion (Top Floor)",
+    "saffronDojo": "Saffron City Fighting Dojo",
+    "pokemonMansion": "Pokémon Mansion",
+    "powerPlant": "Power Plant",
+    "ceruleanCave": "Cerulean Cave",
+    "sproutTower": "Sprout Tower",
+    "darkCave": "Dark Cave",
+    "ruinsOfAlph": "Ruins of Alph",
+    "unionCave1F": "Union Cave 1F",
+    "unionCaveB1F": "Union Cave B1F",
+    "ilexForest": "Ilex Forest",
+    "violetCity": "Violet City",
+    "azaleaTown": "Azalea Town",
+    "unionCave": "Union Cave",
+    "slowpokeWell": "Slowpoke Well",
+    "violetPokeCenter": "Violet City Pokémon Center",
+    "nationalPark": "National Park",
+    "goldenrodGameCorner": "Goldenrod Game Corner",
+    "cherrygroveCity": "Cherrygrove City",
+    "olivineCity": "Olivine City",
+    "goldenrodCity": "Goldenrod City",
+    "newBarkTown": "New Bark Town",
+    "olivineHarbor": "Olivine City Harbor",
+    "mtMortar1F": "Mt. Mortar 1F",
+    "mtMortarB1F": "Mt. Mortar B1F",
+    "mtMortarEntrance": "Mt. Mortar Entrance",
+    "unionCaveLower": "Union Cave (Lower Floor)",
+    "ruinsOfAlphExt": "Ruins of Alph (Exterior)",
+    "darkCaveBlackthorn": "Dark Cave (Blackthorn City Side)",
+    "whirlIslands1F": "Whirl Islands 1F",
+    "whirlIslands": "Whirl Islands",
+    "whirlIslandsB2F": "Whirl Islands B2F",
+    "blackthornHouse": "Blackthorn City (Eastern House)",
+    "icePath": "Ice Path",
+    "tinTower10F": "Tin Tower 10F",
+    "rockTunnel1F": "Rock Tunnel 1F",
+    "rockTunnelB1F": "Rock Tunnel B1F",
+    "mtSilver2F": "Mt. Silver 2F",
+    "mtSilver2FCaves": "Mt. Silver 2F Caves",
+    "mtSilverExterior": "Mt. Silver Exterior",
+    "mtSilver": "Mt. Silver",
+    "victoryRoad": "Victory Road"
+  },
+
   "detail": {
     "obtainTitle": "How to Obtain",
     "method": "Method",
@@ -181,4 +276,5 @@
     "days": "Days"
   }
 }
+
 
