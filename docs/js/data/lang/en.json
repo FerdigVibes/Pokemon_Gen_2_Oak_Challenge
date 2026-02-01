@@ -20,6 +20,7 @@
   "globalCaughtCount": "{{caught}} / {{total}} Caught",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Game Time",
+  "detail.viewMap": "View Map",
 
   "days": {
     "mon": "Mon",
