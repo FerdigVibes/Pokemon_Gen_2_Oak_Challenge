@@ -21,6 +21,7 @@
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Spielzeit",
   "detail.viewMap": "Karte anzeigen",
+  "detail.viewMap": "Ver mapa",
 
   "days": {
     "mon": "Mo",
