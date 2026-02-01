@@ -21,6 +21,8 @@
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Game Time",
   "detail.viewMap": "View Map",
+  "detail.nationalDex": "National Dex",
+  "detail.regionalDex": "Regional Dex",
 
   "days": {
     "mon": "Mon",
