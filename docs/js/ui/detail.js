@@ -152,7 +152,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
     <div class="obtain-section">
      <h3>${t('detail.obtainTitle')}</h3>
      ${obtain.length
-       ? `<ul>${obtain.map(o => renderObtainEntry(o, lang)).join('')}</ul>`
+       ? `<ul>${obtain.map(o => renderObtainEntry(o, lang, region)).join('')}</ul>`
        : '<p>—</p>'}
     </div>
   `;
@@ -173,6 +173,12 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
    
    panel.querySelector('.obtain-section')?.appendChild(mapBtn);
   }
+  const region =
+     gameKey.startsWith('gold') ||
+     gameKey.startsWith('silver') ||
+     gameKey.startsWith('crystal')
+       ? 'johto'
+       : 'kanto';
   const shinyToggle = document.getElementById('shiny-toggle');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
@@ -201,7 +207,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
    ========================================================= */
 
 function renderObtainMethods(obtain, lang) {
-  const items = obtain.map(o => renderObtainEntry(o, lang)).join('');
+  const items = obtain.map(o => renderObtainEntry(o, lang, region)).join('');
 
   return `
     <h3>${t('howToObtain')}</h3>
@@ -211,8 +217,12 @@ function renderObtainMethods(obtain, lang) {
   `;
 }
 
-function renderObtainEntry(o, lang) {
-  const method = o.method ? t(`methods.${o.method}`) : '';
+function renderObtainEntry(o, lang, region) {
+  const locations = Array.isArray(o.locations)
+     ? o.locations
+         .map(loc => resolveLocationName(`${region}:${loc}`, lang))
+         .join(', ')
+     : '';
 
   const locations = Array.isArray(o.locations)
     o.locations.map(loc =>
