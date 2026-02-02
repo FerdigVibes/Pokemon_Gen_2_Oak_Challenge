@@ -65,7 +65,7 @@
           }
         },
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["Route 19"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Route 19.",
