@@ -215,8 +215,16 @@ function renderObtainEntry(o, lang) {
   const method = o.method ? t(`methods.${o.method}`) : '';
 
   const locations = Array.isArray(o.locations)
-    ? o.locations.map(l => resolveLangField(l, lang)).join(', ')
-    : '';
+    o.locations.map(loc =>
+     resolveLocationName(
+       `${normalizeGameId(gameData.id).startsWith('gold') ||
+         normalizeGameId(gameData.id).startsWith('silver') ||
+         normalizeGameId(gameData.id).startsWith('crystal')
+           ? 'johto'
+           : 'kanto'}:${loc}`,
+       lang
+     )
+    ).join(', ')
 
   const timeRaw = resolveLangField(o.time, lang);
   const time = Array.isArray(timeRaw) ? timeRaw.join(', ') : timeRaw;
