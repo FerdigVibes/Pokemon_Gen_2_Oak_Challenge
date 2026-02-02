@@ -19,7 +19,7 @@
       "obtain": [
         {
           "method": "static",
-          "locations": ["Tin Tower 10F"],
+          "locations": ["Tin Tower"],
           "notes": {
             "en": "Static encounter at the top of Tin Tower (10F). SAVE BEFORE INTERACTING!",
             "ja": "スズのとう10かいで こていで しゅつげん。まえに セーブ！",
@@ -35,7 +35,7 @@
       "obtain": [
         {
           "method": "static",
-          "locations": ["Tin Tower 10F"],
+          "locations": ["Tin Tower"],
           "notes": {
             "en": "Static encounter at the top of Tin Tower (10F). SAVE BEFORE INTERACTING!",
             "ja": "スズのとう10かいで こていで しゅつげん。まえに セーブ！",
@@ -51,7 +51,7 @@
       "obtain": [
         {
           "method": "static",
-          "locations": ["Tin Tower 10F"],
+          "locations": ["Tin Tower"],
           "requirements": ["Rainbow Wing"],
           "notes": {
             "en": "Static encounter at the top of Tin Tower (10F). Requires the Rainbow Wing from the man in Tin Tower in Ecruteak City. SAVE BEFORE INTERACTING!",
