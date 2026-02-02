@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "trade",
-          "locations": ["Cerulean City (House next to Pokémon Center)"],
+          "locations": ["Cerulean City"],
           "notes": {
             "en": "Trade a Poliwhirl to receive Jynx in Cerulean City, in the house next to the Pokémon Center.",
             "ja": "ハナダシティの ポケモンセンターの となりの いえで ニョロゾと こうかん。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "trade",
-          "locations": ["Cerulean City (House next to Pokémon Center)"],
+          "locations": ["Cerulean City"],
           "notes": {
             "en": "Trade a Poliwhirl to receive Jynx in Cerulean City, in the house next to the Pokémon Center.",
             "ja": "ハナダシティの ポケモンセンターの となりの いえで ニョロゾと こうかん。",
