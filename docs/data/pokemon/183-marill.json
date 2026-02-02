@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Mortar 1F", "Mt. Mortar Entrance"],
+          "locations": ["Mt. Mortar"],
           "notes": {
             "en": "Found in Mt. Mortar 1F and the entrance.",
             "ja": "すずのどうくつ 1かい と いりぐちで しゅつげん。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Mortar 1F", "Mt. Mortar Entrance"],
+          "locations": ["Mt. Mortar"],
           "notes": {
             "en": "Found in Mt. Mortar 1F and the entrance.",
             "ja": "すずのどうくつ 1かい と いりぐちで しゅつげん。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Mortar 1F Entrance", "Mt. Mortar Rear"],
+          "locations": ["Mt. Mortar"],
           "time": ["night"],
           "notes": {
             "en": "Very rare encounter at night in Mt. Mortar’s entrance and rear sections.",
