@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Rock Tunnel B1F"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel (B1F).",
             "ja": "イワヤマトンネル ちか1かいに しゅつげん。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Rock Tunnel B1F"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel (B1F).",
             "ja": "イワヤマトンネル ちか1かいに しゅつげん。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Rock Tunnel B1F"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel (B1F).",
             "ja": "イワヤマトンネル ちか1かいに しゅつげん。",
