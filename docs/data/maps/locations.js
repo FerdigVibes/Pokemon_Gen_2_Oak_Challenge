@@ -628,8 +628,377 @@ export const LOCATION_REGISTRY = {
   "johto:Viridian Forest": {
     map: "kanto", x: 48, y: 52,
     names: { en: "Viridian Forest", ja: "ビリジアンフォレスト", de: "Viridianwald", es: "Bosque Verde", fr: "Forêt de Jade" }
-  }
+  },
+  /* ======================================================
+   KANTO — ADDITIONAL LOCATIONS
+   ====================================================== */
 
+  "kanto:Route 3 Pokémon Center": {
+    map: "kanto",
+    x: 58,
+    y: 48,
+    names: {
+      en: "Route 3 Pokémon Center",
+      ja: "ルート3 ポケモンセンター",
+      de: "Pokémon-Center Route 3",
+      es: "Centro Pokémon Ruta 3",
+      fr: "Centre Pokémon Route 3"
+    }
+  },
+  
+  "kanto:Cerulean Gym": {
+    map: "kanto",
+    x: 56,
+    y: 36,
+    names: {
+      en: "Cerulean Gym",
+      ja: "ハナダジム",
+      de: "Azuria-Arena",
+      es: "Gimnasio Celeste",
+      fr: "Arène d’Azuria"
+    }
+  },
+  
+  "kanto:Cerulean City (House next to Pokémon Center)": {
+    map: "kanto",
+    x: 56,
+    y: 36,
+    names: {
+      en: "Cerulean City (House next to Pokémon Center)",
+      ja: "ハナダシティ（ポケモンセンター横の家）",
+      de: "Azuria (Haus neben Pokémon-Center)",
+      es: "Ciudad Celeste (Casa junto al Centro Pokémon)",
+      fr: "Azuria (Maison près du Centre Pokémon)"
+    }
+  },
+  
+  "kanto:Celadon Dept. Store 4F": {
+    map: "kanto",
+    x: 46,
+    y: 40,
+    names: {
+      en: "Celadon Dept. Store 4F",
+      ja: "タマムシデパート 4F",
+      de: "Kaufhaus Prismania 4. Stock",
+      es: "Centro Comercial Azulona 4.º piso",
+      fr: "Centre Commercial Céladon 4e étage"
+    }
+  },
+  
+  "kanto:Celadon Game Corner": {
+    map: "kanto",
+    x: 46,
+    y: 40,
+    names: {
+      en: "Celadon Game Corner",
+      ja: "タマムシゲームコーナー",
+      de: "Spielhalle Prismania",
+      es: "Casino Azulona",
+      fr: "Casino de Céladon"
+    }
+  },
+  
+  "kanto:Safari Zone Area 1": {
+    map: "kanto",
+    x: 50,
+    y: 58,
+    names: {
+      en: "Safari Zone Area 1",
+      ja: "サファリゾーン エリア1",
+      de: "Safari-Zone Gebiet 1",
+      es: "Zona Safari Área 1",
+      fr: "Zone Safari Secteur 1"
+    }
+  },
+  
+  "kanto:Safari Zone Area 2": {
+    map: "kanto",
+    x: 50,
+    y: 58,
+    names: {
+      en: "Safari Zone Area 2",
+      ja: "サファリゾーン エリア2",
+      de: "Safari-Zone Gebiet 2",
+      es: "Zona Safari Área 2",
+      fr: "Zone Safari Secteur 2"
+    }
+  },
+  
+  "kanto:Safari Zone Area 3": {
+    map: "kanto",
+    x: 50,
+    y: 58,
+    names: {
+      en: "Safari Zone Area 3",
+      ja: "サファリゾーン エリア3",
+      de: "Safari-Zone Gebiet 3",
+      es: "Zona Safari Área 3",
+      fr: "Zone Safari Secteur 3"
+    }
+  },
+  
+  "kanto:Safari Zone Area 4": {
+    map: "kanto",
+    x: 50,
+    y: 58,
+    names: {
+      en: "Safari Zone Area 4",
+      ja: "サファリゾーン エリア4",
+      de: "Safari-Zone Gebiet 4",
+      es: "Zona Safari Área 4",
+      fr: "Zone Safari Secteur 4"
+    }
+  },
+  
+  "kanto:Silph Co. (7F)": {
+    map: "kanto",
+    x: 52,
+    y: 40,
+    names: {
+      en: "Silph Co. (7F)",
+      ja: "シルフカンパニー 7F",
+      de: "Silph Co. (7. Stock)",
+      es: "Silph S.A. (7.º piso)",
+      fr: "Sylphe SARL (7e étage)"
+    }
+  },
+  
+  "kanto:Cinnabar Island Lab": {
+    map: "kanto",
+    x: 52,
+    y: 74,
+    names: {
+      en: "Cinnabar Island Lab",
+      ja: "グレンタウン研究所",
+      de: "Labor auf der Zinnoberinsel",
+      es: "Laboratorio Isla Canela",
+      fr: "Laboratoire de Cramois’Île"
+    }
+  },
+  
+  "kanto:Celadon Mansion (Top Floor)": {
+    map: "kanto",
+    x: 46,
+    y: 40,
+    names: {
+      en: "Celadon Mansion (Top Floor)",
+      ja: "タマムシマンション 最上階",
+      de: "Villa Prismania (Oberstes Stockwerk)",
+      es: "Mansión Azulona (Última planta)",
+      fr: "Manoir de Céladon (Dernier étage)"
+    }
+  },
+  
+  "kanto:Saffron City Fighting Dojo": {
+    map: "kanto",
+    x: 52,
+    y: 40,
+    names: {
+      en: "Saffron City Fighting Dojo",
+      ja: "ヤマブキ道場",
+      de: "Dojo von Saffronia",
+      es: "Dojo de Ciudad Azafrán",
+      fr: "Dojo de Safrania"
+    }
+  },
+  
+  "kanto:Any Water": {
+    map: "kanto",
+    x: 56,
+    y: 64,
+    names: {
+      en: "Any Water",
+      ja: "すべての水辺",
+      de: "Alle Gewässer",
+      es: "Cualquier agua",
+      fr: "Toute étendue d’eau"
+    }
+  },
+  
+  "kanto:Most waters": {
+    map: "kanto",
+    x: 56,
+    y: 64,
+    names: {
+      en: "Most waters",
+      ja: "ほとんどの水辺",
+      de: "Die meisten Gewässer",
+      es: "La mayoría de aguas",
+      fr: "La plupart des eaux"
+    }
+  },
+  /* ======================================================
+   JOHTO — ADDITIONAL LOCATIONS
+   ====================================================== */
+
+  "johto:Union Cave 1F": {
+    map: "johto",
+    x: 36,
+    y: 54,
+    names: {
+      en: "Union Cave 1F",
+      ja: "ユニオン洞窟 1F",
+      de: "Union-Höhle 1F",
+      es: "Cueva Unión 1.º piso",
+      fr: "Grotte Union 1er étage"
+    }
+  },
+  
+  "johto:Union Cave B1F": {
+    map: "johto",
+    x: 36,
+    y: 54,
+    names: {
+      en: "Union Cave B1F",
+      ja: "ユニオン洞窟 B1F",
+      de: "Union-Höhle B1F",
+      es: "Cueva Unión Sótano",
+      fr: "Grotte Union Sous-sol"
+    }
+  },
+  
+  "johto:Union Cave (Lower Floor)": {
+    map: "johto",
+    x: 36,
+    y: 54,
+    names: {
+      en: "Union Cave (Lower Floor)",
+      ja: "ユニオン洞窟 下層",
+      de: "Union-Höhle (Untergeschoss)",
+      es: "Cueva Unión (Nivel inferior)",
+      fr: "Grotte Union (Niveau inférieur)"
+    }
+  },
+  
+  "johto:Burned Tower B1F": {
+    map: "johto",
+    x: 38,
+    y: 46,
+    names: {
+      en: "Burned Tower B1F",
+      ja: "やけたとう B1F",
+      de: "Verbrannter Turm B1F",
+      es: "Torre Quemada Sótano",
+      fr: "Tour Brûlée Sous-sol"
+    }
+  },
+  
+  "johto:Ruins of Alph (Exterior)": {
+    map: "johto",
+    x: 36,
+    y: 54,
+    names: {
+      en: "Ruins of Alph (Exterior)",
+      ja: "アルフの遺跡（外）",
+      de: "Ruinen von Alph (Außenbereich)",
+      es: "Ruinas de Alph (Exterior)",
+      fr: "Ruines d’Alph (Extérieur)"
+    }
+  },
+  
+  "johto:Dark Cave (Blackthorn City Side)": {
+    map: "johto",
+    x: 42,
+    y: 46,
+    names: {
+      en: "Dark Cave (Blackthorn City Side)",
+      ja: "暗い洞窟（フスベシティ側）",
+      de: "Dunkle Höhle (Anemonia-Seite)",
+      es: "Cueva Oscura (Lado Ciudad Endrino)",
+      fr: "Grotte Sombre (Côté Ébènelle)"
+    }
+  },
+  
+  "johto:Whirl Islands 1F": {
+    map: "johto",
+    x: 46,
+    y: 58,
+    names: {
+      en: "Whirl Islands 1F",
+      ja: "うずまきじま 1F",
+      de: "Strudelinseln 1F",
+      es: "Islas Remolino 1.º piso",
+      fr: "Îles Tourbillon 1er étage"
+    }
+  },
+  
+  "johto:Whirl Islands B2F": {
+    map: "johto",
+    x: 46,
+    y: 58,
+    names: {
+      en: "Whirl Islands B2F",
+      ja: "うずまきじま B2F",
+      de: "Strudelinseln B2F",
+      es: "Islas Remolino Sótano 2",
+      fr: "Îles Tourbillon Sous-sol 2"
+    }
+  },
+  
+  "johto:Mt. Mortar 1F": {
+    map: "johto",
+    x: 44,
+    y: 46,
+    names: {
+      en: "Mt. Mortar 1F",
+      ja: "モルタル山 1F",
+      de: "Berg Mörtel 1F",
+      es: "Monte Mortero 1.º piso",
+      fr: "Mont Mortier 1er étage"
+    }
+  },
+  
+  "johto:Mt. Mortar B1F": {
+    map: "johto",
+    x: 44,
+    y: 46,
+    names: {
+      en: "Mt. Mortar B1F",
+      ja: "モルタル山 B1F",
+      de: "Berg Mörtel B1F",
+      es: "Monte Mortero Sótano",
+      fr: "Mont Mortier Sous-sol"
+    }
+  },
+  
+  "johto:Mt. Mortar Entrance": {
+    map: "johto",
+    x: 44,
+    y: 46,
+    names: {
+      en: "Mt. Mortar Entrance",
+      ja: "モルタル山 入り口",
+      de: "Eingang Berg Mörtel",
+      es: "Entrada Monte Mortero",
+      fr: "Entrée du Mont Mortier"
+    }
+  },
+  
+  "johto:Mt. Silver 2F": {
+    map: "johto",
+    x: 52,
+    y: 40,
+    names: {
+      en: "Mt. Silver 2F",
+      ja: "シルバー山 2F",
+      de: "Mt. Silver 2F",
+      es: "Monte Plata 2.º piso",
+      fr: "Mont Argent 2e étage"
+    }
+  },
+  
+  "johto:Mt. Silver Exterior": {
+    map: "johto",
+    x: 52,
+    y: 40,
+    names: {
+      en: "Mt. Silver Exterior",
+      ja: "シルバー山 外",
+      de: "Mt. Silver (Außenbereich)",
+      es: "Exterior Monte Plata",
+      fr: "Extérieur du Mont Argent"
+    }
+  }
 };
 
 export function resolveLocationName(key, lang) {
