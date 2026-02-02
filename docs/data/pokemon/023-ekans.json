@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Goldenrod Game Corner"],
+          "locations": ["Goldenrod City"],
           "cost": "700 Coins",
           "notes": {
             "en": "Purchased at the Goldenrod Game Corner.",
