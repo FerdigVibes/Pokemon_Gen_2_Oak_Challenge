@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Burned Tower B1F"],
+          "locations": ["Burned Tower"],
           "notes": {
             "en": "Found in the Burned Tower (B1F).",
             "ja": "やけたとう ちか1かいに しゅつげん。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Burned Tower B1F"],
+          "locations": ["Burned Tower"],
           "notes": {
             "en": "Found in the Burned Tower (B1F).",
             "ja": "やけたとう ちか1かいに しゅつげん。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Silver 1F"],
+          "locations": ["Mt. Silver"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found in Mt. Silver (1F) at a very low encounter rate during the morning and daytime.",
