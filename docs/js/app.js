@@ -343,7 +343,7 @@ async function selectGame(gameMeta) {
 
       // VC-only guard (prevents Celebi leaking into crystal_gbc)
       const blockedByVcOnly =
-        entries?.obtain?.some(o => o.availability?.vcOnly) &&
+        entries?.availability?.vcOnly === true &&
         gameId !== 'crystal_vc';
 
       if (!entries || blockedByVcOnly) {
