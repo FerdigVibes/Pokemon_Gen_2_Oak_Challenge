@@ -214,16 +214,9 @@ function renderObtainMethods(obtain, lang) {
 function renderObtainEntry(o, lang) {
   const method = o.method ? t(`methods.${o.method}`) : '';
 
-  const region =
-     gameData.generation >= 2 ? 'johto' : 'kanto';
-   
   const locations = Array.isArray(o.locations)
-   ? o.locations
-     .map(loc =>
-      resolveLocationName(`${region}:${loc}`, lang)
-     )
-     .join(', ')
-   : '';
+    ? o.locations.map(l => resolveLangField(l, lang)).join(', ')
+    : '';
 
   const timeRaw = resolveLangField(o.time, lang);
   const time = Array.isArray(timeRaw) ? timeRaw.join(', ') : timeRaw;
