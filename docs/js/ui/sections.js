@@ -365,7 +365,16 @@ export function renderSections({ game, pokemon }) {
       const entries = Array.isArray(entriesRaw)
         ? entriesRaw
         : [entriesRaw];
-    
+      
+      // ❌ Block VC-only Pokémon outside Crystal VC
+      const isBlockedByVc =
+        entries.some(entry =>
+          entry.availability?.vcOnly === true
+        ) &&
+        game.id !== 'crystal_vc';
+      
+      if (isBlockedByVc) return false;
+      
       return entries.some(entry =>
         entry.sections?.includes(section.id)
       );
