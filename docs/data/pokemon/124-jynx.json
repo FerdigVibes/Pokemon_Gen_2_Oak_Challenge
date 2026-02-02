@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Ice Path B1F"],
+          "locations": ["Ice Path"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found in Ice Path B1F during the morning and daytime at a 1% encounter rate.",
@@ -99,30 +99,6 @@
             "fr": "Apparaît à 1 % dans la Route de Glace (Sous-sol 1) le matin et le jour.",
             "de": "1%-Begegnung im Eispfad (1. Untergeschoss) am Morgen und tagsüber.",
             "es": "Aparece al 1 % en la Ruta Helada (Sótano 1) durante la mañana y el día."
-          }
-        },
-        {
-          "method": "wild",
-          "locations": ["Ice Path B2F"],
-          "time": ["morning", "day"],
-          "notes": {
-            "en": "Found in Ice Path B2F during the morning and daytime.",
-            "ja": "こおりのぬけみち ちか2かいで あさ・ひるに しゅつげん。",
-            "fr": "Apparaît dans la Route de Glace (Sous-sol 2) le matin et le jour.",
-            "de": "Begegnung im Eispfad (2. Untergeschoss) am Morgen und tagsüber.",
-            "es": "Aparece en la Ruta Helada (Sótano 2) durante la mañana y el día."
-          }
-        },
-        {
-          "method": "wild",
-          "locations": ["Ice Path B3F"],
-          "time": ["morning", "day"],
-          "notes": {
-            "en": "Found in Ice Path B3F during the morning and daytime at a 10% encounter rate.",
-            "ja": "こおりのぬけみち ちか3かいで あさ・ひるに 10%の そうぐうりつ。",
-            "fr": "Apparaît à 10 % dans la Route de Glace (Sous-sol 3) le matin et le jour.",
-            "de": "10%-Begegnung im Eispfad (3. Untergeschoss) am Morgen und tagsüber.",
-            "es": "Aparece al 10 % en la Ruta Helada (Sótano 3) durante la mañana y el día."
           }
         }
       ]
