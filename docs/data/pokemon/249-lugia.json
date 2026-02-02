@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Whirl Islands B2F"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found in the Whirl Islands after obtaining the Silver Wing.",
             "ja": "ぎんいろのはねを入手後、うずまきじまB2Fに出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Whirl Islands B2F"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found in the Whirl Islands after obtaining the Silver Wing.",
             "ja": "ぎんいろのはねを入手後、うずまきじまB2Fに出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Whirl Islands B2F"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Obtain the Silver Wing from the man in Pewter City, then find Lugia in the Whirl Islands B2F.",
             "ja": "ニビシティの男性から「ぎんいろのはね」を入手後、うずまきじまB2Fでルギアと出会える。",
