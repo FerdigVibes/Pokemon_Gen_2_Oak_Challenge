@@ -366,17 +366,16 @@ export function renderSections({ game, pokemon }) {
         ? entriesRaw
         : [entriesRaw];
       
-      // ❌ Block VC-only Pokémon outside Crystal VC
-      const isBlockedByVc =
-        entries.some(entry =>
-          entry.availability?.vcOnly === true
-        ) &&
-        game.id !== 'crystal_vc';
+      // Block VC-only Pokémon outside Crystal VC
+      if (
+        entries.some(e => e.availability?.vcOnly === true) &&
+        game.id !== 'crystal_vc'
+      ) {
+        return false;
+      }
       
-      if (isBlockedByVc) return false;
-      
-      return entries.some(entry =>
-        entry.sections?.includes(section.id)
+      return entries.some(e =>
+        e.sections?.includes(section.id)
       );
     });
 
