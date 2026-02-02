@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Mt. Mortar B1F"],
+          "locations": ["Mt. Mortar"],
           "notes": {
             "en": "Gift from Karate King Kiyo in Mt. Mortar B1F after defeating him.",
             "ja": "バトルに かつと つきやま ちか1かいの からてだいおう・キヨから もらえる。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Mt. Mortar B1F"],
+          "locations": ["Mt. Mortar"],
           "notes": {
             "en": "Gift from Karate King Kiyo in Mt. Mortar B1F after defeating him.",
             "ja": "バトルに かつと つきやま ちか1かいの からてだいおう・キヨから もらえる。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Route 34 Daycare"],
+          "locations": ["Route 34"],
           "notes": {
             "en": "Gift egg from the old man at the Daycare on Route 34. SAVE BEFORE RECEIVING THE EGG — it can hatch into Tyrogue, Elekid, or Magby. This is the only opportunity to obtain the Tyrogue family.",
             "ja": "34ばんどうろの いくじやにいる おじいさんから タマゴを もらえる。バルキー・エレキッド・ブビィの どれかが うまれるので、うけとる まえに セーブ！ この きかいだけ バルキーけいとうが てにはいる。",
