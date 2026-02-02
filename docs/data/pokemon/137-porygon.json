@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
             "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
             "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
             "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
             "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Purchase for 9,999 coins at the Celadon Game Corner.",
             "ja": "タマムシゲームコーナーで 9999コインと こうかん。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Purchase for 5,555 coins at the Celadon Game Corner.",
             "ja": "タマムシゲームコーナーで 5555コインと こうかん。",
