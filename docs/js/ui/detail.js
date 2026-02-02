@@ -5,7 +5,7 @@ import { getLanguage } from '../state/language.js';
 import { resolveLangField, t } from '../data/i18n.js';
 import { normalizeGameId } from '../utils/normalizeGameId.js';
 import { openMap } from './mapModal.js';
-import { resolveLocationName } from '../data/maps/locations.js';
+import { resolveLocationName } from '../../data/maps/locations.js';
 
 let currentSelection = null; // { pokemon, game }
 
