@@ -20,7 +20,6 @@
   "globalCaughtCount": "{{caught}} / {{total}} capturés",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Heure du jeu",
-  "detail.viewMap": "Voir la carte",
 
   "days": {
     "mon": "Lun",
@@ -297,6 +296,9 @@
     "method": "Méthode",
     "locations": "Lieu",
     "time": "Période",
-    "days": "Jours"
+    "days": "Jours",
+    "nationalDex": "Pokédex National",
+    "regionalDex": "Pokédex Régional",
+    "viewMap": "Voir la carte"
   }
 }
