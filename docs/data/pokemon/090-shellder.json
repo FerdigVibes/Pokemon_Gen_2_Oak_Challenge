@@ -22,7 +22,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Vermilion City", "Route 19"],
           "notes": {
@@ -40,7 +40,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Vermilion City", "Route 19"],
           "notes": {
@@ -58,7 +58,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Route 17", "Route 18"],
           "notes": {
@@ -76,7 +76,7 @@
       "sections": ["ECRUTEAK_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Good Rod",
           "location": ["New Bark Town", "Olivine City Harbor"],
           "notes": {
@@ -94,7 +94,7 @@
       "sections": ["ECRUTEAK_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Good Rod",
           "location": ["New Bark Town", "Olivine City Harbor"],
           "notes": {
@@ -112,7 +112,7 @@
       "sections": ["ECRUTEAK_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Good Rod",
           "location": ["New Bark Town", "Olivine City Harbor"],
           "notes": {
