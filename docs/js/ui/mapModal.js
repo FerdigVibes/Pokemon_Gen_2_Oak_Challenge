@@ -3,7 +3,7 @@
 import { LOCATION_REGISTRY } from '../../data/maps/locations.js';
 
 const MAP_IMAGES = {
-  johto: './assets/maps/johto.jpeg',
+  johto: './assets/maps/johto.png',
   kanto: './assets/maps/kanto.png'
 };
 
