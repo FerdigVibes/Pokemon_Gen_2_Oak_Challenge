@@ -92,11 +92,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": [
-            "Breed Metapod/Butterfree",
-            "Bug Catching Contest"
-          ],
-          "time": ["morning", "day", "night"],
+          "locations": ["National Park"],
           "notes": {
             "en": "Available via breeding or during the Bug Catching Contest held every Tuesday, Thursday, and Saturday in the National Park.",
             "ja": "メタモン以外のトランセルやバタフリーを育てるか、毎週火・木・土に行われるむしとり大会で入手可能。",
