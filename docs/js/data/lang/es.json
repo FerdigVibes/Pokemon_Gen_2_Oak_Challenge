@@ -296,7 +296,10 @@
     "method": "Método",
     "locations": "Ubicación",
     "time": "Momento",
-    "days": "Días"
+    "days": "Días",
+    "nationalDex": "Pokédex Nacional",
+    "regionalDex": "Pokédex Regional",
+    "viewMap": "Ver mapa"
   }
 }
 
