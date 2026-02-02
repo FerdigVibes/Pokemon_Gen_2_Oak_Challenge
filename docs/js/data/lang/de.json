@@ -20,8 +20,6 @@
   "globalCaughtCount": "{{caught}} / {{total}} gefangen",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Spielzeit",
-  "viewMap": "Karte anzeigen",
-  "viewMap": "Ver mapa",
 
   "days": {
     "mon": "Mo",
