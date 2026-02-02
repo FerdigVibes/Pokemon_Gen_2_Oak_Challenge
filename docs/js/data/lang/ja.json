@@ -20,9 +20,6 @@
   "globalCaughtCount": "{{caught}} / {{total}} 捕まえた",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "ゲーム時間",
-  "detail.viewMap": "マップを見る",
-  "detail.nationalDex": "全国図鑑",
-  "detail.regionalDex": "地方図鑑",
 
   "days": {
     "mon": "月",
@@ -300,7 +297,10 @@
     "method": "入手手段",
     "locations": "場所",
     "time": "時間帯",
-    "days": "曜日"
+    "days": "曜日",
+    "nationalDex": "全国図鑑",
+    "regionalDex": "地方図鑑",
+    "viewMap": "マップを見る"
   }
 }
 
