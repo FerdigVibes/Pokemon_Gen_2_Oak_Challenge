@@ -93,7 +93,7 @@
         },
         {
           "method": "wild",
-          "locations": ["Rock Tunnel B1F"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found at a rare encounter rate in Rock Tunnel B1F.",
             "ja": "イワヤマトンネルちか1かいで まれに しゅつげん。",
@@ -120,7 +120,7 @@
         },
         {
           "method": "wild",
-          "locations": ["Rock Tunnel B1F"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found at a rare encounter rate in Rock Tunnel B1F.",
             "ja": "イワヤマトンネルちか1かいで まれに しゅつげん。",
