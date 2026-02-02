@@ -226,8 +226,9 @@ function renderObtainEntry(o, lang) {
      )
     ).join(', ')
 
-  const timeRaw = resolveLangField(o.time, lang);
-  const time = Array.isArray(timeRaw) ? timeRaw.join(', ') : timeRaw;
+  const time = Array.isArray(o.time)
+   ? o.time.map(ti => t(`time.${ti}`)).join(', ')
+   : '';
 
   const notes = resolveLangField(o.notes, lang);
 
