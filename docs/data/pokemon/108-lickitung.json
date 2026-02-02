@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "trade",
-          "locations": ["Route 18 Gatehouse"],
+          "locations": ["Route 18"],
           "notes": {
             "en": "Trade for a Slowbro at the Route 18 gatehouse.",
             "ja": "18ばんどうろの ゲートで ヤドランと こうかん。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "trade",
-          "locations": ["Route 18 Gatehouse"],
+          "locations": ["Route 18"],
           "notes": {
             "en": "Trade for a Slowbro at the Route 18 gatehouse.",
             "ja": "18ばんどうろの ゲートで ヤドランと こうかん。",
