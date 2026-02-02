@@ -22,7 +22,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Safari Zone"],
           "notes": {
@@ -52,7 +52,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Safari Zone"],
           "notes": {
@@ -82,7 +82,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Safari Zone"],
           "notes": {
@@ -136,7 +136,7 @@
       "sections": ["BLACKTHORN_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Good Rod",
           "location": ["Route 45"],
           "notes": {
