@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "cost": "8,888 Coins",
           "notes": {
             "en": "Purchased at the Celadon Game Corner.",
