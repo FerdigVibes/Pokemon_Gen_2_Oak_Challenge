@@ -55,15 +55,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": [
-            {
-              "en": "Route 24",
-              "ja": "24ばんどうろ",
-              "fr": "Route 24",
-              "de": "Route 24",
-              "es": "Ruta 24"
-            }
-          ],
+          "locations": ["Route 24"],
           "notes": {
             "en": "Given by Damien on Route 24.",
             "ja": "24ばんどうろでダミアンからもらえる。",
