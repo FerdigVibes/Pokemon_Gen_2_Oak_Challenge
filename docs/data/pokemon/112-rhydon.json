@@ -72,7 +72,7 @@
       "obtain": [
         {
           "method": "trade",
-          "locations": ["Blackthorn City (Eastern House)"],
+          "locations": ["Blackthorn City"],
           "requirements": ["Female Dragonair"],
           "notes": {
             "en": "Trade a female Dragonair in Blackthorn City (eastern house) to receive Rhydon. Required to obtain Rhyhorn in this version.",
@@ -90,7 +90,7 @@
       "obtain": [
         {
           "method": "trade",
-          "locations": ["Blackthorn City (Eastern House)"],
+          "locations": ["Blackthorn City"],
           "requirements": ["Female Dragonair"],
           "notes": {
             "en": "Trade a female Dragonair in Blackthorn City (eastern house) to receive Rhydon. Required to obtain Rhyhorn in this version.",
