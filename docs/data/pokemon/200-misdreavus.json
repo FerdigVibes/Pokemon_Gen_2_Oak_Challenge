@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Silver 2F", "Mt. Silver 2F Caves"],
+          "locations": ["Mt. Silver"],
           "time": ["night"],
           "notes": {
             "en": "Found in Mt. Silver (2F and 2F Caves) at a low encounter rate during the night.",
@@ -41,7 +41,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Silver 2F", "Mt. Silver 2F Caves"],
+          "locations": ["Mt. Silver"],
           "time": ["night"],
           "notes": {
             "en": "Found in Mt. Silver (2F and 2F Caves) at a low encounter rate during the night.",
@@ -59,7 +59,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Mt. Silver 2F", "Mt. Silver 2F Caves"],
+          "locations": ["Mt. Silver"],
           "time": ["night"],
           "notes": {
             "en": "Found in Mt. Silver (2F and 2F Caves) at a low encounter rate during the night.",
