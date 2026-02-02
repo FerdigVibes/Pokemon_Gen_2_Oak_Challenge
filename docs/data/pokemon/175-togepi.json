@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Violet City Pokémon Center"],
+          "locations": ["Violet City"],
           "notes": {
             "en": "Gifted by Professor Elm’s aide in the Violet City Pokémon Center.",
             "ja": "キキョウシティの ポケモンセンターで ウツギはかせの じょしゅから もらえる。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Violet City Pokémon Center"],
+          "locations": ["Violet City"],
           "notes": {
             "en": "Gifted by Professor Elm’s aide in the Violet City Pokémon Center.",
             "ja": "キキョウシティの ポケモンセンターで ウツギはかせの じょしゅから もらえる。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Violet City Pokémon Center"],
+          "locations": ["Violet City"],
           "notes": {
             "en": "Gifted by Professor Elm’s aide in the Violet City Pokémon Center.",
             "ja": "キキョウシティの ポケモンセンターで ウツギはかせの じょしゅから もらえる。",
