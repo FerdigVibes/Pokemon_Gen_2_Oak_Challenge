@@ -22,7 +22,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["Coastal Routes"],
           "notes": {
             "en": "Found by fishing with the Super Rod on coastal routes.",
@@ -39,7 +39,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["Coastal Routes"],
           "notes": {
             "en": "Found by fishing with the Super Rod on coastal routes.",
@@ -56,7 +56,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["Coastal Routes"],
           "notes": {
             "en": "Found by fishing with the Super Rod on coastal routes.",
@@ -73,7 +73,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["New Bark Town", "Route 32"],
           "notes": {
             "en": "Found by fishing with the Old Rod in New Bark Town and on Route 32.",
@@ -90,7 +90,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["New Bark Town", "Route 32"],
           "notes": {
             "en": "Found by fishing with the Old Rod in New Bark Town and on Route 32.",
@@ -107,7 +107,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["New Bark Town", "Route 32"],
           "notes": {
             "en": "Found by fishing with the Old Rod in New Bark Town and on Route 32.",
