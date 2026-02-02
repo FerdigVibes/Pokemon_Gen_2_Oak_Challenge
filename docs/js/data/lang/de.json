@@ -20,8 +20,8 @@
   "globalCaughtCount": "{{caught}} / {{total}} gefangen",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Spielzeit",
-  "detail.viewMap": "Karte anzeigen",
-  "detail.viewMap": "Ver mapa",
+  "viewMap": "Karte anzeigen",
+  "viewMap": "Ver mapa",
 
   "days": {
     "mon": "Mo",
@@ -189,7 +189,10 @@
     "method": "Methode",
     "locations": "Ort",
     "time": "Tageszeit",
-    "days": "Tage"
+    "days": "Tage",
+    "nationalDex": "Nationaler Pokédex",
+    "regionalDex": "Regionaler Pokédex",
+    "viewMap": "Karte anzeigen"
   },
 
   "locations": {
