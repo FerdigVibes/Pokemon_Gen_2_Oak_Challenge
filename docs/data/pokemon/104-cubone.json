@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Rock Tunnel 1F"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel (1F and B1F).",
             "ja": "イワヤマトンネル1かい・ちか1かいに しゅつげん。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "locations": ["Goldenrod Game Corner"],
+          "locations": ["Goldenrod City"],
           "notes": {
             "en": "Purchase for 800 coins at the Goldenrod Game Corner.",
             "ja": "コガネゲームコーナーで 800コインで こうかん。",
