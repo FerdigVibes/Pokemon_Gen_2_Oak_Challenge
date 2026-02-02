@@ -20,9 +20,9 @@
   "globalCaughtCount": "{{caught}} / {{total}} Caught",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Game Time",
-  "detail.viewMap": "View Map",
-  "detail.nationalDex": "National Dex",
-  "detail.regionalDex": "Regional Dex",
+  "viewMap": "View Map",
+  "nationalDex": "National Dex",
+  "regionalDex": "Regional Dex",
 
   "days": {
     "mon": "Mon",
@@ -276,7 +276,10 @@
     "method": "Method",
     "locations": "Locations",
     "time": "Time",
-    "days": "Days"
+    "days": "Days",
+    "viewMap": "View Map",
+    "nationalDex": "National Dex",
+    "regionalDex": "Regional Dex"
   }
 }
 
