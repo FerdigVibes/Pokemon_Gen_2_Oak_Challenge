@@ -22,7 +22,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["Route 10", "Celadon City", "Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Route 10, in Celadon City, and in the Safari Zone.",
@@ -39,7 +39,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "location": ["Route 10", "Celadon City", "Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Route 10, in Celadon City, and in the Safari Zone.",
