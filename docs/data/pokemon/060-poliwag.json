@@ -22,7 +22,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "notes": {
             "en": "Good Rod: Most areas. Super Rod: Pallet Town, Viridian City, Route 22.",
             "ja": "いいつりざお：ほぼすべての場所。すごいつりざお：マサラタウン、トキワシティ、22ばんどうろ。",
@@ -38,7 +38,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "notes": {
             "en": "Good Rod: Most areas. Super Rod: Pallet Town, Viridian City, Route 22.",
             "ja": "いいつりざお：ほぼすべての場所。すごいつりざお：マサラタウン、トキワシティ、22ばんどうろ。",
@@ -54,7 +54,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "notes": {
             "en": "Good Rod: Most areas. Super Rod: Pallet Town, Viridian City, Route 22.",
             "ja": "いいつりざお：ほぼすべての場所。すごいつりざお：マサラタウン、トキワシティ、22ばんどうろ。",
@@ -70,7 +70,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "locations": ["Route 30", "Route 31", "Ruins of Alph", "Violet City"],
           "notes": {
             "en": "Fish using an Old Rod.",
@@ -87,7 +87,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "locations": ["Route 30", "Route 31", "Ruins of Alph", "Violet City"],
           "notes": {
             "en": "Fish using an Old Rod.",
@@ -104,7 +104,7 @@
       "sections": ["VIOLET_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "locations": ["Route 30", "Route 31"],
           "notes": {
             "en": "Fish using an Old Rod.",
