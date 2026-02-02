@@ -22,7 +22,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": [
             "Route 6",
@@ -52,7 +52,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": [
             "Route 6",
@@ -82,7 +82,7 @@
       "sections": ["FUCHSIA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Super Rod",
           "location": ["Route 10", "Route 25"],
           "notes": {
@@ -100,7 +100,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Old Rod",
           "location": ["Cherrygrove City"],
           "notes": {
@@ -118,7 +118,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Old Rod",
           "location": ["Cherrygrove City"],
           "notes": {
@@ -136,7 +136,7 @@
       "sections": ["AZALEA_POKEMON"],
       "obtain": [
         {
-          "method": "fishing",
+          "method": "fish",
           "rod": "Old Rod",
           "location": ["Cherrygrove City"],
           "notes": {
