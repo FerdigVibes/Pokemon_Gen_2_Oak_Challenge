@@ -98,6 +98,14 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
   if (!panel || !pokemon || !gameData) return;
 
   const gameKey = normalizeGameId(gameData.id);
+
+  const region =
+     gameKey.startsWith('gold') ||
+     gameKey.startsWith('silver') ||
+     gameKey.startsWith('crystal')
+       ? 'johto'
+       : 'kanto';
+   
   const gameEntry = pokemon.games?.[gameKey];
   if (!gameEntry) {
     panel.innerHTML = `<p>${pokemon.slug} is not available in this version.</p>`;
@@ -173,12 +181,7 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
    
    panel.querySelector('.obtain-section')?.appendChild(mapBtn);
   }
-  const region =
-     gameKey.startsWith('gold') ||
-     gameKey.startsWith('silver') ||
-     gameKey.startsWith('crystal')
-       ? 'johto'
-       : 'kanto';
+   
   const shinyToggle = document.getElementById('shiny-toggle');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
@@ -206,39 +209,18 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
    Game-specific info (translated fields)
    ========================================================= */
 
-function renderObtainMethods(obtain, lang) {
-  const items = obtain.map(o => renderObtainEntry(o, lang, region)).join('');
-
-  return `
-    <h3>${t('howToObtain')}</h3>
-    <ul>
-      ${items || `<li>${t('notObtainable')}</li>`}
-    </ul>
-  `;
-}
-
 function renderObtainEntry(o, lang, region) {
-  const locations = Array.isArray(o.locations)
-     ? o.locations
-         .map(loc => resolveLocationName(`${region}:${loc}`, lang))
-         .join(', ')
-     : '';
+  const method = o.method ? t(`methods.${o.method}`) : '';
 
   const locations = Array.isArray(o.locations)
-    o.locations.map(loc =>
-     resolveLocationName(
-       `${normalizeGameId(gameData.id).startsWith('gold') ||
-         normalizeGameId(gameData.id).startsWith('silver') ||
-         normalizeGameId(gameData.id).startsWith('crystal')
-           ? 'johto'
-           : 'kanto'}:${loc}`,
-       lang
-     )
-    ).join(', ')
+    ? o.locations
+        .map(loc => resolveLocationName(`${region}:${loc}`, lang))
+        .join(', ')
+    : '';
 
   const time = Array.isArray(o.time)
-   ? o.time.map(ti => t(`time.${ti}`)).join(', ')
-   : '';
+    ? o.time.map(ti => t(`time.${ti}`)).join(', ')
+    : '';
 
   const notes = resolveLangField(o.notes, lang);
 
