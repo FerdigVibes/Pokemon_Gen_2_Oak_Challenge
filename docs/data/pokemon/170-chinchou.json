@@ -24,7 +24,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "locations": ["New Bark Town", "Olivine City Harbor"],
+          "locations": ["New Bark Town", "Olivine City"],
           "notes": {
             "en": "Caught with the Good Rod in New Bark Town and Olivine City Harbor.",
             "ja": "ワカバタウンと アサギシティの みなとで いいつりざおを つかって つれる。",
@@ -42,7 +42,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "locations": ["New Bark Town", "Olivine City Harbor"],
+          "locations": ["New Bark Town", "Olivine City"],
           "notes": {
             "en": "Caught with the Good Rod in New Bark Town and Olivine City Harbor.",
             "ja": "ワカバタウンと アサギシティの みなとで いいつりざおを つかって つれる。",
@@ -60,7 +60,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "locations": ["New Bark Town", "Olivine City Harbor"],
+          "locations": ["New Bark Town", "Olivine City"],
           "notes": {
             "en": "Caught with the Good Rod in New Bark Town and Olivine City Harbor.",
             "ja": "ワカバタウンと アサギシティの みなとで いいつりざおを つかって つれる。",
