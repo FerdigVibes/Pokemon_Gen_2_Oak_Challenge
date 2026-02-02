@@ -24,7 +24,6 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "locations": ["Any water"],
           "notes": {
             "en": "Caught anywhere there is water using the Old Rod.",
             "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
@@ -54,7 +53,6 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "locations": ["Any water"],
           "notes": {
             "en": "Caught anywhere there is water using the Old Rod.",
             "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
@@ -84,7 +82,6 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "locations": ["Any water"],
           "notes": {
             "en": "Caught anywhere there is water using the Old Rod.",
             "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
@@ -114,7 +111,6 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "locations": ["Any water"],
           "notes": {
             "en": "Caught anywhere there is water using the Old Rod.",
             "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
@@ -132,7 +128,6 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "locations": ["Any water"],
           "notes": {
             "en": "Caught anywhere there is water using the Old Rod.",
             "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
@@ -150,7 +145,6 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "locations": ["Any water"],
           "notes": {
             "en": "Caught anywhere there is water using the Old Rod.",
             "ja": "どこでも みずが あれば ボロのつりざおで つれる。",
