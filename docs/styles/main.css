@@ -212,6 +212,53 @@
   font-size: 13px;
 }
 
+.reset-dropdown {
+  position: relative;
+}
+
+.reset-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  z-index: 10000;
+
+  background: #222;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 6px;
+  min-width: 220px;
+  padding: 6px 0;
+}
+
+.reset-menu.hidden {
+  display: none;
+}
+
+.reset-menu button {
+  width: 100%;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.reset-menu button:hover {
+  background: #333;
+}
+
+.reset-menu .danger {
+  color: #ff6b6b;
+}
+
+
+.topbar-controls {
+  position: relative;
+  overflow: visible;
+}
+
 .progress {
   display: flex;
   align-items: center;
