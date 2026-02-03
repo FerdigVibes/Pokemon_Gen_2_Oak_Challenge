@@ -42,19 +42,23 @@
   background: linear-gradient(to right, #d32f2f, #c2185b);
   color: white;
   padding: 0.5em 1em;
-  font-size: 1.1em;
   border-radius: 6px;
   margin: 1em 0 0.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  font-size: 0.95rem;
 }
 
 .section-counter {
-  font-size: 12px;
-  opacity: 0.75;
-  white-space: nowrap;
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  opacity: 0.9;
 }
 
 .section-title {
@@ -68,6 +72,21 @@
   overflow-x: hidden;
   padding: 8px 12px;
   box-sizing: border-box;
+}
+
+#section-list::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.02),
+      rgba(0,0,0,0.02) 1px,
+      transparent 1px,
+      transparent 3px
+    );
 }
 
 /* =========================================================
@@ -268,7 +287,9 @@
 }
 
 .progress-label {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-family: "Courier New", monospace;
+  letter-spacing: 0.04em;
   white-space: nowrap;
   color: #fff;
   font-variant-numeric: tabular-nums;
@@ -370,6 +391,7 @@
   padding: 6px 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -385,7 +407,9 @@
 /* Dynamic objective text (e.g., "Before Violet") */
 #current-objective {
   color: #ffd966; /* Light gold for contrast */
-  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
   transition: opacity 0.4s ease, transform 0.4s ease;
   opacity: 1;
   transform: translateY(0);
@@ -402,11 +426,35 @@
   align-items: center;
   padding: 6px 10px;
   margin-bottom: 4px;
-  background: #f2f2f2;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.9),
+      rgba(235,245,245,0.9)
+    );
+  border: 1px solid rgba(0,0,0,0.08);
   border-radius: 6px;
   transition: background 0.2s ease;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
+}
+
+.pokemon-row .pokemon-notes,
+.pokemon-row small {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #2e5f6a;
+  margin-top: 2px;
+}
+
+/* POKÉMON NAME */
+.pokemon-row > span:last-child {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
 }
 
 .pokemon-row:hover {
@@ -435,7 +483,7 @@
    ----------------------------- */
 
 .pokemon-row.is-unavailable {
-  opacity: 0.6;
+  opacity: 0.45;
   filter: grayscale(0.7);
 }
 
@@ -456,7 +504,7 @@
 }
 
 .pokemon-row.is-caught {
-  opacity: 0.6;
+  opacity: 0.55;
 }
 
 /* =========================================================
