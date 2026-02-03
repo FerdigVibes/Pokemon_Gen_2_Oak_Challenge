@@ -214,9 +214,6 @@
 }
 
 /* Row 2: Controls */
-.topbar-controls {
-  gap: 8px;
-}
 
 .topbar-controls .control:active {
   transform: translateY(1px);
@@ -233,6 +230,7 @@
 
 .reset-dropdown {
   position: relative;
+  z-index: 50;
 }
 
 #reset-section-btn {
@@ -256,16 +254,6 @@
 
 .reset-menu.hidden {
   display: none;
-}
-
-.reset-menu button {
-  width: 100%;
-  padding: 8px 12px;
-  background: none;
-  border: none;
-  color: inherit;
-  text-align: left;
-  cursor: pointer;
 }
 
 /* Menu items */
