@@ -20,6 +20,9 @@
   "globalCaughtCount": "{{caught}} / {{total}} capturés",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Heure du jeu",
+  "resetSection": "Réinitialiser la section",
+  "resetAll": "Tout réinitialiser",
+  "resetAllConfirm": "Réinitialiser TOUTES les sections pour cette version ? Cette action est irréversible.",
 
   "days": {
     "mon": "Lun",
