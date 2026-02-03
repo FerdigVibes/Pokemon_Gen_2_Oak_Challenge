@@ -23,6 +23,9 @@
   "viewMap": "View Map",
   "nationalDex": "National Dex",
   "regionalDex": "Regional Dex",
+  "resetSection": "Reset Section",
+  "resetAll": "Reset All",
+  "resetAllConfirm": "Reset ALL sections for this game? This cannot be undone.",
 
   "days": {
     "mon": "Mon",
