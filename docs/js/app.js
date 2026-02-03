@@ -399,18 +399,23 @@ function buildResetSectionMenu() {
 
   menu.innerHTML = '';
 
-  const game = window.__CURRENT_GAME__?.data;
-  if (!game) return;
+  const current = window.__CURRENT_GAME__;
+  if (!current?.data) return;
+
+  const game = current.data;
 
   // Leaf sections only (same rule as Section 2)
-  const leafSections = game.sections.filter(s =>
-    typeof s.requiredCount === 'number'
+  const leafSections = game.sections.filter(
+    s => typeof s.requiredCount === 'number'
   );
 
   leafSections.forEach(section => {
     const btn = document.createElement('button');
     btn.type = 'button';
+    btn.className = 'reset-menu-item';
     btn.dataset.sectionId = section.id;
+
+    // ✅ Translated section name
     btn.textContent = t(`objective.${section.titleKey}`);
 
     btn.addEventListener('click', () => {
@@ -422,47 +427,24 @@ function buildResetSectionMenu() {
   });
 
   // Divider
-  const hr = document.createElement('hr');
-  menu.appendChild(hr);
+  const divider = document.createElement('div');
+  divider.className = 'reset-divider';
+  menu.appendChild(divider);
 
   // Reset All
   const resetAllBtn = document.createElement('button');
-  resetAllBtn.className = 'danger';
+  resetAllBtn.type = 'button';
+  resetAllBtn.className = 'reset-menu-item reset-all';
   resetAllBtn.textContent = t('resetAll');
 
   resetAllBtn.addEventListener('click', () => {
     if (!confirm(t('resetAllConfirm'))) return;
+
     resetAllSections();
     menu.classList.add('hidden');
   });
 
   menu.appendChild(resetAllBtn);
-}
-
-function resetSection(sectionId) {
-  const game = window.__CURRENT_GAME__?.data;
-  if (!game) return;
-
-  const gameId = window.__CURRENT_GAME__.id;
-  const gameKey = normalizeGameId(gameId);
-
-  const caught = getCaught(gameId);
-
-  window.__POKEMON_CACHE__.forEach(p => {
-    const entries = p.games?.[gameKey];
-    const entryArray = Array.isArray(entries) ? entries : entries ? [entries] : [];
-
-    if (entryArray.some(e => e.sections?.includes(sectionId))) {
-      delete caught[p.dex];
-    }
-  });
-
-  localStorage.setItem(`oak:${gameId}:caught`, JSON.stringify(caught));
-
-  // Re-render everything cleanly
-  renderSections({ game, pokemon: window.__POKEMON_CACHE__ });
-  updateGlobalProgress(game, window.__POKEMON_CACHE__);
-  updateCurrentObjective(game, window.__POKEMON_CACHE__);
 }
 
 function resetAllSections() {
