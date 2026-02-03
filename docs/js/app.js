@@ -554,24 +554,21 @@ function rebuildGameSelector() {
   buildGameSelector();
 }
 
-function updateCurrentObjective(game, pokemon) {
+function updateCurrentObjective(game, pokemon, force = false) {
   const label = document.getElementById('current-objective');
   if (!label) return;
 
   const newObjective = getCurrentObjectiveSectionId(game, pokemon);
 
-  if (newObjective !== __CURRENT_OBJECTIVE_SECTION_ID__) {
+  if (force || newObjective !== __CURRENT_OBJECTIVE_SECTION_ID__) {
     __CURRENT_OBJECTIVE_SECTION_ID__ = newObjective;
 
     const section = game.sections.find(s => s.id === newObjective);
     const titleKey = section?.titleKey;
 
-    // ✅ This is the important part:
-    const text = titleKey
+    label.textContent = titleKey
       ? t(`objective.${titleKey}`)
       : t('challengeComplete');
-
-    label.textContent = text;
   }
 }
 
