@@ -20,6 +20,9 @@
   "globalCaughtCount": "{{caught}} / {{total}} 捕まえた",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "ゲーム時間",
+  "resetSection": "セクションをリセット",
+  "resetAll": "すべてリセット",
+  "resetAllConfirm": "このゲームのすべてのセクションをリセットしますか？この操作は元に戻せません。",
 
   "days": {
     "mon": "月",
