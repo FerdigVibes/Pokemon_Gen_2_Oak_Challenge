@@ -107,7 +107,7 @@ function wireLanguageSelector() {
       const pokemon = window.__POKEMON_CACHE__;
   
       buildResetSectionMenu();
-      updateCurrentObjective(game, pokemon);
+      updateCurrentObjective(game, pokemon, true);
     }
   
     // Notify UI modules (detail panel, time button, etc.)
