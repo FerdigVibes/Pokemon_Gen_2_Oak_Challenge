@@ -22,7 +22,7 @@
   "gameTime": "Spielzeit",
   "resetSection": "Abschnitt zurücksetzen",
   "resetAll": "Alles zurücksetzen",
-  "resetAllConfirm": "Alle Abschnitte für diese Version zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden."
+  "resetAllConfirm": "Alle Abschnitte für diese Version zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.",
 
   "days": {
     "mon": "Mo",
