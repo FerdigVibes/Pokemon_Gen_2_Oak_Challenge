@@ -184,6 +184,11 @@ function applyTranslations() {
     titleEl.textContent = t('appTitleNoVersion');
   }
 
+  const resetBtn = document.getElementById('reset-section-btn');
+  if (resetBtn) {
+    resetBtn.textContent = t('resetSection');
+  }
+
   const obj = document.getElementById('current-objective');
   if (obj && !window.__CURRENT_GAME__) {
     obj.textContent = t('pickVersionPrompt');
