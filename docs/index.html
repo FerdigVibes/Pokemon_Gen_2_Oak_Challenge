@@ -21,6 +21,33 @@
     <div class="topbar-row topbar-controls">
       <button id="game-selector-btn" class="control">Select Version ▾</button>
       <button id="mute-toggle" class="control" title="Toggle Cry Audio">🔊</button>
+
+      <div class="reset-dropdown control">
+        <button
+          id="reset-section-btn"
+          class="reset-trigger"
+          data-i18n="resetSection"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Reset Section ▾
+        </button>
+    
+        <div
+          id="reset-section-menu"
+          class="reset-menu hidden"
+          role="menu"
+        >
+          <!-- Sections will be injected here dynamically -->
+          <!-- Example structure (JS will build this):
+            <button data-section-id="STARTER">Choose Your Starter</button>
+            <button data-section-id="PEWTER_POKEMON">Before Pewter Gym</button>
+            <hr />
+            <button data-reset="all" class="danger">Reset All</button>
+          -->
+        </div>
+      </div>
+      
       <input
         type="text"
         id="search-input"
