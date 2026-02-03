@@ -275,7 +275,7 @@
     },
     {
       "id": "STARTER",
-      "titleKey": "Choose Your Starter!",
+      "titleKey": "Choose Your Starter",
       "order": 1.1,
       "parent": "BEFORE_VIOLET",
       "requiredCount": 3
