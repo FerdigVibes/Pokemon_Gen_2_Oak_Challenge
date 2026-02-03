@@ -20,6 +20,9 @@
   "globalCaughtCount": "{{caught}} / {{total}} capturados",
   "sectionCaughtCount": "{{caught}} / {{total}}",
   "gameTime": "Hora del juego",
+  "resetSection": "Restablecer sección",
+  "resetAll": "Restablecer todo",
+  "resetAllConfirm": "¿Restablecer TODAS las secciones de esta versión? Esta acción no se puede deshacer.",
 
   "days": {
     "mon": "Lun",
