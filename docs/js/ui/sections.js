@@ -73,23 +73,30 @@ function updateSectionCounter(sectionBlock) {
 
   if (sectionId === 'STARTER') {
     const families = {};
+  
     rows.forEach(row => {
       const family = row.dataset.family;
-      if (!families[family]) families[family] = [];
+      if (!family) return;
+  
+      families[family] ??= [];
       families[family].push(row);
     });
-
+  
+    // Count how many starter FAMILIES have at least one caught Pokémon
     caughtCount = Object.values(families).filter(familyRows =>
-      familyRows.some(row => isCaught(gameId, Number(row.dataset.dex)))
+      familyRows.some(row =>
+        isCaught(gameId, Number(row.dataset.dex))
+      )
     ).length;
+  
   } else {
     caughtCount = Array.from(rows).filter(row => {
       const dex = Number(row.dataset.dex);
-    
+  
       if (row.classList.contains('is-locked')) {
         return false;
       }
-      
+  
       return isCaught(gameId, dex);
     }).length;
   }
