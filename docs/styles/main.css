@@ -238,54 +238,55 @@
   text-align: left;
 }
 
-/* Dropdown panel */
+/* ===============================
+   RESET SECTION DROPDOWN (Pokédex style)
+   =============================== */
+
 .reset-menu {
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 0;
-  background: #1b1b1b;
+  background: #222;
+  color: #fff;
   border: 1px solid #444;
   border-radius: 6px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
-  z-index: 200;
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
   min-width: 220px;
   padding: 6px 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.65);
 }
 
 .reset-menu.hidden {
   display: none;
 }
 
-/* Menu items */
 .reset-menu-item {
-  width: 100%;
-  background: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  background: transparent;
   border: none;
   color: #fff;
   text-align: left;
-  padding: 8px 14px;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 0.85rem;
 }
 
 .reset-menu-item:hover {
-  background: #333;
+  background: #444;
   color: #ffd966;
 }
 
-.reset-menu .danger {
-  color: #ff6b6b;
-}
-
-/* Divider */
+/* Divider (matches game menu separation) */
 .reset-divider {
   height: 1px;
   background: #333;
   margin: 6px 0;
 }
 
-/* Reset all = danger */
+/* Reset all = danger, but still Pokédex-y */
 .reset-menu-item.reset-all {
   color: #ff6b6b;
   font-weight: 700;
