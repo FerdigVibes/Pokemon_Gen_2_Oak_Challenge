@@ -1,7 +1,7 @@
 .body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Trebuchet MS, sans-serif;
   height: 100vh;
   overflow: hidden;
 }
@@ -55,7 +55,7 @@
 }
 
 .section-counter {
-  font-family: "Courier New", monospace;
+  font-family: Trebuchet MS, sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.04em;
   opacity: 0.9;
@@ -288,7 +288,7 @@
 
 .progress-label {
   font-size: 0.8rem;
-  font-family: "Courier New", monospace;
+  font-family: "Trebuchet MS", sans-serif;
   letter-spacing: 0.04em;
   white-space: nowrap;
   color: #fff;
@@ -436,7 +436,7 @@
   border-radius: 6px;
   transition: background 0.2s ease;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .pokemon-row .pokemon-notes,
@@ -599,7 +599,7 @@
    =============================== */
 
 #detail-panel {
-  font-family: 'Arial', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   background: #fafafa;
   border: 4px solid #d32f2f;
   border-radius: 16px;
