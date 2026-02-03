@@ -94,14 +94,23 @@ function wireLanguageSelector() {
 
   select.addEventListener('change', async () => {
     const lang = select.value;
-
+  
     setLanguage(lang);
     await loadLanguage(lang);
-
+  
     applyTranslations();
     rebuildGameSelector();
-
-    // Notify UI modules (detail panel, etc.)
+  
+    // 🔁 Rebuild derived UI that uses t()
+    if (window.__CURRENT_GAME__) {
+      const game = window.__CURRENT_GAME__.data;
+      const pokemon = window.__POKEMON_CACHE__;
+  
+      buildResetSectionMenu();
+      updateCurrentObjective(game, pokemon);
+    }
+  
+    // Notify UI modules (detail panel, time button, etc.)
     window.dispatchEvent(
       new CustomEvent('language-changed', {
         detail: { lang }
