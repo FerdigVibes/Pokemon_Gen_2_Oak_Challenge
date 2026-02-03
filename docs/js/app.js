@@ -5,6 +5,7 @@ import { GAME_REGISTRY } from './data/registry.js';
 import { renderSections } from './ui/sections.js';
 import { getGlobalProgress } from './state/progress.js';
 import { isCaught } from './state/caught.js';
+import { getCaught } from './state/caught.js';
 import { isMuted, toggleMute } from './state/audio.js';
 import { setLanguage, getLanguage } from './state/language.js';
 import { loadLanguage, t } from './data/i18n.js';
@@ -62,6 +63,7 @@ async function init() {
   try {
     wireSearch();
     wireMuteToggle();
+    wireResetDropdown();
     wireLanguageSelector();
 
     await loadLanguage(getLanguage()); // ✅ make sure translations are loaded first
@@ -306,6 +308,8 @@ async function selectGame(gameMeta) {
       data: gameData
     };
 
+    buildResetSectionMenu();
+
     // 4️⃣ Wire game-time UI
     wireGameTimeButton(isGen2);
     if (isGen2) startGameClock();
@@ -363,6 +367,111 @@ async function selectGame(gameMeta) {
   }
 }
 
+function wireResetDropdown() {
+  const trigger = document.getElementById('reset-section-btn');
+  const menu = document.getElementById('reset-section-menu');
+
+  if (!trigger || !menu) return;
+
+  // Toggle menu
+  trigger.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = !menu.classList.contains('hidden');
+    menu.classList.toggle('hidden', open);
+    trigger.setAttribute('aria-expanded', String(!open));
+  });
+
+  // Close on outside click
+  document.addEventListener('click', () => {
+    menu.classList.add('hidden');
+    trigger.setAttribute('aria-expanded', 'false');
+  });
+}
+
+function buildResetSectionMenu() {
+  const menu = document.getElementById('reset-section-menu');
+  if (!menu) return;
+
+  menu.innerHTML = '';
+
+  const game = window.__CURRENT_GAME__?.data;
+  if (!game) return;
+
+  // Leaf sections only (same rule as Section 2)
+  const leafSections = game.sections.filter(s =>
+    typeof s.requiredCount === 'number'
+  );
+
+  leafSections.forEach(section => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.dataset.sectionId = section.id;
+    btn.textContent = t(`objective.${section.titleKey}`);
+
+    btn.addEventListener('click', () => {
+      resetSection(section.id);
+      menu.classList.add('hidden');
+    });
+
+    menu.appendChild(btn);
+  });
+
+  // Divider
+  const hr = document.createElement('hr');
+  menu.appendChild(hr);
+
+  // Reset All
+  const resetAllBtn = document.createElement('button');
+  resetAllBtn.className = 'danger';
+  resetAllBtn.textContent = t('resetAll');
+
+  resetAllBtn.addEventListener('click', () => {
+    if (!confirm(t('resetAllConfirm'))) return;
+    resetAllSections();
+    menu.classList.add('hidden');
+  });
+
+  menu.appendChild(resetAllBtn);
+}
+
+function resetSection(sectionId) {
+  const game = window.__CURRENT_GAME__?.data;
+  if (!game) return;
+
+  const gameId = window.__CURRENT_GAME__.id;
+  const gameKey = normalizeGameId(gameId);
+
+  const caught = getCaught(gameId);
+
+  window.__POKEMON_CACHE__.forEach(p => {
+    const entries = p.games?.[gameKey];
+    const entryArray = Array.isArray(entries) ? entries : entries ? [entries] : [];
+
+    if (entryArray.some(e => e.sections?.includes(sectionId))) {
+      delete caught[p.dex];
+    }
+  });
+
+  localStorage.setItem(`oak:${gameId}:caught`, JSON.stringify(caught));
+
+  // Re-render everything cleanly
+  renderSections({ game, pokemon: window.__POKEMON_CACHE__ });
+  updateGlobalProgress(game, window.__POKEMON_CACHE__);
+  updateCurrentObjective(game, window.__POKEMON_CACHE__);
+}
+
+function resetAllSections() {
+  const game = window.__CURRENT_GAME__?.data;
+  if (!game) return;
+
+  const gameId = window.__CURRENT_GAME__.id;
+
+  localStorage.removeItem(`oak:${gameId}:caught`);
+
+  renderSections({ game, pokemon: window.__POKEMON_CACHE__ });
+  updateGlobalProgress(game, window.__POKEMON_CACHE__);
+  updateCurrentObjective(game, window.__POKEMON_CACHE__);
+}
 /* =========================================================
    GLOBAL PROGRESS
    ========================================================= */
