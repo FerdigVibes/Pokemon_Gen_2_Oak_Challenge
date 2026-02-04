@@ -53,7 +53,7 @@
     },
 
     "yellow": {
-      "sections": ["ONLY_AFTER_VERMILION"],
+      "sections": ["SQUIRTLE_FAMILY"],
       "obtain": [
         {
           "method": "evolution",
