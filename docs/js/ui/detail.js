@@ -186,20 +186,25 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
   const shinyToggle = document.getElementById('shiny-toggle');
   const sprite = document.getElementById('detail-sprite');
   const spriteWindow = document.getElementById('sprite-window');
-  if (shinyToggle && sprite) {
+  if (shinyToggle && sprite && spriteWindow) {
      const gen = gameData.generation || 1;
    
      if (gen >= 2) {
-       let isShiny = false;
+       // ✅ Apply persisted shiny state on render
+       const shinyOn = isShinyEnabled();
    
-       const toggleShiny = () => {
-         isShiny = !isShiny;
-         sprite.src = isShiny ? spriteShiny : spriteNormal;
-         shinyToggle.classList.toggle('active', isShiny);
-         spriteWindow.classList.toggle('shiny-active', isShiny);
+       sprite.src = shinyOn ? spriteShiny : spriteNormal;
+       shinyToggle.classList.toggle('active', shinyOn);
+       spriteWindow.classList.toggle('shiny-active', shinyOn);
+   
+       // ✅ Toggle + persist
+       shinyToggle.onclick = () => {
+         const enabled = toggleShiny();
+   
+         sprite.src = enabled ? spriteShiny : spriteNormal;
+         shinyToggle.classList.toggle('active', enabled);
+         spriteWindow.classList.toggle('shiny-active', enabled);
        };
-   
-       shinyToggle.addEventListener('click', toggleShiny);
      } else {
        shinyToggle.style.display = 'none';
      }
