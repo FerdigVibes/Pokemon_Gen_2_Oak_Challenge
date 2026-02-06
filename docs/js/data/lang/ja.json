@@ -49,6 +49,11 @@
     "dst": "サマータイム"
   },
 
+  "timeMeridiem": {
+    "AM": "午前",
+    "PM": "午後"
+  },
+
   "gold": "金",
   "silver": "銀",
   "crystal": "クリスタル",
