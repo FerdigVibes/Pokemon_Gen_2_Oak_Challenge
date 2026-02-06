@@ -190,16 +190,18 @@ export function renderPokemonDetail(pokemon, gameData, sectionId) {
      const gen = gameData.generation || 1;
    
      if (gen >= 2) {
-       // ✅ Apply persisted shiny state on render
-       const shinyOn = isShinyEnabled();
+       const dexKey = String(dex);
+   
+       // ✅ Apply cached shiny state PER Pokémon
+       const shinyOn = isShinyEnabled(dexKey);
    
        sprite.src = shinyOn ? spriteShiny : spriteNormal;
        shinyToggle.classList.toggle('active', shinyOn);
        spriteWindow.classList.toggle('shiny-active', shinyOn);
    
-       // ✅ Toggle + persist
+       // ✅ Toggle + persist per Pokémon
        shinyToggle.onclick = () => {
-         const enabled = toggleShiny();
+         const enabled = toggleShiny(dexKey);
    
          sprite.src = enabled ? spriteShiny : spriteNormal;
          shinyToggle.classList.toggle('active', enabled);
