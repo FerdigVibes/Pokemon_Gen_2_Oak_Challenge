@@ -96,6 +96,46 @@
   background-attachment: local;
 }
 
+#section-list::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(255,255,255,0.18) 0%,
+      rgba(255,255,255,0.10) 35%,
+      rgba(0,0,0,0.25) 70%,
+      rgba(0,0,0,0.45) 100%
+    ),
+    url("../assets/images/pokedex-landing-bg.png");
+
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+
+  opacity: 0.22;
+  filter: grayscale(70%) contrast(1.1);
+
+  pointer-events: none;
+  z-index: 0;
+
+  /* 🔑 This is what we’ll move */
+  transform: translateY(var(--bg-scroll, 0px));
+  will-change: transform;
+}
+
+/* Ensure content stays above background */
+.section-block,
+.section-header,
+.section-rows,
+.pokemon-row {
+  position: relative;
+  z-index: 1;
+}
+
+
 #app.has-detail #section-list {
   transform: translateX(-12px);   /* subtle mechanical slide */
   opacity: 0.96;                  /* very light dim */
