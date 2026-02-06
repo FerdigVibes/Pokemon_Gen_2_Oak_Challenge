@@ -72,24 +72,10 @@ function updateSectionCounter(sectionBlock) {
   let caughtCount = 0;
 
   if (sectionId === 'STARTER') {
-    const families = new Map();
-  
-    rows.forEach(row => {
-      const family = row.dataset.family;
-      const dex = Number(row.dataset.dex);
-      if (!family || Number.isNaN(dex)) return;
-  
-      if (!families.has(family)) {
-        families.set(family, new Set());
-      }
-  
-      families.get(family).add(dex);
-    });
-  
-    caughtCount = Array.from(families.values()).filter(dexSet =>
-      Array.from(dexSet).some(dex => isCaught(gameId, dex))
+    // ✅ Count Pokémon, NOT families
+    caughtCount = Array.from(rows).filter(row =>
+      isCaught(gameId, Number(row.dataset.dex))
     ).length;
-  
   } else {
     caughtCount = Array.from(rows).filter(row => {
       const dex = Number(row.dataset.dex);
@@ -103,6 +89,7 @@ function updateSectionCounter(sectionBlock) {
     total: required
   });
 }
+
 
 function isSectionCompleted(game, sectionId, pokemon, excludeDex = []) {
   const section = game.sections.find(s => s.id === sectionId);
