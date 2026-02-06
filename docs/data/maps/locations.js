@@ -5,15 +5,15 @@ export const LOCATION_REGISTRY = {
    ====================================================== */
 
   "kanto:Route 1": {
-    map: "kanto", x: 48, y: 62,
+    map: "kanto", x: 492, y: 1257,
     names: { en: "Route 1", ja: "ルート1", de: "Route 1", es: "Ruta 1", fr: "Route 1" }
   },
   "kanto:Route 2": {
-    map: "kanto", x: 46, y: 54,
+    map: "kanto", x: 489, y: 898,
     names: { en: "Route 2", ja: "ルート2", de: "Route 2", es: "Ruta 2", fr: "Route 2" }
   },
   "kanto:Route 3": {
-    map: "kanto", x: 58, y: 48,
+    map: "kanto", x: 682, y: 499,
     names: { en: "Route 3", ja: "ルート3", de: "Route 3", es: "Ruta 3", fr: "Route 3" }
   },
   "kanto:Route 4": {
