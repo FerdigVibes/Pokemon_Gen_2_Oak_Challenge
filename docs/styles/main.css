@@ -1038,3 +1038,46 @@
   background-size: 10% 10%;
 }
 
+#section-list {
+  position: relative;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+#section-list {
+  background:
+    linear-gradient(
+      rgba(255,255,255,0.03),
+      rgba(255,255,255,0.01)
+    );
+}
+
+/* Pokédex background image */
+#section-list::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("./assets/images/pokedex-landing-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  opacity: 0.08;                /* ⬅️ tweak this freely */
+  filter: grayscale(100%) contrast(1.1);
+  
+  pointer-events: none;         /* ⬅️ CRITICAL */
+  z-index: 0;
+}
+
+.section-block,
+.section-header,
+.section-rows,
+.pokemon-row {
+  position: relative;
+  z-index: 1;
+}
+
