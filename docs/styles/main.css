@@ -89,10 +89,10 @@
     url("../assets/images/pokedex-landing-bg.png");
 
   background-repeat: no-repeat;
-  background-size: 100% auto;        /* fit width, natural height */
-  background-position: center 40px;  /* gentle vertical bias */
+  background-size: 100% auto;
+  background-position: center 40px;
 
-  /* 🔑 THIS is what makes it scroll with content */
+  /* 🔑 This makes it scroll WITH the rows */
   background-attachment: local;
 }
 
