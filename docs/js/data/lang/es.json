@@ -49,6 +49,11 @@
     "dst": "Horario de verano"
   },
 
+  "timeMeridiem": {
+    "AM": "AM",
+    "PM": "PM"
+  },
+
   "gold": "Oro",
   "silver": "Plata",
   "crystal": "Cristal",
