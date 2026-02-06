@@ -1,15 +1,29 @@
-const SHINY_KEY = 'oak:ui:shiny';
+const STORAGE_KEY = 'oak:shiny';
 
-export function isShinyEnabled() {
-  return localStorage.getItem(SHINY_KEY) === 'true';
+function load() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+  } catch {
+    return {};
+  }
 }
 
-export function setShinyEnabled(value) {
-  localStorage.setItem(SHINY_KEY, String(value));
+function save(data) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
-export function toggleShiny() {
-  const next = !isShinyEnabled();
-  setShinyEnabled(next);
-  return next;
+export function isShinyEnabled(dex) {
+  const data = load();
+  return !!data[dex];
+}
+
+export function toggleShiny(dex) {
+  const data = load();
+  data[dex] = !data[dex];
+  save(data);
+  return data[dex];
+}
+
+export function clearAllShiny() {
+  localStorage.removeItem(STORAGE_KEY);
 }
