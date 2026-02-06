@@ -712,10 +712,10 @@
 #detail-panel {
   font-family: "Trebuchet MS";
 
-  /* 🔹 Size & layout */
+  /* 🔹 Fixed panel size (important for smooth animation) */
   width: 320px;
   max-width: 320px;
-  flex-shrink: 0;
+  height: 100%;
 
   /* 🔹 Visuals (unchanged style) */
   background: #fafafa;
@@ -724,20 +724,23 @@
   padding: 24px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 
-  /* 🔹 Slide mechanics */
+  /* 🔹 Slide mechanics (off-screen by default) */
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
 
   transition:
-    transform 0.4s cubic-bezier(022, 1, 0.36, 1),
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     opacity 0.25s ease;
 
   will-change: transform, opacity;
 
-  /* 🔹 Positioning */
-  position: relative;
-  z-index: 10;
+  /* 🔹 Positioning (KEY CHANGE) */
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  z-index: 20;
 }
 
 .detail-header h2 {
