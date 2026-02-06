@@ -177,7 +177,12 @@ function applyTranslations() {
     .querySelectorAll('[data-i18n]')
     .forEach(el => {
       const key = el.dataset.i18n;
-      el.textContent = t(key);
+      const translated = t(key);
+  
+      // Fallback: keep existing text if translation is missing
+      el.textContent = translated && translated !== key
+        ? translated
+        : el.textContent;
     });
 
   if (window.__CURRENT_GAME__) {
