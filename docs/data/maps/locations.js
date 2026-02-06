@@ -5,7 +5,7 @@ export const LOCATION_REGISTRY = {
    ====================================================== */
 
   "kanto:Route 1": {
-    map: "kanto", x: 492, y: 1257,
+    map: "kanto", x: 20.2, y: 53.7,
     names: { en: "Route 1", ja: "ルート1", de: "Route 1", es: "Ruta 1", fr: "Route 1" }
   },
   "kanto:Route 2": {
