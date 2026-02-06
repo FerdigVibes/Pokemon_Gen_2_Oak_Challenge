@@ -18,10 +18,10 @@
   display: none;
 }
 
-/* When a Pokémon is selected */
 #app.has-detail #detail-panel {
-  display: block;
-  width: 320px;
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .has-detail #detail-panel {
@@ -744,14 +744,28 @@
    =============================== */
 
 #detail-panel {
+  font-family: "Trebuchet MS", sans-serif;
+
+  /* Layout */
   width: 320px;
+  max-width: 320px;
   flex-shrink: 0;
 
-  background: #fafafa;
+  /* Pokédex screen look */
+  background:
+    linear-gradient(
+      rgba(255,255,255,0.92),
+      rgba(235,245,245,0.92)
+    );
   border: 4px solid #d32f2f;
   border-radius: 16px;
-  padding: 24px;
+  padding: 20px;
 
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,0.8),
+    0 8px 24px rgba(0,0,0,0.25);
+
+  /* Slide behavior (keep!) */
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
@@ -761,12 +775,29 @@
     opacity 0.25s ease;
 
   will-change: transform, opacity;
+
+  position: relative;
+  z-index: 2;
 }
 
 .detail-header h2 {
   font-size: 26px;
   margin-bottom: 4px;
   color: #d32f2f;
+}
+
+.detail-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.detail-name {
+  font-size: 1.05rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #b71c1c;
+  margin: 0;
 }
 
 .detail-sprite-window {
@@ -803,29 +834,27 @@
 }
 
 .detail-dex {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 12px;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: #444;
+  margin-top: 4px;
 }
 
 .type-list {
-  margin: 20px 0;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
+  margin: 10px 0 16px;
 }
 
 .type-badge {
-  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
   padding: 4px 10px;
   border-radius: 12px;
-  font-size: 12px;
-  font-weight: bold;
-  color: white;
-  margin-right: 6px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  box-shadow: 0 0 4px rgba(0,0,0,0.25);
 }
 
 /* Generation 1 & 2 Types */
@@ -853,40 +882,64 @@
 }
 
 .shiny-icon {
-  margin-left: 8px;
+  margin-left: 6px;
   cursor: pointer;
-  font-size: 1.4rem;
-  opacity: 0.4;
-  transition: opacity 0.2s ease;
-  user-select: none;
+  font-size: 1.2rem;
+  opacity: 0.35;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .shiny-icon.active {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 .detail-sprite-window.shiny-active {
-  box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
   border-color: gold;
+  box-shadow:
+    0 0 12px rgba(255,215,0,0.7),
+    inset 0 0 8px rgba(255,215,0,0.6);
 }
 
 .obtain-section {
-  background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 10px;
+  background:
+    linear-gradient(
+      rgba(255,255,255,0.95),
+      rgba(235,245,245,0.95)
+    );
+  border: 2px solid rgba(0,0,0,0.12);
+  border-radius: 12px;
   padding: 12px;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+
+  box-shadow:
+    inset 0 1px 2px rgba(255,255,255,0.8),
+    0 4px 10px rgba(0,0,0,0.18);
+}
+
+.obtain-section h3 {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #444;
 }
 
 .obtain-method {
-  margin-bottom: 12px;
-  line-height: 1.5;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: #2e5f6a;
+}
+
+.obtain-method + .obtain-method {
+  margin-top: 10px;
 }
 
 .notes {
-  font-style: italic;
   margin-top: 6px;
-  color: #444;
+  font-style: italic;
+  font-size: 0.72rem;
+  color: #555;
 }
 
 .dropdown-menu {
