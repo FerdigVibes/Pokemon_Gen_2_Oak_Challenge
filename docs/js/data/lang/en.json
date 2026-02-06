@@ -44,6 +44,11 @@
     "sunday": "Sunday"
   },
 
+  "timeMeridiem": {
+    "AM": "AM",
+    "PM": "PM"
+  },
+
   "gameTime": {
     "title": "Set Game Time",
     "day": "Day",
