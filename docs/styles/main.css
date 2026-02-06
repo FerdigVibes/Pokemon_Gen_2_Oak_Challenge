@@ -700,18 +700,31 @@
 
 #detail-panel {
   font-family: "Trebuchet MS", sans-serif;
+
+  /* 🔹 Size & layout */
+  width: 320px;
+  max-width: 320px;
+  flex-shrink: 0;
+
+  /* 🔹 Visuals (unchanged style) */
   background: #fafafa;
   border: 4px solid #d32f2f;
   border-radius: 16px;
   padding: 24px;
-  max-width: 520px;
-  margin: 24px auto;
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-  position: relative;
-  transition: transform 0.35s ease, opacity 0.35s ease;
+
+  /* 🔹 Slide mechanics */
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
+
+  transition:
+    transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.25s ease;
+
+  will-change: transform, opacity;
+
+  /* 🔹 Positioning */
   position: relative;
   z-index: 10;
 }
