@@ -1061,7 +1061,7 @@
   position: absolute;
   inset: 0;
 
-  background-image: url("./assets/images/pokedex-landing-bg.png");
+  background-image: url("../assets/images/pokedex-landing-bg.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
