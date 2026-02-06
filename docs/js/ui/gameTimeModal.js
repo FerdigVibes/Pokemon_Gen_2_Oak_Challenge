@@ -4,7 +4,8 @@ import { t } from '../data/i18n.js';
 
 const DAYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
-function buildSelectors(daySelect, hourSelect, minuteSelect) {
+function buildSelectors(daySelect, hourSelect, minuteSelect, meridiemSelect) {
+  // DAYS
   daySelect.innerHTML = '';
   DAYS.forEach(d => {
     const opt = document.createElement('option');
@@ -13,16 +14,30 @@ function buildSelectors(daySelect, hourSelect, minuteSelect) {
     daySelect.appendChild(opt);
   });
 
+  // HOURS (numeric, not translated)
   hourSelect.innerHTML = '';
   for (let h = 1; h <= 12; h++) {
     hourSelect.appendChild(new Option(h, h));
   }
 
+  // MINUTES
   minuteSelect.innerHTML = '';
   for (let m = 0; m < 60; m++) {
-    minuteSelect.appendChild(new Option(String(m).padStart(2, '0'), m));
+    minuteSelect.appendChild(
+      new Option(String(m).padStart(2, '0'), m)
+    );
   }
+
+  // AM / PM (translated)
+  meridiemSelect.innerHTML = '';
+  ['AM', 'PM'].forEach(val => {
+    const opt = document.createElement('option');
+    opt.value = val;
+    opt.textContent = t(`time.${val.toLowerCase()}`);
+    meridiemSelect.appendChild(opt);
+  });
 }
+
 
 export function openGameTimeModal() {
   const modal = document.getElementById('game-time-modal');
@@ -39,7 +54,7 @@ export function openGameTimeModal() {
     return;
   }
 
-  buildSelectors(daySelect, hourSelect, minuteSelect);
+  buildSelectors(daySelect, hourSelect, minuteSelect, meridiemSelect);
 
   const state = getGameTime();
 
@@ -83,3 +98,24 @@ export function openGameTimeModal() {
   }
 }
 
+window.addEventListener('language-changed', () => {
+  const modal = document.getElementById('game-time-modal');
+  if (!modal || modal.classList.contains('hidden')) return;
+
+  const daySelect = document.getElementById('gt-day');
+  const hourSelect = document.getElementById('gt-hour');
+  const minuteSelect = document.getElementById('gt-minute');
+  const meridiemSelect = document.getElementById('gt-meridiem');
+
+  if (!daySelect || !hourSelect || !minuteSelect || !meridiemSelect) return;
+
+  const state = getGameTime();
+
+  buildSelectors(daySelect, hourSelect, minuteSelect, meridiemSelect);
+
+  // Restore values after rebuild
+  daySelect.value = state.day;
+  hourSelect.value = state.hour;
+  minuteSelect.value = state.minute;
+  meridiemSelect.value = state.meridiem;
+});
