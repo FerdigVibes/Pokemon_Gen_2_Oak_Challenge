@@ -41,6 +41,11 @@
     "saturday": "土曜日",
     "sunday": "日曜日"
   },
+
+  "common": {
+    "cancel": "キャンセル",
+    "save": "保存"
+  },
   
   "gameTime": {
     "title": "ゲーム内の時間設定",
