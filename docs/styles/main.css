@@ -89,8 +89,8 @@
     url("../assets/images/pokedex-landing-bg.png");
 
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  background-position: center 80px;   /* pushes image down slightly */
+  background-size: min(900px, 100%);  /* caps size on large screens */
 
   /* 🔑 THIS is what makes it scroll with content */
   background-attachment: local;
