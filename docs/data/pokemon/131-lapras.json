@@ -91,7 +91,7 @@
         {
           "method": "wild",
           "locations": ["Union Cave (Lower Floor)"],
-          "days": ["friday"],
+          "days": ["fri"],
           "notes": {
             "en": "Appears only on Fridays in the deepest area of Union Cave.",
             "ja": "アルフのいせき近くのつららのどうくつ最深部に、金曜日のみ出現する。",
@@ -113,7 +113,7 @@
         {
           "method": "wild",
           "locations": ["Union Cave (Lower Floor)"],
-          "days": ["friday"],
+          "days": ["fri"],
           "notes": {
             "en": "Appears only on Fridays in the deepest area of Union Cave.",
             "ja": "アルフのいせき近くのつららのどうくつ最深部に、金曜日のみ出現する。",
@@ -135,7 +135,7 @@
         {
           "method": "wild",
           "locations": ["Union Cave (Lower Floor)"],
-          "days": ["friday"],
+          "days": ["fri"],
           "notes": {
             "en": "Appears only on Fridays in the deepest area of Union Cave.",
             "ja": "アルフのいせき近くのつららのどうくつ最深部に、金曜日のみ出現する。",
