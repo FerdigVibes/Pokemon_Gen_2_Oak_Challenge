@@ -72,20 +72,22 @@ function updateSectionCounter(sectionBlock) {
   let caughtCount = 0;
 
   if (sectionId === 'STARTER') {
-    const families = {};
+    const families = new Map();
   
     rows.forEach(row => {
       const family = row.dataset.family;
-      if (!family) return;
+      const dex = Number(row.dataset.dex);
+      if (!family || Number.isNaN(dex)) return;
   
-      if (!families[family]) families[family] = [];
-      families[family].push(row);
+      if (!families.has(family)) {
+        families.set(family, new Set());
+      }
+  
+      families.get(family).add(dex);
     });
   
-    caughtCount = Object.values(families).filter(familyRows =>
-      familyRows.some(row =>
-        isCaught(gameId, Number(row.dataset.dex))
-      )
+    caughtCount = Array.from(families.values()).filter(dexSet =>
+      Array.from(dexSet).some(dex => isCaught(gameId, dex))
     ).length;
   
   } else {
