@@ -1113,3 +1113,45 @@
     linear-gradient(to bottom, rgba(255,255,255,0.2) 1px, transparent 1px);
   background-size: 10% 10%;
 }
+
+/* =========================================================
+   REGISTERED POKÉDEX FLASH
+   ========================================================= */
+
+.row.registered {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    rgba(0, 229, 255, 0.08),
+    rgba(29, 233, 182, 0.12)
+  );
+}
+
+.row.registered::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 20%,
+    rgba(0, 229, 255, 0.55),
+    transparent 80%
+  );
+  transform: translateX(-120%);
+  animation: dex-scan 0.7s ease-out;
+  pointer-events: none;
+}
+
+@keyframes dex-scan {
+  from {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+}
