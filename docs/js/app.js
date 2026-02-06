@@ -66,16 +66,28 @@ async function init() {
     wireResetDropdown();
     wireLanguageSelector();
 
-    await loadLanguage(getLanguage()); // ✅ make sure translations are loaded first
+    await loadLanguage(getLanguage()); // ✅ translations first
 
-    resetAppToBlankState();   // ✅ now safe to call t()
+    resetAppToBlankState();
     buildGameSelector();
     applyTranslations();
+
+    // 🔹 Section 2 background scroll sync
+    const sectionList = document.getElementById('section-list');
+    if (sectionList) {
+      sectionList.addEventListener('scroll', () => {
+        sectionList.style.setProperty(
+          '--bg-scroll',
+          `${sectionList.scrollTop * 0.6}px`
+        );
+      });
+    }
 
   } catch (err) {
     console.error('Init failed:', err);
   }
 }
+
 
 function wireSearch() {
   const input = document.getElementById('search-input');
