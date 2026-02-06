@@ -49,6 +49,11 @@
     "dst": "Horario de verano"
   },
 
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar"
+  },
+
   "timeMeridiem": {
     "AM": "AM",
     "PM": "PM"
