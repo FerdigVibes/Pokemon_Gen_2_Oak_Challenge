@@ -497,42 +497,49 @@
    =============================== */
 
 #game-time-modal {
-  background: linear-gradient(
-    180deg,
-    #c62828,
-    #9e1b1b
-  );
-
-  border: 4px solid #5a0f0f;
-  border-radius: 16px;
-
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  z-index: 1000; /* above top bar, section 3, etc */
+  width: 320px;
+
+  background:
+    linear-gradient(180deg, #c62828, #a81f1f);
+
+  border: 4px solid #7a1212;
+  border-radius: 16px;
+
+  padding: 18px 20px;
 
   color: #fff;
-  padding: 20px;
 
   box-shadow:
     inset 0 0 0 2px rgba(255,255,255,0.15),
-    0 18px 40px rgba(0,0,0,0.7);
+    inset 0 -6px 0 rgba(0,0,0,0.35),
+    0 16px 40px rgba(0,0,0,0.65);
+
+  z-index: 200;
 }
 
 #game-time-modal h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin: 0 0 14px;
 
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 
   text-shadow:
     1px 1px 0 rgba(0,0,0,0.5),
-    0 0 6px rgba(0,0,0,0.4);
+    0 0 6px rgba(0,0,0,0.35);
+}
+
+#game-time-modal .form-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 
 #game-time-modal.hidden {
@@ -540,17 +547,11 @@
 }
 
 #game-time-modal label {
-  min-width: 90px;
-  font-weight: 700;
+  min-width: 70px;
+  font-weight: 800;
+  font-size: 0.75rem;
   letter-spacing: 0.05em;
   margin-bottom: 0;
-}
-
-#game-time-modal .modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
-  z-index: -1;
 }
 
 #game-time-modal::after {
@@ -584,7 +585,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 10px;
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 #game-time-modal button {
@@ -595,6 +596,7 @@
   border: 2px solid #000;
 
   padding: 6px 14px;
+
   font-weight: 800;
   letter-spacing: 0.06em;
 
@@ -617,7 +619,7 @@
   color: #ffb3b3;
 }
 
-.modal-actions button:hover {
+#game-time-modal button:hover {
   box-shadow:
     inset 0 0 10px rgba(255,255,255,0.2),
     0 0 10px rgba(0,0,0,0.6);
