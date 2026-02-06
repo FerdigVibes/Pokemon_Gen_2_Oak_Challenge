@@ -81,10 +81,12 @@
   /* ❌ no background here */
 }
 
-#section-list::before {
-  content: "";
-  position: absolute;
-  inset: 0;
+#section-list .section-bg {
+  position: sticky;
+  top: 0;
+
+  height: 100%;
+  min-height: 100%;
 
   background:
     radial-gradient(
@@ -100,10 +102,9 @@
   background-position: center center;
   background-size: cover;
 
-  opacity: 0.32;              /* rich but not overpowering */
-  filter: none;               /* FULL COLOR restored */
-
+  opacity: 0.32;
   pointer-events: none;
+
   z-index: 0;
 }
 
