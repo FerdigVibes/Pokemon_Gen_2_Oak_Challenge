@@ -7,8 +7,9 @@
 }
 
 #app {
+  position: relative; /* ⬅️ CRITICAL */
   display: flex;
-  height: calc(100vh - 120px); /* adjust this based on actual top-bar height */
+  height: calc(100vh - 120px);
   overflow: hidden;
 }
 
