@@ -899,10 +899,26 @@
 }
 
 .detail-sprite-window.shiny-active {
-  border-color: gold;
+  background-size: 85%;
   box-shadow:
-    0 0 12px rgba(255,215,0,0.7),
-    inset 0 0 8px rgba(255,215,0,0.6);
+    0 0 14px rgba(255,215,0,0.75),
+    inset 0 0 10px rgba(255,215,0,0.6);
+}
+
+.detail-sprite-window::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.25),
+      rgba(255,255,255,0.05)
+    );
+
+  pointer-events: none;
+  border-radius: inherit;
 }
 
 .obtain-section {
