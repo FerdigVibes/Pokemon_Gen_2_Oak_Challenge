@@ -5,7 +5,7 @@ import { t } from '../data/i18n.js';
 const DAYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
 function buildSelectors(daySelect, hourSelect, minuteSelect, meridiemSelect) {
-  // DAYS
+  // DAYS (translated)
   daySelect.innerHTML = '';
   DAYS.forEach(d => {
     const opt = document.createElement('option');
@@ -28,12 +28,17 @@ function buildSelectors(daySelect, hourSelect, minuteSelect, meridiemSelect) {
     );
   }
 
-  // AM / PM (translated)
+  // AM / PM (translated with fallback)
   meridiemSelect.innerHTML = '';
   ['AM', 'PM'].forEach(val => {
+    const key = `time.${val.toLowerCase()}`;
+    const translated = t(key);
+
     const opt = document.createElement('option');
     opt.value = val;
-    opt.textContent = t(`time.${val.toLowerCase()}`);
+    opt.textContent =
+      translated && translated !== key ? translated : val;
+
     meridiemSelect.appendChild(opt);
   });
 }
