@@ -55,7 +55,7 @@
 }
 
 .section-counter {
-  font-family: Trebuchet MS, sans-serif;
+  font-family: Trebuchet MS;
   font-size: 0.75rem;
   letter-spacing: 0.04em;
   opacity: 0.9;
@@ -395,7 +395,7 @@
 
 .progress-label {
   font-size: 0.8rem;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS";
   letter-spacing: 0.04em;
   white-space: nowrap;
   color: #fff;
@@ -542,7 +542,7 @@
   border-radius: 6px;
   transition: background 0.2s ease;
   cursor: pointer;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS";
 }
 
 .pokemon-row .pokemon-notes,
