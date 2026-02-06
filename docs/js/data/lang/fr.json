@@ -42,6 +42,11 @@
     "sunday": "Dimanche"
   },
 
+  "common": {
+    "cancel": "Annuler",
+    "save": "Enregistrer"
+  },
+
   "gameTime": {
     "title": "Définir l'heure du jeu",
     "day": "Jour",
