@@ -132,6 +132,25 @@
   z-index: 2;
 }
 
+.pokemon-row {
+  position: relative;
+  isolation: isolate; /* ⬅️ VERY IMPORTANT */
+}
+
+.pokemon-row::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.95),
+      rgba(235,245,245,0.95)
+    );
+  border-radius: inherit;
+  z-index: -1;
+}
+
 /* Ensure content sits above background layers */
 .section-block,
 .section-header,
@@ -533,8 +552,13 @@
   font-size: 0.85rem;
 }
 
-.pokemon-row:hover {
-  background: #e0e0e0;
+.pokemon-row:hover::before {
+  background:
+    linear-gradient(
+      180deg,
+      #ffffff,
+      #e8f4f4
+    );
 }
 /* -----------------------------
    AVAILABLE & UNCAUGHT
