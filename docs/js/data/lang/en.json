@@ -27,6 +27,11 @@
   "resetAll": "Reset All",
   "resetAllConfirm": "Reset ALL sections for this game? This cannot be undone.",
 
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+
   "days": {
     "mon": "Mon",
     "tue": "Tue",
