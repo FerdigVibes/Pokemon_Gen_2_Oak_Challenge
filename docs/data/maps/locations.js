@@ -183,7 +183,7 @@ export const LOCATION_REGISTRY = {
     names: { en: "Power Plant", ja: "はつでんしょ", de: "Kraftwerk", es: "Central Energía", fr: "Centrale" }
   },
   "kanto:Viridian Forest": {
-    map: "kanto", x: 48, y: 52,
+    map:"kanto", x:19.89, y:30.96,
     names: { en: "Viridian Forest", ja: "トキワのもり", de: "Vertania-Wald", es: "Bosque Verde", fr: "Forêt de Jade" }
   },
 
