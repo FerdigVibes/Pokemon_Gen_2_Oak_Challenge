@@ -38,6 +38,26 @@ function buildSelectors(daySelect, hourSelect, minuteSelect, meridiemSelect) {
   });
 }
 
+function buildMeridiemSelector(select) {
+  select.innerHTML = '';
+
+  [
+    { value: 'AM', key: 'time.am' },
+    { value: 'PM', key: 'time.pm' }
+  ].forEach(({ value, key }) => {
+    const opt = document.createElement('option');
+    opt.value = value;
+
+    const translated = t(key);
+    opt.textContent =
+      translated && translated !== key
+        ? translated
+        : value; // fallback to AM / PM
+
+    select.appendChild(opt);
+  });
+}
+
 
 export function openGameTimeModal() {
   const modal = document.getElementById('game-time-modal');
