@@ -173,6 +173,13 @@ function applyTranslations() {
   const selectorBtn = document.getElementById('game-selector-btn');
   const titleEl = document.getElementById('app-title');
 
+  document
+    .querySelectorAll('[data-i18n]')
+    .forEach(el => {
+      const key = el.dataset.i18n;
+      el.textContent = t(key);
+    });
+
   if (window.__CURRENT_GAME__) {
     const { meta, data } = window.__CURRENT_GAME__;
 
