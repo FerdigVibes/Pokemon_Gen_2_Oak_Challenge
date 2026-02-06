@@ -9,99 +9,99 @@ export const LOCATION_REGISTRY = {
     names: { en: "Route 1", ja: "ルート1", de: "Route 1", es: "Ruta 1", fr: "Route 1" }
   },
   "kanto:Route 2": {
-    map: "kanto", x: 489, y: 898,
+    map:"kanto", x:19.89, y:37.83,
     names: { en: "Route 2", ja: "ルート2", de: "Route 2", es: "Ruta 2", fr: "Route 2" }
   },
   "kanto:Route 3": {
-    map: "kanto", x: 682, y: 499,
+    map:"kanto", x:29.66, y:21.43,
     names: { en: "Route 3", ja: "ルート3", de: "Route 3", es: "Ruta 3", fr: "Route 3" }
   },
   "kanto:Route 4": {
-    map: "kanto", x: 62, y: 46,
+    map:"kanto", x:54.72, y:17.82,
     names: { en: "Route 4", ja: "ルート4", de: "Route 4", es: "Ruta 4", fr: "Route 4" }
   },
   "kanto:Route 5": {
-    map: "kanto", x: 52, y: 40,
+    map:"kanto", x:61.92, y:23.96,
     names: { en: "Route 5", ja: "ルート5", de: "Route 5", es: "Ruta 5", fr: "Route 5" }
   },
   "kanto:Route 6": {
-    map: "kanto", x: 52, y: 46,
+    map:"kanto", x:60.94, y:44.14,
     names: { en: "Route 6", ja: "ルート6", de: "Route 6", es: "Ruta 6", fr: "Route 6" }
   },
   "kanto:Route 7": {
-    map: "kanto", x: 46, y: 40,
+    map:"kanto", x:53.78, y:34.39,
     names: { en: "Route 7", ja: "ルート7", de: "Route 7", es: "Ruta 7", fr: "Route 7" }
   },
   "kanto:Route 8": {
-    map: "kanto", x: 58, y: 40,
+    map:"kanto", x:76.40, y:34.69,
     names: { en: "Route 8", ja: "ルート8", de: "Route 8", es: "Ruta 8", fr: "Route 8" }
   },
   "kanto:Route 9": {
-    map: "kanto", x: 64, y: 40,
+    map:"kanto", x:74.37, y:18.68,
     names: { en: "Route 9", ja: "ルート9", de: "Route 9", es: "Ruta 9", fr: "Route 9" }
   },
   "kanto:Route 10": {
-    map: "kanto", x: 66, y: 44,
+    map:"kanto", x:81.16, y:30.83,
     names: { en: "Route 10", ja: "ルート10", de: "Route 10", es: "Ruta 10", fr: "Route 10" }
   },
   "kanto:Route 11": {
-    map: "kanto", x: 64, y: 46,
+    map:"kanto", x:72.21, y:51.70,
     names: { en: "Route 11", ja: "ルート11", de: "Route 11", es: "Ruta 11", fr: "Route 11" }
   },
   "kanto:Route 12": {
-    map: "kanto", x: 66, y: 52,
+    map:"kanto", x:84.13, y:43.97,
     names: { en: "Route 12", ja: "ルート12", de: "Route 12", es: "Ruta 12", fr: "Route 12" }
   },
   "kanto:Route 13": {
-    map: "kanto", x: 60, y: 54,
+    map:"kanto", x:84.26, y:62.99,
     names: { en: "Route 13", ja: "ルート13", de: "Route 13", es: "Ruta 13", fr: "Route 13" }
   },
   "kanto:Route 14": {
-    map: "kanto", x: 56, y: 56,
+    map:"kanto", x:76.00, y:72.13,
     names: { en: "Route 14", ja: "ルート14", de: "Route 14", es: "Ruta 14", fr: "Route 14" }
   },
   "kanto:Route 15": {
-    map: "kanto", x: 60, y: 58,
+    map:"kanto", x:65.58, y:74.97,
     names: { en: "Route 15", ja: "ルート15", de: "Route 15", es: "Ruta 15", fr: "Route 15" }
   },
   "kanto:Route 16": {
-    map: "kanto", x: 44, y: 44,
+    map:"kanto", x:37.51, y:33.83,
     names: { en: "Route 16", ja: "ルート16", de: "Route 16", es: "Ruta 16", fr: "Route 16" }
   },
   "kanto:Route 17": {
-    map: "kanto", x: 44, y: 56,
+    map:"kanto", x:34.38, y:54.27,
     names: { en: "Route 17", ja: "ルート17", de: "Route 17", es: "Ruta 17", fr: "Route 17" }
   },
   "kanto:Route 18": {
-    map: "kanto", x: 48, y: 58,
+    map:"kanto", x:43.61, y:75.57,
     names: { en: "Route 18", ja: "ルート18", de: "Route 18", es: "Ruta 18", fr: "Route 18" }
   },
   "kanto:Route 19": {
-    map: "kanto", x: 52, y: 64,
+    map:"kanto", x:57.28, y:81.54,
     names: { en: "Route 19", ja: "ルート19", de: "Route 19", es: "Ruta 19", fr: "Route 19" }
   },
   "kanto:Route 20": {
-    map: "kanto", x: 60, y: 64,
+    map:"kanto", x:47.15, y:86.69,
     names: { en: "Route 20", ja: "ルート20", de: "Route 20", es: "Ruta 20", fr: "Route 20" }
   },
   "kanto:Route 21": {
-    map: "kanto", x: 52, y: 68,
+    map:"kanto", x:20.30, y:72.82,
     names: { en: "Route 21", ja: "ルート21", de: "Route 21", es: "Ruta 21", fr: "Route 21" }
   },
   "kanto:Route 22": {
-    map: "kanto", x: 44, y: 46,
+    map:"kanto", x:12.16, y:46.11,
     names: { en: "Route 22", ja: "ルート22", de: "Route 22", es: "Ruta 22", fr: "Route 22" }
   },
   "kanto:Route 23": {
-    map: "kanto", x: 46, y: 36,
+    map:"kanto", x:6.75,  y:38.26,
     names: { en: "Route 23", ja: "ルート23", de: "Route 23", es: "Ruta 23", fr: "Route 23" }
   },
   "kanto:Route 24": {
-    map: "kanto", x: 52, y: 36,
+    map:"kanto", x:60.41, y:12.84,
     names: { en: "Route 24", ja: "ルート24", de: "Route 24", es: "Ruta 24", fr: "Route 24" }
   },
   "kanto:Route 25": {
-    map: "kanto", x: 56, y: 36,
+    map:"kanto", x:64.20, y:9.70,
     names: { en: "Route 25", ja: "ルート25", de: "Route 25", es: "Ruta 25", fr: "Route 25" }
   },
   "kanto:Route 26": {
@@ -127,15 +127,15 @@ export const LOCATION_REGISTRY = {
     names: { en: "Pallet Town", ja: "パレットタウン", de: "Alabastia", es: "Pueblo Paleta", fr: "Ville des Palettes" }
   },
   "kanto:Viridian City": {
-    map: "kanto", x: 50, y: 60,
+    map:"kanto", x:19.89, y:30.96,
     names: { en: "Viridian City", ja: "ビリジアンシティ", de: "Vertania City", es: "Ciudad Viridian", fr: "Cité Viridienne" }
   },
   "kanto:Pewter City": {
-    map: "kanto", x: 50, y: 48,
+    map:"kanto", x:19.89, y:21.25,
     names: { en: "Pewter City", ja: "ピューターシティ", de: "Marmoria City", es: "Ciudad Plateada", fr: "Argenta" }
   },
   "kanto:Cerulean City": {
-    map: "kanto", x: 56, y: 36,
+    map:"kanto", x:61.92, y:19.97,
     names: { en: "Cerulean City", ja: "セルリアンシティ", de: "Azuria City", es: "Ciudad Celeste", fr: "Azuria" }
   },
   "kanto:Vermilion City": {
@@ -143,11 +143,11 @@ export const LOCATION_REGISTRY = {
     names: { en: "Vermilion City", ja: "バーミリオンシティ", de: "Orania City", es: "Ciudad Carmín", fr: "Carmin-sur-Mer" }
   },
   "kanto:Saffron City": {
-    map: "kanto", x: 52, y: 40,
+    map:"kanto", x:61.11, y:34.56,
     names: { en: "Saffron City", ja: "サフランシティ", de: "Saffronia City", es: "Ciudad Azafrán", fr: "Safrania" }
   },
   "kanto:Celadon City": {
-    map: "kanto", x: 46, y: 40,
+    map:"kanto", x:46.58, y:33.53,
     names: { en: "Celadon City", ja: "セラドンシティ", de: "Prismania City", es: "Ciudad Celadón", fr: "Céladopole" }
   },
   "kanto:Fuchsia City": {
@@ -167,19 +167,19 @@ export const LOCATION_REGISTRY = {
     names: { en: "Indigo Plateau", ja: "セキエイこうげん", de: "Indigo-Plateau", es: "Meseta Añil", fr: "Plateau Indigo" }
   },
   "kanto:Pokémon Tower": {
-    map: "kanto", x: 60, y: 42,
+    map:"kanto", x:86.82, y:34.99,
     names: { en: "Pokémon Tower", ja: "ポケモンタワー", de: "Pokémon-Turm", es: "Torre Pokémon", fr: "Tour Pokémon" }
   },
   "kanto:Pokémon Mansion": {
-    map: "kanto", x: 52, y: 74,
+    map:"kanto", x:9.48,  y:88.11,
     names: { en: "Pokémon Mansion", ja: "ポケモンやしき", de: "Pokémon-Villa", es: "Mansión Pokémon", fr: "Manoir Pokémon" }
   },
   "kanto:Silph Co.": {
-    map: "kanto", x: 52, y: 40,
+    map:"kanto", x:64.89, y:32.42,
     names: { en: "Silph Co.", ja: "シルフカンパニー", de: "Silph Co.", es: "Silph S.A.", fr: "Sylphe SARL" }
   },
   "kanto:Power Plant": {
-    map: "kanto", x: 68, y: 44,
+    map:"kanto", x:84.54, y:23.40,
     names: { en: "Power Plant", ja: "はつでんしょ", de: "Kraftwerk", es: "Central Energía", fr: "Centrale" }
   },
   "kanto:Viridian Forest": {
@@ -190,23 +190,23 @@ export const LOCATION_REGISTRY = {
 
   // --- Dungeons ---
   "kanto:Mt. Moon": {
-    map: "kanto", x: 58, y: 46,
+    map:"kanto", x:41.58, y:13.14,
     names: { en: "Mt. Moon", ja: "おつきみやま", de: "Mondberg", es: "Monte Luna", fr: "Mont Sélénite" }
   },
   "kanto:Rock Tunnel": {
-    map: "kanto", x: 66, y: 42,
+    map:"kanto", x:77.62, y:24.56,
     names: { en: "Rock Tunnel", ja: "いわやまトンネル", de: "Felstunnel", es: "Túnel Roca", fr: "Tunnel Rocheux" }
   },
   "kanto:Diglett's Cave": {
-    map: "kanto", x: 44, y: 46,
+    map:"kanto", x:65.99, y:47.27,
     names: { en: "Diglett's Cave", ja: "ディグダのあな", de: "Digda-Höhle", es: "Cueva Diglett", fr: "Grotte Taupiqueur" }
   },
   "kanto:Safari Zone": {
-    map: "kanto", x: 50, y: 58,
+    map:"kanto", x:55.25, y:69.56,
     names: { en: "Safari Zone", ja: "サファリゾーン", de: "Safari-Zone", es: "Zona Safari", fr: "Parc Safari" }
   },
   "kanto:Seafoam Islands": {
-    map: "kanto", x: 58, y: 70,
+    map:"kanto", x:36.29, y:86.69,
     names: { en: "Seafoam Islands", ja: "ふたごじま", de: "Seeschauminseln", es: "Islas Espuma", fr: "Îles Écume" }
   },
   "kanto:Victory Road": {
@@ -214,7 +214,7 @@ export const LOCATION_REGISTRY = {
     names: { en: "Victory Road", ja: "チャンピオンロード", de: "Siegesstraße", es: "Calle Victoria", fr: "Route Victoire" }
   },
   "kanto:Cerulean Cave": {
-    map: "kanto", x: 58, y: 34,
+    map:"kanto", x:55.41, y:12.54,
     names: { en: "Cerulean Cave", ja: "ハナダのどうくつ", de: "Azuria-Höhle", es: "Cueva Celeste", fr: "Grotte Azurée" }
   },
 
