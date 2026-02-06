@@ -54,6 +54,11 @@
     "dst": "Heure d'été"
   },
 
+  "common": {
+    "cancel": "Abbrechen",
+    "save": "Speichern"
+  },
+
   "timeMeridiem": {
     "AM": "AM",
     "PM": "PM"
