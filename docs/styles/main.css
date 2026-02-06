@@ -70,19 +70,30 @@
    ========================================================= */
 
 #section-list {
-  position: relative;          /* required for ::before / ::after */
+  position: relative;
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 8px 12px;
   box-sizing: border-box;
 
-  /* Base screen tint */
+  /* background already correct */
   background:
     linear-gradient(
       rgba(255,255,255,0.03),
       rgba(255,255,255,0.01)
     );
+
+  /* 👇 ADD THESE */
+  transition:
+    transform 0.35s ease,
+    opacity 0.25s ease,
+    flex-basis 0.35s ease;
+}
+
+#app.has-detail #section-list {
+  transform: translateX(-12px);   /* subtle mechanical slide */
+  opacity: 0.96;                  /* very light dim */
 }
 
 /* Pokédex background image + vignette */
@@ -699,7 +710,7 @@
    =============================== */
 
 #detail-panel {
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS";
 
   /* 🔹 Size & layout */
   width: 320px;
@@ -719,7 +730,7 @@
   pointer-events: none;
 
   transition:
-    transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.4s cubic-bezier(022, 1, 0.36, 1),
     opacity 0.25s ease;
 
   will-change: transform, opacity;
