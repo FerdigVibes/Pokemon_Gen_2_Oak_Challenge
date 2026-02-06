@@ -565,8 +565,21 @@
     inset 0 0 18px rgba(0,0,0,0.35);
 }
 
-#game-time-modal select,
-#game-time-modal input[type="checkbox"] {
+#game-time-modal select option {
+  background-color: #111;
+  color: #ffd966;
+}
+
+#game-time-modal select option:checked {
+  background-color: #2a2a2a;
+  color: #ffd966;
+}
+
+#game-time-modal select option:hover {
+  background-color: #333;
+}
+
+#game-time-modal select {
   background: linear-gradient(180deg, #222, #111);
   color: #ffd966;
 
@@ -579,6 +592,8 @@
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,0.15),
     0 2px 4px rgba(0,0,0,0.6);
+
+  color-scheme: dark;
 }
 
 #game-time-modal .modal-actions {
