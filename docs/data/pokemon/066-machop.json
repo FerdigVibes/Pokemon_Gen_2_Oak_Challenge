@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Rock Tunnel"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel.",
             "ja": "いわやまトンネルで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Rock Tunnel"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel.",
             "ja": "いわやまトンネルで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Rock Tunnel", "Route 10"],
+          "locations": ["Rock Tunnel", "Route 10"],
           "notes": {
             "en": "Found in Rock Tunnel and on Route 10.",
             "ja": "いわやまトンネル・10ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Goldenrod City Department Store 5F"],
+          "locations": ["Goldenrod City Department Store 5F"],
           "notes": {
             "en": "Trade a Drowzee on the fifth floor of the Goldenrod City Department Store.",
             "ja": "コガネシティデパート5かいでスリープと交換。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Goldenrod City Department Store 5F"],
+          "locations": ["Goldenrod City Department Store 5F"],
           "notes": {
             "en": "Trade a Drowzee on the fifth floor of the Goldenrod City Department Store.",
             "ja": "コガネシティデパート5かいでスリープと交換。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Goldenrod City Department Store 5F"],
+          "locations": ["Goldenrod City Department Store 5F"],
           "notes": {
             "en": "Trade a Drowzee on the fifth floor of the Goldenrod City Department Store.",
             "ja": "コガネシティデパート5かいでスリープと交換。",
