@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Power Plant (Route 10)"],
+          "locations": ["Power Plant (Route 10)"],
           "notes": {
             "en": "Found in the Power Plant on Route 10.",
             "ja": "10ばんどうろのはつでんしょで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Power Plant (Route 10)"],
+          "locations": ["Power Plant (Route 10)"],
           "notes": {
             "en": "Found in the Power Plant on Route 10.",
             "ja": "10ばんどうろのはつでんしょで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 10"],
+          "locations": ["Route 10"],
           "notes": {
             "en": "Found on Route 10.",
             "ja": "10ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 38", "Route 39"],
+          "locations": ["Route 38", "Route 39"],
           "notes": {
             "en": "Found on Routes 38 and 39.",
             "ja": "38ばんどうろ・39ばんどうろで出現。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 38", "Route 39"],
+          "locations": ["Route 38", "Route 39"],
           "notes": {
             "en": "Found on Routes 38 and 39.",
             "ja": "38ばんどうろ・39ばんどうろで出現。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 38", "Route 39"],
+          "locations": ["Route 38", "Route 39"],
           "notes": {
             "en": "Found on Routes 38 and 39.",
             "ja": "38ばんどうろ・39ばんどうろで出現。",
