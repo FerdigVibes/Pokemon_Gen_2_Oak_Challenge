@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Mansion"],
+          "locations": ["Pokémon Mansion"],
           "notes": {
             "en": "Found in Pokémon Mansion on Cinnabar Island.",
             "ja": "グレンじまのポケモンやしきで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Mansion"],
+          "locations": ["Pokémon Mansion"],
           "notes": {
             "en": "Found in Pokémon Mansion on Cinnabar Island.",
             "ja": "グレンじまのポケモンやしきで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 17"],
+          "locations": ["Route 17"],
           "notes": {
             "en": "Found on Route 17.",
             "ja": "17ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 26", "Route 27"],
+          "locations": ["Route 26", "Route 27"],
           "notes": {
             "en": "Found on Routes 26 and 27.",
             "ja": "26ばんどうろ・27ばんどうろで出現。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 26", "Route 27"],
+          "locations": ["Route 26", "Route 27"],
           "notes": {
             "en": "Found on Routes 26 and 27.",
             "ja": "26ばんどうろ・27ばんどうろで出現。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 26", "Route 27"],
+          "locations": ["Route 26", "Route 27"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found on Routes 26 and 27 during the morning and daytime.",
