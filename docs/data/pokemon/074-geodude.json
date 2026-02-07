@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Mt. Moon"],
+          "locations": ["Mt. Moon"],
           "notes": {
             "en": "Found in Mt. Moon.",
             "ja": "おつきみやまで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Mt. Moon"],
+          "locations": ["Mt. Moon"],
           "notes": {
             "en": "Found in Mt. Moon.",
             "ja": "おつきみやまで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Mt. Moon"],
+          "locations": ["Mt. Moon"],
           "notes": {
             "en": "Found in Mt. Moon.",
             "ja": "おつきみやまで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 46", "Dark Cave"],
+          "locations": ["Route 46", "Dark Cave"],
           "notes": {
             "en": "Found on Route 46 and in Dark Cave.",
             "ja": "46ばんどうろ・くらやみのどうくつで出現。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 46", "Dark Cave"],
+          "locations": ["Route 46", "Dark Cave"],
           "notes": {
             "en": "Found on Route 46 and in Dark Cave.",
             "ja": "46ばんどうろ・くらやみのどうくつで出現。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 46", "Dark Cave"],
+          "locations": ["Route 46", "Dark Cave"],
           "notes": {
             "en": "Found on Route 46 and in Dark Cave.",
             "ja": "46ばんどうろ・くらやみのどうくつで出現。",
