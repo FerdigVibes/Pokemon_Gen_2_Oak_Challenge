@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["Route 10", "Celadon City", "Safari Zone"],
+          "locations": ["Route 10", "Celadon City", "Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Route 10, in Celadon City, and in the Safari Zone.",
             "ja": "10ばんどうろ・タマムシシティ・サファリゾーンで「すごいつりざお」を使うとつれる。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["Route 10", "Celadon City", "Safari Zone"],
+          "locations": ["Route 10", "Celadon City", "Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Route 10, in Celadon City, and in the Safari Zone.",
             "ja": "10ばんどうろ・タマムシシティ・サファリゾーンで「すごいつりざお」を使うとつれる。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "surf",
-          "location": ["Route 12", "Route 13", "Seafoam Islands"],
+          "locations": ["Route 12", "Route 13", "Seafoam Islands"],
           "notes": {
             "en": "Found while surfing on Routes 12 and 13, and in the Seafoam Islands.",
             "ja": "12ばんどうろ・13ばんどうろ・ふたごじまで「なみのり」をすると出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Slowpoke Well"],
+          "locations": ["Slowpoke Well"],
           "notes": {
             "en": "Found in the Slowpoke Well.",
             "ja": "ヤドンのいどで出現。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Slowpoke Well"],
+          "locations": ["Slowpoke Well"],
           "notes": {
             "en": "Found in the Slowpoke Well.",
             "ja": "ヤドンのいどで出現。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Slowpoke Well"],
+          "locations": ["Slowpoke Well"],
           "notes": {
             "en": "Found in the Slowpoke Well.",
             "ja": "ヤドンのいどで出現。",
