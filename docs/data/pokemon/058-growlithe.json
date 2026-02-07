@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Pokémon Mansion 1F"],
+          "locations": ["Pokémon Mansion"],
           "notes": {
             "en": "Found inside the Pokémon Mansion on Cinnabar Island.",
             "ja": "グレンじまのポケモンやしき1Fで出現する。",
