@@ -67,7 +67,7 @@
         {
           "method": "fishing",
           "rod": "Super Rod",
-          "location": ["Route 10", "Route 25"],
+          "locations": ["Route 10", "Route 25"],
           "notes": {
             "en": "Low encounter rate when fishing with the Super Rod on Routes 10 and 25.",
             "ja": "10ばんどうろ・25ばんどうろで すごいつりざおを使うと ひくい かくりつで出現。",
