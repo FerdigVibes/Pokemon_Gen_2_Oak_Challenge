@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 5", "Route 6", "Route 24", "Route 25"],
+          "locations": ["Route 5", "Route 6", "Route 24", "Route 25"],
           "notes": {
             "en": "Found on Routes 5, 6, 24, and 25.",
             "ja": "5ばんどうろ・6ばんどうろ・24ばんどうろ・25ばんどうろで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 24", "Route 25"],
+          "locations": ["Route 24", "Route 25"],
           "notes": {
             "en": "Found on Routes 24 and 25.",
             "ja": "24ばんどうろ・25ばんどうろで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 31"],
+          "locations": ["Route 31"],
           "notes": {
             "en": "Found on Route 31.",
             "ja": "31ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 31"],
+          "locations": ["Route 31"],
           "notes": {
             "en": "Found on Route 31.",
             "ja": "31ばんどうろで出現。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 31", "Route 36"],
+          "locations": ["Route 31", "Route 36"],
           "notes": {
             "en": "Found on Routes 31 and 36.",
             "ja": "31ばんどうろ・36ばんどうろで出現。",
