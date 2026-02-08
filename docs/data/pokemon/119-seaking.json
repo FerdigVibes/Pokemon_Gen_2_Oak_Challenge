@@ -67,7 +67,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "locations": ["Cerulean Gym", "Route 24"],
+          "locations": ["Cerulean City", "Route 24"],
           "notes": {
             "en": "Caught using a Super Rod in the Cerulean Gym and on Route 24 at a very low encounter rate.",
             "ja": "ハナダジムと 24ばんどうろで すごいつりざおを つかうと ごくまれに つれる。",
