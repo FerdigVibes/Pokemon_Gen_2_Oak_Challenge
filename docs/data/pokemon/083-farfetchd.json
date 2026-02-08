@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Vermilion City"],
+          "locations": ["Vermilion City"],
           "notes": {
             "en": "Trade a Spearow in Vermilion City.",
             "ja": "クチバシティでオニスズメと交換。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Vermilion City"],
+          "locations": ["Vermilion City"],
           "notes": {
             "en": "Trade a Spearow in Vermilion City.",
             "ja": "クチバシティでオニスズメと交換。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 12", "Route 13"],
+          "locations": ["Route 12", "Route 13"],
           "notes": {
             "en": "Found on Routes 12 and 13.",
             "ja": "12ばんどうろ・13ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 38", "Route 39"],
+          "locations": ["Route 38", "Route 39"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found on Routes 38 and 39 during the morning and daytime. Very rare encounter.",
@@ -92,7 +92,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 38", "Route 39"],
+          "locations": ["Route 38", "Route 39"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found on Routes 38 and 39 during the morning and daytime. Very rare encounter.",
@@ -110,7 +110,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 43"],
+          "locations": ["Route 43"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found on Route 43 during the morning and daytime.",
