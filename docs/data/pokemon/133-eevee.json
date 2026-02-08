@@ -30,7 +30,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Celadon Mansion (Top Floor)"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Received as a gift at the top floor of Celadon Mansion in Celadon City.",
             "ja": "タマムシシティの タマムシマンション さいじょうかいで もらえる。",
@@ -47,7 +47,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Celadon Mansion (Top Floor)"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Received as a gift at the top floor of Celadon Mansion in Celadon City.",
             "ja": "タマムシシティの タマムシマンション さいじょうかいで もらえる。",
@@ -64,7 +64,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Celadon Mansion (Top Floor)"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Received as a gift at the top floor of Celadon Mansion in Celadon City.",
             "ja": "タマムシシティの タマムシマンション さいじょうかいで もらえる。",
