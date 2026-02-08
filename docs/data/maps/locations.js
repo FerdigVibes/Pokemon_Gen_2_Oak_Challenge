@@ -123,7 +123,7 @@ export const LOCATION_REGISTRY = {
    ====================================================== */
 
   "kanto:Pallet Town": {
-    map: "kanto", x: 50, y: 70,
+    map: "kanto", x: 20.18, y: 60.54,
     names: { en: "Pallet Town", ja: "パレットタウン", de: "Alabastia", es: "Pueblo Paleta", fr: "Ville des Palettes" }
   },
   "kanto:Viridian City": {
