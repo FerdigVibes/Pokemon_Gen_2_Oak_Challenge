@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Safari Zone Area 4", "Route 16", "Route 17", "Route 18"],
+          "locations": ["Safari Zone", "Route 16", "Route 17", "Route 18"],
           "notes": {
             "en": "Found in Safari Zone Area 4 and in the wild on Routes 16, 17, and 18.",
             "ja": "サファリゾーン エリア4、16ばんどうろ・17ばんどうろ・18ばんどうろで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Safari Zone Area 4", "Route 16", "Route 17", "Route 18"],
+          "locations": ["Safari Zone", "Route 16", "Route 17", "Route 18"],
           "notes": {
             "en": "Found in Safari Zone Area 4 and in the wild on Routes 16, 17, and 18.",
             "ja": "サファリゾーン エリア4、16ばんどうろ・17ばんどうろ・18ばんどうろで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 16", "Route 17", "Route 18"],
+          "locations": ["Route 16", "Route 17", "Route 18"],
           "notes": {
             "en": "Found on Routes 16, 17, and 18.",
             "ja": "16ばんどうろ・17ばんどうろ・18ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 26", "Route 27"],
+          "locations": ["Route 26", "Route 27"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found on Routes 26 and 27 during the morning and daytime.",
@@ -92,7 +92,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 26", "Route 27"],
+          "locations": ["Route 26", "Route 27"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found on Routes 26 and 27 during the morning and daytime.",
