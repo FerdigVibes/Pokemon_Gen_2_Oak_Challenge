@@ -34,7 +34,7 @@
         },
         {
           "method": "purchase",
-          "locations": ["Route 3 Pokémon Center"],
+          "locations": ["Route 3"],
           "cost": "500 Pokédollars",
           "notes": {
             "en": "Purchased at the Route 3 Pokémon Center for 500 Pokédollars.",
@@ -63,7 +63,7 @@
         },
         {
           "method": "purchase",
-          "locations": ["Route 3 Pokémon Center"],
+          "locations": ["Route "],
           "cost": "500 Pokédollars",
           "notes": {
             "en": "Purchased at the Route 3 Pokémon Center for 500 Pokédollars.",
@@ -92,7 +92,7 @@
         },
         {
           "method": "purchase",
-          "locations": ["Route 3 Pokémon Center"],
+          "locations": ["Route 3"],
           "cost": "500 Pokédollars",
           "notes": {
             "en": "Purchased at the Route 3 Pokémon Center for 500 Pokédollars.",
