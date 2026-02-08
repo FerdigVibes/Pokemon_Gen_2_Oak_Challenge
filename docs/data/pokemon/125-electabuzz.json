@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Power Plant", "Route 10"],
+          "locations": ["Power Plant"],
           "notes": {
             "en": "Found in the Power Plant on Route 10.",
             "ja": "10ばんどうろの はつでんしょに しゅつげん。",
