@@ -24,7 +24,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Underground Path (South of Cerulean City)"],
+          "locations": ["Route 6"],
           "notes": {
             "en": "Trade Machoke for a Cubone near the Underground Path south of Cerulean City.",
             "ja": "ハナダシティ南のちかつうろ付近でゴーリキーをカラカラと交換。",
