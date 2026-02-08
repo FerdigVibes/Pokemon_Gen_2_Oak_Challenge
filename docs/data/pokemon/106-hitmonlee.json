@@ -24,7 +24,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Saffron City Fighting Dojo"],
+          "locations": ["Saffron City"],
           "notes": {
             "en": "Prize Pokémon for defeating the Fighting Dojo Master in Saffron City.",
             "ja": "セキチクシティの かくとうどうじょうで ししょうに かつと もらえる。",
@@ -41,7 +41,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Saffron City Fighting Dojo"],
+          "locations": ["Saffron City"],
           "notes": {
             "en": "Prize Pokémon for defeating the Fighting Dojo Master in Saffron City.",
             "ja": "セキチクシティの かくとうどうじょうで ししょうに かつと もらえる。",
@@ -58,7 +58,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Saffron City Fighting Dojo"],
+          "locations": ["Saffron City"],
           "notes": {
             "en": "Prize Pokémon for defeating the Fighting Dojo Master in Saffron City.",
             "ja": "セキチクシティの かくとうどうじょうで ししょうに かつと もらえる。",
