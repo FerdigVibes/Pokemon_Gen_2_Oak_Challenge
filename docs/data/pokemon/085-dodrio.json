@@ -66,7 +66,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 17"],
+          "locations": ["Route 17"],
           "notes": {
             "en": "Very rare encounter on Route 17.",
             "ja": "17ばんどうろで ごくまれに出現。",
@@ -93,7 +93,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 26"],
+          "locations": ["Route 26"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Extremely rare encounter on Route 26 during the morning and daytime.",
@@ -121,7 +121,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 26"],
+          "locations": ["Route 26"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Extremely rare encounter on Route 26 during the morning and daytime.",
@@ -139,7 +139,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Blackthorn City"],
+          "locations": ["Blackthorn City"],
           "notes": {
             "en": "Trade for a female Dragonair in Blackthorn City (eastern house).",
             "ja": "フスベシティ ひがしのいえで メスのハクリューと交換。",
