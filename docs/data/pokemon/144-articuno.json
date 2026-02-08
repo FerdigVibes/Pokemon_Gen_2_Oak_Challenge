@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Seafoam Islands B4F"],
+          "locations": ["Seafoam Islands"],
           "notes": {
             "en": "Seafoam Islands B4F – SAVE BEFORE INTERACTING!!",
             "ja": "ふたごじま B4F – ちかづくまえに セーブ！！",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Seafoam Islands B4F"],
+          "locations": ["Seafoam Islands"],
           "notes": {
             "en": "Seafoam Islands B4F – SAVE BEFORE INTERACTING!!",
             "ja": "ふたごじま B4F – ちかづくまえに セーブ！！",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Seafoam Islands B4F"],
+          "locations": ["Seafoam Islands"],
           "notes": {
             "en": "Seafoam Islands B4F – SAVE BEFORE INTERACTING!!",
             "ja": "ふたごじま B4F – ちかづくまえに セーブ！！",
