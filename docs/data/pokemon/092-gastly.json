@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Tower"],
+          "locations": ["Pokémon Tower"],
           "notes": {
             "en": "Found in Pokémon Tower.",
             "ja": "ポケモンタワーで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Tower"],
+          "locations": ["Pokémon Tower"],
           "notes": {
             "en": "Found in Pokémon Tower.",
             "ja": "ポケモンタワーで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Tower"],
+          "locations": ["Pokémon Tower"],
           "notes": {
             "en": "Found in Pokémon Tower.",
             "ja": "ポケモンタワーで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Sprout Tower 2F", "Sprout Tower 3F"],
+          "locations": ["Sprout Tower"],
           "time": ["night"],
           "notes": {
             "en": "Found in Sprout Tower 2F and 3F at night.",
@@ -92,7 +92,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Sprout Tower 2F", "Sprout Tower 3F"],
+          "locations": ["Sprout Tower"],
           "time": ["night"],
           "notes": {
             "en": "Found in Sprout Tower 2F and 3F at night.",
@@ -110,7 +110,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Sprout Tower 2F", "Sprout Tower 3F"],
+          "locations": ["Sprout Tower"],
           "time": ["night"],
           "notes": {
             "en": "Found in Sprout Tower 2F and 3F at night.",
@@ -122,7 +122,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 31", "Route 36"],
+          "locations": ["Route 31", "Route 36"],
           "time": ["night"],
           "notes": {
             "en": "Extremely rare encounter on Routes 31 and 36 at night.",
