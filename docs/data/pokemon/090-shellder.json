@@ -24,7 +24,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Vermilion City", "Route 19"],
+          "locations": ["Vermilion City", "Route 19"],
           "notes": {
             "en": "Found by fishing with the Super Rod in Vermilion City or on Route 19.",
             "ja": "クチバシティ、19ばんどうろで「すごいつりざお」を使うとつれる。",
@@ -42,7 +42,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Vermilion City", "Route 19"],
+          "locations": ["Vermilion City", "Route 19"],
           "notes": {
             "en": "Found by fishing with the Super Rod in Vermilion City or on Route 19.",
             "ja": "クチバシティ、19ばんどうろで「すごいつりざお」を使うとつれる。",
@@ -60,7 +60,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Route 17", "Route 18"],
+          "locations": ["Route 17", "Route 18"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Routes 17 and 18.",
             "ja": "17ばんどうろ・18ばんどうろで「すごいつりざお」を使うとつれる。",
@@ -78,7 +78,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "location": ["New Bark Town", "Olivine City Harbor"],
+          "locations": ["New Bark Town", "Olivine City"],
           "notes": {
             "en": "Found by fishing with the Good Rod in New Bark Town and at the Olivine City harbor.",
             "ja": "ワカバタウン、アサギシティの みなとで「いいつりざお」を使うとつれる。",
@@ -96,7 +96,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "location": ["New Bark Town", "Olivine City Harbor"],
+          "locations": ["New Bark Town", "Olivine City"],
           "notes": {
             "en": "Found by fishing with the Good Rod in New Bark Town and at the Olivine City harbor.",
             "ja": "ワカバタウン、アサギシティの みなとで「いいつりざお」を使うとつれる。",
@@ -114,7 +114,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "location": ["New Bark Town", "Olivine City Harbor"],
+          "locations": ["New Bark Town", "Olivine City"],
           "notes": {
             "en": "Found by fishing with the Good Rod in New Bark Town and at the Olivine City harbor.",
             "ja": "ワカバタウン、アサギシティの みなとで「いいつりざお」を使うとつれる。",
