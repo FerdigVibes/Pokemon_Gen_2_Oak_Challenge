@@ -210,7 +210,7 @@ export const LOCATION_REGISTRY = {
     names: { en: "Seafoam Islands", ja: "ふたごじま", de: "Seeschauminseln", es: "Islas Espuma", fr: "Îles Écume" }
   },
   "kanto:Victory Road": {
-    map: "kanto", x: 48, y: 32,
+    map: "kanto", x: 6.75, y: 17.27,
     names: { en: "Victory Road", ja: "チャンピオンロード", de: "Siegesstraße", es: "Calle Victoria", fr: "Route Victoire" }
   },
   "kanto:Cerulean Cave": {
