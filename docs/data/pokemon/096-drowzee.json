@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 11"],
+          "locations": ["Route 11"],
           "notes": {
             "en": "Found on Route 11.",
             "ja": "11ばんどうろで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 11"],
+          "locations": ["Route 11"],
           "notes": {
             "en": "Found on Route 11.",
             "ja": "11ばんどうろで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 11"],
+          "locations": ["Route 11"],
           "notes": {
             "en": "Found on Route 11.",
             "ja": "11ばんどうろで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 34", "Route 35"],
+          "locations": ["Route 34", "Route 35"],
           "notes": {
             "en": "Found on Routes 34 and 35.",
             "ja": "34ばんどうろ・35ばんどうろで出現。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 34", "Route 35"],
+          "locations": ["Route 34", "Route 35"],
           "notes": {
             "en": "Found on Routes 34 and 35.",
             "ja": "34ばんどうろ・35ばんどうろで出現。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 34", "Route 35"],
+          "locations": ["Route 34", "Route 35"],
           "time": ["night"],
           "notes": {
             "en": "Found on Routes 34 and 35 at night.",
