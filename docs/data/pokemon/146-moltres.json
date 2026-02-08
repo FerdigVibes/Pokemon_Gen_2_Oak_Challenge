@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Victory Road 2F"],
+          "locations": ["Victory Road"],
           "notes": {
             "en": "Victory Road 2F – SAVE BEFORE INTERACTING!!",
             "ja": "チャンピオンロード 2F – ちかづくまえに セーブ！！",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Victory Road 2F"],
+          "locations": ["Victory Road"],
           "notes": {
             "en": "Victory Road 2F – SAVE BEFORE INTERACTING!!",
             "ja": "チャンピオンロード 2F – ちかづくまえに セーブ！！",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Victory Road 2F"],
+          "locations": ["Victory Road"],
           "notes": {
             "en": "Victory Road 2F – SAVE BEFORE INTERACTING!!",
             "ja": "チャンピオンロード 2F – ちかづくまえに セーブ！！",
