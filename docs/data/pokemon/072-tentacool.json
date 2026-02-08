@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["Coastal Routes"],
+          "locations": ["Coastal Routes"],
           "notes": {
             "en": "Found by fishing with the Super Rod on coastal routes.",
             "ja": "かいがんのどうろで「すごいつりざお」を使うとつれる。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["Coastal Routes"],
+          "locations": ["Coastal Routes"],
           "notes": {
             "en": "Found by fishing with the Super Rod on coastal routes.",
             "ja": "かいがんのどうろで「すごいつりざお」を使うとつれる。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["Coastal Routes"],
+          "locations": ["Coastal Routes"],
           "notes": {
             "en": "Found by fishing with the Super Rod on coastal routes.",
             "ja": "かいがんのどうろで「すごいつりざお」を使うとつれる。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["New Bark Town", "Route 32"],
+          "locations": ["New Bark Town", "Route 32"],
           "notes": {
             "en": "Found by fishing with the Old Rod in New Bark Town and on Route 32.",
             "ja": "ワカバタウン・32ばんどうろで「ボロのつりざお」を使うとつれる。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["New Bark Town", "Route 32"],
+          "locations": ["New Bark Town", "Route 32"],
           "notes": {
             "en": "Found by fishing with the Old Rod in New Bark Town and on Route 32.",
             "ja": "ワカバタウン・32ばんどうろで「ボロのつりざお」を使うとつれる。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "fish",
-          "location": ["New Bark Town", "Route 32"],
+          "locations": ["New Bark Town", "Route 32"],
           "notes": {
             "en": "Found by fishing with the Old Rod in New Bark Town and on Route 32.",
             "ja": "ワカバタウン・32ばんどうろで「ボロのつりざお」を使うとつれる。",
