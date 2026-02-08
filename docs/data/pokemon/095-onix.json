@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Rock Tunnel"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel.",
             "ja": "いわやまで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Rock Tunnel"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel.",
             "ja": "いわやまで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Rock Tunnel"],
+          "locations": ["Rock Tunnel"],
           "notes": {
             "en": "Found in Rock Tunnel.",
             "ja": "いわやまで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Violet City"],
+          "locations": ["Violet City"],
           "notes": {
             "en": "Trade for a Bellsprout in Violet City in the first house on the left near the Pokémon Center.",
             "ja": "キキョウシティの ポケモンセンターちかく ひだりの いえで マダツボミと交換。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Violet City"],
+          "locations": ["Violet City"],
           "notes": {
             "en": "Trade for a Bellsprout in Violet City in the first house on the left near the Pokémon Center.",
             "ja": "キキョウシティの ポケモンセンターちかく ひだりの いえで マダツボミと交換。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Violet City"],
+          "locations": ["Violet City"],
           "notes": {
             "en": "Trade for a Bellsprout in Violet City in the first house on the left near the Pokémon Center.",
             "ja": "キキョウシティの ポケモンセンターちかく ひだりの いえで マダツボミと交換。",
