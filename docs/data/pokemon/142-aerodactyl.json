@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "revive",
-          "location": ["Cinnabar Island Lab"],
+          "locations": ["Cinnabar Island Lab"],
           "notes": {
             "en": "Revive the Old Amber at the Cinnabar Island Lab.",
             "ja": "グレンタウンの けんきゅうじょで ひみつのコハクを ふっかつさせる。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "revive",
-          "location": ["Cinnabar Island Lab"],
+          "locations": ["Cinnabar Island Lab"],
           "notes": {
             "en": "Revive the Old Amber at the Cinnabar Island Lab.",
             "ja": "グレンタウンの けんきゅうじょで ひみつのコハクを ふっかつさせる。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "revive",
-          "location": ["Cinnabar Island Lab"],
+          "locations": ["Cinnabar Island Lab"],
           "notes": {
             "en": "Revive the Old Amber at the Cinnabar Island Lab.",
             "ja": "グレンタウンの けんきゅうじょで ひみつのコハクを ふっかつさせる。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Route 14"],
+          "locations": ["Route 14"],
           "notes": {
             "en": "Trade for a Chansey with an NPC located east of Vermilion City on Route 14, past a tree that requires CUT.",
             "ja": "クチバシティ ひがしの 14ばんどうろで、いあいぎりが ひつような きの さきにいる NPCに ラッキーを わたして こうかん。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Route 14"],
+          "locations": ["Route 14"],
           "notes": {
             "en": "Trade for a Chansey with an NPC located east of Vermilion City on Route 14, past a tree that requires CUT.",
             "ja": "クチバシティ ひがしの 14ばんどうろで、いあいぎりが ひつような きの さきにいる NPCに ラッキーを わたして こうかん。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Route 14"],
+          "locations": ["Route 14"],
           "notes": {
             "en": "Trade for a Chansey with an NPC located east of Vermilion City on Route 14, past a tree that requires CUT.",
             "ja": "クチバシティ ひがしの 14ばんどうろで、いあいぎりが ひつような きの さきにいる NPCに ラッキーを わたして こうかん。",
