@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 10"],
+          "locations": ["Route 10"],
           "notes": {
             "en": "Found on Route 10.",
             "ja": "10ばんどうろで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Route 10"],
+          "locations": ["Route 10"],
           "notes": {
             "en": "Found on Route 10.",
             "ja": "10ばんどうろで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Power Plant (Route 10)"],
+          "locations": ["Power Plant"],
           "notes": {
             "en": "Found in the Power Plant on Route 10.",
             "ja": "10ばんどうろのはつでんしょで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Olivine City"],
+          "locations": ["Olivine City"],
           "notes": {
             "en": "Trade a Krabby with Tim in Olivine City on the northeast side of town.",
             "ja": "アサギシティの ひがしがわで タイムに クラブを わたすと こうかんしてもらえる。",
@@ -91,7 +91,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Olivine City"],
+          "locations": ["Olivine City"],
           "notes": {
             "en": "Trade a Krabby with Tim in Olivine City on the northeast side of town.",
             "ja": "アサギシティの ひがしがわで タイムに クラブを わたすと こうかんしてもらえる。",
@@ -108,7 +108,7 @@
       "obtain": [
         {
           "method": "trade",
-          "location": ["Olivine City"],
+          "locations": ["Olivine City"],
           "notes": {
             "en": "Trade a Krabby with Tim in Olivine City on the northeast side of town.",
             "ja": "アサギシティの ひがしがわで タイムに クラブを わたすと こうかんしてもらえる。",
