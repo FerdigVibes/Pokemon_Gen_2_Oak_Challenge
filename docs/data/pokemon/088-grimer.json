@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Mansion"],
+          "locations": ["Pokémon Mansion"],
           "notes": {
             "en": "Found in the Pokémon Mansion on Cinnabar Island.",
             "ja": "グレンじまのポケモンやしきで出現。",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Mansion"],
+          "locations": ["Pokémon Mansion"],
           "notes": {
             "en": "Found in the Pokémon Mansion on Cinnabar Island.",
             "ja": "グレンじまのポケモンやしきで出現。",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Pokémon Mansion", "Power Plant (Route 10)"],
+          "locations": ["Pokémon Mansion", "Power Plant"],
           "notes": {
             "en": "Found in the Pokémon Mansion on Cinnabar Island and in the Power Plant on Route 10.",
             "ja": "グレンじまのポケモンやしき、10ばんどうろのはつでんしょで出現。",
@@ -74,7 +74,7 @@
       "obtain": [
         {
           "method": "surf",
-          "location": ["Celadon City"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Found by surfing in Celadon City.",
             "ja": "タマムシシティで「なみのり」をすると出現。",
@@ -85,7 +85,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 16", "Route 17", "Route 18"],
+          "locations": ["Route 16", "Route 17", "Route 18"],
           "notes": {
             "en": "Found in tall grass on Routes 16, 17, and 18.",
             "ja": "16・17・18ばんどうろの くさむらで出現。",
@@ -102,7 +102,7 @@
       "obtain": [
         {
           "method": "surf",
-          "location": ["Celadon City"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Found by surfing in Celadon City.",
             "ja": "タマムシシティで「なみのり」をすると出現。",
@@ -113,7 +113,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 16", "Route 17", "Route 18"],
+          "locations": ["Route 16", "Route 17", "Route 18"],
           "notes": {
             "en": "Found in tall grass on Routes 16, 17, and 18.",
             "ja": "16・17・18ばんどうろの くさむらで出現。",
@@ -130,7 +130,7 @@
       "obtain": [
         {
           "method": "surf",
-          "location": ["Celadon City"],
+          "locations": ["Celadon City"],
           "notes": {
             "en": "Found by surfing in Celadon City.",
             "ja": "タマムシシティで「なみのり」をすると出現。",
@@ -141,7 +141,7 @@
         },
         {
           "method": "wild",
-          "location": ["Route 16", "Route 17", "Route 18"],
+          "locations": ["Route 16", "Route 17", "Route 18"],
           "notes": {
             "en": "Found in tall grass on Routes 16, 17, and 18.",
             "ja": "16・17・18ばんどうろの くさむらで出現。",
