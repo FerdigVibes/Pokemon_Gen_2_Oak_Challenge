@@ -77,7 +77,7 @@
       "obtain": [
         {
           "method": "surf",
-          "locations": ["Whirl Islands 1F"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found while surfing in Whirl Islands (1F).",
             "ja": "うずまきじまで なみのりを つかうと しゅつげん。",
@@ -106,7 +106,7 @@
       "obtain": [
         {
           "method": "surf",
-          "locations": ["Whirl Islands 1F"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found while surfing in Whirl Islands (1F).",
             "ja": "うずまきじまで なみのりを つかうと しゅつげん。",
@@ -135,7 +135,7 @@
       "obtain": [
         {
           "method": "surf",
-          "locations": ["Whirl Islands 1F"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found while surfing in Whirl Islands (1F).",
             "ja": "うずまきじまで なみのりを つかうと しゅつげん。",
