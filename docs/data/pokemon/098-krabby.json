@@ -24,7 +24,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": [
+          "locations": [
             "Route 6",
             "Route 12",
             "Route 13",
@@ -54,7 +54,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": [
+          "locations": [
             "Route 6",
             "Route 12",
             "Route 13",
@@ -84,7 +84,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Route 10", "Route 25"],
+          "locations": ["Route 10", "Route 25"],
           "notes": {
             "en": "Found by fishing with the Super Rod on Routes 10 and 25.",
             "ja": "10ばんどうろ・25ばんどうろで すごいつりざおを つかうと つれる。",
@@ -102,7 +102,7 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "location": ["Cherrygrove City"],
+          "locations": ["Cherrygrove City"],
           "notes": {
             "en": "Found by fishing with the Old Rod in Cherrygrove City.",
             "ja": "ヨシノシティで いいつりざおより まえの つりざおを つかうと つれる。",
@@ -120,7 +120,7 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "location": ["Cherrygrove City"],
+          "locations": ["Cherrygrove City"],
           "notes": {
             "en": "Found by fishing with the Old Rod in Cherrygrove City.",
             "ja": "ヨシノシティで いいつりざおより まえの つりざおを つかうと つれる。",
@@ -138,7 +138,7 @@
         {
           "method": "fish",
           "rod": "Old Rod",
-          "location": ["Cherrygrove City"],
+          "locations": ["Cherrygrove City"],
           "notes": {
             "en": "Found by fishing with the Old Rod in Cherrygrove City.",
             "ja": "ヨシノシティで いいつりざおより まえの つりざおを つかうと つれる。",
