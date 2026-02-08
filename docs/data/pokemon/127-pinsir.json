@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Safari Zone Area 1", "Safari Zone Area 2"],
+          "locations": ["Safari Zone"],
           "notes": {
             "en": "Found in Safari Zone Areas 1 and 2.",
             "ja": "サファリゾーン エリア1・2に しゅつげん。",
@@ -34,7 +34,7 @@
         },
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "cost": "5,500 Coins",
           "notes": {
             "en": "Purchased from the Celadon Game Corner for 5,500 Coins.",
@@ -52,7 +52,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Safari Zone Area 3", "Safari Zone Area 4"],
+          "locations": ["Safari Zone"],
           "notes": {
             "en": "Found in Safari Zone Areas 3 and 4.",
             "ja": "サファリゾーン エリア3・4に しゅつげん。",
@@ -63,7 +63,7 @@
         },
         {
           "method": "purchase",
-          "locations": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "cost": "6,500 Coins",
           "notes": {
             "en": "Purchased from the Celadon Game Corner for 6,500 Coins.",
