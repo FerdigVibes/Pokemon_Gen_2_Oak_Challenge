@@ -27,7 +27,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Silph Co. (7F)"],
+          "locations": ["Saffron City"],
           "notes": {
             "en": "Silph Co employee in Saffron City, in the room where you defeat your rival.",
             "ja": "ヤマブキシティのシルフカンパニーで、ライバルと戦う部屋にいる社員からもらえる。",
@@ -48,7 +48,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Silph Co. (7F)"],
+          "locations": ["Saffron City"],
           "notes": {
             "en": "Silph Co employee in Saffron City, in the room where you defeat your rival.",
             "ja": "ヤマブキシティのシルフカンパニーで、ライバルと戦う部屋にいる社員からもらえる。",
@@ -69,7 +69,7 @@
       "obtain": [
         {
           "method": "gift",
-          "locations": ["Silph Co. (7F)"],
+          "locations": ["Saffron City"],
           "notes": {
             "en": "Silph Co employee in Saffron City, in the room where you defeat your rival.",
             "ja": "ヤマブキシティのシルフカンパニーで、ライバルと戦う部屋にいる社員からもらえる。",
@@ -90,7 +90,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Union Cave (Lower Floor)"],
+          "locations": ["Union Cave"],
           "days": ["fri"],
           "notes": {
             "en": "Appears only on Fridays in the deepest area of Union Cave.",
@@ -112,7 +112,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Union Cave (Lower Floor)"],
+          "locations": ["Union Cave"],
           "days": ["fri"],
           "notes": {
             "en": "Appears only on Fridays in the deepest area of Union Cave.",
@@ -134,7 +134,7 @@
       "obtain": [
         {
           "method": "wild",
-          "locations": ["Union Cave (Lower Floor)"],
+          "locations": ["Union Cave"],
           "days": ["fri"],
           "notes": {
             "en": "Appears only on Fridays in the deepest area of Union Cave.",
