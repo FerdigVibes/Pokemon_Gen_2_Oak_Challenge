@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Seafoam Islands"],
+          "locations": ["Seafoam Islands"],
           "notes": {
             "en": "Found in the Seafoam Islands.",
             "ja": "ふたごじまで出現。",
@@ -34,7 +34,7 @@
         },
         {
           "method": "trade",
-          "location": ["Cinnabar Island Lab"],
+          "locations": ["Pokémon Mansion"],
           "notes": {
             "en": "Trade a Ponyta at the Cinnabar Island Lab.",
             "ja": "グレンじまのけんきゅうじょで ポニータと交換。",
@@ -51,7 +51,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Seafoam Islands"],
+          "locations": ["Seafoam Islands"],
           "notes": {
             "en": "Found in the Seafoam Islands.",
             "ja": "ふたごじまで出現。",
@@ -62,7 +62,7 @@
         },
         {
           "method": "trade",
-          "location": ["Cinnabar Island Lab"],
+          "locations": ["Cinnabar Island Lab"],
           "notes": {
             "en": "Trade a Ponyta at the Cinnabar Island Lab.",
             "ja": "グレンじまのけんきゅうじょで ポニータと交換。",
@@ -79,7 +79,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Seafoam Islands"],
+          "locations": ["Seafoam Islands"],
           "notes": {
             "en": "Found in the Seafoam Islands.",
             "ja": "ふたごじまで出現。",
@@ -96,7 +96,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Whirl Islands"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found in the Whirl Islands.",
             "ja": "うずまきじまで出現。",
@@ -113,7 +113,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Whirl Islands"],
+          "locations": ["Whirl Islands"],
           "notes": {
             "en": "Found in the Whirl Islands.",
             "ja": "うずまきじまで出現。",
@@ -130,7 +130,7 @@
       "obtain": [
         {
           "method": "wild",
-          "location": ["Whirl Islands"],
+          "locations": ["Whirl Islands"],
           "time": ["morning", "day"],
           "notes": {
             "en": "Found in the Whirl Islands during the morning and daytime. Rare encounter.",
