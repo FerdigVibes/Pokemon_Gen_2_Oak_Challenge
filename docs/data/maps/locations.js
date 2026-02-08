@@ -765,8 +765,8 @@ export const LOCATION_REGISTRY = {
   
   "kanto:Cinnabar Island Lab": {
     map: "kanto",
-    x: 52,
-    y: 74,
+    x: 9.60,
+    y: 94.67,
     names: {
       en: "Cinnabar Island Lab",
       ja: "グレンタウン研究所",
