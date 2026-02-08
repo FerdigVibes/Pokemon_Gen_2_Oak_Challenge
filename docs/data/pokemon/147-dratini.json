@@ -24,7 +24,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Safari Zone"],
+          "locations": ["Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod in the Safari Zone.",
             "ja": "サファリゾーンで すごいつりざおを つかうと つれる。",
@@ -35,7 +35,7 @@
         },
         {
           "method": "purchase",
-          "location": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "cost": "2800 Coins",
           "notes": {
             "en": "Available for 2,800 Coins at the Celadon Game Corner.",
@@ -54,7 +54,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Safari Zone"],
+          "locations": ["Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod in the Safari Zone.",
             "ja": "サファリゾーンで すごいつりざおを つかうと つれる。",
@@ -65,7 +65,7 @@
         },
         {
           "method": "purchase",
-          "location": ["Celadon Game Corner"],
+          "locations": ["Celadon City"],
           "cost": "2800 Coins",
           "notes": {
             "en": "Available for 2,800 Coins at the Celadon Game Corner.",
@@ -84,7 +84,7 @@
         {
           "method": "fish",
           "rod": "Super Rod",
-          "location": ["Safari Zone"],
+          "locations": ["Safari Zone"],
           "notes": {
             "en": "Found by fishing with the Super Rod in the Safari Zone.",
             "ja": "サファリゾーンで すごいつりざおを つかうと つれる。",
@@ -101,7 +101,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "location": ["Goldenrod Game Corner"],
+          "locations": ["Goldenrod City"],
           "cost": "2100 Coins",
           "notes": {
             "en": "Available for 2,100 Coins at the Goldenrod Game Corner.",
@@ -119,7 +119,7 @@
       "obtain": [
         {
           "method": "purchase",
-          "location": ["Goldenrod Game Corner"],
+          "locations": ["Goldenrod City"],
           "cost": "2100 Coins",
           "notes": {
             "en": "Available for 2,100 Coins at the Goldenrod Game Corner.",
@@ -138,7 +138,7 @@
         {
           "method": "fish",
           "rod": "Good Rod",
-          "location": ["Route 45"],
+          "locations": ["Route 45"],
           "notes": {
             "en": "Found by fishing with the Good Rod on Route 45.",
             "ja": "45ばんどうろで いいつりざおを つかうと つれる。",
