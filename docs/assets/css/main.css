@@ -1214,17 +1214,21 @@
 /* Main dropdown */
 .game-menu {
   position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+
   background: #222;
   color: #fff;
   border: 1px solid #444;
   border-radius: 6px;
-  top: calc(100% + 6px);
-  left: 0;
-  z-index: 1000;
-  display: none;
-  flex-direction: column;
+
   min-width: 220px;
   padding: 6px 0;
+
+  display: none;
+  flex-direction: column;
+
+  z-index: 1000;
 }
 
 .game-menu.open {
