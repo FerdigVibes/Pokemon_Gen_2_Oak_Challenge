@@ -1624,3 +1624,23 @@
     max-width: 360px;
   }
 }
+
+@media (max-width: 900px), (pointer: coarse) {
+  #app {
+    flex-direction: column;
+  }
+
+  #detail-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    border-radius: 16px 16px 0 0;
+    transform: translateY(100%);
+  }
+
+  #app.has-detail #detail-panel {
+    transform: translateY(0);
+  }
+}
