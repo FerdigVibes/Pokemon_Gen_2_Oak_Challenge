@@ -151,3 +151,28 @@
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 768px) {
+  #top-bar,
+  .topbar-row,
+  .topbar-controls {
+    overflow: visible !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-selector-menu {
+    position: fixed !important;   /* 🔑 */
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;                 /* bottom sheet style */
+    
+    max-height: 70vh;
+    overflow-y: auto;
+
+    z-index: 9999;                /* above top bar */
+    width: calc(100vw - 24px);
+    border-radius: 14px;
+  }
+}
