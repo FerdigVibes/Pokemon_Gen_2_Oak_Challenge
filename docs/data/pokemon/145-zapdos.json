@@ -23,7 +23,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Power Plant"],
+          "locations": ["Power Plant"],
           "notes": {
             "en": "Power Plant on Route 10, requires SURF – SAVE BEFORE INTERACTING!!",
             "ja": "10ばんどうろのはつでんしょ（なみのりがひつよう）– ちかづくまえに セーブ！！",
@@ -40,7 +40,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Power Plant"],
+          "locations: ["Power Plant"],
           "notes": {
             "en": "Power Plant on Route 10, requires SURF – SAVE BEFORE INTERACTING!!",
             "ja": "10ばんどうろのはつでんしょ（なみのりがひつよう）– ちかづくまえに セーブ！！",
@@ -57,7 +57,7 @@
       "obtain": [
         {
           "method": "static",
-          "location": ["Power Plant"],
+          "locations": ["Power Plant"],
           "notes": {
             "en": "Power Plant on Route 10, requires SURF – SAVE BEFORE INTERACTING!!",
             "ja": "10ばんどうろのはつでんしょ（なみのりがひつよう）– ちかづくまえに セーブ！！",
