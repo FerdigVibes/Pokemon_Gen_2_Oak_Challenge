@@ -24,12 +24,6 @@
   pointer-events: auto;
 }
 
-.has-detail #detail-panel {
-  transform: translateX(0%);
-  opacity: 1;
-  pointer-events: auto;
-}
-
 .intro-panel {
   color: #f2f2f2;
   text-shadow: 0 1px 2px rgba(0,0,0,0.5);
@@ -141,16 +135,6 @@
   pointer-events: none;
   z-index: 0;
 }
-
-/* Ensure content stays above background */
-.section-block,
-.section-header,
-.section-rows,
-.pokemon-row {
-  position: relative;
-  z-index: 1;
-}
-
 
 #app.has-detail #section-list {
   transform: translateX(-12px);   /* subtle mechanical slide */
@@ -947,13 +931,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  # {
-    padding: 16px;
-    max-width: 100%;
-    border-width: 2px;
-  }
-
   .type-badge {
     margin-bottom: 4px;
     font-size: 11px;
@@ -1682,10 +1659,6 @@
     max-width: none;
     border-radius: 16px 16px 0 0;
     transform: translateY(100%);
-  }
-
-  #app.has-detail #detail-panel {
-    transform: translateY(0);
   }
 }
 
