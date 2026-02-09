@@ -1780,5 +1780,36 @@
     font-size: 0.9rem;
     padding: 8px 10px;
   }
+
+  /* Prevent top bar from stretching viewport */
+  #top-bar {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Progress row layout */
+  .topbar-progress {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* 🔧 Shrink progress bar width */
+  .progress {
+    flex-grow: 0;
+    width: 100%;
+    max-width: 220px;   /* ⬅️ KEY VALUE */
+  }
+
+  /* Bar itself */
+  .progress-bar {
+    height: 12px;
+    border-radius: 6px;
+  }
+
+  /* Progress text */
+  .progress-label,
+  #progress-text {
+    font-size: 0.85rem;
+  }
 }
 
