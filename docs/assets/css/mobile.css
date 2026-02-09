@@ -165,22 +165,59 @@
   }
 }
 
+/* =========================================================
+   GAME SELECTOR – MOBILE DROPDOWN (ANCHOR TO BUTTON)
+   ========================================================= */
+
 @media (max-width: 768px) {
-  .game-selector-menu {
-    position: fixed !important;   /* 🔑 */
-    top: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10px;                 /* bottom sheet style */
-    
-    max-height: 70vh;
+
+  /* Anchor container (same idea as reset-dropdown) */
+  #game-selector-btn {
+    position: relative;
+  }
+
+  .game-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+
+    width: 100%;
+    max-height: 60vh;
     overflow-y: auto;
 
-    z-index: 9999;                /* above top bar */
-    width: calc(100vw - 24px);
-    border-radius: 14px;
+    background: linear-gradient(180deg, #c62828, #a81f1f);
+    border-radius: 12px;
+    padding: 8px;
+
+    z-index: 1000;
+  }
+
+  /* Generation headers */
+  .game-menu-gen {
+    padding: 10px 12px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+  }
+
+  /* Submenu */
+  .game-menu-sub {
+    display: none;
+    margin-top: 6px;
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .game-menu-gen.open .game-menu-sub {
+    display: block;
+  }
+
+  .game-menu-item {
+    padding: 10px 12px;
+    font-weight: 700;
   }
 }
+
 
 @media (max-width: 768px) {
   .game-submenu {
