@@ -1,1 +1,328 @@
+@media (max-width: 480px) {
+  .search-input {
+    flex-basis: 120px;
+  }
+}
 
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .pokemon-row.is-available.is-time-gated {
+    animation: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .topbar-progress {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-bar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+}
+
+  .type-badge {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+}
+
+/*MOBILE*/
+
+@media (max-width: 768px) {
+
+  #app {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  /* Section 2 */
+  #section-list {
+    flex: 1;
+    min-height: 0;
+  }
+
+  /* Section 3 (detail panel) */
+  #detail-panel {
+    width: 100%;
+    max-width: none;
+    border-radius: 16px 16px 0 0;
+    margin: 0;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    transform: translateY(100%);
+  }
+
+  /* When active */
+  #app.has-detail #detail-panel {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  #detail-panel {
+    padding: 16px;
+  }
+
+  .detail-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .detail-dex {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .detail-sprite-window {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 8px;
+  }
+
+  .detail-sprite-img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  #top-bar .topbar-row {
+    padding: 8px 10px !important;
+  }
+
+  .topbar-title-row {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-header {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    gap: 6px;
+  }
+
+  .section-counter {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pokemon-row {
+    padding: 6px 8px;
+  }
+
+  .pokemon-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  #game-time-btn {
+    padding: 6px 10px;
+    font-size: 0.75rem;
+  }
+
+  #game-time-modal {
+    width: 90vw;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 900px), (pointer: coarse) {
+  #app {
+    flex-direction: column;
+  }
+
+  #detail-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    border-radius: 16px 16px 0 0;
+    transform: translateY(100%);
+  }
+}
+
+/* =========================================================
+   MOBILE TYPOGRAPHY & DENSITY BOOST
+   ========================================================= */
+/* =========================================================
+   MOBILE TYPOGRAPHY & DENSITY BOOST
+   ========================================================= */
+@media (max-width: 768px), (pointer: coarse) {
+
+  /* 🔹 Global base size */
+  html {
+    font-size: 17px; /* desktop ~14px → mobile readable */
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  /* ===============================
+     TOP BAR
+     =============================== */
+
+  #top-bar {
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .topbar-title-row {
+    font-size: 1.05rem;
+    letter-spacing: 0.06em;
+  }
+
+  .topbar-controls .control,
+  .topbar-controls input,
+  .topbar-controls select {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  #game-time-btn {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+
+  /* ===============================
+     SECTION HEADERS (SECTION 2)
+     =============================== */
+
+  .section-header {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  .section-counter {
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 0.95rem;
+  }
+
+  /* ===============================
+     POKÉMON ROWS
+     =============================== */
+
+  .pokemon-row {
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+
+  .pokemon-row > span:last-child {
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+  }
+
+  .pokemon-row .pokemon-notes,
+  .pokemon-row small {
+    font-size: 0.8rem;
+  }
+
+  .pokemon-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .caught-toggle {
+    width: 34px;
+    height: 34px;
+  }
+
+  /* ===============================
+     SECTION 3 – DETAIL PANEL
+     =============================== */
+
+  #detail-panel {
+    font-size: 0.95rem;
+    padding: 18px;
+  }
+
+  .detail-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .detail-dex {
+    font-size: 0.9rem;
+  }
+
+  .type-badge {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+
+  .obtain-section {
+    font-size: 0.9rem;
+  }
+
+  /* ===============================
+     GAME TIME MODAL
+     =============================== */
+
+  #game-time-modal {
+    font-size: 0.9rem;
+  }
+
+  #game-time-modal h2 {
+    font-size: 1rem;
+  }
+
+  #game-time-modal label {
+    font-size: 0.8rem;
+  }
+
+  #game-time-modal select,
+  #game-time-modal button {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  /* Prevent top bar from stretching viewport */
+  #top-bar {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Progress row layout */
+  .topbar-progress {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* 🔧 Shrink progress bar width */
+  .progress {
+    flex-grow: 0;
+    width: 100%;
+    max-width: 220px;   /* ⬅️ KEY VALUE */
+  }
+
+  /* Bar itself */
+  .progress-bar {
+    height: 12px;
+    border-radius: 6px;
+  }
+
+  /* Progress text */
+  .progress-label,
+  #progress-text {
+    font-size: 0.85rem;
+  }
+}
