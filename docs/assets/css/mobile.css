@@ -30,13 +30,21 @@
   }
 
   .topbar-controls {
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;              /* ✅ allow wrapping */
+    align-items: center;
+    gap: 8px 10px;                /* vertical + horizontal spacing */
+
     width: 100%;
+    overflow: visible;            /* ⛔ no horizontal scrolling */
   }
 
-  .topbar-controls::-webkit-scrollbar {
-    display: none;
+  .topbar-controls .control,
+  #reset-section-btn,
+  #game-time-btn,
+  #language-selector {
+    flex: 0 0 auto;
+    white-space: nowrap;
   }
 
   .search-input {
@@ -140,7 +148,9 @@
   }
 
   .search-input {
-    width: 100px;
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-top: 6px;
   }
 
   .section-header {
