@@ -300,7 +300,7 @@ function buildGameSelector() {
   if (IS_MOBILE) {
     document.body.appendChild(container);
   } else {
-    btn.parentElement.appendChild(container);
+    btn.closest('.game-selector')?.appendChild(container);
   }
 
   // Toggle main dropdown
