@@ -1281,7 +1281,7 @@
   display: inline-block;
 }
 
-.game-menu.open ~ #game-selector-btn::after {
+.game-selector.open #game-selector-btn::after {
   transform: rotate(180deg);
 }
 
