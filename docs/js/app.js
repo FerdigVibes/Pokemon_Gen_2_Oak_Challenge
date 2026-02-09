@@ -15,6 +15,7 @@ import { openGameTimeModal } from './ui/gameTimeModal.js';
 
 const STORAGE_KEY = 'oakChallenge.gameTime';
 const btn = document.getElementById('game-time-btn');
+const IS_MOBILE = window.matchMedia('(max-width: 768px)').matches;
 
 let __CURRENT_OBJECTIVE_SECTION_ID__ = null;
 
@@ -245,8 +246,7 @@ function buildGameSelector() {
   if (!btn) return;
 
   // Remove old menu if it exists
-  const existing = btn.parentElement.querySelector('.game-menu');
-  if (existing) existing.remove();
+  document.querySelectorAll('.game-menu').forEach(m => m.remove());
 
   const container = document.createElement('div');
   container.className = 'game-menu';
@@ -266,11 +266,14 @@ function buildGameSelector() {
 
       item.addEventListener('click', async (e) => {
         e.stopPropagation();
+
         await selectGame({
           ...game,
           label: t(game.labelKey)
         });
+
         container.classList.remove('open');
+        submenu.classList.remove('open');
       });
 
       submenu.appendChild(item);
@@ -278,34 +281,53 @@ function buildGameSelector() {
 
     genItem.appendChild(submenu);
 
-    // 🔁 Toggle submenu on click
+    // ✅ MOBILE-SAFE submenu toggle
     genItem.addEventListener('click', (e) => {
       e.stopPropagation();
-      // Close other open submenus
+
       container.querySelectorAll('.game-menu-gen.open')
         .forEach(el => {
           if (el !== genItem) el.classList.remove('open');
         });
+
       genItem.classList.toggle('open');
     });
 
     container.appendChild(genItem);
   });
 
-  btn.parentElement.appendChild(container);
+  // ✅ MOBILE: move menu OUT of top bar
+  if (IS_MOBILE) {
+    document.body.appendChild(container);
+  } else {
+    btn.parentElement.appendChild(container);
+  }
 
   // Toggle main dropdown
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
+
+    if (IS_MOBILE) {
+      const rect = btn.getBoundingClientRect();
+      container.style.position = 'fixed';
+      container.style.left = '50%';
+      container.style.bottom = '12px';
+      container.style.top = 'auto';
+      container.style.transform = 'translateX(-50%)';
+      container.style.zIndex = '9999';
+    }
+
     container.classList.toggle('open');
   });
 
   // Close menu on outside click
   document.addEventListener('click', () => {
     container.classList.remove('open');
-    container.querySelectorAll('.game-menu-gen').forEach(g => g.classList.remove('open'));
+    container.querySelectorAll('.game-menu-gen')
+      .forEach(g => g.classList.remove('open'));
   });
 }
+
 
 
 function wireMuteToggle() {
