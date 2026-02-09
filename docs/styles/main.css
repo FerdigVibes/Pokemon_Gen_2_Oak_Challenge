@@ -1797,7 +1797,7 @@
   .progress {
     flex-grow: 0;
     width: 100%;
-    max-width: 220px;   /* ⬅️ KEY VALUE */
+    max-width: 180px;   /* ⬅️ KEY VALUE */
   }
 
   /* Bar itself */
