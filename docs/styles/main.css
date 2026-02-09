@@ -1711,6 +1711,9 @@
 
   #top-bar {
     font-size: 0.95rem;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 
   .topbar-title-row {
