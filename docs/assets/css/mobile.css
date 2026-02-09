@@ -176,3 +176,16 @@
     border-radius: 14px;
   }
 }
+
+@media (max-width: 768px) {
+  .game-submenu {
+    position: static;
+    margin-top: 6px;
+    border-radius: 10px;
+    background: #111;
+  }
+
+  .game-submenu.open {
+    display: block;
+  }
+}
