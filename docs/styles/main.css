@@ -941,48 +941,56 @@
    SECTION 3 – POKÉDEX DISPLAY
    =============================== */
 
-#detail-panel {
-  font-family: "Trebuchet MS", sans-serif;
+/* =========================================================
+   SECTION 3 – DETAIL PANEL (POKÉDEX STYLE)
+   ========================================================= */
 
-  /* Layout */
+#detail-panel {
+  font-family: "Trebuchet MS", system-ui, sans-serif;
+
   width: 320px;
-  max-width: 320px;
+  max-width: 90vw;
   flex-shrink: 0;
 
-  /* Pokédex screen look */
   background:
     linear-gradient(
-      rgba(255,255,255,0.92),
-      rgba(235,245,245,0.92)
+      180deg,
+      #fefefe,
+      #f1f1f1
     );
-  border: 4px solid #d32f2f;
-  border-radius: 16px;
-  padding: 20px;
+
+  border: 4px solid #c62828;
+  border-radius: 18px;
+
+  padding: 16px 16px 18px;
 
   box-shadow:
-    inset 0 2px 0 rgba(255,255,255,0.8),
-    0 8px 24px rgba(0,0,0,0.25);
-
-  /* Slide behavior (keep!) */
-  transform: translateX(100%);
-  opacity: 0;
-  pointer-events: none;
-
-  transition:
-    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.25s ease;
-
-  will-change: transform, opacity;
+    inset 0 0 0 2px rgba(255,255,255,0.6),
+    inset 0 -6px 0 rgba(0,0,0,0.12),
+    0 10px 24px rgba(0,0,0,0.35);
 
   position: relative;
-  z-index: 2;
+  z-index: 20;
 }
 
 .detail-header h2 {
-  font-size: 26px;
-  margin-bottom: 4px;
-  color: #d32f2f;
+  margin: 0;
+
+  font-size: 1.05rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+
+  color: #b71c1c;
+  text-transform: uppercase;
+
+  text-shadow:
+    1px 1px 0 rgba(255,255,255,0.7),
+    0 1px 2px rgba(0,0,0,0.25);
 }
+
+/* ===============================
+   HEADER (NAME + DEX)
+   =============================== */
 
 .detail-header {
   text-align: center;
@@ -998,44 +1006,45 @@
   margin: 0;
 }
 
+/* ===============================
+   SPRITE WINDOW
+   =============================== */
+
 .detail-sprite-window {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 12px;
+  width: 180px;
+  height: 180px;
+
+  margin: 10px auto 14px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  position: relative;
-  overflow: hidden;
-
-  /* Poké Ball + screen background */
   background:
     radial-gradient(
       circle at center,
-      rgba(255,255,255,0.95) 55%,
-      rgba(220,220,220,0.9) 100%
-    ),
-    url("../assets/ui/pokeball-bg.svg");
+      #ffffff 55%,
+      #e0e0e0 100%
+    );
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 80%;
-
-  border: 2px solid #999;
-  border-radius: 12px;
+  border: 3px solid #999;
+  border-radius: 16px;
 
   box-shadow:
-    inset 0 2px 6px rgba(0,0,0,0.15),
+    inset 0 2px 8px rgba(0,0,0,0.18),
     0 4px 10px rgba(0,0,0,0.25);
+
+  position: relative;
+  overflow: hidden;
 }
 
 .detail-dex {
   font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  color: #444;
-  margin-top: 4px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+
+  color: #555;
+  opacity: 0.85;
 }
 
 .type-list {
@@ -1099,20 +1108,71 @@
     inset 0 0 10px rgba(255,215,0,0.6);
 }
 
+/* Sprite itself */
+.detail-sprite-window img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+
+  image-rendering: pixelated;
+  z-index: 1;
+}
+
+/* ===============================
+   INFO BOX
+   =============================== */
+
+.detail-info {
+  background: #fafafa;
+
+  border: 2px solid #bbb;
+  border-radius: 12px;
+
+  padding: 10px 12px;
+
+  box-shadow:
+    inset 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.detail-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  padding: 4px 0;
+  border-bottom: 1px dashed rgba(0,0,0,0.15);
+}
+
+.detail-info-row:last-child {
+  border-bottom: none;
+}
+
+.detail-info-label {
+  color: #555;
+  letter-spacing: 0.04em;
+}
+
+.detail-info-value {
+  color: #222;
+  font-weight: 800;
+}
+
+/* Optional Poké Ball watermark */
 .detail-sprite-window::after {
   content: "";
   position: absolute;
   inset: 0;
 
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.25),
-      rgba(255,255,255,0.05)
-    );
+  background-image: url("./assets/ui/pokeball-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
 
+  opacity: 0.08;
   pointer-events: none;
-  border-radius: inherit;
 }
 
 .obtain-section {
