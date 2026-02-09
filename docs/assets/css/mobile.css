@@ -189,3 +189,29 @@
     display: block;
   }
 }
+
+@media (max-width: 768px) {
+  .game-menu {
+    width: calc(100vw - 24px);
+    max-height: 70vh;
+    overflow-y: auto;
+
+    background: linear-gradient(180deg, #c62828, #a81f1f);
+    border-radius: 14px;
+    padding: 8px;
+  }
+
+  .game-menu-sub {
+    display: none;
+    margin-top: 6px;
+  }
+
+  .game-menu-gen.open .game-menu-sub {
+    display: block;
+  }
+
+  .game-menu-item {
+    padding: 10px 12px;
+    font-weight: 700;
+  }
+}
