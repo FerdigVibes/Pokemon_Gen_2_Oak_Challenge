@@ -235,6 +235,15 @@ function applyTranslations() {
   if (objLabel) objLabel.textContent = t('currentObjective') + ':';
 }
 
+function resetGameMenuPosition(menu) {
+  menu.style.position = '';
+  menu.style.top = '';
+  menu.style.bottom = '';
+  menu.style.left = '';
+  menu.style.right = '';
+  menu.style.transform = '';
+  menu.style.width = '';
+}
 
 
 /* =========================================================
@@ -263,19 +272,26 @@ function buildGameSelector() {
       const item = document.createElement('div');
       item.className = 'game-menu-item';
       item.textContent = t(game.labelKey);
-
+    
       item.addEventListener('click', async (e) => {
         e.stopPropagation();
-
+    
         await selectGame({
           ...game,
           label: t(game.labelKey)
         });
-
+    
+        // ✅ CLOSE EVERYTHING
         container.classList.remove('open');
         submenu.classList.remove('open');
+        container
+          .querySelectorAll('.game-menu-gen.open')
+          .forEach(el => el.classList.remove('open'));
+    
+        // ✅ RESET POSITION so next open is correct
+        resetGameMenuPosition(container);
       });
-
+    
       submenu.appendChild(item);
     });
 
