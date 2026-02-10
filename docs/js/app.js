@@ -307,15 +307,15 @@ function buildGameSelector() {
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
 
-    if (IS_MOBILE) {
-      const rect = btn.getBoundingClientRect();
-      container.style.position = 'fixed';
-      container.style.left = '50%';
-      container.style.bottom = '12px';
-      container.style.top = 'auto';
-      container.style.transform = 'translateX(-50%)';
-      container.style.zIndex = '9999';
-    }
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+    
+      if (IS_MOBILE) {
+        positionGameMenuUnderButton(btn, container);
+      }
+    
+      container.classList.toggle('open');
+    });
 
     container.classList.toggle('open');
   });
@@ -344,6 +344,18 @@ function wireMuteToggle() {
     toggleMute();
     updateIcon();
   });
+}
+
+function positionGameMenuUnderButton(btn, menu) {
+  const rect = btn.getBoundingClientRect();
+
+  menu.style.position = 'fixed';
+  menu.style.top = `${rect.bottom + 6}px`;
+  menu.style.left = `${rect.left}px`;
+  menu.style.width = `${rect.width}px`;
+  menu.style.transform = 'none';
+  menu.style.bottom = 'auto';
+  menu.style.zIndex = '9999';
 }
 
 /* =========================================================
