@@ -108,12 +108,7 @@
 #section-list::before {
   content: "";
   position: fixed;
-
-  /* lock to viewport */
-  top: var(--section2-top, 120px); /* matches top-bar height */
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;                 /* 🔑 simpler + safer than top/left/right/bottom */
 
   background:
     radial-gradient(
@@ -126,7 +121,7 @@
     url("../assets/images/pokedex-landing-bg.png");
 
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 
   opacity: 0.28;
