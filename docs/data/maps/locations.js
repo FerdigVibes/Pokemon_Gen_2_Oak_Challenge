@@ -218,91 +218,6 @@ export const LOCATION_REGISTRY = {
     names: { en: "Cerulean Cave", ja: "ハナダのどうくつ", de: "Azuria-Höhle", es: "Cueva Celeste", fr: "Grotte Azurée" }
   },
 
-  /* ======================================================
-   JOHTO — ROUTES
-   ====================================================== */
-
-  "johto:Route 29": {
-    map: "johto", x: 30, y: 60,
-    names: { en: "Route 29", ja: "ルート29", de: "Route 29", es: "Ruta 29", fr: "Route 29" }
-  },
-  "johto:Route 30": {
-    map: "johto", x: 32, y: 56,
-    names: { en: "Route 30", ja: "ルート30", de: "Route 30", es: "Ruta 30", fr: "Route 30" }
-  },
-  "johto:Route 31": {
-    map: "johto", x: 34, y: 54,
-    names: { en: "Route 31", ja: "ルート31", de: "Route 31", es: "Ruta 31", fr: "Route 31" }
-  },
-  "johto:Route 32": {
-    map: "johto", x: 36, y: 58,
-    names: { en: "Route 32", ja: "ルート32", de: "Route 32", es: "Ruta 32", fr: "Route 32" }
-  },
-  "johto:Route 33": {
-    map: "johto", x: 38, y: 56,
-    names: { en: "Route 33", ja: "ルート33", de: "Route 33", es: "Ruta 33", fr: "Route 33" }
-  },
-  "johto:Route 34": {
-    map: "johto", x: 40, y: 52,
-    names: { en: "Route 34", ja: "ルート34", de: "Route 34", es: "Ruta 34", fr: "Route 34" }
-  },
-  "johto:Route 35": {
-    map: "johto", x: 40, y: 50,
-    names: { en: "Route 35", ja: "ルート35", de: "Route 35", es: "Ruta 35", fr: "Route 35" }
-  },
-  "johto:Route 36": {
-    map: "johto", x: 38, y: 48,
-    names: { en: "Route 36", ja: "ルート36", de: "Route 36", es: "Ruta 36", fr: "Route 36" }
-  },
-  "johto:Route 37": {
-    map: "johto", x: 36, y: 46,
-    names: { en: "Route 37", ja: "ルート37", de: "Route 37", es: "Ruta 37", fr: "Route 37" }
-  },
-  "johto:Route 38": {
-    map: "johto", x: 42, y: 50,
-    names: { en: "Route 38", ja: "ルート38", de: "Route 38", es: "Ruta 38", fr: "Route 38" }
-  },
-  "johto:Route 39": {
-    map: "johto", x: 44, y: 54,
-    names: { en: "Route 39", ja: "ルート39", de: "Route 39", es: "Ruta 39", fr: "Route 39" }
-  },
-  "johto:Route 40": {
-    map: "johto", x: 46, y: 56,
-    names: { en: "Route 40", ja: "ルート40", de: "Route 40", es: "Ruta 40", fr: "Route 40" }
-  },
-  "johto:Route 41": {
-    map: "johto", x: 48, y: 58,
-    names: { en: "Route 41", ja: "ルート41", de: "Route 41", es: "Ruta 41", fr: "Route 41" }
-  },
-  "johto:Route 42": {
-    map: "johto", x: 44, y: 46,
-    names: { en: "Route 42", ja: "ルート42", de: "Route 42", es: "Ruta 42", fr: "Route 42" }
-  },
-  "johto:Route 43": {
-    map: "johto", x: 46, y: 44,
-    names: { en: "Route 43", ja: "ルート43", de: "Route 43", es: "Ruta 43", fr: "Route 43" }
-  },
-  "johto:Route 44": {
-    map: "johto", x: 48, y: 46,
-    names: { en: "Route 44", ja: "ルート44", de: "Route 44", es: "Ruta 44", fr: "Route 44" }
-  },
-  "johto:Route 45": {
-    map: "johto", x: 50, y: 48,
-    names: { en: "Route 45", ja: "ルート45", de: "Route 45", es: "Ruta 45", fr: "Route 45" }
-  },
-  "johto:Route 46": {
-    map: "johto", x: 34, y: 50,
-    names: { en: "Route 46", ja: "ルート46", de: "Route 46", es: "Ruta 46", fr: "Route 46" }
-  },
-  "johto:Route 47": {
-    map: "johto", x: 52, y: 60,
-    names: { en: "Route 47", ja: "ルート47", de: "Route 47", es: "Ruta 47", fr: "Route 47" }
-  },
-  "johto:Route 48": {
-    map: "johto", x: 54, y: 58,
-    names: { en: "Route 48", ja: "ルート48", de: "Route 48", es: "Ruta 48", fr: "Route 48" }
-  },
-
   // --- Cities & Landmarks ---
   "johto:New Bark Town": {
     map: "johto", x: 28, y: 62,
@@ -412,119 +327,53 @@ export const LOCATION_REGISTRY = {
    JOHTO → KANTO (POSTGAME)
    ====================================================== */
 
-  // --- Routes ---
-  "johto:Route 1": {
-    map: "kanto", x: 48, y: 62,
-    names: { en: "Route 1", ja: "ルート1", de: "Route 1", es: "Ruta 1", fr: "Route 1" }
-  },
-  "johto:Route 2": {
-    map: "kanto", x: 46, y: 54,
-    names: { en: "Route 2", ja: "ルート2", de: "Route 2", es: "Ruta 2", fr: "Route 2" }
-  },
-  "johto:Route 3": {
-    map: "kanto", x: 58, y: 48,
-    names: { en: "Route 3", ja: "ルート3", de: "Route 3", es: "Ruta 3", fr: "Route 3" }
-  },
-  "johto:Route 4": {
-    map: "kanto", x: 62, y: 46,
-    names: { en: "Route 4", ja: "ルート4", de: "Route 4", es: "Ruta 4", fr: "Route 4" }
-  },
-  "johto:Route 5": {
-    map: "kanto", x: 52, y: 40,
-    names: { en: "Route 5", ja: "ルート5", de: "Route 5", es: "Ruta 5", fr: "Route 5" }
-  },
-  "johto:Route 6": {
-    map: "kanto", x: 52, y: 46,
-    names: { en: "Route 6", ja: "ルート6", de: "Route 6", es: "Ruta 6", fr: "Route 6" }
-  },
-  "johto:Route 7": {
-    map: "kanto", x: 46, y: 40,
-    names: { en: "Route 7", ja: "ルート7", de: "Route 7", es: "Ruta 7", fr: "Route 7" }
-  },
-  "johto:Route 8": {
-    map: "kanto", x: 58, y: 40,
-    names: { en: "Route 8", ja: "ルート8", de: "Route 8", es: "Ruta 8", fr: "Route 8" }
-  },
-  "johto:Route 9": {
-    map: "kanto", x: 64, y: 40,
-    names: { en: "Route 9", ja: "ルート9", de: "Route 9", es: "Ruta 9", fr: "Route 9" }
-  },
-  "johto:Route 10": {
-    map: "kanto", x: 66, y: 44,
-    names: { en: "Route 10", ja: "ルート10", de: "Route 10", es: "Ruta 10", fr: "Route 10" }
-  },
-  "johto:Route 11": {
-    map: "kanto", x: 64, y: 46,
-    names: { en: "Route 11", ja: "ルート11", de: "Route 11", es: "Ruta 11", fr: "Route 11" }
-  },
-  "johto:Route 12": {
-    map: "kanto", x: 66, y: 52,
-    names: { en: "Route 12", ja: "ルート12", de: "Route 12", es: "Ruta 12", fr: "Route 12" }
-  },
-  "johto:Route 13": {
-    map: "kanto", x: 60, y: 54,
-    names: { en: "Route 13", ja: "ルート13", de: "Route 13", es: "Ruta 13", fr: "Route 13" }
-  },
-  "johto:Route 14": {
-    map: "kanto", x: 56, y: 56,
-    names: { en: "Route 14", ja: "ルート14", de: "Route 14", es: "Ruta 14", fr: "Route 14" }
-  },
-  "johto:Route 15": {
-    map: "kanto", x: 60, y: 58,
-    names: { en: "Route 15", ja: "ルート15", de: "Route 15", es: "Ruta 15", fr: "Route 15" }
-  },
-  "johto:Route 16": {
-    map: "kanto", x: 44, y: 44,
-    names: { en: "Route 16", ja: "ルート16", de: "Route 16", es: "Ruta 16", fr: "Route 16" }
-  },
-  "johto:Route 17": {
-    map: "kanto", x: 44, y: 56,
-    names: { en: "Route 17", ja: "ルート17", de: "Route 17", es: "Ruta 17", fr: "Route 17" }
-  },
-  "johto:Route 18": {
-    map: "kanto", x: 48, y: 58,
-    names: { en: "Route 18", ja: "ルート18", de: "Route 18", es: "Ruta 18", fr: "Route 18" }
-  },
-  "johto:Route 19": {
-    map: "kanto", x: 52, y: 64,
-    names: { en: "Route 19", ja: "ルート19", de: "Route 19", es: "Ruta 19", fr: "Route 19" }
-  },
-  "johto:Route 20": {
-    map: "kanto", x: 60, y: 64,
-    names: { en: "Route 20", ja: "ルート20", de: "Route 20", es: "Ruta 20", fr: "Route 20" }
-  },
-  "johto:Route 21": {
-    map: "kanto", x: 52, y: 68,
-    names: { en: "Route 21", ja: "ルート21", de: "Route 21", es: "Ruta 21", fr: "Route 21" }
-  },
-  "johto:Route 22": {
-    map: "kanto", x: 44, y: 46,
-    names: { en: "Route 22", ja: "ルート22", de: "Route 22", es: "Ruta 22", fr: "Route 22" }
-  },
-  "johto:Route 23": {
-    map: "kanto", x: 46, y: 36,
-    names: { en: "Route 23", ja: "ルート23", de: "Route 23", es: "Ruta 23", fr: "Route 23" }
-  },
-  "johto:Route 24": {
-    map: "kanto", x: 52, y: 36,
-    names: { en: "Route 24", ja: "ルート24", de: "Route 24", es: "Ruta 24", fr: "Route 24" }
-  },
-  "johto:Route 25": {
-    map: "kanto", x: 56, y: 36,
-    names: { en: "Route 25", ja: "ルート25", de: "Route 25", es: "Ruta 25", fr: "Route 25" }
-  },
-  "johto:Route 26": {
-    map: "kanto", x: 50, y: 26,
-    names: { en: "Route 26", ja: "ルート26", de: "Route 26", es: "Ruta 26", fr: "Route 26" }
-  },
-  "johto:Route 27": {
-    map: "kanto", x: 56, y: 26,
-    names: { en: "Route 27", ja: "ルート27", de: "Route 27", es: "Ruta 27", fr: "Route 27" }
-  },
-  "johto:Route 28": {
-    map: "kanto", x: 48, y: 22,
-    names: { en: "Route 28", ja: "ルート28", de: "Route 28", es: "Ruta 28", fr: "Route 28" }
-  },
+"johto:Route 1":  { map:"johto", x:60.45, y:56.05 },
+"johto:Route 2":  { map:"johto", x:60.23, y:33.43 },
+"johto:Route 3":  { map:"johto", x:63.86, y:21.04 },
+"johto:Route 4":  { map:"johto", x:75.35, y:27.22 },
+"johto:Route 5":  { map:"johto", x:77.76, y:35.45 },
+"johto:Route 6":  { map:"johto", x:77.76, y:49.39 },
+"johto:Route 7":  { map:"johto", x:74.46, y:43.25 },
+"johto:Route 8":  { map:"johto", x:81.49, y:43.25 },
+"johto:Route 9":  { map:"johto", x:82.27, y:26.94 },
+"johto:Route 10": { map:"johto", x:85.58, y:34.96 },
+"johto:Route 11": { map:"johto", x:81.94, y:54.88 },
+"johto:Route 12": { map:"johto", x:84.99, y:54.88 },
+"johto:Route 13": { map:"johto", x:82.99, y:65.21 },
+"johto:Route 14": { map:"johto", x:80.67, y:69.30 },
+"johto:Route 15": { map:"johto", x:75.97, y:73.63 },
+"johto:Route 16": { map:"johto", x:68.70, y:42.96 },
+"johto:Route 17": { map:"johto", x:66.56, y:58.79 },
+"johto:Route 18": { map:"johto", x:68.79, y:74.32 },
+"johto:Route 19": { map:"johto", x:71.65, y:80.31 },
+"johto:Route 20": { map:"johto", x:67.15, y:84.39 },
+"johto:Route 21": { map:"johto", x:60.15, y:75.47 },
+"johto:Route 22": { map:"johto", x:54.86, y:48.03 },
+"johto:Route 24": { map:"johto", x:77.45, y:18.72 },
+"johto:Route 25": { map:"johto", x:81.63, y:12.80 },
+"johto:Route 26": { map:"johto", x:51.72, y:56.96 },
+"johto:Route 27": { map:"johto", x:49.53, y:47.81 },
+"johto:Route 28": { map:"johto", x:34.41, y:67.92 },
+"johto:Route 29": { map:"johto", x:30.52, y:56.25 },
+"johto:Route 30": { map:"johto", x:28.73, y:45.72 },
+"johto:Route 31": { map:"johto", x:24.90, y:61.75 },
+"johto:Route 32": { map:"johto", x:25.42, y:79.63 },
+"johto:Route 33": { map:"johto", x:20.31, y:70.20 },
+"johto:Route 34": { map:"johto", x:20.31, y:70.89 },
+"johto:Route 35": { map:"johto", x:20.01, y:53.95 },
+"johto:Route 36": { map:"johto", x:21.80, y:45.29 },
+"johto:Route 37": { map:"johto", x:21.80, y:39.80 },
+"johto:Route 38": { map:"johto", x:19.00, y:32.70 },
+"johto:Route 39": { map:"johto", x:14.60, y:39.09 },
+"johto:Route 40": { map:"johto", x:14.81, y:52.63 },
+"johto:Route 41": { map:"johto", x:12.50, y:61.75 },
+"johto:Route 42": { map:"johto", x:25.70, y:33.83 },
+"johto:Route 43": { map:"johto", x:29.12, y:25.82 },
+"johto:Route 44": { map:"johto", x:33.02, y:33.14 },
+"johto:Route 45": { map:"johto", x:36.92, y:41.86 },
+"johto:Route 46": { map:"johto", x:37.34, y:56.25 },
+"johto:Route 47": { map:"johto", x:7.60,  y:62.90 },
+"johto:Route 48": { map:"johto", x:4.19,  y:55.56 },
   
   // --- Cities ---
   "johto:Pallet Town": {
@@ -604,402 +453,6 @@ export const LOCATION_REGISTRY = {
     map: "kanto", x: 58, y: 34,
     names: { en: "Cerulean Cave", ja: "セルリアン洞窟", de: "Azurblaue Höhle", es: "Cueva Cerúlea", fr: "Grotte Céruléenne" }
   },
-  
-  /* ======================================================
-     JOHTO → KANTO (POSTGAME) — BUILDINGS
-     ====================================================== */
-  
-  "johto:Pokémon Tower": {
-    map: "kanto", x: 60, y: 42,
-    names: { en: "Pokémon Tower", ja: "ポケモンタワー", de: "Pokémon-Turm", es: "Torre Pokémon", fr: "Tour Pokémon" }
-  },
-  "johto:Pokémon Mansion": {
-    map: "kanto", x: 52, y: 74,
-    names: { en: "Pokémon Mansion", ja: "ポケモンマンション", de: "Pokémon-Villa", es: "Mansión Pokémon", fr: "Manoir Pokémon" }
-  },
-  "johto:Silph Co.": {
-    map: "kanto", x: 52, y: 40,
-    names: { en: "Silph Co.", ja: "シルフ株式会社", de: "Silph Co.", es: "Compañía Silph", fr: "Silph Co." }
-  },
-  "johto:Power Plant": {
-    map: "kanto", x: 68, y: 44,
-    names: { en: "Power Plant", ja: "発電所", de: "Kraftwerk", es: "Central eléctrica", fr: "Centrale électrique" }
-  },
-  "johto:Viridian Forest": {
-    map: "kanto", x: 48, y: 52,
-    names: { en: "Viridian Forest", ja: "ビリジアンフォレスト", de: "Viridianwald", es: "Bosque Verde", fr: "Forêt de Jade" }
-  },
-  /* ======================================================
-   KANTO — ADDITIONAL LOCATIONS
-   ====================================================== */
-
-  "kanto:Route 3 Pokémon Center": {
-    map: "kanto",
-    x: 58,
-    y: 48,
-    names: {
-      en: "Route 3 Pokémon Center",
-      ja: "ルート3 ポケモンセンター",
-      de: "Pokémon-Center Route 3",
-      es: "Centro Pokémon Ruta 3",
-      fr: "Centre Pokémon Route 3"
-    }
-  },
-  
-  "kanto:Cerulean Gym": {
-    map: "kanto",
-    x: 56,
-    y: 36,
-    names: {
-      en: "Cerulean Gym",
-      ja: "ハナダジム",
-      de: "Azuria-Arena",
-      es: "Gimnasio Celeste",
-      fr: "Arène d’Azuria"
-    }
-  },
-  
-  "kanto:Cerulean City (House next to Pokémon Center)": {
-    map: "kanto",
-    x: 56,
-    y: 36,
-    names: {
-      en: "Cerulean City (House next to Pokémon Center)",
-      ja: "ハナダシティ（ポケモンセンター横の家）",
-      de: "Azuria (Haus neben Pokémon-Center)",
-      es: "Ciudad Celeste (Casa junto al Centro Pokémon)",
-      fr: "Azuria (Maison près du Centre Pokémon)"
-    }
-  },
-  
-  "kanto:Celadon Dept. Store 4F": {
-    map: "kanto",
-    x: 46,
-    y: 40,
-    names: {
-      en: "Celadon Dept. Store 4F",
-      ja: "タマムシデパート 4F",
-      de: "Kaufhaus Prismania 4. Stock",
-      es: "Centro Comercial Azulona 4.º piso",
-      fr: "Centre Commercial Céladon 4e étage"
-    }
-  },
-  
-  "kanto:Celadon Game Corner": {
-    map: "kanto",
-    x: 46,
-    y: 40,
-    names: {
-      en: "Celadon Game Corner",
-      ja: "タマムシゲームコーナー",
-      de: "Spielhalle Prismania",
-      es: "Casino Azulona",
-      fr: "Casino de Céladon"
-    }
-  },
-  
-  "kanto:Safari Zone Area 1": {
-    map: "kanto",
-    x: 50,
-    y: 58,
-    names: {
-      en: "Safari Zone Area 1",
-      ja: "サファリゾーン エリア1",
-      de: "Safari-Zone Gebiet 1",
-      es: "Zona Safari Área 1",
-      fr: "Zone Safari Secteur 1"
-    }
-  },
-  
-  "kanto:Safari Zone Area 2": {
-    map: "kanto",
-    x: 50,
-    y: 58,
-    names: {
-      en: "Safari Zone Area 2",
-      ja: "サファリゾーン エリア2",
-      de: "Safari-Zone Gebiet 2",
-      es: "Zona Safari Área 2",
-      fr: "Zone Safari Secteur 2"
-    }
-  },
-  
-  "kanto:Safari Zone Area 3": {
-    map: "kanto",
-    x: 50,
-    y: 58,
-    names: {
-      en: "Safari Zone Area 3",
-      ja: "サファリゾーン エリア3",
-      de: "Safari-Zone Gebiet 3",
-      es: "Zona Safari Área 3",
-      fr: "Zone Safari Secteur 3"
-    }
-  },
-  
-  "kanto:Safari Zone Area 4": {
-    map: "kanto",
-    x: 50,
-    y: 58,
-    names: {
-      en: "Safari Zone Area 4",
-      ja: "サファリゾーン エリア4",
-      de: "Safari-Zone Gebiet 4",
-      es: "Zona Safari Área 4",
-      fr: "Zone Safari Secteur 4"
-    }
-  },
-  
-  "kanto:Silph Co. (7F)": {
-    map: "kanto",
-    x: 52,
-    y: 40,
-    names: {
-      en: "Silph Co. (7F)",
-      ja: "シルフカンパニー 7F",
-      de: "Silph Co. (7. Stock)",
-      es: "Silph S.A. (7.º piso)",
-      fr: "Sylphe SARL (7e étage)"
-    }
-  },
-  
-  "kanto:Cinnabar Island Lab": {
-    map: "kanto",
-    x: 9.60,
-    y: 94.67,
-    names: {
-      en: "Cinnabar Island Lab",
-      ja: "グレンタウン研究所",
-      de: "Labor auf der Zinnoberinsel",
-      es: "Laboratorio Isla Canela",
-      fr: "Laboratoire de Cramois’Île"
-    }
-  },
-  
-  "kanto:Celadon Mansion (Top Floor)": {
-    map: "kanto",
-    x: 46,
-    y: 40,
-    names: {
-      en: "Celadon Mansion (Top Floor)",
-      ja: "タマムシマンション 最上階",
-      de: "Villa Prismania (Oberstes Stockwerk)",
-      es: "Mansión Azulona (Última planta)",
-      fr: "Manoir de Céladon (Dernier étage)"
-    }
-  },
-  
-  "kanto:Saffron City Fighting Dojo": {
-    map: "kanto",
-    x: 52,
-    y: 40,
-    names: {
-      en: "Saffron City Fighting Dojo",
-      ja: "ヤマブキ道場",
-      de: "Dojo von Saffronia",
-      es: "Dojo de Ciudad Azafrán",
-      fr: "Dojo de Safrania"
-    }
-  },
-  
-  "kanto:Any Water": {
-    map: "kanto",
-    x: 56,
-    y: 64,
-    names: {
-      en: "Any Water",
-      ja: "すべての水辺",
-      de: "Alle Gewässer",
-      es: "Cualquier agua",
-      fr: "Toute étendue d’eau"
-    }
-  },
-  
-  "kanto:Most waters": {
-    map: "kanto",
-    x: 56,
-    y: 64,
-    names: {
-      en: "Most waters",
-      ja: "ほとんどの水辺",
-      de: "Die meisten Gewässer",
-      es: "La mayoría de aguas",
-      fr: "La plupart des eaux"
-    }
-  },
-  /* ======================================================
-   JOHTO — ADDITIONAL LOCATIONS
-   ====================================================== */
-
-  "johto:Union Cave 1F": {
-    map: "johto",
-    x: 36,
-    y: 54,
-    names: {
-      en: "Union Cave 1F",
-      ja: "ユニオン洞窟 1F",
-      de: "Union-Höhle 1F",
-      es: "Cueva Unión 1.º piso",
-      fr: "Grotte Union 1er étage"
-    }
-  },
-  
-  "johto:Union Cave B1F": {
-    map: "johto",
-    x: 36,
-    y: 54,
-    names: {
-      en: "Union Cave B1F",
-      ja: "ユニオン洞窟 B1F",
-      de: "Union-Höhle B1F",
-      es: "Cueva Unión Sótano",
-      fr: "Grotte Union Sous-sol"
-    }
-  },
-  
-  "johto:Union Cave (Lower Floor)": {
-    map: "johto",
-    x: 36,
-    y: 54,
-    names: {
-      en: "Union Cave (Lower Floor)",
-      ja: "ユニオン洞窟 下層",
-      de: "Union-Höhle (Untergeschoss)",
-      es: "Cueva Unión (Nivel inferior)",
-      fr: "Grotte Union (Niveau inférieur)"
-    }
-  },
-  
-  "johto:Burned Tower B1F": {
-    map: "johto",
-    x: 38,
-    y: 46,
-    names: {
-      en: "Burned Tower B1F",
-      ja: "やけたとう B1F",
-      de: "Verbrannter Turm B1F",
-      es: "Torre Quemada Sótano",
-      fr: "Tour Brûlée Sous-sol"
-    }
-  },
-  
-  "johto:Ruins of Alph (Exterior)": {
-    map: "johto",
-    x: 36,
-    y: 54,
-    names: {
-      en: "Ruins of Alph (Exterior)",
-      ja: "アルフの遺跡（外）",
-      de: "Ruinen von Alph (Außenbereich)",
-      es: "Ruinas de Alph (Exterior)",
-      fr: "Ruines d’Alph (Extérieur)"
-    }
-  },
-  
-  "johto:Dark Cave (Blackthorn City Side)": {
-    map: "johto",
-    x: 42,
-    y: 46,
-    names: {
-      en: "Dark Cave (Blackthorn City Side)",
-      ja: "暗い洞窟（フスベシティ側）",
-      de: "Dunkle Höhle (Anemonia-Seite)",
-      es: "Cueva Oscura (Lado Ciudad Endrino)",
-      fr: "Grotte Sombre (Côté Ébènelle)"
-    }
-  },
-  
-  "johto:Whirl Islands 1F": {
-    map: "johto",
-    x: 46,
-    y: 58,
-    names: {
-      en: "Whirl Islands 1F",
-      ja: "うずまきじま 1F",
-      de: "Strudelinseln 1F",
-      es: "Islas Remolino 1.º piso",
-      fr: "Îles Tourbillon 1er étage"
-    }
-  },
-  
-  "johto:Whirl Islands B2F": {
-    map: "johto",
-    x: 46,
-    y: 58,
-    names: {
-      en: "Whirl Islands B2F",
-      ja: "うずまきじま B2F",
-      de: "Strudelinseln B2F",
-      es: "Islas Remolino Sótano 2",
-      fr: "Îles Tourbillon Sous-sol 2"
-    }
-  },
-  
-  "johto:Mt. Mortar 1F": {
-    map: "johto",
-    x: 44,
-    y: 46,
-    names: {
-      en: "Mt. Mortar 1F",
-      ja: "モルタル山 1F",
-      de: "Berg Mörtel 1F",
-      es: "Monte Mortero 1.º piso",
-      fr: "Mont Mortier 1er étage"
-    }
-  },
-  
-  "johto:Mt. Mortar B1F": {
-    map: "johto",
-    x: 44,
-    y: 46,
-    names: {
-      en: "Mt. Mortar B1F",
-      ja: "モルタル山 B1F",
-      de: "Berg Mörtel B1F",
-      es: "Monte Mortero Sótano",
-      fr: "Mont Mortier Sous-sol"
-    }
-  },
-  
-  "johto:Mt. Mortar Entrance": {
-    map: "johto",
-    x: 44,
-    y: 46,
-    names: {
-      en: "Mt. Mortar Entrance",
-      ja: "モルタル山 入り口",
-      de: "Eingang Berg Mörtel",
-      es: "Entrada Monte Mortero",
-      fr: "Entrée du Mont Mortier"
-    }
-  },
-  
-  "johto:Mt. Silver 2F": {
-    map: "johto",
-    x: 52,
-    y: 40,
-    names: {
-      en: "Mt. Silver 2F",
-      ja: "シルバー山 2F",
-      de: "Mt. Silver 2F",
-      es: "Monte Plata 2.º piso",
-      fr: "Mont Argent 2e étage"
-    }
-  },
-  
-  "johto:Mt. Silver Exterior": {
-    map: "johto",
-    x: 52,
-    y: 40,
-    names: {
-      en: "Mt. Silver Exterior",
-      ja: "シルバー山 外",
-      de: "Mt. Silver (Außenbereich)",
-      es: "Exterior Monte Plata",
-      fr: "Extérieur du Mont Argent"
-    }
-  }
-};
 
 export function resolveLocationName(key, lang) {
   const entry = LOCATION_REGISTRY[key];
