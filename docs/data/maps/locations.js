@@ -218,114 +218,171 @@ export const LOCATION_REGISTRY = {
     names: { en: "Cerulean Cave", ja: "ハナダのどうくつ", de: "Azuria-Höhle", es: "Cueva Celeste", fr: "Grotte Azurée" }
   },
 
-  // --- Cities & Landmarks ---
+  "johto:Pallet Town": {
+    map: "johto", x: 60.24, y: 63.80,
+    names: { en:"Pallet Town", ja:"マサラタウン", fr:"Bourg Palette", de:"Alabastia", es:"Pueblo Paleta" }
+  },
+  "johto:Viridian City": {
+    map: "johto", x: 60.24, y: 48.04,
+    names: { en:"Viridian City", ja:"トキワシティ", fr:"Jadielle", de:"Vertania City", es:"Ciudad Verde" }
+  },
+  "johto:Pewter City": {
+    map: "johto", x: 60.24, y: 21.03,
+    names: { en:"Pewter City", ja:"ニビシティ", fr:"Argenta", de:"Marmoria City", es:"Ciudad Plateada" }
+  },
+  "johto:Cerulean City": {
+    map: "johto", x: 77.78, y: 26.52,
+    names: { en:"Cerulean City", ja:"ハナダシティ", fr:"Azuria", de:"Azuria City", es:"Ciudad Celeste" }
+  },
+  "johto:Cerulean Cave": {
+    map: "johto", x: 75.07, y: 20.82,
+    names: { en:"Cerulean Cave", ja:"ハナダのどうくつ", fr:"Grotte Azurée", de:"Azuria-Höhle", es:"Cueva Celeste" }
+  },
+  "johto:Pokemon Tower": {
+    map: "johto", x: 85.97, y: 41.85,
+    names: { en:"Pokémon Tower", ja:"ポケモンタワー", fr:"Tour Pokémon", de:"Pokémon-Turm", es:"Torre Pokémon" }
+  },
+  "johto:Diglett's Cave": {
+    map: "johto", x: 80.67, y: 41.85,
+    names: { en:"Diglett's Cave", ja:"ディグダのあな", fr:"Cave Taupiqueur", de:"Digda-Höhle", es:"Cueva Diglett" }
+  },
+  "johto:Saffron City": {
+    map: "johto", x: 80.67, y: 54.22,
+    names: { en:"Saffron City", ja:"ヤマブキシティ", fr:"Safrania", de:"Saffronia City", es:"Ciudad Azafrán" }
+  },
+  "johto:Lavender Town": {
+    map: "johto", x: 84.98, y: 42.55,
+    names: { en:"Lavender Town", ja:"シオンタウン", fr:"Lavanville", de:"Lavandia", es:"Pueblo Lavanda" }
+  },
+  "johto:Safari Zone": {
+    map: "johto", x: 4.50, y: 49.87,
+    names: { en:"Safari Zone", ja:"サファリゾーン", fr:"Parc Safari", de:"Safari-Zone", es:"Zona Safari" }
+  },
+  "johto:Viridian Forest": {
+    map: "johto", x: 62.57, y: 27.86,
+    names: { en:"Viridian Forest", ja:"トキワのもり", fr:"Forêt de Jade", de:"Vertania-Wald", es:"Bosque Verde" }
+  },
+  "johto:Cinnabar Island": {
+    map: "johto", x: 60.55, y: 83.97,
+    names: { en:"Cinnabar Island", ja:"グレンじま", fr:"Cramois’Île", de:"Zinnoberinsel", es:"Isla Canela" }
+  },
+  "johto:Celadon City": {
+    map: "johto", x: 70.86, y: 42.98,
+    names: { en:"Celadon City", ja:"タマムシシティ", fr:"Céladopole", de:"Prismania City", es:"Ciudad Azulona" }
+  },
+  "johto:Fuchsia City": {
+    map: "johto", x: 71.47, y: 73.43,
+    names: { en:"Fuchsia City", ja:"セキチクシティ", fr:"Parmanie", de:"Fuchsania City", es:"Ciudad Fucsia" }
+  },
+  "johto:Mt Moon": {
+    map: "johto", x: 66.24, y: 16.89,
+    names: { en:"Mt. Moon", ja:"おつきみやま", fr:"Mont Sélénite", de:"Mondberg", es:"Monte Moon" }
+  },
+  "johto:Power Plant": {
+    map: "johto", x: 83.97, y: 29.96,
+    names: { en:"Power Plant", ja:"むじんはつでんしょ", fr:"Centrale", de:"Kraftwerk", es:"Central Energía" }
+  },
+  "johto:Rock Tunnel": {
+    map: "johto", x: 84.06, y: 34.97,
+    names: { en:"Rock Tunnel", ja:"イワヤマトンネル", fr:"Tunnel Roche", de:"Felstunnel", es:"Túnel Roca" }
+  },
+  "johto:Seafoam Islands": {
+    map: "johto", x: 65.56, y: 87.14,
+    names: { en:"Seafoam Islands", ja:"ふたごじま", fr:"Îles Écume", de:"Seeschauminseln", es:"Islas Espuma" }
+  },
+  "johto:Victory Road": {
+    map: "johto", x: 51.74, y: 43.25,
+    names: { en:"Victory Road", ja:"チャンピオンロード", fr:"Route Victoire", de:"Siegesstraße", es:"Calle Victoria" }
+  },
+  
+  /* =====================
+     JOHTO REGION
+     ===================== */
+  
   "johto:New Bark Town": {
-    map: "johto", x: 28, y: 62,
-    names: { en: "New Bark Town", ja: "ニューバークタウン", de: "New Bark Town", es: "Ciudad de New Bark", fr: "Nouvelle ville de Bark" }
+    map:"johto", x:37.62, y:67.94,
+    names:{ en:"New Bark Town", ja:"ワカバタウン", fr:"Bourg Geon", de:"Neuborkia", es:"Pueblo Primavera" }
   },
   "johto:Cherrygrove City": {
-    map: "johto", x: 32, y: 58,
-    names: { en: "Cherrygrove City", ja: "チェリーグローブシティ", de: "Cherrygrove City", es: "Ciudad Cherrygrove", fr: "Ville de Cherrygrove" }
+    map:"johto", x:30.32, y:67.72,
+    names:{ en:"Cherrygrove City", ja:"ヨシノシティ", fr:"Ville Griotte", de:"Rosalia City", es:"Ciudad Cerezo" }
   },
   "johto:Violet City": {
-    map: "johto", x: 36, y: 52,
-    names: { en: "Violet City", ja: "バイオレットシティ", de: "Violette Stadt", es: "Ciudad Violeta", fr: "Ville Violette" }
-  },
-  "johto:Azalea Town": {
-    map: "johto", x: 38, y: 56,
-    names: { en: "Azalea Town", ja: "アザレアタウン", de: "Azaleenstadt", es: "Azalea Town", fr: "Azalea Town" }
-  },
-  "johto:Goldenrod City": {
-    map: "johto", x: 40, y: 48,
-    names: { en: "Goldenrod City", ja: "ゴールデンロッドシティ", de: "Goldenrod City", es: "Ciudad Vara de Oro", fr: "Cité de la verge d'or" }
-  },
-  "johto:Ecruteak City": {
-    map: "johto", x: 38, y: 46,
-    names: { en: "Ecruteak City", ja: "エクリュティークシティ", de: "Ecruteak City", es: "Ciudad Ecruteak", fr: "Ville d'Ecruteak" }
-  },
-  "johto:Olivine City": {
-    map: "johto", x: 44, y: 54,
-    names: { en: "Olivine City", ja: "オリビンシティ", de: "Olivinstadt", es: "Ciudad Olivine", fr: "Ville d'Olivine" }
-  },
-  "johto:Cianwood City": {
-    map: "johto", x: 48, y: 60,
-    names: { en: "Cianwood City", ja: "シアンウッドシティ", de: "Cianwood City", es: "Ciudad de Cianwood", fr: "Cianwood City" }
-  },
-  "johto:Mahogany Town": {
-    map: "johto", x: 46, y: 44,
-    names: { en: "Mahogany Town", ja: "マホガニータウン", de: "Mahagonistadt", es: "Ciudad de la caoba", fr: "Mahogany Town" }
-  },
-  "johto:Blackthorn City": {
-    map: "johto", x: 50, y: 46,
-    names: { en: "Blackthorn City", ja: "ブラックソーンシティ", de: "Blackthorn City", es: "Ciudad Blackthorn", fr: "Ville de Blackthorn" }
-  },
-
-  // --- Dungeons ---
-  "johto:Ilex Forest": {
-    map: "johto", x: 36, y: 56,
-    names: { en: "Ilex Forest", ja: "モチノキの森", de: "Ilex-Wald", es: "Bosque de encinas", fr: "Forêt d'Ilex" }
-  },
-  "johto:Union Cave": {
-    map: "johto", x: 36, y: 54,
-    names: { en: "Union Cave", ja: "ユニオン洞窟", de: "Union Cave", es: "Cueva de la Unión", fr: "Grotte de l'Union" }
-  },
-  "johto:Dark Cave": {
-    map: "johto", x: 42, y: 46,
-    names: { en: "Dark Cave", ja: "暗い洞窟", de: "Dunkle Höhle", es: "Cueva oscura", fr: "Grotte sombre" }
-  },
-  "johto:Mt. Mortar": {
-    map: "johto", x: 44, y: 46,
-    names: { en: "Mt. Mortar", ja: "モルタル山", de: "Berg Mörtel", es: "Monte Mortero", fr: "Mont Mortier" }
-  },
-  "johto:Ice Path": {
-    map: "johto", x: 48, y: 46,
-    names: { en: "Ice Path", ja: "氷の道", de: "Eisweg", es: "Camino de hielo", fr: "Chemin de glace" }
-  },
-  "johto:Whirl Islands": {
-    map: "johto", x: 46, y: 58,
-    names: { en: "Whirl Islands", ja: "渦巻諸島", de: "Strudelinseln", es: "Islas Whirl", fr: "Îles tourbillonnantes" }
-  },
-  "johto:Mt. Silver": {
-    map: "johto", x: 52, y: 40,
-    names: { en: "Mt. Silver", ja: "シルバー山", de: "Mt. Silver", es: "Monte Plata", fr: "Mont Argent" }
-  },
-
-  // --- Special ---
-  "johto:National Park": {
-    map: "johto", x: 40, y: 50,
-    names: { en: "National Park", ja: "国立公園", de: "Nationalpark", es: "Parque nacional", fr: "Parc national" }
-  },
-  "johto:Ruins of Alph": {
-    map: "johto", x: 36, y: 54,
-    names: { en: "Ruins of Alph", ja: "アルフの遺跡", de: "Ruinen von Alph", es: "Ruinas de Alph", fr: "Ruines d'Alph" }
-  },
-  "johto:Lake of Rage": {
-    map: "johto", x: 46, y: 42,
-    names: { en: "Lake of Rage", ja: "怒りの湖", de: "See des Zorns", es: "Lago de la Ira", fr: "Lac de la Colère" }
-  },
-  "johto:Slowpoke Well": {
-    map: "johto", x: 38, y: 56,
-    names: { en: "Slowpoke Well", ja: "ヤドンのいど", de: "Flegmon-Brunnen", es: "Pozo Slowpoke", fr: "Puits Ramoloss" }
+    map:"johto", x:26.91, y:45.72,
+    names:{ en:"Violet City", ja:"キキョウシティ", fr:"Mauville", de:"Viola City", es:"Ciudad Malva" }
   },
   "johto:Sprout Tower": {
-    map: "johto", x: 36, y: 52,
-    names: { en: "Sprout Tower", ja: "スプラウトタワー", de: "Turm des Erwachens", es: "Torre Bellsprout", fr: "Tour Chétiflor" }
+    map:"johto", x:26.91, y:41.15,
+    names:{ en:"Sprout Tower", ja:"マダツボミのとう", fr:"Tour Chétiflor", de:"Knofensa-Turm", es:"Torre Bellsprout" }
+  },
+  "johto:Ruins of Alph": {
+    map:"johto", x:23.61, y:48.04,
+    names:{ en:"Ruins of Alph", ja:"アルフのいせき", fr:"Ruines d’Alpha", de:"Alph-Ruinen", es:"Ruinas Alfa" }
+  },
+  "johto:Union Cave": {
+    map:"johto", x:24.51, y:71.38,
+    names:{ en:"Union Cave", ja:"つながりのどうくつ", fr:"Caverne Union", de:"Unionhöhle", es:"Cueva Unión" }
+  },
+  "johto:Azalea Town": {
+    map:"johto", x:23.02, y:79.61,
+    names:{ en:"Azalea Town", ja:"ヒワダタウン", fr:"Écorcia", de:"Azalea City", es:"Pueblo Azalea" }
+  },
+  "johto:Goldenrod City": {
+    map:"johto", x:20.32, y:61.05,
+    names:{ en:"Goldenrod City", ja:"コガネシティ", fr:"Doublonville", de:"Dukatia City", es:"Ciudad Trigal" }
+  },
+  "johto:National Park": {
+    map:"johto", x:19.70, y:45.08,
+    names:{ en:"National Park", ja:"しぜんこうえん", fr:"Parc National", de:"Nationalpark", es:"Parque Nacional" }
+  },
+  "johto:Ecruteak City": {
+    map:"johto", x:21.80, y:33.84,
+    names:{ en:"Ecruteak City", ja:"エンジュシティ", fr:"Rosalia", de:"Teak City", es:"Ciudad Iris" }
   },
   "johto:Tin Tower": {
-    map: "johto", x: 38, y: 46,
-    names: { en: "Tin Tower", ja: "ティンタワー", de: "Zinnturm", es: "Torre Hojalata", fr: "Tour Fer-Blanc" }
+    map:"johto", x:22.10, y:27.65,
+    names:{ en:"Tin Tower", ja:"スズのとう", fr:"Tour Carillon", de:"Zinnturm", es:"Torre Hojalata" }
   },
   "johto:Burned Tower": {
-    map: "johto", x: 38, y: 46,
-    names: { en: "Burned Tower", ja: "やけたとう", de: "Verbrannter Turm", es: "Torre quemada", fr: "Tour incendiée" }
+    map:"johto", x:19.61, y:28.56,
+    names:{ en:"Burned Tower", ja:"やけたとう", fr:"Tour Cendrée", de:"Turmruine", es:"Torre Quemada" }
   },
-  "johto:Bell Tower": {
-    map: "johto", x: 38, y: 46,
-    names: { en: "Bell Tower", ja: "かねのとう", de: "Glockenturm", es: "Campanario", fr: "Clocher" }
+  "johto:Olivine City": {
+    map:"johto", x:14.81, y:45.72,
+    names:{ en:"Olivine City", ja:"アサギシティ", fr:"Oliville", de:"Oliviana City", es:"Ciudad Olivo" }
   },
-  /* ======================================================
-   JOHTO → KANTO (POSTGAME)
-   ====================================================== */
+  "johto:Cianwood City": {
+    map:"johto", x:10.10, y:61.75,
+    names:{ en:"Cianwood City", ja:"タンバシティ", fr:"Irisia", de:"Anemonia City", es:"Ciudad Orquídea" }
+  },
+  "johto:Whirl Islands": {
+    map:"johto", x:14.90, y:63.15,
+    names:{ en:"Whirl Islands", ja:"うずまきじま", fr:"Tourb’Îles", de:"Strudelinseln", es:"Islas Remolino" }
+  },
+  "johto:Mahogany Town": {
+    map:"johto", x:29.31, y:33.84,
+    names:{ en:"Mahogany Town", ja:"チョウジタウン", fr:"Acajou", de:"Mahagonia City", es:"Pueblo Caoba" }
+  },
+  "johto:Lake of Rage": {
+    map:"johto", x:29.31, y:16.89,
+    names:{ en:"Lake of Rage", ja:"いかりのみずうみ", fr:"Lac Colère", de:"See des Zorns", es:"Lago de la Furia" }
+  },
+  "johto:Blackthorn City": {
+    map:"johto", x:36.72, y:32.71,
+    names:{ en:"Blackthorn City", ja:"フスベシティ", fr:"Ébènelle", de:"Ebenholz City", es:"Ciudad Endrino" }
+  },
+  "johto:Ice Path": {
+    map:"johto", x:33.52, y:25.61,
+    names:{ en:"Ice Path", ja:"こおりのぬけみち", fr:"Antre Glace", de:"Eispfad", es:"Ruta Helada" }
+  },
+  "johto:Mt Mortar": {
+    map:"johto", x:25.71, y:30.66,
+    names:{ en:"Mt. Mortar", ja:"スリバチやま", fr:"Mont Creuset", de:"Marmoria-Höhle", es:"Monte Mortero" }
+  },
+  "johto:Mt Silver": {
+    map:"johto", x:48.45, y:37.06,
+    names:{ en:"Mt. Silver", ja:"シロガネやま", fr:"Mont Argenté", de:"Silberberg", es:"Monte Plateado" }
+  },
 
   /* =========================================================
    JOHTO MAP — ROUTES (Translated)
@@ -377,87 +434,7 @@ export const LOCATION_REGISTRY = {
   "johto:Route 45": { map:"johto", x:36.92, y:41.86, names:{ en:"Route 45", ja:"４５ばんどうろ", fr:"Route 45", de:"Route 45", es:"Ruta 45" } },
   "johto:Route 46": { map:"johto", x:37.34, y:56.25, names:{ en:"Route 46", ja:"４６ばんどうろ", fr:"Route 46", de:"Route 46", es:"Ruta 46" } },
   "johto:Route 47": { map:"johto", x:7.60,  y:62.90, names:{ en:"Route 47", ja:"４７ばんどうろ", fr:"Route 47", de:"Route 47", es:"Ruta 47" } },
-  "johto:Route 48": { map:"johto", x:4.19,  y:55.56, names:{ en:"Route 48", ja:"４８ばんどうろ", fr:"Route 48", de:"Route 48", es:"Ruta 48" } },
-
-  
-  // --- Cities ---
-  "johto:Pallet Town": {
-    map: "kanto", x: 50, y: 70,
-    names: { en: "Pallet Town", ja: "パレットタウン", de: "Alabastia", es: "Pueblo Paleta", fr: "Ville des Palettes" }
-  },
-  "johto:Viridian City": {
-    map: "kanto", x: 50, y: 60,
-    names: { en: "Viridian City", ja: "ビリジアンシティ", de: "Viridian City", es: "Ciudad Viridian", fr: "Cité Viridienne" }
-  },
-  "johto:Pewter City": {
-    map: "kanto", x: 50, y: 48,
-    names: { en: "Pewter City", ja: "ピューターシティ", de: "Zinnstadt", es: "Ciudad del Peltre", fr: "Ville d'étain" }
-  },
-  "johto:Cerulean City": {
-    map: "kanto", x: 56, y: 36,
-    names: { en: "Cerulean City", ja: "セルリアンシティ", de: "Cerulean City", es: "Ciudad Cerúlea", fr: "Cité Céruléenne" }
-  },
-  "johto:Vermilion City": {
-    map: "kanto", x: 56, y: 46,
-    names: { en: "Vermilion City", ja: "バーミリオンシティ", de: "Zinnoberrote Stadt", es: "Ciudad Bermellón", fr: "Ville de Vermilion" }
-  },
-  "johto:Saffron City": {
-    map: "kanto", x: 52, y: 40,
-    names: { en: "Saffron City", ja: "サフランシティ", de: "Saffron City", es: "Ciudad Azafrán", fr: "Cité de Saffron" }
-  },
-  "johto:Celadon City": {
-    map: "kanto", x: 46, y: 40,
-    names: { en: "Celadon City", ja: "セラドンシティ", de: "Celadon City", es: "Ciudad Celadón", fr: "Cité de Celadon" }
-  },
-  "johto:Fuchsia City": {
-    map: "kanto", x: 52, y: 56,
-    names: { en: "Fuchsia City", ja: "フクシアシティ", de: "Fuchsia City", es: "Ciudad Fucsia", fr: "Ville Fuchsia" }
-  },
-  "johto:Cinnabar Island": {
-    map: "kanto", x: 52, y: 74,
-    names: { en: "Cinnabar Island", ja: "辰砂島", de: "Zinnoberinsel", es: "Isla Cinabrio", fr: "Île Cinabre" }
-  },
-  "johto:Lavender Town": {
-    map: "kanto", x: 60, y: 42,
-    names: { en: "Lavender Town", ja: "ラベンダータウン", de: "Lavender Town", es: "Pueblo Lavanda", fr: "Lavanville" }
-  },
-  "johto:Indigo Plateau": {
-    map: "kanto", x: 46, y: 30,
-    names: { en: "Indigo Plateau", ja: "インディゴ高原", de: "Indigo Plateau", es: "Meseta Añil", fr: "Plateau Indigo" }
-  },
-  
-  /* ======================================================
-     JOHTO → KANTO (POSTGAME) — DUNGEONS & SPECIAL
-     ====================================================== */
-  
-  "johto:Mt. Moon": {
-    map: "kanto", x: 58, y: 46,
-    names: { en: "Mt. Moon", ja: "月山", de: "Berg Mond", es: "Monte Luna", fr: "Mont Lune" }
-  },
-  "johto:Rock Tunnel": {
-    map: "kanto", x: 66, y: 42,
-    names: { en: "Rock Tunnel", ja: "ロックトンネル", de: "Felstunnel", es: "Túnel de roca", fr: "Tunnel rocheux" }
-  },
-  "johto:Diglett's Cave": {
-    map: "kanto", x: 44, y: 46,
-    names: { en: "Diglett's Cave", ja: "ディグダの洞窟", de: "Digletts Höhle", es: "Cueva de Diglett", fr: "Grotte de Diglett" }
-  },
-  "johto:Safari Zone": {
-    map: "kanto", x: 50, y: 58,
-    names: { en: "Safari Zone", ja: "サファリゾーン", de: "Safari-Zone", es: "Zona Safari", fr: "Zone Safari" }
-  },
-  "johto:Seafoam Islands": {
-    map: "kanto", x: 58, y: 70,
-    names: { en: "Seafoam Islands", ja: "シーフォーム諸島", de: "Seafoam Islands", es: "Islas Espuma", fr: "Îles Écume" }
-  },
-  "johto:Victory Road": {
-    map: "kanto", x: 48, y: 32,
-    names: { en: "Victory Road", ja: "勝利の道", de: "Victory Road", es: "Camino de la Victoria", fr: "Route de la Victoire" }
-  },
-  "johto:Cerulean Cave": {
-    map: "kanto", x: 58, y: 34,
-    names: { en: "Cerulean Cave", ja: "セルリアン洞窟", de: "Azurblaue Höhle", es: "Cueva Cerúlea", fr: "Grotte Céruléenne" }
-  }
+  "johto:Route 48": { map:"johto", x:4.19,  y:55.56, names:{ en:"Route 48", ja:"４８ばんどうろ", fr:"Route 48", de:"Route 48", es:"Ruta 48" } }
 }
 
 export function resolveLocationName(key, lang) {
