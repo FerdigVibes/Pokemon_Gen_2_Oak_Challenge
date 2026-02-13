@@ -122,22 +122,28 @@
      =============================== */
 
   .map-window {
-     width: min(95vw, 1200px);
-     height: auto;
+     position: fixed;              /* 🔥 anchor to viewport */
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
    
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   
-     background: transparent;
-     padding: 0;
-   }
-
-  .map-container {
-     position: relative;
      width: min(95vw, 1100px);
-     margin: 0 auto;
-  }
+     max-height: 90vh;
+   
+     padding: 10px;
+   
+     background: #111;
+     border-radius: 12px;
+   
+     z-index: 1001;                /* ABOVE backdrop */
+   }
+   
+  .map-backdrop {
+     position: fixed;
+     inset: 0;
+     background: rgba(0,0,0,0.6);
+     z-index: 1000;
+   }
 }
 
 /* =========================================================
