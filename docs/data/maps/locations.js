@@ -274,7 +274,7 @@ export const LOCATION_REGISTRY = {
     map: "johto", x: 71.47, y: 73.43,
     names: { en:"Fuchsia City", ja:"セキチクシティ", fr:"Parmanie", de:"Fuchsania City", es:"Ciudad Fucsia" }
   },
-  "johto:Mt Moon": {
+  "johto:Mt. Moon": {
     map: "johto", x: 66.24, y: 16.89,
     names: { en:"Mt. Moon", ja:"おつきみやま", fr:"Mont Sélénite", de:"Mondberg", es:"Monte Moon" }
   },
@@ -375,7 +375,7 @@ export const LOCATION_REGISTRY = {
     map:"johto", x:33.52, y:25.61,
     names:{ en:"Ice Path", ja:"こおりのぬけみち", fr:"Antre Glace", de:"Eispfad", es:"Ruta Helada" }
   },
-  "johto:Mt Mortar": {
+  "johto:Mt. Mortar": {
     map:"johto", x:25.71, y:30.66,
     names:{ en:"Mt. Mortar", ja:"スリバチやま", fr:"Mont Creuset", de:"Marmoria-Höhle", es:"Monte Mortero" }
   },
