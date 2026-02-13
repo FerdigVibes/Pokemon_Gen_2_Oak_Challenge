@@ -121,22 +121,13 @@
      MAP MODAL
      =============================== */
 
-  .map-window {
-     position: fixed;              /* 🔥 anchor to viewport */
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-   
-     width: min(95vw, 1100px);
-     max-height: 90vh;
-   
-     padding: 10px;
-   
-     background: #111;
-     border-radius: 12px;
-   
-     z-index: 1001;                /* ABOVE backdrop */
-   }
+  @media (max-width:768px){
+     .map-window{
+       width: 90vw;
+       max-height: 72vh;
+       padding: 6px;
+     }
+  }
    
   .map-backdrop {
      position: fixed;
