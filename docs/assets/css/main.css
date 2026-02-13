@@ -1338,18 +1338,18 @@ html, body {
   background: rgba(0,0,0,0.6);
 }
 
-/* Map modal window — now invisible container */
 .map-window {
-  position: absolute;
-  inset: 0;
+  position: fixed;            /* ✅ same behavior desktop + mobile */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  display: block;             /* remove flex centering */
   padding: 0;
   background: none;
   border-radius: 0;
+
+  z-index: 1001;
 }
 
 /* Map container */
@@ -1371,7 +1371,6 @@ html, body {
 /* Map image */
 #map-image {
   position: absolute;
-  inset: 0;
 
   width: 100%;
   height: 100%;
