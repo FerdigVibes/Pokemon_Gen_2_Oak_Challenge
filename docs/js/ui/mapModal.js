@@ -23,12 +23,14 @@ export function openMap({ gameId, locations }) {
     return;
   }
 
+  img.onload = () => {
+    container.style.aspectRatio =
+      mapKey === 'johto'
+        ? '4248 / 1859'
+        : '2458 / 2329';
+  };
+  
   img.src = mapSrc;
-
-  container.style.aspectRatio =
-    mapKey === 'johto'
-      ? '4248 / 1859'
-      : '2458 / 2329';
 
   locations.forEach(locationName => {
     const key = `${mapKey}:${locationName}`;
