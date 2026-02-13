@@ -1370,10 +1370,13 @@ html, body {
 
 /* Map image */
 #map-image {
+  position: absolute;
+  inset: 0;
+
   width: 100%;
-  height: auto;
-  max-height: 600px;
+  height: 100%;
   object-fit: contain;
+
   display: block;
 }
 
