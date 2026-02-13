@@ -1339,31 +1339,29 @@ html, body {
 }
 
 .map-window {
-  position: fixed;            /* ✅ same behavior desktop + mobile */
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  display: block;             /* remove flex centering */
-  padding: 0;
-  background: none;
-  border-radius: 0;
+  width: min(92vw, 1000px);   /* 🔥 Controls overall scale */
+  max-height: 85vh;           /* 🔥 Prevents vertical overflow */
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px;
+  background: none;
   z-index: 1001;
 }
 
 .map-container {
   position: relative;
-
-  width: min(90vw, 1100px);   /* 🔥 gives browser real width */
-  height: auto;                /* 🔥 allow aspect-ratio to control height */
-
+  width: 100%;
+  height: auto;
   background: #111;
   border-radius: 12px;
-
-  box-shadow:
-    0 18px 40px rgba(0,0,0,0.6);
-
   overflow: hidden;
 }
 
