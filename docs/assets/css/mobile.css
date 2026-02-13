@@ -135,11 +135,9 @@
 
   .map-container {
      position: relative;
-     width: 100%;
-     max-width: 100%;
-   
-     aspect-ratio: 4248 / 1859;   /* 🔥 IMPORTANT — locks Johto proportions */
-   }
+     width: min(95vw, 1100px);
+     margin: 0 auto;
+  }
 }
 
 /* =========================================================
