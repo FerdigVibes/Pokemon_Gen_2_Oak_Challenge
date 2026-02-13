@@ -1344,14 +1344,15 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: min(92vw, 1000px);   /* 🔥 Controls overall scale */
-  max-height: 85vh;           /* 🔥 Prevents vertical overflow */
+  /* 🔥 smaller + more centered feel */
+  width: min(82vw, 880px);
+  max-height: 78vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  padding: 12px;
+  padding: 10px;
   background: none;
   z-index: 1001;
 }
@@ -1359,7 +1360,7 @@ html, body {
 .map-container {
   position: relative;
   width: 100%;
-  height: auto;
+  max-height: 100%;
   background: #111;
   border-radius: 12px;
   overflow: hidden;
