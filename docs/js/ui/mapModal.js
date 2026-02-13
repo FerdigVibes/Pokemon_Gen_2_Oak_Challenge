@@ -11,6 +11,7 @@ export function openMap({ gameId, locations }) {
   const modal = document.getElementById('map-modal');
   const img = document.getElementById('map-image');
   const pinsContainer = document.getElementById('map-pins');
+  const container = document.querySelector('.map-container');
 
   pinsContainer.innerHTML = '';
 
@@ -23,6 +24,11 @@ export function openMap({ gameId, locations }) {
   }
 
   img.src = mapSrc;
+
+  container.style.aspectRatio =
+    mapKey === 'johto'
+      ? '4248 / 1859'
+      : '2458 / 2329';
 
   locations.forEach(locationName => {
     const key = `${mapKey}:${locationName}`;
