@@ -122,15 +122,24 @@
      =============================== */
 
   .map-window {
-    max-width: 95vw;
-    max-height: 95vh;
-    padding: 6px;
-  }
+     width: min(95vw, 1200px);
+     height: auto;
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+     background: transparent;
+     padding: 0;
+   }
 
   .map-container {
-    max-width: 100%;
-    max-height: 80vh;
-  }
+     position: relative;
+     width: 100%;
+     max-width: 100%;
+   
+     aspect-ratio: 4248 / 1859;   /* 🔥 IMPORTANT — locks Johto proportions */
+   }
 }
 
 /* =========================================================
