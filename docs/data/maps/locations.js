@@ -238,7 +238,7 @@ export const LOCATION_REGISTRY = {
     map: "johto", x: 75.07, y: 20.82,
     names: { en:"Cerulean Cave", ja:"ハナダのどうくつ", fr:"Grotte Azurée", de:"Azuria-Höhle", es:"Cueva Celeste" }
   },
-  "johto:Pokemon Tower": {
+  "johto:Pokémon Tower": {
     map: "johto", x: 85.97, y: 41.85,
     names: { en:"Pokémon Tower", ja:"ポケモンタワー", fr:"Tour Pokémon", de:"Pokémon-Turm", es:"Torre Pokémon" }
   },
