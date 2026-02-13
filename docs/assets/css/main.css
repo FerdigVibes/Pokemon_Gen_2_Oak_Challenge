@@ -1338,10 +1338,6 @@ html, body {
   background: rgba(0,0,0,0.6);
 }
 
-.map-container {
-  width: 90vw;   /* 🔥 REQUIRED so aspect-ratio works */
-}
-
 .map-window {
   position: fixed;            /* ✅ same behavior desktop + mobile */
   top: 50%;
@@ -1356,12 +1352,11 @@ html, body {
   z-index: 1001;
 }
 
-/* Map container */
 .map-container {
   position: relative;
 
-  max-width: 90vw;
-  max-height: 90vh;
+  width: min(90vw, 1100px);   /* 🔥 gives browser real width */
+  height: auto;                /* 🔥 allow aspect-ratio to control height */
 
   background: #111;
   border-radius: 12px;
